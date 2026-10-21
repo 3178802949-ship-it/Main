@@ -1,0 +1,28 @@
+{
+  "version": "V1.1.7-CANDIDATE-1",
+  "seed_selection": "CONSECUTIVE_PREDECLARED_DEVELOPMENT",
+  "seeds": [
+    11617001
+  ],
+  "scenarios": 20,
+  "labels": [
+    "ma2004",
+    "fan2012",
+    "zhang2004",
+    "ma18",
+    "elite181",
+    "elite165"
+  ],
+  "strategies": [
+    "bounded_opportunities"
+  ],
+  "matrix": true,
+  "stress": false,
+  "condition": "0.90 training/recovery availability, no injuries; five growth priors x club/national, ma18+ordinary; all opportunities SYNTHETIC.",
+  "source_sha256": {
+    "runtime/career_v117.py": "1331ddb4a80cabeb1e884d18dc97381abfc4da3c4754f21c51aa8f81dedc2dd4",
+    "Training/v117.py": "467ff4477ba6fbc70d4d962302f0c7bd1ecbb4c37f4c4f5c48e764e0f21121a7",
+    "examples/calibrate_career_v117.py": "6bc5536ad14f604302bbb954ea8424a650a8bca5a50d6136b712e34a1db9743c"
+  },
+  "note": "Abstract age-conditioned careers, not a world calendar past the 2028 cutoff; all opportunities SYNTHETIC, not wins."
+}

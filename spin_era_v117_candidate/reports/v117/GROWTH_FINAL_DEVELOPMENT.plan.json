@@ -1,0 +1,32 @@
+{
+  "version": "V1.1.7-CANDIDATE-1",
+  "seed_selection": "CONSECUTIVE_PREDECLARED_DEVELOPMENT",
+  "seeds": [
+    11617001,
+    11617002,
+    11617003,
+    11617004
+  ],
+  "scenarios": 72,
+  "labels": [
+    "ma2004",
+    "fan2012",
+    "zhang2004",
+    "ma18",
+    "elite181",
+    "elite165"
+  ],
+  "strategies": [
+    "xp_only",
+    "profile_training",
+    "bounded_opportunities"
+  ],
+  "matrix": false,
+  "condition": "0.90 training/recovery availability, rotate all groups, no injuries, national unless matrix; all event opportunities synthetic",
+  "source_sha256": {
+    "runtime/career_v117.py": "1331ddb4a80cabeb1e884d18dc97381abfc4da3c4754f21c51aa8f81dedc2dd4",
+    "Training/v117.py": "3bc1d486a3bf9debff7f9c2ae75a55f24f6c8e95d322bae508f84531f153d892",
+    "examples/calibrate_career_v117.py": "958105a7342c37f428c191a69ab844b0e824634b7431f4a3998ffa269588a5b3"
+  },
+  "note": "Abstract age-conditioned careers, not a world calendar past the 2028 cutoff; all opportunities SYNTHETIC, not wins."
+}

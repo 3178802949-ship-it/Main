@@ -1,0 +1,223 @@
+{
+  "version": "V1.1.7-CANDIDATE-1",
+  "status": "CLEAN_EXTRACTION_PASSED",
+  "packages": {
+    "Game": {
+      "file": "Spin_Era_V1_1_7_Game.zip",
+      "bytes": 719591,
+      "sha256": "69e0c0f7928e59917d1d4d38a7f48035c8c78fad2694ff35be6b9c910bb693b2",
+      "files": 39,
+      "CRC_valid": true,
+      "checks": [
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "stdout": "Verified 39 files: Game\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "self_test.py",
+            "--module",
+            "Game"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "test_bound_full_bo7_is_verified_and_does_not_mutate_inputs (test_game.GameTests.test_bound_full_bo7_is_verified_and_does_not_mutate_inputs) ... ok\ntest_review_binds_actual_player_index_and_cannot_edit_match (test_game.GameTests.test_review_binds_actual_player_index_and_cannot_edit_match) ... ok\ntest_stale_aggregate_and_duplicate_participant_rejected (test_game.GameTests.test_stale_aggregate_and_duplicate_participant_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.368s\n\nOK\n"
+        },
+        {
+          "command": [
+            "verify_v117_module.py",
+            "Game"
+          ],
+          "returncode": 0,
+          "stdout": "Game: independent V1.1.7 smoke passed\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "stdout": "Verified 39 files: Game\n",
+          "stderr": ""
+        }
+      ]
+    },
+    "Card": {
+      "file": "Spin_Era_V1_1_7_Card.zip",
+      "bytes": 685168,
+      "sha256": "4843330a95b95cc3fe8f68fbad3a8c21e395b7080b69a9b9135420fd4a6025e9",
+      "files": 31,
+      "CRC_valid": true,
+      "checks": [
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "stdout": "Verified 31 files: Card\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "self_test.py",
+            "--module",
+            "Card"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "g_event_identity_and_invalid_finish_are_atomic) ... ok\ntest_duplicate_match_invalid_winner_date_and_nan_are_atomic (test_card.RankingTests.test_duplicate_match_invalid_winner_date_and_nan_are_atomic) ... ok\ntest_events_settle_once_per_player_not_once_per_match_or_every_player (test_card.RankingTests.test_events_settle_once_per_player_not_once_per_match_or_every_player) ... ok\ntest_ranking_asof_does_not_use_future_match_elo (test_card.RankingTests.test_ranking_asof_does_not_use_future_match_elo) ... ok\ntest_restored_points_and_duplicate_ledger_tampering_are_rejected (test_card.RankingTests.test_restored_points_and_duplicate_ledger_tampering_are_rejected) ... ok\ntest_snapshot_roundtrip_preserves_dedupe_and_is_deep_copy (test_card.RankingTests.test_snapshot_roundtrip_preserves_dedupe_and_is_deep_copy) ... ok\ntest_world_rank_requires_explicit_complete_eligible_pool (test_card.RankingTests.test_world_rank_requires_explicit_complete_eligible_pool) ... ok\ntest_youth_and_team_events_do_not_enter_adult_points (test_card.RankingTests.test_youth_and_team_events_do_not_enter_adult_points) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.923s\n\nOK\n"
+        },
+        {
+          "command": [
+            "verify_v117_module.py",
+            "Card"
+          ],
+          "returncode": 0,
+          "stdout": "Card: independent V1.1.7 smoke passed\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "stdout": "Verified 31 files: Card\n",
+          "stderr": ""
+        }
+      ]
+    },
+    "Training": {
+      "file": "Spin_Era_V1_1_7_Training.zip",
+      "bytes": 688923,
+      "sha256": "4f2c333663f94a7efd83668538852f2fd6d76cfd491ba8d60e01f259db3e4ca8",
+      "files": 32,
+      "CRC_valid": true,
+      "checks": [
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "stdout": "Verified 32 files: Training\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "self_test.py",
+            "--module",
+            "Training"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "habilitation_allows_only_one_training_phase_and_failed_month_rolls_back (test_training.TrainingTests.test_rehabilitation_allows_only_one_training_phase_and_failed_month_rolls_back) ... ok\ntest_rest_consumes_phase_and_reduces_fatigue_without_awarding_training (test_training.TrainingTests.test_rest_consumes_phase_and_reduces_fatigue_without_awarding_training) ... ok\ntest_save_after_phase_zero_resumes_exactly_and_month_mode_matches_phase_mode (test_training.TrainingTests.test_save_after_phase_zero_resumes_exactly_and_month_mode_matches_phase_mode) ... ok\ntest_specialization_keeps_the_general_budget_when_quality_coaching_is_enabled (test_training.TrainingTests.test_specialization_keeps_the_general_budget_when_quality_coaching_is_enabled) ... ok\ntest_specialization_targets_two_children_costing_more_fatigue_not_more_rolls (test_training.TrainingTests.test_specialization_targets_two_children_costing_more_fatigue_not_more_rolls) ... ok\ntest_workload_above_the_display_ceiling_is_not_free_recovery (test_training.TrainingTests.test_workload_above_the_display_ceiling_is_not_free_recovery) ... ok\n\n----------------------------------------------------------------------\nRan 23 tests in 0.073s\n\nOK\n"
+        },
+        {
+          "command": [
+            "verify_v117_module.py",
+            "Training"
+          ],
+          "returncode": 0,
+          "stdout": "Training: independent V1.1.7 smoke passed\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "stdout": "Verified 32 files: Training\n",
+          "stderr": ""
+        }
+      ]
+    },
+    "Area": {
+      "file": "Spin_Era_V1_1_7_Area.zip",
+      "bytes": 685427,
+      "sha256": "0895ab7a98fb9e2a5d6243a57f461612d998db003b3412ba3b267410d79dddaa",
+      "files": 32,
+      "CRC_valid": true,
+      "checks": [
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "stdout": "Verified 32 files: Area\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "self_test.py",
+            "--module",
+            "Area"
+          ],
+          "returncode": 0,
+          "stdout": "",
+          "stderr": "al_2021_to_2023_individual_world_cup (test_area.AreaTests.test_no_fictional_2021_to_2023_individual_world_cup) ... ok\ntest_ordinary_major_count_is_configurable (test_area.AreaTests.test_ordinary_major_count_is_configurable) ... ok\ntest_overlapping_entry_rejected_but_same_month_nonoverlap_allowed (test_area.AreaTests.test_overlapping_entry_rejected_but_same_month_nonoverlap_allowed) ... ok\ntest_packaged_2006_template_matches_tested_generator (test_area.AreaTests.test_packaged_2006_template_matches_tested_generator) ... ok\ntest_preflight_is_not_a_registration_mutation (test_area.AreaTests.test_preflight_is_not_a_registration_mutation) ... ok\ntest_senior_grand_levels_cannot_be_youth_events (test_area.AreaTests.test_senior_grand_levels_cannot_be_youth_events) ... ok\ntest_source_anchors_are_readonly_references_not_titles_or_verified_dates (test_area.AreaTests.test_source_anchors_are_readonly_references_not_titles_or_verified_dates) ... ok\ntest_wrong_level_cannot_bypass_year_checks_by_category_rename (test_area.AreaTests.test_wrong_level_cannot_bypass_year_checks_by_category_rename) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.304s\n\nOK\n"
+        },
+        {
+          "command": [
+            "verify_v117_module.py",
+            "Area"
+          ],
+          "returncode": 0,
+          "stdout": "Area: independent V1.1.7 smoke passed\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "stdout": "Verified 32 files: Area\n",
+          "stderr": ""
+        }
+      ]
+    },
+    "Integrated_Candidate": {
+      "file": "Spin_Era_V1_1_7_Integrated_Candidate.zip",
+      "bytes": 17365501,
+      "sha256": "d696ab071bc8cc99ce9a869747be00dc738cccb924a89882ad3dd28e5d2288b3",
+      "files": 261,
+      "CRC_valid": true,
+      "checks": [
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "stdout": "Verified 261 files: Integrated_Candidate\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "run_v117_qa.py",
+            "--output",
+            "/tmp/v117-clean-extraction-g1v9vsjw/Spin_Era_V1_1_7_Integrated_Candidate/checks/packaging"
+          ],
+          "returncode": 0,
+          "stdout": "{\n  \"version\": \"V1.1.7-CANDIDATE-1\",\n  \"status\": \"FUNCTIONAL_QA_PASSED\",\n  \"tests\": 250,\n  \"fresh_seeded_demo_exact\": true,\n  \"checkpoint_roundtrip_exact\": true,\n  \"shipped_start_and_card_exact\": true,\n  \"no_full_logs_in_checkpoint\": true,\n  \"demo_checkpoint_bytes\": 74148,\n  \"note\": \"Behavior checks do not certify historical accuracy, population rarity or full/light equivalence.\"\n}\n",
+          "stderr": ""
+        },
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "stdout": "Verified 261 files: Integrated_Candidate\n",
+          "stderr": ""
+        }
+      ]
+    }
+  },
+  "modified_baseline_paths": [
+    "Game/__init__.py",
+    "Game/worker.py",
+    "world.py"
+  ],
+  "baseline_files_removed": []
+}
