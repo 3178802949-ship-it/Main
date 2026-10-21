@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+spin_era_hgr_candidate/checks/
+spin_era_hgr_candidate/saves/

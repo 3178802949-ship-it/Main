@@ -1,0 +1,29 @@
+{
+  "version": "V1.1.6-HGR-CANDIDATE-1",
+  "status": "CLEAN_EXTRACTION_AND_QA_PASSED",
+  "artifact": "Spin_Era_V1_1_6_HGR_Candidate.zip",
+  "bytes": 3594860,
+  "sha256": "bd7fec921b0ba606df6a3c7c173be4997920db611bd3e0495a471cb409c087b1",
+  "packaged_files": 98,
+  "tests": {
+    "passed": 154,
+    "failed": 0,
+    "skipped": 0
+  },
+  "matched_seed_BO7_matches": 256,
+  "legacy_fresh_demo_exact": true,
+  "patch_fresh_demo_exact": true,
+  "protected_baseline_files": 34,
+  "CRC_valid": true,
+  "manifest_verified_before_and_after_QA": true,
+  "modified_paths": [
+    "Game/__init__.py",
+    "Game/worker.py",
+    "OPENING_ZH.md",
+    "README_ZH.md",
+    "runtime/career_v116.py",
+    "world.py"
+  ],
+  "added_files": 40,
+  "baseline_files_removed": []
+}

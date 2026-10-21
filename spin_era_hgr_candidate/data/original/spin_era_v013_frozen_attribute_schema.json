@@ -1,0 +1,110 @@
+{
+  "project": "Spin Era",
+  "version": "v0.13",
+  "freeze_kind": "G9 stable schema; technical weights and child names frozen; numerical calibrations experimental",
+  "core_order": [
+    "serve",
+    "receive",
+    "fh",
+    "bh",
+    "feet",
+    "read",
+    "stable",
+    "table",
+    "spirit"
+  ],
+  "core_weights_pct": {
+    "serve": 11,
+    "receive": 15,
+    "fh": 16,
+    "bh": 15,
+    "feet": 11,
+    "read": 11,
+    "stable": 7,
+    "table": 8,
+    "spirit": 6
+  },
+  "subskill_weights_pct": {
+    "serve": {
+      "spin": 25,
+      "variation": 20,
+      "placement": 20,
+      "disguise": 15,
+      "third_link": 20
+    },
+    "receive": {
+      "spin_read": 30,
+      "length_read": 25,
+      "control": 25,
+      "initiative": 20
+    },
+    "fh": {
+      "spin": 23,
+      "power": 27,
+      "continuity": 20,
+      "defense": 15,
+      "placement": 15
+    },
+    "bh": {
+      "spin": 20,
+      "power": 25,
+      "continuity": 25,
+      "defense": 15,
+      "placement": 15
+    },
+    "feet": {
+      "start": 25,
+      "arrival": 25,
+      "recover": 20,
+      "coordination": 20,
+      "balance": 10
+    },
+    "read": {
+      "self_read": 15,
+      "opponent_read": 25,
+      "choice": 25,
+      "counter": 25,
+      "exploit": 10
+    },
+    "stable": {
+      "variance": 40,
+      "sustain": 30,
+      "recovery": 20,
+      "pressure": 10
+    },
+    "table": {
+      "short": 25,
+      "push": 20,
+      "chop_control": 15,
+      "flick": 15,
+      "placement": 25
+    },
+    "spirit": {
+      "improvisation": 25,
+      "unorthodox_defense": 25,
+      "spin_deception": 20,
+      "lob_arcs": 15,
+      "unexpected_transition": 15
+    }
+  },
+  "body_weights_pct": {
+    "speed": 24,
+    "burst": 22,
+    "strength": 16,
+    "stamina": 14,
+    "agility": 16,
+    "flexibility": 8
+  },
+  "rules": {
+    "G9_core": "round_half_up(weighted average of its 0-150 integer child attributes)",
+    "G_aggregate": "round_half_up(weighted avg of G9 core)",
+    "P_aggregate": "round_half_up(weighted avg of P6)",
+    "CA": "round_half_up(4*(65*G_aggregate+35*P_aggregate)/300)",
+    "PA": "persistent potential estimate independent of current match form",
+    "skill": "special skill actions have separate mastery; not extra permanent G",
+    "traits": "tendencies decide choices not raw bonus; reads reveal noisy opponent conditions only",
+    "match": "BO7 games to >=11, lead>=2; serves alternate 2 points, at deuce alternate one"
+  },
+  "original_reference": "spin_era_pre_v013_frozen_archive.zip",
+  "rollback_policy": "Never overwrite frozen old files. Generate new named version artifacts. Compare SHA256 against freeze manifest."
+}

@@ -1,0 +1,169 @@
+{
+  "all_predeclared_source_hashes_match_after_run": true,
+  "changed_sources": [],
+  "total_matches": 256,
+  "same_seed_and_card_pairing_verified": true,
+  "pairs": {
+    "schlager2003_joo2003": {
+      "old_wins": [
+        1,
+        31
+      ],
+      "new_wins": [
+        17,
+        15
+      ],
+      "old_mean_strokes": 8.17481,
+      "new_mean_strokes": 6.68736,
+      "old_long": 0.061551,
+      "new_long": 0.023757,
+      "new_chop_side": {
+        "1:bh": 1928,
+        "0:fh": 155,
+        "0:bh": 117,
+        "1:fh": 2055
+      },
+      "new_reaches": {
+        "good": 0.651952,
+        "bad": 0.078186,
+        "limited": 0.255696,
+        "miss": 0.014166
+      },
+      "new_failure_by_reach": {
+        "good": 0.101566,
+        "bad": 0.360955,
+        "limited": 0.203779,
+        "miss": 1.0
+      },
+      "new_chopper_active_attacks": {
+        "1": 1418
+      },
+      "new_chop_counterattack": {
+        "1:fh": 692
+      },
+      "new_move_mean_m": 0.7426,
+      "new_contact_attempts": 17955,
+      "new_direct_chop_winners": {},
+      "new_all_chop_attempts": 4255
+    },
+    "xu2013_context_joo2003": {
+      "old_wins": [
+        0,
+        32
+      ],
+      "new_wins": [
+        0,
+        32
+      ],
+      "old_mean_strokes": 7.09635,
+      "new_mean_strokes": 6.38594,
+      "old_long": 0.034612,
+      "new_long": 0.023572,
+      "new_chop_side": {
+        "1:bh": 1406,
+        "1:fh": 1379,
+        "0:bh": 138,
+        "0:fh": 108
+      },
+      "new_reaches": {
+        "limited": 0.263093,
+        "good": 0.631072,
+        "bad": 0.089132,
+        "miss": 0.016703
+      },
+      "new_failure_by_reach": {
+        "limited": 0.222068,
+        "good": 0.102057,
+        "bad": 0.382979,
+        "miss": 1.0
+      },
+      "new_chopper_active_attacks": {
+        "1": 1319
+      },
+      "new_chop_counterattack": {
+        "1:fh": 570,
+        "1:bh": 20
+      },
+      "new_move_mean_m": 0.74443,
+      "new_contact_attempts": 13481,
+      "new_direct_chop_winners": {},
+      "new_all_chop_attempts": 3031
+    },
+    "ma2016_fan2024": {
+      "old_wins": [
+        17,
+        15
+      ],
+      "new_wins": [
+        24,
+        8
+      ],
+      "old_mean_strokes": 6.66043,
+      "new_mean_strokes": 6.08194,
+      "old_long": 0.028223,
+      "new_long": 0.012335,
+      "new_chop_side": {
+        "1:fh": 240,
+        "0:bh": 197,
+        "1:bh": 115,
+        "0:fh": 102
+      },
+      "new_reaches": {
+        "good": 0.711754,
+        "limited": 0.215013,
+        "bad": 0.062486,
+        "miss": 0.010748
+      },
+      "new_failure_by_reach": {
+        "good": 0.106586,
+        "limited": 0.205265,
+        "bad": 0.36505,
+        "miss": 1.0
+      },
+      "new_chopper_active_attacks": {},
+      "new_chop_counterattack": {},
+      "new_move_mean_m": 0.64606,
+      "new_contact_attempts": 17304,
+      "new_direct_chop_winners": {},
+      "new_all_chop_attempts": 654
+    },
+    "equal_right_left": {
+      "old_wins": [
+        15,
+        17
+      ],
+      "new_wins": [
+        14,
+        18
+      ],
+      "old_mean_strokes": 5.07082,
+      "new_mean_strokes": 4.97472,
+      "old_long": 0.005641,
+      "new_long": 0.007615,
+      "new_chop_side": {
+        "1:fh": 127,
+        "1:bh": 157,
+        "0:fh": 125,
+        "0:bh": 165
+      },
+      "new_reaches": {
+        "limited": 0.383804,
+        "good": 0.345753,
+        "bad": 0.207265,
+        "miss": 0.063178
+      },
+      "new_failure_by_reach": {
+        "limited": 0.178451,
+        "good": 0.085756,
+        "bad": 0.355386,
+        "miss": 1.0
+      },
+      "new_chopper_active_attacks": {},
+      "new_chop_counterattack": {},
+      "new_move_mean_m": 0.63562,
+      "new_contact_attempts": 13049,
+      "new_direct_chop_winners": {},
+      "new_all_chop_attempts": 574
+    }
+  }
+}

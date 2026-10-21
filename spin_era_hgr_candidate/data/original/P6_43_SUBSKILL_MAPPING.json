@@ -1,0 +1,346 @@
+{
+  "serve.spin": {
+    "P6": {
+      "flexibility": 0.5,
+      "burst": 0.3,
+      "strength": 0.2
+    },
+    "class": "technique"
+  },
+  "serve.variation": {
+    "P6": {
+      "agility": 0.5,
+      "flexibility": 0.3,
+      "speed": 0.2
+    },
+    "class": "technique"
+  },
+  "serve.placement": {
+    "P6": {
+      "agility": 0.5,
+      "flexibility": 0.3,
+      "speed": 0.2
+    },
+    "class": "technique"
+  },
+  "serve.disguise": {
+    "P6": {
+      "agility": 0.5,
+      "flexibility": 0.3,
+      "speed": 0.2
+    },
+    "class": "technique"
+  },
+  "serve.third_link": {
+    "P6": {
+      "speed": 0.5,
+      "agility": 0.3,
+      "burst": 0.2
+    },
+    "class": "technique"
+  },
+  "receive.spin_read": {
+    "P6": {
+      "flexibility": 0.5,
+      "speed": 0.3,
+      "agility": 0.2
+    },
+    "class": "technique"
+  },
+  "receive.length_read": {
+    "P6": {
+      "speed": 0.5,
+      "agility": 0.3,
+      "flexibility": 0.2
+    },
+    "class": "technique"
+  },
+  "receive.control": {
+    "P6": {
+      "agility": 0.5,
+      "flexibility": 0.3,
+      "speed": 0.2
+    },
+    "class": "technique"
+  },
+  "receive.initiative": {
+    "P6": {
+      "burst": 0.5,
+      "speed": 0.3,
+      "agility": 0.2
+    },
+    "class": "technique"
+  },
+  "fh.spin": {
+    "P6": {
+      "flexibility": 0.5,
+      "burst": 0.3,
+      "strength": 0.2
+    },
+    "class": "technique"
+  },
+  "fh.power": {
+    "P6": {
+      "strength": 0.55,
+      "burst": 0.3,
+      "agility": 0.15
+    },
+    "class": "technique"
+  },
+  "fh.continuity": {
+    "P6": {
+      "stamina": 0.5,
+      "agility": 0.3,
+      "speed": 0.2
+    },
+    "class": "technique"
+  },
+  "fh.defense": {
+    "P6": {
+      "agility": 0.5,
+      "speed": 0.3,
+      "flexibility": 0.2
+    },
+    "class": "technique"
+  },
+  "fh.placement": {
+    "P6": {
+      "agility": 0.5,
+      "flexibility": 0.3,
+      "speed": 0.2
+    },
+    "class": "technique"
+  },
+  "bh.spin": {
+    "P6": {
+      "flexibility": 0.5,
+      "burst": 0.3,
+      "strength": 0.2
+    },
+    "class": "technique"
+  },
+  "bh.power": {
+    "P6": {
+      "strength": 0.55,
+      "burst": 0.3,
+      "agility": 0.15
+    },
+    "class": "technique"
+  },
+  "bh.continuity": {
+    "P6": {
+      "stamina": 0.5,
+      "agility": 0.3,
+      "speed": 0.2
+    },
+    "class": "technique"
+  },
+  "bh.defense": {
+    "P6": {
+      "agility": 0.5,
+      "speed": 0.3,
+      "flexibility": 0.2
+    },
+    "class": "technique"
+  },
+  "bh.placement": {
+    "P6": {
+      "agility": 0.5,
+      "flexibility": 0.3,
+      "speed": 0.2
+    },
+    "class": "technique"
+  },
+  "feet.start": {
+    "P6": {
+      "speed": 0.55,
+      "burst": 0.3,
+      "agility": 0.15
+    },
+    "class": "technique"
+  },
+  "feet.arrival": {
+    "P6": {
+      "speed": 0.55,
+      "agility": 0.3,
+      "stamina": 0.15
+    },
+    "class": "technique"
+  },
+  "feet.recover": {
+    "P6": {
+      "stamina": 0.55,
+      "agility": 0.3,
+      "speed": 0.15
+    },
+    "class": "technique"
+  },
+  "feet.coordination": {
+    "P6": {
+      "agility": 0.5,
+      "flexibility": 0.3,
+      "speed": 0.2
+    },
+    "class": "technique"
+  },
+  "feet.balance": {
+    "P6": {
+      "agility": 0.5,
+      "strength": 0.3,
+      "flexibility": 0.2
+    },
+    "class": "technique"
+  },
+  "read.self_read": {
+    "P6": {
+      "stamina": 0.5,
+      "agility": 0.3,
+      "speed": 0.2
+    },
+    "class": "cognitive"
+  },
+  "read.opponent_read": {
+    "P6": {
+      "stamina": 0.5,
+      "agility": 0.3,
+      "speed": 0.2
+    },
+    "class": "cognitive"
+  },
+  "read.choice": {
+    "P6": {
+      "stamina": 0.5,
+      "agility": 0.3,
+      "speed": 0.2
+    },
+    "class": "cognitive"
+  },
+  "read.counter": {
+    "P6": {
+      "stamina": 0.5,
+      "agility": 0.3,
+      "speed": 0.2
+    },
+    "class": "cognitive"
+  },
+  "read.exploit": {
+    "P6": {
+      "stamina": 0.5,
+      "agility": 0.3,
+      "speed": 0.2
+    },
+    "class": "cognitive"
+  },
+  "stable.variance": {
+    "P6": {
+      "stamina": 0.5,
+      "flexibility": 0.3,
+      "speed": 0.2
+    },
+    "class": "cognitive"
+  },
+  "stable.sustain": {
+    "P6": {
+      "stamina": 0.5,
+      "agility": 0.3,
+      "speed": 0.2
+    },
+    "class": "cognitive"
+  },
+  "stable.recovery": {
+    "P6": {
+      "stamina": 0.5,
+      "flexibility": 0.3,
+      "speed": 0.2
+    },
+    "class": "cognitive"
+  },
+  "stable.pressure": {
+    "P6": {
+      "stamina": 0.5,
+      "flexibility": 0.3,
+      "speed": 0.2
+    },
+    "class": "cognitive"
+  },
+  "table.short": {
+    "P6": {
+      "agility": 0.5,
+      "flexibility": 0.3,
+      "speed": 0.2
+    },
+    "class": "technique"
+  },
+  "table.push": {
+    "P6": {
+      "agility": 0.5,
+      "flexibility": 0.3,
+      "strength": 0.2
+    },
+    "class": "technique"
+  },
+  "table.chop_control": {
+    "P6": {
+      "flexibility": 0.5,
+      "agility": 0.3,
+      "stamina": 0.2
+    },
+    "class": "technique"
+  },
+  "table.flick": {
+    "P6": {
+      "burst": 0.5,
+      "flexibility": 0.3,
+      "agility": 0.2
+    },
+    "class": "technique"
+  },
+  "table.placement": {
+    "P6": {
+      "agility": 0.5,
+      "flexibility": 0.3,
+      "speed": 0.2
+    },
+    "class": "technique"
+  },
+  "spirit.improvisation": {
+    "P6": {
+      "agility": 0.5,
+      "flexibility": 0.3,
+      "speed": 0.2
+    },
+    "class": "technique"
+  },
+  "spirit.unorthodox_defense": {
+    "P6": {
+      "agility": 0.5,
+      "flexibility": 0.3,
+      "speed": 0.2
+    },
+    "class": "technique"
+  },
+  "spirit.spin_deception": {
+    "P6": {
+      "agility": 0.5,
+      "flexibility": 0.3,
+      "speed": 0.2
+    },
+    "class": "technique"
+  },
+  "spirit.lob_arcs": {
+    "P6": {
+      "flexibility": 0.5,
+      "stamina": 0.3,
+      "speed": 0.2
+    },
+    "class": "technique"
+  },
+  "spirit.unexpected_transition": {
+    "P6": {
+      "agility": 0.5,
+      "speed": 0.3,
+      "stamina": 0.2
+    },
+    "class": "technique"
+  }
+}
