@@ -1,0 +1,508 @@
+{
+  "seed": 11798000,
+  "engine": "V1.1.7-LIGHT-2",
+  "mode": "summary",
+  "narrative_scope": "AGGREGATE_ONLY",
+  "winner": 1,
+  "games_won": [
+    0,
+    4
+  ],
+  "games": [
+    {
+      "score": [
+        6,
+        11
+      ],
+      "winner": 1,
+      "points_count": 17
+    },
+    {
+      "score": [
+        8,
+        11
+      ],
+      "winner": 1,
+      "points_count": 19
+    },
+    {
+      "score": [
+        9,
+        11
+      ],
+      "winner": 1,
+      "points_count": 20
+    },
+    {
+      "score": [
+        7,
+        11
+      ],
+      "winner": 1,
+      "points_count": 18
+    }
+  ],
+  "points": 74,
+  "total_strokes": 536,
+  "mean_strokes": 7.24324,
+  "rally_length_distribution": {
+    "3": 15,
+    "4": 16,
+    "5": 7,
+    "6": 5,
+    "7": 5,
+    "8": 3,
+    "9": 6,
+    "10": 5,
+    "12": 1,
+    "13": 3,
+    "14": 2,
+    "16": 2,
+    "20": 2,
+    "22": 1,
+    "26": 1
+  },
+  "rally_method": "SAMPLED_POINT_AGGREGATE_LENGTH_NOT_A_SHOT_TRACE",
+  "actions": {
+    "serve": 74,
+    "fh_counter_loop": 40,
+    "bh_lp_chop": 125,
+    "fh_specialist_chop": 48,
+    "fh_slow_loop": 68,
+    "bh_counter_loop": 68,
+    "bh_slow_loop": 54,
+    "bh_lp_press": 20,
+    "fh_press_block": 8,
+    "bh_press_block": 19,
+    "bh_lp_block": 10,
+    "push_long": 2
+  },
+  "action_family_distribution": {
+    "serve": 74,
+    "counter": 108,
+    "chop": 173,
+    "slow_loop": 122,
+    "block": 57,
+    "push": 2
+  },
+  "target_lane_usage": {
+    "straight": 13,
+    "crosscourt": 22,
+    "observed_weak_side": 39
+  },
+  "outcome_summary": {
+    "initiative_returned_by_passive_contact": 30,
+    "defender_point": 48,
+    "attacker_point": 26
+  },
+  "per_player_actions": [
+    {
+      "serve": 36,
+      "fh_counter_loop": 31,
+      "fh_slow_loop": 68,
+      "bh_counter_loop": 68,
+      "bh_slow_loop": 54,
+      "fh_press_block": 8,
+      "bh_press_block": 19
+    },
+    {
+      "bh_lp_chop": 125,
+      "fh_specialist_chop": 48,
+      "serve": 38,
+      "bh_lp_press": 20,
+      "fh_counter_loop": 9,
+      "bh_lp_block": 10,
+      "push_long": 2
+    }
+  ],
+  "tactical_plan_usage": [
+    {
+      "patient_loop": 90,
+      "spin_pace_mix": 34,
+      "wide_movement": 30,
+      "observed_weak_side": 90,
+      "short_long": 4
+    },
+    {
+      "chop_float": 57,
+      "chop_heavy": 91,
+      "chop_reposition": 53,
+      "chop_counter": 6,
+      "chop_table_reset": 7
+    }
+  ],
+  "exposure_by_player": [
+    {
+      "usage": {
+        "serve.placement": 9,
+        "fh.defense": 15,
+        "fh.continuity": 16,
+        "serve.spin": 20,
+        "fh.spin": 41,
+        "fh.power": 17,
+        "fh.placement": 18,
+        "bh.continuity": 31,
+        "bh.power": 33,
+        "serve.variation": 2,
+        "bh.spin": 37,
+        "bh.placement": 18,
+        "serve.disguise": 4,
+        "bh.defense": 22,
+        "serve.third_link": 1
+      },
+      "pressure": {
+        "bh.defense": 4,
+        "bh.spin": 1,
+        "bh.continuity": 2
+      }
+    },
+    {
+      "usage": {
+        "bh.continuity": 22,
+        "fh.spin": 20,
+        "serve.third_link": 5,
+        "serve.placement": 10,
+        "bh.defense": 76,
+        "bh.spin": 28,
+        "fh.defense": 18,
+        "serve.variation": 3,
+        "bh.placement": 27,
+        "serve.spin": 16,
+        "fh.placement": 9,
+        "fh.continuity": 8,
+        "fh.power": 2,
+        "bh.power": 2,
+        "table.push": 2,
+        "serve.disguise": 4
+      },
+      "pressure": {
+        "bh.continuity": 21,
+        "fh.spin": 16,
+        "bh.defense": 70,
+        "bh.spin": 27,
+        "fh.defense": 14,
+        "bh.placement": 25,
+        "fh.placement": 5,
+        "bh.power": 2,
+        "table.push": 2,
+        "fh.continuity": 4,
+        "fh.power": 1
+      }
+    }
+  ],
+  "exposure_provenance": "AGGREGATE_CONTACT_SAMPLING",
+  "exposure_method": "SAMPLED_AGGREGATE_CONTACT_ALLOCATIONS_NOT_SHOT_LOG",
+  "exposure_scope": "ALL_SAMPLED_CONTACTS_INCLUDING_SERVE; one technical path allocation per contact",
+  "pressure_method": "MATCHUP_PRESSURE_PROXY_NOT_A_SPECIFIC_SHOT_ERROR",
+  "workload": {
+    "source": "POINT_AGGREGATE_APPROXIMATION",
+    "per_player": [
+      {
+        "contacts": 284,
+        "movement_m": 139.16,
+        "active_attacks": 221,
+        "effort": 54.3988,
+        "estimated": true
+      },
+      {
+        "contacts": 252,
+        "movement_m": 134.429,
+        "active_attacks": 9,
+        "effort": 44.62722,
+        "estimated": true
+      }
+    ]
+  },
+  "average_point_probability": [
+    0.482511,
+    0.517489
+  ],
+  "between_game_checks": [
+    {
+      "player": "schlager_2003_experimental",
+      "after_game": 1,
+      "rolls": {
+        "self": 1,
+        "weak": 37,
+        "execute": 78
+      },
+      "thresholds": {
+        "self": 66,
+        "weak": 61,
+        "execute": 67
+      },
+      "successes": {
+        "self": true,
+        "weak": true,
+        "execute": false
+      },
+      "psychology": {
+        "roll": 99,
+        "type": "collapse",
+        "stable_delta": -4,
+        "clutch_extra_delta": -4
+      },
+      "weakness": "bh",
+      "target_usable": false,
+      "form_repair": {
+        "G": "bh",
+        "delta": 4
+      },
+      "read_delta": 4,
+      "knowledge_source": "OBSERVED_ONLY_V1",
+      "observed_samples": 17,
+      "evidence_sufficient": true,
+      "opponent_read_estimate": 120.0,
+      "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+    },
+    {
+      "player": "joo_2003_experimental",
+      "after_game": 1,
+      "rolls": {
+        "self": 70,
+        "weak": 73,
+        "execute": 88
+      },
+      "thresholds": {
+        "self": 63,
+        "weak": 57,
+        "execute": 63
+      },
+      "successes": {
+        "self": false,
+        "weak": false,
+        "execute": false
+      },
+      "psychology": {
+        "roll": 68,
+        "type": "normal",
+        "stable_delta": -1,
+        "clutch_extra_delta": -1
+      },
+      "weakness": null,
+      "target_usable": false,
+      "form_repair": null,
+      "read_delta": 0,
+      "knowledge_source": "OBSERVED_ONLY_V1",
+      "observed_samples": 17,
+      "evidence_sufficient": true,
+      "opponent_read_estimate": 120.0,
+      "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+    },
+    {
+      "player": "schlager_2003_experimental",
+      "after_game": 2,
+      "rolls": {
+        "self": 59,
+        "weak": 66,
+        "execute": 98
+      },
+      "thresholds": {
+        "self": 68,
+        "weak": 62,
+        "execute": 68
+      },
+      "successes": {
+        "self": true,
+        "weak": false,
+        "execute": false
+      },
+      "psychology": {
+        "roll": 68,
+        "type": "normal",
+        "stable_delta": 1,
+        "clutch_extra_delta": 1
+      },
+      "weakness": null,
+      "target_usable": false,
+      "form_repair": {
+        "G": "feet",
+        "delta": 4
+      },
+      "read_delta": 0,
+      "knowledge_source": "OBSERVED_ONLY_V1",
+      "observed_samples": 36,
+      "evidence_sufficient": true,
+      "opponent_read_estimate": 120.0,
+      "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+    },
+    {
+      "player": "joo_2003_experimental",
+      "after_game": 2,
+      "rolls": {
+        "self": 39,
+        "weak": 53,
+        "execute": 78
+      },
+      "thresholds": {
+        "self": 63,
+        "weak": 57,
+        "execute": 63
+      },
+      "successes": {
+        "self": true,
+        "weak": true,
+        "execute": false
+      },
+      "psychology": {
+        "roll": 53,
+        "type": "normal",
+        "stable_delta": 1,
+        "clutch_extra_delta": 0
+      },
+      "weakness": "bh",
+      "target_usable": false,
+      "form_repair": {
+        "G": "receive",
+        "delta": 4
+      },
+      "read_delta": 4,
+      "knowledge_source": "OBSERVED_ONLY_V1",
+      "observed_samples": 36,
+      "evidence_sufficient": true,
+      "opponent_read_estimate": 120.0,
+      "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+    },
+    {
+      "player": "schlager_2003_experimental",
+      "after_game": 3,
+      "rolls": {
+        "self": 50,
+        "weak": 7,
+        "execute": 17
+      },
+      "thresholds": {
+        "self": 66,
+        "weak": 61,
+        "execute": 67
+      },
+      "successes": {
+        "self": true,
+        "weak": true,
+        "execute": true
+      },
+      "psychology": {
+        "roll": 74,
+        "type": "normal",
+        "stable_delta": 2,
+        "clutch_extra_delta": 0
+      },
+      "weakness": "bh",
+      "target_usable": true,
+      "form_repair": {
+        "G": "bh",
+        "delta": 2
+      },
+      "read_delta": 8,
+      "knowledge_source": "OBSERVED_ONLY_V1",
+      "observed_samples": 56,
+      "evidence_sufficient": true,
+      "opponent_read_estimate": 120.0,
+      "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+    },
+    {
+      "player": "joo_2003_experimental",
+      "after_game": 3,
+      "rolls": {
+        "self": 82,
+        "weak": 82,
+        "execute": 47
+      },
+      "thresholds": {
+        "self": 64,
+        "weak": 59,
+        "execute": 65
+      },
+      "successes": {
+        "self": false,
+        "weak": false,
+        "execute": true
+      },
+      "psychology": {
+        "roll": 97,
+        "type": "collapse",
+        "stable_delta": -4,
+        "clutch_extra_delta": -4
+      },
+      "weakness": null,
+      "target_usable": false,
+      "form_repair": null,
+      "read_delta": 4,
+      "knowledge_source": "OBSERVED_ONLY_V1",
+      "observed_samples": 56,
+      "evidence_sufficient": true,
+      "opponent_read_estimate": 120.0,
+      "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+    }
+  ],
+  "match_form": [
+    {
+      "form_initial": {
+        "serve": 6,
+        "receive": 2,
+        "fh": 4,
+        "bh": -6,
+        "feet": -4,
+        "read": 5,
+        "stable": -6,
+        "table": 0,
+        "spirit": 2
+      },
+      "p_roll": {
+        "speed": 0,
+        "burst": 1,
+        "strength": 3,
+        "stamina": 2,
+        "agility": -1,
+        "flexibility": -2
+      },
+      "psychological_state": "normal",
+      "initial_final_tactics": "change_spin",
+      "counter_level": 3
+    },
+    {
+      "form_initial": {
+        "serve": -1,
+        "receive": -6,
+        "fh": 6,
+        "bh": 2,
+        "feet": -3,
+        "read": -2,
+        "stable": -7,
+        "table": 6,
+        "spirit": 0
+      },
+      "p_roll": {
+        "speed": 1,
+        "burst": -1,
+        "strength": 3,
+        "stamina": -4,
+        "agility": -2,
+        "flexibility": -1
+      },
+      "psychological_state": "collapse",
+      "initial_final_tactics": "third_ball_fh",
+      "counter_level": 2
+    }
+  ],
+  "status": "SIMULATED_NONHISTORICAL_APPROXIMATE_BACKGROUND_MATCH",
+  "calibration_status": "POINT_MODEL_CANDIDATE_NOT_EQUIVALENT_TO_DETAILED_ENGINE",
+  "metadata_limits": {
+    "handedness": [
+      "right",
+      "right"
+    ],
+    "rubbers": [
+      {
+        "fh": "inverted",
+        "bh": "inverted"
+      },
+      {
+        "fh": "inverted",
+        "bh": "long_pips"
+      }
+    ],
+    "no_shot_chronology": true,
+    "unknown_metadata_inferred": false
+  }
+}

@@ -1,0 +1,6878 @@
+{
+  "version": "V1.1.7-LIGHT-1",
+  "status": "EXECUTED_NOT_EQUIVALENCE_CERTIFICATION",
+  "total_matches": 512,
+  "seeds_per_pair": 64,
+  "summary": {
+    "schlager2003_joo2003": {
+      "detailed": {
+        "matches": 64,
+        "wins_A": 42,
+        "wins_B": 22,
+        "mean_strokes": 8.57567,
+        "scorelines": {
+          "4:1": 18,
+          "3:4": 3,
+          "4:2": 8,
+          "4:3": 7,
+          "1:4": 9,
+          "0:4": 5,
+          "2:4": 5,
+          "4:0": 9
+        },
+        "mean_seconds": 0.347879,
+        "median_seconds": 0.345419,
+        "mean_bytes": 3211201.64
+      },
+      "light": {
+        "matches": 64,
+        "wins_A": 21,
+        "wins_B": 43,
+        "mean_strokes": 6.5118,
+        "scorelines": {
+          "1:4": 10,
+          "4:1": 6,
+          "2:4": 17,
+          "3:4": 6,
+          "0:4": 10,
+          "4:3": 5,
+          "4:0": 5,
+          "4:2": 5
+        },
+        "mean_seconds": 0.01501,
+        "median_seconds": 0.014574,
+        "mean_bytes": 8803.92
+      },
+      "absolute_win_fraction_difference": 0.32812,
+      "paired_winner_agreement": 0.54688,
+      "runtime_ratio_full_over_light": 23.176,
+      "byte_ratio_full_over_light": 364.747
+    },
+    "xu2013_context_joo2003": {
+      "detailed": {
+        "matches": 64,
+        "wins_A": 2,
+        "wins_B": 62,
+        "mean_strokes": 7.80514,
+        "scorelines": {
+          "0:4": 35,
+          "4:3": 2,
+          "1:4": 15,
+          "2:4": 9,
+          "3:4": 3
+        },
+        "mean_seconds": 0.313136,
+        "median_seconds": 0.287066,
+        "mean_bytes": 2479504.72
+      },
+      "light": {
+        "matches": 64,
+        "wins_A": 3,
+        "wins_B": 61,
+        "mean_strokes": 6.17012,
+        "scorelines": {
+          "1:4": 25,
+          "2:4": 6,
+          "4:2": 1,
+          "4:3": 2,
+          "0:4": 27,
+          "3:4": 3
+        },
+        "mean_seconds": 0.014621,
+        "median_seconds": 0.013061,
+        "mean_bytes": 8013.31
+      },
+      "absolute_win_fraction_difference": 0.01562,
+      "paired_winner_agreement": 0.92188,
+      "runtime_ratio_full_over_light": 21.417,
+      "byte_ratio_full_over_light": 309.423
+    },
+    "ma2016_fan2024": {
+      "detailed": {
+        "matches": 64,
+        "wins_A": 48,
+        "wins_B": 16,
+        "mean_strokes": 7.12664,
+        "scorelines": {
+          "2:4": 10,
+          "3:4": 2,
+          "4:3": 14,
+          "4:0": 14,
+          "4:2": 9,
+          "4:1": 11,
+          "1:4": 3,
+          "0:4": 1
+        },
+        "mean_seconds": 0.482481,
+        "median_seconds": 0.40582,
+        "mean_bytes": 2802198.53
+      },
+      "light": {
+        "matches": 64,
+        "wins_A": 45,
+        "wins_B": 19,
+        "mean_strokes": 6.18953,
+        "scorelines": {
+          "4:3": 11,
+          "3:4": 5,
+          "4:1": 13,
+          "2:4": 6,
+          "4:0": 12,
+          "4:2": 9,
+          "1:4": 6,
+          "0:4": 2
+        },
+        "mean_seconds": 0.017799,
+        "median_seconds": 0.012495,
+        "mean_bytes": 8568.09
+      },
+      "absolute_win_fraction_difference": 0.04688,
+      "paired_winner_agreement": 0.67188,
+      "runtime_ratio_full_over_light": 27.107,
+      "byte_ratio_full_over_light": 327.051
+    },
+    "equal_right_left": {
+      "detailed": {
+        "matches": 64,
+        "wins_A": 34,
+        "wins_B": 30,
+        "mean_strokes": 4.52514,
+        "scorelines": {
+          "4:0": 9,
+          "4:3": 10,
+          "1:4": 9,
+          "4:2": 7,
+          "3:4": 8,
+          "2:4": 12,
+          "4:1": 8,
+          "0:4": 1
+        },
+        "mean_seconds": 0.197164,
+        "median_seconds": 0.188511,
+        "mean_bytes": 1697750.03
+      },
+      "light": {
+        "matches": 64,
+        "wins_A": 37,
+        "wins_B": 27,
+        "mean_strokes": 5.90438,
+        "scorelines": {
+          "2:4": 12,
+          "4:2": 13,
+          "4:0": 6,
+          "1:4": 7,
+          "3:4": 6,
+          "4:3": 6,
+          "4:1": 12,
+          "0:4": 2
+        },
+        "mean_seconds": 0.013307,
+        "median_seconds": 0.011673,
+        "mean_bytes": 8903.5
+      },
+      "absolute_win_fraction_difference": 0.04688,
+      "paired_winner_agreement": 0.57812,
+      "runtime_ratio_full_over_light": 14.817,
+      "byte_ratio_full_over_light": 190.683
+    }
+  },
+  "matches": {
+    "schlager2003_joo2003": {
+      "light": [
+        {
+          "seed": 11792000,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 84,
+          "mean_strokes": 5.7619,
+          "seconds": 0.024303722000695416,
+          "bytes": 8225,
+          "result_sha256": "5c5406e921685fd5f6c488d8bf08a95e3e7f672410afb184287fc0243190606f"
+        },
+        {
+          "seed": 11792001,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 101,
+          "mean_strokes": 6.43564,
+          "seconds": 0.014977250999436365,
+          "bytes": 8273,
+          "result_sha256": "d4398db1b20dd0656c3f8c3d1165c860f06c0f2523582088df21da797bfcbd71"
+        },
+        {
+          "seed": 11792002,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 97,
+          "mean_strokes": 6.46392,
+          "seconds": 0.012922272999276174,
+          "bytes": 8332,
+          "result_sha256": "84a0e34718936269c9174eef210ed242a0555457b2ccaab1c572c76dd83693e4"
+        },
+        {
+          "seed": 11792003,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 113,
+          "mean_strokes": 6.27434,
+          "seconds": 0.015822404000573442,
+          "bytes": 9386,
+          "result_sha256": "e8163f0ebcbdf1825e5cc8efff459030cd787926d87cee96e93b07f1be30dcbe"
+        },
+        {
+          "seed": 11792004,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 118,
+          "mean_strokes": 6.71186,
+          "seconds": 0.01907038099852798,
+          "bytes": 10605,
+          "result_sha256": "3e3431837a91a9feaea395cc604f91ea2c43857267c86e214f919dab6aeb2bd4"
+        },
+        {
+          "seed": 11792005,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 68,
+          "mean_strokes": 6.69118,
+          "seconds": 0.011133174999486073,
+          "bytes": 7116,
+          "result_sha256": "65ff0debfcbd909485b2f29d78d1715a9ab1e3c49b04e72f555c058250fb854a"
+        },
+        {
+          "seed": 11792006,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 126,
+          "mean_strokes": 6.77778,
+          "seconds": 0.015905268999631517,
+          "bytes": 10680,
+          "result_sha256": "160725e077a84a45a14952a13a73e52312c172f9034ab2926ef69e619d5be2c3"
+        },
+        {
+          "seed": 11792007,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 113,
+          "mean_strokes": 6.38938,
+          "seconds": 0.01599772900044627,
+          "bytes": 9447,
+          "result_sha256": "1cd77a888faaefeff127c9254a74fccb5a7227d322016241d59b2017de68cae5"
+        },
+        {
+          "seed": 11792008,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 129,
+          "mean_strokes": 6.17829,
+          "seconds": 0.016752486999394023,
+          "bytes": 10630,
+          "result_sha256": "c9d0f6d12192513f218e0d458faef6c749e7884657e5ea6aaef725609722176f"
+        },
+        {
+          "seed": 11792009,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 80,
+          "mean_strokes": 6.85,
+          "seconds": 0.013470879999658791,
+          "bytes": 7164,
+          "result_sha256": "2daa2502723e60b84f3b25088c00d51fb7380d23e24c846ff58b3871c39146cb"
+        },
+        {
+          "seed": 11792010,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 115,
+          "mean_strokes": 6.62609,
+          "seconds": 0.0150657609992777,
+          "bytes": 9433,
+          "result_sha256": "97af0eeb67d05a31ca4920b71f226faa405a368c3e45972770b80cdce6bdacce"
+        },
+        {
+          "seed": 11792011,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 112,
+          "mean_strokes": 6.54464,
+          "seconds": 0.015259372001310112,
+          "bytes": 9423,
+          "result_sha256": "de33a8ad108551f043b118ba64690cee6ce977853661d416178ca38da58b02fb"
+        },
+        {
+          "seed": 11792012,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 95,
+          "mean_strokes": 6.76842,
+          "seconds": 0.013337669000975438,
+          "bytes": 8284,
+          "result_sha256": "b782b3e178907e9e59c0ecb9843027b142c0522d1f94e3573f5d3ed44286f3a7"
+        },
+        {
+          "seed": 11792013,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 133,
+          "mean_strokes": 6.57895,
+          "seconds": 0.018803506998665398,
+          "bytes": 10633,
+          "result_sha256": "a279f607249853893d053a5dc3b0c073a1fa0fb66c14ca487374b208ce4d1ee2"
+        },
+        {
+          "seed": 11792014,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 113,
+          "mean_strokes": 6.42478,
+          "seconds": 0.014860131001114496,
+          "bytes": 9445,
+          "result_sha256": "984614994592c64bfb4b0704754dc686386d063acea6566a72fbbb531afbafe3"
+        },
+        {
+          "seed": 11792015,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 86,
+          "mean_strokes": 6.16279,
+          "seconds": 0.011659742000119877,
+          "bytes": 8292,
+          "result_sha256": "f5db1a99488a71fa3657d521bb6d1ee61d5205735f90a3df43c1fef45b920006"
+        },
+        {
+          "seed": 11792016,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 102,
+          "mean_strokes": 6.72549,
+          "seconds": 0.014148588999887579,
+          "bytes": 8271,
+          "result_sha256": "a5313514be0084e06a3d24543785761eeb4b2eb53abe75f10a2af30b425454eb"
+        },
+        {
+          "seed": 11792017,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 122,
+          "mean_strokes": 6.81148,
+          "seconds": 0.01590054700136534,
+          "bytes": 10586,
+          "result_sha256": "01c6012e24496766c8b567136a8b7400d5eb7981526b98f5e5ca7f7ddb9c1ba5"
+        },
+        {
+          "seed": 11792018,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 115,
+          "mean_strokes": 6.02609,
+          "seconds": 0.018231596000987338,
+          "bytes": 9371,
+          "result_sha256": "a64396e48973e81bcd3cf172a3099574cddc511bd6132cda2a788f11d7bb9943"
+        },
+        {
+          "seed": 11792019,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 123,
+          "mean_strokes": 6.29268,
+          "seconds": 0.0186284439987503,
+          "bytes": 9476,
+          "result_sha256": "7659c4e224c0ea0b0bf1cc9b5ebe3315da210721ab51b811f925bf5ca3f5a0a1"
+        },
+        {
+          "seed": 11792020,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 87,
+          "mean_strokes": 5.85057,
+          "seconds": 0.012410854000336258,
+          "bytes": 8201,
+          "result_sha256": "c58c13a4f3619f2fe2609403f70e7a6189ffdad4e0025d2d080d803453bafabe"
+        },
+        {
+          "seed": 11792021,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 123,
+          "mean_strokes": 6.02439,
+          "seconds": 0.016313276999426307,
+          "bytes": 9434,
+          "result_sha256": "99a769d3eb4b01d780d0d444a1a145e6cc9f8155cea7e7168e51fae4be3a0d3a"
+        },
+        {
+          "seed": 11792022,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 141,
+          "mean_strokes": 6.66667,
+          "seconds": 0.02305698500094877,
+          "bytes": 10662,
+          "result_sha256": "da11fe75d745eb5992d66791da3ca2e31963e918d491fc239d4c8bb4230d8d1b"
+        },
+        {
+          "seed": 11792023,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 123,
+          "mean_strokes": 6.25203,
+          "seconds": 0.018836702998669352,
+          "bytes": 10602,
+          "result_sha256": "d4ad87aa9a13dd86578369aa4e1174266dc5d2f1f93105e1114465fcd07d8e3b"
+        },
+        {
+          "seed": 11792024,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 102,
+          "mean_strokes": 6.14706,
+          "seconds": 0.014566895000825753,
+          "bytes": 9427,
+          "result_sha256": "f8d71b096d2aaff948391428a0f4306b9fea9493c5ce9960be0e663d0991d744"
+        },
+        {
+          "seed": 11792025,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 67,
+          "mean_strokes": 6.41791,
+          "seconds": 0.00933084999996936,
+          "bytes": 7104,
+          "result_sha256": "fafe26e46c6b9cd9df86391e5d1ef5f7d2d5a4c45f79c5994a93e03b4c3bb62f"
+        },
+        {
+          "seed": 11792026,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 91,
+          "mean_strokes": 7.1978,
+          "seconds": 0.013721381001232658,
+          "bytes": 8360,
+          "result_sha256": "a21614872ceafea9cf54958f9b7d3ed50163e176aa99976a756b8755502dbfd2"
+        },
+        {
+          "seed": 11792027,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 94,
+          "mean_strokes": 6.12766,
+          "seconds": 0.014580884999304544,
+          "bytes": 8270,
+          "result_sha256": "b829f02deb67616caab9cc603c6bdb8eae1457458bae8f7f13f4d4ef37c2b0cc"
+        },
+        {
+          "seed": 11792028,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 72,
+          "mean_strokes": 7.33333,
+          "seconds": 0.012260171000889386,
+          "bytes": 7025,
+          "result_sha256": "d764d7bb3a70792b0fde139757a614dd06184a499a79007e48615a3aabc97ed9"
+        },
+        {
+          "seed": 11792029,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 116,
+          "mean_strokes": 6.00862,
+          "seconds": 0.015348560000347788,
+          "bytes": 9452,
+          "result_sha256": "238ff41a9b4c1f7ab7b1ca62edf0a764ee7c1be1401a67fda002f6185261e5f8"
+        },
+        {
+          "seed": 11792030,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 117,
+          "mean_strokes": 6.22222,
+          "seconds": 0.01812673400127096,
+          "bytes": 9466,
+          "result_sha256": "3495b637fe132e3c07c0dd679e5bf99738ad2ff1ce1f826e3744018d887e31cd"
+        },
+        {
+          "seed": 11792031,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 125,
+          "mean_strokes": 7.136,
+          "seconds": 0.01754044100016472,
+          "bytes": 10639,
+          "result_sha256": "51c1e031ecbc3e8782e0e5af69694f065b9996e869ef1f54d214b57bb2a986e3"
+        },
+        {
+          "seed": 11792032,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 114,
+          "mean_strokes": 7.11404,
+          "seconds": 0.017322793000857928,
+          "bytes": 9501,
+          "result_sha256": "13d2e3f6ba4f24a125d38a23fc661c544d5c6e491d920313bfe90ebddf78d887"
+        },
+        {
+          "seed": 11792033,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 86,
+          "mean_strokes": 7.10465,
+          "seconds": 0.01278450000063458,
+          "bytes": 8292,
+          "result_sha256": "af466f113c2046ba0bae6e9d937afe1cddef93f215323cb855a6a1613d373303"
+        },
+        {
+          "seed": 11792034,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 66,
+          "mean_strokes": 6.40909,
+          "seconds": 0.00944151600015175,
+          "bytes": 7105,
+          "result_sha256": "1fa07d0f7fd8e8cdcb372f446f0103b14baeff582b0779d111e0115a5ebc1b92"
+        },
+        {
+          "seed": 11792035,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 90,
+          "mean_strokes": 6.84444,
+          "seconds": 0.014195054000083474,
+          "bytes": 7125,
+          "result_sha256": "b4969f33f1d2b472221e4d7b361f8cacd8c95ac26840df1be6d170409a27dcb5"
+        },
+        {
+          "seed": 11792036,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 128,
+          "mean_strokes": 6.5,
+          "seconds": 0.018626336999659543,
+          "bytes": 10538,
+          "result_sha256": "4fa7b77a5a1a8f19a2242302d0c8334c727a913f36b710d6f255d132b61a0208"
+        },
+        {
+          "seed": 11792037,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 106,
+          "mean_strokes": 5.91509,
+          "seconds": 0.014509005999570945,
+          "bytes": 9401,
+          "result_sha256": "04e97a2dcb988d9838588b13832116de209ed0d3f2d6c3bdf1927d048abef0b2"
+        },
+        {
+          "seed": 11792038,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 108,
+          "mean_strokes": 6.69444,
+          "seconds": 0.014358139000250958,
+          "bytes": 9477,
+          "result_sha256": "f944e9bb87bffeee8a83dcaff8d173e35509544be0d13094fee6beabdc573db7"
+        },
+        {
+          "seed": 11792039,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 110,
+          "mean_strokes": 6.65455,
+          "seconds": 0.02428692899957241,
+          "bytes": 9473,
+          "result_sha256": "068085afe2c2f0f2d5b8c7059b9025419e621240b5feaf0ea05a374d80b3a1f2"
+        },
+        {
+          "seed": 11792040,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 110,
+          "mean_strokes": 6.80909,
+          "seconds": 0.0152899120002985,
+          "bytes": 9479,
+          "result_sha256": "51672aca55676a9d2fb728cb4605e47a0cc22eb52937ecfcf27a980c68747212"
+        },
+        {
+          "seed": 11792041,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 67,
+          "mean_strokes": 6.95522,
+          "seconds": 0.008889585000360967,
+          "bytes": 7071,
+          "result_sha256": "6d36aad8dce3e4d6f3b2d59fa7e3282db1c895c23d5a86150c65a2379d61a6e1"
+        },
+        {
+          "seed": 11792042,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 67,
+          "mean_strokes": 6.62687,
+          "seconds": 0.0092692670004908,
+          "bytes": 7109,
+          "result_sha256": "ee1b153089ea76b5f6579a71ba30beda9953ffb04863a77ad4cdd4babdf0b3cf"
+        },
+        {
+          "seed": 11792043,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 64,
+          "mean_strokes": 6.67188,
+          "seconds": 0.008754681999562308,
+          "bytes": 7089,
+          "result_sha256": "784ac988cc5861760c7c15140452e7ef09df1aafaa71d7507c4958fcd5b5dd23"
+        },
+        {
+          "seed": 11792044,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 92,
+          "mean_strokes": 6.25,
+          "seconds": 0.011892508000528323,
+          "bytes": 8267,
+          "result_sha256": "bee460b54d43e21be1033a63d9cf55bf52bb310196df0ff0f9ed42481790afcf"
+        },
+        {
+          "seed": 11792045,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 88,
+          "mean_strokes": 6.38636,
+          "seconds": 0.01175455900011002,
+          "bytes": 8252,
+          "result_sha256": "e2416cb320e6e8eace487004a3a024511565efc43d311016f106ffe47d1f6e43"
+        },
+        {
+          "seed": 11792046,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 113,
+          "mean_strokes": 5.97345,
+          "seconds": 0.01393905800068751,
+          "bytes": 9460,
+          "result_sha256": "73ada9c89fac7263ad6a76e3c6460301d80f76d7c7b7d6e32ad60b7b645953b9"
+        },
+        {
+          "seed": 11792047,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 139,
+          "mean_strokes": 6.33094,
+          "seconds": 0.018107275000147638,
+          "bytes": 10620,
+          "result_sha256": "aaa80a730e920f1ff6178f66a9644d2f9a10c16ef9a150dc0ab5152be226d6c9"
+        },
+        {
+          "seed": 11792048,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 113,
+          "mean_strokes": 6.82301,
+          "seconds": 0.014551079999364447,
+          "bytes": 9496,
+          "result_sha256": "58672fae5f6e7549dbbc6bbddff5353e4f246327a7c27bb6e1f76287a7de218a"
+        },
+        {
+          "seed": 11792049,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 122,
+          "mean_strokes": 6.45902,
+          "seconds": 0.016105990998767084,
+          "bytes": 9396,
+          "result_sha256": "621d8596750dca8a91229f36b88790124b4fb9f2b8a550342122055b7ab8e6df"
+        },
+        {
+          "seed": 11792050,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 104,
+          "mean_strokes": 6.76923,
+          "seconds": 0.013955483000245295,
+          "bytes": 9453,
+          "result_sha256": "2b7a3a8ab9b119e5bf63d28acd390b70f12e118b4f96ce7adf63053cdf28e6f6"
+        },
+        {
+          "seed": 11792051,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 88,
+          "mean_strokes": 6.32955,
+          "seconds": 0.011762521000491688,
+          "bytes": 8259,
+          "result_sha256": "fb95169eec9760057fca0db2596f2d068411d0387ad512f6a1b76568a07eba13"
+        },
+        {
+          "seed": 11792052,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 71,
+          "mean_strokes": 7.40845,
+          "seconds": 0.010741002999566263,
+          "bytes": 7184,
+          "result_sha256": "79411a5bc502957309afe1e0bf961e03ac235576f3dc1f2bb125d674c34a2ccc"
+        },
+        {
+          "seed": 11792053,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 73,
+          "mean_strokes": 6.12329,
+          "seconds": 0.010565439000856713,
+          "bytes": 7090,
+          "result_sha256": "1489d23c25c5d49301021849e3728e0390e708714627413e4e06f83e9a492114"
+        },
+        {
+          "seed": 11792054,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 117,
+          "mean_strokes": 6.2906,
+          "seconds": 0.015854562998356414,
+          "bytes": 9489,
+          "result_sha256": "05032101426c95cca3fdb031317300a48b2ff898a80c68d9c862a9293a4c364a"
+        },
+        {
+          "seed": 11792055,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 71,
+          "mean_strokes": 6.69014,
+          "seconds": 0.011709291000443045,
+          "bytes": 7082,
+          "result_sha256": "5b106bce92a14e2644140c581059ebf2655a11e0382ee712a240fb39843e4161"
+        },
+        {
+          "seed": 11792056,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 88,
+          "mean_strokes": 7.01136,
+          "seconds": 0.013043168999502086,
+          "bytes": 7109,
+          "result_sha256": "1f18220b0288d4cf8dbecb2468b28d5e73f42c2d614262ee9512ca2b71ffd1d2"
+        },
+        {
+          "seed": 11792057,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 89,
+          "mean_strokes": 6.31461,
+          "seconds": 0.014103817000432173,
+          "bytes": 8322,
+          "result_sha256": "f8d371a1c6d546ba13a51763f525eb69bda785d924b03aa5418f8c62c0e84487"
+        },
+        {
+          "seed": 11792058,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 76,
+          "mean_strokes": 6.11842,
+          "seconds": 0.012164134999693488,
+          "bytes": 6994,
+          "result_sha256": "54cffd73110a15a850c19611fc021628f1b7a9772780de9b277c45c3bced2d26"
+        },
+        {
+          "seed": 11792059,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 105,
+          "mean_strokes": 6.77143,
+          "seconds": 0.016492043001562706,
+          "bytes": 9523,
+          "result_sha256": "493f11072242d1c47e7638986be166ce07f27e41a71b457e0fcd3ed1f9c698d4"
+        },
+        {
+          "seed": 11792060,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 94,
+          "mean_strokes": 6.5,
+          "seconds": 0.018159854000259656,
+          "bytes": 8270,
+          "result_sha256": "c1fcbeba3ddc837dddf52fd3fbd22af3a3e3875be88f7181cf44961e50e768fa"
+        },
+        {
+          "seed": 11792061,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 73,
+          "mean_strokes": 6.46575,
+          "seconds": 0.01593515400054457,
+          "bytes": 7028,
+          "result_sha256": "799c79646f288f0947998e4462d5058e2dd7b20357a4276f5416656a10788eb6"
+        },
+        {
+          "seed": 11792062,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 141,
+          "mean_strokes": 6.80142,
+          "seconds": 0.028731110998705844,
+          "bytes": 10608,
+          "result_sha256": "45a6a492ec4d72cc6cbc05e380a284f1dab7b86b0db828c4227fdc04adf8b489"
+        },
+        {
+          "seed": 11792063,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 87,
+          "mean_strokes": 5.75862,
+          "seconds": 0.010997127999871736,
+          "bytes": 8175,
+          "result_sha256": "3f921099d7e78cf4cc63caa8ae1191a4bbc0b03b16bc878e63a936f512db4dee"
+        }
+      ],
+      "detailed": [
+        {
+          "seed": 11792000,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 86,
+          "mean_strokes": 8.849,
+          "seconds": 0.4999052210005175,
+          "bytes": 2949223,
+          "result_sha256": "b10b9868fa82fbf397a11b3eabef62af4ede2b0e0f2f0a0842f7e9ab4e099f36"
+        },
+        {
+          "seed": 11792001,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 98,
+          "mean_strokes": 8.031,
+          "seconds": 0.296735546000491,
+          "bytes": 3017390,
+          "result_sha256": "a7493a85e104b20d091fab6faab55e93bc9fea655d2403bd9a1f43d9d153b739"
+        },
+        {
+          "seed": 11792002,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 126,
+          "mean_strokes": 7.786,
+          "seconds": 0.4513627109990921,
+          "bytes": 3723462,
+          "result_sha256": "e0ce2077017f45aaa3331006b9087b751044024ec302493a5c356020ab3c5cc5"
+        },
+        {
+          "seed": 11792003,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 111,
+          "mean_strokes": 7.946,
+          "seconds": 0.40494476900130394,
+          "bytes": 3344351,
+          "result_sha256": "b1dc9e33068c74f3b03165c24d9d9c731cfe1f07af4fec98a902b6845bd2472b"
+        },
+        {
+          "seed": 11792004,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 93,
+          "mean_strokes": 7.043,
+          "seconds": 0.30616587400072603,
+          "bytes": 2447656,
+          "result_sha256": "44a7f19ee9d4f80e0c16b4169128be93080f8e2cd2160e2d601fdcae65636a84"
+        },
+        {
+          "seed": 11792005,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 123,
+          "mean_strokes": 8.951,
+          "seconds": 0.4618232369994075,
+          "bytes": 4286498,
+          "result_sha256": "3a218148a0f32d8258f8fc96576b93e7133d7b5218a2a76ff98c755a7c08ea47"
+        },
+        {
+          "seed": 11792006,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 96,
+          "mean_strokes": 8.271,
+          "seconds": 0.34850328900029126,
+          "bytes": 3046989,
+          "result_sha256": "940d0ce13c4ed455631fd37001c2be6ab886f31d99ea0fbd9455eeec038a9f59"
+        },
+        {
+          "seed": 11792007,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 87,
+          "mean_strokes": 8.092,
+          "seconds": 0.2795949829996971,
+          "bytes": 2697619,
+          "result_sha256": "45e9ee6118a824f64cefea2458978568de5047be62d96ad485d506704b49cfd1"
+        },
+        {
+          "seed": 11792008,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 101,
+          "mean_strokes": 8.782,
+          "seconds": 0.37852454999847396,
+          "bytes": 3446624,
+          "result_sha256": "de8b23517cbc58e084945c6df98392e03266b12583e4b97250ab95d9491bec39"
+        },
+        {
+          "seed": 11792009,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 84,
+          "mean_strokes": 9.702,
+          "seconds": 0.33985376700002234,
+          "bytes": 3195654,
+          "result_sha256": "2e4e6b2799ef8968b9637ae4264037fe8624cd6a620ca6f122529a4c50d97a8d"
+        },
+        {
+          "seed": 11792010,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 66,
+          "mean_strokes": 8.455,
+          "seconds": 0.2266723600005207,
+          "bytes": 2136758,
+          "result_sha256": "704941d5e6a693f060760da795c76f9f56bd37ab68f808accffa0932ad955f82"
+        },
+        {
+          "seed": 11792011,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 99,
+          "mean_strokes": 9.354,
+          "seconds": 0.37486639599956106,
+          "bytes": 3613895,
+          "result_sha256": "6891e6208b22e2493acefab6c7d2d8eee06aeb3ddbc74093ec24b6e3385551c7"
+        },
+        {
+          "seed": 11792012,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 81,
+          "mean_strokes": 7.864,
+          "seconds": 0.2482060080001247,
+          "bytes": 2425976,
+          "result_sha256": "910db6834acdac1ab746a19ee1251d02bdb08716128489f2535e616f86981c7f"
+        },
+        {
+          "seed": 11792013,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 114,
+          "mean_strokes": 10.289,
+          "seconds": 0.4740657930015004,
+          "bytes": 4639907,
+          "result_sha256": "810fe8c7e2af3821d3e619434730e078244e7134fd5393e5d1d58decf5804e98"
+        },
+        {
+          "seed": 11792014,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 102,
+          "mean_strokes": 10.392,
+          "seconds": 0.44237936200079275,
+          "bytes": 4162496,
+          "result_sha256": "905f112edafc0658942480508494e2b6f82875c094033b322189b69000bfd20d"
+        },
+        {
+          "seed": 11792015,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 115,
+          "mean_strokes": 7.957,
+          "seconds": 0.35605271300119057,
+          "bytes": 3490080,
+          "result_sha256": "257802418e95ebce4995f5fc0953e3cade6157759887623589164c95416e5d7a"
+        },
+        {
+          "seed": 11792016,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 70,
+          "mean_strokes": 7.743,
+          "seconds": 0.21485602100074175,
+          "bytes": 2057174,
+          "result_sha256": "357da86daaf2ad1f49d3af6c1481a39e28c99cbbd23ee6cb3f0f0cbc559e034e"
+        },
+        {
+          "seed": 11792017,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 77,
+          "mean_strokes": 8.597,
+          "seconds": 0.26041276400064817,
+          "bytes": 2562875,
+          "result_sha256": "3f9733ccf5c80e4ea5e841cf0391b0548e58705946a7a32abbb4134ca22194d5"
+        },
+        {
+          "seed": 11792018,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 70,
+          "mean_strokes": 7.629,
+          "seconds": 0.20991652500015334,
+          "bytes": 2026845,
+          "result_sha256": "745838500e544367d964c9aee5e9a9c504d2aca8e86404e1ac5465940940937b"
+        },
+        {
+          "seed": 11792019,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 99,
+          "mean_strokes": 8.232,
+          "seconds": 0.33072036700104945,
+          "bytes": 3108987,
+          "result_sha256": "59a516bc1df8a65c9c1ff774401a17c8a0f9543aca5256d2e9f2a77d3a8d1c63"
+        },
+        {
+          "seed": 11792020,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 77,
+          "mean_strokes": 8.13,
+          "seconds": 0.24313349899966852,
+          "bytes": 2387377,
+          "result_sha256": "eb59a87168aa55987b0c544ba9f0e7bc7de94db67099ba1cd0fdb418126a8192"
+        },
+        {
+          "seed": 11792021,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 128,
+          "mean_strokes": 9.734,
+          "seconds": 0.5533420329993533,
+          "bytes": 4882340,
+          "result_sha256": "f539a544bc30173f2097ab8732d1f7f46d4a52bb058d30b06280784400daa642"
+        },
+        {
+          "seed": 11792022,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 86,
+          "mean_strokes": 8.291,
+          "seconds": 0.3018767069988826,
+          "bytes": 2724779,
+          "result_sha256": "5328b00246a6c5ebe14d820d59fca409820e97fa6f0f60d6cf06b6459bac402d"
+        },
+        {
+          "seed": 11792023,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 101,
+          "mean_strokes": 8.059,
+          "seconds": 0.3503208319998521,
+          "bytes": 3112028,
+          "result_sha256": "0b158609c6a2be717ea91c96ceec384fe36fc1ca95c785740e67acade3d308ec"
+        },
+        {
+          "seed": 11792024,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 94,
+          "mean_strokes": 8.819,
+          "seconds": 0.36555502499868453,
+          "bytes": 3214319,
+          "result_sha256": "57b74eb862b7db4fc1f6b2e6875d54965392b9633eb44f3fab3dde361faca272"
+        },
+        {
+          "seed": 11792025,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 114,
+          "mean_strokes": 8.509,
+          "seconds": 0.42337316799967084,
+          "bytes": 3735194,
+          "result_sha256": "230c74a58250858eadaa39145daadc162531145b31e6103843564cec71d93a89"
+        },
+        {
+          "seed": 11792026,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 90,
+          "mean_strokes": 7.722,
+          "seconds": 0.30016827400140755,
+          "bytes": 2657893,
+          "result_sha256": "69a6cbae99435d5ac3e1c705d51408fa26a5e1778a4c90a3c43f288922552fd5"
+        },
+        {
+          "seed": 11792027,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 91,
+          "mean_strokes": 8.363,
+          "seconds": 0.3204471690005448,
+          "bytes": 2937344,
+          "result_sha256": "5308c5791adcd7673f4760c6995bba9d5572e872d2e3d03419b8721b70b8b139"
+        },
+        {
+          "seed": 11792028,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 131,
+          "mean_strokes": 9.0,
+          "seconds": 0.49473366900019755,
+          "bytes": 4584854,
+          "result_sha256": "34d2983ffed12b061e889b0ce0c571e1a9386d972c70de4247a482e8665af1a6"
+        },
+        {
+          "seed": 11792029,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 81,
+          "mean_strokes": 8.802,
+          "seconds": 0.2852031710008305,
+          "bytes": 2761742,
+          "result_sha256": "64ec25e488922c72b479f6b691d0dec5fc5fe83f3df15e3f8d45ff095522e16c"
+        },
+        {
+          "seed": 11792030,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 57,
+          "mean_strokes": 8.526,
+          "seconds": 0.20295837199955713,
+          "bytes": 1895807,
+          "result_sha256": "89fad7e0341b950f3b5192ebe684695a9767e53991ca04eb9eb9ebb734f3b04c"
+        },
+        {
+          "seed": 11792031,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 86,
+          "mean_strokes": 8.302,
+          "seconds": 0.29149537500052247,
+          "bytes": 2752618,
+          "result_sha256": "f110a4af2e17e8406f5ac3df436ed4396e1cd5c209b9342fb34aa5cc8cbdf64b"
+        },
+        {
+          "seed": 11792032,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 87,
+          "mean_strokes": 9.483,
+          "seconds": 0.3534977440012881,
+          "bytes": 3240450,
+          "result_sha256": "86b5babc16a021a153539901c561359d9a959e1c48ef3745b6a16255c83015ac"
+        },
+        {
+          "seed": 11792033,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 99,
+          "mean_strokes": 9.354,
+          "seconds": 0.3842562840000028,
+          "bytes": 3609903,
+          "result_sha256": "1859db199612fad65b13d349beaf7a40a4871e1a199167c6bdc71c5ace3cefa0"
+        },
+        {
+          "seed": 11792034,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 125,
+          "mean_strokes": 8.392,
+          "seconds": 0.4720785520003119,
+          "bytes": 4019714,
+          "result_sha256": "dd56956fc4aab67877c393d80fc3e9e9793aae81fafc26c4d259d1558fcc2015"
+        },
+        {
+          "seed": 11792035,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 94,
+          "mean_strokes": 8.298,
+          "seconds": 0.32810217599944735,
+          "bytes": 3000265,
+          "result_sha256": "09630f72dc0b13328d6076472b795b32b10dd1d9e0564f7b3e1fc66a02c7d095"
+        },
+        {
+          "seed": 11792036,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 63,
+          "mean_strokes": 8.556,
+          "seconds": 0.2439047660009237,
+          "bytes": 2087594,
+          "result_sha256": "88ce933d4352ad5729025213c0219aa22f699502f13ec381360afcfc7c97ecf3"
+        },
+        {
+          "seed": 11792037,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 100,
+          "mean_strokes": 9.7,
+          "seconds": 0.40105011599916907,
+          "bytes": 3798144,
+          "result_sha256": "870f3a72adb6e8ce7caf186debb185fdfcc9f5304ad7fe50295c9b549281ab66"
+        },
+        {
+          "seed": 11792038,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 85,
+          "mean_strokes": 9.071,
+          "seconds": 0.32097315000100934,
+          "bytes": 2997789,
+          "result_sha256": "13e9be959cf4a7dc0e1da30c706171181c73ab41a058b9d3fd7f4c38c6faff45"
+        },
+        {
+          "seed": 11792039,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 98,
+          "mean_strokes": 8.857,
+          "seconds": 0.3732127000002947,
+          "bytes": 3378552,
+          "result_sha256": "41ca3e51cc6506ab3e8ffc319d8a7080ca5adf82c637d9b6a1c0cc4ed9620743"
+        },
+        {
+          "seed": 11792040,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 96,
+          "mean_strokes": 8.302,
+          "seconds": 0.3024677059984242,
+          "bytes": 3071431,
+          "result_sha256": "d64baf0a87ea0bcc0bf3b46631e5e4013fab502e7ec3815390fb0efd35ce590b"
+        },
+        {
+          "seed": 11792041,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 97,
+          "mean_strokes": 8.454,
+          "seconds": 0.3122431460014923,
+          "bytes": 3146818,
+          "result_sha256": "bfc615475bee92c59d71be28653d13ed4cf173ed256dac339f30b16b3930cb19"
+        },
+        {
+          "seed": 11792042,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 137,
+          "mean_strokes": 8.664,
+          "seconds": 0.46836655600054655,
+          "bytes": 4571902,
+          "result_sha256": "b0155d71a2e439d625585726a21780ede4b29a9d434bd540ad50d4a667265b51"
+        },
+        {
+          "seed": 11792043,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 120,
+          "mean_strokes": 7.617,
+          "seconds": 0.3511959079987719,
+          "bytes": 3470864,
+          "result_sha256": "2f34a4f16832b259f7f886bb0b0860452bd93314fd24ac4b373d1a0be2d1df40"
+        },
+        {
+          "seed": 11792044,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 111,
+          "mean_strokes": 8.757,
+          "seconds": 0.3695299139999406,
+          "bytes": 3760384,
+          "result_sha256": "34ce44ab72175d1f354e7b3759d1075d6b8497e7b4ea04830ba44c7c5314a508"
+        },
+        {
+          "seed": 11792045,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 89,
+          "mean_strokes": 8.708,
+          "seconds": 0.30589649899957294,
+          "bytes": 2993834,
+          "result_sha256": "c58df43e5bd48c5d533077fd791170c019289c7d84ecd01b3b604977eaaad49c"
+        },
+        {
+          "seed": 11792046,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 124,
+          "mean_strokes": 8.29,
+          "seconds": 0.3898018579984637,
+          "bytes": 3948991,
+          "result_sha256": "80efb785bf3998a2b6ab9fce30a29e50dce3c48621d168a64992bfeb2dd74d48"
+        },
+        {
+          "seed": 11792047,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 111,
+          "mean_strokes": 8.658,
+          "seconds": 0.3760002920007537,
+          "bytes": 3725414,
+          "result_sha256": "9e063e2803b6a22053ef39750765019360aa6a2ae3625e568376e91d4c9b4720"
+        },
+        {
+          "seed": 11792048,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 64,
+          "mean_strokes": 8.062,
+          "seconds": 0.20755496299898368,
+          "bytes": 1974545,
+          "result_sha256": "8fc592028fb3159d08dd67e3dc7c61136f00c381b7c300379579d13ca6396f9a"
+        },
+        {
+          "seed": 11792049,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 126,
+          "mean_strokes": 8.468,
+          "seconds": 0.41197782900053426,
+          "bytes": 4083714,
+          "result_sha256": "82756aa8fa1904c8656a60a69243d34277580cecbe96a1911403e06c05868568"
+        },
+        {
+          "seed": 11792050,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 109,
+          "mean_strokes": 7.725,
+          "seconds": 0.31528679899929557,
+          "bytes": 3198709,
+          "result_sha256": "2664c7450401fe2300d9c4238aa35a065ae8d5cca8d6006246a9219b92b7f440"
+        },
+        {
+          "seed": 11792051,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 64,
+          "mean_strokes": 6.422,
+          "seconds": 0.15201898099985556,
+          "bytes": 1517013,
+          "result_sha256": "543fa51e923ebf36a72e3c02b97bd3ad3f17440a5f6b2e73b0490c76c7d5106c"
+        },
+        {
+          "seed": 11792052,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 102,
+          "mean_strokes": 9.373,
+          "seconds": 0.3843697289994452,
+          "bytes": 3727407,
+          "result_sha256": "6ab61d425cbb3a4c12ba629d5f3b265eb8a802ddb13d38a0846dfd2f587dfffb"
+        },
+        {
+          "seed": 11792053,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 97,
+          "mean_strokes": 8.99,
+          "seconds": 0.3423337940002966,
+          "bytes": 3398920,
+          "result_sha256": "a9ab7f7bc72f86dea7fb61657f8fb89ccc37748e03f618fb074e09beacef1f6e"
+        },
+        {
+          "seed": 11792054,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 64,
+          "mean_strokes": 9.141,
+          "seconds": 0.23264440099956119,
+          "bytes": 2278494,
+          "result_sha256": "8e1a476b2ade0a9e02c3c4d10ed0abd4f2cb516416d8abd1132e6af9b914c0f1"
+        },
+        {
+          "seed": 11792055,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 95,
+          "mean_strokes": 8.095,
+          "seconds": 0.3000224049992539,
+          "bytes": 2940975,
+          "result_sha256": "fb58ad5a718a344b0b1f5effea2bdb31729543706b795807d1432afe930affe7"
+        },
+        {
+          "seed": 11792056,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 119,
+          "mean_strokes": 8.672,
+          "seconds": 0.41175459299847716,
+          "bytes": 3990136,
+          "result_sha256": "c7273db38a25e1b56928e97849052ee107a22fba9cd41e98c8764d813e6c57d4"
+        },
+        {
+          "seed": 11792057,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 92,
+          "mean_strokes": 10.478,
+          "seconds": 0.43878504399981466,
+          "bytes": 3812123,
+          "result_sha256": "8ca5362d018756cea4d24b8427671799f17b6f822337bc89d074a638d3c93d62"
+        },
+        {
+          "seed": 11792058,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 110,
+          "mean_strokes": 9.064,
+          "seconds": 0.42330278199915483,
+          "bytes": 3872532,
+          "result_sha256": "cfcd4a69ee80aaf54a64542574670e4762fb5aca540f1d354c2ce9c95f53e372"
+        },
+        {
+          "seed": 11792059,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 68,
+          "mean_strokes": 9.191,
+          "seconds": 0.28192829199906555,
+          "bytes": 2432671,
+          "result_sha256": "f688b14d9639fe404c437e2d2d3f91668be59ef0360501ea2d1118d32d64023d"
+        },
+        {
+          "seed": 11792060,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 124,
+          "mean_strokes": 9.387,
+          "seconds": 0.5640005360000941,
+          "bytes": 4561614,
+          "result_sha256": "fc22fac37a5968a05f33e3e5989aae393bf24de9c83ff1c8eb6c910ac598c3bc"
+        },
+        {
+          "seed": 11792061,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 117,
+          "mean_strokes": 7.504,
+          "seconds": 0.4435868640011904,
+          "bytes": 3291145,
+          "result_sha256": "40723b251650e5018ab1d430ef8a541353432f64a3c4232696dd171fce37b311"
+        },
+        {
+          "seed": 11792062,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 94,
+          "mean_strokes": 8.862,
+          "seconds": 0.3321339619997161,
+          "bytes": 3215579,
+          "result_sha256": "eefa32b6801801be41089a7d3692a0426d58a864c11a07a86aa576042760f055"
+        },
+        {
+          "seed": 11792063,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 78,
+          "mean_strokes": 8.026,
+          "seconds": 0.23177808099899266,
+          "bytes": 2372525,
+          "result_sha256": "8310b5b474685ba5603129e99f624599b9d228a7a9cd48c0cf5414b28e0d4cf3"
+        }
+      ]
+    },
+    "xu2013_context_joo2003": {
+      "light": [
+        {
+          "seed": 11793000,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 86,
+          "mean_strokes": 6.75581,
+          "seconds": 0.013341498999579926,
+          "bytes": 8256,
+          "result_sha256": "6d576f1df634b7e9c2cf7eea07531e40945dce3249893ada0c7c9b5c546e333d"
+        },
+        {
+          "seed": 11793001,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 116,
+          "mean_strokes": 6.00862,
+          "seconds": 0.01515670200024033,
+          "bytes": 9382,
+          "result_sha256": "ecbff3a423ecfee3e125700199ce9281ee8bae3da56bfc7a3b56f7963b56cf26"
+        },
+        {
+          "seed": 11793002,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 116,
+          "mean_strokes": 5.93966,
+          "seconds": 0.01619980299983581,
+          "bytes": 9357,
+          "result_sha256": "38c3b2ad567e54df867b841cfa3cefd8902ac7dcee1ead84afbb9b536cbd765c"
+        },
+        {
+          "seed": 11793003,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 131,
+          "mean_strokes": 5.9313,
+          "seconds": 0.019622255998910987,
+          "bytes": 10471,
+          "result_sha256": "59f37f2b54b8a9727de95d0a65d16f3a0dc38b754cdc910087716433a6956220"
+        },
+        {
+          "seed": 11793004,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 66,
+          "mean_strokes": 6.13636,
+          "seconds": 0.009118840000155615,
+          "bytes": 7081,
+          "result_sha256": "3b2b97f26c968d7498520eb68f40e0df5181ed80df70305cabcc3ae152d26f66"
+        },
+        {
+          "seed": 11793005,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 69,
+          "mean_strokes": 6.5942,
+          "seconds": 0.010215201000391971,
+          "bytes": 7064,
+          "result_sha256": "f7d2bd78076229233f9268158cf5adb1be718ac06aa232680098661636d73d32"
+        },
+        {
+          "seed": 11793006,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 68,
+          "mean_strokes": 5.97059,
+          "seconds": 0.009479864000240923,
+          "bytes": 7036,
+          "result_sha256": "a9e9fc7f6166ca13ad32e3c66da9a1129c8fbce903a215983c062fdc295a766d"
+        },
+        {
+          "seed": 11793007,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 64,
+          "mean_strokes": 7.20312,
+          "seconds": 0.010984040000039386,
+          "bytes": 7050,
+          "result_sha256": "0f04c449d62e654f9998a4df15210af5bd5bf6f2e2c7fbec6666cc2952e42da7"
+        },
+        {
+          "seed": 11793008,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 73,
+          "mean_strokes": 5.75342,
+          "seconds": 0.016542899000342004,
+          "bytes": 7015,
+          "result_sha256": "f471dc8414ef981880306a605a784ce9bf6ba01deeca0a2d50ee74829850e984"
+        },
+        {
+          "seed": 11793009,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 128,
+          "mean_strokes": 5.75781,
+          "seconds": 0.017932271000972833,
+          "bytes": 10409,
+          "result_sha256": "e83a2ba92224ab40d773c3af7764beea83578b683fa512141f7730b33ccd64bd"
+        },
+        {
+          "seed": 11793010,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 91,
+          "mean_strokes": 5.84615,
+          "seconds": 0.012355925000520074,
+          "bytes": 8183,
+          "result_sha256": "09add8aa1c1e3c69c67d6890df28d75c7c39a1eeca4a458cc72503cff3411d30"
+        },
+        {
+          "seed": 11793011,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 85,
+          "mean_strokes": 7.57647,
+          "seconds": 0.012325560001045233,
+          "bytes": 8266,
+          "result_sha256": "a23c8b5a4bd31a0e31f586ca85cc327f79cb24e57f8a5a3696fb608163b81904"
+        },
+        {
+          "seed": 11793012,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 60,
+          "mean_strokes": 5.6,
+          "seconds": 0.013096889999360428,
+          "bytes": 7031,
+          "result_sha256": "9de3be84794b84150bfbb3b2430b0462a00f05b6c930bd6557d2e0551dbbf14b"
+        },
+        {
+          "seed": 11793013,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 84,
+          "mean_strokes": 6.07143,
+          "seconds": 0.013624976001665345,
+          "bytes": 8163,
+          "result_sha256": "d616d194b6be2e84561dc67167ef71c4b2994ce476874e53d7a5d298cc92ec7b"
+        },
+        {
+          "seed": 11793014,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 95,
+          "mean_strokes": 6.18947,
+          "seconds": 0.016487625000081607,
+          "bytes": 8192,
+          "result_sha256": "995ded56bbf99c21441aeb3b252d0814a96ad14bcb81da8342536bc7b40add3a"
+        },
+        {
+          "seed": 11793015,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 59,
+          "mean_strokes": 6.28814,
+          "seconds": 0.007778732000588207,
+          "bytes": 7042,
+          "result_sha256": "aa2bc7270e6ed53fe73ebd5b0e463ef61f827f6f8ee9ab232fd76cc58d33f39b"
+        },
+        {
+          "seed": 11793016,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 92,
+          "mean_strokes": 6.15217,
+          "seconds": 0.020736092001243378,
+          "bytes": 8149,
+          "result_sha256": "72eb8900c1571684ce557bf54b40b6a57ed932212985e9efd24deba285e3985d"
+        },
+        {
+          "seed": 11793017,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 105,
+          "mean_strokes": 5.84762,
+          "seconds": 0.013340788998903008,
+          "bytes": 9386,
+          "result_sha256": "d3b9a9a6ad8fe7e80c254eaabd585f16b60f4ab09ad2cf230d74abc411b09506"
+        },
+        {
+          "seed": 11793018,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 87,
+          "mean_strokes": 5.89655,
+          "seconds": 0.011890154999491642,
+          "bytes": 8183,
+          "result_sha256": "6ce1ed25245d428a0bad5221d5da31415d484d0fa67f5e2b2bb58db3c8ccb059"
+        },
+        {
+          "seed": 11793019,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 128,
+          "mean_strokes": 6.82031,
+          "seconds": 0.016512517000592197,
+          "bytes": 10509,
+          "result_sha256": "107130a2ee84ad85e22c707b154ea15ac8bd11ea57d0df52bfbf99eced988435"
+        },
+        {
+          "seed": 11793020,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 68,
+          "mean_strokes": 6.04412,
+          "seconds": 0.01506495499961602,
+          "bytes": 7047,
+          "result_sha256": "b88914bebb432dd83c195c9b226e8364a9bd7e87cb82effd58a262ad6c1a6bc3"
+        },
+        {
+          "seed": 11793021,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 76,
+          "mean_strokes": 6.60526,
+          "seconds": 0.011325665000185836,
+          "bytes": 7059,
+          "result_sha256": "023270bf8b2ae66295598e6aec620947d3bc3143cd0adecdecc5beef95c075a6"
+        },
+        {
+          "seed": 11793022,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 63,
+          "mean_strokes": 5.69841,
+          "seconds": 0.009472235000430373,
+          "bytes": 6962,
+          "result_sha256": "900cff45bc79b5ad3eb64d14eb2bfe6dba765a4cba364cdc4b28228ec61f3210"
+        },
+        {
+          "seed": 11793023,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 96,
+          "mean_strokes": 5.95833,
+          "seconds": 0.016027294999730657,
+          "bytes": 8230,
+          "result_sha256": "e977b5ec77090620fdf32b666f9c4a882c064ddee76cce035c681992c87b59c1"
+        },
+        {
+          "seed": 11793024,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 99,
+          "mean_strokes": 6.48485,
+          "seconds": 0.016080805000456166,
+          "bytes": 8213,
+          "result_sha256": "954060458cd48335b66a0ced0dd5f32fdfb07be8f1898faac8f1f20cacc8bae5"
+        },
+        {
+          "seed": 11793025,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 88,
+          "mean_strokes": 6.15909,
+          "seconds": 0.013975656000184244,
+          "bytes": 8194,
+          "result_sha256": "5772c21b13951ac4cb3e6646db8c875d777a701acc95b0f3f62f5ae374757f82"
+        },
+        {
+          "seed": 11793026,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 87,
+          "mean_strokes": 6.21839,
+          "seconds": 0.012923991000207025,
+          "bytes": 8238,
+          "result_sha256": "fa7d055825cfbe694c2b3e7167a8028e219693b0c74945eb0c26663565636c09"
+        },
+        {
+          "seed": 11793027,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 88,
+          "mean_strokes": 7.30682,
+          "seconds": 0.012823932000173954,
+          "bytes": 8208,
+          "result_sha256": "7f89c9a39625234fbc800dafbad71413e37d5f9b03ece124c8ec58d4c46ddcbe"
+        },
+        {
+          "seed": 11793028,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 81,
+          "mean_strokes": 6.45679,
+          "seconds": 0.01154840999879525,
+          "bytes": 7031,
+          "result_sha256": "56b1f9a3727d29585d4a2a5c65ee8ebddc4cb08f1cf6a0a3c7e1ca69c070692b"
+        },
+        {
+          "seed": 11793029,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 87,
+          "mean_strokes": 5.5977,
+          "seconds": 0.012652733001232264,
+          "bytes": 8178,
+          "result_sha256": "0b6ac922466909813938511052957585c12e9e7317fe64749c4f2d06674f6a08"
+        },
+        {
+          "seed": 11793030,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 84,
+          "mean_strokes": 6.21429,
+          "seconds": 0.012151087999882293,
+          "bytes": 8170,
+          "result_sha256": "47ba2ea0f89dd54f610c9766f2c85f18a1b730c89ea5df1791a6fdd10f975a35"
+        },
+        {
+          "seed": 11793031,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 65,
+          "mean_strokes": 6.13846,
+          "seconds": 0.01009184800022922,
+          "bytes": 7060,
+          "result_sha256": "1585715a28d8dd07dc728fa7ee475e3907d85f8ca5a8cc0c0ae9dfe4dc70f74f"
+        },
+        {
+          "seed": 11793032,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 88,
+          "mean_strokes": 5.45455,
+          "seconds": 0.011965057999987039,
+          "bytes": 8170,
+          "result_sha256": "0923ccc48651552730d956a222a6d6d646a1f19396d1416f1ca8b936ed645b72"
+        },
+        {
+          "seed": 11793033,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 70,
+          "mean_strokes": 6.12857,
+          "seconds": 0.009416519998922013,
+          "bytes": 7022,
+          "result_sha256": "efd90c8b1ba2c6345116b59b5290216a11693dfb9ecb087e971592136a3919e8"
+        },
+        {
+          "seed": 11793034,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 70,
+          "mean_strokes": 5.21429,
+          "seconds": 0.009016168000016478,
+          "bytes": 6998,
+          "result_sha256": "fa9c5ef9551c1a8ad9de241c12c5f5404067f8eb72ccbf15eb2c43d616d47aa3"
+        },
+        {
+          "seed": 11793035,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 89,
+          "mean_strokes": 5.53933,
+          "seconds": 0.011513597000885056,
+          "bytes": 8192,
+          "result_sha256": "04d0a095cd3635be296b0ac85da1e586f936fe4115472857efa87e0b34ee32b7"
+        },
+        {
+          "seed": 11793036,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 73,
+          "mean_strokes": 6.0411,
+          "seconds": 0.010081840999191627,
+          "bytes": 7044,
+          "result_sha256": "0899db1c6c885301ab98017028c2c5172f679cd8e8f4d63787fb4f99a5d6e0e3"
+        },
+        {
+          "seed": 11793037,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 99,
+          "mean_strokes": 5.90909,
+          "seconds": 0.014119401999778347,
+          "bytes": 8161,
+          "result_sha256": "b67c59a0dba822426576a7e0919d52188761a0890fc29e12672907042b3bde61"
+        },
+        {
+          "seed": 11793038,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 90,
+          "mean_strokes": 6.61111,
+          "seconds": 0.013024653999309521,
+          "bytes": 8179,
+          "result_sha256": "e401308ed654ec64b63c972158031934be6b3da0c85484cc59c77cb9341a7de3"
+        },
+        {
+          "seed": 11793039,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 63,
+          "mean_strokes": 5.30159,
+          "seconds": 0.0153457790001994,
+          "bytes": 7035,
+          "result_sha256": "2e4afb9d785f29fa4302844283deb4c514c493830b006bcbbdd0971bbb7d9871"
+        },
+        {
+          "seed": 11793040,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 72,
+          "mean_strokes": 6.69444,
+          "seconds": 0.009459505999984685,
+          "bytes": 7037,
+          "result_sha256": "65744baa7b6ee3912af42ebf4bf721a9db65dc8f6e299444742d4079be81055e"
+        },
+        {
+          "seed": 11793041,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 72,
+          "mean_strokes": 5.63889,
+          "seconds": 0.010187922000113758,
+          "bytes": 7023,
+          "result_sha256": "233b02018b44e4be3fc08b76231c0dddf1079441717a02ae496dac253a786803"
+        },
+        {
+          "seed": 11793042,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 90,
+          "mean_strokes": 5.92222,
+          "seconds": 0.012154832998930942,
+          "bytes": 8233,
+          "result_sha256": "c6c4ba61d9fd0b6089470bee6739a981214404810298413dacd852cc1ef207d4"
+        },
+        {
+          "seed": 11793043,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 82,
+          "mean_strokes": 5.5,
+          "seconds": 0.011515580999912345,
+          "bytes": 7047,
+          "result_sha256": "9fb063521b1eb06c606423522a44c2af8efe263ec8f9ba71bce63392c1c7b842"
+        },
+        {
+          "seed": 11793044,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 93,
+          "mean_strokes": 6.89247,
+          "seconds": 0.013678899000296951,
+          "bytes": 9404,
+          "result_sha256": "3de22f86b6df0950ed56060422565e7e9397a9aba00d2afdb3a84eaa63c5865c"
+        },
+        {
+          "seed": 11793045,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 91,
+          "mean_strokes": 6.95604,
+          "seconds": 0.011808003000624012,
+          "bytes": 8268,
+          "result_sha256": "0043b6e46ca39a24e223e8b894feb857baf296dd4fc56a1d9b22a7499b2d94f6"
+        },
+        {
+          "seed": 11793046,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 55,
+          "mean_strokes": 7.07273,
+          "seconds": 0.008151945999998134,
+          "bytes": 7001,
+          "result_sha256": "347485d8961b71668c7592df9cf917395b9e5a7c38bfeebdb84bae5a7bddab12"
+        },
+        {
+          "seed": 11793047,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 87,
+          "mean_strokes": 6.34483,
+          "seconds": 0.019570993001252646,
+          "bytes": 8134,
+          "result_sha256": "2518c92f23eff001e64e233225273fc35b8144719ecdb39a7c3873f4700fcd7c"
+        },
+        {
+          "seed": 11793048,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 122,
+          "mean_strokes": 6.32787,
+          "seconds": 0.03637163300118118,
+          "bytes": 10459,
+          "result_sha256": "f08339871b2fbca9252692f2b75243dab13008a631f84b6897529547e58bb3b1"
+        },
+        {
+          "seed": 11793049,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 61,
+          "mean_strokes": 5.81967,
+          "seconds": 0.03391340000052878,
+          "bytes": 7008,
+          "result_sha256": "17cd3e4ccd39494060434620e5441014f24b979ce952f65f2c89898239246ba5"
+        },
+        {
+          "seed": 11793050,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 108,
+          "mean_strokes": 6.24074,
+          "seconds": 0.024354796998522943,
+          "bytes": 9400,
+          "result_sha256": "1403444f02a3b0213cb7db112bcd87e4261696b980e0f7ea322d583b12837b10"
+        },
+        {
+          "seed": 11793051,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 128,
+          "mean_strokes": 6.32031,
+          "seconds": 0.03807673200026329,
+          "bytes": 10517,
+          "result_sha256": "9cbaf1bd58588f35a534ea6d5e321334071d92e89f761668fa25ebb03eb8bf97"
+        },
+        {
+          "seed": 11793052,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 72,
+          "mean_strokes": 6.70833,
+          "seconds": 0.00953451799978211,
+          "bytes": 7037,
+          "result_sha256": "7b01930d83f1c45b4ce7dd6f274cdb14aef36cb4e4e795c915832d8a52634a8c"
+        },
+        {
+          "seed": 11793053,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 77,
+          "mean_strokes": 6.83117,
+          "seconds": 0.011631055000179913,
+          "bytes": 7120,
+          "result_sha256": "8ce1ce87ea19e18e709e45419ab41bce2a655165b41e0583adc6f7426c1497b5"
+        },
+        {
+          "seed": 11793054,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 60,
+          "mean_strokes": 6.11667,
+          "seconds": 0.013319449000846362,
+          "bytes": 6960,
+          "result_sha256": "a5e68d75705bbc1d53432010e7a3e526f7b0eab5d736d383c257c65b52a1bd05"
+        },
+        {
+          "seed": 11793055,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 72,
+          "mean_strokes": 5.79167,
+          "seconds": 0.016530013001101906,
+          "bytes": 7068,
+          "result_sha256": "df21fcac789d7232860173d5e399790e14c673bf18b113d5b2bd69ce328294a0"
+        },
+        {
+          "seed": 11793056,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 103,
+          "mean_strokes": 6.06796,
+          "seconds": 0.039055976001691306,
+          "bytes": 8147,
+          "result_sha256": "92d541ea33cd72b25004d2fc3ee654cbf5a57292e6a99391a36ef654af072555"
+        },
+        {
+          "seed": 11793057,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 98,
+          "mean_strokes": 6.27551,
+          "seconds": 0.014401137999811908,
+          "bytes": 8211,
+          "result_sha256": "317b60368339dfcdb6fda9bf2dd74f04fcb72e9d55e570e08928cd329a9042c8"
+        },
+        {
+          "seed": 11793058,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 102,
+          "mean_strokes": 6.07843,
+          "seconds": 0.015782627999215038,
+          "bytes": 9386,
+          "result_sha256": "a2cec6f07381eb0c570b46b2938bc8fc05e674233c6763e199be1785f2fdca94"
+        },
+        {
+          "seed": 11793059,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 87,
+          "mean_strokes": 5.81609,
+          "seconds": 0.01311222599906614,
+          "bytes": 8141,
+          "result_sha256": "7c67f6cbf25523686381ff66b0fff73990e7c6536d980e3263030fd5b54c8a75"
+        },
+        {
+          "seed": 11793060,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 68,
+          "mean_strokes": 6.25,
+          "seconds": 0.008905892000257154,
+          "bytes": 7048,
+          "result_sha256": "0733bc938ab2179a685c6e37c09c67fd141da9cca0d43ff200e557c74240b842"
+        },
+        {
+          "seed": 11793061,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 94,
+          "mean_strokes": 6.25532,
+          "seconds": 0.013187298998673214,
+          "bytes": 8222,
+          "result_sha256": "44809c6fb87d8fe2838c78d9dd362e4bb7787a5e698d9032ea0eb25ee24470c5"
+        },
+        {
+          "seed": 11793062,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 64,
+          "mean_strokes": 5.35938,
+          "seconds": 0.011482351999802631,
+          "bytes": 6986,
+          "result_sha256": "2ed1945af60e1703076a6b33fbeaff97ceed0e682e0a1b2ba35b2db26e1ead7c"
+        },
+        {
+          "seed": 11793063,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 97,
+          "mean_strokes": 6.18557,
+          "seconds": 0.014177721001033206,
+          "bytes": 9379,
+          "result_sha256": "023f6fb97bc11b8a77e2f7a654a00a43c3f83ba0e44f375e0b252a886a94960f"
+        }
+      ],
+      "detailed": [
+        {
+          "seed": 11793000,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 55,
+          "mean_strokes": 7.473,
+          "seconds": 0.18425143899912655,
+          "bytes": 1547362,
+          "result_sha256": "cb9944f8256fe2b65f743e049e7daabb9af3c54ad72db77d0d23f33941134e09"
+        },
+        {
+          "seed": 11793001,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 127,
+          "mean_strokes": 8.323,
+          "seconds": 0.47429571300017415,
+          "bytes": 4071244,
+          "result_sha256": "937b18bf1890ef9c9f9de58d82e8526a88e0e8d35d05b01acc51d06dfd677496"
+        },
+        {
+          "seed": 11793002,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 71,
+          "mean_strokes": 9.014,
+          "seconds": 0.3213591740004631,
+          "bytes": 2479808,
+          "result_sha256": "081601df869cd8f7d29500849a3b4716a0f3a7b896bd4e7c1c175f4b249bf388"
+        },
+        {
+          "seed": 11793003,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 70,
+          "mean_strokes": 8.486,
+          "seconds": 0.2694536340004561,
+          "bytes": 2287961,
+          "result_sha256": "f11a19ee56f304676d08c8637cb09aca72ed6d9eee922a834111b60d8519e7dc"
+        },
+        {
+          "seed": 11793004,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 59,
+          "mean_strokes": 7.949,
+          "seconds": 0.24009676999958174,
+          "bytes": 1778907,
+          "result_sha256": "ab80870b62715c7ebe51444e447c91c2d233551b005a1f89642d068d1b3527df"
+        },
+        {
+          "seed": 11793005,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 73,
+          "mean_strokes": 7.89,
+          "seconds": 0.29946361600013915,
+          "bytes": 2199838,
+          "result_sha256": "e06694435bc84fb40aebbce9ec18b9c674df02603a71e9243603093c1dc1f0e8"
+        },
+        {
+          "seed": 11793006,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 84,
+          "mean_strokes": 7.905,
+          "seconds": 0.29458762500144076,
+          "bytes": 2525905,
+          "result_sha256": "8f0ae9ce7884ae1e79d8c9be6630bb2b497b2fbb0b5ac54c5b322fca827488f6"
+        },
+        {
+          "seed": 11793007,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 70,
+          "mean_strokes": 5.971,
+          "seconds": 0.18295742100053758,
+          "bytes": 1514908,
+          "result_sha256": "2206647f1a337b803a6e1c5b609e51164557ca294c6bbee74bdb0b06bab8175e"
+        },
+        {
+          "seed": 11793008,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 87,
+          "mean_strokes": 7.322,
+          "seconds": 0.2795447629996488,
+          "bytes": 2411175,
+          "result_sha256": "b2596eff10031447ff493b511a2e86840bf27cb660987a11ca82561ec2c76854"
+        },
+        {
+          "seed": 11793009,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 108,
+          "mean_strokes": 8.259,
+          "seconds": 0.3958635260005394,
+          "bytes": 3418201,
+          "result_sha256": "5bb64abd7f8aae19adbd07a2cea7627724a462f01c414c703b31b7db8ce256da"
+        },
+        {
+          "seed": 11793010,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 60,
+          "mean_strokes": 8.467,
+          "seconds": 0.20437470900105836,
+          "bytes": 1953715,
+          "result_sha256": "2f3452560ce9c5dd75175acec357348c1e928b57af0ddcaabdd4f71cac7ccf8a"
+        },
+        {
+          "seed": 11793011,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 86,
+          "mean_strokes": 6.919,
+          "seconds": 0.2713696440005151,
+          "bytes": 2209105,
+          "result_sha256": "16c93972c662159dcb3df08272e125d1d845fb3556567311e560487c3e305a0f"
+        },
+        {
+          "seed": 11793012,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 58,
+          "mean_strokes": 7.517,
+          "seconds": 0.20272429900069255,
+          "bytes": 1655926,
+          "result_sha256": "c6ac430d8dfc61bb2026e6b8b579125c4391077de6311643213e8c49865d28f1"
+        },
+        {
+          "seed": 11793013,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 69,
+          "mean_strokes": 6.841,
+          "seconds": 0.20002780399954645,
+          "bytes": 1755583,
+          "result_sha256": "decf2a0e5846615d0c6c799ea1654a7c50a0801335e162ac0d8f9a8e9b8aa9b0"
+        },
+        {
+          "seed": 11793014,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 79,
+          "mean_strokes": 8.114,
+          "seconds": 0.33615799700055504,
+          "bytes": 2433116,
+          "result_sha256": "ffc1e5322d118c82e96cbaf5d2ad51aed7784272c371b8d0404135129a3e92ec"
+        },
+        {
+          "seed": 11793015,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 93,
+          "mean_strokes": 7.495,
+          "seconds": 0.29847577799955616,
+          "bytes": 2610394,
+          "result_sha256": "e226bb690495f6ba741d1e6dd7853854380c53fb715295c1c3ea6c661313b384"
+        },
+        {
+          "seed": 11793016,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 70,
+          "mean_strokes": 7.871,
+          "seconds": 0.3117496670001856,
+          "bytes": 2100274,
+          "result_sha256": "0da20aa09d28338849db3c9be7f6a49c2f1c2061b1b3cb1db8ed3a75a7a54ba8"
+        },
+        {
+          "seed": 11793017,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 107,
+          "mean_strokes": 7.729,
+          "seconds": 0.3720096469987766,
+          "bytes": 3134954,
+          "result_sha256": "02dd0df533fda1c1cf0e18877f1c246342cdbb6e5160347a680384d1aace2cb8"
+        },
+        {
+          "seed": 11793018,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 63,
+          "mean_strokes": 7.556,
+          "seconds": 0.17748507900068944,
+          "bytes": 1800585,
+          "result_sha256": "2600488abaedf655a680d377f7e57aaeab80414fd070d7769aefd18134d88d43"
+        },
+        {
+          "seed": 11793019,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 76,
+          "mean_strokes": 7.539,
+          "seconds": 0.24113490699892282,
+          "bytes": 2167921,
+          "result_sha256": "1d5bc06369a3595a10ba96405413b11f0bec7610f0284d60a663c38d48158ec2"
+        },
+        {
+          "seed": 11793020,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 58,
+          "mean_strokes": 7.121,
+          "seconds": 0.21920519400009653,
+          "bytes": 1537420,
+          "result_sha256": "0749b6ad019ca3efb2c726c81c9d59e06f2dfe33458647b1d87ae40222f3ee83"
+        },
+        {
+          "seed": 11793021,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 60,
+          "mean_strokes": 8.383,
+          "seconds": 0.21651686999939557,
+          "bytes": 1925281,
+          "result_sha256": "c7897e6846b28fad172043faee0714967f260616f61a41390390b0a258fb58d4"
+        },
+        {
+          "seed": 11793022,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 62,
+          "mean_strokes": 7.161,
+          "seconds": 0.18888036899988947,
+          "bytes": 1658257,
+          "result_sha256": "e009fbd10528f1f9c1468efc04593988fa34a8acd20d4df3c467143779a4584a"
+        },
+        {
+          "seed": 11793023,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 65,
+          "mean_strokes": 7.6,
+          "seconds": 0.21272147099989525,
+          "bytes": 1862957,
+          "result_sha256": "bc0048a2779f7ae6c2b3e0b0b1dfa16fa14c16123481dedb5cb438b5cbbf052d"
+        },
+        {
+          "seed": 11793024,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 85,
+          "mean_strokes": 8.412,
+          "seconds": 0.38275169400003506,
+          "bytes": 2755935,
+          "result_sha256": "ba68db47e1e0bd049314a703b62000f529dee7b529e103d13952aeb08f9cefd0"
+        },
+        {
+          "seed": 11793025,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 105,
+          "mean_strokes": 8.543,
+          "seconds": 0.3859486380006274,
+          "bytes": 3464426,
+          "result_sha256": "9b599f1f2d15b8e3c90a167643291340944a5837e26740802743188403cd00fe"
+        },
+        {
+          "seed": 11793026,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 141,
+          "mean_strokes": 8.397,
+          "seconds": 0.5009757279985934,
+          "bytes": 4540654,
+          "result_sha256": "719ec309dd0a880455401ef999778a27cd49697caab62560a6ee255327cd0e26"
+        },
+        {
+          "seed": 11793027,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 118,
+          "mean_strokes": 7.559,
+          "seconds": 0.3580998510005884,
+          "bytes": 3346088,
+          "result_sha256": "625ffa05adf9eddb0ec0da7327eb11f4d76a316de4f8dd292787b2de18b8718d"
+        },
+        {
+          "seed": 11793028,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 135,
+          "mean_strokes": 8.2,
+          "seconds": 0.5110651309987588,
+          "bytes": 4233101,
+          "result_sha256": "682941ba5c7a3a5ef4bdc613e5a5951de8c740f8bf1b9d3faa77174bde9af2fb"
+        },
+        {
+          "seed": 11793029,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 88,
+          "mean_strokes": 7.477,
+          "seconds": 0.259737551001308,
+          "bytes": 2472057,
+          "result_sha256": "173876a426083abaead19f96ddbe040889c38a71a7511df6f4b42d3036e0de2b"
+        },
+        {
+          "seed": 11793030,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 94,
+          "mean_strokes": 8.851,
+          "seconds": 0.339583467999546,
+          "bytes": 3216528,
+          "result_sha256": "6031b984346869712b0e6a4479ce4112573c5933fd03b908e141992a18324e45"
+        },
+        {
+          "seed": 11793031,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 88,
+          "mean_strokes": 7.784,
+          "seconds": 0.2715723520013853,
+          "bytes": 2582644,
+          "result_sha256": "2176077c4be6fe304f39e9306d99e12bcbb85527ccf0557e6251d60adeaa6ca0"
+        },
+        {
+          "seed": 11793032,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 66,
+          "mean_strokes": 6.894,
+          "seconds": 0.1694144060002145,
+          "bytes": 1681764,
+          "result_sha256": "b5c8cb8cb4fa051f6dd2dd9487fe9b9eec7d806d6e54dc0855bb840a9ca75aab"
+        },
+        {
+          "seed": 11793033,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 83,
+          "mean_strokes": 7.687,
+          "seconds": 0.23452571500092745,
+          "bytes": 2407223,
+          "result_sha256": "9ed2138d6fd5bbac18209fd399fe7600e4a51b4a9aab642d08eeea44ab1814cc"
+        },
+        {
+          "seed": 11793034,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 100,
+          "mean_strokes": 7.46,
+          "seconds": 0.2760015809999459,
+          "bytes": 2811530,
+          "result_sha256": "28d30ef042e04a5b5d2f7fa612c735ba5877003a14ac7bcdac10bf7a4d6d2d94"
+        },
+        {
+          "seed": 11793035,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 71,
+          "mean_strokes": 7.887,
+          "seconds": 0.20441495100021712,
+          "bytes": 2123715,
+          "result_sha256": "eb65a992f4b64e4f20b085840cb916c12d721984d7357700d2eb9d81f6454d0f"
+        },
+        {
+          "seed": 11793036,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 73,
+          "mean_strokes": 6.041,
+          "seconds": 0.16142867900089186,
+          "bytes": 1596575,
+          "result_sha256": "2e9b4fde48b94652792dd08a6f1923dd1ab05ec16181d9f3965fa74e941be4a2"
+        },
+        {
+          "seed": 11793037,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 88,
+          "mean_strokes": 8.739,
+          "seconds": 0.3051493250004569,
+          "bytes": 2967622,
+          "result_sha256": "7e7948eaa317038f83fc042738e2b4ec0c8e875b4cb55abe18f6036153d06851"
+        },
+        {
+          "seed": 11793038,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 96,
+          "mean_strokes": 8.229,
+          "seconds": 0.3229220780012838,
+          "bytes": 3019398,
+          "result_sha256": "74a95a4672df015e06d423587cd069c41a45c08103598941f924496103fc04e4"
+        },
+        {
+          "seed": 11793039,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 74,
+          "mean_strokes": 8.122,
+          "seconds": 0.2397426400002587,
+          "bytes": 2302923,
+          "result_sha256": "309463fe72977afcbe2f1b6bfe17e803dc4cf7ad4fc2b7e343c3b635aeec6458"
+        },
+        {
+          "seed": 11793040,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 62,
+          "mean_strokes": 8.5,
+          "seconds": 0.20347075199970277,
+          "bytes": 2025057,
+          "result_sha256": "2b828039fb0f2518ddc82fad645494aa7fb704983f5208194de2d36e43aa7bc8"
+        },
+        {
+          "seed": 11793041,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 63,
+          "mean_strokes": 7.762,
+          "seconds": 0.19100523199995223,
+          "bytes": 1858120,
+          "result_sha256": "1028b20b41fb5ad76c28c0cc791fa80fd1cd8c5ab423148f9b03a8e4e4eacef5"
+        },
+        {
+          "seed": 11793042,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 61,
+          "mean_strokes": 6.984,
+          "seconds": 0.19260563300122158,
+          "bytes": 1565541,
+          "result_sha256": "aa71ef5004af7f9bf2a1de93e11c7d1312f6155d1db50fcb0bd578e48c790317"
+        },
+        {
+          "seed": 11793043,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 126,
+          "mean_strokes": 8.333,
+          "seconds": 0.5569879900012893,
+          "bytes": 4031756,
+          "result_sha256": "a736ad25a27b39c21bd0fd68bb58828a0813c824e2275e150238d0637b4854ff"
+        },
+        {
+          "seed": 11793044,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 67,
+          "mean_strokes": 8.224,
+          "seconds": 0.25608456900044985,
+          "bytes": 2113510,
+          "result_sha256": "34c49a24ae9356a907713e77cc04845254406099ca2264e58239168ab47c9c51"
+        },
+        {
+          "seed": 11793045,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 67,
+          "mean_strokes": 7.985,
+          "seconds": 0.23813486699873465,
+          "bytes": 2055132,
+          "result_sha256": "9b2d3de0ae3fddf04e08d8c77fe4e30c6b03090c78321af04bd5c9f78db0aa56"
+        },
+        {
+          "seed": 11793046,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 71,
+          "mean_strokes": 6.718,
+          "seconds": 0.2381427939999412,
+          "bytes": 1761871,
+          "result_sha256": "6e05850fd63fd500e462cd97fad9de709c4755bb87425f7b7000923e8f0bd56f"
+        },
+        {
+          "seed": 11793047,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 65,
+          "mean_strokes": 7.692,
+          "seconds": 0.3042481249995035,
+          "bytes": 1885071,
+          "result_sha256": "1fe2e9aae892cc75d4d9e941f6b0ac3de8c436dca6862ba68d6c2287bd017a61"
+        },
+        {
+          "seed": 11793048,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 70,
+          "mean_strokes": 6.914,
+          "seconds": 0.23430820499925176,
+          "bytes": 1790653,
+          "result_sha256": "9701423cd24a8eea1662938f435c26f25ea8ec83167ebeded4513451c15aa11f"
+        },
+        {
+          "seed": 11793049,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 54,
+          "mean_strokes": 8.352,
+          "seconds": 0.3516200800004299,
+          "bytes": 1743227,
+          "result_sha256": "00a625c0d006eab011590f53a207214b759a5cb3b0bb8676be40fcca6f2a2d01"
+        },
+        {
+          "seed": 11793050,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 78,
+          "mean_strokes": 7.346,
+          "seconds": 0.4918313689995557,
+          "bytes": 2145905,
+          "result_sha256": "c5a8cfa5cab218dc7a83037ea73c9269a7b1a724dfb4f0706c3ce2bcc799e3f9"
+        },
+        {
+          "seed": 11793051,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 103,
+          "mean_strokes": 8.35,
+          "seconds": 0.5411927999994077,
+          "bytes": 3313812,
+          "result_sha256": "aaa7ce8ba287cd929e379106d5d1fcc44da7888d73f07c9f488c0d39f1f5f32f"
+        },
+        {
+          "seed": 11793052,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 114,
+          "mean_strokes": 7.825,
+          "seconds": 0.5118494700000156,
+          "bytes": 3394443,
+          "result_sha256": "3a08958a0c147ff5b57e2963cb62308232f36f2c515e2e0798eb4c6d9345165c"
+        },
+        {
+          "seed": 11793053,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 119,
+          "mean_strokes": 8.403,
+          "seconds": 0.5854005350010993,
+          "bytes": 3842065,
+          "result_sha256": "969c656521bf6d74c6c37cda35324e12a565052772812961b5618260db228992"
+        },
+        {
+          "seed": 11793054,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 94,
+          "mean_strokes": 6.979,
+          "seconds": 0.3895022480010084,
+          "bytes": 2455752,
+          "result_sha256": "99131e621f6ff614e442b4811df5b46a1b67940b6501be01da7564aa91f2248d"
+        },
+        {
+          "seed": 11793055,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 128,
+          "mean_strokes": 7.266,
+          "seconds": 0.5720255819996964,
+          "bytes": 3492052,
+          "result_sha256": "c27bce05d95692d058a0c607f2bb67a2f97d49b6a4c4adcfa36d95e3946f6efc"
+        },
+        {
+          "seed": 11793056,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 87,
+          "mean_strokes": 8.299,
+          "seconds": 0.3545343829991907,
+          "bytes": 2772105,
+          "result_sha256": "7b9a128b59b7ce4b4d27628b6eebc5b360cebdec55986ee78f77d844de1adf8d"
+        },
+        {
+          "seed": 11793057,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 87,
+          "mean_strokes": 8.195,
+          "seconds": 0.36685976900116657,
+          "bytes": 2730495,
+          "result_sha256": "de8b71bda5609fb1c23af367fab8b905005c15399e76a14abc5851ba8a97dd38"
+        },
+        {
+          "seed": 11793058,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 65,
+          "mean_strokes": 8.569,
+          "seconds": 0.3305268630010687,
+          "bytes": 2162348,
+          "result_sha256": "031c8e158f5a2d10ab91f7cf828eff2f00f02b34f8cab792f572d5d2e0fdef31"
+        },
+        {
+          "seed": 11793059,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 65,
+          "mean_strokes": 6.585,
+          "seconds": 0.24592355799904908,
+          "bytes": 1580683,
+          "result_sha256": "9429cf7a9891976e254bd3909c5e431ca8cf7ddd300d618d5fe6b066d3242d82"
+        },
+        {
+          "seed": 11793060,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 63,
+          "mean_strokes": 7.413,
+          "seconds": 0.21062748999975156,
+          "bytes": 1754171,
+          "result_sha256": "1534d6146c272aa826125a089f1957c954f65df3b17abbb08451166548c7b817"
+        },
+        {
+          "seed": 11793061,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 75,
+          "mean_strokes": 9.36,
+          "seconds": 0.4274698899989744,
+          "bytes": 2749323,
+          "result_sha256": "d2730f34cfb16d02627ea5381d01481fe1ae99458cdfe7bd1b1e6f7bd77f6200"
+        },
+        {
+          "seed": 11793062,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 79,
+          "mean_strokes": 7.924,
+          "seconds": 0.33703890800097724,
+          "bytes": 2392317,
+          "result_sha256": "e31ef9ad29f3d509b7a46165c6016f096b5bee3bcde879be38ed5e2989989b03"
+        },
+        {
+          "seed": 11793063,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 140,
+          "mean_strokes": 8.364,
+          "seconds": 0.5912638129993866,
+          "bytes": 4509913,
+          "result_sha256": "26e834bb8c2e953942305556920f950e3e1a3bebe22b0ab7f2074e514bb570be"
+        }
+      ]
+    },
+    "ma2016_fan2024": {
+      "light": [
+        {
+          "seed": 11794000,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 131,
+          "mean_strokes": 5.61069,
+          "seconds": 0.01498612799878174,
+          "bytes": 10206,
+          "result_sha256": "312965f525f94b0ec35ab43b7a970b7e9aca5dbe54fdc000a80e8c79fa1efff3"
+        },
+        {
+          "seed": 11794001,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 126,
+          "mean_strokes": 6.0,
+          "seconds": 0.012685603998761508,
+          "bytes": 10318,
+          "result_sha256": "1ed74d70707ef3b2d400e5096b76dd3b109ebb710d54d0e83913933f0ba7441d"
+        },
+        {
+          "seed": 11794002,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 99,
+          "mean_strokes": 6.69697,
+          "seconds": 0.016187678000278538,
+          "bytes": 8043,
+          "result_sha256": "c93b43f335a0d58bbb997aa0e253185aaf6afb9202ecdfffe451ec8a266ab2ec"
+        },
+        {
+          "seed": 11794003,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 140,
+          "mean_strokes": 6.08571,
+          "seconds": 0.01483028400070907,
+          "bytes": 10205,
+          "result_sha256": "7704f799d1c96d80c5099ea2d2eb05636b5a6c4055b1e34ba95b9c143be123d6"
+        },
+        {
+          "seed": 11794004,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 132,
+          "mean_strokes": 5.81818,
+          "seconds": 0.016055578000305104,
+          "bytes": 9150,
+          "result_sha256": "7dc4c22ada6acfba5c013922efcac4d6afe2f5a749fcced45590692ce64a7b4a"
+        },
+        {
+          "seed": 11794005,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 84,
+          "mean_strokes": 6.22619,
+          "seconds": 0.009097340000153054,
+          "bytes": 6821,
+          "result_sha256": "5b03d1d60e3846ca4f92c961b4375ee97fcb03bc9a0c0e17a1f7d9b0a80870dd"
+        },
+        {
+          "seed": 11794006,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 117,
+          "mean_strokes": 6.39316,
+          "seconds": 0.029889362000176334,
+          "bytes": 10293,
+          "result_sha256": "e484c57b8bd585ac84145e8d95571981c97ff8d699eb659faf1091b21e508264"
+        },
+        {
+          "seed": 11794007,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 136,
+          "mean_strokes": 6.16176,
+          "seconds": 0.04995501899975352,
+          "bytes": 10205,
+          "result_sha256": "7699ceead6a17c5bcf91a5a39a459a2ca40cbf719883267d821f4ea16304929e"
+        },
+        {
+          "seed": 11794008,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 68,
+          "mean_strokes": 6.16176,
+          "seconds": 0.009271521999835386,
+          "bytes": 6817,
+          "result_sha256": "2d1a7b953d5888d77dc7ac3f2b1229234b90b2672f9ec610d0c22cb6bbce0672"
+        },
+        {
+          "seed": 11794009,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 117,
+          "mean_strokes": 6.23932,
+          "seconds": 0.012245771000380046,
+          "bytes": 9072,
+          "result_sha256": "d21de9967ea34d3e0cc66aee2f38a6f68a123d7748205e738883d8971fded572"
+        },
+        {
+          "seed": 11794010,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 104,
+          "mean_strokes": 6.65385,
+          "seconds": 0.010363265000705724,
+          "bytes": 9219,
+          "result_sha256": "3396e99dc883731a516ce4487f3a2ec7d42048ce1e88039e68b38705780cb050"
+        },
+        {
+          "seed": 11794011,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 111,
+          "mean_strokes": 5.88288,
+          "seconds": 0.011109619001217652,
+          "bytes": 9082,
+          "result_sha256": "056533cec108ea006b87cd102c74aebede76a791f832045c1e8f1bb666f5b739"
+        },
+        {
+          "seed": 11794012,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 68,
+          "mean_strokes": 5.32353,
+          "seconds": 0.00741939300132799,
+          "bytes": 6815,
+          "result_sha256": "7a21d0a4d344f0fc0914418e923a7f697962fbaeb0a5d8438f5a21406ee6b565"
+        },
+        {
+          "seed": 11794013,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 99,
+          "mean_strokes": 5.70707,
+          "seconds": 0.00963768300061929,
+          "bytes": 9078,
+          "result_sha256": "1901053906aafbf6b960b2fa63a71203864294aa00e002f09bb018925ec72cb1"
+        },
+        {
+          "seed": 11794014,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 127,
+          "mean_strokes": 6.51969,
+          "seconds": 0.01554856399889104,
+          "bytes": 10300,
+          "result_sha256": "c83da29ecdfca40cadf463e279d2e96cc691025c5e9979c9c47c0dea34a23b08"
+        },
+        {
+          "seed": 11794015,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 120,
+          "mean_strokes": 6.06667,
+          "seconds": 0.01203637499929755,
+          "bytes": 8044,
+          "result_sha256": "84e1f0985440c3c7f90d3ef4a482e423d5cd30bd349f93c76e37bf0561f8d784"
+        },
+        {
+          "seed": 11794016,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 104,
+          "mean_strokes": 6.34615,
+          "seconds": 0.019223296998461592,
+          "bytes": 9195,
+          "result_sha256": "a32ceaaa22bf45e19acd35291133b0538a516119693dc92fef5c11ac45ee1801"
+        },
+        {
+          "seed": 11794017,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 88,
+          "mean_strokes": 6.56818,
+          "seconds": 0.025457470001128968,
+          "bytes": 8024,
+          "result_sha256": "4f7d37d4fb7d3d7bd7eebca8174238c45e08ad04d5c3c24d28cd98c1712de0e2"
+        },
+        {
+          "seed": 11794018,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 97,
+          "mean_strokes": 5.97938,
+          "seconds": 0.01054698200096027,
+          "bytes": 8049,
+          "result_sha256": "6dd31945f9ee2d4de92ff3f7ae4dc8c8bbb7b8aa7e7994a03e44c1472a2307fe"
+        },
+        {
+          "seed": 11794019,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 91,
+          "mean_strokes": 6.38462,
+          "seconds": 0.01847477999945113,
+          "bytes": 7917,
+          "result_sha256": "6d0b42e5302804e9e8cf7770864572afa1bcd8a75c400858e6d55b52f04193f0"
+        },
+        {
+          "seed": 11794020,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 96,
+          "mean_strokes": 6.23958,
+          "seconds": 0.02329586000087147,
+          "bytes": 8008,
+          "result_sha256": "d758a53bd89c8861112dbb49d61873165b30c537a58574d122c2e1df3cdd8f3d"
+        },
+        {
+          "seed": 11794021,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 127,
+          "mean_strokes": 6.26772,
+          "seconds": 0.02962007299902325,
+          "bytes": 10247,
+          "result_sha256": "0a5642deba7fa2cf6d1f9872bb7323f3e8e0624f88dd37d7c99ab9a850280101"
+        },
+        {
+          "seed": 11794022,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 68,
+          "mean_strokes": 6.16176,
+          "seconds": 0.007499542998630204,
+          "bytes": 6836,
+          "result_sha256": "64ff174221853da2d87aab57be3fbb9b4f4fcc603be4e666798ad5718c01112a"
+        },
+        {
+          "seed": 11794023,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 98,
+          "mean_strokes": 6.21429,
+          "seconds": 0.02609018699877197,
+          "bytes": 7977,
+          "result_sha256": "c4f2739447f1d6aa651a771eb1b7c924cd1c1520d141d38cf69212f5017621a7"
+        },
+        {
+          "seed": 11794024,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 84,
+          "mean_strokes": 6.42857,
+          "seconds": 0.008177984998837928,
+          "bytes": 8057,
+          "result_sha256": "8eb89f81e77753b35cd3df62b4e3be7fb53ccd06fd444fca34c86e395687e7a9"
+        },
+        {
+          "seed": 11794025,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 73,
+          "mean_strokes": 6.50685,
+          "seconds": 0.007358030001341831,
+          "bytes": 6883,
+          "result_sha256": "7c25d8fd8f242f8106083479482d72810d387a03af04fce47fcedaab519cbd18"
+        },
+        {
+          "seed": 11794026,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 103,
+          "mean_strokes": 6.07767,
+          "seconds": 0.010455153000293649,
+          "bytes": 9048,
+          "result_sha256": "57d14fb29030a11c3bb40933c63520e28dcdcc410bbe89a1c5a6555ed7624502"
+        },
+        {
+          "seed": 11794027,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 69,
+          "mean_strokes": 6.11594,
+          "seconds": 0.007935448998978245,
+          "bytes": 6782,
+          "result_sha256": "98a3992f63a1365a7e4985266e1a01be06562af866726b40d83d01f773dacccb"
+        },
+        {
+          "seed": 11794028,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 111,
+          "mean_strokes": 6.2973,
+          "seconds": 0.012468163999074022,
+          "bytes": 10333,
+          "result_sha256": "ffcaa15330d8a8a52c1e582c0a7c19ddcc1587070759379c791160538e15a867"
+        },
+        {
+          "seed": 11794029,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 123,
+          "mean_strokes": 5.71545,
+          "seconds": 0.01565671499884047,
+          "bytes": 10246,
+          "result_sha256": "53d3bfad694e158c2c02ff236044aef9bcebccdb698cd893274538f54deacf12"
+        },
+        {
+          "seed": 11794030,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 140,
+          "mean_strokes": 5.87857,
+          "seconds": 0.015813530999366776,
+          "bytes": 10284,
+          "result_sha256": "613e3a441540e29941ac3fdf6d9a2d6cbcf2301f51e6581bee87f45f145d80ae"
+        },
+        {
+          "seed": 11794031,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 106,
+          "mean_strokes": 6.0283,
+          "seconds": 0.014502436999464408,
+          "bytes": 9137,
+          "result_sha256": "ee12e3ede9c9d93ccec9f16b69be60b25ccc608a71343cf62093a3140190e839"
+        },
+        {
+          "seed": 11794032,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 71,
+          "mean_strokes": 6.1831,
+          "seconds": 0.007772872999339597,
+          "bytes": 6806,
+          "result_sha256": "3848e31770bdc54f5e9dbf5e5fad72d61bacdd7f9f82933bc7d14dc30219042e"
+        },
+        {
+          "seed": 11794033,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 81,
+          "mean_strokes": 6.12346,
+          "seconds": 0.009033792000991525,
+          "bytes": 7952,
+          "result_sha256": "a23d094992d39994e683d5df6bec501f98d79cfa138f87fac3c1c94c555bd98e"
+        },
+        {
+          "seed": 11794034,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 95,
+          "mean_strokes": 6.43158,
+          "seconds": 0.00919009700010065,
+          "bytes": 7998,
+          "result_sha256": "d60145c296a591136d183d0ec911c34f5b195d5bbb6d5a2af7cf8f432286e87f"
+        },
+        {
+          "seed": 11794035,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 87,
+          "mean_strokes": 6.08046,
+          "seconds": 0.00873165700068057,
+          "bytes": 7955,
+          "result_sha256": "5203b87ae3dc5615798e7496b2924c83a35fe58d0ff90994e39833d4d820c1ed"
+        },
+        {
+          "seed": 11794036,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 110,
+          "mean_strokes": 6.6,
+          "seconds": 0.011551573999895481,
+          "bytes": 9204,
+          "result_sha256": "5599783e207f647ed6a68d73466b2066c62e9fa17129cd62060dd8cb65cf41c9"
+        },
+        {
+          "seed": 11794037,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 148,
+          "mean_strokes": 6.50676,
+          "seconds": 0.02125288999923214,
+          "bytes": 10311,
+          "result_sha256": "d259faac8dfd1635dd68ca12099d07392218dd1b26fc92f470195d753d9c869e"
+        },
+        {
+          "seed": 11794038,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 129,
+          "mean_strokes": 6.22481,
+          "seconds": 0.01319499799865298,
+          "bytes": 10188,
+          "result_sha256": "0daf240d0ae54b606e0e27f6d7dcda6f0fd237830030af7e35a0581fdd2b6fa9"
+        },
+        {
+          "seed": 11794039,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 66,
+          "mean_strokes": 6.63636,
+          "seconds": 0.006669681999483146,
+          "bytes": 6817,
+          "result_sha256": "1d5e7a11766568886351b73b3e66ac1ba7b875b1c93c304c8193f3961e6f2189"
+        },
+        {
+          "seed": 11794040,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 109,
+          "mean_strokes": 5.94495,
+          "seconds": 0.010424176000014995,
+          "bytes": 9169,
+          "result_sha256": "327c7d8722086899b1a940aac93ad72f3080b24d5eec9929f7424874c84bfe4a"
+        },
+        {
+          "seed": 11794041,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 74,
+          "mean_strokes": 6.59459,
+          "seconds": 0.008180568000170751,
+          "bytes": 6814,
+          "result_sha256": "7c79fba460be327f03c78c01de8431aef77831160787a5c82541d898d3c7aabe"
+        },
+        {
+          "seed": 11794042,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 104,
+          "mean_strokes": 6.67308,
+          "seconds": 0.015639278999515227,
+          "bytes": 9130,
+          "result_sha256": "95b1d43092bc94b2657a2a227fb51cd6b6fdd01b370b70e95d427edfca64aa71"
+        },
+        {
+          "seed": 11794043,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 107,
+          "mean_strokes": 6.57944,
+          "seconds": 0.010905450000791461,
+          "bytes": 9103,
+          "result_sha256": "39281a4502671abeb42aff022a2729e5f135b651c8effcbe1d80e2e16644650c"
+        },
+        {
+          "seed": 11794044,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 68,
+          "mean_strokes": 6.42647,
+          "seconds": 0.010786838000058196,
+          "bytes": 6754,
+          "result_sha256": "011f3934f7fb32b36d119d7313abe4ce93777f74b9232a11b1df3bc8ef41441a"
+        },
+        {
+          "seed": 11794045,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 84,
+          "mean_strokes": 5.84524,
+          "seconds": 0.012620773999515222,
+          "bytes": 7938,
+          "result_sha256": "38a6aacc3e1a078d675f2d04fb8e95233132624b1bc71e98d37289c6e0e1b938"
+        },
+        {
+          "seed": 11794046,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 72,
+          "mean_strokes": 6.45833,
+          "seconds": 0.00712439800008724,
+          "bytes": 6834,
+          "result_sha256": "8d16f50aaeb158b4ef42b25c238edeca7d6f9a6a4df22739f21d6184f2f26492"
+        },
+        {
+          "seed": 11794047,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 90,
+          "mean_strokes": 5.5,
+          "seconds": 0.009146623000560794,
+          "bytes": 7925,
+          "result_sha256": "fe72db8277fd427279c35fef8a5a53ecb39ca319bb32d4331087b42e49d7fe0a"
+        },
+        {
+          "seed": 11794048,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 70,
+          "mean_strokes": 6.4,
+          "seconds": 0.007063396000376088,
+          "bytes": 6807,
+          "result_sha256": "6a893944ba8a499fa821ddfb1f1c999788c16e8722edc3caa8042cf5d6111ffa"
+        },
+        {
+          "seed": 11794049,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 86,
+          "mean_strokes": 6.63953,
+          "seconds": 0.009159131999695092,
+          "bytes": 7940,
+          "result_sha256": "da523878983ef9b6ec9338738cbbb4ce744c716de19e1a29bcba2de52c58d906"
+        },
+        {
+          "seed": 11794050,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 91,
+          "mean_strokes": 6.23077,
+          "seconds": 0.010824159000549116,
+          "bytes": 7953,
+          "result_sha256": "e8f2681b41b9ce064bd342ddeb5bcc68a134296e9d8ce00a08c1ae393fd6a5f8"
+        },
+        {
+          "seed": 11794051,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 67,
+          "mean_strokes": 6.04478,
+          "seconds": 0.006698256000163383,
+          "bytes": 6762,
+          "result_sha256": "f1f954b354561ae83f2eea621f96fc329e31f8d66d9a044071bb914b5bac5922"
+        },
+        {
+          "seed": 11794052,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 127,
+          "mean_strokes": 6.02362,
+          "seconds": 0.012522566999905393,
+          "bytes": 10236,
+          "result_sha256": "52c17286de1ba612233aa730dee8b5f4236b286536815f3aeedb0926f89a4c61"
+        },
+        {
+          "seed": 11794053,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 103,
+          "mean_strokes": 6.30097,
+          "seconds": 0.010864710000532796,
+          "bytes": 8000,
+          "result_sha256": "b79a370e73bf6f806d9a5b6c5ba2468cd74f10819a9694699b434c580440dca0"
+        },
+        {
+          "seed": 11794054,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 129,
+          "mean_strokes": 5.96124,
+          "seconds": 0.020977818998289877,
+          "bytes": 10294,
+          "result_sha256": "86f386d4fbf950f6ca7406a375c254315c3c5f9842ca952e12bc6d33ae77cd25"
+        },
+        {
+          "seed": 11794055,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 92,
+          "mean_strokes": 5.92391,
+          "seconds": 0.015098875999683514,
+          "bytes": 8044,
+          "result_sha256": "293c9e735aa6ff349202c625ad41875e458bdd8335834852e501837890c1d841"
+        },
+        {
+          "seed": 11794056,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 95,
+          "mean_strokes": 6.28421,
+          "seconds": 0.014944002999982331,
+          "bytes": 8055,
+          "result_sha256": "8d451318146795489b00650426789fa161e26b8a017720c575c916ac3b122a1b"
+        },
+        {
+          "seed": 11794057,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 121,
+          "mean_strokes": 6.49587,
+          "seconds": 0.031109715999264154,
+          "bytes": 9199,
+          "result_sha256": "b4d34ffdc4d36990550d91acfc5f84077023dd22b827de729fa7bb10f9845dfd"
+        },
+        {
+          "seed": 11794058,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 61,
+          "mean_strokes": 5.62295,
+          "seconds": 0.022436575000028824,
+          "bytes": 6726,
+          "result_sha256": "802f581ec95f7cf974c5d1fe4f316f028952b4f95e43368f33c655b45a31bd95"
+        },
+        {
+          "seed": 11794059,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 113,
+          "mean_strokes": 6.22124,
+          "seconds": 0.06477892600014457,
+          "bytes": 9168,
+          "result_sha256": "9c7a8574d01426746b0548d7fce75305b2f5925d1b942071e534a9db44fe30bd"
+        },
+        {
+          "seed": 11794060,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 141,
+          "mean_strokes": 6.36879,
+          "seconds": 0.06670014900009846,
+          "bytes": 10217,
+          "result_sha256": "f1bc6f3d2afbdc3127a7b912c9f051b055a7816f913f1e69fc5840e5bb9fb15a"
+        },
+        {
+          "seed": 11794061,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 129,
+          "mean_strokes": 6.17054,
+          "seconds": 0.061321196999415406,
+          "bytes": 10283,
+          "result_sha256": "355e2c11d2ac51da4bb6b7affd7463a021dad7c13f15aff3a2111e666ecab7ca"
+        },
+        {
+          "seed": 11794062,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 87,
+          "mean_strokes": 6.17241,
+          "seconds": 0.07193071700021392,
+          "bytes": 7939,
+          "result_sha256": "758b89222c8b571d8bd98b3adfa3ccea562d853ef6b5ac4ce0efd043e2d85c5c"
+        },
+        {
+          "seed": 11794063,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 111,
+          "mean_strokes": 5.7027,
+          "seconds": 0.03657587800080364,
+          "bytes": 9146,
+          "result_sha256": "0ffa223125622d775ddc2f67392dc5bb980d822895aed141e2f44bb887d2d493"
+        }
+      ],
+      "detailed": [
+        {
+          "seed": 11794000,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 115,
+          "mean_strokes": 7.07,
+          "seconds": 0.4016332320006768,
+          "bytes": 3075707,
+          "result_sha256": "b9991041f43217a87cc700c29db421f0977ff9eec707446eca08d9003967fcd7"
+        },
+        {
+          "seed": 11794001,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 153,
+          "mean_strokes": 7.0,
+          "seconds": 0.5967235640000581,
+          "bytes": 4059705,
+          "result_sha256": "efa547790db50b365a1170bd2105d95059dc6ea02630c5577ce2ba5cad2d705f"
+        },
+        {
+          "seed": 11794002,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 140,
+          "mean_strokes": 6.757,
+          "seconds": 0.5095415340001637,
+          "bytes": 3553278,
+          "result_sha256": "fff22b640f8096c45876c6e6bf10858035532abc02a54709720a594a5a4c363d"
+        },
+        {
+          "seed": 11794003,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 139,
+          "mean_strokes": 6.784,
+          "seconds": 0.4584357780004211,
+          "bytes": 3557202,
+          "result_sha256": "83dab10d7dd59d6d0897596e4a3d4014f9503777e815ea6b0aad742256a74263"
+        },
+        {
+          "seed": 11794004,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 77,
+          "mean_strokes": 8.13,
+          "seconds": 0.41000707799867087,
+          "bytes": 2448566,
+          "result_sha256": "e841264d2832b6381fbce99dc41ce85d5361a847ba9b7ea5f415eab7e3514649"
+        },
+        {
+          "seed": 11794005,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 63,
+          "mean_strokes": 6.667,
+          "seconds": 0.1842473839988088,
+          "bytes": 1575140,
+          "result_sha256": "f9547db293dc346783f2a9cd9d904d747d5a51003a275436fe8b0ba02d7ace07"
+        },
+        {
+          "seed": 11794006,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 119,
+          "mean_strokes": 6.857,
+          "seconds": 0.660321938999914,
+          "bytes": 3085551,
+          "result_sha256": "fb45c29cd22ead9489a8ec251817ab791c461166f0ed6070d0c1e66e8de65709"
+        },
+        {
+          "seed": 11794007,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 110,
+          "mean_strokes": 7.436,
+          "seconds": 0.7432187819995306,
+          "bytes": 3126427,
+          "result_sha256": "086982761f90689f401d3c5b4797f5de765ff5e5a68181fa6a6c00eaa8c52130"
+        },
+        {
+          "seed": 11794008,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 107,
+          "mean_strokes": 7.159,
+          "seconds": 0.5569249320014933,
+          "bytes": 2924060,
+          "result_sha256": "67f42e008c401ba62c28d38b0d54dc94024e68a1ec1023d2f86ca3122e3564d6"
+        },
+        {
+          "seed": 11794009,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 67,
+          "mean_strokes": 7.299,
+          "seconds": 0.24531626099997084,
+          "bytes": 1871755,
+          "result_sha256": "90f67b03f8f261e8037bc692492287e2a799128b7cd1b20637e3e05a47ea29cf"
+        },
+        {
+          "seed": 11794010,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 108,
+          "mean_strokes": 8.222,
+          "seconds": 0.4785118510008033,
+          "bytes": 3446967,
+          "result_sha256": "f138009db151bc1e7f17a4d3ff533e49deb5cc0bd6812db0763e4f2a2c46937f"
+        },
+        {
+          "seed": 11794011,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 78,
+          "mean_strokes": 7.897,
+          "seconds": 0.32297849699898507,
+          "bytes": 2391058,
+          "result_sha256": "18616003a68d31bd055f5d99be577ffc314bd0d6897bbe8264bd15722d2b578a"
+        },
+        {
+          "seed": 11794012,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 110,
+          "mean_strokes": 6.209,
+          "seconds": 0.4314010109992523,
+          "bytes": 2533395,
+          "result_sha256": "680a2d6b9495de6276feb3a45efe01115076c018e37f1aa844d6f57384e4ad9c"
+        },
+        {
+          "seed": 11794013,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 66,
+          "mean_strokes": 7.0,
+          "seconds": 0.29967095000029076,
+          "bytes": 1751448,
+          "result_sha256": "8aea110503b605ec61bd5ae9b4754d62ee304539a0fb6c6eeb93082b70526057"
+        },
+        {
+          "seed": 11794014,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 88,
+          "mean_strokes": 6.386,
+          "seconds": 0.285020708999582,
+          "bytes": 2092847,
+          "result_sha256": "28b1c03c16e8b3878ebd3a706cd109b91ed423e5484e985a911c6f397737a7da"
+        },
+        {
+          "seed": 11794015,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 133,
+          "mean_strokes": 7.18,
+          "seconds": 0.5904495599988877,
+          "bytes": 3634874,
+          "result_sha256": "05afc2b7453da2f79b47a94740f8ec7778bdfc631dae3971c15c9999718afe26"
+        },
+        {
+          "seed": 11794016,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 125,
+          "mean_strokes": 6.536,
+          "seconds": 0.6285207929995522,
+          "bytes": 3060625,
+          "result_sha256": "05170c6d3094837a32b4bd224aa64a455cb91678f03315c9456716da278096b6"
+        },
+        {
+          "seed": 11794017,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 111,
+          "mean_strokes": 6.523,
+          "seconds": 0.41826082000079623,
+          "bytes": 2703966,
+          "result_sha256": "630e0396d0aed965252c60d28c6b4d66404065fed67a7fcc75791f85deb9c20d"
+        },
+        {
+          "seed": 11794018,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 88,
+          "mean_strokes": 8.045,
+          "seconds": 0.4313687630001368,
+          "bytes": 2762576,
+          "result_sha256": "fb973bb5e0dce5109b6834d95e56d688df21ee02178180f84fafbc997cb6ca6c"
+        },
+        {
+          "seed": 11794019,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 114,
+          "mean_strokes": 7.0,
+          "seconds": 0.595873352000126,
+          "bytes": 3023285,
+          "result_sha256": "2bb915cebfa5a709c1125504be693653dad35cda706ac4113a3fbcf513cd603b"
+        },
+        {
+          "seed": 11794020,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 115,
+          "mean_strokes": 6.965,
+          "seconds": 0.5838234910006577,
+          "bytes": 3050885,
+          "result_sha256": "ab70fb92805d9ff8e2918b5669dac21a1093e7ff05963fd121a4b7daa0a95c10"
+        },
+        {
+          "seed": 11794021,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 92,
+          "mean_strokes": 7.065,
+          "seconds": 0.29143538899916166,
+          "bytes": 2453894,
+          "result_sha256": "9b7df7fc7617550dbd22d68f767036808ce338af63e10b83b780da6f0cd5309e"
+        },
+        {
+          "seed": 11794022,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 82,
+          "mean_strokes": 7.232,
+          "seconds": 0.3895177030008199,
+          "bytes": 2270704,
+          "result_sha256": "dbd1ea182bfaf1901a7db697be61228fcebc01ed0a3f135038303341bdddd770"
+        },
+        {
+          "seed": 11794023,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 68,
+          "mean_strokes": 7.824,
+          "seconds": 0.23134526400099276,
+          "bytes": 2060480,
+          "result_sha256": "09a5371369738d605b0375aebd63dd0d7f8532cfea42a67679b7a195e8e4ff3d"
+        },
+        {
+          "seed": 11794024,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 128,
+          "mean_strokes": 7.258,
+          "seconds": 0.3920511480009736,
+          "bytes": 3553620,
+          "result_sha256": "68a746a6b4458f3ec9a7715969c7e0af52bbb898fd0c9ce90f309409ae913b59"
+        },
+        {
+          "seed": 11794025,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 118,
+          "mean_strokes": 7.153,
+          "seconds": 0.5099681819992838,
+          "bytes": 3210203,
+          "result_sha256": "ed3fff17d5944cd7036e1e0f9696c5dba32c4e2ad419ab1e52dbe255126d1480"
+        },
+        {
+          "seed": 11794026,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 101,
+          "mean_strokes": 6.911,
+          "seconds": 0.44333477300097,
+          "bytes": 2652519,
+          "result_sha256": "6646338214727fa98583469166365922ed210bfe720ff0d453ca66dab85ef3c7"
+        },
+        {
+          "seed": 11794027,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 91,
+          "mean_strokes": 7.549,
+          "seconds": 0.49659215900101117,
+          "bytes": 2651796,
+          "result_sha256": "f09f81cbd08dc4a84f893fb54badd1923ea2002288d6526c465b02d6b2903e01"
+        },
+        {
+          "seed": 11794028,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 132,
+          "mean_strokes": 7.265,
+          "seconds": 0.5307782229992881,
+          "bytes": 3647777,
+          "result_sha256": "23652c63549405c5d468cc1c7591a822d4c2990c1d68f844a7c4033d9fa119fa"
+        },
+        {
+          "seed": 11794029,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 111,
+          "mean_strokes": 7.414,
+          "seconds": 0.6243410659990332,
+          "bytes": 3146605,
+          "result_sha256": "6af07b27406434779d40d88ae6303f2c0724bdf8ca2b3a9a3e7919cfb7f3d504"
+        },
+        {
+          "seed": 11794030,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 119,
+          "mean_strokes": 6.933,
+          "seconds": 0.49859308099985356,
+          "bytes": 3139984,
+          "result_sha256": "cd8798052a97b81fcfaa17f9afdb7b94ec318fbe134efc081fd9fbe1382b20b6"
+        },
+        {
+          "seed": 11794031,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 79,
+          "mean_strokes": 6.43,
+          "seconds": 0.36912882499927946,
+          "bytes": 1902435,
+          "result_sha256": "cab9f4ad3740d01f8f8322508dad53c238609bab27da34c068c3aada092b485a"
+        },
+        {
+          "seed": 11794032,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 143,
+          "mean_strokes": 6.301,
+          "seconds": 0.50208535999991,
+          "bytes": 3341948,
+          "result_sha256": "a997a1bec3a7672e3ee66c048f069717d794f59560d6ab6daf407d18a7c371da"
+        },
+        {
+          "seed": 11794033,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 67,
+          "mean_strokes": 6.776,
+          "seconds": 0.17534414700094203,
+          "bytes": 1715116,
+          "result_sha256": "8f63c6d4c25059afb81015b195d9634feb3fbc897ce036a2ff1ad707dec2c529"
+        },
+        {
+          "seed": 11794034,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 126,
+          "mean_strokes": 7.389,
+          "seconds": 0.3448969749988464,
+          "bytes": 3566626,
+          "result_sha256": "142ce624b50551b4670bb839ad62abfa4a903ffdfbe9980ebce079e5f849a9df"
+        },
+        {
+          "seed": 11794035,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 74,
+          "mean_strokes": 6.932,
+          "seconds": 0.186477310000555,
+          "bytes": 1945992,
+          "result_sha256": "e44502914b675d7aa69b19b78b4ded909f993945f4a20c3598115350d2e883f2"
+        },
+        {
+          "seed": 11794036,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 129,
+          "mean_strokes": 7.023,
+          "seconds": 0.32542452499910723,
+          "bytes": 3416438,
+          "result_sha256": "65db2da78aab008ce4abb31c1b07b3a04f656c3a3dbb7fd8275bf0407c2e11be"
+        },
+        {
+          "seed": 11794037,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 119,
+          "mean_strokes": 7.807,
+          "seconds": 0.3989899730004254,
+          "bytes": 3592043,
+          "result_sha256": "159a61f6310fbe55e7f3554187e1938c7cdee6bd8daeb0d9786c1a7b4feab16d"
+        },
+        {
+          "seed": 11794038,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 131,
+          "mean_strokes": 6.893,
+          "seconds": 0.31927486499989755,
+          "bytes": 3419900,
+          "result_sha256": "b0b68d76127283c76993c2ccb356fe7c2aef6edf3259ad67fede451926f4b0e8"
+        },
+        {
+          "seed": 11794039,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 96,
+          "mean_strokes": 6.781,
+          "seconds": 0.23035808200074825,
+          "bytes": 2440292,
+          "result_sha256": "f96ef7785c8d3dc369f20d735053b45977b80b19fb4824c406d3311ebeae2880"
+        },
+        {
+          "seed": 11794040,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 81,
+          "mean_strokes": 6.481,
+          "seconds": 0.18354451399864047,
+          "bytes": 1956932,
+          "result_sha256": "47d4779fb2ae60cd5cc8486ea0f614fef446750a6d005dd733130d0359252bf6"
+        },
+        {
+          "seed": 11794041,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 110,
+          "mean_strokes": 6.018,
+          "seconds": 0.27479865699933725,
+          "bytes": 2449476,
+          "result_sha256": "afffeaddea2ef76bb20ceaf5b38f38687d95fd81ebc99199c9524e5672f4dd42"
+        },
+        {
+          "seed": 11794042,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 126,
+          "mean_strokes": 6.492,
+          "seconds": 0.32822581700020237,
+          "bytes": 3067222,
+          "result_sha256": "d86b5fec91c26768c083307a7352c5ea9ea1eb5da6674d67d25c97ed78383e7f"
+        },
+        {
+          "seed": 11794043,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 122,
+          "mean_strokes": 7.811,
+          "seconds": 0.41131141500045487,
+          "bytes": 3691530,
+          "result_sha256": "2f5a24b6dec7f2880bbf8df1c978e89925c33b90ad236d206b6f52bf05a733a5"
+        },
+        {
+          "seed": 11794044,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 95,
+          "mean_strokes": 7.747,
+          "seconds": 0.35088061299939,
+          "bytes": 2843203,
+          "result_sha256": "698bf3d985dec545b518da88c621ef4c658f5946712b982f696e61a73bf59dca"
+        },
+        {
+          "seed": 11794045,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 55,
+          "mean_strokes": 7.509,
+          "seconds": 0.20757285699983186,
+          "bytes": 1600701,
+          "result_sha256": "0c55379ecd2005ca6ed53745a3a259fe1a52fe049865c62b0bd71b8da7c7c56b"
+        },
+        {
+          "seed": 11794046,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 76,
+          "mean_strokes": 7.026,
+          "seconds": 0.2230572940006823,
+          "bytes": 2035436,
+          "result_sha256": "3fea23837e050890202c98b9a05d2156c564f7771f8c2f3094acaee4e9cf471a"
+        },
+        {
+          "seed": 11794047,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 112,
+          "mean_strokes": 7.438,
+          "seconds": 0.3285649800000101,
+          "bytes": 3188764,
+          "result_sha256": "2b420245bfa0adabd14b352612c65d4e20b309b9484826004fac0f82eb04a526"
+        },
+        {
+          "seed": 11794048,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 133,
+          "mean_strokes": 7.406,
+          "seconds": 0.436129241999879,
+          "bytes": 3757543,
+          "result_sha256": "1d9614276e135493fb340d2c654b6af30e2a906a29632ddd3640ee29de669fb9"
+        },
+        {
+          "seed": 11794049,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 111,
+          "mean_strokes": 7.73,
+          "seconds": 0.32534888700138254,
+          "bytes": 3305721,
+          "result_sha256": "3d0de64d38997f1815a79a8c6746b5af69b4d009d34f752aa532e4f82e9ab9f4"
+        },
+        {
+          "seed": 11794050,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 114,
+          "mean_strokes": 6.825,
+          "seconds": 0.3370036270007404,
+          "bytes": 2940048,
+          "result_sha256": "8cea2bde59b35ae414a122ec281400601b2d7d4d57a1b024023cb2a862b41779"
+        },
+        {
+          "seed": 11794051,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 109,
+          "mean_strokes": 7.514,
+          "seconds": 0.2916375529985089,
+          "bytes": 3151209,
+          "result_sha256": "e41db6b7b1bb38b1939698a6bcfdd104453221aabf0ec8628f63f490dfe1e8f6"
+        },
+        {
+          "seed": 11794052,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 94,
+          "mean_strokes": 7.298,
+          "seconds": 0.25070701999902667,
+          "bytes": 2614398,
+          "result_sha256": "67206aed1ebc464d9e20806369ee03f5a2a5f334c563b823b115b63adf42c7ee"
+        },
+        {
+          "seed": 11794053,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 85,
+          "mean_strokes": 6.024,
+          "seconds": 0.23915556500105595,
+          "bytes": 1891495,
+          "result_sha256": "57e63dd7878049e2b1d16e6b8108eecdf760e1a04f7497860588ff90d27927b2"
+        },
+        {
+          "seed": 11794054,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 68,
+          "mean_strokes": 6.338,
+          "seconds": 0.3760003980005422,
+          "bytes": 1611325,
+          "result_sha256": "5116c1d3fdf79318f50daddb30d70d3bd76f8dce0f36cbcea2ac9caf9595b570"
+        },
+        {
+          "seed": 11794055,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 84,
+          "mean_strokes": 7.226,
+          "seconds": 0.3198104719995172,
+          "bytes": 2318256,
+          "result_sha256": "af020bbd6240628a695dcc1b0ac3aa08e6792d4596343e3464b72d86eae878dc"
+        },
+        {
+          "seed": 11794056,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 98,
+          "mean_strokes": 7.459,
+          "seconds": 0.678058092998981,
+          "bytes": 2791682,
+          "result_sha256": "b0b4b2df8d3c33a314d63d8702577ab3a5e4aa0c059cdbc1f9e86bdb21ea296b"
+        },
+        {
+          "seed": 11794057,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 67,
+          "mean_strokes": 8.164,
+          "seconds": 0.6988016389987024,
+          "bytes": 2128591,
+          "result_sha256": "ad4f250814ab3cefc893dfadee8f35c065767502091e7d8f9d57e81018c414b3"
+        },
+        {
+          "seed": 11794058,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 79,
+          "mean_strokes": 8.076,
+          "seconds": 1.2536613680003938,
+          "bytes": 2488278,
+          "result_sha256": "12a025fc8a71d9f5ab91e7ac5d6c56067a906255273d78e6e5fd15125dd4332f"
+        },
+        {
+          "seed": 11794059,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 95,
+          "mean_strokes": 7.126,
+          "seconds": 0.9937711380007386,
+          "bytes": 2561692,
+          "result_sha256": "332630580f3ae23925939f52ea801aab2ce3bdf3835fce41f10c3c516a20d9e4"
+        },
+        {
+          "seed": 11794060,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 117,
+          "mean_strokes": 7.932,
+          "seconds": 1.5672754919996805,
+          "bytes": 3601729,
+          "result_sha256": "8a874e2da7cf3097349e9d2d5614d069321b0b9439be42c286d959e249f49d40"
+        },
+        {
+          "seed": 11794061,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 96,
+          "mean_strokes": 6.583,
+          "seconds": 1.0868477140011237,
+          "bytes": 2374482,
+          "result_sha256": "8f1e3b102a680ba2902a55f57afc09b1dc1ed380590b1f7d9fda0a4422600172"
+        },
+        {
+          "seed": 11794062,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 129,
+          "mean_strokes": 7.109,
+          "seconds": 1.472939724999378,
+          "bytes": 3470034,
+          "result_sha256": "4cbc12bfa5a97f3cfc4e6aa6719b64dcfbbad1e30230e1c844f4a1c5c4511272"
+        },
+        {
+          "seed": 11794063,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 144,
+          "mean_strokes": 6.715,
+          "seconds": 1.1515001010011474,
+          "bytes": 3643270,
+          "result_sha256": "dd16b669389c6f45e2e36d17d6351446cdc84e8b384c3cb7dcef4f5108518e2e"
+        }
+      ]
+    },
+    "equal_right_left": {
+      "light": [
+        {
+          "seed": 11795000,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 113,
+          "mean_strokes": 6.10619,
+          "seconds": 0.024256657001387794,
+          "bytes": 9299,
+          "result_sha256": "1c5606b4601839f1a1e2592e9949d622208de6ab3029cefcbc3cbecd39889552"
+        },
+        {
+          "seed": 11795001,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 103,
+          "mean_strokes": 5.84466,
+          "seconds": 0.03853606899974693,
+          "bytes": 9322,
+          "result_sha256": "22c01fcdf37c86dcfe4630401d6857dddccb9e902fe713098b2aafa8de4caa0b"
+        },
+        {
+          "seed": 11795002,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 113,
+          "mean_strokes": 6.10619,
+          "seconds": 0.027767845000198577,
+          "bytes": 9299,
+          "result_sha256": "7d3fd641ccc0cfd2d18d3749c9b0f121df4607541d4b6cb48dfd2f4344a7655d"
+        },
+        {
+          "seed": 11795003,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 69,
+          "mean_strokes": 5.75362,
+          "seconds": 0.01144181000017852,
+          "bytes": 6911,
+          "result_sha256": "1b5714073c5e10600f3e3221890defe243c71c76bae436e1a5f58fa4bb98ec64"
+        },
+        {
+          "seed": 11795004,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 122,
+          "mean_strokes": 5.92623,
+          "seconds": 0.013850908000677009,
+          "bytes": 9502,
+          "result_sha256": "d4771319c4042b86fea7cc70f2dc9a29a82f39c6d7b0fc5c0ae7eb920d05d350"
+        },
+        {
+          "seed": 11795005,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 83,
+          "mean_strokes": 6.78313,
+          "seconds": 0.008408202000282472,
+          "bytes": 8241,
+          "result_sha256": "6a182ddd526bb2918186ac0a95ad8b552989498639310966add38fb28274f79a"
+        },
+        {
+          "seed": 11795006,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 130,
+          "mean_strokes": 5.43846,
+          "seconds": 0.013375911999901291,
+          "bytes": 10636,
+          "result_sha256": "66c6bca2bb0f5fecf2eb885508bc0d47bbefdd6e7381aaf5dbf4680fea3a0e65"
+        },
+        {
+          "seed": 11795007,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 110,
+          "mean_strokes": 5.8,
+          "seconds": 0.011712598001395236,
+          "bytes": 9351,
+          "result_sha256": "8b4024ebf12a5fe86d9cb6c9c36a00bcb34ecb68cb605cfa6db360c96c95cecf"
+        },
+        {
+          "seed": 11795008,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 114,
+          "mean_strokes": 5.92105,
+          "seconds": 0.03262291600003664,
+          "bytes": 9379,
+          "result_sha256": "50975cf5348dd848be5522b8cb10d17ba69d5127829884b88c23971304b6e27a"
+        },
+        {
+          "seed": 11795009,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 130,
+          "mean_strokes": 5.50769,
+          "seconds": 0.014116046999333776,
+          "bytes": 10457,
+          "result_sha256": "bab980af4b7be3da248b248fcb61f83a88c74c0f97bd119894ed80949cbb7a30"
+        },
+        {
+          "seed": 11795010,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 80,
+          "mean_strokes": 5.3625,
+          "seconds": 0.008740231998672243,
+          "bytes": 7097,
+          "result_sha256": "cb6c6ba6fd3cd53397d214ab5a30642b5c00c973fb17eada1cf54e9c6203fac6"
+        },
+        {
+          "seed": 11795011,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 83,
+          "mean_strokes": 6.55422,
+          "seconds": 0.009204931999192922,
+          "bytes": 8109,
+          "result_sha256": "9fdf67a0e4c8672c0bf5f37f040ee20a5ca7fe9edf790eb2ee0a1e4ee923c0d6"
+        },
+        {
+          "seed": 11795012,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 131,
+          "mean_strokes": 6.0229,
+          "seconds": 0.046577869999964605,
+          "bytes": 9380,
+          "result_sha256": "e3f2d3aaac642e408d1815e17ceb0664472f939683f187e7f3874a315be5ad7e"
+        },
+        {
+          "seed": 11795013,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 149,
+          "mean_strokes": 6.03356,
+          "seconds": 0.014944444001230295,
+          "bytes": 10450,
+          "result_sha256": "06f83a726b5df2d8a14dc48df9839b92fca5d8e44a11087e057a7680e0c6a8c4"
+        },
+        {
+          "seed": 11795014,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 104,
+          "mean_strokes": 6.95192,
+          "seconds": 0.00997453099989798,
+          "bytes": 9293,
+          "result_sha256": "aea0865d9db29d86555703c1309771432315fc8a401ff237d67b5e6d72e18892"
+        },
+        {
+          "seed": 11795015,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 113,
+          "mean_strokes": 6.07965,
+          "seconds": 0.012118848999307374,
+          "bytes": 9390,
+          "result_sha256": "8682a732f2a2c27295774d3021f18f3ea2c29063be89ea6e7789256122bbfb0b"
+        },
+        {
+          "seed": 11795016,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 80,
+          "mean_strokes": 5.9625,
+          "seconds": 0.013160047001292696,
+          "bytes": 6965,
+          "result_sha256": "dbffda99c5b94a430306c894032846c311ae85f84bc59ab9bed7340a6a3b8eec"
+        },
+        {
+          "seed": 11795017,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 121,
+          "mean_strokes": 5.67769,
+          "seconds": 0.011633337999228388,
+          "bytes": 10411,
+          "result_sha256": "96d72a215b5839f07d00cfc2380855e1406c50a1c3b394f0dc1eff066e38af69"
+        },
+        {
+          "seed": 11795018,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 95,
+          "mean_strokes": 5.63158,
+          "seconds": 0.015749877000416745,
+          "bytes": 8245,
+          "result_sha256": "467b26dbde5ec505d15392b35f100a61bf3ab9ed9aea05e1c013e11d4c1992bf"
+        },
+        {
+          "seed": 11795019,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 127,
+          "mean_strokes": 5.79528,
+          "seconds": 0.02086166400113143,
+          "bytes": 10394,
+          "result_sha256": "e9487b871c08ad56d6a3199078d73a3375044544de7dfedfcbe24ec3d9620174"
+        },
+        {
+          "seed": 11795020,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 119,
+          "mean_strokes": 5.97479,
+          "seconds": 0.01259888200002024,
+          "bytes": 9397,
+          "result_sha256": "a111fc1c5505d7ff69f7b1229db417f0cda3be2b5da2ed9f51bcf862c090d81e"
+        },
+        {
+          "seed": 11795021,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 110,
+          "mean_strokes": 5.77273,
+          "seconds": 0.011759990000427933,
+          "bytes": 9351,
+          "result_sha256": "2baa6e8cc33d0057838319882050b9f2bc188af2553d906db650cc5ac0fbd7fe"
+        },
+        {
+          "seed": 11795022,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 85,
+          "mean_strokes": 6.44706,
+          "seconds": 0.009643721999964328,
+          "bytes": 8159,
+          "result_sha256": "f61d5866ee28c864a9087b18afc5dd88d487d2a0511ddde56ebec74615ee6c3c"
+        },
+        {
+          "seed": 11795023,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 96,
+          "mean_strokes": 5.97917,
+          "seconds": 0.010033249000116484,
+          "bytes": 9208,
+          "result_sha256": "4384c3f99000e70e22982e6baabcc3dce030ed747e7c1a8ae9be2659040f38e0"
+        },
+        {
+          "seed": 11795024,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 90,
+          "mean_strokes": 5.58889,
+          "seconds": 0.009301046000473434,
+          "bytes": 8129,
+          "result_sha256": "93dcbc43073c38d7850930e0835a78ffcb24aba7a8a33dce185aac5a1ade9350"
+        },
+        {
+          "seed": 11795025,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 75,
+          "mean_strokes": 5.97333,
+          "seconds": 0.008430916001088917,
+          "bytes": 6929,
+          "result_sha256": "8644023a8087091bd80ac5e1585046a618281677ffbc52dc872476a68514a4b1"
+        },
+        {
+          "seed": 11795026,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 94,
+          "mean_strokes": 5.21277,
+          "seconds": 0.009223458999258582,
+          "bytes": 8231,
+          "result_sha256": "8cb4df8105e32bf517418ffa8d4d36dd4ed8f029c61727e21a9b0a481bf68491"
+        },
+        {
+          "seed": 11795027,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 93,
+          "mean_strokes": 5.87097,
+          "seconds": 0.011232484999709413,
+          "bytes": 8239,
+          "result_sha256": "759e3dad4b26db6eae2d089d7d9d771875b28fe1bacd7c2cf5e8e505a761f2d2"
+        },
+        {
+          "seed": 11795028,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 110,
+          "mean_strokes": 6.14545,
+          "seconds": 0.011396622001484502,
+          "bytes": 9499,
+          "result_sha256": "ef92a5ac37ef04113a09ebe0d90636bd549713b86d6cc87e7ab8ade525087b1d"
+        },
+        {
+          "seed": 11795029,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 88,
+          "mean_strokes": 5.97727,
+          "seconds": 0.00960369200038258,
+          "bytes": 8083,
+          "result_sha256": "793103b51a12c4fbf2b39bdacf9b7e893dab287162648597a5530dec98c8aedb"
+        },
+        {
+          "seed": 11795030,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 112,
+          "mean_strokes": 6.14286,
+          "seconds": 0.011821121001048596,
+          "bytes": 9388,
+          "result_sha256": "01d0b5bb6f5cd5c7c35a54bf2cdec615b84adaaf9b5d84937072bc48b4da10f1"
+        },
+        {
+          "seed": 11795031,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 121,
+          "mean_strokes": 5.42975,
+          "seconds": 0.013381681001192192,
+          "bytes": 9295,
+          "result_sha256": "31c1dc0285e3f5ee29f31d79f3865310ba3b4ec14e2dde2f66a07414255e24d2"
+        },
+        {
+          "seed": 11795032,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 88,
+          "mean_strokes": 6.13636,
+          "seconds": 0.00965142399945762,
+          "bytes": 6985,
+          "result_sha256": "51f98d34bfe0e1cca30f1cf3be40c1b0dca36e250e06a131ead55ec484f1d788"
+        },
+        {
+          "seed": 11795033,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 108,
+          "mean_strokes": 6.35185,
+          "seconds": 0.01154669700008526,
+          "bytes": 9311,
+          "result_sha256": "7fcbe55e90d69841f517f95dd679dc35d1ea5bf88f50dec29e6eabdd0e834084"
+        },
+        {
+          "seed": 11795034,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 120,
+          "mean_strokes": 6.1,
+          "seconds": 0.012257278000106453,
+          "bytes": 10546,
+          "result_sha256": "6337573c8288438e01802709f57ea48a4f361a46b75412cf22a26033e2fde419"
+        },
+        {
+          "seed": 11795035,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 134,
+          "mean_strokes": 5.75373,
+          "seconds": 0.013586478999059182,
+          "bytes": 10539,
+          "result_sha256": "41429c5090b92094c9547b66579a8e3a84351ed3f357a7d70a5037f740374aa5"
+        },
+        {
+          "seed": 11795036,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 114,
+          "mean_strokes": 5.74561,
+          "seconds": 0.012144027001340874,
+          "bytes": 9255,
+          "result_sha256": "a0b9ae7d642eddb4e8e9a5a04a67332c503cfa867dfc27fb7868f99db5bbb8a2"
+        },
+        {
+          "seed": 11795037,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 80,
+          "mean_strokes": 6.1875,
+          "seconds": 0.008943548000388546,
+          "bytes": 6947,
+          "result_sha256": "5c5665f5a43459341796692ea8db6710a15908da31e0406435e5ed50690c6433"
+        },
+        {
+          "seed": 11795038,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 79,
+          "mean_strokes": 5.96203,
+          "seconds": 0.008774593999987701,
+          "bytes": 6942,
+          "result_sha256": "04d47e0771be1419701a2f00f332e7fa5e5a7391d1496435cc81a42dd11540f9"
+        },
+        {
+          "seed": 11795039,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 108,
+          "mean_strokes": 5.96296,
+          "seconds": 0.011342519999743672,
+          "bytes": 8108,
+          "result_sha256": "32b0b4224cf81a49aff03a724bb70a3e95d0f9d09bbd5d8bd5909b986090b24e"
+        },
+        {
+          "seed": 11795040,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 84,
+          "mean_strokes": 5.88095,
+          "seconds": 0.008859661998940283,
+          "bytes": 8271,
+          "result_sha256": "18770d2362f8095139f6e9a751c664650f1bce60c5cc2f50fb1853d67d9929bf"
+        },
+        {
+          "seed": 11795041,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 118,
+          "mean_strokes": 6.02542,
+          "seconds": 0.012329246001172578,
+          "bytes": 10405,
+          "result_sha256": "b0294b5d86594663172a716b5747a68802e5c7be95eb2a548f2c7ae72dff9c97"
+        },
+        {
+          "seed": 11795042,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 82,
+          "mean_strokes": 5.42683,
+          "seconds": 0.008514993000062532,
+          "bytes": 8089,
+          "result_sha256": "8087352cdbc7a9f4fad4eeeebf70659d2563e8e64b0de6235f12c016df43b042"
+        },
+        {
+          "seed": 11795043,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 95,
+          "mean_strokes": 5.76842,
+          "seconds": 0.010418108000521897,
+          "bytes": 8082,
+          "result_sha256": "23ee3ecfe1d6ef166c8beb9d7f906a6c89bd631acfcb8b56154bf74b8a0884bf"
+        },
+        {
+          "seed": 11795044,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 132,
+          "mean_strokes": 6.18182,
+          "seconds": 0.015772201000800123,
+          "bytes": 10504,
+          "result_sha256": "fa4ebecf6778d15ea91a1fe89740518538e9b325c55a4880d7d9ea6448276827"
+        },
+        {
+          "seed": 11795045,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 124,
+          "mean_strokes": 6.08065,
+          "seconds": 0.013083251998978085,
+          "bytes": 9313,
+          "result_sha256": "9e7433f1db7c283e23f4e015b795471e35e2678efc360a470bf5257d17ef8bef"
+        },
+        {
+          "seed": 11795046,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 136,
+          "mean_strokes": 6.34559,
+          "seconds": 0.015266831000189995,
+          "bytes": 10540,
+          "result_sha256": "8c00108300e2e558e64f82499a32389a74eae95006d27d7709acd4f584bc652e"
+        },
+        {
+          "seed": 11795047,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 98,
+          "mean_strokes": 5.30612,
+          "seconds": 0.010642186000040965,
+          "bytes": 8143,
+          "result_sha256": "9754adcb9e9624641589b7a37fc58df8eda03204d499cbb1efc827e52c14cfa1"
+        },
+        {
+          "seed": 11795048,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 114,
+          "mean_strokes": 6.17544,
+          "seconds": 0.01266633400155115,
+          "bytes": 9284,
+          "result_sha256": "4b76f7f984e6823740c24e7c7f8cd6f189f5cb784f4ab00f00061b23a64274bc"
+        },
+        {
+          "seed": 11795049,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 116,
+          "mean_strokes": 6.16379,
+          "seconds": 0.012399261999235023,
+          "bytes": 9294,
+          "result_sha256": "ab28d17c633d668a3af6d4f5169d857a679f9428d25f994a1680f68404bea47c"
+        },
+        {
+          "seed": 11795050,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 123,
+          "mean_strokes": 5.07317,
+          "seconds": 0.012762499000018579,
+          "bytes": 9220,
+          "result_sha256": "6cc0319dd0acd8e8dd6347ad43bb0b647abbc80eb166c45db32735d38ac8b7a2"
+        },
+        {
+          "seed": 11795051,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 97,
+          "mean_strokes": 5.5567,
+          "seconds": 0.010580783000477822,
+          "bytes": 8306,
+          "result_sha256": "5b1f65668fcc6606059905f5daa3b7d338b27c97b1ddd8b45221a4dede303b39"
+        },
+        {
+          "seed": 11795052,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 113,
+          "mean_strokes": 5.95575,
+          "seconds": 0.012614576000487432,
+          "bytes": 9283,
+          "result_sha256": "7c2f1109d83e886df9a35d51a576067c4746654609d481b5ff88fe455270c95e"
+        },
+        {
+          "seed": 11795053,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 93,
+          "mean_strokes": 5.94624,
+          "seconds": 0.010069773999930476,
+          "bytes": 8080,
+          "result_sha256": "4b35b75d2ce2dba7247d42a64866cbdbccbbf329f960eff66f81719fd99e2d14"
+        },
+        {
+          "seed": 11795054,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 72,
+          "mean_strokes": 6.22222,
+          "seconds": 0.008147729999109288,
+          "bytes": 6949,
+          "result_sha256": "1aef3497fe8fb62433cdf789c5f5829edd6ea12bf285d1d4c8002224708fba33"
+        },
+        {
+          "seed": 11795055,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 114,
+          "mean_strokes": 6.01754,
+          "seconds": 0.011373086999810766,
+          "bytes": 9278,
+          "result_sha256": "aefa2be2ecb81219af4e7a669a30cdcb9df09d836fac365d6c1690cfdb8e4d6a"
+        },
+        {
+          "seed": 11795056,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 91,
+          "mean_strokes": 5.52747,
+          "seconds": 0.00972152900067158,
+          "bytes": 8115,
+          "result_sha256": "54b482d7fa021ddac1da1fa436c2abea75af209eb16e4d85b2feb23198f71328"
+        },
+        {
+          "seed": 11795057,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 93,
+          "mean_strokes": 5.63441,
+          "seconds": 0.011005143000147655,
+          "bytes": 8205,
+          "result_sha256": "de16ec34897ade621329acbee594ae74ead7d7af878e6d8ea960d01215fa82fb"
+        },
+        {
+          "seed": 11795058,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 92,
+          "mean_strokes": 6.04348,
+          "seconds": 0.010566040999037796,
+          "bytes": 8138,
+          "result_sha256": "a09a3d08c57a1394995cc8859b73932220e6a573f39df90e487034408063386d"
+        },
+        {
+          "seed": 11795059,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 101,
+          "mean_strokes": 5.68317,
+          "seconds": 0.009911385001032613,
+          "bytes": 9268,
+          "result_sha256": "3bf01729374ba947a46c1a198e9ca3764d8c882113772146c47749ba1ec9ccff"
+        },
+        {
+          "seed": 11795060,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 88,
+          "mean_strokes": 5.01136,
+          "seconds": 0.009177590000035707,
+          "bytes": 8071,
+          "result_sha256": "bd388a6cabf4591e122cc75af90adc2f987fc606a14fffb32d8f83e5426b7f79"
+        },
+        {
+          "seed": 11795061,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 138,
+          "mean_strokes": 6.04348,
+          "seconds": 0.014010958999278955,
+          "bytes": 10460,
+          "result_sha256": "fd10f253b8e68374747ff5457597a11d0d2bcdcbc2359aa4d903de54c6a85719"
+        },
+        {
+          "seed": 11795062,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 122,
+          "mean_strokes": 5.59016,
+          "seconds": 0.013092977000269457,
+          "bytes": 10546,
+          "result_sha256": "34e84960db2cb775a3575ffd77b363b2a3afd9f4a64d19000ebce3eb3022da22"
+        },
+        {
+          "seed": 11795063,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 122,
+          "mean_strokes": 6.2459,
+          "seconds": 0.01292564399955154,
+          "bytes": 9308,
+          "result_sha256": "a9a98e54507f100f5299092f736a01c61a246b76f7623cb5197e6e1a635886ab"
+        }
+      ],
+      "detailed": [
+        {
+          "seed": 11795000,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 67,
+          "mean_strokes": 4.313,
+          "seconds": 0.23779387899958238,
+          "bytes": 991457,
+          "result_sha256": "4e9eca5245d9828ef949c387c8630a4818f690fcb39be6cd82963735600df674"
+        },
+        {
+          "seed": 11795001,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 137,
+          "mean_strokes": 5.153,
+          "seconds": 0.42488781700012623,
+          "bytes": 2514427,
+          "result_sha256": "337b0e427c7a73d92e35f9355d490ff42616eeb89605873a4fba4808fb587fec"
+        },
+        {
+          "seed": 11795002,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 79,
+          "mean_strokes": 4.013,
+          "seconds": 0.11347057299826702,
+          "bytes": 1080330,
+          "result_sha256": "da8f23920a74221adec7b0c99d3db8a347ea068804868e398fba16e451442ede"
+        },
+        {
+          "seed": 11795003,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 110,
+          "mean_strokes": 4.682,
+          "seconds": 0.28151114800130017,
+          "bytes": 1784645,
+          "result_sha256": "f1218312883d0438748ba40cd75e74d1203aedfadf1471c9c21f5ef5054c2cce"
+        },
+        {
+          "seed": 11795004,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 133,
+          "mean_strokes": 4.85,
+          "seconds": 0.41000517300017236,
+          "bytes": 2264222,
+          "result_sha256": "1ef7eb66b38e536ae5cc4836a6e95783f53238ed3ccbf8df9b00a6e048e9a84d"
+        },
+        {
+          "seed": 11795005,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 86,
+          "mean_strokes": 4.349,
+          "seconds": 0.14394623399857664,
+          "bytes": 1293015,
+          "result_sha256": "363bd4c827634a2febba8a0675046c54086fe605d9fab5fcf102b9d86d239251"
+        },
+        {
+          "seed": 11795006,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 98,
+          "mean_strokes": 4.296,
+          "seconds": 0.13287707599920395,
+          "bytes": 1452628,
+          "result_sha256": "579857479991c701e88af32d53e4e8d983a112a9a653c0312dca8f99168f5dc4"
+        },
+        {
+          "seed": 11795007,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 113,
+          "mean_strokes": 3.947,
+          "seconds": 0.1607857220005826,
+          "bytes": 1481321,
+          "result_sha256": "4058dd4720a7ad4673da11765d97d70b1cf99f7bd9d7f74c72c0d6232e88958e"
+        },
+        {
+          "seed": 11795008,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 134,
+          "mean_strokes": 4.321,
+          "seconds": 0.24640562000058708,
+          "bytes": 1968015,
+          "result_sha256": "8088bd28a7666c58edbace97e5c15a1a5075ccc297758d9dbc7efca68b51c49b"
+        },
+        {
+          "seed": 11795009,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 99,
+          "mean_strokes": 4.253,
+          "seconds": 0.17730973600009747,
+          "bytes": 1441701,
+          "result_sha256": "aaae7c37aa2f5c3e1b0fbfc4efdf8fc92c07003a3a0a73341f96b6aa9cd6d8c8"
+        },
+        {
+          "seed": 11795010,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 99,
+          "mean_strokes": 5.051,
+          "seconds": 0.27198005100035516,
+          "bytes": 1798687,
+          "result_sha256": "f357d76be118c4553c26f76b3665beab8bb17e4538bc7bb78deb9db10a992856"
+        },
+        {
+          "seed": 11795011,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 141,
+          "mean_strokes": 4.922,
+          "seconds": 0.34935430200130213,
+          "bytes": 2428982,
+          "result_sha256": "498f68cfee83ae25d48f1385b328f30b5f3beea4a0d10c1121948c278780f091"
+        },
+        {
+          "seed": 11795012,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 110,
+          "mean_strokes": 5.282,
+          "seconds": 0.2905545379999239,
+          "bytes": 2093766,
+          "result_sha256": "da86e30716360051e4f0e03c76f40b09e3d76f7509971b9f4c4ed0ce61bd68f8"
+        },
+        {
+          "seed": 11795013,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 111,
+          "mean_strokes": 4.523,
+          "seconds": 0.2051131930002157,
+          "bytes": 1747212,
+          "result_sha256": "6977517fa66bddced36fbcd42826e7af7637c7add410f0e9c13a1c69b8887397"
+        },
+        {
+          "seed": 11795014,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 104,
+          "mean_strokes": 4.462,
+          "seconds": 0.18899784600034764,
+          "bytes": 1604068,
+          "result_sha256": "6243949452a0ac69a0ae37adac8b7607d7ff9b037daa8a0278d82c26a51bd00c"
+        },
+        {
+          "seed": 11795015,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 95,
+          "mean_strokes": 4.579,
+          "seconds": 0.26779267200072354,
+          "bytes": 1511241,
+          "result_sha256": "0e4103180ccd72c4eab41e8ba3814c1bec5e3b55d0e6aa127d35212024dfd5d6"
+        },
+        {
+          "seed": 11795016,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 65,
+          "mean_strokes": 4.415,
+          "seconds": 0.18251026699908834,
+          "bytes": 1005733,
+          "result_sha256": "ec0e3ec995f60e1015d430deb5de291f48b8f9813560a033d671ec46ee3e6952"
+        },
+        {
+          "seed": 11795017,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 138,
+          "mean_strokes": 4.551,
+          "seconds": 0.2807110029989417,
+          "bytes": 2204652,
+          "result_sha256": "9f20b5c6aea3c678573a98a968c55be68d0cb6e27a593a803cdebfc4793949b4"
+        },
+        {
+          "seed": 11795018,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 87,
+          "mean_strokes": 4.471,
+          "seconds": 0.19665747999897576,
+          "bytes": 1340175,
+          "result_sha256": "0c98b4b3ba686143a8cd64e1773cd935551efebb5ec9c57a7b136dddacb2d91a"
+        },
+        {
+          "seed": 11795019,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 109,
+          "mean_strokes": 4.844,
+          "seconds": 0.25025857600121526,
+          "bytes": 1852141,
+          "result_sha256": "3dbb3221962cc5f8a2111b7dd832369557c92a9e361c08e491f938bc308a1eab"
+        },
+        {
+          "seed": 11795020,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 105,
+          "mean_strokes": 4.581,
+          "seconds": 0.2394202809991839,
+          "bytes": 1675595,
+          "result_sha256": "d6547f2c061241eb920fe95efacbbd31db7490f32856efea215baa14340d5cd5"
+        },
+        {
+          "seed": 11795021,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 121,
+          "mean_strokes": 4.488,
+          "seconds": 0.23033818900148617,
+          "bytes": 1841133,
+          "result_sha256": "ce9ea03b4335f795b21ee7702ece39eb038a332b2128b506b825af1a68c38488"
+        },
+        {
+          "seed": 11795022,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 128,
+          "mean_strokes": 4.305,
+          "seconds": 0.3050270069998078,
+          "bytes": 1882250,
+          "result_sha256": "40f6388c0af4412eca692cac2152fb71a90e4c2c8870b3ea56b99f5caa79e315"
+        },
+        {
+          "seed": 11795023,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 106,
+          "mean_strokes": 4.613,
+          "seconds": 0.24235423900063324,
+          "bytes": 1687849,
+          "result_sha256": "8f7bf7ec9c5eb53644eba2e87cdb7c44f3b874471beddbeb1c6782a669133d51"
+        },
+        {
+          "seed": 11795024,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 104,
+          "mean_strokes": 4.452,
+          "seconds": 0.1691609839999728,
+          "bytes": 1609007,
+          "result_sha256": "95eb5f114050dd4ecc418987cb20b150dc80ec102fefc9934d35139028aac24f"
+        },
+        {
+          "seed": 11795025,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 108,
+          "mean_strokes": 4.278,
+          "seconds": 0.20906056800049555,
+          "bytes": 1586349,
+          "result_sha256": "d34459ab61a63b0af08b41e51a56c69ee11cd3c5108d8fc2a0b699811bb70ffa"
+        },
+        {
+          "seed": 11795026,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 126,
+          "mean_strokes": 4.135,
+          "seconds": 0.20306436799910443,
+          "bytes": 1762445,
+          "result_sha256": "3b71e61bed792327675b3370c2713c2914638e0ff39232b8b3e64526dcb33a69"
+        },
+        {
+          "seed": 11795027,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 130,
+          "mean_strokes": 4.892,
+          "seconds": 0.24106262900022557,
+          "bytes": 2250725,
+          "result_sha256": "cc19ca81f95f9f8b34536c3f45df3c67bcc9a2e1dfd03d4fe1c5b977a9bdc8e2"
+        },
+        {
+          "seed": 11795028,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 146,
+          "mean_strokes": 4.459,
+          "seconds": 0.21626910300074087,
+          "bytes": 2230079,
+          "result_sha256": "4f0f0a8ef87f5df0284fdd011183a3fc3952bd106848ee786941b7e4a7700c0b"
+        },
+        {
+          "seed": 11795029,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 122,
+          "mean_strokes": 4.467,
+          "seconds": 0.1820797290001792,
+          "bytes": 1888481,
+          "result_sha256": "b28b65f1cb4b641a9eda507f79d372752ffb2373e7a45b4d2204792bdacb86f8"
+        },
+        {
+          "seed": 11795030,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 126,
+          "mean_strokes": 4.714,
+          "seconds": 0.1920266770011949,
+          "bytes": 2061789,
+          "result_sha256": "d5e104e4a4ed46dd70753cb97b76efbce9d0cee1ee886d436fb11a49de6b4daf"
+        },
+        {
+          "seed": 11795031,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 76,
+          "mean_strokes": 5.211,
+          "seconds": 0.13455002500086266,
+          "bytes": 1421507,
+          "result_sha256": "90084029a7e608e2ea11ba8888ffac92b49ea2c4c0c5a1809581dc50d5031c0d"
+        },
+        {
+          "seed": 11795032,
+          "winner": 1,
+          "games_won": [
+            0,
+            4
+          ],
+          "points": 63,
+          "mean_strokes": 4.254,
+          "seconds": 0.08268269899963343,
+          "bytes": 924557,
+          "result_sha256": "9feb408a1c7f11668dc39ff9f1e90d9a86d2b920b6ee24b81c58251152e9344a"
+        },
+        {
+          "seed": 11795033,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 126,
+          "mean_strokes": 4.206,
+          "seconds": 0.16636667599959765,
+          "bytes": 1797460,
+          "result_sha256": "ed88e0fe80f9a81e1748b08b7d6d86413ef3777d57c82d6d9a47b4cf25825cee"
+        },
+        {
+          "seed": 11795034,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 112,
+          "mean_strokes": 4.018,
+          "seconds": 0.13632421600050293,
+          "bytes": 1502293,
+          "result_sha256": "54644d8862ef88e1a89cf8587f50dd1a0bdcc8353fa7bfaaa4621ba8210dd30c"
+        },
+        {
+          "seed": 11795035,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 118,
+          "mean_strokes": 3.881,
+          "seconds": 0.1526810369996383,
+          "bytes": 1535215,
+          "result_sha256": "8746bc90ab10e913843b7c54beaf6f5ca72a83c78f675d86114092046e313081"
+        },
+        {
+          "seed": 11795036,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 145,
+          "mean_strokes": 4.676,
+          "seconds": 0.24291761099993892,
+          "bytes": 2358992,
+          "result_sha256": "84328616d2a23b7a40ea93e0d5e458bcb9d0b92cb87753fc6a6e384919971283"
+        },
+        {
+          "seed": 11795037,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 86,
+          "mean_strokes": 4.267,
+          "seconds": 0.11804554100126552,
+          "bytes": 1249265,
+          "result_sha256": "b87ce9ec722ee4f0e2a54335fce2c127b1ab292512730dbcc886e761431b4e32"
+        },
+        {
+          "seed": 11795038,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 76,
+          "mean_strokes": 4.039,
+          "seconds": 0.10053149699888309,
+          "bytes": 1047537,
+          "result_sha256": "b7bc97dc5968b0b0e6920bda92d6258f84d1b9ee8357752af3b3d50b1173f56a"
+        },
+        {
+          "seed": 11795039,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 146,
+          "mean_strokes": 4.438,
+          "seconds": 0.23074287800045568,
+          "bytes": 2227520,
+          "result_sha256": "01535dbe55b3821889398ba896e58e9fce4e922e3ec3debc2eb5e56831983fd0"
+        },
+        {
+          "seed": 11795040,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 112,
+          "mean_strokes": 4.696,
+          "seconds": 0.18131565700059582,
+          "bytes": 1857051,
+          "result_sha256": "28ef3ed016bf02c7821698fdce2e29e2392d65eefd0fa09deacd2338d753cf5a"
+        },
+        {
+          "seed": 11795041,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 119,
+          "mean_strokes": 4.555,
+          "seconds": 0.1880240179998509,
+          "bytes": 1902471,
+          "result_sha256": "de6ecfcdb715babf6c9564e8c1b9bddc0f2ec6172908929d11b24289c5488a17"
+        },
+        {
+          "seed": 11795042,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 142,
+          "mean_strokes": 5.028,
+          "seconds": 0.2716032579992316,
+          "bytes": 2521480,
+          "result_sha256": "f8854b3c87f40dec49fc0d770f10c311a504a161be0a6221825841a7424f543c"
+        },
+        {
+          "seed": 11795043,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 126,
+          "mean_strokes": 5.127,
+          "seconds": 0.23804079700130387,
+          "bytes": 2326887,
+          "result_sha256": "651bc274742afe80e3946cd853959ab44c6ce3f240c896fcf6258de120719208"
+        },
+        {
+          "seed": 11795044,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 73,
+          "mean_strokes": 4.041,
+          "seconds": 0.0981035509994399,
+          "bytes": 1008433,
+          "result_sha256": "f19c1cb6cb1c1e9ff2d508a693618bb5040b1db6548caa113df5fc9fe5178e05"
+        },
+        {
+          "seed": 11795045,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 115,
+          "mean_strokes": 4.226,
+          "seconds": 0.17097568700046395,
+          "bytes": 1667465,
+          "result_sha256": "995ea49354a7f37237c412645499ad82030438ef004b4513cd57bf59f6494948"
+        },
+        {
+          "seed": 11795046,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 83,
+          "mean_strokes": 4.398,
+          "seconds": 0.12424493500111566,
+          "bytes": 1255670,
+          "result_sha256": "ba60ae64d9a88824ae1e4e0972b3a40509a0b6568a00f36fc0b0267e1ff3cda1"
+        },
+        {
+          "seed": 11795047,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 84,
+          "mean_strokes": 4.714,
+          "seconds": 0.13350325799910934,
+          "bytes": 1399775,
+          "result_sha256": "ca4bea9ed19dac89cea36195731efca1eb616703cf64a9816996d94b3f9cb144"
+        },
+        {
+          "seed": 11795048,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 113,
+          "mean_strokes": 4.053,
+          "seconds": 0.1495711339994159,
+          "bytes": 1509377,
+          "result_sha256": "1dcda30b5074007e098972f4e1a5ad7baa1e4ca16b2e50aed718eb270ce9e50f"
+        },
+        {
+          "seed": 11795049,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 95,
+          "mean_strokes": 4.021,
+          "seconds": 0.11996922800062748,
+          "bytes": 1284951,
+          "result_sha256": "b8f112bcd7ce86ed7f5b17e62b6dfcb84ea5b9adb98aa490dbf4e85e1eb705b3"
+        },
+        {
+          "seed": 11795050,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 107,
+          "mean_strokes": 5.065,
+          "seconds": 0.19380875999922864,
+          "bytes": 1955391,
+          "result_sha256": "41241ff54249804be06dff90e9d30bb49f572dd004e5620d776c9cb5f6244345"
+        },
+        {
+          "seed": 11795051,
+          "winner": 0,
+          "games_won": [
+            4,
+            3
+          ],
+          "points": 134,
+          "mean_strokes": 4.41,
+          "seconds": 0.19974262499999895,
+          "bytes": 2039491,
+          "result_sha256": "47754b5740fae8a9690bddf95edc5824f9a23edbdfb096e43f6dbd44915d62c8"
+        },
+        {
+          "seed": 11795052,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 122,
+          "mean_strokes": 4.975,
+          "seconds": 0.22050517199932074,
+          "bytes": 2154718,
+          "result_sha256": "5c6a0e49e6a9e16ca908c2ce0d54ea17117bac87456300339036391f2a5026f0"
+        },
+        {
+          "seed": 11795053,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 79,
+          "mean_strokes": 4.671,
+          "seconds": 0.1270784120006283,
+          "bytes": 1279190,
+          "result_sha256": "86ea9c737ffa08ae56e0e3a3608df23c76712a94c58eb6d6c4fe94bb3d0e0239"
+        },
+        {
+          "seed": 11795054,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 92,
+          "mean_strokes": 4.109,
+          "seconds": 0.1314575269989291,
+          "bytes": 1288053,
+          "result_sha256": "3115dd60d691ffdb0b5e59d7c3437b1757ea9e41f5d6b887ae570f1cb1eb1860"
+        },
+        {
+          "seed": 11795055,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 106,
+          "mean_strokes": 4.755,
+          "seconds": 0.18303976300012437,
+          "bytes": 1768658,
+          "result_sha256": "517311ff35b553219a41bda4cd62261b3b38de1af0956b03291e8fa6223669ac"
+        },
+        {
+          "seed": 11795056,
+          "winner": 1,
+          "games_won": [
+            2,
+            4
+          ],
+          "points": 128,
+          "mean_strokes": 4.844,
+          "seconds": 0.2149705069987249,
+          "bytes": 2190884,
+          "result_sha256": "f893591121a65d196f280e84f44de087327faa5a46f22b74e0c4d56e29c2d7ec"
+        },
+        {
+          "seed": 11795057,
+          "winner": 0,
+          "games_won": [
+            4,
+            2
+          ],
+          "points": 105,
+          "mean_strokes": 4.438,
+          "seconds": 0.15529719699952693,
+          "bytes": 1614346,
+          "result_sha256": "b1012801b27a8e2413f97392dce72634eafd6e979f5ab090265747f2aadb6599"
+        },
+        {
+          "seed": 11795058,
+          "winner": 1,
+          "games_won": [
+            3,
+            4
+          ],
+          "points": 122,
+          "mean_strokes": 5.041,
+          "seconds": 0.2143543089987361,
+          "bytes": 2185793,
+          "result_sha256": "fa39cc9760eea684c7d21d730572e6416882a72466988f23a253308ee98a4cd6"
+        },
+        {
+          "seed": 11795059,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 73,
+          "mean_strokes": 4.233,
+          "seconds": 0.10341202500057989,
+          "bytes": 1061218,
+          "result_sha256": "d696bb9ba60a8447c549d17c9d04774b7c8b6fc23c2a6de8303debf5e4f33b75"
+        },
+        {
+          "seed": 11795060,
+          "winner": 0,
+          "games_won": [
+            4,
+            0
+          ],
+          "points": 70,
+          "mean_strokes": 4.471,
+          "seconds": 0.10422259500046493,
+          "bytes": 1116455,
+          "result_sha256": "1e125a91c23e02fca18737238cbb9bdb9ec862dd5a10affae3c0b566c17f84b9"
+        },
+        {
+          "seed": 11795061,
+          "winner": 1,
+          "games_won": [
+            1,
+            4
+          ],
+          "points": 98,
+          "mean_strokes": 4.847,
+          "seconds": 0.15968501399947854,
+          "bytes": 1681213,
+          "result_sha256": "4aa09c0f31031293c3e45246a7bebce08796af60c0f7f57297612c0e105c8b9c"
+        },
+        {
+          "seed": 11795062,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 96,
+          "mean_strokes": 4.51,
+          "seconds": 0.15015093800138857,
+          "bytes": 1513592,
+          "result_sha256": "05b3e632bf8b91f597a91ec79c00a9370e42448af9cfe6881208403b587d8160"
+        },
+        {
+          "seed": 11795063,
+          "winner": 0,
+          "games_won": [
+            4,
+            1
+          ],
+          "points": 100,
+          "mean_strokes": 4.73,
+          "seconds": 0.17777706800006854,
+          "bytes": 1674974,
+          "result_sha256": "3d03395d67055ee9f2d1dc010b76dad547acae738c965e5398748686d7e84e18"
+        }
+      ]
+    }
+  },
+  "memory_one_representative_match_peak_bytes": {
+    "light": 33542,
+    "detailed": 7064842
+  },
+  "source_sha256": {
+    "Game/light_v117.py": "e3a8e5e07466c9703a7caa86e60023d8d62ecc62b30775588a1cb3ff2d1d69f0",
+    "Game/engine_v117.py": "e7cedddcc5ee20e23ad23189912c2901d8f42306bb3bc5fda87970b8e43e1fa1",
+    "examples/benchmark_light_v117.py": "5500b588f62ec4db28d3773ccc14f2361833b2eea39863e3bc0eba47e4302e2b"
+  },
+  "inputs_preserved": true,
+  "conclusions": [
+    "Light simulates exact scoring with an approximate point/contact-pair model.",
+    "Rally length, technical exposures and movement are sampled aggregate estimates, not observed shot traces.",
+    "Winner agreement is not an accuracy score because algorithms consume different random streams.",
+    "A large systematic win-fraction shift is a calibration risk even when size/speed savings are substantial.",
+    "No historical win rate is a target; Xu2013 context retains the explicit 2012 prior baseline."
+  ]
+}

@@ -1,0 +1,3882 @@
+[
+  {
+    "case": "equal_attacking",
+    "mode": "summary",
+    "narrative": {
+      "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+      "text": "赛果收据显示，原创测试员1甲对原创测试员1乙打出2:4，获胜一方为原创测试员1乙。聚合估计平均每分5.47板。在聚合抽样列出的非发球动作家族中，反击是使用最多的家族之一。本世界采用的时代主题为“直板正手体系与横打连续性”。",
+      "sentences": [
+        {
+          "text": "赛果收据显示，原创测试员1甲对原创测试员1乙打出2:4，获胜一方为原创测试员1乙。",
+          "fact_ids": [
+            "participants",
+            "winner",
+            "games_won",
+            "display_name_0",
+            "display_name_1"
+          ]
+        },
+        {
+          "text": "聚合估计平均每分5.47板。",
+          "fact_ids": [
+            "mean_strokes"
+          ]
+        },
+        {
+          "text": "在聚合抽样列出的非发球动作家族中，反击是使用最多的家族之一。",
+          "fact_ids": [
+            "action_families"
+          ]
+        },
+        {
+          "text": "本世界采用的时代主题为“直板正手体系与横打连续性”。",
+          "fact_ids": [
+            "era_theme"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "participants",
+          "kind": "participants",
+          "value": [
+            "narrative_case_0_0",
+            "narrative_case_0_1"
+          ],
+          "evidence_refs": [
+            "match:$.participant_ids"
+          ]
+        },
+        {
+          "id": "winner",
+          "kind": "winner",
+          "value": 1,
+          "evidence_refs": [
+            "match:$.winner"
+          ]
+        },
+        {
+          "id": "games_won",
+          "kind": "games_won",
+          "value": [
+            2,
+            4
+          ],
+          "evidence_refs": [
+            "match:$.games_won"
+          ]
+        },
+        {
+          "id": "display_name_0",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员1甲",
+          "evidence_refs": [
+            "cards:$[0].name_zh"
+          ]
+        },
+        {
+          "id": "display_name_1",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员1乙",
+          "evidence_refs": [
+            "cards:$[1].name_zh"
+          ]
+        },
+        {
+          "id": "mean_strokes",
+          "kind": "ESTIMATED_AGGREGATE",
+          "value": 5.4661,
+          "evidence_refs": [
+            "match:$.mean_strokes"
+          ]
+        },
+        {
+          "id": "action_families",
+          "kind": "ESTIMATED_AGGREGATE",
+          "value": {
+            "serve": 118,
+            "counter": 172,
+            "attack": 112,
+            "block": 140,
+            "lob": 93,
+            "open": 5,
+            "chop": 5
+          },
+          "evidence_refs": [
+            "match:$.action_family_distribution"
+          ]
+        },
+        {
+          "id": "era_theme",
+          "kind": "DESIGN_CONTEXT_NOT_HISTORICAL_PROOF",
+          "value": "直板正手体系与横打连续性",
+          "evidence_refs": [
+            "era:$.era.theme_zh"
+          ]
+        }
+      ],
+      "evidence": {
+        "match:$.participant_ids": {
+          "source": "match",
+          "source_sha256": "c7adccbf7dacc5ca6a643f5f4c244b9db05f685d1c495b14a97304de69f51a98",
+          "path": "$.participant_ids"
+        },
+        "match:$.winner": {
+          "source": "match",
+          "source_sha256": "c7adccbf7dacc5ca6a643f5f4c244b9db05f685d1c495b14a97304de69f51a98",
+          "path": "$.winner"
+        },
+        "match:$.games_won": {
+          "source": "match",
+          "source_sha256": "c7adccbf7dacc5ca6a643f5f4c244b9db05f685d1c495b14a97304de69f51a98",
+          "path": "$.games_won"
+        },
+        "cards:$[0].name_zh": {
+          "source": "cards",
+          "source_sha256": "76ec09c5dc28d7356f41e404bf660e7fa13b5064fa65ef8596234c6fe4551f17",
+          "path": "$[0].name_zh"
+        },
+        "cards:$[1].name_zh": {
+          "source": "cards",
+          "source_sha256": "76ec09c5dc28d7356f41e404bf660e7fa13b5064fa65ef8596234c6fe4551f17",
+          "path": "$[1].name_zh"
+        },
+        "match:$.mean_strokes": {
+          "source": "match",
+          "source_sha256": "c7adccbf7dacc5ca6a643f5f4c244b9db05f685d1c495b14a97304de69f51a98",
+          "path": "$.mean_strokes"
+        },
+        "match:$.action_family_distribution": {
+          "source": "match",
+          "source_sha256": "c7adccbf7dacc5ca6a643f5f4c244b9db05f685d1c495b14a97304de69f51a98",
+          "path": "$.action_family_distribution"
+        },
+        "era:$.era.theme_zh": {
+          "source": "era",
+          "source_sha256": "a0b9c43a01bb2524506d99393d41bd92ab98688ac543661e854e83950def055f",
+          "path": "$.era.theme_zh"
+        }
+      },
+      "narrative_scope": "AGGREGATE_ONLY",
+      "warnings": [
+        "NO_SHOT_CHRONOLOGY_AVAILABLE_OR_AUTHORIZED",
+        "EXPOSURE_MOVEMENT_AND_RALLIES_ARE_AGGREGATE_ESTIMATES"
+      ],
+      "integrity_limit": "CONTENT_HASH_AND_SCHEMA_CHECKS_NOT_AUTHOR_AUTHENTICATION",
+      "history": {
+        "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+        "recent_templates": [
+          6
+        ]
+      },
+      "template_id": 6,
+      "profile_guidance": [
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_0_0",
+            "name_zh": "原创测试员1甲",
+            "as_of_year": 2006,
+            "as_of_date": "2006-02-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.4,
+                "topspin_preference": 0.65,
+                "backspin_control": 0.4475,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.55,
+                "risk": 0.5
+              },
+              "class_label": "连续相持偏好",
+              "labels": [
+                "连续相持偏好",
+                "两面调配偏好",
+                "上旋衔接偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意延长连续对抗并从衔接中寻找机会",
+                "按局面在两面之间调配",
+                "根据来球调整主动与控制的比例"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2006,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2006,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "先听后说",
+                "耐心积累",
+                "重视清楚约定"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        },
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_0_1",
+            "name_zh": "原创测试员1乙",
+            "as_of_year": 2006,
+            "as_of_date": "2006-02-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.4,
+                "topspin_preference": 0.65,
+                "backspin_control": 0.4475,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.55,
+                "risk": 0.5
+              },
+              "class_label": "连续相持偏好",
+              "labels": [
+                "连续相持偏好",
+                "两面调配偏好",
+                "上旋衔接偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意延长连续对抗并从衔接中寻找机会",
+                "按局面在两面之间调配",
+                "根据来球调整主动与控制的比例"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2006,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2006,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "简洁交流",
+                "乐于尝试",
+                "重视清楚约定"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        }
+      ],
+      "participant_display_labels": [
+        "原创测试员1甲",
+        "原创测试员1乙"
+      ],
+      "fictional_atmosphere": {
+        "visibility": "OPTIONAL_FICTION_NOT_EVENT_FACT",
+        "text": "",
+        "guidance": "可以另外描写明确标注为虚构的场馆氛围，不补造私下对话或内心动机。"
+      }
+    }
+  },
+  {
+    "case": "equal_attacking",
+    "mode": "full",
+    "narrative": {
+      "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+      "text": "原创测试员1甲与原创测试员1乙的本场模拟以2:4结束，胜者是原创测试员1乙。记录汇总平均每分5.61板。在已记录的非发球动作家族中，进攻是使用最多的家族之一。逐板记录中，第6局局分1:3时，原创测试员1乙使用了反手反拉。本世界采用的时代主题为“直板正手体系与横打连续性”。",
+      "sentences": [
+        {
+          "text": "原创测试员1甲与原创测试员1乙的本场模拟以2:4结束，胜者是原创测试员1乙。",
+          "fact_ids": [
+            "participants",
+            "winner",
+            "games_won",
+            "display_name_0",
+            "display_name_1"
+          ]
+        },
+        {
+          "text": "记录汇总平均每分5.61板。",
+          "fact_ids": [
+            "mean_strokes"
+          ]
+        },
+        {
+          "text": "在已记录的非发球动作家族中，进攻是使用最多的家族之一。",
+          "fact_ids": [
+            "action_families"
+          ]
+        },
+        {
+          "text": "逐板记录中，第6局局分1:3时，原创测试员1乙使用了反手反拉。",
+          "fact_ids": [
+            "executed_shot",
+            "shot_score_before",
+            "display_name_0",
+            "display_name_1"
+          ]
+        },
+        {
+          "text": "本世界采用的时代主题为“直板正手体系与横打连续性”。",
+          "fact_ids": [
+            "era_theme"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "participants",
+          "kind": "participants",
+          "value": [
+            "narrative_case_0_0",
+            "narrative_case_0_1"
+          ],
+          "evidence_refs": [
+            "match:$.participant_ids"
+          ]
+        },
+        {
+          "id": "winner",
+          "kind": "winner",
+          "value": 1,
+          "evidence_refs": [
+            "match:$.winner"
+          ]
+        },
+        {
+          "id": "games_won",
+          "kind": "games_won",
+          "value": [
+            2,
+            4
+          ],
+          "evidence_refs": [
+            "match:$.games_won"
+          ]
+        },
+        {
+          "id": "display_name_0",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员1甲",
+          "evidence_refs": [
+            "cards:$[0].name_zh"
+          ]
+        },
+        {
+          "id": "display_name_1",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员1乙",
+          "evidence_refs": [
+            "cards:$[1].name_zh"
+          ]
+        },
+        {
+          "id": "mean_strokes",
+          "kind": "RECORDED_AGGREGATE",
+          "value": 5.607,
+          "evidence_refs": [
+            "match:$.mean_strokes"
+          ]
+        },
+        {
+          "id": "action_families",
+          "kind": "RECORDED_AGGREGATE",
+          "value": {
+            "attack": 192,
+            "counter": 129,
+            "block": 39,
+            "flip": 35,
+            "lob": 20,
+            "push": 76,
+            "open": 8,
+            "slow_loop": 10,
+            "chop": 7
+          },
+          "evidence_refs": [
+            "match:$.action_family_distribution"
+          ]
+        },
+        {
+          "id": "executed_shot",
+          "kind": "EXECUTED_SHOT",
+          "value": {
+            "player": 1,
+            "action": "bh_counter_loop",
+            "action_family": "counter",
+            "stroke_side": "bh",
+            "technique_path": "bh.continuity",
+            "technique_label": "反手反拉",
+            "rubber": "inverted",
+            "handedness": "left",
+            "reach": "limited",
+            "reach_score": -6.9218,
+            "input_target": "bh",
+            "input_spin": "top",
+            "input_spin_strength": 97.57,
+            "input_quality": 97.57,
+            "movement": {
+              "position_before": {
+                "x": 0.42205732848634847,
+                "y": 1.14,
+                "recovery": 0.8343893572588754,
+                "momentum_x": -0.4371426715136515,
+                "momentum_y": 0.0,
+                "movement_load": 0.7325905198990558
+              },
+              "contact": {
+                "x": -1.1092,
+                "y": 1.14
+              },
+              "distance_m": 1.16758,
+              "dx_m": -1.16758,
+              "dy_m": 0.0,
+              "direction": "left",
+              "depth_direction": "none",
+              "reversing": false,
+              "recovery_cost": 0.4968,
+              "physical_demand": 10.7188,
+              "spin_demand": -0.0851,
+              "arc_demand": 0.0,
+              "input_arc": "normal",
+              "load_before": 0.76592,
+              "load_after": 1.24708,
+              "match_load": 5.95723,
+              "mapped_contact_side": "bh",
+              "mapping_resolved": true,
+              "step_around": false,
+              "preparation": "finish_weak_ball"
+            },
+            "out_quality": 103.72,
+            "quality": 103.72,
+            "pace": 124.16,
+            "spin": "top",
+            "spin_strength": 103.72,
+            "spin_contact": {
+              "spin": "top",
+              "spin_strength": 103.72,
+              "pace": 124.16,
+              "arc": "normal",
+              "variation": 0.0,
+              "mechanism": "ACTIVE_FRICTION_CONTACT",
+              "rubber": "inverted",
+              "experimental": false
+            },
+            "fault_prob": 0.180106,
+            "recognition_risk": 0.0,
+            "contact_skill": 108.792,
+            "technique_components": {
+              "bh.continuity": 0.47,
+              "bh.spin": 0.096,
+              "bh.power": 0.29,
+              "bh.defense": 0.072,
+              "bh.placement": 0.072
+            },
+            "technique_fault_adjustment": 0.015691,
+            "spin_handling_risk": -0.000456,
+            "input_arc": "normal",
+            "arc": "normal",
+            "specialist_plan": "finish_weak_ball",
+            "specialist_kind": "attacker",
+            "preparation_depth": 1.14,
+            "tactic": "finish_weak_ball",
+            "counterattack": false,
+            "decision": {
+              "scenario": "rally_weak",
+              "observed_weakness": "bh",
+              "candidates": [
+                {
+                  "action": "fh_fast_loop",
+                  "family": "attack",
+                  "wing": "fh",
+                  "probability": 0.0339474316643901
+                },
+                {
+                  "action": "bh_fast_loop",
+                  "family": "attack",
+                  "wing": "bh",
+                  "probability": 0.16647442443722785
+                },
+                {
+                  "action": "fh_attack_punch",
+                  "family": "attack",
+                  "wing": "fh",
+                  "probability": 0.036859776653980984
+                },
+                {
+                  "action": "bh_attack_punch",
+                  "family": "attack",
+                  "wing": "bh",
+                  "probability": 0.180756239942386
+                },
+                {
+                  "action": "middle_jam_counter",
+                  "family": "counter",
+                  "wing": "bh",
+                  "probability": 0.15638756398365414
+                },
+                {
+                  "action": "fh_counter_loop",
+                  "family": "counter",
+                  "wing": "fh",
+                  "probability": 0.024173857573883347
+                },
+                {
+                  "action": "bh_counter_loop",
+                  "family": "counter",
+                  "wing": "bh",
+                  "probability": 0.11525558327360189
+                },
+                {
+                  "action": "fh_sideswipe",
+                  "family": "attack",
+                  "wing": "fh",
+                  "probability": 0.03899436658717746
+                },
+                {
+                  "action": "bh_sideswipe",
+                  "family": "attack",
+                  "wing": "bh",
+                  "probability": 0.22640706872631472
+                },
+                {
+                  "action": "fh_press_block",
+                  "family": "block",
+                  "wing": "fh",
+                  "probability": 0.014907039595752155
+                },
+                {
+                  "action": "fh_chop",
+                  "family": "chop",
+                  "wing": "fh",
+                  "probability": 0.0013441590809638653
+                },
+                {
+                  "action": "bh_chop",
+                  "family": "chop",
+                  "wing": "bh",
+                  "probability": 0.004492488480667546
+                }
+              ],
+              "chosen": "bh_counter_loop"
+            },
+            "target": "fh",
+            "landed": "fh",
+            "length": "long",
+            "absolute_target": {
+              "x": 0.65,
+              "y": -0.9
+            },
+            "intended_absolute_target": {
+              "x": 0.65,
+              "y": -0.9
+            },
+            "geometry": {
+              "coordinate_system": "ABSOLUTE_HALF_TABLE_XY",
+              "mapping_resolved": true,
+              "hitter_hand": "left",
+              "receiver_hand": "right",
+              "hitter_end": 1,
+              "receiver_end": 0,
+              "incoming": {
+                "x": -0.94,
+                "y": 0.9
+              },
+              "target": {
+                "x": 0.65,
+                "y": -0.9
+              },
+              "incoming_contact": {
+                "x": -1.1092,
+                "y": 1.14
+              },
+              "receiver_contact": {
+                "x": 0.767,
+                "y": -1.18
+              },
+              "hitter_side": "bh",
+              "hitter_table_side": "bh",
+              "receiver_side": "fh",
+              "receiver_table_side": "fh",
+              "receiver_contact_side": "fh",
+              "delta": {
+                "x": 0.8889743987587277,
+                "y": 0.0
+              },
+              "delta_m": {
+                "x": 0.6778429790535299,
+                "y": 0.0
+              },
+              "distance_m": 0.6778429790535299,
+              "lateral_distance_m": 0.6778429790535299,
+              "depth_distance_m": 0.0,
+              "forward_distance_m": 0.0,
+              "backward_distance_m": 0.0,
+              "direction": "right",
+              "lateral_direction": "right",
+              "depth_direction": "none",
+              "body": false,
+              "middle": false,
+              "wide": false,
+              "wide_angle": false,
+              "crosscourt": true,
+              "straight": false,
+              "line_category": "crosscourt",
+              "geometric_line": "crosscourt",
+              "angle_degrees": 25.639106332879617,
+              "step_around": false,
+              "cross_body": false,
+              "cross_step": true,
+              "needs_recovery": true,
+              "reversing": false,
+              "movement_load": 1.5099845553116638,
+              "recovery_pressure": 0.34484993558778576,
+              "hitter_recovery_pressure": 0.17095551705468326,
+              "next_ball_pressure": 0.34484993558778576,
+              "hitter_move_distance_m": 1.1675837129708406,
+              "technique": "bh_counter_loop"
+            },
+            "return_state": "high_ball",
+            "target_accuracy": 0.6811,
+            "recovery_distance_m": 0.34709,
+            "position_after": {
+              "x": -0.40399561855670096,
+              "y": 1.14,
+              "recovery": 0.8449001288659794,
+              "momentum_x": 0.455204381443299,
+              "momentum_y": 0.0,
+              "movement_load": 1.247078498331072
+            }
+          },
+          "evidence_refs": [
+            "match:$.games[5].points[4].shots[8]"
+          ]
+        },
+        {
+          "id": "shot_score_before",
+          "kind": "shot_score_before",
+          "value": [
+            1,
+            3
+          ],
+          "evidence_refs": [
+            "match:$.games[5].points[4].score_before"
+          ]
+        },
+        {
+          "id": "era_theme",
+          "kind": "DESIGN_CONTEXT_NOT_HISTORICAL_PROOF",
+          "value": "直板正手体系与横打连续性",
+          "evidence_refs": [
+            "era:$.era.theme_zh"
+          ]
+        }
+      ],
+      "evidence": {
+        "match:$.participant_ids": {
+          "source": "match",
+          "source_sha256": "c0ba5343d50381d5f158b4db9c01c6c33a82f069962dc72e762aea743076ea4f",
+          "path": "$.participant_ids"
+        },
+        "match:$.winner": {
+          "source": "match",
+          "source_sha256": "c0ba5343d50381d5f158b4db9c01c6c33a82f069962dc72e762aea743076ea4f",
+          "path": "$.winner"
+        },
+        "match:$.games_won": {
+          "source": "match",
+          "source_sha256": "c0ba5343d50381d5f158b4db9c01c6c33a82f069962dc72e762aea743076ea4f",
+          "path": "$.games_won"
+        },
+        "cards:$[0].name_zh": {
+          "source": "cards",
+          "source_sha256": "76ec09c5dc28d7356f41e404bf660e7fa13b5064fa65ef8596234c6fe4551f17",
+          "path": "$[0].name_zh"
+        },
+        "cards:$[1].name_zh": {
+          "source": "cards",
+          "source_sha256": "76ec09c5dc28d7356f41e404bf660e7fa13b5064fa65ef8596234c6fe4551f17",
+          "path": "$[1].name_zh"
+        },
+        "match:$.mean_strokes": {
+          "source": "match",
+          "source_sha256": "c0ba5343d50381d5f158b4db9c01c6c33a82f069962dc72e762aea743076ea4f",
+          "path": "$.mean_strokes"
+        },
+        "match:$.action_family_distribution": {
+          "source": "match",
+          "source_sha256": "c0ba5343d50381d5f158b4db9c01c6c33a82f069962dc72e762aea743076ea4f",
+          "path": "$.action_family_distribution"
+        },
+        "match:$.games[5].points[4].shots[8]": {
+          "source": "match",
+          "source_sha256": "c0ba5343d50381d5f158b4db9c01c6c33a82f069962dc72e762aea743076ea4f",
+          "path": "$.games[5].points[4].shots[8]"
+        },
+        "match:$.games[5].points[4].score_before": {
+          "source": "match",
+          "source_sha256": "c0ba5343d50381d5f158b4db9c01c6c33a82f069962dc72e762aea743076ea4f",
+          "path": "$.games[5].points[4].score_before"
+        },
+        "era:$.era.theme_zh": {
+          "source": "era",
+          "source_sha256": "a0b9c43a01bb2524506d99393d41bd92ab98688ac543661e854e83950def055f",
+          "path": "$.era.theme_zh"
+        }
+      },
+      "narrative_scope": "EXECUTED_SHOTS_ONLY",
+      "warnings": [],
+      "integrity_limit": "CONTENT_HASH_AND_SCHEMA_CHECKS_NOT_AUTHOR_AUTHENTICATION",
+      "history": {
+        "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+        "recent_templates": [
+          0
+        ]
+      },
+      "template_id": 0,
+      "profile_guidance": [
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_0_0",
+            "name_zh": "原创测试员1甲",
+            "as_of_year": 2006,
+            "as_of_date": "2006-02-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.4,
+                "topspin_preference": 0.65,
+                "backspin_control": 0.4475,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.55,
+                "risk": 0.5
+              },
+              "class_label": "连续相持偏好",
+              "labels": [
+                "连续相持偏好",
+                "两面调配偏好",
+                "上旋衔接偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意延长连续对抗并从衔接中寻找机会",
+                "按局面在两面之间调配",
+                "根据来球调整主动与控制的比例"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2006,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2006,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "先听后说",
+                "耐心积累",
+                "重视清楚约定"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        },
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_0_1",
+            "name_zh": "原创测试员1乙",
+            "as_of_year": 2006,
+            "as_of_date": "2006-02-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.4,
+                "topspin_preference": 0.65,
+                "backspin_control": 0.4475,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.55,
+                "risk": 0.5
+              },
+              "class_label": "连续相持偏好",
+              "labels": [
+                "连续相持偏好",
+                "两面调配偏好",
+                "上旋衔接偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意延长连续对抗并从衔接中寻找机会",
+                "按局面在两面之间调配",
+                "根据来球调整主动与控制的比例"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2006,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2006,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "简洁交流",
+                "乐于尝试",
+                "重视清楚约定"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        }
+      ],
+      "participant_display_labels": [
+        "原创测试员1甲",
+        "原创测试员1乙"
+      ],
+      "fictional_atmosphere": {
+        "visibility": "OPTIONAL_FICTION_NOT_EVENT_FACT",
+        "text": "",
+        "guidance": "可以另外描写明确标注为虚构的场馆氛围，不补造私下对话或内心动机。"
+      }
+    }
+  },
+  {
+    "case": "chopper",
+    "mode": "summary",
+    "narrative": {
+      "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+      "text": "原创测试员2甲取得本场胜利；赛果记录为原创测试员2甲 4:1 原创测试员2乙。聚合估计平均每分6.24板。在聚合抽样列出的非发球动作家族中，搓摆控制是使用最多的家族之一。本世界采用的时代主题为“发接发与全面进攻体系”。",
+      "sentences": [
+        {
+          "text": "原创测试员2甲取得本场胜利；赛果记录为原创测试员2甲 4:1 原创测试员2乙。",
+          "fact_ids": [
+            "participants",
+            "winner",
+            "games_won",
+            "display_name_0",
+            "display_name_1"
+          ]
+        },
+        {
+          "text": "聚合估计平均每分6.24板。",
+          "fact_ids": [
+            "mean_strokes"
+          ]
+        },
+        {
+          "text": "在聚合抽样列出的非发球动作家族中，搓摆控制是使用最多的家族之一。",
+          "fact_ids": [
+            "action_families"
+          ]
+        },
+        {
+          "text": "本世界采用的时代主题为“发接发与全面进攻体系”。",
+          "fact_ids": [
+            "era_theme"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "participants",
+          "kind": "participants",
+          "value": [
+            "narrative_case_1_0",
+            "narrative_case_1_1"
+          ],
+          "evidence_refs": [
+            "match:$.participant_ids"
+          ]
+        },
+        {
+          "id": "winner",
+          "kind": "winner",
+          "value": 0,
+          "evidence_refs": [
+            "match:$.winner"
+          ]
+        },
+        {
+          "id": "games_won",
+          "kind": "games_won",
+          "value": [
+            4,
+            1
+          ],
+          "evidence_refs": [
+            "match:$.games_won"
+          ]
+        },
+        {
+          "id": "display_name_0",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员2甲",
+          "evidence_refs": [
+            "cards:$[0].name_zh"
+          ]
+        },
+        {
+          "id": "display_name_1",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员2乙",
+          "evidence_refs": [
+            "cards:$[1].name_zh"
+          ]
+        },
+        {
+          "id": "mean_strokes",
+          "kind": "ESTIMATED_AGGREGATE",
+          "value": 6.24419,
+          "evidence_refs": [
+            "match:$.mean_strokes"
+          ]
+        },
+        {
+          "id": "action_families",
+          "kind": "ESTIMATED_AGGREGATE",
+          "value": {
+            "serve": 86,
+            "open": 26,
+            "chop": 99,
+            "push": 104,
+            "slow_loop": 35,
+            "lob": 25,
+            "attack": 61,
+            "block": 64,
+            "counter": 37
+          },
+          "evidence_refs": [
+            "match:$.action_family_distribution"
+          ]
+        },
+        {
+          "id": "era_theme",
+          "kind": "DESIGN_CONTEXT_NOT_HISTORICAL_PROOF",
+          "value": "发接发与全面进攻体系",
+          "evidence_refs": [
+            "era:$.era.theme_zh"
+          ]
+        }
+      ],
+      "evidence": {
+        "match:$.participant_ids": {
+          "source": "match",
+          "source_sha256": "2506b05832a8a2599fac8272f7be82b17a119d4ee189b615a9f2ef3d64a9da9d",
+          "path": "$.participant_ids"
+        },
+        "match:$.winner": {
+          "source": "match",
+          "source_sha256": "2506b05832a8a2599fac8272f7be82b17a119d4ee189b615a9f2ef3d64a9da9d",
+          "path": "$.winner"
+        },
+        "match:$.games_won": {
+          "source": "match",
+          "source_sha256": "2506b05832a8a2599fac8272f7be82b17a119d4ee189b615a9f2ef3d64a9da9d",
+          "path": "$.games_won"
+        },
+        "cards:$[0].name_zh": {
+          "source": "cards",
+          "source_sha256": "f60804ff3920b97c1fbe5423111c25a9e9823f1bd5485a6d951a31ef4021720a",
+          "path": "$[0].name_zh"
+        },
+        "cards:$[1].name_zh": {
+          "source": "cards",
+          "source_sha256": "f60804ff3920b97c1fbe5423111c25a9e9823f1bd5485a6d951a31ef4021720a",
+          "path": "$[1].name_zh"
+        },
+        "match:$.mean_strokes": {
+          "source": "match",
+          "source_sha256": "2506b05832a8a2599fac8272f7be82b17a119d4ee189b615a9f2ef3d64a9da9d",
+          "path": "$.mean_strokes"
+        },
+        "match:$.action_family_distribution": {
+          "source": "match",
+          "source_sha256": "2506b05832a8a2599fac8272f7be82b17a119d4ee189b615a9f2ef3d64a9da9d",
+          "path": "$.action_family_distribution"
+        },
+        "era:$.era.theme_zh": {
+          "source": "era",
+          "source_sha256": "b6c6187f5caa1356e89c7051750de4009278fe2e69a28c761c0438b73ebd21c6",
+          "path": "$.era.theme_zh"
+        }
+      },
+      "narrative_scope": "AGGREGATE_ONLY",
+      "warnings": [
+        "NO_SHOT_CHRONOLOGY_AVAILABLE_OR_AUTHORIZED",
+        "EXPOSURE_MOVEMENT_AND_RALLIES_ARE_AGGREGATE_ESTIMATES"
+      ],
+      "integrity_limit": "CONTENT_HASH_AND_SCHEMA_CHECKS_NOT_AUTHOR_AUTHENTICATION",
+      "history": {
+        "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+        "recent_templates": [
+          2
+        ]
+      },
+      "template_id": 2,
+      "profile_guidance": [
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_1_0",
+            "name_zh": "原创测试员2甲",
+            "as_of_year": 2012,
+            "as_of_date": "2012-02-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.4,
+                "topspin_preference": 0.65,
+                "backspin_control": 0.4475,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.55,
+                "risk": 0.5
+              },
+              "class_label": "连续相持偏好",
+              "labels": [
+                "连续相持偏好",
+                "两面调配偏好",
+                "上旋衔接偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意延长连续对抗并从衔接中寻找机会",
+                "按局面在两面之间调配",
+                "根据来球调整主动与控制的比例"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2012,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2012,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "清楚表达",
+                "重视复盘",
+                "尊重合作"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        },
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_1_1",
+            "name_zh": "原创测试员2乙",
+            "as_of_year": 2012,
+            "as_of_date": "2012-02-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.65,
+                "topspin_preference": 0.3,
+                "backspin_control": 0.6975,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.7,
+                "risk": 0.5
+              },
+              "class_label": "削球与反攻组织",
+              "labels": [
+                "削球与反攻组织",
+                "两面调配偏好",
+                "下旋控制偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意用纵深与回合变化组织周旋",
+                "按局面在两面之间调配",
+                "用控制与变化等待反攻窗口"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2012,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2012,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "清楚表达",
+                "耐心积累",
+                "尊重合作"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        }
+      ],
+      "participant_display_labels": [
+        "原创测试员2甲",
+        "原创测试员2乙"
+      ],
+      "fictional_atmosphere": {
+        "visibility": "OPTIONAL_FICTION_NOT_EVENT_FACT",
+        "text": "",
+        "guidance": "可以另外描写明确标注为虚构的场馆氛围，不补造私下对话或内心动机。"
+      }
+    }
+  },
+  {
+    "case": "chopper",
+    "mode": "full",
+    "narrative": {
+      "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+      "text": "原创测试员2甲与原创测试员2乙的本场模拟以4:0结束，胜者是原创测试员2甲。记录汇总平均每分4.66板。在已记录的非发球动作家族中，进攻是使用最多的家族之一。逐板记录中，第3局局分7:5时，原创测试员2甲使用了反手反拉。本世界采用的时代主题为“发接发与全面进攻体系”。",
+      "sentences": [
+        {
+          "text": "原创测试员2甲与原创测试员2乙的本场模拟以4:0结束，胜者是原创测试员2甲。",
+          "fact_ids": [
+            "participants",
+            "winner",
+            "games_won",
+            "display_name_0",
+            "display_name_1"
+          ]
+        },
+        {
+          "text": "记录汇总平均每分4.66板。",
+          "fact_ids": [
+            "mean_strokes"
+          ]
+        },
+        {
+          "text": "在已记录的非发球动作家族中，进攻是使用最多的家族之一。",
+          "fact_ids": [
+            "action_families"
+          ]
+        },
+        {
+          "text": "逐板记录中，第3局局分7:5时，原创测试员2甲使用了反手反拉。",
+          "fact_ids": [
+            "executed_shot",
+            "shot_score_before",
+            "display_name_0",
+            "display_name_1"
+          ]
+        },
+        {
+          "text": "本世界采用的时代主题为“发接发与全面进攻体系”。",
+          "fact_ids": [
+            "era_theme"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "participants",
+          "kind": "participants",
+          "value": [
+            "narrative_case_1_0",
+            "narrative_case_1_1"
+          ],
+          "evidence_refs": [
+            "match:$.participant_ids"
+          ]
+        },
+        {
+          "id": "winner",
+          "kind": "winner",
+          "value": 0,
+          "evidence_refs": [
+            "match:$.winner"
+          ]
+        },
+        {
+          "id": "games_won",
+          "kind": "games_won",
+          "value": [
+            4,
+            0
+          ],
+          "evidence_refs": [
+            "match:$.games_won"
+          ]
+        },
+        {
+          "id": "display_name_0",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员2甲",
+          "evidence_refs": [
+            "cards:$[0].name_zh"
+          ]
+        },
+        {
+          "id": "display_name_1",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员2乙",
+          "evidence_refs": [
+            "cards:$[1].name_zh"
+          ]
+        },
+        {
+          "id": "mean_strokes",
+          "kind": "RECORDED_AGGREGATE",
+          "value": 4.655,
+          "evidence_refs": [
+            "match:$.mean_strokes"
+          ]
+        },
+        {
+          "id": "action_families",
+          "kind": "RECORDED_AGGREGATE",
+          "value": {
+            "push": 74,
+            "slow_loop": 8,
+            "block": 35,
+            "attack": 77,
+            "chop": 57,
+            "flip": 17,
+            "counter": 37,
+            "lob": 7,
+            "open": 6
+          },
+          "evidence_refs": [
+            "match:$.action_family_distribution"
+          ]
+        },
+        {
+          "id": "executed_shot",
+          "kind": "EXECUTED_SHOT",
+          "value": {
+            "player": 0,
+            "action": "bh_counter_loop",
+            "action_family": "counter",
+            "stroke_side": "bh",
+            "technique_path": "bh.continuity",
+            "technique_label": "反手反拉",
+            "rubber": "inverted",
+            "handedness": "right",
+            "reach": "good",
+            "reach_score": 8.7313,
+            "input_target": "bh",
+            "input_spin": "top",
+            "input_spin_strength": 19.701,
+            "input_quality": 123.13,
+            "movement": {
+              "position_before": {
+                "x": -0.5229782389338409,
+                "y": -1.18,
+                "recovery": 0.8876154212279868,
+                "momentum_x": 0.8362217610661591,
+                "momentum_y": 0.0,
+                "movement_load": 0.3812796992041499
+              },
+              "contact": {
+                "x": -0.7315999999999998,
+                "y": -1.18
+              },
+              "distance_m": 0.15907,
+              "dx_m": -0.15907,
+              "dy_m": 0.0,
+              "direction": "left",
+              "depth_direction": "none",
+              "reversing": true,
+              "recovery_cost": 2.8372,
+              "physical_demand": 1.4604,
+              "spin_demand": -2.0,
+              "arc_demand": 1.1,
+              "input_arc": "flat",
+              "load_before": 0.44504,
+              "load_after": 0.61561,
+              "match_load": 2.62751,
+              "mapped_contact_side": "bh",
+              "mapping_resolved": true,
+              "step_around": false,
+              "preparation": "patient_loop"
+            },
+            "out_quality": 115.0,
+            "quality": 115.0,
+            "pace": 123.01,
+            "spin": "top",
+            "spin_strength": 115.0,
+            "spin_contact": {
+              "spin": "top",
+              "spin_strength": 115.0,
+              "pace": 123.01,
+              "arc": "normal",
+              "variation": 0.0,
+              "mechanism": "ACTIVE_FRICTION_CONTACT",
+              "rubber": "inverted",
+              "experimental": false
+            },
+            "fault_prob": 0.085051,
+            "recognition_risk": 0.001288,
+            "contact_skill": 106.192,
+            "technique_components": {
+              "bh.continuity": 0.47,
+              "bh.spin": 0.096,
+              "bh.power": 0.29,
+              "bh.defense": 0.072,
+              "bh.placement": 0.072
+            },
+            "technique_fault_adjustment": 0.019331,
+            "spin_handling_risk": -0.0075,
+            "input_arc": "flat",
+            "arc": "normal",
+            "specialist_plan": "patient_loop",
+            "specialist_kind": "attacker",
+            "preparation_depth": 1.18,
+            "tactic": "patient_loop",
+            "counterattack": false,
+            "decision": {
+              "scenario": "rally_weak",
+              "observed_weakness": "bh",
+              "candidates": [
+                {
+                  "action": "fh_fast_loop",
+                  "family": "attack",
+                  "wing": "fh",
+                  "probability": 0.04961513394859006
+                },
+                {
+                  "action": "bh_fast_loop",
+                  "family": "attack",
+                  "wing": "bh",
+                  "probability": 0.11882231671889187
+                },
+                {
+                  "action": "fh_attack_punch",
+                  "family": "attack",
+                  "wing": "fh",
+                  "probability": 0.04961513394859006
+                },
+                {
+                  "action": "bh_attack_punch",
+                  "family": "attack",
+                  "wing": "bh",
+                  "probability": 0.11882231671889187
+                },
+                {
+                  "action": "middle_jam_counter",
+                  "family": "counter",
+                  "wing": "bh",
+                  "probability": 0.1972275737212994
+                },
+                {
+                  "action": "fh_counter_loop",
+                  "family": "counter",
+                  "wing": "fh",
+                  "probability": 0.06015658129564522
+                },
+                {
+                  "action": "bh_counter_loop",
+                  "family": "counter",
+                  "wing": "bh",
+                  "probability": 0.14006912298154522
+                },
+                {
+                  "action": "fh_sideswipe",
+                  "family": "attack",
+                  "wing": "fh",
+                  "probability": 0.052488400557204086
+                },
+                {
+                  "action": "bh_sideswipe",
+                  "family": "attack",
+                  "wing": "bh",
+                  "probability": 0.14883144524453953
+                },
+                {
+                  "action": "fh_press_block",
+                  "family": "block",
+                  "wing": "fh",
+                  "probability": 0.051934580619161536
+                },
+                {
+                  "action": "fh_chop",
+                  "family": "chop",
+                  "wing": "fh",
+                  "probability": 0.004773838375577768
+                },
+                {
+                  "action": "bh_chop",
+                  "family": "chop",
+                  "wing": "bh",
+                  "probability": 0.007643555870063365
+                }
+              ],
+              "chosen": "bh_counter_loop"
+            },
+            "target": "fh",
+            "landed": "fh",
+            "length": "long",
+            "absolute_target": {
+              "x": -0.98,
+              "y": 0.9
+            },
+            "intended_absolute_target": {
+              "x": -0.94,
+              "y": 0.9
+            },
+            "geometry": {
+              "coordinate_system": "ABSOLUTE_HALF_TABLE_XY",
+              "mapping_resolved": true,
+              "hitter_hand": "right",
+              "receiver_hand": "right",
+              "hitter_end": 0,
+              "receiver_end": 1,
+              "incoming": {
+                "x": -0.6199999999999999,
+                "y": -0.9
+              },
+              "target": {
+                "x": -0.98,
+                "y": 0.9
+              },
+              "incoming_contact": {
+                "x": -0.7315999999999998,
+                "y": -1.18
+              },
+              "receiver_contact": {
+                "x": -1.0976000000000001,
+                "y": 1.1
+              },
+              "hitter_side": "bh",
+              "hitter_table_side": "bh",
+              "receiver_side": "fh",
+              "receiver_table_side": "fh",
+              "receiver_contact_side": "fh",
+              "delta": {
+                "x": -1.0795564235168873,
+                "y": 0.0
+              },
+              "delta_m": {
+                "x": -0.8231617729316265,
+                "y": 0.0
+              },
+              "distance_m": 0.8231617729316265,
+              "lateral_distance_m": 0.8231617729316265,
+              "depth_distance_m": 0.0,
+              "forward_distance_m": 0.0,
+              "backward_distance_m": 0.0,
+              "direction": "left",
+              "lateral_direction": "left",
+              "depth_direction": "none",
+              "body": false,
+              "middle": false,
+              "wide": true,
+              "wide_angle": false,
+              "crosscourt": false,
+              "straight": false,
+              "line_category": "angled",
+              "geometric_line": "angled",
+              "angle_degrees": 3.8026979934847036,
+              "step_around": false,
+              "cross_body": false,
+              "cross_step": true,
+              "needs_recovery": false,
+              "reversing": true,
+              "movement_load": 0.7935769424226912,
+              "recovery_pressure": 0.5489837744634563,
+              "hitter_recovery_pressure": 0.15149671204188475,
+              "next_ball_pressure": 0.5489837744634563,
+              "hitter_move_distance_m": 0.15907409281294618,
+              "technique": "bh_counter_loop"
+            },
+            "return_state": "neutral_return",
+            "target_accuracy": 0.6901,
+            "recovery_distance_m": 0.19294,
+            "position_after": {
+              "x": -0.22856522233964705,
+              "y": -1.18,
+              "recovery": 0.8427022193317617,
+              "momentum_x": 0.25303477766035276,
+              "momentum_y": 0.0,
+              "movement_load": 0.6156065859538009
+            }
+          },
+          "evidence_refs": [
+            "match:$.games[2].points[12].shots[4]"
+          ]
+        },
+        {
+          "id": "shot_score_before",
+          "kind": "shot_score_before",
+          "value": [
+            7,
+            5
+          ],
+          "evidence_refs": [
+            "match:$.games[2].points[12].score_before"
+          ]
+        },
+        {
+          "id": "era_theme",
+          "kind": "DESIGN_CONTEXT_NOT_HISTORICAL_PROOF",
+          "value": "发接发与全面进攻体系",
+          "evidence_refs": [
+            "era:$.era.theme_zh"
+          ]
+        }
+      ],
+      "evidence": {
+        "match:$.participant_ids": {
+          "source": "match",
+          "source_sha256": "5bbfdfe36362635f40cf0b33744b27a1b7f6b20f2dcc19db5e201d705606bce8",
+          "path": "$.participant_ids"
+        },
+        "match:$.winner": {
+          "source": "match",
+          "source_sha256": "5bbfdfe36362635f40cf0b33744b27a1b7f6b20f2dcc19db5e201d705606bce8",
+          "path": "$.winner"
+        },
+        "match:$.games_won": {
+          "source": "match",
+          "source_sha256": "5bbfdfe36362635f40cf0b33744b27a1b7f6b20f2dcc19db5e201d705606bce8",
+          "path": "$.games_won"
+        },
+        "cards:$[0].name_zh": {
+          "source": "cards",
+          "source_sha256": "f60804ff3920b97c1fbe5423111c25a9e9823f1bd5485a6d951a31ef4021720a",
+          "path": "$[0].name_zh"
+        },
+        "cards:$[1].name_zh": {
+          "source": "cards",
+          "source_sha256": "f60804ff3920b97c1fbe5423111c25a9e9823f1bd5485a6d951a31ef4021720a",
+          "path": "$[1].name_zh"
+        },
+        "match:$.mean_strokes": {
+          "source": "match",
+          "source_sha256": "5bbfdfe36362635f40cf0b33744b27a1b7f6b20f2dcc19db5e201d705606bce8",
+          "path": "$.mean_strokes"
+        },
+        "match:$.action_family_distribution": {
+          "source": "match",
+          "source_sha256": "5bbfdfe36362635f40cf0b33744b27a1b7f6b20f2dcc19db5e201d705606bce8",
+          "path": "$.action_family_distribution"
+        },
+        "match:$.games[2].points[12].shots[4]": {
+          "source": "match",
+          "source_sha256": "5bbfdfe36362635f40cf0b33744b27a1b7f6b20f2dcc19db5e201d705606bce8",
+          "path": "$.games[2].points[12].shots[4]"
+        },
+        "match:$.games[2].points[12].score_before": {
+          "source": "match",
+          "source_sha256": "5bbfdfe36362635f40cf0b33744b27a1b7f6b20f2dcc19db5e201d705606bce8",
+          "path": "$.games[2].points[12].score_before"
+        },
+        "era:$.era.theme_zh": {
+          "source": "era",
+          "source_sha256": "b6c6187f5caa1356e89c7051750de4009278fe2e69a28c761c0438b73ebd21c6",
+          "path": "$.era.theme_zh"
+        }
+      },
+      "narrative_scope": "EXECUTED_SHOTS_ONLY",
+      "warnings": [],
+      "integrity_limit": "CONTENT_HASH_AND_SCHEMA_CHECKS_NOT_AUTHOR_AUTHENTICATION",
+      "history": {
+        "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+        "recent_templates": [
+          0
+        ]
+      },
+      "template_id": 0,
+      "profile_guidance": [
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_1_0",
+            "name_zh": "原创测试员2甲",
+            "as_of_year": 2012,
+            "as_of_date": "2012-02-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.4,
+                "topspin_preference": 0.65,
+                "backspin_control": 0.4475,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.55,
+                "risk": 0.5
+              },
+              "class_label": "连续相持偏好",
+              "labels": [
+                "连续相持偏好",
+                "两面调配偏好",
+                "上旋衔接偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意延长连续对抗并从衔接中寻找机会",
+                "按局面在两面之间调配",
+                "根据来球调整主动与控制的比例"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2012,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2012,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "清楚表达",
+                "重视复盘",
+                "尊重合作"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        },
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_1_1",
+            "name_zh": "原创测试员2乙",
+            "as_of_year": 2012,
+            "as_of_date": "2012-02-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.65,
+                "topspin_preference": 0.3,
+                "backspin_control": 0.6975,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.7,
+                "risk": 0.5
+              },
+              "class_label": "削球与反攻组织",
+              "labels": [
+                "削球与反攻组织",
+                "两面调配偏好",
+                "下旋控制偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意用纵深与回合变化组织周旋",
+                "按局面在两面之间调配",
+                "用控制与变化等待反攻窗口"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2012,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2012,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "清楚表达",
+                "耐心积累",
+                "尊重合作"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        }
+      ],
+      "participant_display_labels": [
+        "原创测试员2甲",
+        "原创测试员2乙"
+      ],
+      "fictional_atmosphere": {
+        "visibility": "OPTIONAL_FICTION_NOT_EVENT_FACT",
+        "text": "",
+        "guidance": "可以另外描写明确标注为虚构的场馆氛围，不补造私下对话或内心动机。"
+      }
+    }
+  },
+  {
+    "case": "short_pips",
+    "mode": "summary",
+    "narrative": {
+      "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+      "text": "本次对抗已结算：原创测试员3乙赢下比赛，双方局数为0:4。聚合估计平均每分5.39板。在聚合抽样列出的非发球动作家族中，进攻是使用最多的家族之一。本世界采用的时代主题为“新一代打法竞争（候选评估）”。",
+      "sentences": [
+        {
+          "text": "本次对抗已结算：原创测试员3乙赢下比赛，双方局数为0:4。",
+          "fact_ids": [
+            "participants",
+            "winner",
+            "games_won",
+            "display_name_0",
+            "display_name_1"
+          ]
+        },
+        {
+          "text": "聚合估计平均每分5.39板。",
+          "fact_ids": [
+            "mean_strokes"
+          ]
+        },
+        {
+          "text": "在聚合抽样列出的非发球动作家族中，进攻是使用最多的家族之一。",
+          "fact_ids": [
+            "action_families"
+          ]
+        },
+        {
+          "text": "本世界采用的时代主题为“新一代打法竞争（候选评估）”。",
+          "fact_ids": [
+            "era_theme"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "participants",
+          "kind": "participants",
+          "value": [
+            "narrative_case_2_0",
+            "narrative_case_2_1"
+          ],
+          "evidence_refs": [
+            "match:$.participant_ids"
+          ]
+        },
+        {
+          "id": "winner",
+          "kind": "winner",
+          "value": 1,
+          "evidence_refs": [
+            "match:$.winner"
+          ]
+        },
+        {
+          "id": "games_won",
+          "kind": "games_won",
+          "value": [
+            0,
+            4
+          ],
+          "evidence_refs": [
+            "match:$.games_won"
+          ]
+        },
+        {
+          "id": "display_name_0",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员3甲",
+          "evidence_refs": [
+            "cards:$[0].name_zh"
+          ]
+        },
+        {
+          "id": "display_name_1",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员3乙",
+          "evidence_refs": [
+            "cards:$[1].name_zh"
+          ]
+        },
+        {
+          "id": "mean_strokes",
+          "kind": "ESTIMATED_AGGREGATE",
+          "value": 5.39189,
+          "evidence_refs": [
+            "match:$.mean_strokes"
+          ]
+        },
+        {
+          "id": "action_families",
+          "kind": "ESTIMATED_AGGREGATE",
+          "value": {
+            "serve": 74,
+            "attack": 116,
+            "counter": 86,
+            "block": 62,
+            "lob": 47,
+            "chop": 8,
+            "push": 6
+          },
+          "evidence_refs": [
+            "match:$.action_family_distribution"
+          ]
+        },
+        {
+          "id": "era_theme",
+          "kind": "DESIGN_CONTEXT_NOT_HISTORICAL_PROOF",
+          "value": "新一代打法竞争（候选评估）",
+          "evidence_refs": [
+            "era:$.era.theme_zh"
+          ]
+        }
+      ],
+      "evidence": {
+        "match:$.participant_ids": {
+          "source": "match",
+          "source_sha256": "03fb01f3288887bdf127a5ad109c236e054c6e5ad898b3e5b9dd65d195daef81",
+          "path": "$.participant_ids"
+        },
+        "match:$.winner": {
+          "source": "match",
+          "source_sha256": "03fb01f3288887bdf127a5ad109c236e054c6e5ad898b3e5b9dd65d195daef81",
+          "path": "$.winner"
+        },
+        "match:$.games_won": {
+          "source": "match",
+          "source_sha256": "03fb01f3288887bdf127a5ad109c236e054c6e5ad898b3e5b9dd65d195daef81",
+          "path": "$.games_won"
+        },
+        "cards:$[0].name_zh": {
+          "source": "cards",
+          "source_sha256": "4cbe2fb447626536985ef359d724384eba1e29a32e4ba9acb0b525f735803d20",
+          "path": "$[0].name_zh"
+        },
+        "cards:$[1].name_zh": {
+          "source": "cards",
+          "source_sha256": "4cbe2fb447626536985ef359d724384eba1e29a32e4ba9acb0b525f735803d20",
+          "path": "$[1].name_zh"
+        },
+        "match:$.mean_strokes": {
+          "source": "match",
+          "source_sha256": "03fb01f3288887bdf127a5ad109c236e054c6e5ad898b3e5b9dd65d195daef81",
+          "path": "$.mean_strokes"
+        },
+        "match:$.action_family_distribution": {
+          "source": "match",
+          "source_sha256": "03fb01f3288887bdf127a5ad109c236e054c6e5ad898b3e5b9dd65d195daef81",
+          "path": "$.action_family_distribution"
+        },
+        "era:$.era.theme_zh": {
+          "source": "era",
+          "source_sha256": "960093fe1da17809660806b7ed777dd1ad6657a4efa87889d451e071fe9f7e74",
+          "path": "$.era.theme_zh"
+        }
+      },
+      "narrative_scope": "AGGREGATE_ONLY",
+      "warnings": [
+        "NO_SHOT_CHRONOLOGY_AVAILABLE_OR_AUTHORIZED",
+        "EXPOSURE_MOVEMENT_AND_RALLIES_ARE_AGGREGATE_ESTIMATES"
+      ],
+      "integrity_limit": "CONTENT_HASH_AND_SCHEMA_CHECKS_NOT_AUTHOR_AUTHENTICATION",
+      "history": {
+        "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+        "recent_templates": [
+          1
+        ]
+      },
+      "template_id": 1,
+      "profile_guidance": [
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_2_0",
+            "name_zh": "原创测试员3甲",
+            "as_of_year": 2024,
+            "as_of_date": "2024-02-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.4,
+                "topspin_preference": 0.65,
+                "backspin_control": 0.4475,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.55,
+                "risk": 0.5
+              },
+              "class_label": "连续相持偏好",
+              "labels": [
+                "连续相持偏好",
+                "两面调配偏好",
+                "上旋衔接偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意延长连续对抗并从衔接中寻找机会",
+                "按局面在两面之间调配",
+                "根据来球调整主动与控制的比例"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2024,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2024,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "温和幽默",
+                "偏好有序准备",
+                "重视清楚约定"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        },
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_2_1",
+            "name_zh": "原创测试员3乙",
+            "as_of_year": 2024,
+            "as_of_date": "2024-02-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.4,
+                "topspin_preference": 0.65,
+                "backspin_control": 0.4475,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.55,
+                "risk": 0.5
+              },
+              "class_label": "连续相持偏好",
+              "labels": [
+                "连续相持偏好",
+                "两面调配偏好",
+                "上旋衔接偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意延长连续对抗并从衔接中寻找机会",
+                "按局面在两面之间调配",
+                "根据来球调整主动与控制的比例"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2024,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2024,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "先听后说",
+                "耐心积累",
+                "尊重合作"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        }
+      ],
+      "participant_display_labels": [
+        "原创测试员3甲",
+        "原创测试员3乙"
+      ],
+      "fictional_atmosphere": {
+        "visibility": "OPTIONAL_FICTION_NOT_EVENT_FACT",
+        "text": "",
+        "guidance": "可以另外描写明确标注为虚构的场馆氛围，不补造私下对话或内心动机。"
+      }
+    }
+  },
+  {
+    "case": "short_pips",
+    "mode": "full",
+    "narrative": {
+      "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+      "text": "赛果收据显示，原创测试员3甲对原创测试员3乙打出0:4，获胜一方为原创测试员3乙。记录汇总平均每分4.30板。在已记录的非发球动作家族中，进攻是使用最多的家族之一。逐板记录中，第2局局分4:4时，原创测试员3甲使用了正手反拉。本世界采用的时代主题为“新一代打法竞争（候选评估）”。",
+      "sentences": [
+        {
+          "text": "赛果收据显示，原创测试员3甲对原创测试员3乙打出0:4，获胜一方为原创测试员3乙。",
+          "fact_ids": [
+            "participants",
+            "winner",
+            "games_won",
+            "display_name_0",
+            "display_name_1"
+          ]
+        },
+        {
+          "text": "记录汇总平均每分4.30板。",
+          "fact_ids": [
+            "mean_strokes"
+          ]
+        },
+        {
+          "text": "在已记录的非发球动作家族中，进攻是使用最多的家族之一。",
+          "fact_ids": [
+            "action_families"
+          ]
+        },
+        {
+          "text": "逐板记录中，第2局局分4:4时，原创测试员3甲使用了正手反拉。",
+          "fact_ids": [
+            "executed_shot",
+            "shot_score_before",
+            "display_name_0",
+            "display_name_1"
+          ]
+        },
+        {
+          "text": "本世界采用的时代主题为“新一代打法竞争（候选评估）”。",
+          "fact_ids": [
+            "era_theme"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "participants",
+          "kind": "participants",
+          "value": [
+            "narrative_case_2_0",
+            "narrative_case_2_1"
+          ],
+          "evidence_refs": [
+            "match:$.participant_ids"
+          ]
+        },
+        {
+          "id": "winner",
+          "kind": "winner",
+          "value": 1,
+          "evidence_refs": [
+            "match:$.winner"
+          ]
+        },
+        {
+          "id": "games_won",
+          "kind": "games_won",
+          "value": [
+            0,
+            4
+          ],
+          "evidence_refs": [
+            "match:$.games_won"
+          ]
+        },
+        {
+          "id": "display_name_0",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员3甲",
+          "evidence_refs": [
+            "cards:$[0].name_zh"
+          ]
+        },
+        {
+          "id": "display_name_1",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员3乙",
+          "evidence_refs": [
+            "cards:$[1].name_zh"
+          ]
+        },
+        {
+          "id": "mean_strokes",
+          "kind": "RECORDED_AGGREGATE",
+          "value": 4.296,
+          "evidence_refs": [
+            "match:$.mean_strokes"
+          ]
+        },
+        {
+          "id": "action_families",
+          "kind": "RECORDED_AGGREGATE",
+          "value": {
+            "push": 28,
+            "open": 6,
+            "flip": 16,
+            "counter": 43,
+            "attack": 98,
+            "block": 26,
+            "lob": 8,
+            "slow_loop": 5,
+            "chop": 4
+          },
+          "evidence_refs": [
+            "match:$.action_family_distribution"
+          ]
+        },
+        {
+          "id": "executed_shot",
+          "kind": "EXECUTED_SHOT",
+          "value": {
+            "player": 0,
+            "action": "fh_counter_loop",
+            "action_family": "counter",
+            "stroke_side": "fh",
+            "technique_path": "fh.continuity",
+            "technique_label": "正手反拉",
+            "rubber": "inverted",
+            "handedness": "right",
+            "reach": "good",
+            "reach_score": 29.6147,
+            "input_target": "fh",
+            "input_spin": "side_top",
+            "input_spin_strength": 125,
+            "input_quality": 112.49,
+            "movement": {
+              "position_before": {
+                "x": 0.0,
+                "y": -1.12,
+                "recovery": 1.0,
+                "momentum_x": 0.0,
+                "momentum_y": 0.0,
+                "movement_load": 0.0
+              },
+              "contact": {
+                "x": 0.8495999999999999,
+                "y": -1.14
+              },
+              "distance_m": 0.6484,
+              "dx_m": 0.64782,
+              "dy_m": -0.0274,
+              "direction": "right",
+              "depth_direction": "backward",
+              "reversing": false,
+              "recovery_cost": 0.0,
+              "physical_demand": 5.9525,
+              "spin_demand": 0.875,
+              "arc_demand": 0.0,
+              "input_arc": "normal",
+              "load_before": 0.0,
+              "load_after": 0.31652,
+              "match_load": 1.03691,
+              "mapped_contact_side": "fh",
+              "mapping_resolved": true,
+              "step_around": false,
+              "preparation": "finish_weak_ball"
+            },
+            "out_quality": 121.99,
+            "quality": 121.99,
+            "pace": 127.61,
+            "spin": "top",
+            "spin_strength": 121.99,
+            "spin_contact": {
+              "spin": "top",
+              "spin_strength": 121.99,
+              "pace": 127.61,
+              "arc": "normal",
+              "variation": 0.0,
+              "mechanism": "ACTIVE_FRICTION_CONTACT",
+              "rubber": "inverted",
+              "experimental": false
+            },
+            "fault_prob": 0.171538,
+            "recognition_risk": 0.0,
+            "contact_skill": 117.6392,
+            "technique_components": {
+              "fh.continuity": 0.446,
+              "fh.spin": 0.1104,
+              "fh.power": 0.2996,
+              "fh.defense": 0.072,
+              "fh.placement": 0.072
+            },
+            "technique_fault_adjustment": 0.003305,
+            "spin_handling_risk": 0.004687,
+            "input_arc": "normal",
+            "arc": "normal",
+            "specialist_plan": "finish_weak_ball",
+            "specialist_kind": "attacker",
+            "preparation_depth": 1.14,
+            "tactic": "finish_weak_ball",
+            "counterattack": false,
+            "decision": {
+              "scenario": "long_top",
+              "observed_weakness": "bh",
+              "candidates": [
+                {
+                  "action": "fh_fast_loop",
+                  "family": "attack",
+                  "wing": "fh",
+                  "probability": 0.22550704832587354
+                },
+                {
+                  "action": "bh_fast_loop",
+                  "family": "attack",
+                  "wing": "bh",
+                  "probability": 0.06802211659703555
+                },
+                {
+                  "action": "fh_counter_loop",
+                  "family": "counter",
+                  "wing": "fh",
+                  "probability": 0.14789447580179055
+                },
+                {
+                  "action": "bh_counter_loop",
+                  "family": "counter",
+                  "wing": "bh",
+                  "probability": 0.04337279284055008
+                },
+                {
+                  "action": "fh_press_block",
+                  "family": "block",
+                  "wing": "fh",
+                  "probability": 0.09101195323029426
+                },
+                {
+                  "action": "bh_press_block",
+                  "family": "block",
+                  "wing": "bh",
+                  "probability": 0.028236641590371304
+                },
+                {
+                  "action": "middle_jam_counter",
+                  "family": "counter",
+                  "wing": "bh",
+                  "probability": 0.08807171623272315
+                },
+                {
+                  "action": "fh_attack_half",
+                  "family": "attack",
+                  "wing": "fh",
+                  "probability": 0.23194483495749135
+                },
+                {
+                  "action": "bh_attack_half",
+                  "family": "attack",
+                  "wing": "bh",
+                  "probability": 0.06802211659703555
+                },
+                {
+                  "action": "fh_chop",
+                  "family": "chop",
+                  "wing": "fh",
+                  "probability": 0.005437860440398164
+                },
+                {
+                  "action": "bh_chop",
+                  "family": "chop",
+                  "wing": "bh",
+                  "probability": 0.002478443386436547
+                }
+              ],
+              "chosen": "fh_counter_loop"
+            },
+            "target": "bh",
+            "landed": "bh",
+            "length": "long",
+            "absolute_target": {
+              "x": -0.94,
+              "y": 0.9
+            },
+            "intended_absolute_target": {
+              "x": -0.94,
+              "y": 0.9
+            },
+            "geometry": {
+              "coordinate_system": "ABSOLUTE_HALF_TABLE_XY",
+              "mapping_resolved": true,
+              "hitter_hand": "right",
+              "receiver_hand": "left",
+              "hitter_end": 0,
+              "receiver_end": 1,
+              "incoming": {
+                "x": 0.72,
+                "y": -0.9
+              },
+              "target": {
+                "x": -0.94,
+                "y": 0.9
+              },
+              "incoming_contact": {
+                "x": 0.8495999999999999,
+                "y": -1.14
+              },
+              "receiver_contact": {
+                "x": -1.1092,
+                "y": 1.18
+              },
+              "hitter_side": "fh",
+              "hitter_table_side": "fh",
+              "receiver_side": "bh",
+              "receiver_table_side": "bh",
+              "receiver_contact_side": "bh",
+              "delta": {
+                "x": -1.1092,
+                "y": 0.05999999999999983
+              },
+              "delta_m": {
+                "x": -0.8457649999999999,
+                "y": 0.08219999999999977
+              },
+              "distance_m": 0.849750125169158,
+              "lateral_distance_m": 0.8457649999999999,
+              "depth_distance_m": 0.08219999999999977,
+              "forward_distance_m": 0.0,
+              "backward_distance_m": 0.08219999999999977,
+              "direction": "left",
+              "lateral_direction": "left",
+              "depth_direction": "backward",
+              "body": false,
+              "middle": false,
+              "wide": true,
+              "wide_angle": true,
+              "crosscourt": true,
+              "straight": false,
+              "line_category": "wide_angle",
+              "geometric_line": "crosscourt",
+              "angle_degrees": 26.024090991158136,
+              "step_around": false,
+              "cross_body": false,
+              "cross_step": true,
+              "needs_recovery": false,
+              "reversing": false,
+              "movement_load": 0.0,
+              "recovery_pressure": 0.3540625521538159,
+              "hitter_recovery_pressure": 0.0,
+              "next_ball_pressure": 0.3540625521538159,
+              "hitter_move_distance_m": 0.6483991921648267,
+              "technique": "fh_counter_loop"
+            },
+            "return_state": "neutral_return",
+            "target_accuracy": 0.7245,
+            "recovery_distance_m": 0.22743,
+            "position_after": {
+              "x": 0.3013270746806676,
+              "y": -1.14,
+              "recovery": 0.8287265888253271,
+              "momentum_x": -0.2982729253193323,
+              "momentum_y": 0.0,
+              "movement_load": 0.31651975764944795
+            }
+          },
+          "evidence_refs": [
+            "match:$.games[1].points[8].shots[1]"
+          ]
+        },
+        {
+          "id": "shot_score_before",
+          "kind": "shot_score_before",
+          "value": [
+            4,
+            4
+          ],
+          "evidence_refs": [
+            "match:$.games[1].points[8].score_before"
+          ]
+        },
+        {
+          "id": "era_theme",
+          "kind": "DESIGN_CONTEXT_NOT_HISTORICAL_PROOF",
+          "value": "新一代打法竞争（候选评估）",
+          "evidence_refs": [
+            "era:$.era.theme_zh"
+          ]
+        }
+      ],
+      "evidence": {
+        "match:$.participant_ids": {
+          "source": "match",
+          "source_sha256": "b44f48f13cd7c6ca837a8342d47bdb53dee5db508557137697697d0101441beb",
+          "path": "$.participant_ids"
+        },
+        "match:$.winner": {
+          "source": "match",
+          "source_sha256": "b44f48f13cd7c6ca837a8342d47bdb53dee5db508557137697697d0101441beb",
+          "path": "$.winner"
+        },
+        "match:$.games_won": {
+          "source": "match",
+          "source_sha256": "b44f48f13cd7c6ca837a8342d47bdb53dee5db508557137697697d0101441beb",
+          "path": "$.games_won"
+        },
+        "cards:$[0].name_zh": {
+          "source": "cards",
+          "source_sha256": "4cbe2fb447626536985ef359d724384eba1e29a32e4ba9acb0b525f735803d20",
+          "path": "$[0].name_zh"
+        },
+        "cards:$[1].name_zh": {
+          "source": "cards",
+          "source_sha256": "4cbe2fb447626536985ef359d724384eba1e29a32e4ba9acb0b525f735803d20",
+          "path": "$[1].name_zh"
+        },
+        "match:$.mean_strokes": {
+          "source": "match",
+          "source_sha256": "b44f48f13cd7c6ca837a8342d47bdb53dee5db508557137697697d0101441beb",
+          "path": "$.mean_strokes"
+        },
+        "match:$.action_family_distribution": {
+          "source": "match",
+          "source_sha256": "b44f48f13cd7c6ca837a8342d47bdb53dee5db508557137697697d0101441beb",
+          "path": "$.action_family_distribution"
+        },
+        "match:$.games[1].points[8].shots[1]": {
+          "source": "match",
+          "source_sha256": "b44f48f13cd7c6ca837a8342d47bdb53dee5db508557137697697d0101441beb",
+          "path": "$.games[1].points[8].shots[1]"
+        },
+        "match:$.games[1].points[8].score_before": {
+          "source": "match",
+          "source_sha256": "b44f48f13cd7c6ca837a8342d47bdb53dee5db508557137697697d0101441beb",
+          "path": "$.games[1].points[8].score_before"
+        },
+        "era:$.era.theme_zh": {
+          "source": "era",
+          "source_sha256": "960093fe1da17809660806b7ed777dd1ad6657a4efa87889d451e071fe9f7e74",
+          "path": "$.era.theme_zh"
+        }
+      },
+      "narrative_scope": "EXECUTED_SHOTS_ONLY",
+      "warnings": [],
+      "integrity_limit": "CONTENT_HASH_AND_SCHEMA_CHECKS_NOT_AUTHOR_AUTHENTICATION",
+      "history": {
+        "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+        "recent_templates": [
+          6
+        ]
+      },
+      "template_id": 6,
+      "profile_guidance": [
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_2_0",
+            "name_zh": "原创测试员3甲",
+            "as_of_year": 2024,
+            "as_of_date": "2024-02-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.4,
+                "topspin_preference": 0.65,
+                "backspin_control": 0.4475,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.55,
+                "risk": 0.5
+              },
+              "class_label": "连续相持偏好",
+              "labels": [
+                "连续相持偏好",
+                "两面调配偏好",
+                "上旋衔接偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意延长连续对抗并从衔接中寻找机会",
+                "按局面在两面之间调配",
+                "根据来球调整主动与控制的比例"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2024,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2024,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "温和幽默",
+                "偏好有序准备",
+                "重视清楚约定"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        },
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_2_1",
+            "name_zh": "原创测试员3乙",
+            "as_of_year": 2024,
+            "as_of_date": "2024-02-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.4,
+                "topspin_preference": 0.65,
+                "backspin_control": 0.4475,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.55,
+                "risk": 0.5
+              },
+              "class_label": "连续相持偏好",
+              "labels": [
+                "连续相持偏好",
+                "两面调配偏好",
+                "上旋衔接偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意延长连续对抗并从衔接中寻找机会",
+                "按局面在两面之间调配",
+                "根据来球调整主动与控制的比例"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2024,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2024,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "先听后说",
+                "耐心积累",
+                "尊重合作"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        }
+      ],
+      "participant_display_labels": [
+        "原创测试员3甲",
+        "原创测试员3乙"
+      ],
+      "fictional_atmosphere": {
+        "visibility": "OPTIONAL_FICTION_NOT_EVENT_FACT",
+        "text": "",
+        "guidance": "可以另外描写明确标注为虚构的场馆氛围，不补造私下对话或内心动机。"
+      }
+    }
+  },
+  {
+    "case": "olympic_horizon",
+    "mode": "summary",
+    "narrative": {
+      "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+      "text": "这场模拟的最终结果已经确定：原创测试员4甲获胜，局数4:2。聚合估计平均每分6.67板。在聚合抽样列出的非发球动作家族中，反击是使用最多的家族之一。本世界采用的时代主题为“新一代打法竞争（候选评估）”。",
+      "sentences": [
+        {
+          "text": "这场模拟的最终结果已经确定：原创测试员4甲获胜，局数4:2。",
+          "fact_ids": [
+            "participants",
+            "winner",
+            "games_won",
+            "display_name_0",
+            "display_name_1"
+          ]
+        },
+        {
+          "text": "聚合估计平均每分6.67板。",
+          "fact_ids": [
+            "mean_strokes"
+          ]
+        },
+        {
+          "text": "在聚合抽样列出的非发球动作家族中，反击是使用最多的家族之一。",
+          "fact_ids": [
+            "action_families"
+          ]
+        },
+        {
+          "text": "本世界采用的时代主题为“新一代打法竞争（候选评估）”。",
+          "fact_ids": [
+            "era_theme"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "participants",
+          "kind": "participants",
+          "value": [
+            "narrative_case_3_0",
+            "narrative_case_3_1"
+          ],
+          "evidence_refs": [
+            "match:$.participant_ids"
+          ]
+        },
+        {
+          "id": "winner",
+          "kind": "winner",
+          "value": 0,
+          "evidence_refs": [
+            "match:$.winner"
+          ]
+        },
+        {
+          "id": "games_won",
+          "kind": "games_won",
+          "value": [
+            4,
+            2
+          ],
+          "evidence_refs": [
+            "match:$.games_won"
+          ]
+        },
+        {
+          "id": "display_name_0",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员4甲",
+          "evidence_refs": [
+            "cards:$[0].name_zh"
+          ]
+        },
+        {
+          "id": "display_name_1",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员4乙",
+          "evidence_refs": [
+            "cards:$[1].name_zh"
+          ]
+        },
+        {
+          "id": "mean_strokes",
+          "kind": "ESTIMATED_AGGREGATE",
+          "value": 6.66667,
+          "evidence_refs": [
+            "match:$.mean_strokes"
+          ]
+        },
+        {
+          "id": "action_families",
+          "kind": "ESTIMATED_AGGREGATE",
+          "value": {
+            "serve": 114,
+            "counter": 249,
+            "block": 130,
+            "slow_loop": 2,
+            "lob": 106,
+            "chop": 13,
+            "attack": 143,
+            "push": 3
+          },
+          "evidence_refs": [
+            "match:$.action_family_distribution"
+          ]
+        },
+        {
+          "id": "era_theme",
+          "kind": "DESIGN_CONTEXT_NOT_HISTORICAL_PROOF",
+          "value": "新一代打法竞争（候选评估）",
+          "evidence_refs": [
+            "era:$.era.theme_zh"
+          ]
+        }
+      ],
+      "evidence": {
+        "match:$.participant_ids": {
+          "source": "match",
+          "source_sha256": "aa34d2ee2c11e7e113ffe1b347da083b1c6627846ae330db135ad3c5d5ea94b6",
+          "path": "$.participant_ids"
+        },
+        "match:$.winner": {
+          "source": "match",
+          "source_sha256": "aa34d2ee2c11e7e113ffe1b347da083b1c6627846ae330db135ad3c5d5ea94b6",
+          "path": "$.winner"
+        },
+        "match:$.games_won": {
+          "source": "match",
+          "source_sha256": "aa34d2ee2c11e7e113ffe1b347da083b1c6627846ae330db135ad3c5d5ea94b6",
+          "path": "$.games_won"
+        },
+        "cards:$[0].name_zh": {
+          "source": "cards",
+          "source_sha256": "77cf56f45a539948c6a1d25dcfe796731ba0ccb5e775fa88b92720b0ca4fb1a4",
+          "path": "$[0].name_zh"
+        },
+        "cards:$[1].name_zh": {
+          "source": "cards",
+          "source_sha256": "77cf56f45a539948c6a1d25dcfe796731ba0ccb5e775fa88b92720b0ca4fb1a4",
+          "path": "$[1].name_zh"
+        },
+        "match:$.mean_strokes": {
+          "source": "match",
+          "source_sha256": "aa34d2ee2c11e7e113ffe1b347da083b1c6627846ae330db135ad3c5d5ea94b6",
+          "path": "$.mean_strokes"
+        },
+        "match:$.action_family_distribution": {
+          "source": "match",
+          "source_sha256": "aa34d2ee2c11e7e113ffe1b347da083b1c6627846ae330db135ad3c5d5ea94b6",
+          "path": "$.action_family_distribution"
+        },
+        "era:$.era.theme_zh": {
+          "source": "era",
+          "source_sha256": "183ab5023959f28a21f8d995c21f7f5837a9f626974d0f66a3113b228f93da95",
+          "path": "$.era.theme_zh"
+        }
+      },
+      "narrative_scope": "AGGREGATE_ONLY",
+      "warnings": [
+        "NO_SHOT_CHRONOLOGY_AVAILABLE_OR_AUTHORIZED",
+        "EXPOSURE_MOVEMENT_AND_RALLIES_ARE_AGGREGATE_ESTIMATES"
+      ],
+      "integrity_limit": "CONTENT_HASH_AND_SCHEMA_CHECKS_NOT_AUTHOR_AUTHENTICATION",
+      "history": {
+        "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+        "recent_templates": [
+          4
+        ]
+      },
+      "template_id": 4,
+      "profile_guidance": [
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_3_0",
+            "name_zh": "原创测试员4甲",
+            "as_of_year": 2028,
+            "as_of_date": "2028-07-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.4,
+                "topspin_preference": 0.65,
+                "backspin_control": 0.4475,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.55,
+                "risk": 0.5
+              },
+              "class_label": "连续相持偏好",
+              "labels": [
+                "连续相持偏好",
+                "两面调配偏好",
+                "上旋衔接偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意延长连续对抗并从衔接中寻找机会",
+                "按局面在两面之间调配",
+                "根据来球调整主动与控制的比例"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2028,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2028,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "简洁交流",
+                "耐心积累",
+                "重视清楚约定"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        },
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_3_1",
+            "name_zh": "原创测试员4乙",
+            "as_of_year": 2028,
+            "as_of_date": "2028-07-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.4,
+                "topspin_preference": 0.65,
+                "backspin_control": 0.4475,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.55,
+                "risk": 0.5
+              },
+              "class_label": "连续相持偏好",
+              "labels": [
+                "连续相持偏好",
+                "两面调配偏好",
+                "上旋衔接偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意延长连续对抗并从衔接中寻找机会",
+                "按局面在两面之间调配",
+                "根据来球调整主动与控制的比例"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2028,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2028,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "温和幽默",
+                "重视复盘",
+                "愿意交流经验"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        }
+      ],
+      "participant_display_labels": [
+        "原创测试员4甲",
+        "原创测试员4乙"
+      ],
+      "fictional_atmosphere": {
+        "visibility": "OPTIONAL_FICTION_NOT_EVENT_FACT",
+        "text": "",
+        "guidance": "可以另外描写明确标注为虚构的场馆氛围，不补造私下对话或内心动机。"
+      }
+    }
+  },
+  {
+    "case": "olympic_horizon",
+    "mode": "full",
+    "narrative": {
+      "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+      "text": "原创测试员4甲与原创测试员4乙的本场模拟以4:0结束，胜者是原创测试员4甲。记录汇总平均每分4.18板。在已记录的非发球动作家族中，进攻是使用最多的家族之一。逐板记录中，第3局局分10:6时，原创测试员4甲使用了中路挤压反击。本世界采用的时代主题为“新一代打法竞争（候选评估）”。",
+      "sentences": [
+        {
+          "text": "原创测试员4甲与原创测试员4乙的本场模拟以4:0结束，胜者是原创测试员4甲。",
+          "fact_ids": [
+            "participants",
+            "winner",
+            "games_won",
+            "display_name_0",
+            "display_name_1"
+          ]
+        },
+        {
+          "text": "记录汇总平均每分4.18板。",
+          "fact_ids": [
+            "mean_strokes"
+          ]
+        },
+        {
+          "text": "在已记录的非发球动作家族中，进攻是使用最多的家族之一。",
+          "fact_ids": [
+            "action_families"
+          ]
+        },
+        {
+          "text": "逐板记录中，第3局局分10:6时，原创测试员4甲使用了中路挤压反击。",
+          "fact_ids": [
+            "executed_shot",
+            "shot_score_before",
+            "display_name_0",
+            "display_name_1"
+          ]
+        },
+        {
+          "text": "本世界采用的时代主题为“新一代打法竞争（候选评估）”。",
+          "fact_ids": [
+            "era_theme"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "participants",
+          "kind": "participants",
+          "value": [
+            "narrative_case_3_0",
+            "narrative_case_3_1"
+          ],
+          "evidence_refs": [
+            "match:$.participant_ids"
+          ]
+        },
+        {
+          "id": "winner",
+          "kind": "winner",
+          "value": 0,
+          "evidence_refs": [
+            "match:$.winner"
+          ]
+        },
+        {
+          "id": "games_won",
+          "kind": "games_won",
+          "value": [
+            4,
+            0
+          ],
+          "evidence_refs": [
+            "match:$.games_won"
+          ]
+        },
+        {
+          "id": "display_name_0",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员4甲",
+          "evidence_refs": [
+            "cards:$[0].name_zh"
+          ]
+        },
+        {
+          "id": "display_name_1",
+          "kind": "CALLER_PROVIDED_IDENTITY_LABEL",
+          "value": "原创测试员4乙",
+          "evidence_refs": [
+            "cards:$[1].name_zh"
+          ]
+        },
+        {
+          "id": "mean_strokes",
+          "kind": "RECORDED_AGGREGATE",
+          "value": 4.182,
+          "evidence_refs": [
+            "match:$.mean_strokes"
+          ]
+        },
+        {
+          "id": "action_families",
+          "kind": "RECORDED_AGGREGATE",
+          "value": {
+            "attack": 96,
+            "counter": 38,
+            "flip": 17,
+            "block": 24,
+            "chop": 2,
+            "push": 46,
+            "slow_loop": 4,
+            "open": 9,
+            "lob": 9
+          },
+          "evidence_refs": [
+            "match:$.action_family_distribution"
+          ]
+        },
+        {
+          "id": "executed_shot",
+          "kind": "EXECUTED_SHOT",
+          "value": {
+            "player": 0,
+            "action": "middle_jam_counter",
+            "action_family": "counter",
+            "stroke_side": "bh",
+            "technique_path": "read.choice",
+            "technique_label": "中路挤压反击",
+            "rubber": "inverted",
+            "handedness": "right",
+            "reach": "limited",
+            "reach_score": 0.6269,
+            "input_target": "bh",
+            "input_spin": "top",
+            "input_spin_strength": 103.58,
+            "input_quality": 103.58,
+            "movement": {
+              "position_before": {
+                "x": -0.24548531547522995,
+                "y": -1.18,
+                "recovery": 0.8425867355171857,
+                "momentum_x": 0.27151468452477007,
+                "momentum_y": 0.0,
+                "movement_load": 0.9860853280905512
+              },
+              "contact": {
+                "x": -0.767,
+                "y": -1.14
+              },
+              "distance_m": 0.40141,
+              "dx_m": -0.39765,
+              "dy_m": 0.0548,
+              "direction": "left",
+              "depth_direction": "forward",
+              "reversing": true,
+              "recovery_cost": 2.9722,
+              "physical_demand": 3.6851,
+              "spin_demand": 0.1253,
+              "arc_demand": 0.0,
+              "input_arc": "normal",
+              "load_before": 1.00679,
+              "load_after": 1.26674,
+              "match_load": 2.41135,
+              "mapped_contact_side": "bh",
+              "mapping_resolved": true,
+              "step_around": false,
+              "preparation": "finish_weak_ball"
+            },
+            "out_quality": 92.14,
+            "quality": 92.14,
+            "pace": 123.94,
+            "spin": "top",
+            "spin_strength": 92.14,
+            "spin_contact": {
+              "spin": "top",
+              "spin_strength": 92.14,
+              "pace": 123.94,
+              "arc": "normal",
+              "variation": 0.0,
+              "mechanism": "ACTIVE_FRICTION_CONTACT",
+              "rubber": "inverted",
+              "experimental": false
+            },
+            "fault_prob": 0.188447,
+            "recognition_risk": 0.0,
+            "contact_skill": 107.232,
+            "technique_components": {
+              "bh.continuity": 0.47,
+              "bh.spin": 0.096,
+              "bh.power": 0.29,
+              "bh.defense": 0.072,
+              "bh.placement": 0.072
+            },
+            "technique_fault_adjustment": 0.017875,
+            "spin_handling_risk": 0.000671,
+            "input_arc": "normal",
+            "arc": "normal",
+            "specialist_plan": "finish_weak_ball",
+            "specialist_kind": "attacker",
+            "preparation_depth": 1.14,
+            "tactic": "finish_weak_ball",
+            "counterattack": false,
+            "decision": {
+              "scenario": "rally_weak",
+              "observed_weakness": "bh",
+              "candidates": [
+                {
+                  "action": "fh_fast_loop",
+                  "family": "attack",
+                  "wing": "fh",
+                  "probability": 0.033087426295014294
+                },
+                {
+                  "action": "bh_fast_loop",
+                  "family": "attack",
+                  "wing": "bh",
+                  "probability": 0.16687015883973158
+                },
+                {
+                  "action": "fh_attack_punch",
+                  "family": "attack",
+                  "wing": "fh",
+                  "probability": 0.03595363756485044
+                },
+                {
+                  "action": "bh_attack_punch",
+                  "family": "attack",
+                  "wing": "bh",
+                  "probability": 0.18132535174598244
+                },
+                {
+                  "action": "middle_jam_counter",
+                  "family": "counter",
+                  "wing": "bh",
+                  "probability": 0.15804633923947922
+                },
+                {
+                  "action": "fh_counter_loop",
+                  "family": "counter",
+                  "wing": "fh",
+                  "probability": 0.02357958166471546
+                },
+                {
+                  "action": "bh_counter_loop",
+                  "family": "counter",
+                  "wing": "bh",
+                  "probability": 0.1156184659762533
+                },
+                {
+                  "action": "fh_sideswipe",
+                  "family": "attack",
+                  "wing": "fh",
+                  "probability": 0.03803575199349108
+                },
+                {
+                  "action": "bh_sideswipe",
+                  "family": "attack",
+                  "wing": "bh",
+                  "probability": 0.2271199123618698
+                },
+                {
+                  "action": "fh_press_block",
+                  "family": "block",
+                  "wing": "fh",
+                  "probability": 0.014540573694242989
+                },
+                {
+                  "action": "fh_chop",
+                  "family": "chop",
+                  "wing": "fh",
+                  "probability": 0.001316167524281224
+                },
+                {
+                  "action": "bh_chop",
+                  "family": "chop",
+                  "wing": "bh",
+                  "probability": 0.004506633100088064
+                }
+              ],
+              "chosen": "middle_jam_counter"
+            },
+            "return_state": "direct_point_lost"
+          },
+          "evidence_refs": [
+            "match:$.games[2].points[16].shots[8]"
+          ]
+        },
+        {
+          "id": "shot_score_before",
+          "kind": "shot_score_before",
+          "value": [
+            10,
+            6
+          ],
+          "evidence_refs": [
+            "match:$.games[2].points[16].score_before"
+          ]
+        },
+        {
+          "id": "era_theme",
+          "kind": "DESIGN_CONTEXT_NOT_HISTORICAL_PROOF",
+          "value": "新一代打法竞争（候选评估）",
+          "evidence_refs": [
+            "era:$.era.theme_zh"
+          ]
+        }
+      ],
+      "evidence": {
+        "match:$.participant_ids": {
+          "source": "match",
+          "source_sha256": "87d630d451f466caf289a18b2a5dd14ae98b67124ed4147965d4952127e43749",
+          "path": "$.participant_ids"
+        },
+        "match:$.winner": {
+          "source": "match",
+          "source_sha256": "87d630d451f466caf289a18b2a5dd14ae98b67124ed4147965d4952127e43749",
+          "path": "$.winner"
+        },
+        "match:$.games_won": {
+          "source": "match",
+          "source_sha256": "87d630d451f466caf289a18b2a5dd14ae98b67124ed4147965d4952127e43749",
+          "path": "$.games_won"
+        },
+        "cards:$[0].name_zh": {
+          "source": "cards",
+          "source_sha256": "77cf56f45a539948c6a1d25dcfe796731ba0ccb5e775fa88b92720b0ca4fb1a4",
+          "path": "$[0].name_zh"
+        },
+        "cards:$[1].name_zh": {
+          "source": "cards",
+          "source_sha256": "77cf56f45a539948c6a1d25dcfe796731ba0ccb5e775fa88b92720b0ca4fb1a4",
+          "path": "$[1].name_zh"
+        },
+        "match:$.mean_strokes": {
+          "source": "match",
+          "source_sha256": "87d630d451f466caf289a18b2a5dd14ae98b67124ed4147965d4952127e43749",
+          "path": "$.mean_strokes"
+        },
+        "match:$.action_family_distribution": {
+          "source": "match",
+          "source_sha256": "87d630d451f466caf289a18b2a5dd14ae98b67124ed4147965d4952127e43749",
+          "path": "$.action_family_distribution"
+        },
+        "match:$.games[2].points[16].shots[8]": {
+          "source": "match",
+          "source_sha256": "87d630d451f466caf289a18b2a5dd14ae98b67124ed4147965d4952127e43749",
+          "path": "$.games[2].points[16].shots[8]"
+        },
+        "match:$.games[2].points[16].score_before": {
+          "source": "match",
+          "source_sha256": "87d630d451f466caf289a18b2a5dd14ae98b67124ed4147965d4952127e43749",
+          "path": "$.games[2].points[16].score_before"
+        },
+        "era:$.era.theme_zh": {
+          "source": "era",
+          "source_sha256": "183ab5023959f28a21f8d995c21f7f5837a9f626974d0f66a3113b228f93da95",
+          "path": "$.era.theme_zh"
+        }
+      },
+      "narrative_scope": "EXECUTED_SHOTS_ONLY",
+      "warnings": [],
+      "integrity_limit": "CONTENT_HASH_AND_SCHEMA_CHECKS_NOT_AUTHOR_AUTHENTICATION",
+      "history": {
+        "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+        "recent_templates": [
+          0
+        ]
+      },
+      "template_id": 0,
+      "profile_guidance": [
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_3_0",
+            "name_zh": "原创测试员4甲",
+            "as_of_year": 2028,
+            "as_of_date": "2028-07-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.4,
+                "topspin_preference": 0.65,
+                "backspin_control": 0.4475,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.55,
+                "risk": 0.5
+              },
+              "class_label": "连续相持偏好",
+              "labels": [
+                "连续相持偏好",
+                "两面调配偏好",
+                "上旋衔接偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意延长连续对抗并从衔接中寻找机会",
+                "按局面在两面之间调配",
+                "根据来球调整主动与控制的比例"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2028,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2028,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "简洁交流",
+                "耐心积累",
+                "重视清楚约定"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        },
+        {
+          "visibility": "NARRATOR_ONLY",
+          "guidance": {
+            "player_id": "narrative_case_3_1",
+            "name_zh": "原创测试员4乙",
+            "as_of_year": 2028,
+            "as_of_date": "2028-07-01",
+            "temporal_precision": "EXACT_DATE",
+            "style_profile": {
+              "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+              "axes": {
+                "forehand_use": 0.5,
+                "backhand_use": 0.5,
+                "short_game": 0.55,
+                "first_three": 0.55,
+                "rally": 0.625,
+                "away_table": 0.4,
+                "topspin_preference": 0.65,
+                "backspin_control": 0.4475,
+                "spin_variation": 0.585,
+                "initiative": 0.5,
+                "counterattack": 0.55,
+                "risk": 0.5
+              },
+              "class_label": "连续相持偏好",
+              "labels": [
+                "连续相持偏好",
+                "两面调配偏好",
+                "上旋衔接偏好",
+                "择机加速偏好"
+              ],
+              "preferred_methods": [
+                "愿意延长连续对抗并从衔接中寻找机会",
+                "按局面在两面之间调配",
+                "根据来球调整主动与控制的比例"
+              ],
+              "provenance": {
+                "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+                "source_fields": [
+                  "tendencies",
+                  "role",
+                  "style"
+                ],
+                "source_snapshot_year": 2028,
+                "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+                "research_document": "docs/V118_RESEARCH_ZH.md",
+                "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+                "ability_independent": true,
+                "future_titles_not_used": true
+              },
+              "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+              "as_of_year": 2028,
+              "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+            },
+            "personality_guidance": {
+              "visibility": "NARRATOR_ONLY",
+              "basis": "SIMULATED_NARRATIVE_DEFAULT",
+              "public_cues": [],
+              "simulation_traits": [
+                "温和幽默",
+                "重视复盘",
+                "愿意交流经验"
+              ],
+              "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+              "not_match_modifiers": true,
+              "not_a_psychological_diagnosis": true,
+              "caution": "公开表达只供有限参考；模拟默认词不是现实私人人格事实。"
+            }
+          },
+          "use_limit": "PREFERENCES_AND_LABELLED_CUES_NOT_MATCH_CAUSAL_EVIDENCE"
+        }
+      ],
+      "participant_display_labels": [
+        "原创测试员4甲",
+        "原创测试员4乙"
+      ],
+      "fictional_atmosphere": {
+        "visibility": "OPTIONAL_FICTION_NOT_EVENT_FACT",
+        "text": "",
+        "guidance": "可以另外描写明确标注为虚构的场馆氛围，不补造私下对话或内心动机。"
+      }
+    }
+  },
+  {
+    "case": "actual_training",
+    "narrative": {
+      "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+      "text": "本阶段训练已完成结算。回执中的有效CA由159变为159。技术变化明细列出了2个子项，具体增量以回执为准。本次结算后的PA估值为198。",
+      "sentences": [
+        {
+          "text": "本阶段训练已完成结算。",
+          "fact_ids": [
+            "mode"
+          ]
+        },
+        {
+          "text": "回执中的有效CA由159变为159。",
+          "fact_ids": [
+            "CA_before",
+            "CA_after"
+          ]
+        },
+        {
+          "text": "技术变化明细列出了2个子项，具体增量以回执为准。",
+          "fact_ids": [
+            "skill_changes"
+          ]
+        },
+        {
+          "text": "本次结算后的PA估值为198。",
+          "fact_ids": [
+            "PA_after"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "mode",
+          "kind": "mode",
+          "value": "train",
+          "evidence_refs": [
+            "training:$.mode"
+          ]
+        },
+        {
+          "id": "CA_before",
+          "kind": "CA_before",
+          "value": 159,
+          "evidence_refs": [
+            "training:$.CA_before"
+          ]
+        },
+        {
+          "id": "CA_after",
+          "kind": "CA_after",
+          "value": 159,
+          "evidence_refs": [
+            "training:$.CA_after"
+          ]
+        },
+        {
+          "id": "skill_changes",
+          "kind": "skill_changes",
+          "value": [
+            {
+              "path": "bh.spin",
+              "old": 106,
+              "new": 107
+            },
+            {
+              "path": "bh.continuity",
+              "old": 108,
+              "new": 109
+            }
+          ],
+          "evidence_refs": [
+            "training:$.skill_changes"
+          ]
+        },
+        {
+          "id": "PA_after",
+          "kind": "PA_after",
+          "value": 198,
+          "evidence_refs": [
+            "training:$.PA_after"
+          ]
+        }
+      ],
+      "evidence": {
+        "training:$.mode": {
+          "source": "training",
+          "source_sha256": "d2ff386cff8e31f3c5ca606bca78403a44ecc388b3dd23fd1adaa1bb41ea02ac",
+          "path": "$.mode"
+        },
+        "training:$.CA_before": {
+          "source": "training",
+          "source_sha256": "d2ff386cff8e31f3c5ca606bca78403a44ecc388b3dd23fd1adaa1bb41ea02ac",
+          "path": "$.CA_before"
+        },
+        "training:$.CA_after": {
+          "source": "training",
+          "source_sha256": "d2ff386cff8e31f3c5ca606bca78403a44ecc388b3dd23fd1adaa1bb41ea02ac",
+          "path": "$.CA_after"
+        },
+        "training:$.skill_changes": {
+          "source": "training",
+          "source_sha256": "d2ff386cff8e31f3c5ca606bca78403a44ecc388b3dd23fd1adaa1bb41ea02ac",
+          "path": "$.skill_changes"
+        },
+        "training:$.PA_after": {
+          "source": "training",
+          "source_sha256": "d2ff386cff8e31f3c5ca606bca78403a44ecc388b3dd23fd1adaa1bb41ea02ac",
+          "path": "$.PA_after"
+        }
+      },
+      "narrative_scope": "SETTLED_RECEIPT_ONLY",
+      "warnings": [
+        "CALLER_SUPPLIED_RECEIPT_CONTENT_HASH_IS_NOT_WORLD_AUTHENTICATION"
+      ],
+      "integrity_limit": "CONTENT_HASH_AND_SCHEMA_CHECKS_NOT_AUTHOR_AUTHENTICATION",
+      "settlement_performed": false,
+      "reward_policy": "NO_REWARD_OR_ABILITY_AWARDED_BY_NARRATION"
+    }
+  },
+  {
+    "case": "actual_rest",
+    "narrative": {
+      "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+      "text": "本阶段已按休整结算。回执中的有效CA由159变为159。本次结算后的PA估值为198。",
+      "sentences": [
+        {
+          "text": "本阶段已按休整结算。",
+          "fact_ids": [
+            "mode"
+          ]
+        },
+        {
+          "text": "回执中的有效CA由159变为159。",
+          "fact_ids": [
+            "CA_before",
+            "CA_after"
+          ]
+        },
+        {
+          "text": "本次结算后的PA估值为198。",
+          "fact_ids": [
+            "PA_after"
+          ]
+        }
+      ],
+      "facts": [
+        {
+          "id": "mode",
+          "kind": "mode",
+          "value": "rest",
+          "evidence_refs": [
+            "training:$.mode"
+          ]
+        },
+        {
+          "id": "CA_before",
+          "kind": "CA_before",
+          "value": 159,
+          "evidence_refs": [
+            "training:$.CA_before"
+          ]
+        },
+        {
+          "id": "CA_after",
+          "kind": "CA_after",
+          "value": 159,
+          "evidence_refs": [
+            "training:$.CA_after"
+          ]
+        },
+        {
+          "id": "skill_changes",
+          "kind": "skill_changes",
+          "value": [],
+          "evidence_refs": [
+            "training:$.skill_changes"
+          ]
+        },
+        {
+          "id": "PA_after",
+          "kind": "PA_after",
+          "value": 198,
+          "evidence_refs": [
+            "training:$.PA_after"
+          ]
+        }
+      ],
+      "evidence": {
+        "training:$.mode": {
+          "source": "training",
+          "source_sha256": "a7bbda2cddec2c294a40711889f80b1ffd2db970f52566791710fd3a2e9d479a",
+          "path": "$.mode"
+        },
+        "training:$.CA_before": {
+          "source": "training",
+          "source_sha256": "a7bbda2cddec2c294a40711889f80b1ffd2db970f52566791710fd3a2e9d479a",
+          "path": "$.CA_before"
+        },
+        "training:$.CA_after": {
+          "source": "training",
+          "source_sha256": "a7bbda2cddec2c294a40711889f80b1ffd2db970f52566791710fd3a2e9d479a",
+          "path": "$.CA_after"
+        },
+        "training:$.skill_changes": {
+          "source": "training",
+          "source_sha256": "a7bbda2cddec2c294a40711889f80b1ffd2db970f52566791710fd3a2e9d479a",
+          "path": "$.skill_changes"
+        },
+        "training:$.PA_after": {
+          "source": "training",
+          "source_sha256": "a7bbda2cddec2c294a40711889f80b1ffd2db970f52566791710fd3a2e9d479a",
+          "path": "$.PA_after"
+        }
+      },
+      "narrative_scope": "SETTLED_RECEIPT_ONLY",
+      "warnings": [
+        "CALLER_SUPPLIED_RECEIPT_CONTENT_HASH_IS_NOT_WORLD_AUTHENTICATION"
+      ],
+      "integrity_limit": "CONTENT_HASH_AND_SCHEMA_CHECKS_NOT_AUTHOR_AUTHENTICATION",
+      "settlement_performed": false,
+      "reward_policy": "NO_REWARD_OR_ABILITY_AWARDED_BY_NARRATION"
+    }
+  }
+]

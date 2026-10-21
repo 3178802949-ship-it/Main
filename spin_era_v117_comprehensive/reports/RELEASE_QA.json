@@ -1,0 +1,32 @@
+{
+  "version": "V1.1.6-MODULAR-INTEGRATION-CANDIDATE",
+  "status": "FUNCTIONAL_CHECKS_PASSED",
+  "tests": {
+    "passed": 84,
+    "failed": 0,
+    "skipped": 0
+  },
+  "fresh_demo_reproduced": true,
+  "checkpoint_continuation_exact": true,
+  "original_presets": 370,
+  "preserved_43_subskills_and_P6": true,
+  "preserved_original_CA": true,
+  "game_BO7_matches": 100,
+  "new_rule_training_careers": 72,
+  "phases_per_career": 480,
+  "complete_historical_calendar": false,
+  "population_rarity_calibrated": false,
+  "historical_197_198_potential_calibration": "NOT_PASSED",
+  "full_NPC_automatic_careers": false,
+  "underlying_game_shared_process_safety": false,
+  "public_Game_process_isolation_verified": true,
+  "complete_real_world_ranking_pool": false,
+  "package_source_hashes": {
+    "Game/__init__.py": "2f7a3af5e0767906d2144f7301f938b5bb17aa95b7ea190322561b7b53df698d",
+    "Game/worker.py": "3a4d663c79985b815a2fa58d86f868710133ae20293335de2a42eaafc0b4c5ac",
+    "Card/__init__.py": "de0614af0039a6b0c4ad4559e90305ea8f0bc8f06e52f7f407d5175d39ee9b6c",
+    "Training/__init__.py": "69d249d26781c34d254b07fa9fe6d60f7cdb84ef05a7374175ab397ecf9bf7d5",
+    "Area/__init__.py": "1d1379834f6cb9579e983c614b0e9546e720b18ec41249270a47a46466aee18b",
+    "common/__init__.py": "6404128c46d6fa7bf2484ea380045da4995d925f949d6bf6b2c5d27a510fe58b"
+  }
+}

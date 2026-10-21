@@ -1,0 +1,789 @@
+{
+  "version": "V1.1.7-COMPREHENSIVE-1",
+  "baseline": "V1.1.7-CANDIDATE-1",
+  "modified": [
+    {
+      "path": "README.md",
+      "baseline_sha256": "1d7adb88f76d6cd4b84640760f63ae44fa0facddf7aedc7bcc83cf9deff08420",
+      "candidate_sha256": "dbee2ef98ca66912027f34578b6e282f175597627cb6d49dabf14d0cd62caf73"
+    }
+  ],
+  "added": [
+    {
+      "path": "Area/v118.py",
+      "sha256": "dcf6bb799fe30faa29ef3297862eafac931af825e7f28f8b09089dccfc269fe6"
+    },
+    {
+      "path": "Card/v118.py",
+      "sha256": "a8a4df47ca09b4b0def6269f5511f1a590c0d4bbed59dc275c7b358ab4893f3d"
+    },
+    {
+      "path": "Game/integration_v118.py",
+      "sha256": "3206865a266024f937cc18a4c4aa3e60252e2f406e6b3a8dac73f0aeafe37dc4"
+    },
+    {
+      "path": "Game/preferences_v118.py",
+      "sha256": "4048d022c83fa84d897a122f7dcd8b929fcfbdc22fb8d2a85affde7a34e784dc"
+    },
+    {
+      "path": "Game/v118.py",
+      "sha256": "1bb924588da4de0a1fc2b442ae43200bc7157a9522bbb18c028ad699030c132d"
+    },
+    {
+      "path": "Game/worker_v118.py",
+      "sha256": "44eb8f29834512dbc6c5e5421cb10c3c4b4bf94d52bdfa04e73d92f624aed6b5"
+    },
+    {
+      "path": "OPENING_COMPREHENSIVE_ZH.md",
+      "sha256": "12864288c9478082b4e8ac3a67510032fb276f7a6c600b090abd41d79f0ddab5"
+    },
+    {
+      "path": "OPENING_V118_ZH.md",
+      "sha256": "e386b7fa941867ffca00b886dfb6ac2cabe18d0e69d6b7d3445d447506e8ea16"
+    },
+    {
+      "path": "README_COMPREHENSIVE_ZH.md",
+      "sha256": "694ee18acdf50c90217ed6e54022bdbc5732a8266bb6d2fe930a0618bd47cc28"
+    },
+    {
+      "path": "README_V118_ZH.md",
+      "sha256": "0d428f4d0a8b474fcab050defd89e58c07632e1fda2be9111a65cdecca518b1e"
+    },
+    {
+      "path": "Training/v118.py",
+      "sha256": "c47478eb2154cfc9a1e2cde6964e9a9d7eae2b47f5eec59331e10894587cb20a"
+    },
+    {
+      "path": "build_comprehensive_package.py",
+      "sha256": "5787bf4f8c939920c9a3601291f6628dcfcb0200ceca7d84f692da8ab7b0bdef"
+    },
+    {
+      "path": "data/player_profiles_v118.json",
+      "sha256": "5ddf04e494f4659fba11b9b97123ec697d5f3c1eb5d31607ce566225e5ee21c3"
+    },
+    {
+      "path": "data/research_v118.json",
+      "sha256": "4a526705432358f410636aab945105aeef305494c971b54db3eea0f354cd0c57"
+    },
+    {
+      "path": "docs/COMPLETE_CARD_COMPREHENSIVE_ZH.md",
+      "sha256": "c5116d97716238fbf2e09cf4fb519b4d822bfe5e5e0c85c47bc3cef93f94eda9"
+    },
+    {
+      "path": "docs/COMPREHENSIVE_QA_ZH.md",
+      "sha256": "5338df817a3b97ad32159adc712d982bd9c4cc557032e8c381d669d54ca65be0"
+    },
+    {
+      "path": "docs/V118_AUDIT_ZH.md",
+      "sha256": "3d76b8d2db3af39fa7b2cd5058d563273a41810b6efbd0f62278dc044ac55ca0"
+    },
+    {
+      "path": "docs/V118_GAME_ZH.md",
+      "sha256": "74579eba0ccca50d2338e5fb1213170f42e4e8cd38945601e03c0945ad3332cb"
+    },
+    {
+      "path": "docs/V118_GROWTH_ZH.md",
+      "sha256": "47d06cb4824bee379a20d673c7e792d2d6503f15bb16845a87a21e17d19c7597"
+    },
+    {
+      "path": "docs/V118_NARRATIVE_ZH.md",
+      "sha256": "186db3ac4b49de60a3139da252644788c451dcf59a6e12cbcb311b6967c429bb"
+    },
+    {
+      "path": "docs/V118_RESEARCH_ZH.md",
+      "sha256": "4bb542dc3dd3014a5b59255a2a1b3519037eefd000afdc06eadf7970a1fb0fbf"
+    },
+    {
+      "path": "docs/V118_STYLE_TAXONOMY_ZH.md",
+      "sha256": "9fb7c2253a4d237e513dfcef699a319a52c7b413dab3dbe268c2ee39c5efd5fe"
+    },
+    {
+      "path": "examples/audit_era_v118.py",
+      "sha256": "fe554d831c99aa6dcfc52ed1753ce0dca93e7298c8f5ac32967c8d2ed177bf7e"
+    },
+    {
+      "path": "examples/audit_narrative_v118.py",
+      "sha256": "402889e2ada228f3f66dc8d96420f5069bf666aed84b9dac263ad152fa291847"
+    },
+    {
+      "path": "examples/benchmark_style_v118.py",
+      "sha256": "b0efe6ec8c8b30ae7f86e9b39d3658f86ed028a792588a7278117b7d11be6eb5"
+    },
+    {
+      "path": "examples/calibrate_career_v118.py",
+      "sha256": "42a198643409e9f51bcb339eab7cceb29e30287abb7b7f6c8be4a10501d7b5bb"
+    },
+    {
+      "path": "examples/comprehensive_demo_output/COMPLETE_CARD_COMPREHENSIVE.json",
+      "sha256": "554d365f45f3fb3bcc59e9d9caffd2c2fa8068f415ca8a9dd8df5f87f0005218"
+    },
+    {
+      "path": "examples/comprehensive_demo_output/DEMO_CARD_COMPREHENSIVE.json",
+      "sha256": "b1bf7ab7e7f694aafb8557f0d6599f7c95d938219b6b5db25b6f6c03d711043c"
+    },
+    {
+      "path": "examples/comprehensive_demo_output/DEMO_SUMMARY_COMPREHENSIVE.json",
+      "sha256": "7d4a0e22f0e2fb46a25e5dfbc204a685c9409f0b22a4f070b9e62cb1c52f343e"
+    },
+    {
+      "path": "examples/comprehensive_demo_output/DEMO_WORLD_COMPREHENSIVE.json",
+      "sha256": "2c4b5e1d7cf5774139d5ab3f6b2fe83999ba2c5d51806ce403d7c54e9426cd20"
+    },
+    {
+      "path": "examples/comprehensive_demo_output/NARRATIVE_EXAMPLES.json",
+      "sha256": "8b18daf0f9e2ad0387b6cc9218f81b90cf1274aeb2a58556a9f486468700bfba"
+    },
+    {
+      "path": "examples/comprehensive_demo_output/START_WORLD_COMPREHENSIVE.json",
+      "sha256": "e926bdd8ea91734667aa3bb6d0c8100fef002b709ae3c6c0d627ebf6c8265037"
+    },
+    {
+      "path": "examples/comprehensive_demo_output/full_match_artifacts/54b64f267cce40bce0e6ff723029b2e45e671e449678619d4d3ee4c2e61d2701.json",
+      "sha256": "a49e7de73ff0dd967b8047edc34e6fc4b37ec10c7a7e3af0b43fda72e7a7a043"
+    },
+    {
+      "path": "examples/start_comprehensive.py",
+      "sha256": "07463ea515b227041b45d62f5ef1e98d0cd5116e507888e7ef94d08807bd1e71"
+    },
+    {
+      "path": "examples/stress_horizon_comprehensive.py",
+      "sha256": "329a749fdfacf28994055dfb0415633acb616541660c8f97a670aced28a8190d"
+    },
+    {
+      "path": "narrative_v118.py",
+      "sha256": "beff51d245e6a695a96ea3ed1346a31711fc9a5c179a44899ae043cef7e6be8d"
+    },
+    {
+      "path": "reports/comprehensive/CARD_AUDIT.json",
+      "sha256": "94002fdc08b56377a8413e70c0342f12cbe6d01c517d58019745ac37d0369c74"
+    },
+    {
+      "path": "reports/comprehensive/ERA_AUDIT.json",
+      "sha256": "45ad905816fecba6e543bd992a96cbeb51d2384df6f29e2b2785f9f6f5c87fb6"
+    },
+    {
+      "path": "reports/comprehensive/NARRATIVE_AUDIT/NARRATIVE_AUDIT.json",
+      "sha256": "4c1beea7b40a50dd365642ffb57793810422c2a816a87e4ce8e12f0d1c2dba2e"
+    },
+    {
+      "path": "reports/comprehensive/NARRATIVE_AUDIT/NARRATIVE_SAMPLES.json",
+      "sha256": "ff7cec05da1d310922a09cbeca144daa8d45ad032b3ebbc6d8e1ae7c323dbf5d"
+    },
+    {
+      "path": "reports/comprehensive/NARRATIVE_AUDIT/PREDECLARED_PLAN.json",
+      "sha256": "eca0dd47cc81da7c18f4da5f7611de4380fc85f7d915ff468424347cadb89f40"
+    },
+    {
+      "path": "reports/comprehensive/NARRATIVE_TESTS.json",
+      "sha256": "cbc1b27144463402f903b70640f5c974965eb6dd88f17893a0ab8551f8807fbc"
+    },
+    {
+      "path": "reports/comprehensive/RELEASE_INDEX.json",
+      "sha256": "6885c0c9fc6e0efe482d30a0c62f1fd9eb343d5377e379c4db2cc0cbe1780367"
+    },
+    {
+      "path": "reports/comprehensive/game/GAME_QA.json",
+      "sha256": "7fc90a9b5768c157755a7b193567c25153ed188dc084847278ad069c1ddb5c4e"
+    },
+    {
+      "path": "reports/comprehensive/game/GAME_TESTS.txt",
+      "sha256": "77c70499bef85afa880b34170d49c9b26e265553276692f01b5c90709726cc3f"
+    },
+    {
+      "path": "reports/comprehensive/game/style_benchmark/GAME_STYLE_BENCHMARK.json",
+      "sha256": "fa3709b0b741ee84646eebc765753c57d3261c410cd5906b47095f8b93b197d9"
+    },
+    {
+      "path": "reports/comprehensive/game/style_benchmark/PREDECLARED_PLAN.json",
+      "sha256": "272cb301fab49ffd0f4d44cb2743717704b7ce500e99186fc41e6764c6fa95f2"
+    },
+    {
+      "path": "reports/comprehensive/growth/GROWTH_EVIDENCE_INDEX.json",
+      "sha256": "fa10f7b0a3aee3c7a1d6cab0e7f76846ec01a21f740344b9e54a60ef9348fb1c"
+    },
+    {
+      "path": "reports/comprehensive/growth/GROWTH_IDEAL_HOLDOUT.json",
+      "sha256": "7f0be30f547b39b18f7727a09112590cab1282995c94db6f3bb528a0d340f6ea"
+    },
+    {
+      "path": "reports/comprehensive/growth/GROWTH_IDEAL_HOLDOUT.plan.json",
+      "sha256": "b8c2793845fcb255b2c2a15bacb0190d2c511d9fcd48d4d63a645fb01aca1ede"
+    },
+    {
+      "path": "reports/comprehensive/growth/GROWTH_INJURY_CONTRAST.json",
+      "sha256": "da26baf661d0fcef3ecd3484f131fe9708374a8c922e650d6a8a9d1b0e9a9855"
+    },
+    {
+      "path": "reports/comprehensive/growth/GROWTH_INJURY_CONTRAST.plan.json",
+      "sha256": "67f915bf7e34a42ba683a039116d15672a0def08944870e3618a4c593cfb8b0e"
+    },
+    {
+      "path": "reports/comprehensive/growth/GROWTH_NO_OPPORTUNITY_CONTROL.json",
+      "sha256": "012793b00acf91afd70e2c17d5e9e0b15230df6e2cb6d8bc270164f49ff1d383"
+    },
+    {
+      "path": "reports/comprehensive/growth/GROWTH_NO_OPPORTUNITY_CONTROL.plan.json",
+      "sha256": "2b2934001981f797eb9f03c2eb2a1e0c8c16048f8d690253fe6c6df7df30716f"
+    },
+    {
+      "path": "reports/comprehensive/growth/GROWTH_PRIOR_ENV_MATRIX.json",
+      "sha256": "afbba70d134475fdd22d9c9935f852d00ba7ff18f7c1c8276a69fdc980782108"
+    },
+    {
+      "path": "reports/comprehensive/growth/GROWTH_PRIOR_ENV_MATRIX.plan.json",
+      "sha256": "c3d4a647343d7fa3fd73bdb845ddbac10dd55f9c2f640c7041340de05d054e21"
+    },
+    {
+      "path": "reports/comprehensive/growth/GROWTH_STRESS_HOLDOUT.json",
+      "sha256": "5e3e45a309604b9841ecf6988619f747666d14872305ed297619596fb09cf69c"
+    },
+    {
+      "path": "reports/comprehensive/growth/GROWTH_STRESS_HOLDOUT.plan.json",
+      "sha256": "ec5988528dcdfe1b548b9bb96c36c56077e115fb903414f50f1e9f12860bfd17"
+    },
+    {
+      "path": "reports/comprehensive/growth/GROWTH_TESTS.txt",
+      "sha256": "51aefdaba66052fd7cc8eaa59e24add61eb179123c8aec99d65757300e67dac9"
+    },
+    {
+      "path": "reports/comprehensive/qa/COMPREHENSIVE_QA.json",
+      "sha256": "1def1bfca0def47c15b1f30f68991aec5e80629419e03b3b05ebcd622d2108a8"
+    },
+    {
+      "path": "reports/comprehensive/qa/TESTS.txt",
+      "sha256": "4578636d3afcfb3fd5e9b9be823f9ec642d843093ed2470b872f4a7101cf81af"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_a/COMPLETE_CARD_COMPREHENSIVE.json",
+      "sha256": "554d365f45f3fb3bcc59e9d9caffd2c2fa8068f415ca8a9dd8df5f87f0005218"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_a/DEMO_CARD_COMPREHENSIVE.json",
+      "sha256": "b1bf7ab7e7f694aafb8557f0d6599f7c95d938219b6b5db25b6f6c03d711043c"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_a/DEMO_SUMMARY_COMPREHENSIVE.json",
+      "sha256": "33f82e7b1457ed7c315a7125519fd1e4b87ea602293708b4d79e6e4a935c3a11"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_a/DEMO_WORLD_COMPREHENSIVE.json",
+      "sha256": "2c4b5e1d7cf5774139d5ab3f6b2fe83999ba2c5d51806ce403d7c54e9426cd20"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_a/NARRATIVE_EXAMPLES.json",
+      "sha256": "8b18daf0f9e2ad0387b6cc9218f81b90cf1274aeb2a58556a9f486468700bfba"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_a/START_WORLD_COMPREHENSIVE.json",
+      "sha256": "e926bdd8ea91734667aa3bb6d0c8100fef002b709ae3c6c0d627ebf6c8265037"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_a/full_match_artifacts/54b64f267cce40bce0e6ff723029b2e45e671e449678619d4d3ee4c2e61d2701.json",
+      "sha256": "a49e7de73ff0dd967b8047edc34e6fc4b37ec10c7a7e3af0b43fda72e7a7a043"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_a.txt",
+      "sha256": "afbbfdb306b7ce26e209fb51175ee67662f75fd306d9c572ee856fcf93988f3c"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_b/COMPLETE_CARD_COMPREHENSIVE.json",
+      "sha256": "554d365f45f3fb3bcc59e9d9caffd2c2fa8068f415ca8a9dd8df5f87f0005218"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_b/DEMO_CARD_COMPREHENSIVE.json",
+      "sha256": "b1bf7ab7e7f694aafb8557f0d6599f7c95d938219b6b5db25b6f6c03d711043c"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_b/DEMO_SUMMARY_COMPREHENSIVE.json",
+      "sha256": "63409e63fb3a7ebabc24c074f010debb733ea575fed64ca5fe39be745b7b70e0"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_b/DEMO_WORLD_COMPREHENSIVE.json",
+      "sha256": "2c4b5e1d7cf5774139d5ab3f6b2fe83999ba2c5d51806ce403d7c54e9426cd20"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_b/NARRATIVE_EXAMPLES.json",
+      "sha256": "8b18daf0f9e2ad0387b6cc9218f81b90cf1274aeb2a58556a9f486468700bfba"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_b/START_WORLD_COMPREHENSIVE.json",
+      "sha256": "e926bdd8ea91734667aa3bb6d0c8100fef002b709ae3c6c0d627ebf6c8265037"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_b/full_match_artifacts/54b64f267cce40bce0e6ff723029b2e45e671e449678619d4d3ee4c2e61d2701.json",
+      "sha256": "a49e7de73ff0dd967b8047edc34e6fc4b37ec10c7a7e3af0b43fda72e7a7a043"
+    },
+    {
+      "path": "reports/comprehensive/qa/fresh_b.txt",
+      "sha256": "e91e74a99a2a74be13d34444d4b8aee8538eff71fa1983783a87f04bb5b8592f"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/COMPREHENSIVE_QA.json",
+      "sha256": "1cfb1dd90c856f591e3d8625a13e912cc2e2c6bbd6ab988a3eadd08427d3cff6"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/TESTS.txt",
+      "sha256": "f9667e3842aa70e0213501ff0cfd9a2f68642f0497d8efdfaaeab87443adacd8"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_a/COMPLETE_CARD_COMPREHENSIVE.json",
+      "sha256": "554d365f45f3fb3bcc59e9d9caffd2c2fa8068f415ca8a9dd8df5f87f0005218"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_a/DEMO_CARD_COMPREHENSIVE.json",
+      "sha256": "b1bf7ab7e7f694aafb8557f0d6599f7c95d938219b6b5db25b6f6c03d711043c"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_a/DEMO_SUMMARY_COMPREHENSIVE.json",
+      "sha256": "33f82e7b1457ed7c315a7125519fd1e4b87ea602293708b4d79e6e4a935c3a11"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_a/DEMO_WORLD_COMPREHENSIVE.json",
+      "sha256": "2c4b5e1d7cf5774139d5ab3f6b2fe83999ba2c5d51806ce403d7c54e9426cd20"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_a/NARRATIVE_EXAMPLES.json",
+      "sha256": "8b18daf0f9e2ad0387b6cc9218f81b90cf1274aeb2a58556a9f486468700bfba"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_a/START_WORLD_COMPREHENSIVE.json",
+      "sha256": "e926bdd8ea91734667aa3bb6d0c8100fef002b709ae3c6c0d627ebf6c8265037"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_a/full_match_artifacts/54b64f267cce40bce0e6ff723029b2e45e671e449678619d4d3ee4c2e61d2701.json",
+      "sha256": "a49e7de73ff0dd967b8047edc34e6fc4b37ec10c7a7e3af0b43fda72e7a7a043"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_a.txt",
+      "sha256": "afbbfdb306b7ce26e209fb51175ee67662f75fd306d9c572ee856fcf93988f3c"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_b/COMPLETE_CARD_COMPREHENSIVE.json",
+      "sha256": "554d365f45f3fb3bcc59e9d9caffd2c2fa8068f415ca8a9dd8df5f87f0005218"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_b/DEMO_CARD_COMPREHENSIVE.json",
+      "sha256": "b1bf7ab7e7f694aafb8557f0d6599f7c95d938219b6b5db25b6f6c03d711043c"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_b/DEMO_SUMMARY_COMPREHENSIVE.json",
+      "sha256": "63409e63fb3a7ebabc24c074f010debb733ea575fed64ca5fe39be745b7b70e0"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_b/DEMO_WORLD_COMPREHENSIVE.json",
+      "sha256": "2c4b5e1d7cf5774139d5ab3f6b2fe83999ba2c5d51806ce403d7c54e9426cd20"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_b/NARRATIVE_EXAMPLES.json",
+      "sha256": "8b18daf0f9e2ad0387b6cc9218f81b90cf1274aeb2a58556a9f486468700bfba"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_b/START_WORLD_COMPREHENSIVE.json",
+      "sha256": "e926bdd8ea91734667aa3bb6d0c8100fef002b709ae3c6c0d627ebf6c8265037"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_b/full_match_artifacts/54b64f267cce40bce0e6ff723029b2e45e671e449678619d4d3ee4c2e61d2701.json",
+      "sha256": "a49e7de73ff0dd967b8047edc34e6fc4b37ec10c7a7e3af0b43fda72e7a7a043"
+    },
+    {
+      "path": "reports/comprehensive/qa_initial/fresh_b.txt",
+      "sha256": "e91e74a99a2a74be13d34444d4b8aee8538eff71fa1983783a87f04bb5b8592f"
+    },
+    {
+      "path": "reports/comprehensive/world_horizon.json",
+      "sha256": "ad25db81c5bd68a331f566b3509c2896ee113f8ed18cc3d6dac46975197ed452"
+    },
+    {
+      "path": "reports/v118/CARD_AUDIT.json",
+      "sha256": "5ccfbc26982c2b0b09b7125c421bd7d3a1237c12823b5dbed40e7c24e285fac0"
+    },
+    {
+      "path": "reports/v118/ERA_AUDIT.json",
+      "sha256": "3e502e01911a2f960fca8eeba389c4ec1639bb852150a5f6f77b041bb041fee5"
+    },
+    {
+      "path": "reports/v118/GAME_QA.json",
+      "sha256": "3ee7e38d550253752d20c952530791dcb37bdbdaa0a51a2a22c96cd9d8019c36"
+    },
+    {
+      "path": "reports/v118/GAME_STYLE_BENCHMARK/GAME_STYLE_BENCHMARK.json",
+      "sha256": "855c5c6e1bdc4c29cb3e864a96e27dfb8f7cf2996508075d4c7697ab25c431d9"
+    },
+    {
+      "path": "reports/v118/GAME_STYLE_BENCHMARK/PREDECLARED_PLAN.json",
+      "sha256": "d205d0a2868278f9e63e2d8b6e86919cb27b02632283b9dc678a6bd665386a0c"
+    },
+    {
+      "path": "reports/v118/GAME_TESTS.txt",
+      "sha256": "e16519b7a98dc2aed692cfa14d7503599ce5285253b6e6ff49c946e32ddc9f59"
+    },
+    {
+      "path": "reports/v118/GROWTH_EVIDENCE_INDEX.json",
+      "sha256": "7fb2e82b20c74f0e60ca980d2c16f57453c3db92c8590b408c8690097c707bc2"
+    },
+    {
+      "path": "reports/v118/GROWTH_IDEAL_HOLDOUT.json",
+      "sha256": "780b10b67a0602967c02b617f12bfe51cfc96088b3da6f963dadff37b77215d4"
+    },
+    {
+      "path": "reports/v118/GROWTH_IDEAL_HOLDOUT.plan.json",
+      "sha256": "0f0adc29fe5930305eb8b700228939e94003edab4c923e52fdf713eb3437f7a1"
+    },
+    {
+      "path": "reports/v118/GROWTH_INJURY_CONTRAST.json",
+      "sha256": "27864f9de48ca98ae44fe674f67d0f3460ad1c28d8c8de43d004d2ebe7583380"
+    },
+    {
+      "path": "reports/v118/GROWTH_INJURY_CONTRAST.plan.json",
+      "sha256": "33a613aba2c2739c0d8966d712d1d14fd0eaeddfa66b8f36baecc88e4188b377"
+    },
+    {
+      "path": "reports/v118/GROWTH_NO_OPPORTUNITY_CONTROL.json",
+      "sha256": "d7dd4a0ac39bf2e093df90ea2a535f258df1343ea4e8afb85a0e152a6a5bc69d"
+    },
+    {
+      "path": "reports/v118/GROWTH_NO_OPPORTUNITY_CONTROL.plan.json",
+      "sha256": "dfd3e1a7da5121083c542e67c135c14265b882f3ece63f283ddaf89d24055dc3"
+    },
+    {
+      "path": "reports/v118/GROWTH_PRIOR_ENV_MATRIX.json",
+      "sha256": "8c63e54326af914ed3613c17124f6fb30c35fb63376dbfede1b0b31c002b2d26"
+    },
+    {
+      "path": "reports/v118/GROWTH_PRIOR_ENV_MATRIX.plan.json",
+      "sha256": "9133b16e9710be0436c2139633caf929aee57bf5b6c20e8f3fa126d3591173fb"
+    },
+    {
+      "path": "reports/v118/GROWTH_STRESS_HOLDOUT.json",
+      "sha256": "62bbcb7ae525351f0f5c1dcc8ce9594e163512bfb5510e35af9de14b7538891c"
+    },
+    {
+      "path": "reports/v118/GROWTH_STRESS_HOLDOUT.plan.json",
+      "sha256": "1d9d6a2b50ecfcab532c60ff9cb79415825f166e11c464c1761be44b048ce2e6"
+    },
+    {
+      "path": "reports/v118/V117_BASELINE_MANIFEST.json",
+      "sha256": "698df7e6e0f9c79ce77117874dfa15a5f3e48326e8591fa7c0143a1bb0ca41f2"
+    },
+    {
+      "path": "reports/v118/research/ACCESS_ATTEMPTS.json",
+      "sha256": "6759f19350c044fbfee0e52fae5e5deff12457dfbdfb7fe0daa6652b7f5e9e50"
+    },
+    {
+      "path": "reports/v118/research/AUTHOR_PROJECT_ABSTRACT_READS.json",
+      "sha256": "54010e6e7bd871fa0cdcf5a9d9e126224be9bece996bf831150d208707503a8a"
+    },
+    {
+      "path": "reports/v118/research/AUTHOR_REPOSITORY_READS.json",
+      "sha256": "1949dc41881da4c3e92c10655cda7c08d33e35213176ec6dd80c1c1a4e4478f2"
+    },
+    {
+      "path": "run_comprehensive_qa.py",
+      "sha256": "1d923d0f6d886918199a3f58c71e74f87a3d797dafc6a98b50fb6f70594f1f1e"
+    },
+    {
+      "path": "runtime/career_v118.py",
+      "sha256": "1a6a3d133e785b1f2e7525148be6fcef0a5c0ced9e45137cb0576ac7c5dcbcb4"
+    },
+    {
+      "path": "simulator.py",
+      "sha256": "da8a9b6d1c01a3b011a4c0d84c33ef0704500f931f92d552a205c2a1e074d179"
+    },
+    {
+      "path": "tests/test_card_v118.py",
+      "sha256": "631fcab1ffd3b4aa946a43e449e9af957b94d9553ff852a273838646a697176f"
+    },
+    {
+      "path": "tests/test_comprehensive_invariants.py",
+      "sha256": "6bc5ac3e7a1d415fc96824b00192444250c411860f1e836ec0f1191c0084058c"
+    },
+    {
+      "path": "tests/test_era_v118.py",
+      "sha256": "e96084db7c919ff9149eb087dc8b87956c45a039f49b116b3b58d8bb7ea6a488"
+    },
+    {
+      "path": "tests/test_game_v118.py",
+      "sha256": "6f8c74215b2f357fa58ff457e9bdc5fb18f79e1b554183fdf5eab843f1f1351e"
+    },
+    {
+      "path": "tests/test_growth_v118.py",
+      "sha256": "6fa717475ac707a086a63e89aed3305ca70ae7672ab64a99bebc6d4409e38c5c"
+    },
+    {
+      "path": "tests/test_narrative_v118.py",
+      "sha256": "71b59e1ab9341691881e7fe257e153a234b14ae947c780de6b5be6945720efb2"
+    },
+    {
+      "path": "tests/test_world_v118.py",
+      "sha256": "cbd5973d27d86c2d8ec2a91e6869e2c317a097f19cda77467ab37510f1344c3f"
+    },
+    {
+      "path": "world_v118.py",
+      "sha256": "36f0178bce577d6e9b89646635328feb054f56c6390f231f6391b3b79a05da33"
+    }
+  ],
+  "preserved": [
+    "Area/__init__.py",
+    "Area/v117.py",
+    "Card/__init__.py",
+    "Game/__init__.py",
+    "Game/engine_v117.py",
+    "Game/geometry.py",
+    "Game/integration_v117.py",
+    "Game/light_v117.py",
+    "Game/observed_tactics.py",
+    "Game/specialist_engine.py",
+    "Game/tactics_v117.py",
+    "Game/worker.py",
+    "OPENING_V117_ZH.md",
+    "OPENING_ZH.md",
+    "README_V117_ZH.md",
+    "README_ZH.md",
+    "Training/__init__.py",
+    "Training/v117.py",
+    "build_hgr_package.py",
+    "build_packages.py",
+    "build_v117_package.py",
+    "common/__init__.py",
+    "data/area_catalog.json",
+    "data/calendar_2027_v117.json",
+    "data/calendar_2028_v117.json",
+    "data/calendar_template_2006.json",
+    "data/original/P6_43_SUBSKILL_MAPPING.json",
+    "data/original/spin_era_players_archive_2000_2026_v12.json",
+    "data/original/spin_era_v013_frozen_attribute_schema.json",
+    "data/original/spin_era_v016_schlager2003_joo2003_cards.json",
+    "data/presets_normalized.json",
+    "docs/AI_HANDOFF_ZH.md",
+    "docs/COMPLETE_CARD_MA18_ZH.md",
+    "docs/DIAGNOSIS_ZH.md",
+    "docs/HGR_AUDIT_PLAN_ZH.md",
+    "docs/HGR_TECHNICAL_REPORT_ZH.md",
+    "docs/HUMAN_GUIDE_ZH.md",
+    "docs/LEGACY_OPENING_V116_ZH.md",
+    "docs/PATCH_REQUEST_ZH.md",
+    "docs/V117_CALENDAR_ZH.md",
+    "docs/V117_DESIGN_ZH.md",
+    "docs/V117_TECHNICAL_REPORT_ZH.md",
+    "examples/audit_potential_v117.py",
+    "examples/benchmark_game.py",
+    "examples/benchmark_light_v117.py",
+    "examples/benchmark_specialist_patch.py",
+    "examples/benchmark_tactics_v117.py",
+    "examples/calibrate_career_v117.py",
+    "examples/demo_output/COMPLETE_CARD_AFTER_DEMO.json",
+    "examples/demo_output/COMPLETE_CARD_MA18.json",
+    "examples/demo_output/DEMO_SUMMARY.json",
+    "examples/demo_output/DEMO_WORLD.json",
+    "examples/demo_output/START_WORLD.json",
+    "examples/hgr_demo_output/COMPLETE_CARD_HGR.json",
+    "examples/hgr_demo_output/DEMO_SUMMARY_HGR.json",
+    "examples/hgr_demo_output/DEMO_WORLD_HGR.json",
+    "examples/hgr_demo_output/START_WORLD_HGR.json",
+    "examples/run_hgr_qa.py",
+    "examples/start.py",
+    "examples/start_hgr.py",
+    "examples/start_v117.py",
+    "examples/stress_horizon_v117.py",
+    "examples/stress_training.py",
+    "examples/stress_world_v117.py",
+    "examples/v117_demo_output/COMPLETE_CARD_V117.json",
+    "examples/v117_demo_output/DEMO_CARD_V117.json",
+    "examples/v117_demo_output/DEMO_SUMMARY_V117.json",
+    "examples/v117_demo_output/DEMO_WORLD_V117.json",
+    "examples/v117_demo_output/START_WORLD_V117.json",
+    "reports/CARD_MIGRATION.json",
+    "reports/GAME_BENCHMARK.json",
+    "reports/HGR_BASELINE_MANIFEST.json",
+    "reports/HGR_FORM_PRESERVATION.json",
+    "reports/HGR_QA.json",
+    "reports/HGR_SOURCE_CHANGES.json",
+    "reports/HGR_unittest_stdout.txt",
+    "reports/PATCH_BASELINE.json",
+    "reports/RELEASE_QA.json",
+    "reports/TRAINING_STRESS.json",
+    "reports/game_examples/ma_fan.json",
+    "reports/game_examples/zhang_joo.json",
+    "reports/hgr_patch/PREDECLARED_PLAN.json",
+    "reports/hgr_patch/REGRESSION.json",
+    "reports/hgr_patch/REGRESSION_REPORT_ZH.md",
+    "reports/hgr_patch/SOURCE_CONSISTENCY.json",
+    "reports/hgr_patch/equal_right_left_new_sample.json",
+    "reports/hgr_patch/equal_right_left_old_sample.json",
+    "reports/hgr_patch/ma2016_fan2024_new_sample.json",
+    "reports/hgr_patch/ma2016_fan2024_old_sample.json",
+    "reports/hgr_patch/schlager2003_joo2003_new_sample.json",
+    "reports/hgr_patch/schlager2003_joo2003_old_sample.json",
+    "reports/hgr_patch/xu2013_context_joo2003_new_sample.json",
+    "reports/hgr_patch/xu2013_context_joo2003_old_sample.json",
+    "reports/unittest_stdout.txt",
+    "reports/v117/BASELINE.json",
+    "reports/v117/GROWTH_DESIGN_AND_VALIDATION_ZH.md",
+    "reports/v117/GROWTH_DEV_A1.json",
+    "reports/v117/GROWTH_DEV_A1.plan.json",
+    "reports/v117/GROWTH_DEV_B1.json",
+    "reports/v117/GROWTH_DEV_B1.plan.json",
+    "reports/v117/GROWTH_DEV_C1.json",
+    "reports/v117/GROWTH_DEV_C1.plan.json",
+    "reports/v117/GROWTH_EVIDENCE_INDEX.json",
+    "reports/v117/GROWTH_FINAL_DEVELOPMENT.json",
+    "reports/v117/GROWTH_FINAL_DEVELOPMENT.plan.json",
+    "reports/v117/GROWTH_FINAL_DEVELOPMENT_V2.json",
+    "reports/v117/GROWTH_FINAL_DEVELOPMENT_V2.plan.json",
+    "reports/v117/GROWTH_FINAL_HOLDOUT.json",
+    "reports/v117/GROWTH_FINAL_HOLDOUT.plan.json",
+    "reports/v117/GROWTH_FROZEN_DEVELOPMENT.json",
+    "reports/v117/GROWTH_FROZEN_DEVELOPMENT.plan.json",
+    "reports/v117/GROWTH_FROZEN_HOLDOUT.json",
+    "reports/v117/GROWTH_FROZEN_HOLDOUT.plan.json",
+    "reports/v117/GROWTH_FROZEN_PRIOR_ENV_MATRIX.json",
+    "reports/v117/GROWTH_FROZEN_PRIOR_ENV_MATRIX.plan.json",
+    "reports/v117/GROWTH_FROZEN_STRESS_HOLDOUT.json",
+    "reports/v117/GROWTH_FROZEN_STRESS_HOLDOUT.plan.json",
+    "reports/v117/GROWTH_PRIOR_ENV_MATRIX.json",
+    "reports/v117/GROWTH_PRIOR_ENV_MATRIX.plan.json",
+    "reports/v117/GROWTH_STRESS_HOLDOUT.json",
+    "reports/v117/GROWTH_STRESS_HOLDOUT.plan.json",
+    "reports/v117/HGR_BASELINE_MANIFEST.json",
+    "reports/v117/LIGHT4_FAMILY_DIAGNOSIS.json",
+    "reports/v117/LIGHT_DESIGN_ZH.md",
+    "reports/v117/LIGHT_FAMILY_DIAGNOSIS.json",
+    "reports/v117/POTENTIAL_AUDIT.json",
+    "reports/v117/SOURCE_CHANGES.json",
+    "reports/v117/V117_QA.json",
+    "reports/v117/V117_TESTS.txt",
+    "reports/v117/WORLD_RULES_V117_ZH.md",
+    "reports/v117/development_light2_world_horizon_v117.json",
+    "reports/v117/development_light2_world_stress_v117.json",
+    "reports/v117/development_light3_QA.json",
+    "reports/v117/development_light3_world_horizon_v117.json",
+    "reports/v117/development_light3_world_stress_v117.json",
+    "reports/v117/light_benchmark/LIGHT_BENCHMARK.json",
+    "reports/v117/light_benchmark/LIGHT_BENCHMARK_ZH.md",
+    "reports/v117/light_benchmark/PREDECLARED_PLAN.json",
+    "reports/v117/light_benchmark/equal_right_left_detailed_sample.json",
+    "reports/v117/light_benchmark/equal_right_left_light_sample.json",
+    "reports/v117/light_benchmark/ma2016_fan2024_detailed_sample.json",
+    "reports/v117/light_benchmark/ma2016_fan2024_light_sample.json",
+    "reports/v117/light_benchmark/schlager2003_joo2003_detailed_sample.json",
+    "reports/v117/light_benchmark/schlager2003_joo2003_light_sample.json",
+    "reports/v117/light_benchmark/xu2013_context_joo2003_detailed_sample.json",
+    "reports/v117/light_benchmark/xu2013_context_joo2003_light_sample.json",
+    "reports/v117/light_benchmark_before_serve_accounting/LIGHT_BENCHMARK.json",
+    "reports/v117/light_benchmark_before_serve_accounting/LIGHT_BENCHMARK_ZH.md",
+    "reports/v117/light_benchmark_before_serve_accounting/PREDECLARED_PLAN.json",
+    "reports/v117/light_benchmark_before_serve_accounting/equal_right_left_detailed_sample.json",
+    "reports/v117/light_benchmark_before_serve_accounting/equal_right_left_light_sample.json",
+    "reports/v117/light_benchmark_before_serve_accounting/ma2016_fan2024_detailed_sample.json",
+    "reports/v117/light_benchmark_before_serve_accounting/ma2016_fan2024_light_sample.json",
+    "reports/v117/light_benchmark_before_serve_accounting/schlager2003_joo2003_detailed_sample.json",
+    "reports/v117/light_benchmark_before_serve_accounting/schlager2003_joo2003_light_sample.json",
+    "reports/v117/light_benchmark_before_serve_accounting/xu2013_context_joo2003_detailed_sample.json",
+    "reports/v117/light_benchmark_before_serve_accounting/xu2013_context_joo2003_light_sample.json",
+    "reports/v117/light_hgr_smoke/LIGHT_BENCHMARK.json",
+    "reports/v117/light_hgr_smoke/LIGHT_BENCHMARK_ZH.md",
+    "reports/v117/light_hgr_smoke/PREDECLARED_PLAN.json",
+    "reports/v117/light_hgr_smoke/equal_right_left_detailed_sample.json",
+    "reports/v117/light_hgr_smoke/equal_right_left_light_sample.json",
+    "reports/v117/light_hgr_smoke/ma2016_fan2024_detailed_sample.json",
+    "reports/v117/light_hgr_smoke/ma2016_fan2024_light_sample.json",
+    "reports/v117/light_hgr_smoke/schlager2003_joo2003_detailed_sample.json",
+    "reports/v117/light_hgr_smoke/schlager2003_joo2003_light_sample.json",
+    "reports/v117/light_hgr_smoke/xu2013_context_joo2003_detailed_sample.json",
+    "reports/v117/light_hgr_smoke/xu2013_context_joo2003_light_sample.json",
+    "reports/v117/light_holdout_2/LIGHT_BENCHMARK.json",
+    "reports/v117/light_holdout_2/LIGHT_BENCHMARK_ZH.md",
+    "reports/v117/light_holdout_2/PREDECLARED_PLAN.json",
+    "reports/v117/light_holdout_2/equal_right_left_detailed_sample.json",
+    "reports/v117/light_holdout_2/equal_right_left_light_sample.json",
+    "reports/v117/light_holdout_2/ma2016_fan2024_detailed_sample.json",
+    "reports/v117/light_holdout_2/ma2016_fan2024_light_sample.json",
+    "reports/v117/light_holdout_2/schlager2003_joo2003_detailed_sample.json",
+    "reports/v117/light_holdout_2/schlager2003_joo2003_light_sample.json",
+    "reports/v117/light_holdout_2/xu2013_context_joo2003_detailed_sample.json",
+    "reports/v117/light_holdout_2/xu2013_context_joo2003_light_sample.json",
+    "reports/v117/light_holdout_3/LIGHT_BENCHMARK.json",
+    "reports/v117/light_holdout_3/LIGHT_BENCHMARK_ZH.md",
+    "reports/v117/light_holdout_3/PREDECLARED_PLAN.json",
+    "reports/v117/light_holdout_3/equal_right_left_detailed_sample.json",
+    "reports/v117/light_holdout_3/equal_right_left_light_sample.json",
+    "reports/v117/light_holdout_3/ma2016_fan2024_detailed_sample.json",
+    "reports/v117/light_holdout_3/ma2016_fan2024_light_sample.json",
+    "reports/v117/light_holdout_3/schlager2003_joo2003_detailed_sample.json",
+    "reports/v117/light_holdout_3/schlager2003_joo2003_light_sample.json",
+    "reports/v117/light_holdout_3/xu2013_context_joo2003_detailed_sample.json",
+    "reports/v117/light_holdout_3/xu2013_context_joo2003_light_sample.json",
+    "reports/v117/light_holdout_4/LIGHT_BENCHMARK.json",
+    "reports/v117/light_holdout_4/LIGHT_BENCHMARK_ZH.md",
+    "reports/v117/light_holdout_4/PREDECLARED_PLAN.json",
+    "reports/v117/light_holdout_4/equal_right_left_detailed_sample.json",
+    "reports/v117/light_holdout_4/equal_right_left_light_sample.json",
+    "reports/v117/light_holdout_4/ma2016_fan2024_detailed_sample.json",
+    "reports/v117/light_holdout_4/ma2016_fan2024_light_sample.json",
+    "reports/v117/light_holdout_4/schlager2003_joo2003_detailed_sample.json",
+    "reports/v117/light_holdout_4/schlager2003_joo2003_light_sample.json",
+    "reports/v117/light_holdout_4/xu2013_context_joo2003_detailed_sample.json",
+    "reports/v117/light_holdout_4/xu2013_context_joo2003_light_sample.json",
+    "reports/v117/light_validation_extended/LIGHT_BENCHMARK.json",
+    "reports/v117/light_validation_extended/LIGHT_BENCHMARK_ZH.md",
+    "reports/v117/light_validation_extended/PREDECLARED_PLAN.json",
+    "reports/v117/light_validation_extended/equal_right_left_detailed_sample.json",
+    "reports/v117/light_validation_extended/equal_right_left_light_sample.json",
+    "reports/v117/light_validation_extended/ma2016_fan2024_detailed_sample.json",
+    "reports/v117/light_validation_extended/ma2016_fan2024_light_sample.json",
+    "reports/v117/light_validation_extended/schlager2003_joo2003_detailed_sample.json",
+    "reports/v117/light_validation_extended/schlager2003_joo2003_light_sample.json",
+    "reports/v117/light_validation_extended/xu2013_context_joo2003_detailed_sample.json",
+    "reports/v117/light_validation_extended/xu2013_context_joo2003_light_sample.json",
+    "reports/v117/tactics_benchmark/ARCHIVE_NOTE_ZH.md",
+    "reports/v117/tactics_benchmark/PREDECLARED_PLAN.json",
+    "reports/v117/tactics_benchmark/TACTICS_BENCHMARK.json",
+    "reports/v117/tactics_benchmark/TACTICS_BENCHMARK_ZH.md",
+    "reports/v117/tactics_benchmark_legal_contacts/PREDECLARED_PLAN.json",
+    "reports/v117/tactics_benchmark_legal_contacts/TACTICS_BENCHMARK.json",
+    "reports/v117/tactics_benchmark_legal_contacts/TACTICS_BENCHMARK_ZH.md",
+    "reports/v117/world_horizon_v117.json",
+    "reports/v117/world_stress_v117.json",
+    "run_v117_qa.py",
+    "runtime/card_training_v112.py",
+    "runtime/career_session_v116.py",
+    "runtime/career_v113.py",
+    "runtime/career_v114.py",
+    "runtime/career_v115.py",
+    "runtime/career_v116.py",
+    "runtime/career_v117.py",
+    "runtime/era_lcm_v11.py",
+    "runtime/game_v112.py",
+    "runtime/game_v113.py",
+    "runtime/game_v114.py",
+    "runtime/game_v115.py",
+    "runtime/ranking_v112.py",
+    "runtime/specialist_rubber_v116.py",
+    "runtime/tactical_match_v116.py",
+    "self_test.py",
+    "tests/fixtures/world_v116_frozen.py",
+    "tests/run_release_qa.py",
+    "tests/test_area.py",
+    "tests/test_calendar_v117.py",
+    "tests/test_card.py",
+    "tests/test_game.py",
+    "tests/test_geometry_patch.py",
+    "tests/test_growth_v117.py",
+    "tests/test_integration_v117.py",
+    "tests/test_light_v117.py",
+    "tests/test_observed_tactics_patch.py",
+    "tests/test_patch_benchmark.py",
+    "tests/test_patch_compatibility.py",
+    "tests/test_rubber_patch.py",
+    "tests/test_specialist_engine.py",
+    "tests/test_tactics_v117.py",
+    "tests/test_training.py",
+    "tests/test_world.py",
+    "tests/test_world_v117.py",
+    "verify_package.py",
+    "world.py",
+    "world_v117.py"
+  ],
+  "removed": [],
+  "note": "Old sources/fixtures remain immutable; only root README changes the public entry."
+}

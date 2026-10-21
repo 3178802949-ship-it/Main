@@ -1,0 +1,457 @@
+{
+  "schlager": {
+    "CA": 189,
+    "PA": 189,
+    "G9": {
+      "serve": 144,
+      "receive": 143,
+      "fh": 138,
+      "bh": 139,
+      "feet": 141,
+      "read": 146,
+      "stable": 142,
+      "table": 145,
+      "spirit": 142
+    },
+    "P6": {
+      "speed": 142,
+      "burst": 141,
+      "strength": 138,
+      "stamina": 141,
+      "agility": 143,
+      "flexibility": 144
+    },
+    "children": {
+      "serve": {
+        "spin": 145,
+        "variation": 144,
+        "placement": 146,
+        "disguise": 143,
+        "third_link": 142
+      },
+      "receive": {
+        "spin_read": 144,
+        "length_read": 143,
+        "control": 142,
+        "initiative": 141
+      },
+      "fh": {
+        "spin": 138,
+        "power": 140,
+        "continuity": 139,
+        "defense": 133,
+        "placement": 139
+      },
+      "bh": {
+        "spin": 139,
+        "power": 140,
+        "continuity": 140,
+        "defense": 135,
+        "placement": 139
+      },
+      "feet": {
+        "start": 142,
+        "arrival": 141,
+        "recover": 141,
+        "coordination": 142,
+        "balance": 138
+      },
+      "read": {
+        "self_read": 145,
+        "opponent_read": 147,
+        "choice": 145,
+        "counter": 146,
+        "exploit": 144
+      },
+      "stable": {
+        "variance": 143,
+        "sustain": 142,
+        "recovery": 141,
+        "pressure": 141
+      },
+      "table": {
+        "short": 146,
+        "push": 145,
+        "chop_control": 142,
+        "flick": 142,
+        "placement": 146
+      },
+      "spirit": {
+        "improvisation": 143,
+        "unorthodox_defense": 142,
+        "spin_deception": 143,
+        "lob_arcs": 140,
+        "unexpected_transition": 142
+      }
+    },
+    "skills": {
+      "banana": 140,
+      "fh_open": 139,
+      "bh_counter": 140,
+      "fh_counter": 139,
+      "chop_block": 139,
+      "side_cut": 139,
+      "fh_sideswipe": 141,
+      "sudden_chop": 142,
+      "high_lob": 140,
+      "extreme_arc": 140,
+      "fh_flip": 141
+    },
+    "tendencies": {
+      "fh_bias": 0.5788,
+      "banana_bias": 0.4304,
+      "serve_mix": 0.7092,
+      "serve_short": 0.6192,
+      "risk": 0.37,
+      "spirit_usage": 0.48,
+      "target_middle": 0.5549999999999999,
+      "bh_pressure": 0.44,
+      "table_control": 0.76,
+      "opening_strength": 0.404
+    },
+    "snapshot": "2003-05-25",
+    "phase": "2003巴黎世界锦标赛冠军时期独立实验卡"
+  },
+  "joo": {
+    "CA": 188,
+    "PA": 188,
+    "G9": {
+      "serve": 133,
+      "receive": 139,
+      "fh": 144,
+      "bh": 145,
+      "feet": 148,
+      "read": 144,
+      "stable": 143,
+      "table": 145,
+      "spirit": 148
+    },
+    "P6": {
+      "speed": 138,
+      "burst": 136,
+      "strength": 135,
+      "stamina": 143,
+      "agility": 140,
+      "flexibility": 140
+    },
+    "children": {
+      "serve": {
+        "spin": 134,
+        "variation": 133,
+        "placement": 135,
+        "disguise": 132,
+        "third_link": 131
+      },
+      "receive": {
+        "spin_read": 140,
+        "length_read": 139,
+        "control": 138,
+        "initiative": 137
+      },
+      "fh": {
+        "spin": 148,
+        "power": 113,
+        "continuity": 127,
+        "defense": 149,
+        "placement": 146
+      },
+      "bh": {
+        "spin": 147,
+        "power": 108,
+        "continuity": 125,
+        "defense": 150,
+        "placement": 149
+      },
+      "feet": {
+        "start": 149,
+        "arrival": 148,
+        "recover": 148,
+        "coordination": 149,
+        "balance": 145
+      },
+      "read": {
+        "self_read": 143,
+        "opponent_read": 145,
+        "choice": 143,
+        "counter": 144,
+        "exploit": 142
+      },
+      "stable": {
+        "variance": 144,
+        "sustain": 143,
+        "recovery": 142,
+        "pressure": 142
+      },
+      "table": {
+        "short": 146,
+        "push": 145,
+        "chop_control": 150,
+        "flick": 134,
+        "placement": 146
+      },
+      "spirit": {
+        "improvisation": 147,
+        "unorthodox_defense": 150,
+        "spin_deception": 147,
+        "lob_arcs": 150,
+        "unexpected_transition": 146
+      }
+    },
+    "skills": {
+      "banana": 143,
+      "fh_open": 133,
+      "bh_counter": 117,
+      "fh_counter": 120,
+      "chop_block": 149,
+      "side_cut": 149,
+      "fh_sideswipe": 147,
+      "sudden_chop": 149,
+      "high_lob": 147,
+      "extreme_arc": 148,
+      "fh_flip": 124
+    },
+    "tendencies": {
+      "fh_bias": 0.7180000000000001,
+      "banana_bias": 0.258,
+      "serve_mix": 0.67,
+      "serve_short": 0.45539999999999997,
+      "risk": 0.31,
+      "spirit_usage": 0.8,
+      "target_middle": 0.5375,
+      "bh_pressure": 0.15,
+      "table_control": 0.37,
+      "opening_strength": 0.3375
+    },
+    "snapshot": "2003-05-25",
+    "phase": "2003世锦赛亚军独立实验卡 v0.16"
+  },
+  "source": "2004 cycle roster; independent 2003 estimated phase, v0.16 fixed chopper prototype",
+  "schlager_deltas": {
+    "serve.spin": {
+      "from": 143,
+      "to": 145
+    },
+    "serve.variation": {
+      "from": 142,
+      "to": 144
+    },
+    "serve.placement": {
+      "from": 144,
+      "to": 146
+    },
+    "serve.disguise": {
+      "from": 141,
+      "to": 143
+    },
+    "serve.third_link": {
+      "from": 140,
+      "to": 142
+    },
+    "receive.spin_read": {
+      "from": 142,
+      "to": 144
+    },
+    "receive.length_read": {
+      "from": 141,
+      "to": 143
+    },
+    "receive.control": {
+      "from": 140,
+      "to": 142
+    },
+    "receive.initiative": {
+      "from": 139,
+      "to": 141
+    },
+    "fh.spin": {
+      "from": 137,
+      "to": 138
+    },
+    "fh.power": {
+      "from": 139,
+      "to": 140
+    },
+    "fh.continuity": {
+      "from": 138,
+      "to": 139
+    },
+    "fh.defense": {
+      "from": 132,
+      "to": 133
+    },
+    "fh.placement": {
+      "from": 138,
+      "to": 139
+    },
+    "bh.spin": {
+      "from": 138,
+      "to": 139
+    },
+    "bh.power": {
+      "from": 139,
+      "to": 140
+    },
+    "bh.continuity": {
+      "from": 139,
+      "to": 140
+    },
+    "bh.defense": {
+      "from": 134,
+      "to": 135
+    },
+    "bh.placement": {
+      "from": 138,
+      "to": 139
+    },
+    "feet.start": {
+      "from": 141,
+      "to": 142
+    },
+    "feet.arrival": {
+      "from": 140,
+      "to": 141
+    },
+    "feet.recover": {
+      "from": 140,
+      "to": 141
+    },
+    "feet.coordination": {
+      "from": 141,
+      "to": 142
+    },
+    "feet.balance": {
+      "from": 137,
+      "to": 138
+    },
+    "read.self_read": {
+      "from": 143,
+      "to": 145
+    },
+    "read.opponent_read": {
+      "from": 145,
+      "to": 147
+    },
+    "read.choice": {
+      "from": 143,
+      "to": 145
+    },
+    "read.counter": {
+      "from": 144,
+      "to": 146
+    },
+    "read.exploit": {
+      "from": 142,
+      "to": 144
+    },
+    "stable.variance": {
+      "from": 142,
+      "to": 143
+    },
+    "stable.sustain": {
+      "from": 141,
+      "to": 142
+    },
+    "stable.recovery": {
+      "from": 140,
+      "to": 141
+    },
+    "stable.pressure": {
+      "from": 140,
+      "to": 141
+    },
+    "table.short": {
+      "from": 144,
+      "to": 146
+    },
+    "table.push": {
+      "from": 143,
+      "to": 145
+    },
+    "table.chop_control": {
+      "from": 140,
+      "to": 142
+    },
+    "table.flick": {
+      "from": 140,
+      "to": 142
+    },
+    "table.placement": {
+      "from": 144,
+      "to": 146
+    },
+    "spirit.improvisation": {
+      "from": 142,
+      "to": 143
+    },
+    "spirit.unorthodox_defense": {
+      "from": 141,
+      "to": 142
+    },
+    "spirit.spin_deception": {
+      "from": 142,
+      "to": 143
+    },
+    "spirit.lob_arcs": {
+      "from": 139,
+      "to": 140
+    },
+    "spirit.unexpected_transition": {
+      "from": 141,
+      "to": 142
+    },
+    "P6.speed": {
+      "from": 141,
+      "to": 142
+    },
+    "P6.burst": {
+      "from": 140,
+      "to": 141
+    },
+    "P6.strength": {
+      "from": 137,
+      "to": 138
+    },
+    "P6.stamina": {
+      "from": 140,
+      "to": 141
+    },
+    "P6.agility": {
+      "from": 142,
+      "to": 143
+    },
+    "P6.flexibility": {
+      "from": 143,
+      "to": 144
+    }
+  },
+  "before_schlager_2004": {
+    "CA": 187,
+    "PA": 189,
+    "G9": {
+      "serve": 142,
+      "receive": 141,
+      "fh": 137,
+      "bh": 138,
+      "feet": 140,
+      "read": 144,
+      "stable": 141,
+      "table": 143,
+      "spirit": 141
+    },
+    "P6": {
+      "speed": 141,
+      "burst": 140,
+      "strength": 137,
+      "stamina": 140,
+      "agility": 142,
+      "flexibility": 143
+    }
+  },
+  "source_hashes": {
+    "spin_era_v016_experiment.py": "b36bafc02f202d092e310d1ba4c83390e2cee199519e5cc9a04e690298c3d0ae",
+    "spin_era_v015_g9_integrated.py": "6047890a2850f397f06542ecf257e156fab1ba3ddb5bb14b72b050d212203025",
+    "spin_era_v015_technical_patch.py": "19bc0726f8d940ac551de63dd72fc0e4f7e179def1724324e2472bd649c19610",
+    "spin_era_players_archive_2000_2026_v12.json": "2beab9577d8f073aa37745acaa48b0196c85d7016a4bc1cb91e94ffdd18efeee",
+    "spin_era_v016_chopper_card.json": "185acf94fb672071ce4e0e6ea0f43ecebe68ca473daaaa5673274968f97ef218"
+  }
+}

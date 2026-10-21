@@ -1,0 +1,27 @@
+{
+  "version": "V1.1.7-CANDIDATE-1",
+  "seed_selection": "CONSECUTIVE_PREDECLARED_DEVELOPMENT",
+  "seeds": [
+    11617001
+  ],
+  "scenarios": 18,
+  "labels": [
+    "ma2004",
+    "fan2012",
+    "zhang2004",
+    "ma18",
+    "elite181",
+    "elite165"
+  ],
+  "strategies": [
+    "xp_only",
+    "profile_training",
+    "bounded_opportunities"
+  ],
+  "source_sha256": {
+    "runtime/career_v117.py": "064d60c974644c9721f644a62f7e3e7f6be02d518899b9f1f0ff16af07b1b418",
+    "Training/v117.py": "3bc1d486a3bf9debff7f9c2ae75a55f24f6c8e95d322bae508f84531f153d892",
+    "examples/calibrate_career_v117.py": "021d6c97aa54a32a4aefffbcbc897712a22e6e291052be5741836e120934089e"
+  },
+  "note": "Abstract age-conditioned careers, not a world calendar past the 2028 cutoff; all opportunities SYNTHETIC, not wins."
+}

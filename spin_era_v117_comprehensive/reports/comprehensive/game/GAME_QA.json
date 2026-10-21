@@ -1,0 +1,59 @@
+{
+  "version": "V1.1.7-COMPREHENSIVE-1",
+  "status": "STYLE_OVERLAY_FUNCTIONAL_CHECKS_PASSED",
+  "tests": 14,
+  "source_sha256": {
+    "Game/v118.py": "1bb924588da4de0a1fc2b442ae43200bc7157a9522bbb18c028ad699030c132d",
+    "Game/worker_v118.py": "44eb8f29834512dbc6c5e5421cb10c3c4b4bf94d52bdfa04e73d92f624aed6b5",
+    "Game/preferences_v118.py": "4048d022c83fa84d897a122f7dcd8b929fcfbdc22fb8d2a85affde7a34e784dc",
+    "Game/integration_v118.py": "3206865a266024f937cc18a4c4aa3e60252e2f406e6b3a8dac73f0aeafe37dc4",
+    "Game/engine_v117.py": "e7cedddcc5ee20e23ad23189912c2901d8f42306bb3bc5fda87970b8e43e1fa1",
+    "Game/light_v117.py": "d185b1852426ac2e92a8fcd49132d5637093da6cdc2b1425c78d52f366f5a599",
+    "Game/tactics_v117.py": "7df4d7f367efa86722cca2868746bc4ef92b6155066161bd4831eedb43421484",
+    "Game/specialist_engine.py": "131f6da784bf7ca9960018eff8b4768bcac3319573c6fdb777aa73dfa27953f5",
+    "runtime/specialist_rubber_v116.py": "e46e8946452e63cc238ca7280525b1419d12ad6afded550f0b9bae477d7ff499",
+    "runtime/game_v112.py": "2f75346f624d59638b5e1a7910c2982ac38fb9a6e2da025d752698c29c6b5581",
+    "runtime/game_v115.py": "2a75d8bd5fda616908dab28ca915db15fa7dc763176475cc55a0520d69d3836d",
+    "runtime/tactical_match_v116.py": "108745b40cbb3cceba561658ce6ac7b25e116fec57b2dbeaccd10d7b660cea0a",
+    "examples/benchmark_style_v118.py": "b0efe6ec8c8b30ae7f86e9b39d3658f86ed028a792588a7278117b7d11be6eb5",
+    "tests/test_game_v118.py": "6f8c74215b2f357fa58ff457e9bdc5fb18f79e1b554183fdf5eab843f1f1351e"
+  },
+  "neutral_full_and_summary_exact_against_V117": true,
+  "personality_excluded_from_match_input": true,
+  "skills_and_physical_parameters_unchanged": true,
+  "legal_candidate_set_unchanged": true,
+  "bounded_candidate_multiplier": [
+    0.9,
+    1.1
+  ],
+  "old_game_source_files_byte_identical": [
+    "Game/__init__.py",
+    "Game/engine_v117.py",
+    "Game/geometry.py",
+    "Game/integration_v117.py",
+    "Game/light_v117.py",
+    "Game/observed_tactics.py",
+    "Game/specialist_engine.py",
+    "Game/tactics_v117.py",
+    "Game/worker.py"
+  ],
+  "style_benchmark": "style_benchmark/GAME_STYLE_BENCHMARK.json",
+  "predeclared_matches": 128,
+  "original_predeclared_scenarios_and_seeds_preserved": true,
+  "retag_all_128_scores_points_and_exposure_shares_exact": true,
+  "specialist_guard_review": {
+    "method": "STATIC_WORLD_SOURCE_INSPECTION_ROOT_OWNS_RUNTIME_TESTS",
+    "default_summary_rejects_specialists": true,
+    "explicit_experimental_opt_in_only": true,
+    "persona_and_PA_absent_from_match_projection": true,
+    "style_profile_in_projection": true,
+    "known_original_specialist_mode_gap_pp": 29.69
+  },
+  "special_domain_summary_calibration": "NOT_REPAIRED_REQUIRES_WORLD_EXPERIMENTAL_GUARD",
+  "research_effect_size": "DESIGN_ASSUMPTION_NOT_A_PAPER_ESTIMATE",
+  "limitations": [
+    "Small preference samples do not certify win balance or historical player labels.",
+    "rally/away_table/spin_variation axes are observation-only; first_three is mostly detailed-only.",
+    "Match winner and total technique use need not change monotonically under a small preference prior."
+  ]
+}

@@ -1,0 +1,344 @@
+{
+  "version": "V1.1.7-COMPREHENSIVE-1",
+  "date": "2026-10-21",
+  "status": "PARTIAL_RESEARCH_ACCESS_LIMITED",
+  "target": {
+    "minimum_original_papers": 5,
+    "original_paper_full_texts_read": 0,
+    "original_paper_abstracts_read": 3,
+    "author_repository_documents_read": 3,
+    "target_met": false,
+    "author_project_documents_read": 3,
+    "peer_reviewed_sports_science_studies_verified": 0
+  },
+  "sources": [
+    {
+      "id": "R118_AUTHOR_SPIN2025",
+      "title": "Towards Ball Spin and Trajectory Analysis in Table Tennis Broadcast Videos via Physically Grounded Synthetic-to-Real Transfer",
+      "authors": [
+        "Daniel Kienzle",
+        "Robin Schön",
+        "Rainer Lienhart",
+        "Shin’ichi Satoh"
+      ],
+      "year": 2025,
+      "venue_claim": "CVPR Workshops / CVSports 2025, as stated by authors",
+      "paper_url": "https://arxiv.org/abs/2504.19863",
+      "repository": "KieDani/SpinAndTrajectoryTableTennis",
+      "read_scope": "AUTHOR_REPOSITORY_README_AND_AUTHOR_PUBLISHED_PAPER_ABSTRACT",
+      "paper_full_text_read": false,
+      "paper_original_abstract_read": true,
+      "findings_read": [
+        "作者摘要描述从二维广播视频轨迹估计三维球轨迹与初始旋转，以物理合成数据训练并通过表示选择和定向增强迁移到真实视频；README和作者摘要都已读取。"
+      ],
+      "design_use": [
+        "将球的真实物理状态、观察到的线索和模型推断区分。"
+      ],
+      "cannot_establish": [
+        "本游戏旋转参数或打法偏好倍率的数值",
+        "人类球员学习天赋、性格、年龄峰值或PA规则",
+        "本文摘要及作者方法说明不能替代全文对样本、误差、限制和外部效度的核查"
+      ],
+      "source_url": "https://github.com/KieDani/SpinAndTrajectoryTableTennis",
+      "retrieved_readme_url": "https://raw.githubusercontent.com/KieDani/SpinAndTrajectoryTableTennis/4959ad266a74a9a0e21190110db9d259df626d9f/README.md",
+      "commit": "4959ad266a74a9a0e21190110db9d259df626d9f",
+      "readme_sha256": "8b1cd59b9bab552d5315b4dddf0fdb0d4797107a67edf33daca11f621a853762",
+      "verification": "AUTHOR_PUBLISHED_ABSTRACT_READ_NOT_FULL_PAPER_OR_PUBLISHER_VERIFICATION",
+      "author_project_abstract": {
+        "repository": "KieDani/kiedani.github.io",
+        "commit": "0873622ba81b639abb208779368d217f695faf65",
+        "url": "https://raw.githubusercontent.com/KieDani/kiedani.github.io/0873622ba81b639abb208779368d217f695faf65/CVPRW2025/index.html",
+        "bytes": 6448,
+        "document_sha256": "3b5c6e4def5c7168ad91521cfb41afd84b03e757b21db07bd6dc29782587b8fb",
+        "read_scope": "AUTHOR_PUBLISHED_PAPER_ABSTRACT_AND_PROJECT_METHOD_NOTES",
+        "abstract_sha256": "022f63385419d6b00378f2cd2c3e76bee8e9fdcdf1d5ba9162bc80556c8cd420",
+        "abstract_word_count": 164,
+        "original_paper_full_text_read": false,
+        "publisher_independently_verified": false,
+        "retrieved_date": "2026-10-21"
+      }
+    },
+    {
+      "id": "R118_AUTHOR_UPLIFT2026",
+      "title": "Uplifting Table Tennis: A Robust, Real-World Application for 3D Trajectory and Spin Estimation",
+      "authors": [
+        "Daniel Kienzle",
+        "Katja Ludwig",
+        "Julian Lorenz",
+        "Shin’ichi Satoh",
+        "Rainer Lienhart"
+      ],
+      "year": 2026,
+      "venue_claim": "WACV 2026, as stated by authors",
+      "paper_url": "https://arxiv.org/abs/2511.20250",
+      "repository": "KieDani/UpliftingTableTennis",
+      "read_scope": "AUTHOR_REPOSITORY_README_AND_AUTHOR_PUBLISHED_PAPER_ABSTRACT",
+      "paper_full_text_read": false,
+      "paper_original_abstract_read": true,
+      "findings_read": [
+        "作者摘要将流程分为真实二维监督训练的前端检测与物理合成数据训练的后端三维提升，强调对漏检和可变帧率的鲁棒性；作者页面的方法段落亦已读取。"
+      ],
+      "design_use": [
+        "日志应区分已执行事件和间接估计，不能把轻量汇总当作逐板观测。"
+      ],
+      "cannot_establish": [
+        "本游戏引擎已经过真实比赛校准",
+        "专业球员固定打法或性格",
+        "生涯能力上限的统计分布",
+        "本文摘要及作者方法说明不能替代全文对样本、误差、限制和外部效度的核查"
+      ],
+      "source_url": "https://github.com/KieDani/UpliftingTableTennis",
+      "retrieved_readme_url": "https://raw.githubusercontent.com/KieDani/UpliftingTableTennis/1a64bf6488f3a142f733e73e8de00bfecf044b23/README.md",
+      "commit": "1a64bf6488f3a142f733e73e8de00bfecf044b23",
+      "readme_sha256": "18b2a2bc78044641e0bd110d64b1f08a34295484bc9f96625d8ebd66782408af",
+      "verification": "AUTHOR_PUBLISHED_ABSTRACT_READ_NOT_FULL_PAPER_OR_PUBLISHER_VERIFICATION",
+      "author_project_abstract": {
+        "repository": "KieDani/kiedani.github.io",
+        "commit": "0873622ba81b639abb208779368d217f695faf65",
+        "url": "https://raw.githubusercontent.com/KieDani/kiedani.github.io/0873622ba81b639abb208779368d217f695faf65/WACV2026/index.html",
+        "bytes": 7990,
+        "document_sha256": "ab0826cb1890e58b66becafb967acff257771bd2c60ffd8ac254ce9f6c0d376e",
+        "read_scope": "AUTHOR_PUBLISHED_PAPER_ABSTRACT_AND_PROJECT_METHOD_NOTES",
+        "abstract_sha256": "f77316ce03f9b7354826a59c54a3da6602b276034e6c90d97b1209922e9525e1",
+        "abstract_word_count": 149,
+        "original_paper_full_text_read": false,
+        "publisher_independently_verified": false,
+        "retrieved_date": "2026-10-21"
+      }
+    },
+    {
+      "id": "R118_AUTHOR_LATTE2025",
+      "title": "LATTE-MV: Learning to Anticipate Table Tennis Hits from Monocular Videos",
+      "authors": [
+        "Daniel Etaat",
+        "Dvij Kalaria",
+        "Nima Rahmanian",
+        "Shankar Sastry"
+      ],
+      "year": 2025,
+      "venue_claim": "CVPR 2025, as stated by authors",
+      "paper_url": "https://arxiv.org/abs/2503.20936",
+      "repository": "sastry-group/LATTE-MV",
+      "read_scope": "AUTHOR_REPOSITORY_README_AND_AUTHOR_PUBLISHED_PAPER_ABSTRACT",
+      "paper_full_text_read": false,
+      "paper_original_abstract_read": true,
+      "findings_read": [
+        "作者摘要说明用单目视频重建三维比赛，并用考虑不确定性的控制器预判对方击球；返回率比较来自机器人模拟，不是人类训练干预研究。作者README与明确标为Paper abstract的作者页面均已读取。"
+      ],
+      "design_use": [
+        "战术阅读与未来来球预测应有误差，不能读取对手尚未执行的隐藏选择。"
+      ],
+      "cannot_establish": [
+        "人类预判训练会按同样幅度改善",
+        "机器人接球结果可直接替换人类胜率",
+        "马龙或其他具体人物的真实心理特征",
+        "本文摘要及作者方法说明不能替代全文对样本、误差、限制和外部效度的核查"
+      ],
+      "source_url": "https://github.com/sastry-group/LATTE-MV",
+      "retrieved_readme_url": "https://raw.githubusercontent.com/sastry-group/LATTE-MV/bcada1f744af3e1c39fd5adb5ee5bb534f0d1ba2/README.md",
+      "commit": "bcada1f744af3e1c39fd5adb5ee5bb534f0d1ba2",
+      "readme_sha256": "392ba26a757e72191f8af7723542b5017213a3be25933f24b58b1f298e1cdd46",
+      "verification": "AUTHOR_PUBLISHED_ABSTRACT_READ_NOT_FULL_PAPER_OR_PUBLISHER_VERIFICATION",
+      "author_project_abstract": {
+        "repository": "sastry-group/LATTE-MV",
+        "commit": "500ba2bf74433722ab5442f041e3757be4daba6c",
+        "url": "https://raw.githubusercontent.com/sastry-group/LATTE-MV/500ba2bf74433722ab5442f041e3757be4daba6c/index.html",
+        "bytes": 18300,
+        "document_sha256": "5aac3e3d3eb2b28f1ce10c184bd4e29e9b00914e0686e8c844e4ab09c5d2ff52",
+        "read_scope": "AUTHOR_PUBLISHED_PAPER_ABSTRACT_AND_PROJECT_METHOD_NOTES",
+        "abstract_sha256": "80330f9d4a96c06ee6c230fbdd215ccd5e1dd0f9523d76b34bad7085185f695f",
+        "abstract_word_count": 136,
+        "original_paper_full_text_read": false,
+        "publisher_independently_verified": false,
+        "retrieved_date": "2026-10-21"
+      }
+    }
+  ],
+  "bibliographic_leads": [
+    {
+      "id": "R118_LEAD_MATCH_REVIEW",
+      "title": "Table tennis match analysis: a review",
+      "authors_candidate": [
+        "M. Fuchs",
+        "R. Liu",
+        "I. Malagoli Lanzoni",
+        "G. Munivrana",
+        "G. Straub",
+        "S. Tamaki",
+        "K. Yoshida",
+        "H. Zhang",
+        "M. Lames"
+      ],
+      "year_candidate": 2018,
+      "topics": [
+        "技战术记录",
+        "比赛阶段与情境"
+      ],
+      "verification": "UNVERIFIED_BIBLIOGRAPHIC_LEAD",
+      "read_scope": "NOT_RETRIEVED",
+      "findings": [],
+      "doi": null,
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Table+tennis+match+analysis%3A+a+review",
+      "limitation": "题名/作者/年份为待核验文献线索，尚未从原站核对，不能计入本轮已读论文或作为数值证据。"
+    },
+    {
+      "id": "R118_LEAD_CHINA_REVIEW",
+      "title": "Match analyses of table tennis in China: a systematic review",
+      "authors_candidate": [
+        "H. Zhang",
+        "Z. Zhou",
+        "Q. Yang"
+      ],
+      "year_candidate": 2018,
+      "topics": [
+        "技战术分段",
+        "方法论边界"
+      ],
+      "verification": "UNVERIFIED_BIBLIOGRAPHIC_LEAD",
+      "read_scope": "NOT_RETRIEVED",
+      "findings": [],
+      "doi": null,
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Match+analyses+of+table+tennis+in+China%3A+a+systematic+review",
+      "limitation": "题名/作者/年份为待核验文献线索，尚未从原站核对，不能计入本轮已读论文或作为数值证据。"
+    },
+    {
+      "id": "R118_LEAD_SHOT_CHARACTERISTICS",
+      "title": "A notational analysis of shot characteristics in top-level table tennis players",
+      "authors_candidate": [
+        "I. Malagoli Lanzoni",
+        "R. Di Michele",
+        "F. Merni"
+      ],
+      "year_candidate": 2014,
+      "topics": [
+        "击球特征",
+        "打法观测"
+      ],
+      "verification": "UNVERIFIED_BIBLIOGRAPHIC_LEAD",
+      "read_scope": "NOT_RETRIEVED",
+      "findings": [],
+      "doi": null,
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/?term=A+notational+analysis+of+shot+characteristics+in+top-level+table+tennis+players",
+      "limitation": "题名/作者/年份为待核验文献线索，尚未从原站核对，不能计入本轮已读论文或作为数值证据。"
+    },
+    {
+      "id": "R118_LEAD_OFFICIAL_LOAD",
+      "title": "Physiological responses and characteristics of table tennis matches determined in official tournaments",
+      "authors_candidate": [
+        "A. M. Zagatto",
+        "E. A. Morel",
+        "C. A. Gobatto"
+      ],
+      "year_candidate": 2010,
+      "topics": [
+        "比赛负荷",
+        "恢复与疲劳"
+      ],
+      "verification": "UNVERIFIED_BIBLIOGRAPHIC_LEAD",
+      "read_scope": "NOT_RETRIEVED",
+      "findings": [],
+      "doi": null,
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Physiological+responses+and+characteristics+of+table+tennis+matches+determined+in+official+tournaments",
+      "limitation": "题名/作者/年份为待核验文献线索，尚未从原站核对，不能计入本轮已读论文或作为数值证据。"
+    },
+    {
+      "id": "R118_LEAD_TALENT_MOTOR",
+      "title": "Perceptuo-motor skills assessment has potential as a talent detection tool in table tennis",
+      "authors_candidate": [
+        "I. R. Faber",
+        "F. G. J. Oosterveld",
+        "M. W. G. Nijhuis-van der Sanden"
+      ],
+      "year_candidate": 2014,
+      "topics": [
+        "知觉运动技能",
+        "少年潜能评估"
+      ],
+      "verification": "UNVERIFIED_BIBLIOGRAPHIC_LEAD",
+      "read_scope": "NOT_RETRIEVED",
+      "findings": [],
+      "doi": null,
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Perceptuo-motor+skills+assessment+has+potential+as+a+talent+detection+tool+in+table+tennis",
+      "limitation": "题名/作者/年份为待核验文献线索，尚未从原站核对，不能计入本轮已读论文或作为数值证据。"
+    },
+    {
+      "id": "R118_LEAD_RACKET_TALENT",
+      "title": "Assessing personal talent determinants in young racquet sport players: a systematic review",
+      "authors_candidate": [
+        "I. R. Faber et al."
+      ],
+      "year_candidate": 2016,
+      "topics": [
+        "专项发展",
+        "人才识别"
+      ],
+      "verification": "UNVERIFIED_BIBLIOGRAPHIC_LEAD",
+      "read_scope": "NOT_RETRIEVED",
+      "findings": [],
+      "doi": null,
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Assessing+personal+talent+determinants+in+young+racquet+sport+players%3A+a+systematic+review",
+      "limitation": "题名/作者/年份为待核验文献线索，尚未从原站核对，不能计入本轮已读论文或作为数值证据。"
+    },
+    {
+      "id": "R118_LEAD_EYE_ARM",
+      "title": "Head, eye and arm coordination in table tennis",
+      "authors_candidate": [
+        "S. T. Rodrigues",
+        "J. N. Vickers",
+        "A. M. Williams"
+      ],
+      "year_candidate": 2002,
+      "topics": [
+        "注视与动作协调",
+        "预判"
+      ],
+      "verification": "UNVERIFIED_BIBLIOGRAPHIC_LEAD",
+      "read_scope": "NOT_RETRIEVED",
+      "findings": [],
+      "doi": null,
+      "verification_url": "https://pubmed.ncbi.nlm.nih.gov/?term=Head%2C+eye+and+arm+coordination+in+table+tennis",
+      "limitation": "题名/作者/年份为待核验文献线索，尚未从原站核对，不能计入本轮已读论文或作为数值证据。"
+    }
+  ],
+  "evidence_policy": {
+    "author_document_is_not_paper_full_text": true,
+    "unverified_leads_are_not_findings": true,
+    "numerical_game_parameters": "DESIGN_ASSUMPTIONS_NOT_DERIVED_FROM_THE_ABOVE_DOCUMENTS",
+    "scope": "实际读取3份作者仓库README、3篇作者项目页中明确标为Abstract的论文摘要；原论文全文0篇。3篇摘要均为计算机视觉/轨迹/机器人预判研究，体育学训练、负荷/年龄与专项发展原文尚未核验；不能声称5篇论文目标已完成。",
+    "author_published_abstract_is_not_paper_full_text": true,
+    "publisher_venue_independently_verified": false
+  },
+  "personality_evidence": {
+    "status": "NO_PRIMARY_INTERVIEW_VERIFIED",
+    "public_cues": [],
+    "private_records_accessed": false,
+    "reason": "官方采访和人物资料原站被代理拒绝；无可核实的私人材料，不生成真实人物的私下人格结论。",
+    "fallback": "每位球员化身可有明确标注的虚构模拟性格，用于文学参考；不得把标签写成现实人物事实。"
+  },
+  "rejected_secondary_materials": [
+    {
+      "source_url": "https://github.com/MonOttawa/pongnews/blob/995d82b16f5f6ea258b9af6098170c1fed344f5b/references/research-bank.md",
+      "reason": "仅是第三方编目，包含互相矛盾/未核对的DOI和修正记录；不能替代原论文检验，未采用其中的数值或人物推断。"
+    }
+  ],
+  "design_hypotheses": [
+    {
+      "id": "D118_STYLE_MULTIDIMENSIONAL",
+      "proposal": "用多个可重叠偏好轴描述喜欢怎样组织比赛：主导翼、争先阶段、台距、节奏、旋转、风险和攻防转换；不要把标签作为技术分值或固定命运。",
+      "evidence": "GAME_DESIGN_HYPOTHESIS",
+      "not_empirical_coefficient": true
+    },
+    {
+      "id": "D118_PA_CAREER_SEMANTICS",
+      "proposal": "稳定的生涯潜能估值与当下身体支持的剩余可达表现分开；普通衰老主要降低后者，重大持久功能损失才有资格损伤前者。",
+      "evidence": "USER_REQUEST_AND_GAME_DESIGN_CONTRACT",
+      "not_empirical_coefficient": true
+    },
+    {
+      "id": "D118_PERSONA",
+      "proposal": "叙述人物性格是主持端可选语气参考，优先保留不确定性；个体采访不能推出隐藏内心、临床特征或固定压力能力。",
+      "evidence": "NARRATIVE_PROVENANCE_CONTRACT",
+      "not_empirical_coefficient": true
+    }
+  ]
+}

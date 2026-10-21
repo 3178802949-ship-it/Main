@@ -1,0 +1,770 @@
+{
+  "version": "V1.1.7-CANDIDATE-1",
+  "baseline": "V1.1.6-HGR-CANDIDATE-1",
+  "modified": [
+    {
+      "path": "Game/__init__.py",
+      "baseline_sha256": "a7aede95488e80525f131330f386861b667c8369914cd1f3b3c6d633f5fb76c2",
+      "candidate_sha256": "df1ff56c39cad8cf642ace00dff77479562ea17ea880156241fa2833cc2f9e21"
+    },
+    {
+      "path": "Game/worker.py",
+      "baseline_sha256": "6751162269edec886fbd8ff7dd14f4da9bf7f564e40cd26f2a615d625b04fa1b",
+      "candidate_sha256": "887afee0bc5d71f778cb2f8c0556b524e1acac26ea564a2cc758f922b6ee4879"
+    },
+    {
+      "path": "world.py",
+      "baseline_sha256": "df32805f5e6909cb700220652e59995be18f995bf6b783315e2d4d819b2e887b",
+      "candidate_sha256": "b451b5c3fdb7848e904aee42f2ef50aa69c08f391d2f396a6dacde5de54d43b9"
+    }
+  ],
+  "added": [
+    {
+      "path": "Area/v117.py",
+      "sha256": "205c06d343a04e396457665f1b0b7dbf65e574c313bf7e9b8372b6313852dd5c"
+    },
+    {
+      "path": "Game/engine_v117.py",
+      "sha256": "e7cedddcc5ee20e23ad23189912c2901d8f42306bb3bc5fda87970b8e43e1fa1"
+    },
+    {
+      "path": "Game/integration_v117.py",
+      "sha256": "947f78ff7fdfd1b6fcc52c93b00457ac6e97bcf33ab7959e3d6dcdb550b09e06"
+    },
+    {
+      "path": "Game/light_v117.py",
+      "sha256": "d185b1852426ac2e92a8fcd49132d5637093da6cdc2b1425c78d52f366f5a599"
+    },
+    {
+      "path": "Game/tactics_v117.py",
+      "sha256": "7df4d7f367efa86722cca2868746bc4ef92b6155066161bd4831eedb43421484"
+    },
+    {
+      "path": "OPENING_V117_ZH.md",
+      "sha256": "534673c2169f850a11d5060b9f30454a5121df8e71a4022553c76b0ebce62a12"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1d7adb88f76d6cd4b84640760f63ae44fa0facddf7aedc7bcc83cf9deff08420"
+    },
+    {
+      "path": "README_V117_ZH.md",
+      "sha256": "d28449d3961aa7b285c239d400529fb332a03806772c3aa845ea05f661bac00c"
+    },
+    {
+      "path": "Training/v117.py",
+      "sha256": "467ff4477ba6fbc70d4d962302f0c7bd1ecbb4c37f4c4f5c48e764e0f21121a7"
+    },
+    {
+      "path": "build_v117_package.py",
+      "sha256": "f53abab1ca05d43818d7a8a370c35b852c1a586bf37dcf3ea5de90b04cf96036"
+    },
+    {
+      "path": "data/calendar_2027_v117.json",
+      "sha256": "26cfd0f63d957f3fa19d015c486e958d6b6f8b71caed9ad922219c5ff995884a"
+    },
+    {
+      "path": "data/calendar_2028_v117.json",
+      "sha256": "a5fc63f74d509b612bcd226c34345fbae351a45eebfa726c565f5b43fd469129"
+    },
+    {
+      "path": "docs/V117_CALENDAR_ZH.md",
+      "sha256": "c1e685917ad35478403601da56f5a4ed9fde397b46f19ac670de386fff238886"
+    },
+    {
+      "path": "docs/V117_DESIGN_ZH.md",
+      "sha256": "59437599c58c2c07c7cfe882237b2be6e66f316f39b2924059e7d0350eb4742d"
+    },
+    {
+      "path": "docs/V117_TECHNICAL_REPORT_ZH.md",
+      "sha256": "67aff9322a49cb903ff2f95a3520b98df9583d337549fec38f65052ba8c3a8ea"
+    },
+    {
+      "path": "examples/audit_potential_v117.py",
+      "sha256": "0e840fb89e679431298d7e64059347cecaa3bae0c90bfeae3d5ecc64a8f7890f"
+    },
+    {
+      "path": "examples/benchmark_light_v117.py",
+      "sha256": "dd0681356e101340ae65c301c8ec9428a3cb28bee559052a9df90c2b6289fb03"
+    },
+    {
+      "path": "examples/benchmark_tactics_v117.py",
+      "sha256": "741b026bb41ed2e1989147137f344b7d0ba511e794f1c65fd08a72f7c6ae2d86"
+    },
+    {
+      "path": "examples/calibrate_career_v117.py",
+      "sha256": "6bc5536ad14f604302bbb954ea8424a650a8bca5a50d6136b712e34a1db9743c"
+    },
+    {
+      "path": "examples/start_v117.py",
+      "sha256": "8adf3f52fd6c4cae4cfde6520aa634bed5f0db0196d6f351daca9f845dc25c24"
+    },
+    {
+      "path": "examples/stress_horizon_v117.py",
+      "sha256": "375979ea037b8e4e2d44b80385cb23061e4514f9701b889f37a9a83db3d27928"
+    },
+    {
+      "path": "examples/stress_world_v117.py",
+      "sha256": "76a6aef13e3793f8da38baa055a78325fd87696dd462b05751b95ed2a4ec5598"
+    },
+    {
+      "path": "examples/v117_demo_output/COMPLETE_CARD_V117.json",
+      "sha256": "e2819ca4457d16d357eb5bef81339e86f14bf6eabc4cf0ba06579039471feb18"
+    },
+    {
+      "path": "examples/v117_demo_output/DEMO_CARD_V117.json",
+      "sha256": "47035e40078f7d9f3dcc43207ce9f4905f5d581b0ca6c805779f854d729f2af4"
+    },
+    {
+      "path": "examples/v117_demo_output/DEMO_SUMMARY_V117.json",
+      "sha256": "17101760bef6e7c06375a3aa38eceafb4ec03a1d401682150461e9563e27ba46"
+    },
+    {
+      "path": "examples/v117_demo_output/DEMO_WORLD_V117.json",
+      "sha256": "97a3701c6ff98593b99c8b808dfc63f0ec7af2d493a39eaf36be0753c2fd3626"
+    },
+    {
+      "path": "examples/v117_demo_output/START_WORLD_V117.json",
+      "sha256": "48cd719cf56774e097264a5b664d0dcfc29472f72784baab693b453f02bd5dff"
+    },
+    {
+      "path": "reports/v117/BASELINE.json",
+      "sha256": "649409368793c3c3ec4dc02d4f2f3a6474ee5c381a8b801dff5d2e2aa87a6784"
+    },
+    {
+      "path": "reports/v117/GROWTH_DESIGN_AND_VALIDATION_ZH.md",
+      "sha256": "8e15b697cc776e26dc5c4ae3613f6c8679b29cd1cfd92ad7160b58d88402261d"
+    },
+    {
+      "path": "reports/v117/GROWTH_DEV_A1.json",
+      "sha256": "aba3f94180fcf1b58a8ede194b59594b47785e4e43b4ac27a1cc5d397b099918"
+    },
+    {
+      "path": "reports/v117/GROWTH_DEV_A1.plan.json",
+      "sha256": "2da7c31ddc057055f84e46185b3a830174526baf487342dc05c6ba0b064e9892"
+    },
+    {
+      "path": "reports/v117/GROWTH_DEV_B1.json",
+      "sha256": "9230db627490d30858493300c44716e72e1d5c1ba6bfc907a89dfc1a863e85fd"
+    },
+    {
+      "path": "reports/v117/GROWTH_DEV_B1.plan.json",
+      "sha256": "af3036c8e736eefee5e798a54d479a6b4bb3bb8b89b87fccd9b1d107fad2b7b8"
+    },
+    {
+      "path": "reports/v117/GROWTH_DEV_C1.json",
+      "sha256": "9cf60ac373d854542b99029cf4801f67014408893a12b9f417bcae99a5d9ded8"
+    },
+    {
+      "path": "reports/v117/GROWTH_DEV_C1.plan.json",
+      "sha256": "7d1e975251a0977c5c348a012a720ae37b57d38623a5531a9d619b09df29b032"
+    },
+    {
+      "path": "reports/v117/GROWTH_EVIDENCE_INDEX.json",
+      "sha256": "49fe0961b3c2b08abb8a614413ba2a9fc5b57a575c49c8fadb10b03d72184503"
+    },
+    {
+      "path": "reports/v117/GROWTH_FINAL_DEVELOPMENT.json",
+      "sha256": "88dc9bbce80c142bcd679661bff956ba23420c05bfb00eee1970eec7517c78df"
+    },
+    {
+      "path": "reports/v117/GROWTH_FINAL_DEVELOPMENT.plan.json",
+      "sha256": "6af134c04aa1b85fb53bf9308a22224f1e49e80a24ab1174f2d3341be9973f81"
+    },
+    {
+      "path": "reports/v117/GROWTH_FINAL_DEVELOPMENT_V2.json",
+      "sha256": "812cf5219d42e1049a1794be4ee071c6c2de8584110cf063803302940c3804cf"
+    },
+    {
+      "path": "reports/v117/GROWTH_FINAL_DEVELOPMENT_V2.plan.json",
+      "sha256": "92357fcfb0b4582078704a57dad3b27b4c67ba37b10bc72118e2db3046c8243d"
+    },
+    {
+      "path": "reports/v117/GROWTH_FINAL_HOLDOUT.json",
+      "sha256": "b778d979305e4d5a301041ef197df27493a9ceba3579784d646be56bfd752950"
+    },
+    {
+      "path": "reports/v117/GROWTH_FINAL_HOLDOUT.plan.json",
+      "sha256": "064bb476440ea103849272caa8b6218a1e14eb4ec6ed322de0982fb5a219c7f3"
+    },
+    {
+      "path": "reports/v117/GROWTH_FROZEN_DEVELOPMENT.json",
+      "sha256": "9e67e4f7775dd53063a74744e3dc7ab7e3d66cc0d81ccfd2705974b320aa048d"
+    },
+    {
+      "path": "reports/v117/GROWTH_FROZEN_DEVELOPMENT.plan.json",
+      "sha256": "dfecd9a8d25218ca73db6efcbc2357607e1f45aaead8e1c951763032ed491c47"
+    },
+    {
+      "path": "reports/v117/GROWTH_FROZEN_HOLDOUT.json",
+      "sha256": "a1edb45f8d61c8d3bc6c9af20e4b98a323931b6fa9117dfbc02505e2d6ed2fed"
+    },
+    {
+      "path": "reports/v117/GROWTH_FROZEN_HOLDOUT.plan.json",
+      "sha256": "5476088915e222fcadedfff45749cb887076d3511e4d81a799ff3c23e9435973"
+    },
+    {
+      "path": "reports/v117/GROWTH_FROZEN_PRIOR_ENV_MATRIX.json",
+      "sha256": "a28077bb3f1e07146e37ef27575e0213bc5220bff4891a568c94bb43926e5e8f"
+    },
+    {
+      "path": "reports/v117/GROWTH_FROZEN_PRIOR_ENV_MATRIX.plan.json",
+      "sha256": "e8d5cf6c772d7b23257090f14ed20860da09aafc0396996f946d1d11eef4f225"
+    },
+    {
+      "path": "reports/v117/GROWTH_FROZEN_STRESS_HOLDOUT.json",
+      "sha256": "e840b5328e8089450afafcb378dda947d0a18d5fa3210d79edf3b9ecc4d19547"
+    },
+    {
+      "path": "reports/v117/GROWTH_FROZEN_STRESS_HOLDOUT.plan.json",
+      "sha256": "d92710a911246cef64e6cdc04a1228ed18dffaeddeb4b030add83adb4bc96463"
+    },
+    {
+      "path": "reports/v117/GROWTH_PRIOR_ENV_MATRIX.json",
+      "sha256": "ce723ba05685201c69ccf3fe1ed5ae265d3586d499b08b1c44745d7c99cd3543"
+    },
+    {
+      "path": "reports/v117/GROWTH_PRIOR_ENV_MATRIX.plan.json",
+      "sha256": "f0548ebec2bfe22301c299750274c5c58ddffa9cd699723667e606424d72227d"
+    },
+    {
+      "path": "reports/v117/GROWTH_STRESS_HOLDOUT.json",
+      "sha256": "fbf35fb1068e72ca6c739a8e906a9e138f96abf1b2857b2f83a3d06d5c1b25a6"
+    },
+    {
+      "path": "reports/v117/GROWTH_STRESS_HOLDOUT.plan.json",
+      "sha256": "1217cc900234ec0148a55062a46e30fe777f05d1ffcd51037f75a09846c7888d"
+    },
+    {
+      "path": "reports/v117/HGR_BASELINE_MANIFEST.json",
+      "sha256": "56d1198505ec045f0e25373f0752ebf339fbbb0bfe65eef81898dd2de1c83ca2"
+    },
+    {
+      "path": "reports/v117/LIGHT4_FAMILY_DIAGNOSIS.json",
+      "sha256": "5b779b75555d56257802bbe47997353dd342f803d36635ec4f631854f3b40869"
+    },
+    {
+      "path": "reports/v117/LIGHT_DESIGN_ZH.md",
+      "sha256": "8d21959e69848df953f32e67b7e4edf13cb5e1c33a9ffbc09bf36a37ea35460c"
+    },
+    {
+      "path": "reports/v117/LIGHT_FAMILY_DIAGNOSIS.json",
+      "sha256": "5998b7648a5aa6f6c2eca7efe6c41be2d45d6c416d01d355cc031f12ac6aba08"
+    },
+    {
+      "path": "reports/v117/POTENTIAL_AUDIT.json",
+      "sha256": "9d1ff8bc9583e1d9cd925cd0788976df54e8a3065d34d2434d269eaa49cc1bfd"
+    },
+    {
+      "path": "reports/v117/V117_QA.json",
+      "sha256": "ac147180ec74d1f3cdd2ac0ad4c6de43c8db35e8ca498c2feccd9d50b1f348a9"
+    },
+    {
+      "path": "reports/v117/V117_TESTS.txt",
+      "sha256": "184ef5114d830718901e3398bf7a9125bbdf0d90d2c095cb7a52ccecd25971de"
+    },
+    {
+      "path": "reports/v117/WORLD_RULES_V117_ZH.md",
+      "sha256": "cc4445d3b49dc826b435f0f7d630d45102bb997d0cbcf0540a6f26a8e004fa9b"
+    },
+    {
+      "path": "reports/v117/development_light2_world_horizon_v117.json",
+      "sha256": "a8f66f7bc928519b1dd8319f9d16771917ddf84305b98984c3a79d34b816dfae"
+    },
+    {
+      "path": "reports/v117/development_light2_world_stress_v117.json",
+      "sha256": "a58bea4bd704ac1121fc2dd07f5b25539aa6640b231abb67b914b7d4171ec5ed"
+    },
+    {
+      "path": "reports/v117/development_light3_QA.json",
+      "sha256": "ee40a9262a2bdf48eb9b6374af4d03a9a73630b1bb9d4d95cb57f8f0cf02e5d5"
+    },
+    {
+      "path": "reports/v117/development_light3_world_horizon_v117.json",
+      "sha256": "b7469edf13da1f026ac0e99ad71049097aa7c4f391755701bb7e64d7daead187"
+    },
+    {
+      "path": "reports/v117/development_light3_world_stress_v117.json",
+      "sha256": "d26e3fbc88a6b6e8e2ce77c6d2a6d520be94fe769e3776a85ce19723cd1b4b48"
+    },
+    {
+      "path": "reports/v117/light_benchmark/LIGHT_BENCHMARK.json",
+      "sha256": "fd4c9157c57b4ea512aa44d62c3892e4edafde220b8d043584d8ea1c2515a8e3"
+    },
+    {
+      "path": "reports/v117/light_benchmark/LIGHT_BENCHMARK_ZH.md",
+      "sha256": "74a6f89bd5c9f4a528d167acd10a7221299b6e1bd525c45cb035d9fac9e28405"
+    },
+    {
+      "path": "reports/v117/light_benchmark/PREDECLARED_PLAN.json",
+      "sha256": "b9360882cab71e4855d866285f7780c8f54e68b40ff068f8c51e4cc58f6635db"
+    },
+    {
+      "path": "reports/v117/light_benchmark/equal_right_left_detailed_sample.json",
+      "sha256": "37eb2680a894b983ba7f5f66507fb6dc12cacc94857592146c35cda476d22e3d"
+    },
+    {
+      "path": "reports/v117/light_benchmark/equal_right_left_light_sample.json",
+      "sha256": "faabebdd4e3708f334f1de93eb7136b3f0bf1814f936e8755ebc102ad0b6ed3e"
+    },
+    {
+      "path": "reports/v117/light_benchmark/ma2016_fan2024_detailed_sample.json",
+      "sha256": "98c5b5df467a2dcea13c6d44cc0f52e00497ec6e857b2872bc9ae689c7cdc33a"
+    },
+    {
+      "path": "reports/v117/light_benchmark/ma2016_fan2024_light_sample.json",
+      "sha256": "4340ffd91cd27bde35dc173bb7a452c289b0a530a85d1eb5a834587d5215ae31"
+    },
+    {
+      "path": "reports/v117/light_benchmark/schlager2003_joo2003_detailed_sample.json",
+      "sha256": "dcb3a28b5ac98ada2d7f5c66c20c2bedd3ce1cba0bb256677d25e79fdd76634c"
+    },
+    {
+      "path": "reports/v117/light_benchmark/schlager2003_joo2003_light_sample.json",
+      "sha256": "5e93d4902dc663d1cd57cdd69149471cb9ea3f63aeb2f09d17ece90f1b68f3c9"
+    },
+    {
+      "path": "reports/v117/light_benchmark/xu2013_context_joo2003_detailed_sample.json",
+      "sha256": "397642b6e1b94e4ca0bc507b081d6a1646a4b86b4ff026923b8f087d1805f85e"
+    },
+    {
+      "path": "reports/v117/light_benchmark/xu2013_context_joo2003_light_sample.json",
+      "sha256": "04452396bc746b43dee65e0fd9f7ca012698021d4747cda5b6a463c0641b46e4"
+    },
+    {
+      "path": "reports/v117/light_benchmark_before_serve_accounting/LIGHT_BENCHMARK.json",
+      "sha256": "605e82d584ac1a11188fb42ee8894133343934d7a23cb4efe608eabefd9edc8d"
+    },
+    {
+      "path": "reports/v117/light_benchmark_before_serve_accounting/LIGHT_BENCHMARK_ZH.md",
+      "sha256": "58be6750d08fac77e359dda1fc3f4fa86457191e20d9aec1309b0b1771c5b8f9"
+    },
+    {
+      "path": "reports/v117/light_benchmark_before_serve_accounting/PREDECLARED_PLAN.json",
+      "sha256": "b9360882cab71e4855d866285f7780c8f54e68b40ff068f8c51e4cc58f6635db"
+    },
+    {
+      "path": "reports/v117/light_benchmark_before_serve_accounting/equal_right_left_detailed_sample.json",
+      "sha256": "37eb2680a894b983ba7f5f66507fb6dc12cacc94857592146c35cda476d22e3d"
+    },
+    {
+      "path": "reports/v117/light_benchmark_before_serve_accounting/equal_right_left_light_sample.json",
+      "sha256": "dc012c21cf2bf6b7b14352a92b0e57218b768708d0223c78982e9eb1974e6dfa"
+    },
+    {
+      "path": "reports/v117/light_benchmark_before_serve_accounting/ma2016_fan2024_detailed_sample.json",
+      "sha256": "98c5b5df467a2dcea13c6d44cc0f52e00497ec6e857b2872bc9ae689c7cdc33a"
+    },
+    {
+      "path": "reports/v117/light_benchmark_before_serve_accounting/ma2016_fan2024_light_sample.json",
+      "sha256": "82cd5824db99966af721b2de0db48252d2d69888e0c02346ab82743821c77a99"
+    },
+    {
+      "path": "reports/v117/light_benchmark_before_serve_accounting/schlager2003_joo2003_detailed_sample.json",
+      "sha256": "dcb3a28b5ac98ada2d7f5c66c20c2bedd3ce1cba0bb256677d25e79fdd76634c"
+    },
+    {
+      "path": "reports/v117/light_benchmark_before_serve_accounting/schlager2003_joo2003_light_sample.json",
+      "sha256": "2d2ce0683c59bd3ef7051011139f54fcd7d4ab938f8c4e4bc763bf5545d4bdf5"
+    },
+    {
+      "path": "reports/v117/light_benchmark_before_serve_accounting/xu2013_context_joo2003_detailed_sample.json",
+      "sha256": "397642b6e1b94e4ca0bc507b081d6a1646a4b86b4ff026923b8f087d1805f85e"
+    },
+    {
+      "path": "reports/v117/light_benchmark_before_serve_accounting/xu2013_context_joo2003_light_sample.json",
+      "sha256": "cd140889f96495ca0d1603aab2825d0f82b6bf0a7bac02926a2946677fc61802"
+    },
+    {
+      "path": "reports/v117/light_hgr_smoke/LIGHT_BENCHMARK.json",
+      "sha256": "c170234121eae5f5389b37290b23bfcf9e452349269b67623b510e77c88d1717"
+    },
+    {
+      "path": "reports/v117/light_hgr_smoke/LIGHT_BENCHMARK_ZH.md",
+      "sha256": "7a5837b22f26ee6bcfb498af61158c8a11f461eea40ea80fe53cc9b42214f0b1"
+    },
+    {
+      "path": "reports/v117/light_hgr_smoke/PREDECLARED_PLAN.json",
+      "sha256": "a1e4816da0fb800b914cef8d4d31118124059a8bfdc086f5380d95a285b1caf3"
+    },
+    {
+      "path": "reports/v117/light_hgr_smoke/equal_right_left_detailed_sample.json",
+      "sha256": "a0970917bced4abdb33a1419cbcf7d59ebc47e0abf5e4cd2c858fc2067b209e0"
+    },
+    {
+      "path": "reports/v117/light_hgr_smoke/equal_right_left_light_sample.json",
+      "sha256": "35d32442296b527adfa8e7e51d4ca73d5de5d17ecf46cc3381d502597086f737"
+    },
+    {
+      "path": "reports/v117/light_hgr_smoke/ma2016_fan2024_detailed_sample.json",
+      "sha256": "885251118ad53370a05bc38b185e826fec412d66687516f56f72f164665bb1ce"
+    },
+    {
+      "path": "reports/v117/light_hgr_smoke/ma2016_fan2024_light_sample.json",
+      "sha256": "31287192322c82b0996fb6b88d50e3bf765924fc1d166fd3fa1104a0dc999a08"
+    },
+    {
+      "path": "reports/v117/light_hgr_smoke/schlager2003_joo2003_detailed_sample.json",
+      "sha256": "6339a24ef3a80b4210fd18f248910b5ed61b587bb472de40c7c6138338135d65"
+    },
+    {
+      "path": "reports/v117/light_hgr_smoke/schlager2003_joo2003_light_sample.json",
+      "sha256": "823ef0ad77aa765b08a6652bb58a14c2e2bb0bce21e49435b2320058534c2071"
+    },
+    {
+      "path": "reports/v117/light_hgr_smoke/xu2013_context_joo2003_detailed_sample.json",
+      "sha256": "b9068d2d98c2a825cc6ffafed21eb0b5e3f31fceb631e96935a3a88130f7ef7a"
+    },
+    {
+      "path": "reports/v117/light_hgr_smoke/xu2013_context_joo2003_light_sample.json",
+      "sha256": "7ab21ce3518b7eae7c9775bce255da41cd97ee26a4f25fbf7f1b218599776f8b"
+    },
+    {
+      "path": "reports/v117/light_holdout_2/LIGHT_BENCHMARK.json",
+      "sha256": "f4191a6d6a8942d2d71b55fd2c23998f5630e49b1e4645da5ecec250887e777b"
+    },
+    {
+      "path": "reports/v117/light_holdout_2/LIGHT_BENCHMARK_ZH.md",
+      "sha256": "2e097215d3f93655188721a280650aa755d718af9d2b07eb425388673008f50f"
+    },
+    {
+      "path": "reports/v117/light_holdout_2/PREDECLARED_PLAN.json",
+      "sha256": "18e0ac118035c51474e7453162041809f9ccc73e775b99768a07438718b4f8b9"
+    },
+    {
+      "path": "reports/v117/light_holdout_2/equal_right_left_detailed_sample.json",
+      "sha256": "6b20eba9a7e07734160d9fa3174c5ac58d0ca43ad11f32d7e648a2f0a975d55c"
+    },
+    {
+      "path": "reports/v117/light_holdout_2/equal_right_left_light_sample.json",
+      "sha256": "842f6ffaa2b65da8ad2f676c264b5f4576bdb242e05a7e120cf8c65e538861e7"
+    },
+    {
+      "path": "reports/v117/light_holdout_2/ma2016_fan2024_detailed_sample.json",
+      "sha256": "8b600b345a9f6335697ab11151e80784ceb219383efef83ea74d7f627074be26"
+    },
+    {
+      "path": "reports/v117/light_holdout_2/ma2016_fan2024_light_sample.json",
+      "sha256": "80f7e55dc0879d038f2748f399877a43ef9c64ee6a0204783a5670603dbd0403"
+    },
+    {
+      "path": "reports/v117/light_holdout_2/schlager2003_joo2003_detailed_sample.json",
+      "sha256": "2738866cbc0023094dc4af645baef5a62bdb5f9f9f9799ede24351771c028f48"
+    },
+    {
+      "path": "reports/v117/light_holdout_2/schlager2003_joo2003_light_sample.json",
+      "sha256": "118de3e123febe53006e2fb58777ce672d14918edf5701874e3b55212d450656"
+    },
+    {
+      "path": "reports/v117/light_holdout_2/xu2013_context_joo2003_detailed_sample.json",
+      "sha256": "96dd57fd6d8d583720518c363856bbe4eb311606d62d441d53a757a317fc73ee"
+    },
+    {
+      "path": "reports/v117/light_holdout_2/xu2013_context_joo2003_light_sample.json",
+      "sha256": "f81621eab77e8deef57906c9977326ce1621beba868d97cdc5c7c8ecc97fa974"
+    },
+    {
+      "path": "reports/v117/light_holdout_3/LIGHT_BENCHMARK.json",
+      "sha256": "47ac2e33237c5ace6aef3f3a1495c3a764ac9f1fc3070ed5ee8f36fff165959a"
+    },
+    {
+      "path": "reports/v117/light_holdout_3/LIGHT_BENCHMARK_ZH.md",
+      "sha256": "efcd0fdfa5221f0a352a176071a06e4ebf4f5173546eec850eabfa48e988faf4"
+    },
+    {
+      "path": "reports/v117/light_holdout_3/PREDECLARED_PLAN.json",
+      "sha256": "ad2621307469700a868f8a9a3c9c2197b6c1e601a5a79f40d31a9d0a0e7359d0"
+    },
+    {
+      "path": "reports/v117/light_holdout_3/equal_right_left_detailed_sample.json",
+      "sha256": "eb360caf6e1c8c1858a9c4ccfd5153b75e5e08c96060b909bb29e015ba07aaa6"
+    },
+    {
+      "path": "reports/v117/light_holdout_3/equal_right_left_light_sample.json",
+      "sha256": "e1384d1961bb913a14381c48ec253cab53156c9eeec56688e6364f1b8b44def2"
+    },
+    {
+      "path": "reports/v117/light_holdout_3/ma2016_fan2024_detailed_sample.json",
+      "sha256": "618acd5c177082700b5875bf94c389a2f172715904c5faeb7b459d1fef8b37e7"
+    },
+    {
+      "path": "reports/v117/light_holdout_3/ma2016_fan2024_light_sample.json",
+      "sha256": "38f7c8db0a5e18273acec066ae7c99c0e5754275d3e0908d8ef77e2a11755a79"
+    },
+    {
+      "path": "reports/v117/light_holdout_3/schlager2003_joo2003_detailed_sample.json",
+      "sha256": "c003fdc6742e164fc05ab177d4ce7606f26efcc33e9235070e2c1145b21ee6a2"
+    },
+    {
+      "path": "reports/v117/light_holdout_3/schlager2003_joo2003_light_sample.json",
+      "sha256": "b15358459f1fc6274a16a607ad720c2a438ea9b3c4fdd60671798eb5f90b8dc0"
+    },
+    {
+      "path": "reports/v117/light_holdout_3/xu2013_context_joo2003_detailed_sample.json",
+      "sha256": "a9a708f50239dbed9a34945e26ad46944185155e3939436ed7e955f66fabc65c"
+    },
+    {
+      "path": "reports/v117/light_holdout_3/xu2013_context_joo2003_light_sample.json",
+      "sha256": "c2115cdb4d0988c893d0afa13868398e84a43110aa659ef41a8c3c46f8779cde"
+    },
+    {
+      "path": "reports/v117/light_holdout_4/LIGHT_BENCHMARK.json",
+      "sha256": "bbecca7e9ddb04d8dcacd9c6f6d6b7107361c1cfa14cbeea4b188416b8dd2da7"
+    },
+    {
+      "path": "reports/v117/light_holdout_4/LIGHT_BENCHMARK_ZH.md",
+      "sha256": "bffe3f6723fe3d53ade53db36abf09f5a04131d605bb77bd773126376ca357ac"
+    },
+    {
+      "path": "reports/v117/light_holdout_4/PREDECLARED_PLAN.json",
+      "sha256": "5b325ad0d6e55ecfc752ba86cc07ca10579ce080092ea903cba0fa610958da05"
+    },
+    {
+      "path": "reports/v117/light_holdout_4/equal_right_left_detailed_sample.json",
+      "sha256": "5926643543fd4e32da58341c324b8817229bfba97edb4f694eb86964327fcda1"
+    },
+    {
+      "path": "reports/v117/light_holdout_4/equal_right_left_light_sample.json",
+      "sha256": "6f9997a5d7e2ef6f330641f0f436eab947c38706f506e8a4e58cadf90c7dba87"
+    },
+    {
+      "path": "reports/v117/light_holdout_4/ma2016_fan2024_detailed_sample.json",
+      "sha256": "cf8ba8149fb6316eeb187fb3f8c27406261fc3d79df966e1074fef87d9d80aef"
+    },
+    {
+      "path": "reports/v117/light_holdout_4/ma2016_fan2024_light_sample.json",
+      "sha256": "465415dc1fce09abc700eb2cce5cc8b533fbbbce7c2f8a0b7457bfe45badec85"
+    },
+    {
+      "path": "reports/v117/light_holdout_4/schlager2003_joo2003_detailed_sample.json",
+      "sha256": "709117637b4925b5ef14ee274e59816739f4681191ce102931254833d96a02fd"
+    },
+    {
+      "path": "reports/v117/light_holdout_4/schlager2003_joo2003_light_sample.json",
+      "sha256": "aa45ecd837852bfc11b18b32576bdc31e0d1504abe02557db1b476417da724d5"
+    },
+    {
+      "path": "reports/v117/light_holdout_4/xu2013_context_joo2003_detailed_sample.json",
+      "sha256": "94f6bd84fe1ab769d43292f71785925b50553d70f97bb07a5a55356ea32ba0eb"
+    },
+    {
+      "path": "reports/v117/light_holdout_4/xu2013_context_joo2003_light_sample.json",
+      "sha256": "1b89ea6644439acb86311d63d068e5627a610f6856e9b8cfa524628f8adfbadb"
+    },
+    {
+      "path": "reports/v117/light_validation_extended/LIGHT_BENCHMARK.json",
+      "sha256": "e506dbbf96b7ebd4faecc28b375ec584ed098776c523809cf30286594421a540"
+    },
+    {
+      "path": "reports/v117/light_validation_extended/LIGHT_BENCHMARK_ZH.md",
+      "sha256": "329ac0ecab997af8b393c067b07013175028f7a7f039fffe125cc999b01fecba"
+    },
+    {
+      "path": "reports/v117/light_validation_extended/PREDECLARED_PLAN.json",
+      "sha256": "2e9054faba236ef2af606ad0135f0816161c4b1d53aec6f0f4e0a32fec8bcad1"
+    },
+    {
+      "path": "reports/v117/light_validation_extended/equal_right_left_detailed_sample.json",
+      "sha256": "37eb2680a894b983ba7f5f66507fb6dc12cacc94857592146c35cda476d22e3d"
+    },
+    {
+      "path": "reports/v117/light_validation_extended/equal_right_left_light_sample.json",
+      "sha256": "faabebdd4e3708f334f1de93eb7136b3f0bf1814f936e8755ebc102ad0b6ed3e"
+    },
+    {
+      "path": "reports/v117/light_validation_extended/ma2016_fan2024_detailed_sample.json",
+      "sha256": "98c5b5df467a2dcea13c6d44cc0f52e00497ec6e857b2872bc9ae689c7cdc33a"
+    },
+    {
+      "path": "reports/v117/light_validation_extended/ma2016_fan2024_light_sample.json",
+      "sha256": "4340ffd91cd27bde35dc173bb7a452c289b0a530a85d1eb5a834587d5215ae31"
+    },
+    {
+      "path": "reports/v117/light_validation_extended/schlager2003_joo2003_detailed_sample.json",
+      "sha256": "dcb3a28b5ac98ada2d7f5c66c20c2bedd3ce1cba0bb256677d25e79fdd76634c"
+    },
+    {
+      "path": "reports/v117/light_validation_extended/schlager2003_joo2003_light_sample.json",
+      "sha256": "5e93d4902dc663d1cd57cdd69149471cb9ea3f63aeb2f09d17ece90f1b68f3c9"
+    },
+    {
+      "path": "reports/v117/light_validation_extended/xu2013_context_joo2003_detailed_sample.json",
+      "sha256": "397642b6e1b94e4ca0bc507b081d6a1646a4b86b4ff026923b8f087d1805f85e"
+    },
+    {
+      "path": "reports/v117/light_validation_extended/xu2013_context_joo2003_light_sample.json",
+      "sha256": "04452396bc746b43dee65e0fd9f7ca012698021d4747cda5b6a463c0641b46e4"
+    },
+    {
+      "path": "reports/v117/tactics_benchmark/ARCHIVE_NOTE_ZH.md",
+      "sha256": "683a15049dac42b3ef6782f74d4d9f8267279b0d63eebad00473e2fe8fe0496f"
+    },
+    {
+      "path": "reports/v117/tactics_benchmark/PREDECLARED_PLAN.json",
+      "sha256": "cbdd90bf8feb6c2f62e8d950c6d7eea6cf6ec69e155c54a529d56195397fbab4"
+    },
+    {
+      "path": "reports/v117/tactics_benchmark/TACTICS_BENCHMARK.json",
+      "sha256": "43da757705ba80f5d31b704d4084e297b25609ff89f2cd68040c1a1bd9d3f2c9"
+    },
+    {
+      "path": "reports/v117/tactics_benchmark/TACTICS_BENCHMARK_ZH.md",
+      "sha256": "a366c413c05ca11c307834e21606ec4ae698de7474bf198f83499a036d337eee"
+    },
+    {
+      "path": "reports/v117/tactics_benchmark_legal_contacts/PREDECLARED_PLAN.json",
+      "sha256": "08cda35c00075f18c6d902e8b4271d429f4ab3351ebca347503487a2b1faaec5"
+    },
+    {
+      "path": "reports/v117/tactics_benchmark_legal_contacts/TACTICS_BENCHMARK.json",
+      "sha256": "a07da6a2799cafd42543076e725f0d74f65e26efa0f49bf7c6c20e702d871d6b"
+    },
+    {
+      "path": "reports/v117/tactics_benchmark_legal_contacts/TACTICS_BENCHMARK_ZH.md",
+      "sha256": "a366c413c05ca11c307834e21606ec4ae698de7474bf198f83499a036d337eee"
+    },
+    {
+      "path": "reports/v117/world_horizon_v117.json",
+      "sha256": "d342d4109f0322b7540e12fa3acd407b1d18933f86d0c994875ccee6c741f2f3"
+    },
+    {
+      "path": "reports/v117/world_stress_v117.json",
+      "sha256": "0474051efb06a74fa4d94d28f5a102077c52f2e16b392d3be10e7544bc09cebd"
+    },
+    {
+      "path": "run_v117_qa.py",
+      "sha256": "31d74ac2a6effba708bfd86799688e0b88193928e6ccfd32c2f5fa5bcf486829"
+    },
+    {
+      "path": "runtime/career_v117.py",
+      "sha256": "1331ddb4a80cabeb1e884d18dc97381abfc4da3c4754f21c51aa8f81dedc2dd4"
+    },
+    {
+      "path": "tests/test_calendar_v117.py",
+      "sha256": "f9ceddd26d71eae7926e24a7a4684a011822e63a711cf76f3c2bc9340d578714"
+    },
+    {
+      "path": "tests/test_growth_v117.py",
+      "sha256": "0216d86930d3a393ad3bf0aa61748a4e6b5c8c757ace50e549f1f65752e29fa7"
+    },
+    {
+      "path": "tests/test_integration_v117.py",
+      "sha256": "a164131cf34e99e54332d6ea05edc3ba7d9e2d44e5722d6b671dcba1b1373067"
+    },
+    {
+      "path": "tests/test_light_v117.py",
+      "sha256": "4ef863980e363bdb5e55a830d5bf0eccf50838c5385587f5fecee4870ca29342"
+    },
+    {
+      "path": "tests/test_tactics_v117.py",
+      "sha256": "7bfa45147f23ad80a20062df255dcfb52fc7d2aa769e70dee3160d008599041f"
+    },
+    {
+      "path": "tests/test_world_v117.py",
+      "sha256": "a3461e45cf5e2760cdb0fc1501829d40672f4552218fa2e83a5918039d0fd07f"
+    },
+    {
+      "path": "world_v117.py",
+      "sha256": "aac0fd2bc0ae3d299ef8cfb78ddbaa99d306bdab0cabe96acd30c28e0c9285c6"
+    }
+  ],
+  "preserved": [
+    "Area/__init__.py",
+    "Card/__init__.py",
+    "Game/geometry.py",
+    "Game/observed_tactics.py",
+    "Game/specialist_engine.py",
+    "OPENING_ZH.md",
+    "README_ZH.md",
+    "Training/__init__.py",
+    "build_hgr_package.py",
+    "build_packages.py",
+    "common/__init__.py",
+    "data/area_catalog.json",
+    "data/calendar_template_2006.json",
+    "data/original/P6_43_SUBSKILL_MAPPING.json",
+    "data/original/spin_era_players_archive_2000_2026_v12.json",
+    "data/original/spin_era_v013_frozen_attribute_schema.json",
+    "data/original/spin_era_v016_schlager2003_joo2003_cards.json",
+    "data/presets_normalized.json",
+    "docs/AI_HANDOFF_ZH.md",
+    "docs/COMPLETE_CARD_MA18_ZH.md",
+    "docs/DIAGNOSIS_ZH.md",
+    "docs/HGR_AUDIT_PLAN_ZH.md",
+    "docs/HGR_TECHNICAL_REPORT_ZH.md",
+    "docs/HUMAN_GUIDE_ZH.md",
+    "docs/LEGACY_OPENING_V116_ZH.md",
+    "docs/PATCH_REQUEST_ZH.md",
+    "examples/benchmark_game.py",
+    "examples/benchmark_specialist_patch.py",
+    "examples/demo_output/COMPLETE_CARD_AFTER_DEMO.json",
+    "examples/demo_output/COMPLETE_CARD_MA18.json",
+    "examples/demo_output/DEMO_SUMMARY.json",
+    "examples/demo_output/DEMO_WORLD.json",
+    "examples/demo_output/START_WORLD.json",
+    "examples/hgr_demo_output/COMPLETE_CARD_HGR.json",
+    "examples/hgr_demo_output/DEMO_SUMMARY_HGR.json",
+    "examples/hgr_demo_output/DEMO_WORLD_HGR.json",
+    "examples/hgr_demo_output/START_WORLD_HGR.json",
+    "examples/run_hgr_qa.py",
+    "examples/start.py",
+    "examples/start_hgr.py",
+    "examples/stress_training.py",
+    "reports/CARD_MIGRATION.json",
+    "reports/GAME_BENCHMARK.json",
+    "reports/HGR_BASELINE_MANIFEST.json",
+    "reports/HGR_FORM_PRESERVATION.json",
+    "reports/HGR_QA.json",
+    "reports/HGR_SOURCE_CHANGES.json",
+    "reports/HGR_unittest_stdout.txt",
+    "reports/PATCH_BASELINE.json",
+    "reports/RELEASE_QA.json",
+    "reports/TRAINING_STRESS.json",
+    "reports/game_examples/ma_fan.json",
+    "reports/game_examples/zhang_joo.json",
+    "reports/hgr_patch/PREDECLARED_PLAN.json",
+    "reports/hgr_patch/REGRESSION.json",
+    "reports/hgr_patch/REGRESSION_REPORT_ZH.md",
+    "reports/hgr_patch/SOURCE_CONSISTENCY.json",
+    "reports/hgr_patch/equal_right_left_new_sample.json",
+    "reports/hgr_patch/equal_right_left_old_sample.json",
+    "reports/hgr_patch/ma2016_fan2024_new_sample.json",
+    "reports/hgr_patch/ma2016_fan2024_old_sample.json",
+    "reports/hgr_patch/schlager2003_joo2003_new_sample.json",
+    "reports/hgr_patch/schlager2003_joo2003_old_sample.json",
+    "reports/hgr_patch/xu2013_context_joo2003_new_sample.json",
+    "reports/hgr_patch/xu2013_context_joo2003_old_sample.json",
+    "reports/unittest_stdout.txt",
+    "runtime/card_training_v112.py",
+    "runtime/career_session_v116.py",
+    "runtime/career_v113.py",
+    "runtime/career_v114.py",
+    "runtime/career_v115.py",
+    "runtime/career_v116.py",
+    "runtime/era_lcm_v11.py",
+    "runtime/game_v112.py",
+    "runtime/game_v113.py",
+    "runtime/game_v114.py",
+    "runtime/game_v115.py",
+    "runtime/ranking_v112.py",
+    "runtime/specialist_rubber_v116.py",
+    "runtime/tactical_match_v116.py",
+    "self_test.py",
+    "tests/fixtures/world_v116_frozen.py",
+    "tests/run_release_qa.py",
+    "tests/test_area.py",
+    "tests/test_card.py",
+    "tests/test_game.py",
+    "tests/test_geometry_patch.py",
+    "tests/test_observed_tactics_patch.py",
+    "tests/test_patch_benchmark.py",
+    "tests/test_patch_compatibility.py",
+    "tests/test_rubber_patch.py",
+    "tests/test_specialist_engine.py",
+    "tests/test_training.py",
+    "tests/test_world.py",
+    "verify_package.py"
+  ],
+  "removed": [],
+  "note": "Derived inventory and self-referential package manifest are excluded from their own hashes."
+}

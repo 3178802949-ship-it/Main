@@ -1,0 +1,19 @@
+ok
+test_compact_log_retains_style_audit_and_actual_full_hash (tests.test_game_v118.MatchV118Tests.test_compact_log_retains_style_audit_and_actual_full_hash) ... ok
+test_neutral_replays_exact_points_scores_exposures_and_load (tests.test_game_v118.MatchV118Tests.test_neutral_replays_exact_points_scores_exposures_and_load) ... ok
+test_non_neutral_real_execution_is_repeatable_and_inputs_are_immutable (tests.test_game_v118.MatchV118Tests.test_non_neutral_real_execution_is_repeatable_and_inputs_are_immutable) ... ok
+test_review_binds_actual_player_and_rejects_foreign_rule_or_bad_hash (tests.test_game_v118.MatchV118Tests.test_review_binds_actual_player_and_rejects_foreign_rule_or_bad_hash) ... ok
+test_all_style_multipliers_are_bounded_and_only_legal_candidates_remain (tests.test_game_v118.PreferenceV118Tests.test_all_style_multipliers_are_bounded_and_only_legal_candidates_remain) ... ok
+test_first_three_axis_requires_an_actual_early_phase (tests.test_game_v118.PreferenceV118Tests.test_first_three_axis_requires_an_actual_early_phase) ... ok
+test_neutral_and_observation_only_preferences_return_the_original_pool (tests.test_game_v118.PreferenceV118Tests.test_neutral_and_observation_only_preferences_return_the_original_pool) ... ok
+test_preference_changes_choice_without_touching_card_or_state (tests.test_game_v118.PreferenceV118Tests.test_preference_changes_choice_without_touching_card_or_state) ... ok
+test_projection_excludes_private_personality_potential_and_learning (tests.test_game_v118.PreferenceV118Tests.test_projection_excludes_private_personality_potential_and_learning) ... ok
+test_registered_axes_reject_unknown_nonfinite_boolean_and_out_of_range (tests.test_game_v118.PreferenceV118Tests.test_registered_axes_reject_unknown_nonfinite_boolean_and_out_of_range) ... ok
+test_risk_does_not_override_limited_or_bad_arrival (tests.test_game_v118.PreferenceV118Tests.test_risk_does_not_override_limited_or_bad_arrival) ... ok
+test_weak_preferred_wing_does_not_receive_artificial_proficiency (tests.test_game_v118.PreferenceV118Tests.test_weak_preferred_wing_does_not_receive_artificial_proficiency) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 1.916s
+
+OK
+

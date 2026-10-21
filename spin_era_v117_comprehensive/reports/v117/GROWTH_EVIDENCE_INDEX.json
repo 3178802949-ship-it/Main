@@ -1,0 +1,111 @@
+{
+  "version": "V1.1.7-CANDIDATE-1",
+  "frozen_scenario_runs": 152,
+  "source_sha256": {
+    "runtime/career_v117.py": "1331ddb4a80cabeb1e884d18dc97381abfc4da3c4754f21c51aa8f81dedc2dd4",
+    "Training/v117.py": "467ff4477ba6fbc70d4d962302f0c7bd1ecbb4c37f4c4f5c48e764e0f21121a7",
+    "examples/calibrate_career_v117.py": "6bc5536ad14f604302bbb954ea8424a650a8bca5a50d6136b712e34a1db9743c"
+  },
+  "evidence": [
+    {
+      "file": "GROWTH_FROZEN_DEVELOPMENT.json",
+      "scenarios": 72,
+      "aggregate": {
+        "xp_only": {
+          "n": 24,
+          "all_fixture_mean_peak_age": 21.9583,
+          "peak_after31": 0,
+          "within_ten_rate": 0.3333,
+          "mean_peak_CA": 168.9167,
+          "mean_peak_to38_loss": 15.5,
+          "max_annual_PA_revision": 2,
+          "max_PA_range_width": 6
+        },
+        "profile_training": {
+          "n": 24,
+          "all_fixture_mean_peak_age": 26.7917,
+          "peak_after31": 0,
+          "within_ten_rate": 1,
+          "mean_peak_CA": 187.2917,
+          "mean_peak_to38_loss": 15.0833,
+          "max_annual_PA_revision": 2,
+          "max_PA_range_width": 6
+        },
+        "bounded_opportunities": {
+          "n": 24,
+          "all_fixture_mean_peak_age": 26.7917,
+          "peak_after31": 0,
+          "within_ten_rate": 1,
+          "mean_peak_CA": 187.2917,
+          "mean_peak_to38_loss": 15.0833,
+          "max_annual_PA_revision": 2,
+          "max_PA_range_width": 6
+        }
+      }
+    },
+    {
+      "file": "GROWTH_FROZEN_HOLDOUT.json",
+      "scenarios": 48,
+      "aggregate": {
+        "bounded_opportunities": {
+          "n": 48,
+          "all_fixture_mean_peak_age": 27.1042,
+          "peak_after31": 0,
+          "within_ten_rate": 1,
+          "mean_peak_CA": 187.3958,
+          "mean_peak_to38_loss": 14.4167,
+          "max_annual_PA_revision": 2,
+          "max_PA_range_width": 6
+        }
+      }
+    },
+    {
+      "file": "GROWTH_FROZEN_PRIOR_ENV_MATRIX.json",
+      "scenarios": 20,
+      "aggregate": {
+        "bounded_opportunities": {
+          "n": 20,
+          "all_fixture_mean_peak_age": 28.0,
+          "peak_after31": 1,
+          "within_ten_rate": 0.8,
+          "mean_peak_CA": 184.6,
+          "mean_peak_to38_loss": 17.05,
+          "max_annual_PA_revision": 2,
+          "max_PA_range_width": 6
+        }
+      }
+    },
+    {
+      "file": "GROWTH_FROZEN_STRESS_HOLDOUT.json",
+      "scenarios": 12,
+      "aggregate": {
+        "bounded_opportunities": {
+          "n": 12,
+          "all_fixture_mean_peak_age": 28.5,
+          "peak_after31": 0,
+          "within_ten_rate": 0.6667,
+          "mean_peak_CA": 177.9167,
+          "mean_peak_to38_loss": 11.9167,
+          "max_annual_PA_revision": 2,
+          "max_PA_range_width": 6
+        }
+      }
+    }
+  ],
+  "unit_tests": {
+    "command": "python -m unittest tests.test_growth_v117 -q",
+    "tests": 12,
+    "result": "PASS"
+  },
+  "preset_preparation": {
+    "cards": 370,
+    "unchanged_current_43_P6_CA": true,
+    "note": "Independent invariant check of all370 passed; authoritative shared audit is POTENTIAL_AUDIT.json, duplicate output removed."
+  },
+  "limitations": [
+    "PA165 integer peak plateau remains about eight years",
+    "1/20 prior/environment conditions first reaches annual peak after31 at33",
+    "Synthetic training opportunities are not actual match wins",
+    "Ideal national/no-injury scenarios are a capability bound, not World default"
+  ]
+}

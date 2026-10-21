@@ -1,0 +1,177 @@
+{
+  "version": "V1.1.8-CANDIDATE-1",
+  "status": "EXECUTED_CONDITIONAL_BENCHMARKS_NOT_POPULATION_CERTIFICATION",
+  "scenario_count": 100,
+  "ideal": {
+    "n": 48,
+    "within_ten_lifetime_PA": 48,
+    "max_peak_gap_to_lifetime_PA": 4,
+    "mean_first_peak_age": 26.916666666666668,
+    "peak_after31": 0,
+    "mean_peak_to38_decline": 16.520833333333332,
+    "max_normal_annual_PA_change": 1
+  },
+  "minor_or_uninjured_careers": 92,
+  "spontaneous_PA_decrease_without_permanent_injury": 0,
+  "permanent_injury_careers": 8,
+  "all_PA_decreases_have_persistent_injury_evidence": true,
+  "all_injury_adjusted_targets_keep_cumulative_damage": true,
+  "champion_window_pairs": [
+    {
+      "label": "ma2004",
+      "seed": 11818101,
+      "peak_with_windows": 196,
+      "peak_without_windows": 196,
+      "peak_delta": 0,
+      "annual_CA_changes": [],
+      "audit_note": "Same seed/card; paired window group is a subset of the 48 ideal careers, not extra independent evidence."
+    },
+    {
+      "label": "ma2004",
+      "seed": 11818102,
+      "peak_with_windows": 194,
+      "peak_without_windows": 194,
+      "peak_delta": 0,
+      "annual_CA_changes": [],
+      "audit_note": "Same seed/card; paired window group is a subset of the 48 ideal careers, not extra independent evidence."
+    },
+    {
+      "label": "fan2012",
+      "seed": 11818101,
+      "peak_with_windows": 196,
+      "peak_without_windows": 196,
+      "peak_delta": 0,
+      "annual_CA_changes": [],
+      "audit_note": "Same seed/card; paired window group is a subset of the 48 ideal careers, not extra independent evidence."
+    },
+    {
+      "label": "fan2012",
+      "seed": 11818102,
+      "peak_with_windows": 195,
+      "peak_without_windows": 195,
+      "peak_delta": 0,
+      "annual_CA_changes": [],
+      "audit_note": "Same seed/card; paired window group is a subset of the 48 ideal careers, not extra independent evidence."
+    },
+    {
+      "label": "zhang2004",
+      "seed": 11818101,
+      "peak_with_windows": 192,
+      "peak_without_windows": 192,
+      "peak_delta": 0,
+      "annual_CA_changes": [],
+      "audit_note": "Same seed/card; paired window group is a subset of the 48 ideal careers, not extra independent evidence."
+    },
+    {
+      "label": "zhang2004",
+      "seed": 11818102,
+      "peak_with_windows": 194,
+      "peak_without_windows": 194,
+      "peak_delta": 0,
+      "annual_CA_changes": [],
+      "audit_note": "Same seed/card; paired window group is a subset of the 48 ideal careers, not extra independent evidence."
+    },
+    {
+      "label": "ma18",
+      "seed": 11818101,
+      "peak_with_windows": 194,
+      "peak_without_windows": 194,
+      "peak_delta": 0,
+      "annual_CA_changes": [],
+      "audit_note": "Same seed/card; paired window group is a subset of the 48 ideal careers, not extra independent evidence."
+    },
+    {
+      "label": "ma18",
+      "seed": 11818102,
+      "peak_with_windows": 196,
+      "peak_without_windows": 196,
+      "peak_delta": 0,
+      "annual_CA_changes": [],
+      "audit_note": "Same seed/card; paired window group is a subset of the 48 ideal careers, not extra independent evidence."
+    },
+    {
+      "label": "elite181",
+      "seed": 11818101,
+      "peak_with_windows": 180,
+      "peak_without_windows": 180,
+      "peak_delta": 0,
+      "annual_CA_changes": [],
+      "audit_note": "Same seed/card; paired window group is a subset of the 48 ideal careers, not extra independent evidence."
+    },
+    {
+      "label": "elite181",
+      "seed": 11818102,
+      "peak_with_windows": 178,
+      "peak_without_windows": 178,
+      "peak_delta": 0,
+      "annual_CA_changes": [],
+      "audit_note": "Same seed/card; paired window group is a subset of the 48 ideal careers, not extra independent evidence."
+    },
+    {
+      "label": "elite165",
+      "seed": 11818101,
+      "peak_with_windows": 164,
+      "peak_without_windows": 164,
+      "peak_delta": 0,
+      "annual_CA_changes": [],
+      "audit_note": "Same seed/card; paired window group is a subset of the 48 ideal careers, not extra independent evidence."
+    },
+    {
+      "label": "elite165",
+      "seed": 11818102,
+      "peak_with_windows": 165,
+      "peak_without_windows": 165,
+      "peak_delta": 0,
+      "annual_CA_changes": [],
+      "audit_note": "Same seed/card; paired window group is a subset of the 48 ideal careers, not extra independent evidence."
+    }
+  ],
+  "cohort_overlap_note": "12 no-opportunity careers are paired against 12 of the 48 ideal rows. Six fixed fixture identities are not a population sample.",
+  "evidence": {
+    "GROWTH_IDEAL_HOLDOUT.json": {
+      "scenarios": 48,
+      "sha256": "780b10b67a0602967c02b617f12bfe51cfc96088b3da6f963dadff37b77215d4",
+      "source_sha256": {
+        "runtime/career_v118.py": "4d7b214b4a455c74a47f6971ac9d46756981fca9c70bd100773f6e58c82ea131",
+        "Training/v118.py": "87f751689d849851638eeb2621ed5996ea32c9854677ee61a508a10c1c1dbc59",
+        "examples/calibrate_career_v118.py": "42a198643409e9f51bcb339eab7cceb29e30287abb7b7f6c8be4a10501d7b5bb"
+      }
+    },
+    "GROWTH_NO_OPPORTUNITY_CONTROL.json": {
+      "scenarios": 12,
+      "sha256": "d7dd4a0ac39bf2e093df90ea2a535f258df1343ea4e8afb85a0e152a6a5bc69d",
+      "source_sha256": {
+        "runtime/career_v118.py": "4d7b214b4a455c74a47f6971ac9d46756981fca9c70bd100773f6e58c82ea131",
+        "Training/v118.py": "87f751689d849851638eeb2621ed5996ea32c9854677ee61a508a10c1c1dbc59",
+        "examples/calibrate_career_v118.py": "42a198643409e9f51bcb339eab7cceb29e30287abb7b7f6c8be4a10501d7b5bb"
+      }
+    },
+    "GROWTH_PRIOR_ENV_MATRIX.json": {
+      "scenarios": 20,
+      "sha256": "8c63e54326af914ed3613c17124f6fb30c35fb63376dbfede1b0b31c002b2d26",
+      "source_sha256": {
+        "runtime/career_v118.py": "4d7b214b4a455c74a47f6971ac9d46756981fca9c70bd100773f6e58c82ea131",
+        "Training/v118.py": "87f751689d849851638eeb2621ed5996ea32c9854677ee61a508a10c1c1dbc59",
+        "examples/calibrate_career_v118.py": "42a198643409e9f51bcb339eab7cceb29e30287abb7b7f6c8be4a10501d7b5bb"
+      }
+    },
+    "GROWTH_STRESS_HOLDOUT.json": {
+      "scenarios": 12,
+      "sha256": "62bbcb7ae525351f0f5c1dcc8ce9594e163512bfb5510e35af9de14b7538891c",
+      "source_sha256": {
+        "runtime/career_v118.py": "4d7b214b4a455c74a47f6971ac9d46756981fca9c70bd100773f6e58c82ea131",
+        "Training/v118.py": "87f751689d849851638eeb2621ed5996ea32c9854677ee61a508a10c1c1dbc59",
+        "examples/calibrate_career_v118.py": "42a198643409e9f51bcb339eab7cceb29e30287abb7b7f6c8be4a10501d7b5bb"
+      }
+    },
+    "GROWTH_INJURY_CONTRAST.json": {
+      "scenarios": 8,
+      "sha256": "27864f9de48ca98ae44fe674f67d0f3460ad1c28d8c8de43d004d2ebe7583380",
+      "source_sha256": {
+        "runtime/career_v118.py": "4d7b214b4a455c74a47f6971ac9d46756981fca9c70bd100773f6e58c82ea131",
+        "Training/v118.py": "87f751689d849851638eeb2621ed5996ea32c9854677ee61a508a10c1c1dbc59",
+        "examples/calibrate_career_v118.py": "42a198643409e9f51bcb339eab7cceb29e30287abb7b7f6c8be4a10501d7b5bb"
+      }
+    }
+  }
+}

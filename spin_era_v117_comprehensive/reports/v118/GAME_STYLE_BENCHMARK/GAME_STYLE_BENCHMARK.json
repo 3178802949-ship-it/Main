@@ -1,0 +1,5017 @@
+{
+  "version": "V1.1.8-CANDIDATE-1",
+  "status": "EXECUTED_PREFERENCE_SENSITIVITY_NOT_BALANCE_CERTIFICATION",
+  "matches": 128,
+  "seeds_per_case": 8,
+  "source_sha256": {
+    "Game/v118.py": "34056542fa0ba2b9875afb484887466037344f759e5b730454bbb64842d2e330",
+    "Game/worker_v118.py": "10b5d7681b96526c902042bda45a6b04372c935444e5c14bd071ee87c59bae9c",
+    "Game/preferences_v118.py": "d01d10b9d570e82b36deabd0c07e32a90cf697ab019d96035f408c0c3ea2efef",
+    "Game/integration_v118.py": "29f944b47fb99e123ef862e4d358778643526730ead8e5d4dabd1420fbf985b9",
+    "Game/engine_v117.py": "e7cedddcc5ee20e23ad23189912c2901d8f42306bb3bc5fda87970b8e43e1fa1",
+    "Game/light_v117.py": "d185b1852426ac2e92a8fcd49132d5637093da6cdc2b1425c78d52f366f5a599",
+    "Game/tactics_v117.py": "7df4d7f367efa86722cca2868746bc4ef92b6155066161bd4831eedb43421484",
+    "Game/specialist_engine.py": "131f6da784bf7ca9960018eff8b4768bcac3319573c6fdb777aa73dfa27953f5",
+    "runtime/specialist_rubber_v116.py": "e46e8946452e63cc238ca7280525b1419d12ad6afded550f0b9bae477d7ff499",
+    "runtime/game_v112.py": "2f75346f624d59638b5e1a7910c2982ac38fb9a6e2da025d752698c29c6b5581",
+    "runtime/game_v115.py": "2a75d8bd5fda616908dab28ca915db15fa7dc763176475cc55a0520d69d3836d",
+    "runtime/tactical_match_v116.py": "108745b40cbb3cceba561658ce6ac7b25e116fec57b2dbeaccd10d7b660cea0a",
+    "examples/benchmark_style_v118.py": "b0efe6ec8c8b30ae7f86e9b39d3658f86ed028a792588a7278117b7d11be6eb5"
+  },
+  "inputs_unchanged": true,
+  "source_unchanged": true,
+  "summary": {
+    "chopper_long_pips": {
+      "summary": {
+        "neutral": {
+          "n": 8,
+          "wins_A": 2,
+          "mean_strokes": 6.86468,
+          "mean_fh_skill_exposure_share": 0.46114,
+          "mean_seconds": 0.156459,
+          "weighted_pool_calls": 0,
+          "min_multiplier": 1.0,
+          "max_multiplier": 1.0
+        },
+        "preferred_means": {
+          "n": 8,
+          "wins_A": 3,
+          "mean_strokes": 6.83669,
+          "mean_fh_skill_exposure_share": 0.47114,
+          "mean_seconds": 0.150602,
+          "weighted_pool_calls": 1070,
+          "min_multiplier": 0.9803333333333333,
+          "max_multiplier": 1.0176666666666667
+        }
+      },
+      "full": {
+        "neutral": {
+          "n": 8,
+          "wins_A": 1,
+          "mean_strokes": 4.83175,
+          "mean_fh_skill_exposure_share": 0.50489,
+          "mean_seconds": 0.425338,
+          "weighted_pool_calls": 0,
+          "min_multiplier": 1.0,
+          "max_multiplier": 1.0
+        },
+        "preferred_means": {
+          "n": 8,
+          "wins_A": 0,
+          "mean_strokes": 4.861,
+          "mean_fh_skill_exposure_share": 0.50948,
+          "mean_seconds": 0.451793,
+          "weighted_pool_calls": 1572,
+          "min_multiplier": 0.9803333333333333,
+          "max_multiplier": 1.0176666666666667
+        }
+      }
+    },
+    "raw_pips_rhythm": {
+      "summary": {
+        "neutral": {
+          "n": 8,
+          "wins_A": 2,
+          "mean_strokes": 6.00807,
+          "mean_fh_skill_exposure_share": 0.36028,
+          "mean_seconds": 0.131693,
+          "weighted_pool_calls": 0,
+          "min_multiplier": 1.0,
+          "max_multiplier": 1.0
+        },
+        "preferred_means": {
+          "n": 8,
+          "wins_A": 4,
+          "mean_strokes": 6.00632,
+          "mean_fh_skill_exposure_share": 0.34171,
+          "mean_seconds": 0.152912,
+          "weighted_pool_calls": 966,
+          "min_multiplier": 0.9711666666666666,
+          "max_multiplier": 1.0383333333333333
+        }
+      },
+      "full": {
+        "neutral": {
+          "n": 8,
+          "wins_A": 4,
+          "mean_strokes": 4.80012,
+          "mean_fh_skill_exposure_share": 0.43188,
+          "mean_seconds": 0.397648,
+          "weighted_pool_calls": 0,
+          "min_multiplier": 1.0,
+          "max_multiplier": 1.0
+        },
+        "preferred_means": {
+          "n": 8,
+          "wins_A": 3,
+          "mean_strokes": 4.90013,
+          "mean_fh_skill_exposure_share": 0.40206,
+          "mean_seconds": 0.407819,
+          "weighted_pool_calls": 1481,
+          "min_multiplier": 0.9711666666666666,
+          "max_multiplier": 1.0383333333333333
+        }
+      }
+    },
+    "two_wings_right_left": {
+      "summary": {
+        "neutral": {
+          "n": 8,
+          "wins_A": 5,
+          "mean_strokes": 6.4585,
+          "mean_fh_skill_exposure_share": 0.46326,
+          "mean_seconds": 0.269834,
+          "weighted_pool_calls": 0,
+          "min_multiplier": 1.0,
+          "max_multiplier": 1.0
+        },
+        "preferred_means": {
+          "n": 8,
+          "wins_A": 1,
+          "mean_strokes": 6.54544,
+          "mean_fh_skill_exposure_share": 0.50412,
+          "mean_seconds": 0.246553,
+          "weighted_pool_calls": 898,
+          "min_multiplier": 0.9711666666666666,
+          "max_multiplier": 1.0383333333333333
+        }
+      },
+      "full": {
+        "neutral": {
+          "n": 8,
+          "wins_A": 5,
+          "mean_strokes": 4.81562,
+          "mean_fh_skill_exposure_share": 0.45355,
+          "mean_seconds": 0.8702,
+          "weighted_pool_calls": 0,
+          "min_multiplier": 1.0,
+          "max_multiplier": 1.0
+        },
+        "preferred_means": {
+          "n": 8,
+          "wins_A": 4,
+          "mean_strokes": 4.838,
+          "mean_fh_skill_exposure_share": 0.43543,
+          "mean_seconds": 0.80658,
+          "weighted_pool_calls": 1829,
+          "min_multiplier": 0.9711666666666666,
+          "max_multiplier": 1.0383333333333333
+        }
+      }
+    },
+    "weak_fh_strong_bh": {
+      "summary": {
+        "neutral": {
+          "n": 8,
+          "wins_A": 5,
+          "mean_strokes": 5.08019,
+          "mean_fh_skill_exposure_share": 0.43576,
+          "mean_seconds": 0.135855,
+          "weighted_pool_calls": 0,
+          "min_multiplier": 1.0,
+          "max_multiplier": 1.0
+        },
+        "preferred_means": {
+          "n": 8,
+          "wins_A": 4,
+          "mean_strokes": 5.09842,
+          "mean_fh_skill_exposure_share": 0.44405,
+          "mean_seconds": 0.137426,
+          "weighted_pool_calls": 882,
+          "min_multiplier": 0.9711666666666666,
+          "max_multiplier": 1.0383333333333333
+        }
+      },
+      "full": {
+        "neutral": {
+          "n": 8,
+          "wins_A": 3,
+          "mean_strokes": 4.34075,
+          "mean_fh_skill_exposure_share": 0.49407,
+          "mean_seconds": 0.339209,
+          "weighted_pool_calls": 0,
+          "min_multiplier": 1.0,
+          "max_multiplier": 1.0
+        },
+        "preferred_means": {
+          "n": 8,
+          "wins_A": 4,
+          "mean_strokes": 4.42563,
+          "mean_fh_skill_exposure_share": 0.49226,
+          "mean_seconds": 0.416143,
+          "weighted_pool_calls": 1371,
+          "min_multiplier": 0.9711666666666666,
+          "max_multiplier": 1.0383333333333333
+        }
+      }
+    }
+  },
+  "results": [
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11841001,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 109,
+      "mean_strokes": 5.90826,
+      "fh_skill_exposure_share": 0.49473684210526314,
+      "seconds": 0.4963321300019743,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 123,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "2a8611dd45c9977bd8b606262eeaca07ca16133cfa7b69a664179cf00268d6e6"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11841001,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 98,
+      "mean_strokes": 5.94898,
+      "fh_skill_exposure_share": 0.5,
+      "seconds": 0.4562672009997186,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 108,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.00501268400661295,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "bd3478cccc40240c43ec24ee7b0848cde26808bf927e4d67a66dbcebfa00e40e"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11841001,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 80,
+      "mean_strokes": 4.55,
+      "fh_skill_exposure_share": 0.4411764705882353,
+      "seconds": 1.753182854001352,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 144,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "56ebf22506b38b8a8fee980c02a9447c95c9695d509aa87e89a3f65cd37f30fb"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11841001,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 80,
+      "mean_strokes": 4.55,
+      "fh_skill_exposure_share": 0.4411764705882353,
+      "seconds": 1.0979710940009682,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 144,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.005474270710759344,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "49bd11ffd1f00328ed7ba3f7a51f47b72a776ec473f592382a599df6d694e639"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11841002,
+      "winner": 0,
+      "games_won": [
+        4,
+        3
+      ],
+      "points": 131,
+      "mean_strokes": 6.85496,
+      "fh_skill_exposure_share": 0.5119453924914675,
+      "seconds": 0.43762325900024734,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 153,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "451e3fc50204933baec43bb5e8b737d95e57e52a278c9a859f433c543a274589"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11841002,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 71,
+      "mean_strokes": 6.80282,
+      "fh_skill_exposure_share": 0.6225165562913907,
+      "seconds": 0.34015934300259687,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 85,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.005661433121136178,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "064e13f532910f5ca35a0edde5424550807110dce06580499dd84a7cf457d6ab"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11841002,
+      "winner": 0,
+      "games_won": [
+        4,
+        1
+      ],
+      "points": 110,
+      "mean_strokes": 4.736,
+      "fh_skill_exposure_share": 0.49079754601226994,
+      "seconds": 1.331511785996554,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 204,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "699282fe3531bdca89597e7e446e2019d1ee88c9728f68f830dac11706fb2edb"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11841002,
+      "winner": 0,
+      "games_won": [
+        4,
+        1
+      ],
+      "points": 110,
+      "mean_strokes": 4.736,
+      "fh_skill_exposure_share": 0.49693251533742333,
+      "seconds": 1.3909740009985399,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 204,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.0067390746583242955,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "985539dc2a66f11d87a729f199028adaff78fd55a51638060492d4623d7d9b38"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11841003,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 116,
+      "mean_strokes": 7.77586,
+      "fh_skill_exposure_share": 0.3862928348909657,
+      "seconds": 0.47708597000018926,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 126,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "eb9f2b8fc74e23581d55f9dc3d3b6fe58e1b7ef044071c6850eb9d53f3ab15fe"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11841003,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 74,
+      "mean_strokes": 9.0,
+      "fh_skill_exposure_share": 0.38967136150234744,
+      "seconds": 0.2963066149968654,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 81,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.00466872643555627,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "60464222c81dbe80df0ba96da9c85eff3ba951e23b4c993603d22e13fb4860b5"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11841003,
+      "winner": 0,
+      "games_won": [
+        4,
+        3
+      ],
+      "points": 130,
+      "mean_strokes": 4.831,
+      "fh_skill_exposure_share": 0.30434782608695654,
+      "seconds": 1.0686446860054275,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 249,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "b5f02b67c41e69274244af2173cb657d26ee4b227b15ab5eea64ffb0454fd064"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11841003,
+      "winner": 0,
+      "games_won": [
+        4,
+        3
+      ],
+      "points": 130,
+      "mean_strokes": 4.831,
+      "fh_skill_exposure_share": 0.31521739130434784,
+      "seconds": 0.7103579989998252,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 249,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.006431553769257942,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "99bce2b156ab7d0dcc742b2d0ae753511c192bf3d8bf6c7f98eeb88474eb96b9"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11841004,
+      "winner": 0,
+      "games_won": [
+        4,
+        1
+      ],
+      "points": 106,
+      "mean_strokes": 5.35849,
+      "fh_skill_exposure_share": 0.5714285714285714,
+      "seconds": 0.177747736001038,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 120,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "00e8f5b41b1f79ddd55895fc649a39c4103dca0755a3befc771b77d093266f68"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11841004,
+      "winner": 0,
+      "games_won": [
+        4,
+        1
+      ],
+      "points": 106,
+      "mean_strokes": 5.37736,
+      "fh_skill_exposure_share": 0.6029411764705882,
+      "seconds": 0.12767340700520435,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 119,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.005674672383232382,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "6e7a97b5c75d19499c9846e37754a8900accb65caf499a24b223689f91df927c"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11841004,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 121,
+      "mean_strokes": 4.413,
+      "fh_skill_exposure_share": 0.5,
+      "seconds": 0.41487974699703045,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 201,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "2aa88ff93569850020664e40d7f491de4d86c6417859230bcd15695cc4e9dd02"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11841004,
+      "winner": 1,
+      "games_won": [
+        3,
+        4
+      ],
+      "points": 138,
+      "mean_strokes": 4.319,
+      "fh_skill_exposure_share": 0.5754189944134078,
+      "seconds": 0.5582180670025991,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 230,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.006757342276646816,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "c55caf926b1bc018a16ae2cce44e30168424f9d727d1fb2d364c6400e8b37216"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11841005,
+      "winner": 0,
+      "games_won": [
+        4,
+        0
+      ],
+      "points": 72,
+      "mean_strokes": 6.68056,
+      "fh_skill_exposure_share": 0.49166666666666664,
+      "seconds": 0.16537390099983895,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 80,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "0cd7941dbf8a07c30f37e0dfeb3dd0f8445742e438311a92c4a09404359336ca"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11841005,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 112,
+      "mean_strokes": 6.41071,
+      "fh_skill_exposure_share": 0.3944636678200692,
+      "seconds": 0.1897358480055118,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 125,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.005683158642905056,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "48c4f40b47063610b3ab9ec693731f388926d2483db4a6e685f223b7475a5588"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11841005,
+      "winner": 0,
+      "games_won": [
+        4,
+        3
+      ],
+      "points": 138,
+      "mean_strokes": 5.565,
+      "fh_skill_exposure_share": 0.35833333333333334,
+      "seconds": 0.7830703259969596,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 317,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "2abc51cc9ae5219e933510eb795fb66e05eb5378720e72ec8574249d1682632d"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11841005,
+      "winner": 0,
+      "games_won": [
+        4,
+        3
+      ],
+      "points": 138,
+      "mean_strokes": 5.565,
+      "fh_skill_exposure_share": 0.36666666666666664,
+      "seconds": 0.8302409289972275,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 317,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.006359593218381976,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "704f76df3195a756a9877f2dfc9a22dd939b5b7ecfcc44f294f5ff2fb575e023"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11841006,
+      "winner": 0,
+      "games_won": [
+        4,
+        1
+      ],
+      "points": 89,
+      "mean_strokes": 6.79775,
+      "fh_skill_exposure_share": 0.40860215053763443,
+      "seconds": 0.15253320400370285,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 97,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "e8a4ce489022cc5247559e1a6a3a1b10f3304dbd9d90fa03420c42b8d7d302b9"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11841006,
+      "winner": 1,
+      "games_won": [
+        3,
+        4
+      ],
+      "points": 133,
+      "mean_strokes": 6.51128,
+      "fh_skill_exposure_share": 0.5344129554655871,
+      "seconds": 0.2151460750028491,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 154,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.005120820946590776,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "d3bbc988c53a7a6730cdc6d6f0668e1d1cb589d870e34025b7fe6312ddd7c357"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11841006,
+      "winner": 0,
+      "games_won": [
+        4,
+        0
+      ],
+      "points": 78,
+      "mean_strokes": 5.321,
+      "fh_skill_exposure_share": 0.5565217391304348,
+      "seconds": 0.46083840400388,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 167,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "0165c8d22a9aeba952a2c2d349c36128927e1f8007ef8be590b678433c6b9531"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11841006,
+      "winner": 0,
+      "games_won": [
+        4,
+        3
+      ],
+      "points": 153,
+      "mean_strokes": 5.503,
+      "fh_skill_exposure_share": 0.3228346456692913,
+      "seconds": 0.8927066079995711,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 344,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.006009735641226449,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "1743fa18f8894932cfe170cf6442ccf543ab7a56722ab0cef7e62b4b284a0d26"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11841007,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 59,
+      "mean_strokes": 5.76271,
+      "fh_skill_exposure_share": 0.3956043956043956,
+      "seconds": 0.12877518399909604,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 70,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "f356602067405be1086f1faad967bbacbbbd4e40cdb092f31b7bbf08ecf2ccda"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11841007,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 59,
+      "mean_strokes": 5.76271,
+      "fh_skill_exposure_share": 0.46153846153846156,
+      "seconds": 0.1364648800008581,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 70,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.005704653857516284,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "8c65021b540448aaa8157b84f66b59469399ab7c8c524f8d2b7254ed293079f7"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11841007,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 71,
+      "mean_strokes": 4.296,
+      "fh_skill_exposure_share": 0.44594594594594594,
+      "seconds": 0.34065598499728367,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 119,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "db9545dda190c667f502cca4244db4fd2b8f0286ae2038815a5a0cebdab6993c"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11841007,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 71,
+      "mean_strokes": 4.296,
+      "fh_skill_exposure_share": 0.44594594594594594,
+      "seconds": 0.36046115200588247,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 119,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.0065468472896692,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "707543fe52cafe7fc734531a9d907b9ca5311686cad2f5ecda07475375e74459"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11841008,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 119,
+      "mean_strokes": 6.52941,
+      "fh_skill_exposure_share": 0.44583333333333336,
+      "seconds": 0.12320183099654969,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 136,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "14e86b3f7409eef2b520db46e1b059ffefe133827edc875c4691d906f27b4103"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11841008,
+      "winner": 1,
+      "games_won": [
+        3,
+        4
+      ],
+      "points": 131,
+      "mean_strokes": 6.54962,
+      "fh_skill_exposure_share": 0.5273972602739726,
+      "seconds": 0.21066693399916403,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 156,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.005615304792622761,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "9809c32032eb70f898f4b7642ec8e9c54b6899eeec8ca79a6baefa156167821d"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11841008,
+      "winner": 1,
+      "games_won": [
+        3,
+        4
+      ],
+      "points": 139,
+      "mean_strokes": 4.813,
+      "fh_skill_exposure_share": 0.53125,
+      "seconds": 0.8088192180002807,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 266,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "d3e0310f83b21aa9e4c389de3f6f19ca783fb84a8ffd27b653ad31ea6fbc26b3"
+    },
+    {
+      "case": "two_wings_right_left",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11841008,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 114,
+      "mean_strokes": 4.904,
+      "fh_skill_exposure_share": 0.5192307692307693,
+      "seconds": 0.6117090670013567,
+      "audit": {
+        "player_id": "two_wings_right_left_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 222,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.0067193000672226555,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "896a61b282b301e482bf81d853841e527f06401a7e8868e786019f746ff0ea96"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11842001,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 67,
+      "mean_strokes": 5.23881,
+      "fh_skill_exposure_share": 0.4642857142857143,
+      "seconds": 0.0955983930034563,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 76,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "5ce88e813a018a2efeda647cdf43a7a138bdca2c6db6a0411ed9c7d6d8eb8c73"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11842001,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 81,
+      "mean_strokes": 5.74074,
+      "fh_skill_exposure_share": 0.4676258992805755,
+      "seconds": 0.1139130000010482,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 95,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.004457942119742639,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "e359aadbe035a45094bd0db6ca6eeccc060af148b74c0bb93b662c3b9e71bc45"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11842001,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 89,
+      "mean_strokes": 4.404,
+      "fh_skill_exposure_share": 0.5092592592592593,
+      "seconds": 0.441059855002095,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 152,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "4546d974ccb63e22c05f9a322bc29b6dfc5d9a19e46aecbe855b5f49e985eddf"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11842001,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 80,
+      "mean_strokes": 4.487,
+      "fh_skill_exposure_share": 0.44,
+      "seconds": 0.4445342140024877,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 143,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.006673137418672703,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "ce3ec62847d7981839c22d69258a79a042552a32382e6e4759706890a1a758e8"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11842002,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 109,
+      "mean_strokes": 5.73394,
+      "fh_skill_exposure_share": 0.40096618357487923,
+      "seconds": 0.15124757299781777,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 123,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "2f7f93dd31623eb31acc29946edd4f0847165658078249f3518df9ff36b4f36a"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11842002,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 118,
+      "mean_strokes": 5.25424,
+      "fh_skill_exposure_share": 0.4512820512820513,
+      "seconds": 0.16462640700046904,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 134,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.004930321589187131,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "10b4d6504212684aeaa9c9aff65685b4abe364bdbdf01edba8c609ad3d3a913f"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11842002,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 103,
+      "mean_strokes": 4.563,
+      "fh_skill_exposure_share": 0.46923076923076923,
+      "seconds": 0.3638256620033644,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 179,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "2e934ae4adc11162176bc22275cad35b4f5214ddfc1f5ca8214e3b6566687f9d"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11842002,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 111,
+      "mean_strokes": 4.523,
+      "fh_skill_exposure_share": 0.5208333333333334,
+      "seconds": 0.4148042090018862,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 196,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.00698402417538202,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "3be2734e1ba3b47637a8c107a824a3b970adc87f27a7ca1d87e2ec64bf0a4fd7"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11842003,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 110,
+      "mean_strokes": 5.49091,
+      "fh_skill_exposure_share": 0.47191011235955055,
+      "seconds": 0.12743500400392804,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 119,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "3b84dd3a34d32ae33226751b5aa48d9fa73a3d5a7f7f787d5b06f3d027cdcbbe"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11842003,
+      "winner": 1,
+      "games_won": [
+        3,
+        4
+      ],
+      "points": 126,
+      "mean_strokes": 5.83333,
+      "fh_skill_exposure_share": 0.6075949367088608,
+      "seconds": 0.16172319700126536,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 138,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.005656389330762124,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "234f4b9b6f95f1aa2c5c3eb73f24cca501e665139ebde18fa0a5e1e0daa14e33"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11842003,
+      "winner": 0,
+      "games_won": [
+        4,
+        0
+      ],
+      "points": 65,
+      "mean_strokes": 3.938,
+      "fh_skill_exposure_share": 0.4647887323943662,
+      "seconds": 0.19909850399562856,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 98,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "44236abe59391f37e6de342e3eb219d8d8105aec1ad4ade3720fcb81218cf127"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11842003,
+      "winner": 0,
+      "games_won": [
+        4,
+        1
+      ],
+      "points": 98,
+      "mean_strokes": 4.888,
+      "fh_skill_exposure_share": 0.593103448275862,
+      "seconds": 0.3942110790012521,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 190,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.00671831514586857,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "4e3289accbc1b626aae00dfc8d090fadfd9cb4bdd7aac2acff435ba0debba666"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11842004,
+      "winner": 0,
+      "games_won": [
+        4,
+        0
+      ],
+      "points": 71,
+      "mean_strokes": 4.74648,
+      "fh_skill_exposure_share": 0.45263157894736844,
+      "seconds": 0.0978527600018424,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 88,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "d253b59d9af4dc9d30b66bd934c2813e2385c13c7a00526beae3c29126abc75d"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11842004,
+      "winner": 0,
+      "games_won": [
+        4,
+        0
+      ],
+      "points": 80,
+      "mean_strokes": 4.825,
+      "fh_skill_exposure_share": 0.28695652173913044,
+      "seconds": 0.10252445899823215,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 94,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.005701574645179397,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "ef6ed5f533d719a214f31d64fcfc52643a06412114226ce3d0051b2094e7a359"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11842004,
+      "winner": 0,
+      "games_won": [
+        4,
+        0
+      ],
+      "points": 67,
+      "mean_strokes": 3.925,
+      "fh_skill_exposure_share": 0.4266666666666667,
+      "seconds": 0.2254359970029327,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 99,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "bead12f58faf4476b115bc18d31ca8f5a0f86739cd027a8b642a0464a7e3f803"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11842004,
+      "winner": 0,
+      "games_won": [
+        4,
+        0
+      ],
+      "points": 68,
+      "mean_strokes": 3.971,
+      "fh_skill_exposure_share": 0.46153846153846156,
+      "seconds": 0.2701364060048945,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 102,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.006272590892400343,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "a4bc658ef8c7734f6938eb731bbbe098c0581fd995bf6eeb436687b393daca01"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11842005,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 106,
+      "mean_strokes": 4.79245,
+      "fh_skill_exposure_share": 0.45390070921985815,
+      "seconds": 0.1304664560011588,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 119,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "132c5c8728cd4abaa724bab35896694221fdb9c74e04a57931e5514faeab3d45"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11842005,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 110,
+      "mean_strokes": 4.91818,
+      "fh_skill_exposure_share": 0.5167785234899329,
+      "seconds": 0.1291422819995205,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 123,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.005109915909738,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "3bb4a92553c8587df07327bf44792f3c02d0bc8630f6714b346bf0ddd52173d7"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11842005,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 97,
+      "mean_strokes": 4.32,
+      "fh_skill_exposure_share": 0.5225225225225225,
+      "seconds": 0.43065938299696427,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 164,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "ad1fa6ebaa262fc691dc7422a41edfa772a8c6f9f4656850b5da0b9a9f63b457"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11842005,
+      "winner": 0,
+      "games_won": [
+        4,
+        3
+      ],
+      "points": 140,
+      "mean_strokes": 4.429,
+      "fh_skill_exposure_share": 0.41358024691358025,
+      "seconds": 0.5106460590031929,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 237,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.006633145005074392,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "cd16d0bd12b1cf0274d8be4bea7bbfa923551f57a710da1cf190c38ed4147e19"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11842006,
+      "winner": 1,
+      "games_won": [
+        3,
+        4
+      ],
+      "points": 141,
+      "mean_strokes": 5.31915,
+      "fh_skill_exposure_share": 0.45871559633027525,
+      "seconds": 0.18721804700180655,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 161,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "428597711415747e3a2ce4038d5dc00ba787f0a67d7cb679dd8d40f44ae72785"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11842006,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 94,
+      "mean_strokes": 5.20213,
+      "fh_skill_exposure_share": 0.43356643356643354,
+      "seconds": 0.12108272699697409,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 113,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.004737592501155838,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "f4a4c7b009d717444cc9a0814d06163a183699272646c486a435d008c006f951"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11842006,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 81,
+      "mean_strokes": 4.716,
+      "fh_skill_exposure_share": 0.5754716981132075,
+      "seconds": 0.3634107469988521,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 147,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "307da5bc8a5a29605aceaf36b28b4224f8f1504666689332e8502662a17ee802"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11842006,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 81,
+      "mean_strokes": 4.716,
+      "fh_skill_exposure_share": 0.5849056603773585,
+      "seconds": 0.4229626150045078,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 147,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.006431575585593652,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "d474d6bf9fef51628b4fed6c98bf88e6fd4dcea1f0b112996ea25660411463a1"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11842007,
+      "winner": 0,
+      "games_won": [
+        4,
+        1
+      ],
+      "points": 79,
+      "mean_strokes": 3.73418,
+      "fh_skill_exposure_share": 0.42168674698795183,
+      "seconds": 0.126144767004007,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 82,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "af8558037fa21415b6bd30939bfa8aed95e2327b0e35f70818b1e08f7b667d39"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11842007,
+      "winner": 0,
+      "games_won": [
+        4,
+        1
+      ],
+      "points": 79,
+      "mean_strokes": 3.73418,
+      "fh_skill_exposure_share": 0.42168674698795183,
+      "seconds": 0.150402816994756,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 82,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.004885032937421818,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "33b623d535c44c5608d7dc028aa6213caff5be388cedd045f2cd33eb098b36e1"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11842007,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 121,
+      "mean_strokes": 3.95,
+      "fh_skill_exposure_share": 0.432,
+      "seconds": 0.3605472240014933,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 179,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "e077f38600025b8dadb7140c5bde542d2b3b7ed67e702c1ff218c2799182dd07"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11842007,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 121,
+      "mean_strokes": 3.95,
+      "fh_skill_exposure_share": 0.44,
+      "seconds": 0.43410321000555996,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 179,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.006743699061712405,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "0731232cb22dcd78d752c0d4e033121c0f10dd599f049937be8485c797b079e2"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11842008,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 111,
+      "mean_strokes": 5.58559,
+      "fh_skill_exposure_share": 0.3619631901840491,
+      "seconds": 0.17087953799637035,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 121,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "270f3f4e37c60d29d72b4dfed3a9c7ce0b1883cb0a59c83a4cc868f146a7089f"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11842008,
+      "winner": 0,
+      "games_won": [
+        4,
+        1
+      ],
+      "points": 93,
+      "mean_strokes": 5.27957,
+      "fh_skill_exposure_share": 0.3669064748201439,
+      "seconds": 0.15599018899956718,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 103,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.005070010668225183,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "b8cdd84b96ea161809e96783c8e26ce522392a97fc91b6eb95897d2d82a2435d"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11842008,
+      "winner": 0,
+      "games_won": [
+        4,
+        1
+      ],
+      "points": 78,
+      "mean_strokes": 4.91,
+      "fh_skill_exposure_share": 0.5526315789473685,
+      "seconds": 0.3296361910033738,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 153,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "e117276ea9ab356e0353ae22ece35603bf59c721523eecd3131cdf8ebc84d001"
+    },
+    {
+      "case": "weak_fh_strong_bh",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11842008,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 102,
+      "mean_strokes": 4.441,
+      "fh_skill_exposure_share": 0.48412698412698413,
+      "seconds": 0.43774256500182673,
+      "audit": {
+        "player_id": "weak_fh_strong_bh_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 177,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.0063624112590529025,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "ca8632a3c19ac3db1b4900209491b3bd4bf5aaa57fbe5bdbaca3c57a09fad6b1"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11843001,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 120,
+      "mean_strokes": 7.34167,
+      "fh_skill_exposure_share": 0.42857142857142855,
+      "seconds": 0.22384983299707528,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 156,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "0a641e3d45d00df591278dd873bd231836fa359e12bd3233871c21d6f7a4ba6b"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11843001,
+      "winner": 0,
+      "games_won": [
+        4,
+        3
+      ],
+      "points": 133,
+      "mean_strokes": 7.54135,
+      "fh_skill_exposure_share": 0.453804347826087,
+      "seconds": 0.16850420900300378,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 171,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.005303167579411905,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "780aedf08e0e5fb5b5b769c0a29a85a5d116a7a54ebad1415e6a3081f71905a0"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11843001,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 108,
+      "mean_strokes": 5.157,
+      "fh_skill_exposure_share": 0.4,
+      "seconds": 0.55477647799853,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 220,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "e1ea346d0335d0b3dcdf572f076f133fae09eebd773b80cb17f4ca2003365626"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11843001,
+      "winner": 1,
+      "games_won": [
+        3,
+        4
+      ],
+      "points": 127,
+      "mean_strokes": 5.307,
+      "fh_skill_exposure_share": 0.40414507772020725,
+      "seconds": 0.5553854609970585,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 268,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.006965542778661016,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "f8bc5c5bbbd6a738e532478340ce995afa8baa31e679a7a4b24efd1ce791aff6"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11843002,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 115,
+      "mean_strokes": 7.68696,
+      "fh_skill_exposure_share": 0.38769230769230767,
+      "seconds": 0.1390047270033392,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 152,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "eb7e806e13a38476d6c12addd82123558878dbe52ce0b8d621ba2da5bc4e0fae"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11843002,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 115,
+      "mean_strokes": 7.68696,
+      "fh_skill_exposure_share": 0.38769230769230767,
+      "seconds": 0.14740211900061695,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 152,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.004607680756413046,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "614a830cf9ac37d37f030deac1418468340b385a2e2ee0b849a007e13c5febd7"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11843002,
+      "winner": 1,
+      "games_won": [
+        3,
+        4
+      ],
+      "points": 146,
+      "mean_strokes": 5.308,
+      "fh_skill_exposure_share": 0.5833333333333334,
+      "seconds": 0.5912531779977144,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 307,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "040693636f78b3992b06fdd196dd4c46df1c86e13f06093ab330eebb6ea293ab"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11843002,
+      "winner": 1,
+      "games_won": [
+        3,
+        4
+      ],
+      "points": 146,
+      "mean_strokes": 5.308,
+      "fh_skill_exposure_share": 0.5833333333333334,
+      "seconds": 0.6423841319992789,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 307,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.00733355572508676,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "02c78217cb7553b98f24b0cc83ff1af060692a2df2a9f785eb7f5a9860395a88"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11843003,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 73,
+      "mean_strokes": 6.26027,
+      "fh_skill_exposure_share": 0.5964912280701754,
+      "seconds": 0.12812112899700878,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 97,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "cd81ef5eb5228631de0ad4f710166f46549e201ae1e182f33aa84225150de2a8"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11843003,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 73,
+      "mean_strokes": 6.26027,
+      "fh_skill_exposure_share": 0.5964912280701754,
+      "seconds": 0.11918484600028023,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 97,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.005044791818265615,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "9c639bfe79f9f016fe2f12f6812fd004adbe28927f0f437713784c1185b57c57"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11843003,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 69,
+      "mean_strokes": 3.884,
+      "fh_skill_exposure_share": 0.6166666666666667,
+      "seconds": 0.23691158199653728,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 97,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "e7a300b75addb05a807f48c78ce9286cb2cdb4f6d645ea8235a717ec23f42e78"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11843003,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 69,
+      "mean_strokes": 3.884,
+      "fh_skill_exposure_share": 0.6,
+      "seconds": 0.29829204700217815,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 97,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.007054636593953001,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "80f7fd173dca40c612dc98f9ccb7460a34899f2598129d214e335e9f29cfdd2e"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11843004,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 73,
+      "mean_strokes": 6.90411,
+      "fh_skill_exposure_share": 0.51875,
+      "seconds": 0.14106362899474334,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 95,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "58e661dca2da30914282926f72dce71ebef0a2d08c284e7b9e3397f670418d8d"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11843004,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 73,
+      "mean_strokes": 6.90411,
+      "fh_skill_exposure_share": 0.51875,
+      "seconds": 0.13660494600480888,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 95,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.0040850099475164825,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "ee7689e2aff5a842b308cdf46f39229a046fa264195116ad8d4d450efee9e535"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11843004,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 63,
+      "mean_strokes": 4.857,
+      "fh_skill_exposure_share": 0.375,
+      "seconds": 0.30133141400438035,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 118,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "81e7a42755f3b10778bd2fe5195ebfa5ff831d028ed6b5fe0386ba9aae1fabbd"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11843004,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 68,
+      "mean_strokes": 4.941,
+      "fh_skill_exposure_share": 0.42424242424242425,
+      "seconds": 0.3346990200006985,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 129,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.005321373018387754,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "23812856e14f7ea364de2adeab3c907b2c6ee17521276e606d7fe88a97d49e4f"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11843005,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 115,
+      "mean_strokes": 6.9913,
+      "fh_skill_exposure_share": 0.4549019607843137,
+      "seconds": 0.17250498400244396,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 149,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "609a794410ae4f12eed8e54fa917022581b3f0914ee84f5852c65756ab9d8c6d"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11843005,
+      "winner": 0,
+      "games_won": [
+        4,
+        0
+      ],
+      "points": 73,
+      "mean_strokes": 7.39726,
+      "fh_skill_exposure_share": 0.5505050505050505,
+      "seconds": 0.12980252200213727,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 92,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.00459739719008434,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "b40fe1cd409ee3f441726f2a3c225c943db04e4119e07a7c104533d439e9b75d"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11843005,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 117,
+      "mean_strokes": 4.949,
+      "fh_skill_exposure_share": 0.4658385093167702,
+      "seconds": 0.53164474600635,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 226,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "1c2df44190d4c04167b92a96ebbbf371afb71e41cb29e0bdf5e5d54931ec407f"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11843005,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 117,
+      "mean_strokes": 4.949,
+      "fh_skill_exposure_share": 0.4658385093167702,
+      "seconds": 0.5367979400034528,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 226,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.00556766961334737,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "c62e9739b8fca91b094107e7ceb10bdce65fb1ac8217bcf8135907c3e8da1725"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11843006,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 119,
+      "mean_strokes": 5.95798,
+      "fh_skill_exposure_share": 0.38492063492063494,
+      "seconds": 0.15977823700086446,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 151,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "81e2afc2f9d9ef4056a705ee8e44f2c8d46dfb30e4214dcc517f53e26b4f5a6a"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11843006,
+      "winner": 1,
+      "games_won": [
+        3,
+        4
+      ],
+      "points": 134,
+      "mean_strokes": 6.27612,
+      "fh_skill_exposure_share": 0.3527397260273973,
+      "seconds": 0.18189137899753405,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 169,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.00465514165406633,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "0ad6413bfbbae4aa2ed0a2b940e4dcf2f7f6029bd31ba586c5cfc05d06eeb81b"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11843006,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 96,
+      "mean_strokes": 4.75,
+      "fh_skill_exposure_share": 0.423728813559322,
+      "seconds": 0.3621359780008788,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 174,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "f35628c28622c611fdcf5310a9b7a6a8dfccd75d6f956db0d175c73bacbc83f7"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11843006,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 96,
+      "mean_strokes": 4.75,
+      "fh_skill_exposure_share": 0.423728813559322,
+      "seconds": 0.43689505200018175,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 174,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.006733823671916439,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "ecb1e033705cf97f343115de5753ba8ed4c3cd21b3f6228643b7d857fdf32092"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11843007,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 124,
+      "mean_strokes": 7.10484,
+      "fh_skill_exposure_share": 0.43103448275862066,
+      "seconds": 0.1692094919999363,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 149,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "9fb66456fb15f211558f4a6f2992ec28dace97b867e2b64d3c04e4ee91ee2b91"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11843007,
+      "winner": 1,
+      "games_won": [
+        3,
+        4
+      ],
+      "points": 140,
+      "mean_strokes": 5.95714,
+      "fh_skill_exposure_share": 0.4223826714801444,
+      "seconds": 0.18730496599891922,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 180,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.00462457429207086,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "a8d0f7b1111a277577d8a4ce0a11fe7db89b772693ab4085ed600151a838a9ed"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11843007,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 104,
+      "mean_strokes": 4.317,
+      "fh_skill_exposure_share": 0.5833333333333334,
+      "seconds": 0.4349771970009897,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 167,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "80d7fab542fa9490dac88c9c936e6e99f059386ef4b2dc79b6c68b4570b61e2f"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11843007,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 104,
+      "mean_strokes": 4.317,
+      "fh_skill_exposure_share": 0.5833333333333334,
+      "seconds": 0.3920587659958983,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 167,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.006550244370934766,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "f6c048763e46cf2c29f232d511a62f09dca82c48c5cc41a31606fec1514d8420"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11843008,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 91,
+      "mean_strokes": 6.67033,
+      "fh_skill_exposure_share": 0.48677248677248675,
+      "seconds": 0.11813842799892882,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 114,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "61e5ce612ca962b6c3e3b6e19199dc21b56573830be0d504341cba130523a449"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11843008,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 91,
+      "mean_strokes": 6.67033,
+      "fh_skill_exposure_share": 0.48677248677248675,
+      "seconds": 0.13411922600062098,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 114,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.005122794927211405,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "b0811863a2fd1fc3d996ada60edf5d3c7760d707aa19e21d3550cbdab0295ad9"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11843008,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 95,
+      "mean_strokes": 5.432,
+      "fh_skill_exposure_share": 0.5911949685534591,
+      "seconds": 0.3896701029952965,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 204,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "2f77d27b1834fc63e5b2c71d9c198e1a343bea1b42babd90ce5886ae3d0479b1"
+    },
+    {
+      "case": "chopper_long_pips",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11843008,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 95,
+      "mean_strokes": 5.432,
+      "fh_skill_exposure_share": 0.5911949685534591,
+      "seconds": 0.41783098300220445,
+      "audit": {
+        "player_id": "chopper_long_pips_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "backspin_control",
+          "initiative",
+          "counterattack",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 204,
+        "min_multiplier": 0.9803333333333333,
+        "max_multiplier": 1.0176666666666667,
+        "max_pool_probability_shift": 0.005542290575119513,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "a227338bb24e3ab16971f3b3c0a10ff54df3e1eafdfc02717cd9ae7fd40cde49"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11844001,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 106,
+      "mean_strokes": 5.58491,
+      "fh_skill_exposure_share": 0.4057971014492754,
+      "seconds": 0.14720464200217975,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 120,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "63dec363244cce4b3094b974f24e813b01d7ecfcae5eab7411251a44e6e2cd1d"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11844001,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 121,
+      "mean_strokes": 5.61157,
+      "fh_skill_exposure_share": 0.32510288065843623,
+      "seconds": 0.17585038299876032,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 142,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.006089778370687915,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "5d86519a37243d3713a359977dada0b4036e67b0bd8b27bcb2ba4cd7163663ef"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11844001,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 111,
+      "mean_strokes": 4.018,
+      "fh_skill_exposure_share": 0.319672131147541,
+      "seconds": 0.3620536539965542,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 169,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "82d91989b411494b457fefa738b66b3fadae2bd218479eb3882c5edeec08cafb"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11844001,
+      "winner": 0,
+      "games_won": [
+        4,
+        1
+      ],
+      "points": 82,
+      "mean_strokes": 4.707,
+      "fh_skill_exposure_share": 0.4322033898305085,
+      "seconds": 0.33919566399708856,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 151,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.011260788052308623,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "f44be2e8aa9f02c4215c212c7cb3fa036a5e3ba850198c349d1f27484eee8df0"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11844002,
+      "winner": 1,
+      "games_won": [
+        3,
+        4
+      ],
+      "points": 129,
+      "mean_strokes": 5.75969,
+      "fh_skill_exposure_share": 0.3308270676691729,
+      "seconds": 0.16757428800337948,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 142,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "e2ab97cba176b9e4b6eeaf2858e6829ebe681b190381cd4cdfc04e3fce9d2235"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11844002,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 100,
+      "mean_strokes": 5.45,
+      "fh_skill_exposure_share": 0.4603174603174603,
+      "seconds": 0.17123804300354095,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 113,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.0061613876925353805,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "a4a28cf2fddf7cd6f1474d7a3108f3bae391722a39f7ffb81765cc84902cb35c"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11844002,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 111,
+      "mean_strokes": 4.667,
+      "fh_skill_exposure_share": 0.5301204819277109,
+      "seconds": 0.4393184989967267,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 207,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "587c320d2a39c6daf6cf9a7d0941a511fedd6cf1d19ab38d1b6f1223edf735d0"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11844002,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 88,
+      "mean_strokes": 4.989,
+      "fh_skill_exposure_share": 0.49624060150375937,
+      "seconds": 0.41821886200341396,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 177,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.013346517157871385,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "a30fc8e88d5c6cc3a43003a670bd5ce51af2b7e7dd36d68f0c70ad26e37b6b40"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11844003,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 106,
+      "mean_strokes": 5.37736,
+      "fh_skill_exposure_share": 0.255,
+      "seconds": 0.1407672029963578,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 116,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "9bb6950c76f87ef782a2f1af84e0f58c91d3648e677ec52d6ea318263dcf1b40"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11844003,
+      "winner": 0,
+      "games_won": [
+        4,
+        3
+      ],
+      "points": 125,
+      "mean_strokes": 5.768,
+      "fh_skill_exposure_share": 0.36996336996337,
+      "seconds": 0.17007346900209086,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 143,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.005933089085134735,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "1a07c1acd486434bb77b5d0177aa9632787196a798df2d56b8f8245cdea7fabf"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11844003,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 107,
+      "mean_strokes": 5.084,
+      "fh_skill_exposure_share": 0.4228571428571429,
+      "seconds": 0.4608641109953169,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 217,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "5efbd39f383ebd95d1655f02181a0a1e159427a860b8d3efc19c122609cc8db1"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11844003,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 85,
+      "mean_strokes": 4.4,
+      "fh_skill_exposure_share": 0.42105263157894735,
+      "seconds": 0.2922426410004846,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 148,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.00833062874733631,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "a32b509d8a30c69614c382704c4893dbcdd8c5b92ca90f1130eec31579c49a4a"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11844004,
+      "winner": 0,
+      "games_won": [
+        4,
+        3
+      ],
+      "points": 126,
+      "mean_strokes": 6.50794,
+      "fh_skill_exposure_share": 0.3249097472924188,
+      "seconds": 0.1308725049966597,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 137,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "bb9de52229415999a270de058955b5c12d01e309f9af052a73a175fa2336216d"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11844004,
+      "winner": 0,
+      "games_won": [
+        4,
+        1
+      ],
+      "points": 104,
+      "mean_strokes": 6.625,
+      "fh_skill_exposure_share": 0.27848101265822783,
+      "seconds": 0.130224796004768,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 113,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.006206820149029901,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "f8fa069648f05444217a3cd4dee48551c9ab26c3cc0173fdfd1bfe5064d7d092"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11844004,
+      "winner": 0,
+      "games_won": [
+        4,
+        1
+      ],
+      "points": 88,
+      "mean_strokes": 4.943,
+      "fh_skill_exposure_share": 0.4117647058823529,
+      "seconds": 0.3319697979968623,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 171,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "0dcc57a3160c46833b16184bb389d91b97c45e07ad3d01221f05ac3803ae9ec4"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11844004,
+      "winner": 1,
+      "games_won": [
+        3,
+        4
+      ],
+      "points": 135,
+      "mean_strokes": 5.378,
+      "fh_skill_exposure_share": 0.41630901287553645,
+      "seconds": 0.6218581509965588,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 295,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.01440894929280323,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "c5fae9d98d29ea01ab8a387e2d771dcb47df4160cc3f7bebf86180c824d21611"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11844005,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 92,
+      "mean_strokes": 4.98913,
+      "fh_skill_exposure_share": 0.34394904458598724,
+      "seconds": 0.13103724899701774,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 102,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "6986977dec42bd3df2f073f70bc655a6d15e283ab48e0058be6e5876698e4585"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11844005,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 92,
+      "mean_strokes": 4.98913,
+      "fh_skill_exposure_share": 0.34394904458598724,
+      "seconds": 0.14125068399880547,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 102,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.005967224660692494,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "4a9e9d843da3afa9178b050be9366c0070d1fff7c97eb0a2d0dfcdfbad8d3b93"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11844005,
+      "winner": 0,
+      "games_won": [
+        4,
+        0
+      ],
+      "points": 73,
+      "mean_strokes": 4.055,
+      "fh_skill_exposure_share": 0.573170731707317,
+      "seconds": 0.23825879200012423,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 111,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "2bc39dddcab5b9fbe3ac8653e15bb8ae413f6e41ee07bec9d4889c6f7ae0ee85"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11844005,
+      "winner": 0,
+      "games_won": [
+        4,
+        0
+      ],
+      "points": 67,
+      "mean_strokes": 4.627,
+      "fh_skill_exposure_share": 0.3402061855670103,
+      "seconds": 0.27130088699777843,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 121,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.009093905116736245,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "f7c6dcc9ffb3967778fc937589c356293d7b62d2bc4bb647fb55f75e9c8e71cb"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11844006,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 113,
+      "mean_strokes": 7.40708,
+      "fh_skill_exposure_share": 0.24307692307692308,
+      "seconds": 0.12978249300067546,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 121,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "c8fac9da94b4f4c1a612730b5dbf5d1347b9c2efda4c70df1d2a85fb0f6f2e91"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11844006,
+      "winner": 0,
+      "games_won": [
+        4,
+        3
+      ],
+      "points": 127,
+      "mean_strokes": 7.61417,
+      "fh_skill_exposure_share": 0.2838541666666667,
+      "seconds": 0.15739178600051673,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 140,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.005990630341426384,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "c21e1c8e1e03ba58e381524a2b4077e0b49aede5d460387a4deeca1c772bed2a"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11844006,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 107,
+      "mean_strokes": 5.486,
+      "fh_skill_exposure_share": 0.41798941798941797,
+      "seconds": 0.46456485200178577,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 239,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "9c73ddc879e981de5ca4a8889cfa639a7671ef657a16070cf3a730f40232017a"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11844006,
+      "winner": 0,
+      "games_won": [
+        4,
+        2
+      ],
+      "points": 107,
+      "mean_strokes": 5.29,
+      "fh_skill_exposure_share": 0.4340659340659341,
+      "seconds": 0.5210059930032003,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 228,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.008409016208809128,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "1d3e8330cb8a32c48831703bd25ff6bd65119e0014a09e6f9849da20f4c13322"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11844007,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 69,
+      "mean_strokes": 6.18841,
+      "fh_skill_exposure_share": 0.558282208588957,
+      "seconds": 0.10205444800521946,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 83,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "7ddd4cab0fbf1b1267bdb93e4c03317749aaa4798466adbe756cd21ec5807177"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11844007,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 96,
+      "mean_strokes": 5.05208,
+      "fh_skill_exposure_share": 0.4909090909090909,
+      "seconds": 0.1332607630029088,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 109,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.006507264683813907,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "f0cba20e612ff3ad9c23b8328a13c125a4ed9863e08d21e09601e0076f56f169"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11844007,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 90,
+      "mean_strokes": 4.789,
+      "fh_skill_exposure_share": 0.4112903225806452,
+      "seconds": 0.3622728909977013,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 168,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "817638ed104f51b5edb4d8f85945a06b17a7891f6731ac8cf39afdfa2e58f651"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11844007,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 82,
+      "mean_strokes": 4.39,
+      "fh_skill_exposure_share": 0.3238095238095238,
+      "seconds": 0.3084364280002774,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 138,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.008263887912360629,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "f5941e3b2151978e1b8929925b2dcb26a457fb74801dbadf41b0fd7e93a79586"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "neutral",
+      "seed": 11844008,
+      "winner": 1,
+      "games_won": [
+        0,
+        4
+      ],
+      "points": 68,
+      "mean_strokes": 6.25,
+      "fh_skill_exposure_share": 0.42038216560509556,
+      "seconds": 0.10425152300012996,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 77,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "fdd83a7caddec39736e3ede218a62e0f82c1d7a70f48a9fe3c5fc017d6ba1010"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "summary",
+      "variant": "preferred_means",
+      "seed": 11844008,
+      "winner": 1,
+      "games_won": [
+        1,
+        4
+      ],
+      "points": 101,
+      "mean_strokes": 6.94059,
+      "fh_skill_exposure_share": 0.1811320754716981,
+      "seconds": 0.1440062379988376,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 104,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.006129408065890685,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "34e1e5bc9c9427be1b02d8ab23d479eb4032a0f45f9835e4e4de13068b2601c6"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "neutral",
+      "seed": 11844008,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 117,
+      "mean_strokes": 5.359,
+      "fh_skill_exposure_share": 0.3681592039800995,
+      "seconds": 0.5218849020020571,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": true,
+        "active_axes": [],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 255,
+        "weighted_calls": 0,
+        "min_multiplier": 1.0,
+        "max_multiplier": 1.0,
+        "max_pool_probability_shift": 0.0,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "adb0ec426fb8074920526f01ac35da03bfe9c8095fc0008297be1ede0fee3c71"
+    },
+    {
+      "case": "raw_pips_rhythm",
+      "mode": "full",
+      "variant": "preferred_means",
+      "seed": 11844008,
+      "winner": 1,
+      "games_won": [
+        2,
+        4
+      ],
+      "points": 100,
+      "mean_strokes": 5.42,
+      "fh_skill_exposure_share": 0.35260115606936415,
+      "seconds": 0.49028973700478673,
+      "audit": {
+        "player_id": "raw_pips_rhythm_0",
+        "version": "V1.1.8-STYLE-PREFERENCE-1",
+        "neutral": false,
+        "active_axes": [
+          "forehand_use",
+          "backhand_use",
+          "initiative",
+          "risk"
+        ],
+        "observation_only_axes": [
+          "rally",
+          "away_table",
+          "spin_variation"
+        ],
+        "neutral_calls": 0,
+        "weighted_calls": 223,
+        "min_multiplier": 0.9711666666666666,
+        "max_multiplier": 1.0383333333333333,
+        "max_pool_probability_shift": 0.008710489210515843,
+        "personality_used": false,
+        "effect": "LEGAL_ACTION_PRIOR_ONLY",
+        "risk_context": "RISK_AXIS_INACTIVE_FOR_LIMITED_OR_BAD_ARRIVAL"
+      },
+      "log_sha256": "ad633cf7316fd2dc61ced16e75c08f1aaf910c3c9ff5067415b6fa880b9ca253"
+    }
+  ],
+  "limitations": [
+    "Small synthetic samples cannot determine historical playing-style prevalence or win rates.",
+    "Full and summary remain different algorithms; specialist summary calibration remains unpassed.",
+    "Exposure share is selected skill exposure, not a count of observed forehand strokes in summary mode.",
+    "A preferred but weaker wing is not awarded skill; no monotone winner benefit is claimed."
+  ]
+}

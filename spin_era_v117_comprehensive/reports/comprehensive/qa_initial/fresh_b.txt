@@ -1,0 +1,1 @@
+{"output": "/workspace/Main/spin_era_v118_candidate/reports/comprehensive/qa/fresh_b", "date": "2006-03-01", "ruleset": "V1.1.7-COMPREHENSIVE-1", "valid": true}

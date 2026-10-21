@@ -1,0 +1,47 @@
+[
+  {
+    "source_id": "R118_AUTHOR_SPIN2025",
+    "repository": "KieDani/kiedani.github.io",
+    "commit": "0873622ba81b639abb208779368d217f695faf65",
+    "url": "https://raw.githubusercontent.com/KieDani/kiedani.github.io/0873622ba81b639abb208779368d217f695faf65/CVPRW2025/index.html",
+    "bytes": 6448,
+    "document_sha256": "3b5c6e4def5c7168ad91521cfb41afd84b03e757b21db07bd6dc29782587b8fb",
+    "read_scope": "AUTHOR_PUBLISHED_PAPER_ABSTRACT_AND_PROJECT_METHOD_NOTES",
+    "abstract_sha256": "022f63385419d6b00378f2cd2c3e76bee8e9fdcdf1d5ba9162bc80556c8cd420",
+    "abstract_word_count": 164,
+    "original_paper_full_text_read": false,
+    "publisher_independently_verified": false,
+    "license_note": "Public author project-page source; no bulk PDF or full abstract copy bundled.",
+    "retrieved_date": "2026-10-21"
+  },
+  {
+    "source_id": "R118_AUTHOR_UPLIFT2026",
+    "repository": "KieDani/kiedani.github.io",
+    "commit": "0873622ba81b639abb208779368d217f695faf65",
+    "url": "https://raw.githubusercontent.com/KieDani/kiedani.github.io/0873622ba81b639abb208779368d217f695faf65/WACV2026/index.html",
+    "bytes": 7990,
+    "document_sha256": "ab0826cb1890e58b66becafb967acff257771bd2c60ffd8ac254ce9f6c0d376e",
+    "read_scope": "AUTHOR_PUBLISHED_PAPER_ABSTRACT_AND_PROJECT_METHOD_NOTES",
+    "abstract_sha256": "f77316ce03f9b7354826a59c54a3da6602b276034e6c90d97b1209922e9525e1",
+    "abstract_word_count": 149,
+    "original_paper_full_text_read": false,
+    "publisher_independently_verified": false,
+    "license_note": "Public author project-page source; no bulk PDF or full abstract copy bundled.",
+    "retrieved_date": "2026-10-21"
+  },
+  {
+    "source_id": "R118_AUTHOR_LATTE2025",
+    "repository": "sastry-group/LATTE-MV",
+    "commit": "500ba2bf74433722ab5442f041e3757be4daba6c",
+    "url": "https://raw.githubusercontent.com/sastry-group/LATTE-MV/500ba2bf74433722ab5442f041e3757be4daba6c/index.html",
+    "bytes": 18300,
+    "document_sha256": "5aac3e3d3eb2b28f1ce10c184bd4e29e9b00914e0686e8c844e4ab09c5d2ff52",
+    "read_scope": "AUTHOR_PUBLISHED_PAPER_ABSTRACT_AND_PROJECT_METHOD_NOTES",
+    "abstract_sha256": "80330f9d4a96c06ee6c230fbdd215ccd5e1dd0f9523d76b34bad7085185f695f",
+    "abstract_word_count": 136,
+    "original_paper_full_text_read": false,
+    "publisher_independently_verified": false,
+    "license_note": "Public author project-page source; no bulk PDF or full abstract copy bundled.",
+    "retrieved_date": "2026-10-21"
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "scope": "One predeclared first-seed example per engine; diagnostic only, not fitted or a 64-match frequency estimate",
+  "seed": 11818000,
+  "variants": {
+    "detailed": {
+      "games_won": [
+        1,
+        4
+      ],
+      "mean_strokes": 9.535,
+      "nonserve_actual_contacts_per_player": [
+        438,
+        424
+      ],
+      "families_per_player": [
+        {
+          "push": 82,
+          "attack": 86,
+          "lob": 34,
+          "block": 41,
+          "slow_loop": 51,
+          "counter": 68,
+          "open": 43,
+          "flip": 27,
+          "chop": 6
+        },
+        {
+          "push": 84,
+          "chop": 221,
+          "attack": 18,
+          "block": 53,
+          "flip": 6,
+          "lob": 19,
+          "open": 5,
+          "counter": 15,
+          "slow_loop": 3
+        }
+      ]
+    },
+    "light": {
+      "games_won": [
+        0,
+        4
+      ],
+      "mean_strokes": 10.06061,
+      "nonserve_actual_contacts_per_player": [
+        307,
+        291
+      ],
+      "families_per_player": [
+        {
+          "push": 118,
+          "attack": 57,
+          "open": 59,
+          "slow_loop": 28,
+          "counter": 31,
+          "lob": 12,
+          "chop": 2
+        },
+        {
+          "block": 61,
+          "chop": 144,
+          "push": 43,
+          "counter": 25,
+          "open": 4,
+          "lob": 14
+        }
+      ]
+    }
+  }
+}

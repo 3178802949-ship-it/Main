@@ -1,0 +1,30 @@
+{
+  "status": "PASSED",
+  "scope": "First predeclared seed in each of four pairings; formula byte protection separately verified by HGR_QA",
+  "checks": {
+    "ma2016_fan2024": {
+      "same_initial_G9_rolls": true,
+      "same_initial_P6_rolls": true,
+      "old_sample_sha256": "a9a96e1b90d0e893b8cfd7a61bd1792e13d194cc3e9089122817e4e38cbef8d8",
+      "new_sample_sha256": "7e681d35a788ca026dcd0bdcb5f5792c396ac033aec3d696b5b5aab3d6a6bd2b"
+    },
+    "schlager2003_joo2003": {
+      "same_initial_G9_rolls": true,
+      "same_initial_P6_rolls": true,
+      "old_sample_sha256": "b895195bf0797811a4ff5ec2d74dc51298818ba47f334b70231a99b24dc8a3df",
+      "new_sample_sha256": "3d0b682ffb47a9c10b692d958bc82350dc34546571b11f413a2e6944cf008f83"
+    },
+    "equal_right_left": {
+      "same_initial_G9_rolls": true,
+      "same_initial_P6_rolls": true,
+      "old_sample_sha256": "a39a159dfa80f81660c98ffa597ab9c95ef2114f23f37222591debcff5649ac3",
+      "new_sample_sha256": "0b592a4a81519954dc8184fbb748cbb180eeaca946bd8b4ef8f0e9bfeda83654"
+    },
+    "xu2013_context_joo2003": {
+      "same_initial_G9_rolls": true,
+      "same_initial_P6_rolls": true,
+      "old_sample_sha256": "8833b660f4307662f5512f91e54627f5a2a2a55c7887c2c653e504deff296971",
+      "new_sample_sha256": "fcbc1c00d6b930c9c03b1135b808621f5b3757fce0dc6276e668adf453228735"
+    }
+  }
+}

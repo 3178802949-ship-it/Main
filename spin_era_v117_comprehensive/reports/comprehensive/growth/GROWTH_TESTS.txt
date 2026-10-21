@@ -1,0 +1,25 @@
+test_body_xp_bank_cannot_cancel_aging_ceiling (tests.test_growth_v118.Growth118Tests.test_body_xp_bank_cannot_cancel_aging_ceiling) ... ok
+test_champion_bonus_is_local_temporary_and_does_not_add_pa_or_technique (tests.test_growth_v118.Growth118Tests.test_champion_bonus_is_local_temporary_and_does_not_add_pa_or_technique) ... ok
+test_champion_window_is_bounded_and_does_not_give_points (tests.test_growth_v118.Growth118Tests.test_champion_window_is_bounded_and_does_not_give_points) ... ok
+test_compact_receipts_and_strategy_branch_guard (tests.test_growth_v118.Growth118Tests.test_compact_receipts_and_strategy_branch_guard) ... ok
+test_fatigue_and_age_apply_to_direct_growth_and_permits (tests.test_growth_v118.Growth118Tests.test_fatigue_and_age_apply_to_direct_growth_and_permits) ... ok
+test_general_training_retains_excellence (tests.test_growth_v118.Growth118Tests.test_general_training_retains_excellence) ... ok
+test_invalid_and_duplicate_plan_do_not_mutate (tests.test_growth_v118.Growth118Tests.test_invalid_and_duplicate_plan_do_not_mutate) ... ok
+test_invalid_injury_is_rejected_before_state_changes (tests.test_growth_v118.Growth118Tests.test_invalid_injury_is_rejected_before_state_changes) ... ok
+test_legacy_state_and_prepared_profile_are_not_implicitly_migrated (tests.test_growth_v118.Growth118Tests.test_legacy_state_and_prepared_profile_are_not_implicitly_migrated) ... ok
+test_major_injury_changes_structural_room_and_appraisal_cannot_revert (tests.test_growth_v118.Growth118Tests.test_major_injury_changes_structural_room_and_appraisal_cannot_revert) ... ok
+test_minor_injury_is_temporary_and_keeps_future_capacity (tests.test_growth_v118.Growth118Tests.test_minor_injury_is_temporary_and_keeps_future_capacity) ... ok
+test_natural_aging_and_bad_year_never_reduce_pa (tests.test_growth_v118.Growth118Tests.test_natural_aging_and_bad_year_never_reduce_pa) ... ok
+test_older_entry_keeps_lifetime_pa_and_observed_traits (tests.test_growth_v118.Growth118Tests.test_older_entry_keeps_lifetime_pa_and_observed_traits) ... ok
+test_physical_decline_limits_execution_without_deleting_learning (tests.test_growth_v118.Growth118Tests.test_physical_decline_limits_execution_without_deleting_learning) ... ok
+test_preparation_preserves_current_ability_but_repairs_young_ceiling (tests.test_growth_v118.Growth118Tests.test_preparation_preserves_current_ability_but_repairs_young_ceiling) ... ok
+test_regular_appraisal_is_evidenced_and_at_most_two (tests.test_growth_v118.Growth118Tests.test_regular_appraisal_is_evidenced_and_at_most_two) ... ok
+test_rehab_and_injury_cap_reduction (tests.test_growth_v118.Growth118Tests.test_rehab_and_injury_cap_reduction) ... ok
+test_time_fraction_scales_every_growth_channel (tests.test_growth_v118.Growth118Tests.test_time_fraction_scales_every_growth_channel) ... ok
+test_two_phases_and_portable_continuation_are_exact (tests.test_growth_v118.Growth118Tests.test_two_phases_and_portable_continuation_are_exact) ... ok
+test_zero_time_does_not_convert_old_xp_bank (tests.test_growth_v118.Growth118Tests.test_zero_time_does_not_convert_old_xp_bank) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.525s
+
+OK
