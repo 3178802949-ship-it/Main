@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://www.ittf.com/handbook/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "read_scope": "NOT_READ"
+  },
+  {
+    "url": "https://documents.ittf.sport/sites/default/files/public/2025-02/2025_ITTF_Statutes_clean_version.pdf",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>",
+    "read_scope": "NOT_READ"
+  }
+]

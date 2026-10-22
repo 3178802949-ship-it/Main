@@ -1,0 +1,498 @@
+{
+  "configurations": [
+    {
+      "id": "chopper_patch0_full",
+      "best_of": 5,
+      "patch": false,
+      "first_server": 0,
+      "gap": 0,
+      "style": "chopper",
+      "mode": "full",
+      "fatigue": [
+        25,
+        25
+      ],
+      "samples": 1000,
+      "seed_start": 118232000,
+      "cards": [
+        {
+          "player_id": "stress_v1_18_A",
+          "children": {
+            "serve": {
+              "spin": 124,
+              "variation": 122,
+              "placement": 124,
+              "disguise": 122,
+              "third_link": 120
+            },
+            "receive": {
+              "spin_read": 120,
+              "length_read": 120,
+              "control": 118,
+              "initiative": 118
+            },
+            "fh": {
+              "spin": 118,
+              "power": 120,
+              "continuity": 122,
+              "defense": 112,
+              "placement": 122
+            },
+            "bh": {
+              "spin": 106,
+              "power": 108,
+              "continuity": 108,
+              "defense": 102,
+              "placement": 106
+            },
+            "feet": {
+              "start": 122,
+              "arrival": 120,
+              "recover": 120,
+              "coordination": 122,
+              "balance": 118
+            },
+            "read": {
+              "self_read": 126,
+              "opponent_read": 128,
+              "choice": 126,
+              "counter": 128,
+              "exploit": 126
+            },
+            "stable": {
+              "variance": 122,
+              "sustain": 122,
+              "recovery": 120,
+              "pressure": 120
+            },
+            "table": {
+              "short": 124,
+              "push": 124,
+              "chop_control": 120,
+              "flick": 120,
+              "placement": 124
+            },
+            "spirit": {
+              "improvisation": 112,
+              "unorthodox_defense": 112,
+              "spin_deception": 112,
+              "lob_arcs": 110,
+              "unexpected_transition": 112
+            }
+          },
+          "P6": {
+            "speed": 120,
+            "burst": 118,
+            "strength": 116,
+            "stamina": 118,
+            "agility": 120,
+            "flexibility": 122
+          },
+          "G9": {
+            "serve": 123,
+            "receive": 119,
+            "fh": 119,
+            "bh": 106,
+            "feet": 121,
+            "read": 127,
+            "stable": 121,
+            "table": 123,
+            "spirit": 112
+          },
+          "CA": 159,
+          "ca_semantics": "CURRENT_G43_P6_OUTPUT_ONLY_NOT_CLIPPED_BY_PA",
+          "style": "attacker",
+          "style_profile": {
+            "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+            "axes": {
+              "forehand_use": 0.5,
+              "backhand_use": 0.5,
+              "short_game": 0.5,
+              "first_three": 0.5,
+              "rally": 0.5,
+              "away_table": 0.5,
+              "topspin_preference": 0.5,
+              "backspin_control": 0.5,
+              "spin_variation": 0.5,
+              "initiative": 0.5,
+              "counterattack": 0.5,
+              "risk": 0.5
+            }
+          }
+        },
+        {
+          "player_id": "stress_v1_18_B",
+          "children": {
+            "serve": {
+              "spin": 124,
+              "variation": 122,
+              "placement": 124,
+              "disguise": 122,
+              "third_link": 120
+            },
+            "receive": {
+              "spin_read": 120,
+              "length_read": 120,
+              "control": 118,
+              "initiative": 118
+            },
+            "fh": {
+              "spin": 118,
+              "power": 120,
+              "continuity": 122,
+              "defense": 112,
+              "placement": 122
+            },
+            "bh": {
+              "spin": 106,
+              "power": 108,
+              "continuity": 108,
+              "defense": 102,
+              "placement": 106
+            },
+            "feet": {
+              "start": 122,
+              "arrival": 120,
+              "recover": 120,
+              "coordination": 122,
+              "balance": 118
+            },
+            "read": {
+              "self_read": 126,
+              "opponent_read": 128,
+              "choice": 126,
+              "counter": 128,
+              "exploit": 126
+            },
+            "stable": {
+              "variance": 122,
+              "sustain": 122,
+              "recovery": 120,
+              "pressure": 120
+            },
+            "table": {
+              "short": 124,
+              "push": 124,
+              "chop_control": 120,
+              "flick": 120,
+              "placement": 124
+            },
+            "spirit": {
+              "improvisation": 112,
+              "unorthodox_defense": 112,
+              "spin_deception": 112,
+              "lob_arcs": 110,
+              "unexpected_transition": 112
+            }
+          },
+          "P6": {
+            "speed": 120,
+            "burst": 118,
+            "strength": 116,
+            "stamina": 118,
+            "agility": 120,
+            "flexibility": 122
+          },
+          "G9": {
+            "serve": 123,
+            "receive": 119,
+            "fh": 119,
+            "bh": 106,
+            "feet": 121,
+            "read": 127,
+            "stable": 121,
+            "table": 123,
+            "spirit": 112
+          },
+          "CA": 159,
+          "ca_semantics": "CURRENT_G43_P6_OUTPUT_ONLY_NOT_CLIPPED_BY_PA",
+          "style": "modern_chopper",
+          "rubbers": {
+            "fh": "inverted",
+            "bh": "long_pips"
+          },
+          "style_profile": {
+            "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+            "axes": {
+              "forehand_use": 0.5,
+              "backhand_use": 0.5,
+              "short_game": 0.5,
+              "first_three": 0.5,
+              "rally": 0.5,
+              "away_table": 0.5,
+              "topspin_preference": 0.5,
+              "backspin_control": 0.5,
+              "spin_variation": 0.5,
+              "initiative": 0.5,
+              "counterattack": 0.5,
+              "risk": 0.5
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "fatigue_patch0_full",
+      "best_of": 5,
+      "patch": false,
+      "first_server": 0,
+      "gap": 0,
+      "style": "fatigue",
+      "mode": "full",
+      "fatigue": [
+        10,
+        70
+      ],
+      "samples": 1000,
+      "seed_start": 118234000,
+      "cards": [
+        {
+          "player_id": "stress_v1_18_A",
+          "children": {
+            "serve": {
+              "spin": 124,
+              "variation": 122,
+              "placement": 124,
+              "disguise": 122,
+              "third_link": 120
+            },
+            "receive": {
+              "spin_read": 120,
+              "length_read": 120,
+              "control": 118,
+              "initiative": 118
+            },
+            "fh": {
+              "spin": 118,
+              "power": 120,
+              "continuity": 122,
+              "defense": 112,
+              "placement": 122
+            },
+            "bh": {
+              "spin": 106,
+              "power": 108,
+              "continuity": 108,
+              "defense": 102,
+              "placement": 106
+            },
+            "feet": {
+              "start": 122,
+              "arrival": 120,
+              "recover": 120,
+              "coordination": 122,
+              "balance": 118
+            },
+            "read": {
+              "self_read": 126,
+              "opponent_read": 128,
+              "choice": 126,
+              "counter": 128,
+              "exploit": 126
+            },
+            "stable": {
+              "variance": 122,
+              "sustain": 122,
+              "recovery": 120,
+              "pressure": 120
+            },
+            "table": {
+              "short": 124,
+              "push": 124,
+              "chop_control": 120,
+              "flick": 120,
+              "placement": 124
+            },
+            "spirit": {
+              "improvisation": 112,
+              "unorthodox_defense": 112,
+              "spin_deception": 112,
+              "lob_arcs": 110,
+              "unexpected_transition": 112
+            }
+          },
+          "P6": {
+            "speed": 120,
+            "burst": 118,
+            "strength": 116,
+            "stamina": 118,
+            "agility": 120,
+            "flexibility": 122
+          },
+          "G9": {
+            "serve": 123,
+            "receive": 119,
+            "fh": 119,
+            "bh": 106,
+            "feet": 121,
+            "read": 127,
+            "stable": 121,
+            "table": 123,
+            "spirit": 112
+          },
+          "CA": 159,
+          "ca_semantics": "CURRENT_G43_P6_OUTPUT_ONLY_NOT_CLIPPED_BY_PA",
+          "style": "attacker",
+          "style_profile": {
+            "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+            "axes": {
+              "forehand_use": 0.5,
+              "backhand_use": 0.5,
+              "short_game": 0.5,
+              "first_three": 0.5,
+              "rally": 0.5,
+              "away_table": 0.5,
+              "topspin_preference": 0.5,
+              "backspin_control": 0.5,
+              "spin_variation": 0.5,
+              "initiative": 0.5,
+              "counterattack": 0.5,
+              "risk": 0.5
+            }
+          }
+        },
+        {
+          "player_id": "stress_v1_18_B",
+          "children": {
+            "serve": {
+              "spin": 124,
+              "variation": 122,
+              "placement": 124,
+              "disguise": 122,
+              "third_link": 120
+            },
+            "receive": {
+              "spin_read": 120,
+              "length_read": 120,
+              "control": 118,
+              "initiative": 118
+            },
+            "fh": {
+              "spin": 118,
+              "power": 120,
+              "continuity": 122,
+              "defense": 112,
+              "placement": 122
+            },
+            "bh": {
+              "spin": 106,
+              "power": 108,
+              "continuity": 108,
+              "defense": 102,
+              "placement": 106
+            },
+            "feet": {
+              "start": 122,
+              "arrival": 120,
+              "recover": 120,
+              "coordination": 122,
+              "balance": 118
+            },
+            "read": {
+              "self_read": 126,
+              "opponent_read": 128,
+              "choice": 126,
+              "counter": 128,
+              "exploit": 126
+            },
+            "stable": {
+              "variance": 122,
+              "sustain": 122,
+              "recovery": 120,
+              "pressure": 120
+            },
+            "table": {
+              "short": 124,
+              "push": 124,
+              "chop_control": 120,
+              "flick": 120,
+              "placement": 124
+            },
+            "spirit": {
+              "improvisation": 112,
+              "unorthodox_defense": 112,
+              "spin_deception": 112,
+              "lob_arcs": 110,
+              "unexpected_transition": 112
+            }
+          },
+          "P6": {
+            "speed": 120,
+            "burst": 118,
+            "strength": 116,
+            "stamina": 118,
+            "agility": 120,
+            "flexibility": 122
+          },
+          "G9": {
+            "serve": 123,
+            "receive": 119,
+            "fh": 119,
+            "bh": 106,
+            "feet": 121,
+            "read": 127,
+            "stable": 121,
+            "table": 123,
+            "spirit": 112
+          },
+          "CA": 159,
+          "ca_semantics": "CURRENT_G43_P6_OUTPUT_ONLY_NOT_CLIPPED_BY_PA",
+          "style": "attacker",
+          "style_profile": {
+            "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+            "axes": {
+              "forehand_use": 0.5,
+              "backhand_use": 0.5,
+              "short_game": 0.5,
+              "first_three": 0.5,
+              "rally": 0.5,
+              "away_table": 0.5,
+              "topspin_preference": 0.5,
+              "backspin_control": 0.5,
+              "spin_variation": 0.5,
+              "initiative": 0.5,
+              "counterattack": 0.5,
+              "risk": 0.5
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "source_sha256": {
+    "Game/light_v1_18.py": "abb2c729489f3394c5a47a54dcb7cba27dd8c3ef412f41afc5a7754014c6bc17",
+    "Game/worker_v118.py": "44eb8f29834512dbc6c5e5421cb10c3c4b4bf94d52bdfa04e73d92f624aed6b5",
+    "Game/preferences_v118.py": "4048d022c83fa84d897a122f7dcd8b929fcfbdc22fb8d2a85affde7a34e784dc",
+    "Game/engine_v117.py": "e7cedddcc5ee20e23ad23189912c2901d8f42306bb3bc5fda87970b8e43e1fa1",
+    "Game/geometry.py": "2e7d61939f00c1e0c1fdb081bf158dc419cc2da504b44d542d4c4ef073d433c4",
+    "Game/integration_v118.py": "3206865a266024f937cc18a4c4aa3e60252e2f406e6b3a8dac73f0aeafe37dc4",
+    "Game/formats_v1_18.py": "c13732d0fbf5f6c8a81b5572dab89991b181dcf3f3c200dca79fe5f936f33973",
+    "Game/tactics_v117.py": "7df4d7f367efa86722cca2868746bc4ef92b6155066161bd4831eedb43421484",
+    "Game/observed_tactics.py": "aab648a3356f101d3cbd165cc0f4edeec1271b98a653d260f36facd9189359eb",
+    "Game/__init__.py": "df1ff56c39cad8cf642ace00dff77479562ea17ea880156241fa2833cc2f9e21",
+    "Game/engine_v1_18.py": "86775b454a1d340748bd671bf3853af32edd3d0f627b02ddb3524478ba4f7b06",
+    "Game/v118.py": "1bb924588da4de0a1fc2b442ae43200bc7157a9522bbb18c028ad699030c132d",
+    "Game/v1_18.py": "7922d16ed864d3cbdd9ecf683cfa2e9537ca1d622c24cced5c0db50b124eaabd",
+    "Game/worker.py": "887afee0bc5d71f778cb2f8c0556b524e1acac26ea564a2cc758f922b6ee4879",
+    "Game/worker_v1_18.py": "bfaf171ae5c6c1e27f645a1876b170fd557971fe7655da2fc45a22c1cf58d35a",
+    "Game/fatigue_v1_18.py": "7bbd6e202d1ae1c689494620a953bc0857b4cbee6fe64558a0c3f0307cc057fd",
+    "Game/specialist_engine.py": "131f6da784bf7ca9960018eff8b4768bcac3319573c6fdb777aa73dfa27953f5",
+    "Game/light_v117.py": "d185b1852426ac2e92a8fcd49132d5637093da6cdc2b1425c78d52f366f5a599",
+    "Game/integration_v1_18.py": "1ab5c170660408d13f8ed910788d635e239f4203dbd357fb2201eb78ef917c10",
+    "Game/integration_v117.py": "947f78ff7fdfd1b6fcc52c93b00457ac6e97bcf33ab7959e3d6dcdb550b09e06",
+    "Game/psychology_v1_18.py": "9abbbaa875fb7d432b000934b24edc36108f497c2868655ca30b0a9e6a020685",
+    "runtime/game_v114.py": "124122cd13a576eff5469c5dbe07ab156a118a9e2ba9564401464923012df910",
+    "runtime/game_v113.py": "5cf588b85b625a1dbd29ddab6ce9c29b891243c215e9e8567103b8fa98355d66",
+    "runtime/game_v115.py": "2a75d8bd5fda616908dab28ca915db15fa7dc763176475cc55a0520d69d3836d",
+    "runtime/game_v112.py": "2f75346f624d59638b5e1a7910c2982ac38fb9a6e2da025d752698c29c6b5581",
+    "runtime/tactical_match_v116.py": "108745b40cbb3cceba561658ce6ac7b25e116fec57b2dbeaccd10d7b660cea0a",
+    "runtime/specialist_rubber_v116.py": "e46e8946452e63cc238ca7280525b1419d12ad6afded550f0b9bae477d7ff499",
+    "common/__init__.py": "6404128c46d6fa7bf2484ea380045da4995d925f949d6bf6b2c5d27a510fe58b",
+    "Training/v1_18.py": "148330b77af5870ed5b57c21919a8c36bda7f45d7308b651bd6ccfade007ebfa",
+    "Training/v118.py": "c47478eb2154cfc9a1e2cde6964e9a9d7eae2b47f5eec59331e10894587cb20a",
+    "runtime/career_v118.py": "1a6a3d133e785b1f2e7525148be6fcef0a5c0ced9e45137cb0576ac7c5dcbcb4",
+    "runtime/career_v116.py": "0f175c818647a33f2553e1094bbb5edb50841e4ef179bd8c5c54ca0691562940",
+    "examples/stress_v1_18.py": "b28b5039049ad7b6b5c16f28465ac96b44301f6485bb7f01c7bf072be4553dc3",
+    "examples/stress_extra_v1_18.py": "990eb0309af35ddeb95aa15dba26ea2281d42bd3d17af8ecb30a7649eea4121c"
+  }
+}

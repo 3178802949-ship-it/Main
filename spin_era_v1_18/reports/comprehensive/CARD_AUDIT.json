@@ -1,0 +1,4487 @@
+{
+  "version": "V1.1.7-COMPREHENSIVE-CARD-1",
+  "status": "OBSERVER_PROFILE_AUDIT_PASSED",
+  "snapshot_count": 370,
+  "player_count": 104,
+  "library_player_count": 104,
+  "snapshots_preserving_numeric_traits": 370,
+  "unique_axis_profiles": 34,
+  "class_distribution": {
+    "连续相持偏好": 85,
+    "近台抢先与前三板组织": 1,
+    "正手连续施压": 4,
+    "前三板抢先偏好": 211,
+    "变化控制与择机反击": 2,
+    "相持控制与落点周旋": 5,
+    "台内组织偏好": 9,
+    "削球与反攻组织": 19,
+    "台内前三板与正手组织": 3,
+    "横打反手与两面抢先": 3,
+    "旋转连续与风险控制": 5,
+    "削球变化与正手反击": 4,
+    "台内衔接与相持组织": 5,
+    "反手起板与抢先转换": 2,
+    "正手旋转与纵深周旋": 3,
+    "反手前点与两面连续": 4,
+    "颗粒近台与反手衔接": 3,
+    "变化试探与反击转换": 2
+  },
+  "snapshots_using_curated_design_prior": 46,
+  "curated_player_design_priors": 14,
+  "individuality_limit": "Shared base archetypes remain; unique preference vectors are not individually measured athlete profiles.",
+  "public_personality_policy": "NEVER_EXPOSED",
+  "personality_sources": "PUBLIC_CUES_WHERE_AVAILABLE_OTHERWISE_EXPLICIT_SIMULATION_DEFAULTS",
+  "results": [
+    {
+      "player_id": "kong",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "liu_guoliang",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "近台抢先与前三板组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "liu_guozheng",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wang_liqin",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "正手连续施压",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ma_lin",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wang_hao",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chen_qi",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "hao_shuai",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "qin_zhijian",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "yan_sen",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "waldner",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "变化控制与择机反击",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "persson",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "peter_karlsson",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "fredrik_hakansson",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "boll",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "samsonov",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "相持控制与落点周旋",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "schlager",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "台内组织偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kreanga",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "primorac",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "rosskopf",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "saive",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "korbel",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "liu_seungmin",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kim_taeksoo",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "oh_sangeun",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "joo_saehyuk",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chuang_chihyuan",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "li_ching",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ko_lai_chak",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chen_weixing",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "gionis",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "apolonia",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "suss",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "maze",
+      "year": 2000,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kong",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "liu_guozheng",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wang_liqin",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "正手连续施压",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ma_lin",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "台内前三板与正手组织",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wang_hao",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "横打反手与两面抢先",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chen_qi",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "hao_shuai",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ma_long",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "台内组织偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "zhang_jike",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "waldner",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "变化控制与择机反击",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "persson",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "peter_karlsson",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "boll",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "旋转连续与风险控制",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "samsonov",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "相持控制与落点周旋",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "schlager",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "台内组织偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kreanga",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "primorac",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "saive",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "korbel",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "apolonia",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "freitas",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "joao_monteiro",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "suss",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "maze",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "steger",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chen_weixing",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "gionis",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "gardos",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "crisan",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "liu_seungmin",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kim_taeksoo",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "oh_sangeun",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "joo_saehyuk",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "削球变化与正手反击",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chuang_chihyuan",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "li_ching",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ko_lai_chak",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "mizutani",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "台内组织偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kishikawa",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ovtcharov",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "sharath_kamal",
+      "year": 2004,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wang_liqin",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "正手连续施压",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ma_lin",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "台内前三板与正手组织",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wang_hao",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "横打反手与两面抢先",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chen_qi",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "hao_shuai",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ma_long",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "台内衔接与相持组织",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "zhang_jike",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "xu_xin",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "boll",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "旋转连续与风险控制",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "samsonov",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "相持控制与落点周旋",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "schlager",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "台内组织偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kreanga",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "primorac",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "apolonia",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "freitas",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "joao_monteiro",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ovtcharov",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "suss",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "maze",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "steger",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chen_weixing",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "gionis",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "filus",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "gardos",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "habesohn",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "crisan",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "liu_seungmin",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "oh_sangeun",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "joo_saehyuk",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "削球变化与正手反击",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chuang_chihyuan",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lee_sangsu",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jeoung_youngsik",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "mizutani",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "台内组织偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "niwa",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "matsudaira_kenta",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kishikawa",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lin_gaoyuan",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "zhou_yu",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "quadri_aruna",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "sharath_kamal",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wong_chunting",
+      "year": 2008,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wang_liqin",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "正手连续施压",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ma_lin",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "台内前三板与正手组织",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wang_hao",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "横打反手与两面抢先",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chen_qi",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "hao_shuai",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ma_long",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "台内衔接与相持组织",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "zhang_jike",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "反手起板与抢先转换",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "xu_xin",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "正手旋转与纵深周旋",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "fan_zhendong",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "fang_bo",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lin_gaoyuan",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "liang_jingkun",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "zhou_yu",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "boll",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "旋转连续与风险控制",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "samsonov",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "相持控制与落点周旋",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "schlager",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "台内组织偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kreanga",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "apolonia",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "freitas",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "joao_monteiro",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ovtcharov",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "suss",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "maze",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "steger",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chen_weixing",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "gionis",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "filus",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "gardos",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "habesohn",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "crisan",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "simon_gauzy",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lebesson",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "franziska",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "duda",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kristian_karlsson",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "mattias_falck",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "liu_seungmin",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "oh_sangeun",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "joo_saehyuk",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "削球变化与正手反击",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chuang_chihyuan",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lee_sangsu",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jeoung_youngsik",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jang_woojin",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "mizutani",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "台内组织偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "niwa",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "matsudaira_kenta",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kishikawa",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "yoshimura",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "hugo_calderano",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "quadri_aruna",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "omar_assar",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "sharath_kamal",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wong_chunting",
+      "year": 2012,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ma_long",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "台内衔接与相持组织",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "zhang_jike",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "反手起板与抢先转换",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "xu_xin",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "正手旋转与纵深周旋",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "fan_zhendong",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "反手前点与两面连续",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "fang_bo",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lin_gaoyuan",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "liang_jingkun",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wang_chuqin",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "zhou_qihao",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "zhou_yu",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "boll",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "旋转连续与风险控制",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "samsonov",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "相持控制与落点周旋",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "apolonia",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "freitas",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "joao_monteiro",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ovtcharov",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "maze",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "steger",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "gionis",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "filus",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "gardos",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "crisan",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "simon_gauzy",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lebesson",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "franziska",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "duda",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "qiu_dang",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jorgic",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kristian_karlsson",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "mattias_falck",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "truls_moregard",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "anton_kallberg",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "joo_saehyuk",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "削球变化与正手反击",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chuang_chihyuan",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lee_sangsu",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jeoung_youngsik",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jang_woojin",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "mizutani",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "台内组织偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "niwa",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "matsudaira_kenta",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "yoshimura",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "harimoto",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lin_yunju",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "hugo_calderano",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "quadri_aruna",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "omar_assar",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "sharath_kamal",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wong_chunting",
+      "year": 2016,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ma_long",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "台内衔接与相持组织",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "xu_xin",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "正手旋转与纵深周旋",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "fan_zhendong",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "反手前点与两面连续",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lin_gaoyuan",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "liang_jingkun",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wang_chuqin",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lin_shidong",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "zhou_qihao",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "xiang_peng",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "xue_fei",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "boll",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "旋转连续与风险控制",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "apolonia",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "freitas",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "joao_monteiro",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ovtcharov",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "steger",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "gionis",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "filus",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "gardos",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "simon_gauzy",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lebesson",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "franziska",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "duda",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "qiu_dang",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jorgic",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kristian_karlsson",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "mattias_falck",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "颗粒近台与反手衔接",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "truls_moregard",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "anton_kallberg",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "anders_lind",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "felix_lebrun",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "alexis_lebrun",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chuang_chihyuan",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lee_sangsu",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jeoung_youngsik",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jang_woojin",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "cho_daeseong",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "niwa",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "yoshimura",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "harimoto",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "shunsuke_togami",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lin_yunju",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kao_chengjui",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "hugo_calderano",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "quadri_aruna",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "omar_assar",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "sharath_kamal",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wong_chunting",
+      "year": 2021,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ma_long",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "台内衔接与相持组织",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "fan_zhendong",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "反手前点与两面连续",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lin_gaoyuan",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "liang_jingkun",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wang_chuqin",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lin_shidong",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "zhou_qihao",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "xiang_peng",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chen_yuanyu",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "huang_youzheng",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "xu_yingbin",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "xue_fei",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "apolonia",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "freitas",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ovtcharov",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "gionis",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "filus",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "gardos",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "simon_gauzy",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "franziska",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "duda",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "qiu_dang",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jorgic",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kristian_karlsson",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "mattias_falck",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "颗粒近台与反手衔接",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "truls_moregard",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "变化试探与反击转换",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "anton_kallberg",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "anders_lind",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "felix_lebrun",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "alexis_lebrun",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jonathan_groth",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "robles",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "pucar",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chuang_chihyuan",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lee_sangsu",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jeoung_youngsik",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jang_woojin",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "cho_daeseong",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "oh_junsung",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "harimoto",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "shunsuke_togami",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "sora_matsushima",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lin_yunju",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kao_chengjui",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "hugo_calderano",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "quadri_aruna",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "omar_assar",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "sharath_kamal",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wong_chunting",
+      "year": 2024,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wang_chuqin",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "hugo_calderano",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "felix_lebrun",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "fan_zhendong",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "反手前点与两面连续",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "sora_matsushima",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "harimoto",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "truls_moregard",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "变化试探与反击转换",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lin_shidong",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lin_yunju",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "liang_jingkun",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "alexis_lebrun",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "qiu_dang",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wen_ruibo",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "duda",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jang_woojin",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "xiang_peng",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "franziska",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jorgic",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "zhou_qihao",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "anders_lind",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "shunsuke_togami",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "anton_kallberg",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chen_yuanyu",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "feng_yihsin",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kao_chengjui",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ovtcharov",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "oh_junsung",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lin_gaoyuan",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "shinozuka_hiroto",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "an_jaehyun",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lim_jonghoon",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "vladimir_sidorenko",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "omar_assar",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "uda_yukiya",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "kristian_karlsson",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "thibault_poret",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "simon_gauzy",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "主动试探偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "xu_yingbin",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "quadri_aruna",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "正手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "cho_daeseong",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "pucar",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "flavien_coton",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "huang_youzheng",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "xue_fei",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "wong_chunting",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jonathan_groth",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "freitas",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "robles",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "mattias_falck",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "颗粒近台与反手衔接",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "ryuusei_kawakami",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "lee_sangsu",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "filus",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "apolonia",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "jeoung_youngsik",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "chuang_chihyuan",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "前三板抢先偏好",
+        "反手组织偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "gionis",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "削球与反攻组织",
+        "正手组织偏好",
+        "下旋控制偏好",
+        "控制风险偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    },
+    {
+      "player_id": "gardos",
+      "year": 2026,
+      "numeric_preserved": true,
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED"
+    }
+  ],
+  "tests": 14,
+  "personality_players_with_public_cues": 0,
+  "personality_players_with_explicit_simulation_defaults": 104,
+  "external_interview_status": "PRIMARY_SOURCES_NOT_ACCESSIBLE_DURING_THIS_RUN_NO_INTERVIEW_FACTS_CLAIMED",
+  "source_sha256": {
+    "Card/v118.py": "a8a4df47ca09b4b0def6269f5511f1a590c0d4bbed59dc275c7b358ab4893f3d",
+    "data/player_profiles_v118.json": "5ddf04e494f4659fba11b9b97123ec697d5f3c1eb5d31607ce566225e5ee21c3",
+    "data/presets_normalized.json": "8c535ac476a5e9e9bd265d34a838fa4f7bf886c95ee4218b4c479e7276e5ee4e",
+    "tests/test_card_v118.py": "631fcab1ffd3b4aa946a43e449e9af957b94d9553ff852a273838646a697176f",
+    "docs/V118_STYLE_TAXONOMY_ZH.md": "9fb7c2253a4d237e513dfcef699a319a52c7b413dab3dbe268c2ee39c5efd5fe"
+  }
+}

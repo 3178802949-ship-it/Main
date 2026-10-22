@@ -1,0 +1,23 @@
+{
+  "version": "V1.18-1",
+  "status": "CONSTRUCTED_REWARD_PROBES_PASSED",
+  "source_scope": "SYNTHETIC_NOT_ENGINE_MATCHES",
+  "eligible_D100_path_trials": 2000,
+  "permits_granted": 40,
+  "observed_rate": 0.02,
+  "Wilson95": [
+    0.014721726201265566,
+    0.02711863918873715
+  ],
+  "per_eligible_path_threshold": 0.02,
+  "not_a_per_match_or_population_rate": true,
+  "rest_months": 24,
+  "XP_bank_before": 3.75,
+  "XP_bank_after": 3.75,
+  "original_skills_not_directly_awarded": true,
+  "source_sha256": {
+    "examples/audit_rewards_v1_18.py": "8455bc556edda3269d352e4ddb5c8becfec97bf6c03179e92228f3655c02d65b",
+    "Training/v1_18.py": "148330b77af5870ed5b57c21919a8c36bda7f45d7308b651bd6ccfade007ebfa",
+    "Training/v118.py": "c47478eb2154cfc9a1e2cde6964e9a9d7eae2b47f5eec59331e10894587cb20a"
+  }
+}

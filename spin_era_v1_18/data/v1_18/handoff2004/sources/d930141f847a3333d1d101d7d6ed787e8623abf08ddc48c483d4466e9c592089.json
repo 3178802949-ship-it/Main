@@ -1,0 +1,129 @@
+{
+  "archive_type": "PRE_MATCH_DRAW_ONLY",
+  "event": "2004 Swedish Junior and Cadet Open, Orebro",
+  "date": "2004-02-18/19",
+  "world_date": "2004-02-17",
+  "random_seed": 200402170808,
+  "baseline_file_sha256": "6334afc1816f876c7350feb9dec4763f55d2b07c04f24e38e9805488175f0876",
+  "qualification_reconstructed_groups": {
+    "A": [
+      [
+        "Roger Federer",
+        "SUI",
+        "CUSTOM"
+      ],
+      [
+        "Gustaf Ericson",
+        "SWE",
+        "Q"
+      ],
+      [
+        "Paul-Emmanuel Magois",
+        "FRA",
+        "Q"
+      ],
+      [
+        "Tom Van Schil",
+        "BEL",
+        "Q"
+      ]
+    ],
+    "B": [
+      [
+        "Michal Kleprlik",
+        "CZE",
+        "Q"
+      ],
+      [
+        "Robbin Johansson",
+        "SWE",
+        "Q"
+      ],
+      [
+        "Richard Gavette",
+        "SWE",
+        "Q"
+      ],
+      [
+        "Taku Takakiwa",
+        "JPN",
+        "Q"
+      ]
+    ]
+  },
+  "qualification_groups_status": "fictional rearrangement of confirmed actual qualification participants; NOT full authentic groups",
+  "rest_of_event_draw": "not recovered; only documented main draw reference candidates retained; do not invent purported complete true bracket",
+  "qualification_advancement_simulation_assumption": "2 of 4 advance per group; provisional only, not asserted as historic 2004 rule",
+  "group_A_match_order": [
+    "Federer vs Gustaf Ericson",
+    "Federer vs Paul-Emmanuel Magois",
+    "Federer vs Tom Van Schil"
+  ],
+  "provisional_profiles": {
+    "Gustaf Ericson": {
+      "CA_scenario_estimate": 140,
+      "label": "瑞典青年，详细打法未核",
+      "full_G9_P6_calibration": "not_persisted; only if specific match is about to be played",
+      "evidence": "2004 Orebro ITTF individual profile: JBS Qualification"
+    },
+    "Paul-Emmanuel Magois": {
+      "CA_scenario_estimate": 138,
+      "label": "法国青年，详细打法未核",
+      "full_G9_P6_calibration": "not_persisted; only if specific match is about to be played",
+      "evidence": "2004 Orebro ITTF individual profile: JBS Qualification"
+    },
+    "Tom Van Schil": {
+      "CA_scenario_estimate": 142,
+      "label": "比利时青年参赛者，打法未核",
+      "full_G9_P6_calibration": "not_persisted; only if specific match is about to be played",
+      "evidence": "2004 Orebro ITTF individual profile: JBS Qualification"
+    },
+    "Michal Kleprlik": {
+      "CA_scenario_estimate": 136,
+      "label": "欧陆青年，档案简评待核",
+      "full_G9_P6_calibration": "not_persisted; only if specific match is about to be played",
+      "evidence": "2004 Orebro ITTF individual profile: JBS Qualification"
+    },
+    "Robbin Johansson": {
+      "CA_scenario_estimate": 146,
+      "label": "瑞典青年参赛者，主场但技术未核",
+      "full_G9_P6_calibration": "not_persisted; only if specific match is about to be played",
+      "evidence": "2004 Orebro ITTF individual profile: JBS Qualification"
+    },
+    "Richard Gavette": {
+      "CA_scenario_estimate": 134,
+      "label": "瑞典青年参赛者，技术未核",
+      "full_G9_P6_calibration": "not_persisted; only if specific match is about to be played",
+      "evidence": "2004 Orebro ITTF individual profile: JBS Qualification"
+    },
+    "Taku Takakiwa": {
+      "CA_scenario_estimate": 151,
+      "label": "日本青年，2004年站正赛曾进入八强，资格出场记录也存在",
+      "full_G9_P6_calibration": "not_persisted; only if specific match is about to be played",
+      "evidence": "2004 Orebro ITTF individual profile: JBS Qualification"
+    }
+  },
+  "verified_main_draw_examples": [
+    "Seiya Kishikawa",
+    "Kenta Matsudaira",
+    "Taku Takakiwa",
+    "Jakub Kleprlik",
+    "Maciej Pietkiewicz",
+    "Marcos Freitas"
+  ],
+  "results": [],
+  "simulated_matches": 0,
+  "fitness_value_from_card": 19.6,
+  "CA_from_card": 145,
+  "PA_from_card": 191,
+  "story_log": [],
+  "future_records": [
+    "career_chronicle.md",
+    "incremental_events.jsonl",
+    "snapshots/2004-02-16.json"
+  ],
+  "sources": [
+    "https://results.ittf.link/ (individual profile indexed 2004 Swedish Junior Cadet Open, JBS Qualification or Main Draw)",
+    "https://www.megaspin.net/events/ittf2004cal.asp"
+  ]
+}

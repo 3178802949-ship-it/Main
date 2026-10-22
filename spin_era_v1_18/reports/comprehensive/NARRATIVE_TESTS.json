@@ -1,0 +1,12 @@
+{
+  "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+  "command": "python -m unittest discover -s tests -p test_narrative_v118.py -v",
+  "status": "PASSED",
+  "tests_run": 18,
+  "failures": 0,
+  "errors": 0,
+  "observed_runner_seconds": 1.058,
+  "test_sha256": "71b59e1ab9341691881e7fe257e153a234b14ae947c780de6b5be6945720efb2",
+  "runtime_source_sha256": "beff51d245e6a695a96ea3ed1346a31711fc9a5c179a44899ae043cef7e6be8d",
+  "test_correction": "Duplicate-name regression checks both ID-bound display labels and the mentioned winner; result templates may mention the winner alone. Runtime code unchanged."
+}

@@ -1,0 +1,483 @@
+{
+  "version": "V1.1.7-COMPREHENSIVE-AREA-1",
+  "status": "DECLARED_CONTEXT_AND_CALENDAR_CHECKS_PASSED",
+  "calendar_years_checked": 29,
+  "calendars": [
+    {
+      "year": 2000,
+      "events": 7,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2000_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2000_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2000_03",
+        "UNCONFIRMED_EVENT:sandbox_olympic_ms_2000",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2000",
+        "UNCONFIRMED_EVENT:sandbox_world_team_championship_2000",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2000",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2001,
+      "events": 7,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2001_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2001_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2001_03",
+        "UNCONFIRMED_EVENT:sandbox_world_championship_ms_2001",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2001",
+        "UNCONFIRMED_EVENT:sandbox_world_team_championship_2001",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2001",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2002,
+      "events": 5,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2002_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2002_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2002_03",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2002",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2002",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2003,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2003_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2003_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2003_03",
+        "UNCONFIRMED_EVENT:sandbox_world_championship_ms_2003",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2003",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2003",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2004,
+      "events": 7,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2004_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2004_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2004_03",
+        "UNCONFIRMED_EVENT:sandbox_olympic_ms_2004",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2004",
+        "UNCONFIRMED_EVENT:sandbox_world_team_championship_2004",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2004",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2005,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2005_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2005_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2005_03",
+        "UNCONFIRMED_EVENT:sandbox_world_championship_ms_2005",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2005",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2005",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2006,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2006_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2006_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2006_03",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2006",
+        "UNCONFIRMED_EVENT:sandbox_world_team_championship_2006",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2006",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2007,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2007_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2007_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2007_03",
+        "UNCONFIRMED_EVENT:sandbox_world_championship_ms_2007",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2007",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2007",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2008,
+      "events": 7,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2008_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2008_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2008_03",
+        "UNCONFIRMED_EVENT:sandbox_olympic_ms_2008",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2008",
+        "UNCONFIRMED_EVENT:sandbox_world_team_championship_2008",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2008",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2009,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2009_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2009_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2009_03",
+        "UNCONFIRMED_EVENT:sandbox_world_championship_ms_2009",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2009",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2009",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2010,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2010_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2010_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2010_03",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2010",
+        "UNCONFIRMED_EVENT:sandbox_world_team_championship_2010",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2010",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2011,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2011_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2011_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2011_03",
+        "UNCONFIRMED_EVENT:sandbox_world_championship_ms_2011",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2011",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2011",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2012,
+      "events": 7,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2012_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2012_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2012_03",
+        "UNCONFIRMED_EVENT:sandbox_olympic_ms_2012",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2012",
+        "UNCONFIRMED_EVENT:sandbox_world_team_championship_2012",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2012",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2013,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2013_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2013_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2013_03",
+        "UNCONFIRMED_EVENT:sandbox_world_championship_ms_2013",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2013",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2013",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2014,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2014_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2014_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2014_03",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2014",
+        "UNCONFIRMED_EVENT:sandbox_world_team_championship_2014",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2014",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2015,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2015_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2015_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2015_03",
+        "UNCONFIRMED_EVENT:sandbox_world_championship_ms_2015",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2015",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2015",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2016,
+      "events": 7,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2016_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2016_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2016_03",
+        "UNCONFIRMED_EVENT:sandbox_olympic_ms_2016",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2016",
+        "UNCONFIRMED_EVENT:sandbox_world_team_championship_2016",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2016",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2017,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2017_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2017_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2017_03",
+        "UNCONFIRMED_EVENT:sandbox_world_championship_ms_2017",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2017",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2017",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2018,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2018_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2018_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2018_03",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2018",
+        "UNCONFIRMED_EVENT:sandbox_world_team_championship_2018",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2018",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2019,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2019_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2019_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2019_03",
+        "UNCONFIRMED_EVENT:sandbox_world_championship_ms_2019",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2019",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2019",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2020,
+      "events": 5,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2020_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2020_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2020_03",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2020",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2020",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2021,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2021_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2021_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2021_03",
+        "UNCONFIRMED_EVENT:sandbox_olympic_ms_2021",
+        "UNCONFIRMED_EVENT:sandbox_world_championship_ms_2021",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2021",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2022,
+      "events": 5,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2022_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2022_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2022_03",
+        "UNCONFIRMED_EVENT:sandbox_world_team_championship_2022",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2022",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2023,
+      "events": 5,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2023_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2023_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2023_03",
+        "UNCONFIRMED_EVENT:sandbox_world_championship_ms_2023",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2023",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2024,
+      "events": 7,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2024_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2024_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2024_03",
+        "UNCONFIRMED_EVENT:sandbox_olympic_ms_2024",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2024",
+        "UNCONFIRMED_EVENT:sandbox_world_team_championship_2024",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2024",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2025,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2025_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2025_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2025_03",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2025",
+        "UNCONFIRMED_EVENT:sandbox_world_championship_ms_2025",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2025",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2026,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2026_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2026_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2026_03",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2026",
+        "UNCONFIRMED_EVENT:sandbox_world_team_championship_2026",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2026",
+        "FULL_CALENDAR_NOT_CERTIFIED"
+      ]
+    },
+    {
+      "year": 2027,
+      "events": 6,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2027_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2027_02",
+        "UNCONFIRMED_EVENT:sandbox_major_2027_03",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2027",
+        "UNCONFIRMED_EVENT:sandbox_world_championship_ms_2027",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2027",
+        "FULL_CALENDAR_NOT_CERTIFIED",
+        "FORWARD_DATES_NOT_OFFICIALLY_VERIFIED:sandbox_major_2027_01",
+        "FORWARD_DATES_NOT_OFFICIALLY_VERIFIED:sandbox_major_2027_02",
+        "FORWARD_DATES_NOT_OFFICIALLY_VERIFIED:sandbox_major_2027_03",
+        "FORWARD_DATES_NOT_OFFICIALLY_VERIFIED:sandbox_world_cup_ms_2027",
+        "FORWARD_DATES_NOT_OFFICIALLY_VERIFIED:sandbox_world_championship_ms_2027",
+        "FORWARD_DATES_NOT_OFFICIALLY_VERIFIED:sandbox_continental_asia_2027"
+      ]
+    },
+    {
+      "year": 2028,
+      "events": 7,
+      "historical_calendar_verified": false,
+      "warnings": [
+        "UNCONFIRMED_EVENT:sandbox_major_2028_01",
+        "UNCONFIRMED_EVENT:sandbox_major_2028_02",
+        "UNCONFIRMED_EVENT:sandbox_world_cup_ms_2028",
+        "UNCONFIRMED_EVENT:sandbox_world_team_championship_2028",
+        "UNCONFIRMED_EVENT:sandbox_continental_asia_2028",
+        "UNCONFIRMED_EVENT:v117_olympics_2028_adult_singles",
+        "UNCONFIRMED_EVENT:v117_olympics_2028_team",
+        "FULL_CALENDAR_NOT_CERTIFIED",
+        "FORWARD_DATES_NOT_OFFICIALLY_VERIFIED:sandbox_major_2028_01",
+        "FORWARD_DATES_NOT_OFFICIALLY_VERIFIED:sandbox_major_2028_02",
+        "FORWARD_DATES_NOT_OFFICIALLY_VERIFIED:sandbox_world_cup_ms_2028",
+        "FORWARD_DATES_NOT_OFFICIALLY_VERIFIED:sandbox_world_team_championship_2028",
+        "FORWARD_DATES_NOT_OFFICIALLY_VERIFIED:sandbox_continental_asia_2028",
+        "FORWARD_DATES_NOT_OFFICIALLY_VERIFIED:v117_olympics_2028_adult_singles",
+        "FORWARD_DATES_NOT_OFFICIALLY_VERIFIED:v117_olympics_2028_team"
+      ]
+    }
+  ],
+  "rejected_dates": [
+    "1999-12-31",
+    "2028-07-31",
+    "2029-01-01"
+  ],
+  "synthetic_future_source_case": {
+    "valid": true,
+    "errors": [],
+    "warnings": [
+      "FUTURE_SOURCE:SYNTHETIC_TEMPORAL_FIXTURE"
+    ],
+    "version": "V1.1.7-COMPREHENSIVE-AREA-1",
+    "as_of": "2006-02-01",
+    "temporal_precision": "DAY",
+    "source_partition": {
+      "version": "V1.1.7-COMPREHENSIVE-AREA-1",
+      "as_of": "2006-02-01",
+      "temporal_precision": "DAY",
+      "available": [],
+      "design_priors": [
+        {
+          "source_id": "SYNTHETIC_TEMPORAL_FIXTURE",
+          "source_date": "2024-01-01",
+          "temporal_scope": "OUT_OF_WORLD_DESIGN_PRIOR",
+          "not_in_world_knowledge": true,
+          "reason": "FUTURE_SOURCE",
+          "availability_checked_through": "2006-02-01"
+        }
+      ],
+      "excluded": [],
+      "warnings": [
+        "FUTURE_SOURCE:SYNTHETIC_TEMPORAL_FIXTURE"
+      ],
+      "validation_boundary": "TEMPORAL_DECLARATIONS_NOT_HISTORICAL_AUTHENTICATION"
+    },
+    "validation_boundary": "DECLARED_DATE_CHECKS_NOT_OFFICIAL_ERA_AUTHENTICATION",
+    "complete_real_2025_2026_calendars_present": false,
+    "horizon_end": "2028-07-30"
+  },
+  "source_sha256": {
+    "Area/v118.py": "dcf6bb799fe30faa29ef3297862eafac931af825e7f28f8b09089dccfc269fe6",
+    "Area/v117.py": "205c06d343a04e396457665f1b0b7dbf65e574c313bf7e9b8372b6313852dd5c",
+    "Area/__init__.py": "1d1379834f6cb9579e983c614b0e9546e720b18ec41249270a47a46466aee18b",
+    "data/calendar_2027_v117.json": "26cfd0f63d957f3fa19d015c486e958d6b6f8b71caed9ad922219c5ff995884a",
+    "data/calendar_2028_v117.json": "a5fc63f74d509b612bcd226c34345fbae351a45eebfa726c565f5b43fd469129",
+    "examples/audit_era_v118.py": "fe554d831c99aa6dcfc52ed1753ce0dca93e7298c8f5ac32967c8d2ed177bf7e"
+  },
+  "limitations": [
+    "Only source-date declarations were checked; this does not authenticate documents.",
+    "Complete verified real 2025/2026 schedules are not present.",
+    "Forward Olympic dates remain a sandbox window, not independently verified table-tennis dates.",
+    "No equipment chronology is invented from player names or modern papers."
+  ]
+}

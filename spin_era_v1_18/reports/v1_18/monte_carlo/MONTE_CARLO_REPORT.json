@@ -1,0 +1,1221 @@
+{
+  "version": "V1.18-1",
+  "status": "EXECUTED_SELECTED_MATRIX_NOT_HISTORICAL_VALIDATION",
+  "total_matches": 42000,
+  "configurations": 42,
+  "samples_per_configuration": 1000,
+  "source_sha256": {
+    "Game/light_v1_18.py": "abb2c729489f3394c5a47a54dcb7cba27dd8c3ef412f41afc5a7754014c6bc17",
+    "Game/worker_v118.py": "44eb8f29834512dbc6c5e5421cb10c3c4b4bf94d52bdfa04e73d92f624aed6b5",
+    "Game/preferences_v118.py": "4048d022c83fa84d897a122f7dcd8b929fcfbdc22fb8d2a85affde7a34e784dc",
+    "Game/engine_v117.py": "e7cedddcc5ee20e23ad23189912c2901d8f42306bb3bc5fda87970b8e43e1fa1",
+    "Game/geometry.py": "2e7d61939f00c1e0c1fdb081bf158dc419cc2da504b44d542d4c4ef073d433c4",
+    "Game/integration_v118.py": "3206865a266024f937cc18a4c4aa3e60252e2f406e6b3a8dac73f0aeafe37dc4",
+    "Game/formats_v1_18.py": "c13732d0fbf5f6c8a81b5572dab89991b181dcf3f3c200dca79fe5f936f33973",
+    "Game/tactics_v117.py": "7df4d7f367efa86722cca2868746bc4ef92b6155066161bd4831eedb43421484",
+    "Game/observed_tactics.py": "aab648a3356f101d3cbd165cc0f4edeec1271b98a653d260f36facd9189359eb",
+    "Game/__init__.py": "df1ff56c39cad8cf642ace00dff77479562ea17ea880156241fa2833cc2f9e21",
+    "Game/engine_v1_18.py": "86775b454a1d340748bd671bf3853af32edd3d0f627b02ddb3524478ba4f7b06",
+    "Game/v118.py": "1bb924588da4de0a1fc2b442ae43200bc7157a9522bbb18c028ad699030c132d",
+    "Game/v1_18.py": "7922d16ed864d3cbdd9ecf683cfa2e9537ca1d622c24cced5c0db50b124eaabd",
+    "Game/worker.py": "887afee0bc5d71f778cb2f8c0556b524e1acac26ea564a2cc758f922b6ee4879",
+    "Game/worker_v1_18.py": "bfaf171ae5c6c1e27f645a1876b170fd557971fe7655da2fc45a22c1cf58d35a",
+    "Game/fatigue_v1_18.py": "7bbd6e202d1ae1c689494620a953bc0857b4cbee6fe64558a0c3f0307cc057fd",
+    "Game/specialist_engine.py": "131f6da784bf7ca9960018eff8b4768bcac3319573c6fdb777aa73dfa27953f5",
+    "Game/light_v117.py": "d185b1852426ac2e92a8fcd49132d5637093da6cdc2b1425c78d52f366f5a599",
+    "Game/integration_v1_18.py": "1ab5c170660408d13f8ed910788d635e239f4203dbd357fb2201eb78ef917c10",
+    "Game/integration_v117.py": "947f78ff7fdfd1b6fcc52c93b00457ac6e97bcf33ab7959e3d6dcdb550b09e06",
+    "Game/psychology_v1_18.py": "9abbbaa875fb7d432b000934b24edc36108f497c2868655ca30b0a9e6a020685",
+    "runtime/game_v114.py": "124122cd13a576eff5469c5dbe07ab156a118a9e2ba9564401464923012df910",
+    "runtime/game_v113.py": "5cf588b85b625a1dbd29ddab6ce9c29b891243c215e9e8567103b8fa98355d66",
+    "runtime/game_v115.py": "2a75d8bd5fda616908dab28ca915db15fa7dc763176475cc55a0520d69d3836d",
+    "runtime/game_v112.py": "2f75346f624d59638b5e1a7910c2982ac38fb9a6e2da025d752698c29c6b5581",
+    "runtime/tactical_match_v116.py": "108745b40cbb3cceba561658ce6ac7b25e116fec57b2dbeaccd10d7b660cea0a",
+    "runtime/specialist_rubber_v116.py": "e46e8946452e63cc238ca7280525b1419d12ad6afded550f0b9bae477d7ff499",
+    "common/__init__.py": "6404128c46d6fa7bf2484ea380045da4995d925f949d6bf6b2c5d27a510fe58b",
+    "Training/v1_18.py": "148330b77af5870ed5b57c21919a8c36bda7f45d7308b651bd6ccfade007ebfa",
+    "Training/v118.py": "c47478eb2154cfc9a1e2cde6964e9a9d7eae2b47f5eec59331e10894587cb20a",
+    "runtime/career_v118.py": "1a6a3d133e785b1f2e7525148be6fcef0a5c0ced9e45137cb0576ac7c5dcbcb4",
+    "runtime/career_v116.py": "0f175c818647a33f2553e1094bbb5edb50841e4ef179bd8c5c54ca0691562940",
+    "examples/stress_v1_18.py": "b28b5039049ad7b6b5c16f28465ac96b44301f6485bb7f01c7bf072be4553dc3"
+  },
+  "results": {
+    "equal_BO3_serve0_patch0": {
+      "samples": 1000,
+      "A_wins": 491,
+      "games": 2400,
+      "shutouts": 3,
+      "one_point_games": 19,
+      "points": 44206,
+      "A_points": 22011,
+      "total_strokes": 245473,
+      "comeback_games": 162,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.021826182547398345,
+      "early_terminated_games_checked": 2400,
+      "A_win_rate": 0.491,
+      "A_win_Wilson95": [
+        0.4601090331472153,
+        0.5219598485055247
+      ],
+      "shutout_game_rate": 0.00125,
+      "shutout_Wilson95": [
+        0.00042520183682493015,
+        0.003668853028807539
+      ],
+      "mean_points": 44.206,
+      "mean_games": 2.4,
+      "mean_strokes": 5.552933990860969,
+      "comeback_game_rate": 0.0675
+    },
+    "equal_BO3_serve0_patch1": {
+      "samples": 1000,
+      "A_wins": 489,
+      "games": 2398,
+      "shutouts": 2,
+      "one_point_games": 20,
+      "points": 44216,
+      "A_points": 22003,
+      "total_strokes": 245452,
+      "comeback_games": 160,
+      "max_delta": 0.07171875,
+      "XP_max_path_ratio": 0.021826182547398345,
+      "early_terminated_games_checked": 2398,
+      "A_win_rate": 0.489,
+      "A_win_Wilson95": [
+        0.45811915212327226,
+        0.51996503656341
+      ],
+      "shutout_game_rate": 0.0008340283569641367,
+      "shutout_Wilson95": [
+        0.00022875046212107665,
+        0.0030360190720612823
+      ],
+      "mean_points": 44.216,
+      "mean_games": 2.398,
+      "mean_strokes": 5.55120318436765,
+      "comeback_game_rate": 0.06672226855713094
+    },
+    "equal_BO3_serve1_patch0": {
+      "samples": 1000,
+      "A_wins": 511,
+      "games": 2411,
+      "shutouts": 6,
+      "one_point_games": 23,
+      "points": 44310,
+      "A_points": 22291,
+      "total_strokes": 244425,
+      "comeback_games": 172,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.02269950658763515,
+      "early_terminated_games_checked": 2411,
+      "A_win_rate": 0.511,
+      "A_win_Wilson95": [
+        0.48003496343659,
+        0.5418808478767277
+      ],
+      "shutout_game_rate": 0.002488593944421402,
+      "shutout_Wilson95": [
+        0.0011410285909716597,
+        0.005419012343736415
+      ],
+      "mean_points": 44.31,
+      "mean_games": 2.411,
+      "mean_strokes": 5.516249153689912,
+      "comeback_game_rate": 0.07133969307341352
+    },
+    "equal_BO3_serve1_patch1": {
+      "samples": 1000,
+      "A_wins": 510,
+      "games": 2410,
+      "shutouts": 5,
+      "one_point_games": 20,
+      "points": 44323,
+      "A_points": 22291,
+      "total_strokes": 244320,
+      "comeback_games": 171,
+      "max_delta": 0.07171875000000005,
+      "XP_max_path_ratio": 0.02269950658763515,
+      "early_terminated_games_checked": 2410,
+      "A_win_rate": 0.51,
+      "A_win_Wilson95": [
+        0.47903749580454685,
+        0.540885969025742
+      ],
+      "shutout_game_rate": 0.002074688796680498,
+      "shutout_Wilson95": [
+        0.0008864985249161027,
+        0.004847705256411067
+      ],
+      "mean_points": 44.323,
+      "mean_games": 2.41,
+      "mean_strokes": 5.512262256616204,
+      "comeback_game_rate": 0.07095435684647303
+    },
+    "equal_BO5_serve0_patch0": {
+      "samples": 1000,
+      "A_wins": 512,
+      "games": 3859,
+      "shutouts": 6,
+      "one_point_games": 44,
+      "points": 71151,
+      "A_points": 35722,
+      "total_strokes": 402842,
+      "comeback_games": 278,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.027515957418780143,
+      "early_terminated_games_checked": 3859,
+      "A_win_rate": 0.512,
+      "A_win_Wilson95": [
+        0.4810325544060918,
+        0.542875603390255
+      ],
+      "shutout_game_rate": 0.0015548069448043534,
+      "shutout_Wilson95": [
+        0.0007127706951626832,
+        0.003388215324991048
+      ],
+      "mean_points": 71.151,
+      "mean_games": 3.859,
+      "mean_strokes": 5.661789714831836,
+      "comeback_game_rate": 0.07203938844260172
+    },
+    "equal_BO5_serve0_patch1": {
+      "samples": 1000,
+      "A_wins": 514,
+      "games": 3857,
+      "shutouts": 6,
+      "one_point_games": 40,
+      "points": 71160,
+      "A_points": 35728,
+      "total_strokes": 402971,
+      "comeback_games": 280,
+      "max_delta": 0.07171875,
+      "XP_max_path_ratio": 0.027515957418780143,
+      "early_terminated_games_checked": 3857,
+      "A_win_rate": 0.514,
+      "A_win_Wilson95": [
+        0.48302810642681315,
+        0.5448647443355914
+      ],
+      "shutout_game_rate": 0.00155561317085818,
+      "shutout_Wilson95": [
+        0.0007131403916276627,
+        0.0033899700286413783
+      ],
+      "mean_points": 71.16,
+      "mean_games": 3.857,
+      "mean_strokes": 5.662886453063519,
+      "comeback_game_rate": 0.07259528130671507
+    },
+    "equal_BO5_serve1_patch0": {
+      "samples": 1000,
+      "A_wins": 504,
+      "games": 3882,
+      "shutouts": 5,
+      "one_point_games": 43,
+      "points": 72038,
+      "A_points": 36089,
+      "total_strokes": 404874,
+      "comeback_games": 277,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.03181685538108862,
+      "early_terminated_games_checked": 3882,
+      "A_win_rate": 0.504,
+      "A_win_Wilson95": [
+        0.4730552793350455,
+        0.5349141065970701
+      ],
+      "shutout_game_rate": 0.001287995878413189,
+      "shutout_Wilson95": [
+        0.0005502764053176936,
+        0.0030117471531253288
+      ],
+      "mean_points": 72.038,
+      "mean_games": 3.882,
+      "mean_strokes": 5.620283739137677,
+      "comeback_game_rate": 0.07135497166409067
+    },
+    "equal_BO5_serve1_patch1": {
+      "samples": 1000,
+      "A_wins": 507,
+      "games": 3882,
+      "shutouts": 5,
+      "one_point_games": 38,
+      "points": 72049,
+      "A_points": 36128,
+      "total_strokes": 405030,
+      "comeback_games": 276,
+      "max_delta": 0.07171875000000005,
+      "XP_max_path_ratio": 0.03181685538108862,
+      "early_terminated_games_checked": 3882,
+      "A_win_rate": 0.507,
+      "A_win_Wilson95": [
+        0.4760458327856871,
+        0.5379005925955151
+      ],
+      "shutout_game_rate": 0.001287995878413189,
+      "shutout_Wilson95": [
+        0.0005502764053176936,
+        0.0030117471531253288
+      ],
+      "mean_points": 72.049,
+      "mean_games": 3.882,
+      "mean_strokes": 5.621590861774625,
+      "comeback_game_rate": 0.07109737248840804
+    },
+    "equal_BO7_serve0_patch0": {
+      "samples": 1000,
+      "A_wins": 500,
+      "games": 5351,
+      "shutouts": 19,
+      "one_point_games": 49,
+      "points": 98551,
+      "A_points": 49236,
+      "total_strokes": 557801,
+      "comeback_games": 383,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.02918507989838805,
+      "early_terminated_games_checked": 5351,
+      "A_win_rate": 0.5,
+      "A_win_Wilson95": [
+        0.469069600368105,
+        0.5309303996318949
+      ],
+      "shutout_game_rate": 0.0035507381797794803,
+      "shutout_Wilson95": [
+        0.0022743911922120923,
+        0.005539371202521575
+      ],
+      "mean_points": 98.551,
+      "mean_games": 5.351,
+      "mean_strokes": 5.660023744051303,
+      "comeback_game_rate": 0.07157540646608111
+    },
+    "equal_BO7_serve0_patch1": {
+      "samples": 1000,
+      "A_wins": 498,
+      "games": 5343,
+      "shutouts": 19,
+      "one_point_games": 46,
+      "points": 98405,
+      "A_points": 49163,
+      "total_strokes": 556971,
+      "comeback_games": 386,
+      "max_delta": 0.07171875000000005,
+      "XP_max_path_ratio": 0.02918507989838805,
+      "early_terminated_games_checked": 5343,
+      "A_win_rate": 0.498,
+      "A_win_Wilson95": [
+        0.4670775003823501,
+        0.5289378066515922
+      ],
+      "shutout_game_rate": 0.003556054650945162,
+      "shutout_Wilson95": [
+        0.002277798311021169,
+        0.005547655116566062
+      ],
+      "mean_points": 98.405,
+      "mean_games": 5.343,
+      "mean_strokes": 5.659986789289162,
+      "comeback_game_rate": 0.0722440576455175
+    },
+    "equal_BO7_serve1_patch0": {
+      "samples": 1000,
+      "A_wins": 488,
+      "games": 5401,
+      "shutouts": 10,
+      "one_point_games": 54,
+      "points": 99718,
+      "A_points": 49568,
+      "total_strokes": 562608,
+      "comeback_games": 362,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.030478605071915098,
+      "early_terminated_games_checked": 5401,
+      "A_win_rate": 0.488,
+      "A_win_Wilson95": [
+        0.4571243966097451,
+        0.5189674455939083
+      ],
+      "shutout_game_rate": 0.0018515089798185522,
+      "shutout_Wilson95": [
+        0.0010060367367548686,
+        0.0034050933587976453
+      ],
+      "mean_points": 99.718,
+      "mean_games": 5.401,
+      "mean_strokes": 5.64199041296456,
+      "comeback_game_rate": 0.06702462506943159
+    },
+    "equal_BO7_serve1_patch1": {
+      "samples": 1000,
+      "A_wins": 489,
+      "games": 5398,
+      "shutouts": 9,
+      "one_point_games": 49,
+      "points": 99638,
+      "A_points": 49527,
+      "total_strokes": 561852,
+      "comeback_games": 363,
+      "max_delta": 0.07171875000000005,
+      "XP_max_path_ratio": 0.030478605071915098,
+      "early_terminated_games_checked": 5398,
+      "A_win_rate": 0.489,
+      "A_win_Wilson95": [
+        0.45811915212327226,
+        0.51996503656341
+      ],
+      "shutout_game_rate": 0.0016672841793256763,
+      "shutout_Wilson95": [
+        0.0008774295547589494,
+        0.0031659062201236862
+      ],
+      "mean_points": 99.638,
+      "mean_games": 5.398,
+      "mean_strokes": 5.6389329372327825,
+      "comeback_game_rate": 0.0672471285661356
+    },
+    "gap-20_patch0": {
+      "samples": 1000,
+      "A_wins": 1000,
+      "games": 3000,
+      "shutouts": 1076,
+      "one_point_games": 1003,
+      "points": 36367,
+      "A_points": 33000,
+      "total_strokes": 112501,
+      "comeback_games": 1,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.019082222293380746,
+      "early_terminated_games_checked": 3000,
+      "A_win_rate": 1.0,
+      "A_win_Wilson95": [
+        0.9961732415144451,
+        1.0
+      ],
+      "shutout_game_rate": 0.3586666666666667,
+      "shutout_Wilson95": [
+        0.34169515991256577,
+        0.3759996613271263
+      ],
+      "mean_points": 36.367,
+      "mean_games": 3.0,
+      "mean_strokes": 3.093491352049935,
+      "comeback_game_rate": 0.0003333333333333333
+    },
+    "gap-20_patch1": {
+      "samples": 1000,
+      "A_wins": 1000,
+      "games": 3000,
+      "shutouts": 1043,
+      "one_point_games": 998,
+      "points": 36466,
+      "A_points": 33000,
+      "total_strokes": 112758,
+      "comeback_games": 1,
+      "max_delta": 0.07171875000000005,
+      "XP_max_path_ratio": 0.019082222293380746,
+      "early_terminated_games_checked": 3000,
+      "A_win_rate": 1.0,
+      "A_win_Wilson95": [
+        0.9961732415144451,
+        1.0
+      ],
+      "shutout_game_rate": 0.3476666666666667,
+      "shutout_Wilson95": [
+        0.33082992254472204,
+        0.3648930333669272
+      ],
+      "mean_points": 36.466,
+      "mean_games": 3.0,
+      "mean_strokes": 3.0921406241430374,
+      "comeback_game_rate": 0.0003333333333333333
+    },
+    "gap-15_patch0": {
+      "samples": 1000,
+      "A_wins": 1000,
+      "games": 3002,
+      "shutouts": 525,
+      "one_point_games": 730,
+      "points": 39420,
+      "A_points": 33024,
+      "total_strokes": 149598,
+      "comeback_games": 6,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.023164939211466704,
+      "early_terminated_games_checked": 3002,
+      "A_win_rate": 1.0,
+      "A_win_Wilson95": [
+        0.9961732415144451,
+        1.0
+      ],
+      "shutout_game_rate": 0.1748834110592938,
+      "shutout_Wilson95": [
+        0.16171264032843075,
+        0.18888517837161345
+      ],
+      "mean_points": 39.42,
+      "mean_games": 3.002,
+      "mean_strokes": 3.7949771689497718,
+      "comeback_game_rate": 0.001998667554963358
+    },
+    "gap-15_patch1": {
+      "samples": 1000,
+      "A_wins": 1000,
+      "games": 3002,
+      "shutouts": 507,
+      "one_point_games": 720,
+      "points": 39525,
+      "A_points": 33025,
+      "total_strokes": 149767,
+      "comeback_games": 8,
+      "max_delta": 0.07171875000000005,
+      "XP_max_path_ratio": 0.023164939211466704,
+      "early_terminated_games_checked": 3002,
+      "A_win_rate": 1.0,
+      "A_win_Wilson95": [
+        0.9961732415144451,
+        1.0
+      ],
+      "shutout_game_rate": 0.16888740839440372,
+      "shutout_Wilson95": [
+        0.15591040060493042,
+        0.18271073852195882
+      ],
+      "mean_points": 39.525,
+      "mean_games": 3.002,
+      "mean_strokes": 3.7891714104996836,
+      "comeback_game_rate": 0.002664890073284477
+    },
+    "gap-10_patch0": {
+      "samples": 1000,
+      "A_wins": 1000,
+      "games": 3059,
+      "shutouts": 130,
+      "one_point_games": 306,
+      "points": 45870,
+      "A_points": 33578,
+      "total_strokes": 206801,
+      "comeback_games": 44,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.02623968801161333,
+      "early_terminated_games_checked": 3059,
+      "A_win_rate": 1.0,
+      "A_win_Wilson95": [
+        0.9961732415144451,
+        1.0
+      ],
+      "shutout_game_rate": 0.04249754821837202,
+      "shutout_Wilson95": [
+        0.035904408359886675,
+        0.050238300091723004
+      ],
+      "mean_points": 45.87,
+      "mean_games": 3.059,
+      "mean_strokes": 4.508415086112928,
+      "comeback_game_rate": 0.014383785550833606
+    },
+    "gap-10_patch1": {
+      "samples": 1000,
+      "A_wins": 1000,
+      "games": 3059,
+      "shutouts": 124,
+      "one_point_games": 302,
+      "points": 45962,
+      "A_points": 33578,
+      "total_strokes": 207087,
+      "comeback_games": 45,
+      "max_delta": 0.07171875000000005,
+      "XP_max_path_ratio": 0.02623968801161333,
+      "early_terminated_games_checked": 3059,
+      "A_win_rate": 1.0,
+      "A_win_Wilson95": [
+        0.9961732415144451,
+        1.0
+      ],
+      "shutout_game_rate": 0.040536122915985615,
+      "shutout_Wilson95": [
+        0.03410438199041506,
+        0.048120395950804945
+      ],
+      "mean_points": 45.962,
+      "mean_games": 3.059,
+      "mean_strokes": 4.505613332753144,
+      "comeback_game_rate": 0.014710689767898006
+    },
+    "gap-5_patch0": {
+      "samples": 1000,
+      "A_wins": 932,
+      "games": 3426,
+      "shutouts": 30,
+      "one_point_games": 85,
+      "points": 59592,
+      "A_points": 36401,
+      "total_strokes": 306673,
+      "comeback_games": 182,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.028258332007114657,
+      "early_terminated_games_checked": 3426,
+      "A_win_rate": 0.932,
+      "A_win_Wilson95": [
+        0.9146861384770111,
+        0.9460075421914695
+      ],
+      "shutout_game_rate": 0.008756567425569177,
+      "shutout_Wilson95": [
+        0.006140649915481005,
+        0.012472880647720296
+      ],
+      "mean_points": 59.592,
+      "mean_games": 3.426,
+      "mean_strokes": 5.1462109007920525,
+      "comeback_game_rate": 0.05312317571511967
+    },
+    "gap-5_patch1": {
+      "samples": 1000,
+      "A_wins": 934,
+      "games": 3423,
+      "shutouts": 28,
+      "one_point_games": 83,
+      "points": 59592,
+      "A_points": 36380,
+      "total_strokes": 306777,
+      "comeback_games": 180,
+      "max_delta": 0.07171875000000005,
+      "XP_max_path_ratio": 0.028258332007114657,
+      "early_terminated_games_checked": 3423,
+      "A_win_rate": 0.934,
+      "A_win_Wilson95": [
+        0.9168907240940246,
+        0.9477876495405139
+      ],
+      "shutout_game_rate": 0.0081799591002045,
+      "shutout_Wilson95": [
+        0.0056655690523722685,
+        0.011797000938037396
+      ],
+      "mean_points": 59.592,
+      "mean_games": 3.423,
+      "mean_strokes": 5.1479561014901325,
+      "comeback_game_rate": 0.05258545135845749
+    },
+    "gap+5_patch0": {
+      "samples": 1000,
+      "A_wins": 40,
+      "games": 3354,
+      "shutouts": 27,
+      "one_point_games": 128,
+      "points": 57155,
+      "A_points": 21169,
+      "total_strokes": 334751,
+      "comeback_games": 164,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.029861271544910056,
+      "early_terminated_games_checked": 3354,
+      "A_win_rate": 0.04,
+      "A_win_Wilson95": [
+        0.02951097368545301,
+        0.05400964412125751
+      ],
+      "shutout_game_rate": 0.008050089445438283,
+      "shutout_Wilson95": [
+        0.0055384623425971105,
+        0.011687323785199523
+      ],
+      "mean_points": 57.155,
+      "mean_games": 3.354,
+      "mean_strokes": 5.856897909194296,
+      "comeback_game_rate": 0.04889683959451401
+    },
+    "gap+5_patch1": {
+      "samples": 1000,
+      "A_wins": 40,
+      "games": 3356,
+      "shutouts": 26,
+      "one_point_games": 126,
+      "points": 57261,
+      "A_points": 21258,
+      "total_strokes": 335287,
+      "comeback_games": 165,
+      "max_delta": 0.07171875000000005,
+      "XP_max_path_ratio": 0.029861271544910056,
+      "early_terminated_games_checked": 3356,
+      "A_win_rate": 0.04,
+      "A_win_Wilson95": [
+        0.02951097368545301,
+        0.05400964412125751
+      ],
+      "shutout_game_rate": 0.0077473182359952325,
+      "shutout_Wilson95": [
+        0.005292518814016824,
+        0.011327747203027412
+      ],
+      "mean_points": 57.261,
+      "mean_games": 3.356,
+      "mean_strokes": 5.855416426538133,
+      "comeback_game_rate": 0.04916567342073898
+    },
+    "gap+10_patch0": {
+      "samples": 1000,
+      "A_wins": 0,
+      "games": 3027,
+      "shutouts": 181,
+      "one_point_games": 388,
+      "points": 44226,
+      "A_points": 10930,
+      "total_strokes": 256438,
+      "comeback_games": 36,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.027191592770263,
+      "early_terminated_games_checked": 3027,
+      "A_win_rate": 0.0,
+      "A_win_Wilson95": [
+        -2.168404344971009e-19,
+        0.0038267584855549135
+      ],
+      "shutout_game_rate": 0.05979517674264949,
+      "shutout_Wilson95": [
+        0.05189336989686132,
+        0.06881286425998684
+      ],
+      "mean_points": 44.226,
+      "mean_games": 3.027,
+      "mean_strokes": 5.79835390946502,
+      "comeback_game_rate": 0.011892963330029732
+    },
+    "gap+10_patch1": {
+      "samples": 1000,
+      "A_wins": 0,
+      "games": 3026,
+      "shutouts": 170,
+      "one_point_games": 381,
+      "points": 44246,
+      "A_points": 10960,
+      "total_strokes": 256695,
+      "comeback_games": 36,
+      "max_delta": 0.07171875000000005,
+      "XP_max_path_ratio": 0.027191592770263,
+      "early_terminated_games_checked": 3026,
+      "A_win_rate": 0.0,
+      "A_win_Wilson95": [
+        -2.168404344971009e-19,
+        0.0038267584855549135
+      ],
+      "shutout_game_rate": 0.056179775280898875,
+      "shutout_Wilson95": [
+        0.04852397264244884,
+        0.06496099463848849
+      ],
+      "mean_points": 44.246,
+      "mean_games": 3.026,
+      "mean_strokes": 5.801541382271844,
+      "comeback_game_rate": 0.011896893588896233
+    },
+    "gap+15_patch0": {
+      "samples": 1000,
+      "A_wins": 0,
+      "games": 3000,
+      "shutouts": 587,
+      "one_point_games": 809,
+      "points": 38764,
+      "A_points": 5762,
+      "total_strokes": 212529,
+      "comeback_games": 6,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.029038787842904965,
+      "early_terminated_games_checked": 3000,
+      "A_win_rate": 0.0,
+      "A_win_Wilson95": [
+        -2.168404344971009e-19,
+        0.0038267584855549135
+      ],
+      "shutout_game_rate": 0.19566666666666666,
+      "shutout_Wilson95": [
+        0.1818636732372474,
+        0.21024805268690094
+      ],
+      "mean_points": 38.764,
+      "mean_games": 3.0,
+      "mean_strokes": 5.4826385305953975,
+      "comeback_game_rate": 0.002
+    },
+    "gap+15_patch1": {
+      "samples": 1000,
+      "A_wins": 0,
+      "games": 3000,
+      "shutouts": 548,
+      "one_point_games": 798,
+      "points": 38909,
+      "A_points": 5907,
+      "total_strokes": 213352,
+      "comeback_games": 6,
+      "max_delta": 0.07171875000000003,
+      "XP_max_path_ratio": 0.029038787842904965,
+      "early_terminated_games_checked": 3000,
+      "A_win_rate": 0.0,
+      "A_win_Wilson95": [
+        -2.168404344971009e-19,
+        0.0038267584855549135
+      ],
+      "shutout_game_rate": 0.18266666666666667,
+      "shutout_Wilson95": [
+        0.16924873173083774,
+        0.19689624426016908
+      ],
+      "mean_points": 38.909,
+      "mean_games": 3.0,
+      "mean_strokes": 5.483358605978052,
+      "comeback_game_rate": 0.002
+    },
+    "gap+20_patch0": {
+      "samples": 1000,
+      "A_wins": 0,
+      "games": 3000,
+      "shutouts": 1178,
+      "one_point_games": 991,
+      "points": 36091,
+      "A_points": 3091,
+      "total_strokes": 184027,
+      "comeback_games": 0,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.025517738683333895,
+      "early_terminated_games_checked": 3000,
+      "A_win_rate": 0.0,
+      "A_win_Wilson95": [
+        -2.168404344971009e-19,
+        0.0038267584855549135
+      ],
+      "shutout_game_rate": 0.39266666666666666,
+      "shutout_Wilson95": [
+        0.3753397344826639,
+        0.4102681250437059
+      ],
+      "mean_points": 36.091,
+      "mean_games": 3.0,
+      "mean_strokes": 5.09897204289158,
+      "comeback_game_rate": 0.0
+    },
+    "gap+20_patch1": {
+      "samples": 1000,
+      "A_wins": 0,
+      "games": 3000,
+      "shutouts": 1148,
+      "one_point_games": 986,
+      "points": 36182,
+      "A_points": 3182,
+      "total_strokes": 184391,
+      "comeback_games": 0,
+      "max_delta": 0.07171875000000003,
+      "XP_max_path_ratio": 0.025517738683333895,
+      "early_terminated_games_checked": 3000,
+      "A_win_rate": 0.0,
+      "A_win_Wilson95": [
+        -2.168404344971009e-19,
+        0.0038267584855549135
+      ],
+      "shutout_game_rate": 0.38266666666666665,
+      "shutout_Wilson95": [
+        0.365434870123343,
+        0.4001985663775333
+      ],
+      "mean_points": 36.182,
+      "mean_games": 3.0,
+      "mean_strokes": 5.096208059255984,
+      "comeback_game_rate": 0.0
+    },
+    "wings_patch0": {
+      "samples": 1000,
+      "A_wins": 517,
+      "games": 3895,
+      "shutouts": 8,
+      "one_point_games": 31,
+      "points": 72462,
+      "A_points": 36503,
+      "total_strokes": 402112,
+      "comeback_games": 280,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.02693660901623157,
+      "early_terminated_games_checked": 3895,
+      "A_win_rate": 0.517,
+      "A_win_Wilson95": [
+        0.48602235996108856,
+        0.5478475302504026
+      ],
+      "shutout_game_rate": 0.0020539152759948653,
+      "shutout_Wilson95": [
+        0.001041124875340898,
+        0.0040479404355362155
+      ],
+      "mean_points": 72.462,
+      "mean_games": 3.895,
+      "mean_strokes": 5.54928100245646,
+      "comeback_game_rate": 0.07188703465982028
+    },
+    "wings_patch1": {
+      "samples": 1000,
+      "A_wins": 517,
+      "games": 3896,
+      "shutouts": 8,
+      "one_point_games": 29,
+      "points": 72521,
+      "A_points": 36528,
+      "total_strokes": 402440,
+      "comeback_games": 280,
+      "max_delta": 0.07171875000000005,
+      "XP_max_path_ratio": 0.02693660901623157,
+      "early_terminated_games_checked": 3896,
+      "A_win_rate": 0.517,
+      "A_win_Wilson95": [
+        0.48602235996108856,
+        0.5478475302504026
+      ],
+      "shutout_game_rate": 0.002053388090349076,
+      "shutout_Wilson95": [
+        0.0010408575550192695,
+        0.0040469028142686506
+      ],
+      "mean_points": 72.521,
+      "mean_games": 3.896,
+      "mean_strokes": 5.549289171412418,
+      "comeback_game_rate": 0.07186858316221766
+    },
+    "left_right_patch0": {
+      "samples": 1000,
+      "A_wins": 509,
+      "games": 3893,
+      "shutouts": 10,
+      "one_point_games": 40,
+      "points": 71744,
+      "A_points": 36008,
+      "total_strokes": 401551,
+      "comeback_games": 276,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.026344523463598554,
+      "early_terminated_games_checked": 3893,
+      "A_win_rate": 0.509,
+      "A_win_Wilson95": [
+        0.4780401514944754,
+        0.5398909668527847
+      ],
+      "shutout_game_rate": 0.0025687130747495505,
+      "shutout_Wilson95": [
+        0.0013958982568580958,
+        0.00472225129390887
+      ],
+      "mean_points": 71.744,
+      "mean_games": 3.893,
+      "mean_strokes": 5.596997658340767,
+      "comeback_game_rate": 0.0708964808630876
+    },
+    "left_right_patch1": {
+      "samples": 1000,
+      "A_wins": 507,
+      "games": 3889,
+      "shutouts": 10,
+      "one_point_games": 38,
+      "points": 71730,
+      "A_points": 36001,
+      "total_strokes": 401491,
+      "comeback_games": 278,
+      "max_delta": 0.07171875000000005,
+      "XP_max_path_ratio": 0.026344523463598554,
+      "early_terminated_games_checked": 3889,
+      "A_win_rate": 0.507,
+      "A_win_Wilson95": [
+        0.4760458327856871,
+        0.5379005925955151
+      ],
+      "shutout_game_rate": 0.0025713551041398816,
+      "shutout_Wilson95": [
+        0.0013973345914555383,
+        0.004727101523627478
+      ],
+      "mean_points": 71.73,
+      "mean_games": 3.889,
+      "mean_strokes": 5.59725358985083,
+      "comeback_game_rate": 0.07148367189508871
+    },
+    "chopper_patch0": {
+      "samples": 1000,
+      "A_wins": 726,
+      "games": 3805,
+      "shutouts": 12,
+      "one_point_games": 47,
+      "points": 69257,
+      "A_points": 37789,
+      "total_strokes": 431304,
+      "comeback_games": 254,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.033636406331786335,
+      "early_terminated_games_checked": 3805,
+      "A_win_rate": 0.726,
+      "A_win_Wilson95": [
+        0.6975311299399668,
+        0.7527391752245624
+      ],
+      "shutout_game_rate": 0.0031537450722733244,
+      "shutout_Wilson95": [
+        0.001805028981429095,
+        0.005504663249581821
+      ],
+      "mean_points": 69.257,
+      "mean_games": 3.805,
+      "mean_strokes": 6.227587103108711,
+      "comeback_game_rate": 0.06675427069645204
+    },
+    "chopper_patch1": {
+      "samples": 1000,
+      "A_wins": 725,
+      "games": 3805,
+      "shutouts": 12,
+      "one_point_games": 42,
+      "points": 69299,
+      "A_points": 37784,
+      "total_strokes": 431355,
+      "comeback_games": 255,
+      "max_delta": 0.07171875000000005,
+      "XP_max_path_ratio": 0.033636406331786335,
+      "early_terminated_games_checked": 3805,
+      "A_win_rate": 0.725,
+      "A_win_Wilson95": [
+        0.6965038327040274,
+        0.7517741259774728
+      ],
+      "shutout_game_rate": 0.0031537450722733244,
+      "shutout_Wilson95": [
+        0.001805028981429095,
+        0.005504663249581821
+      ],
+      "mean_points": 69.299,
+      "mean_games": 3.805,
+      "mean_strokes": 6.22454869478636,
+      "comeback_game_rate": 0.06701708278580815
+    },
+    "fatigue_patch0": {
+      "samples": 1000,
+      "A_wins": 817,
+      "games": 3680,
+      "shutouts": 12,
+      "one_point_games": 63,
+      "points": 66518,
+      "A_points": 37680,
+      "total_strokes": 345441,
+      "comeback_games": 247,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.024696327398708192,
+      "early_terminated_games_checked": 3680,
+      "A_win_rate": 0.817,
+      "A_win_Wilson95": [
+        0.7918366762890637,
+        0.8397371588310943
+      ],
+      "shutout_game_rate": 0.003260869565217391,
+      "shutout_Wilson95": [
+        0.0018663723032314547,
+        0.005691352189506836
+      ],
+      "mean_points": 66.518,
+      "mean_games": 3.68,
+      "mean_strokes": 5.193195826693526,
+      "comeback_game_rate": 0.0671195652173913
+    },
+    "fatigue_patch1": {
+      "samples": 1000,
+      "A_wins": 818,
+      "games": 3679,
+      "shutouts": 11,
+      "one_point_games": 60,
+      "points": 66544,
+      "A_points": 37681,
+      "total_strokes": 345669,
+      "comeback_games": 246,
+      "max_delta": 0.07171875000000005,
+      "XP_max_path_ratio": 0.024696327398708192,
+      "early_terminated_games_checked": 3679,
+      "A_win_rate": 0.818,
+      "A_win_Wilson95": [
+        0.7928834388314782,
+        0.8406827427717088
+      ],
+      "shutout_game_rate": 0.002989942919271541,
+      "shutout_Wilson95": [
+        0.0016703849834545088,
+        0.005346332708479146
+      ],
+      "mean_points": 66.544,
+      "mean_games": 3.679,
+      "mean_strokes": 5.194593051214234,
+      "comeback_game_rate": 0.0668659961946181
+    },
+    "full_BO3_serve0": {
+      "samples": 1000,
+      "A_wins": 505,
+      "games": 2424,
+      "shutouts": 5,
+      "one_point_games": 14,
+      "points": 45239,
+      "A_points": 22786,
+      "total_strokes": 205164,
+      "comeback_games": 179,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.03050954441580744,
+      "early_terminated_games_checked": 2424,
+      "A_win_rate": 0.505,
+      "A_win_Wilson95": [
+        0.47405200721586993,
+        0.5359097251992745
+      ],
+      "shutout_game_rate": 0.0020627062706270625,
+      "shutout_Wilson95": [
+        0.000881376670947218,
+        0.004819761173291302
+      ],
+      "mean_points": 45.239,
+      "mean_games": 2.424,
+      "mean_strokes": 4.535113508256151,
+      "comeback_game_rate": 0.07384488448844885
+    },
+    "full_BO3_serve1": {
+      "samples": 1000,
+      "A_wins": 511,
+      "games": 2401,
+      "shutouts": 3,
+      "one_point_games": 24,
+      "points": 44870,
+      "A_points": 22412,
+      "total_strokes": 202806,
+      "comeback_games": 166,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.029833790048595366,
+      "early_terminated_games_checked": 2401,
+      "A_win_rate": 0.511,
+      "A_win_Wilson95": [
+        0.48003496343659,
+        0.5418808478767277
+      ],
+      "shutout_game_rate": 0.0012494793835901709,
+      "shutout_Wilson95": [
+        0.0004250247060990694,
+        0.003667327737591772
+      ],
+      "mean_points": 44.87,
+      "mean_games": 2.401,
+      "mean_strokes": 4.5198573657232,
+      "comeback_game_rate": 0.06913785922532278
+    },
+    "full_BO5_serve0": {
+      "samples": 1000,
+      "A_wins": 508,
+      "games": 3937,
+      "shutouts": 4,
+      "one_point_games": 37,
+      "points": 73597,
+      "A_points": 36937,
+      "total_strokes": 336116,
+      "comeback_games": 287,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.03955471947495264,
+      "early_terminated_games_checked": 3937,
+      "A_win_rate": 0.508,
+      "A_win_Wilson95": [
+        0.4770429304923662,
+        0.538895841371865
+      ],
+      "shutout_game_rate": 0.001016002032004064,
+      "shutout_Wilson95": [
+        0.00039517206298510027,
+        0.0026096326073954982
+      ],
+      "mean_points": 73.597,
+      "mean_games": 3.937,
+      "mean_strokes": 4.56697963232197,
+      "comeback_game_rate": 0.07289814579629159
+    },
+    "full_BO5_serve1": {
+      "samples": 1000,
+      "A_wins": 497,
+      "games": 3948,
+      "shutouts": 3,
+      "one_point_games": 25,
+      "points": 73594,
+      "A_points": 36695,
+      "total_strokes": 336613,
+      "comeback_games": 280,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.037033948071773626,
+      "early_terminated_games_checked": 3948,
+      "A_win_rate": 0.497,
+      "A_win_Wilson95": [
+        0.4660816352651906,
+        0.5279413252857228
+      ],
+      "shutout_game_rate": 0.0007598784194528875,
+      "shutout_Wilson95": [
+        0.00025846013229500076,
+        0.002231887449520894
+      ],
+      "mean_points": 73.594,
+      "mean_games": 3.948,
+      "mean_strokes": 4.57391906948936,
+      "comeback_game_rate": 0.07092198581560284
+    },
+    "full_BO7_serve0": {
+      "samples": 1000,
+      "A_wins": 475,
+      "games": 5433,
+      "shutouts": 6,
+      "one_point_games": 40,
+      "points": 101598,
+      "A_points": 50516,
+      "total_strokes": 466417,
+      "comeback_games": 390,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.04005138682583219,
+      "early_terminated_games_checked": 5433,
+      "A_win_rate": 0.475,
+      "A_win_Wilson95": [
+        0.4442038083855149,
+        0.5059875295387628
+      ],
+      "shutout_game_rate": 0.0011043622308117063,
+      "shutout_Wilson95": [
+        0.0005062343139490384,
+        0.002407490307355274
+      ],
+      "mean_points": 101.598,
+      "mean_games": 5.433,
+      "mean_strokes": 4.5908088741904365,
+      "comeback_game_rate": 0.0717835450027609
+    },
+    "full_BO7_serve1": {
+      "samples": 1000,
+      "A_wins": 504,
+      "games": 5439,
+      "shutouts": 5,
+      "one_point_games": 30,
+      "points": 102001,
+      "A_points": 50905,
+      "total_strokes": 466357,
+      "comeback_games": 399,
+      "max_delta": 0.0,
+      "XP_max_path_ratio": 0.04047830094781594,
+      "early_terminated_games_checked": 5439,
+      "A_win_rate": 0.504,
+      "A_win_Wilson95": [
+        0.4730552793350455,
+        0.5349141065970701
+      ],
+      "shutout_game_rate": 0.0009192866335723479,
+      "shutout_Wilson95": [
+        0.0003927262140873478,
+        0.00215033129097049
+      ],
+      "mean_points": 102.001,
+      "mean_games": 5.439,
+      "mean_strokes": 4.572082626640915,
+      "comeback_game_rate": 0.07335907335907337
+    }
+  },
+  "elapsed_seconds": 875.4292011840007
+}

@@ -1,0 +1,205 @@
+{
+  "version": "V1.1.6-AREA-CANDIDATE",
+  "eras": [
+    {
+      "era_id": "2000_2004",
+      "start_year": 2000,
+      "end_year_exclusive": 2004,
+      "theme_zh": "小球转大球与11分制过渡",
+      "innovations_zh": "发接发变化、近台衔接",
+      "counter_zh": "接发阅读、落点压缩",
+      "status": "ASSESSMENT_DESIGN_PRIOR",
+      "problem": "small-ball speed after 21->11 and 40mm transitions",
+      "innovations": [
+        "serve_return_variation",
+        "near_table_transition"
+      ],
+      "counter": [
+        "receive_reading",
+        "placement_compression"
+      ]
+    },
+    {
+      "era_id": "2004_2008",
+      "start_year": 2004,
+      "end_year_exclusive": 2008,
+      "theme_zh": "直板正手体系与横打连续性",
+      "innovations_zh": "反面横打、主动接发",
+      "counter_zh": "反手大角压制、台内中路",
+      "status": "ASSESSMENT_DESIGN_PRIOR",
+      "problem": "penhold FH dependence and RPB continuous follow-up",
+      "innovations": [
+        "reverse_penhold_backhand",
+        "active_receive"
+      ],
+      "counter": [
+        "wide_bh_pressure",
+        "middle_short"
+      ]
+    },
+    {
+      "era_id": "2008_2012",
+      "start_year": 2008,
+      "end_year_exclusive": 2012,
+      "theme_zh": "接发主动化与反手转换",
+      "innovations_zh": "反手拧拉、两面反拉",
+      "counter_zh": "短球欺骗、旋转识别",
+      "status": "ASSESSMENT_DESIGN_PRIOR",
+      "problem": "fast receive initiation and BH transition",
+      "innovations": [
+        "banana_flick",
+        "two_wing_counter"
+      ],
+      "counter": [
+        "short_deception",
+        "spin_reading"
+      ]
+    },
+    {
+      "era_id": "2012_2016",
+      "start_year": 2012,
+      "end_year_exclusive": 2016,
+      "theme_zh": "发接发与全面进攻体系",
+      "innovations_zh": "两面主动、衔接纵深",
+      "counter_zh": "早期反制、连续质量",
+      "status": "ASSESSMENT_DESIGN_PRIOR",
+      "problem": "serve receive plus versatile attack system",
+      "innovations": [
+        "two_wing_initiative",
+        "transition_depth"
+      ],
+      "counter": [
+        "early_counter",
+        "quality_chains"
+      ]
+    },
+    {
+      "era_id": "2016_2021",
+      "start_year": 2016,
+      "end_year_exclusive": 2021,
+      "theme_zh": "回球质量与运动连续性",
+      "innovations_zh": "高质量相持、旋转速度混合",
+      "counter_zh": "接发纵深、追身压制",
+      "status": "ASSESSMENT_DESIGN_PRIOR",
+      "problem": "increased shot quality and athletic continuity",
+      "innovations": [
+        "high_quality_rally",
+        "spin_speed_mix"
+      ],
+      "counter": [
+        "deep_receive",
+        "body_line_attack"
+      ]
+    },
+    {
+      "era_id": "2021_2024",
+      "start_year": 2021,
+      "end_year_exclusive": 2024,
+      "theme_zh": "近台速度与顶尖球员相互适应",
+      "innovations_zh": "快速衔接、反手压迫",
+      "counter_zh": "节奏欺骗、反阅读",
+      "status": "ASSESSMENT_DESIGN_PRIOR",
+      "problem": "near-table speed and top-player adaptation",
+      "innovations": [
+        "fast_transition",
+        "backhand_pressure"
+      ],
+      "counter": [
+        "pace_deception",
+        "counter_reading"
+      ]
+    },
+    {
+      "era_id": "2024_2028",
+      "start_year": 2024,
+      "end_year_exclusive": 2028,
+      "theme_zh": "新一代打法竞争（候选评估）",
+      "innovations_zh": "拧拉升级、快速正手还原",
+      "counter_zh": "发球落点、多线路阅读",
+      "status": "ASSESSMENT_DESIGN_PRIOR",
+      "problem": "emerging next-generation style competition",
+      "innovations": [
+        "advanced_banana",
+        "rapid_forehand_reset"
+      ],
+      "counter": [
+        "serve_placement",
+        "multi_line_reading"
+      ]
+    }
+  ],
+  "grand_event_years": {
+    "olympics": [
+      2000,
+      2004,
+      2008,
+      2012,
+      2016,
+      2021,
+      2024
+    ],
+    "worlds_singles": [
+      2001,
+      2003,
+      2005,
+      2007,
+      2009,
+      2011,
+      2013,
+      2015,
+      2017,
+      2019,
+      2021,
+      2023,
+      2025
+    ],
+    "worlds_team": [
+      2000,
+      2001,
+      2004,
+      2006,
+      2008,
+      2010,
+      2012,
+      2014,
+      2016,
+      2018,
+      2022,
+      2024,
+      2026
+    ],
+    "individual_world_cup": [
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2024,
+      2025,
+      2026
+    ]
+  },
+  "history_note": "Original archive uses real male-player prototypes in a female alternate worldline. Do not report those anchors as real female-sport history.",
+  "scope": "Era themes and structural schedule checks, not automatic NPC seasons or verified historical calendar.",
+  "major_policy": {
+    "required_annual_station_count": null,
+    "classification": "GENERAL_CONFIGURABLE_MAJOR_EVENTS",
+    "note": "No nine-station obligation; ordinary major events use configured formats and era-appropriate levels."
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "repository": "KieDani/SpinAndTrajectoryTableTennis",
+    "commit": "4959ad266a74a9a0e21190110db9d259df626d9f",
+    "url": "https://raw.githubusercontent.com/KieDani/SpinAndTrajectoryTableTennis/4959ad266a74a9a0e21190110db9d259df626d9f/README.md",
+    "sha256": "8b1cd59b9bab552d5315b4dddf0fdb0d4797107a67edf33daca11f621a853762",
+    "bytes": 3923,
+    "bibtex": null
+  },
+  {
+    "repository": "KieDani/UpliftingTableTennis",
+    "commit": "1a64bf6488f3a142f733e73e8de00bfecf044b23",
+    "url": "https://raw.githubusercontent.com/KieDani/UpliftingTableTennis/1a64bf6488f3a142f733e73e8de00bfecf044b23/README.md",
+    "sha256": "18b2a2bc78044641e0bd110d64b1f08a34295484bc9f96625d8ebd66782408af",
+    "bytes": 11837,
+    "bibtex": "@inproceedings{kienzle2026uplifting,\n  title={Uplifting Table Tennis: A Robust, Real-World Application for 3D Trajectory and Spin Estimation},\n  author={Kienzle, Daniel and Ludwig, Katja and Lorenz, Julian and Satoh, {Shin'ichi} and Lienhart, Rainer},\n  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},\n  year={2026}\n}"
+  },
+  {
+    "repository": "sastry-group/LATTE-MV",
+    "commit": "bcada1f744af3e1c39fd5adb5ee5bb534f0d1ba2",
+    "url": "https://raw.githubusercontent.com/sastry-group/LATTE-MV/bcada1f744af3e1c39fd5adb5ee5bb534f0d1ba2/README.md",
+    "sha256": "392ba26a757e72191f8af7723542b5017213a3be25933f24b58b1f298e1cdd46",
+    "bytes": 10778,
+    "bibtex": null
+  }
+]

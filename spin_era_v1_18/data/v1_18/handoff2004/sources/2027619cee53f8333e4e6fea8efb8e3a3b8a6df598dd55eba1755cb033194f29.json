@@ -1,0 +1,116 @@
+{
+  "kind": "WBE_SPIN_ERA_2004_KOBE_PREMATCH_PERSONAL_ENTRY",
+  "scenario_date": "2004-11-28",
+  "engine_checkpoint_date": "2004-12-01",
+  "status": "DRAW_LOCKED_NO_MATCHES_RUN",
+  "source_archive": "Spin_Era_Federer_2004_Kobe_PreTournament_Updated.zip",
+  "source_archive_sha256": "0ca7fd0b9865e57ab523d1ed26ba12f1e4d9f619b1bdd865c7a5f284ebd185b4",
+  "player": {
+    "id": "federer_sui_1988_custom",
+    "name": "罗杰·费德勒",
+    "ca": 149,
+    "pa": 191,
+    "fatigue": 0,
+    "career_wins": 12,
+    "career_losses": 7
+  },
+  "administrative": {
+    "fed_request": "SIGNED_SIMULATED_REQUEST_TO_SWISS_ASSOCIATION",
+    "national_federation_endorsement": "FICTIONAL_APPROVED",
+    "ittf_personal_additional_entry": "FICTIONAL_APPROVED",
+    "draw_seed": 200411280808,
+    "admission_roll_d100": 33,
+    "decision": "FICTIONAL_ENTRY_APPROVED_BY_SCENARIO",
+    "real_swiss_team": "NOT_ENTERED",
+    "real_official_singles_entry": "NOT_VERIFIED"
+  },
+  "draw": {
+    "qualification_group": "Q (fictional supplementary group)",
+    "players": [
+      "Roger Federer (SUI)",
+      "Andrej Silva (POR)",
+      "Tse Ka Chun (HKG)",
+      "Tomislav Kolarek (CRO)"
+    ],
+    "rule": "round robin BO5 provisional, top two advance to hypothetical preceding main draw R64; if historical format mismatch, revise before playing",
+    "opponents_identity": "real historical 2004 event qualifiers, excluded before verified main-draw R32",
+    "official_claim": false,
+    "confirmed_main_R32": [
+      [
+        "Lin Chen",
+        "Seiya Kishikawa"
+      ],
+      [
+        "Chou Tung-Yu",
+        "Tiago Apolonia"
+      ],
+      [
+        "Lee Jin Kwon",
+        "Dimitrij Ovtcharov"
+      ],
+      [
+        "Zhou Bin",
+        "Jon Persson"
+      ],
+      [
+        "Pawel Chmiel",
+        "Alexander Krieger"
+      ],
+      [
+        "Tomislav Zubcic",
+        "Hidetoshi Oya"
+      ],
+      [
+        "Masato Shiono",
+        "Marcos Freitas"
+      ],
+      [
+        "Ma Long",
+        "Ruwen Filus"
+      ],
+      [
+        "Wu Chih-Chi",
+        "Piotr Chmiel"
+      ],
+      [
+        "Artur Grigorev",
+        "Marko Jevtovic"
+      ],
+      [
+        "Yeo Inho",
+        "Rodrigo Kojima"
+      ],
+      [
+        "Jun Mizutani",
+        "Mihai Bobocica"
+      ],
+      [
+        "Cho Eonrae",
+        "Yuichi Yokoyama"
+      ],
+      [
+        "Patrick Baum",
+        "Huang Sheng-Sheng"
+      ],
+      [
+        "Taku Takakiwa",
+        "Jonathan Pino"
+      ],
+      [
+        "Marc Duran",
+        "Li Hu"
+      ]
+    ],
+    "main_draw_status": "16 historical R32 matches reconstructed, earlier R64 entry placements incomplete; federation additional entry will be reconciled after group results",
+    "replaces_recorded_historical_player": false
+  },
+  "preservation": {
+    "all_preexisting_simulations_locked": true,
+    "no_matches_simulated": true,
+    "no_training_replayed": true,
+    "date_rewind_method": "narrative event checkpoint only; engine 2004-12-01 unchanged; no double counting"
+  },
+  "reference_urls": [
+    "https://tt-wiki.info/jugend-wm-2004-in-kobe/"
+  ]
+}

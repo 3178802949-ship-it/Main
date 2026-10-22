@@ -1,0 +1,1238 @@
+{
+  "post_match": {
+    "event": "orebro-postmatch-external-settlement",
+    "match_type": "legacy-external-FULL-BO7",
+    "fatigue_before": 19.6,
+    "fatigue_estimated_after": 32.49,
+    "health_d10000": 3496,
+    "injury_threshold_scenario": 250,
+    "injury": false,
+    "note": "external match not registered with WorldSession; injury draw provisional scenario, not engine native injury settlement"
+  },
+  "receipts": [
+    {
+      "id": "FED-2004-TRAIN-04",
+      "plan": {
+        "month": 1,
+        "phase": 1,
+        "mode": "train",
+        "technical": [
+          {
+            "group": "read",
+            "specialize": [
+              "self_read",
+              "opponent_read"
+            ]
+          },
+          {
+            "group": "stable"
+          }
+        ],
+        "body": "strength"
+      },
+      "training_days": 6,
+      "date_after": "2004-03-01",
+      "CA": [
+        145,
+        145
+      ],
+      "G9_before": {
+        "serve": 110,
+        "receive": 104,
+        "fh": 111,
+        "bh": 96,
+        "feet": 114,
+        "read": 103,
+        "stable": 113,
+        "table": 105,
+        "spirit": 108
+      },
+      "G9_after": {
+        "serve": 110,
+        "receive": 104,
+        "fh": 111,
+        "bh": 96,
+        "feet": 114,
+        "read": 104,
+        "stable": 114,
+        "table": 105,
+        "spirit": 108
+      },
+      "P6_before": {
+        "speed": 119.7188,
+        "burst": 101.72,
+        "strength": 100.72,
+        "stamina": 109.72,
+        "agility": 118.72,
+        "flexibility": 120.72
+      },
+      "P6_after": {
+        "speed": 119.7188,
+        "burst": 101.72,
+        "strength": 100.72,
+        "stamina": 109.72,
+        "agility": 118.72,
+        "flexibility": 120.72
+      },
+      "fatigue": [
+        32.49,
+        28.090000000000003
+      ],
+      "changes": {
+        "serve.spin": 1,
+        "read.self_read": 1,
+        "read.opponent_read": 1,
+        "stable.sustain": 1,
+        "stable.recovery": 2
+      },
+      "full_receipt": {
+        "receipt": {
+          "version": "V1.1.7-COMPREHENSIVE-TRAINING-1",
+          "id": "FED-2004-TRAIN-04",
+          "month": 1,
+          "phase": 1,
+          "age": 15.525,
+          "mode": "train",
+          "plan": {
+            "month": 1,
+            "phase": 1,
+            "mode": "train",
+            "technical": [
+              {
+                "group": "read",
+                "specialize": [
+                  "self_read",
+                  "opponent_read"
+                ]
+              },
+              {
+                "group": "stable"
+              }
+            ],
+            "body": "strength",
+            "training_fraction": 0.6,
+            "recovery_fraction": 1.0
+          },
+          "classification": "SIMULATED",
+          "focused": [
+            {
+              "type": "focused_technical",
+              "path": "read.self_read",
+              "group": "read",
+              "roll": 99,
+              "adjusted": 99,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 7.839550487260799,
+              "xp_before": 4.284856313516798,
+              "xp_balance": 4.084406800777597,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 136.899736,
+              "old": 98,
+              "new": 99,
+              "specialized": true
+            },
+            {
+              "type": "focused_technical",
+              "path": "read.opponent_read",
+              "group": "read",
+              "roll": 69,
+              "adjusted": 68,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 8.275641487344,
+              "xp_before": 8.275641487344,
+              "xp_balance": 7.471282974688,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 138.899736,
+              "old": 106,
+              "new": 107,
+              "specialized": true
+            },
+            {
+              "type": "focused_technical",
+              "path": "stable.sustain",
+              "group": "stable",
+              "roll": 37,
+              "adjusted": 38,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 10.626808267152,
+              "xp_before": 2.72756474128,
+              "xp_balance": 4.144373008432,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 138.899736,
+              "old": 107,
+              "new": 108,
+              "specialized": false
+            },
+            {
+              "type": "focused_technical",
+              "path": "stable.recovery",
+              "group": "stable",
+              "roll": 43,
+              "adjusted": 43,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 11.871064350129599,
+              "xp_before": 10.564114400230402,
+              "xp_balance": 0.5751787503600028,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 140.95914919999998,
+              "old": 118,
+              "new": 120,
+              "specialized": false
+            }
+          ],
+          "general": [
+            {
+              "type": "general_technical",
+              "path": "serve.spin",
+              "group": "serve",
+              "roll": 67,
+              "adjusted": 66,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 2.7913962472703995,
+              "xp_before": 7.443723326054399,
+              "xp_balance": 1.1551195733247983,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 123.2876084,
+              "old": 106,
+              "new": 107
+            },
+            {
+              "type": "general_technical",
+              "path": "receive.spin_read",
+              "group": "receive",
+              "roll": 100,
+              "adjusted": 98,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 3.1012639922880005,
+              "xp_before": 0.0,
+              "xp_balance": 3.1012639922880005,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 132.45222399999997,
+              "old": 116,
+              "new": 116
+            },
+            {
+              "type": "general_technical",
+              "path": "fh.placement",
+              "group": "fh",
+              "roll": 72,
+              "adjusted": 73,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 2.4440236416288,
+              "xp_before": 0.0,
+              "xp_balance": 2.4440236416288,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 131.2132224,
+              "old": 106,
+              "new": 106
+            },
+            {
+              "type": "general_technical",
+              "path": "bh.continuity",
+              "group": "bh",
+              "roll": 64,
+              "adjusted": 64,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 2.6775883943423997,
+              "xp_before": 3.6119129575679967,
+              "xp_balance": 6.289501351910396,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 123.84168799999999,
+              "old": 101,
+              "new": 101
+            },
+            {
+              "type": "general_technical",
+              "path": "feet.balance",
+              "group": "feet",
+              "roll": 18,
+              "adjusted": 19,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 2.3172830781408,
+              "xp_before": 0.0,
+              "xp_balance": 2.3172830781408,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 129.4448784,
+              "old": 106,
+              "new": 106
+            },
+            {
+              "type": "general_technical",
+              "path": "table.placement",
+              "group": "table",
+              "roll": 99,
+              "adjusted": 100,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 2.4665265580031996,
+              "xp_before": 0.0,
+              "xp_balance": 2.4665265580031996,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 132.2132224,
+              "old": 116,
+              "new": 116
+            },
+            {
+              "type": "general_technical",
+              "path": "spirit.spin_deception",
+              "group": "spirit",
+              "roll": 24,
+              "adjusted": 25,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 2.4484207632192,
+              "xp_before": 0.0,
+              "xp_balance": 2.4484207632192,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 132.2132224,
+              "old": 113,
+              "new": 113
+            }
+          ],
+          "body": [
+            {
+              "type": "focused_body",
+              "path": "strength",
+              "roll": 58,
+              "old": 100.72,
+              "new": 100.72,
+              "xp_awarded": 2.099466,
+              "xp_balance": 2.6534917499999997,
+              "age_factor": 1.0,
+              "efficiency": 0.6,
+              "physical_ceiling": 138.5888,
+              "xp_bank_cap": 8.0
+            },
+            {
+              "type": "focused_body",
+              "path": "strength",
+              "roll": 49,
+              "old": 100.72,
+              "new": 100.72,
+              "xp_awarded": 2.099466,
+              "xp_balance": 4.75295775,
+              "age_factor": 1.0,
+              "efficiency": 0.6,
+              "physical_ceiling": 138.5888,
+              "xp_bank_cap": 8.0
+            },
+            {
+              "type": "general_body",
+              "path": "speed",
+              "roll": 22,
+              "old": 119.7188,
+              "new": 119.7188,
+              "xp_awarded": 0.17495549999999999,
+              "xp_balance": 10.934718749999998,
+              "age_factor": 1.0,
+              "efficiency": 0.6,
+              "physical_ceiling": 145.0623,
+              "xp_bank_cap": 11.515640000000001
+            },
+            {
+              "type": "general_body",
+              "path": "burst",
+              "roll": 5,
+              "old": 101.72,
+              "new": 101.72,
+              "xp_awarded": 0.6998219999999999,
+              "xp_balance": 4.3039053,
+              "age_factor": 1.0,
+              "efficiency": 0.6,
+              "physical_ceiling": 138.9899,
+              "xp_bank_cap": 8.0
+            },
+            {
+              "type": "general_body",
+              "path": "stamina",
+              "roll": 7,
+              "old": 109.72,
+              "new": 109.72,
+              "xp_awarded": 0.34991099999999997,
+              "xp_balance": 5.242833149999999,
+              "age_factor": 1.0,
+              "efficiency": 0.6,
+              "physical_ceiling": 141.6617,
+              "xp_bank_cap": 8.516
+            },
+            {
+              "type": "general_body",
+              "path": "agility",
+              "roll": 90,
+              "old": 118.72,
+              "new": 118.72,
+              "xp_awarded": 0.052486649999999996,
+              "xp_balance": 0.6881582999999999,
+              "age_factor": 1.0,
+              "efficiency": 0.6,
+              "physical_ceiling": 146.2135,
+              "xp_bank_cap": 11.216
+            },
+            {
+              "type": "general_body",
+              "path": "flexibility",
+              "roll": 86,
+              "old": 120.72,
+              "new": 120.72,
+              "xp_awarded": 0.052486649999999996,
+              "xp_balance": 0.5773531499999999,
+              "age_factor": 1.0,
+              "efficiency": 0.6,
+              "physical_ceiling": 146.7989,
+              "xp_bank_cap": 11.815999999999999
+            }
+          ],
+          "budget": {
+            "focused_technical": 4,
+            "general_technical": 7,
+            "focused_body": 2,
+            "general_body": 5
+          },
+          "fatigue": {
+            "before": 32.49,
+            "cost": 9.6,
+            "recovery": 14.0,
+            "after": 28.090000000000003,
+            "efficiency": 0.6,
+            "training_fraction": 0.6,
+            "recovery_fraction": 1.0
+          },
+          "CA_before": 145,
+          "CA_after": 145,
+          "learned_CA": 145,
+          "PA_after": 191,
+          "month_after": 2,
+          "phase_after": 0,
+          "skill_changes": [
+            {
+              "path": "read.self_read",
+              "old": 98,
+              "new": 99
+            },
+            {
+              "path": "read.opponent_read",
+              "old": 106,
+              "new": 107
+            },
+            {
+              "path": "stable.sustain",
+              "old": 107,
+              "new": 108
+            },
+            {
+              "path": "stable.recovery",
+              "old": 118,
+              "new": 120
+            },
+            {
+              "path": "serve.spin",
+              "old": 106,
+              "new": 107
+            }
+          ],
+          "body_changes": []
+        },
+        "world_settlement": {
+          "type": "training_phase",
+          "player_id": "federer_sui_1988_custom",
+          "month": 1,
+          "phase": 1,
+          "mode": "train",
+          "date": "2004-02-16",
+          "environment": "club",
+          "investment_cost": 0,
+          "competition_days": 0,
+          "training_days": 6,
+          "rest_days": 9,
+          "routine_recovery_eligible_days": 15,
+          "training_fraction": 0.6,
+          "recovery_fraction": 1.0,
+          "CA_before": 145,
+          "CA_after": 145,
+          "PA_before": 191,
+          "PA_after": 191,
+          "fatigue_after": 28.090000000000003,
+          "injuries_after": 0,
+          "health": {
+            "probability": 0.001,
+            "draw": 0.14974069826692704,
+            "occurred": false
+          },
+          "child_changes": {
+            "serve.spin": 1,
+            "read.self_read": 1,
+            "read.opponent_read": 1,
+            "stable.sustain": 1,
+            "stable.recovery": 2
+          },
+          "receipt_sha256": "ce250fb345a622ed9fb20d64ce649ed26c62aefb3448e0c49671408a612ea639"
+        },
+        "budget_remaining": {
+          "year": 2004,
+          "investment_units": 8,
+          "national_eligible": false,
+          "frontier_tokens": 0,
+          "reward_tokens_granted": 0,
+          "championship_windows": 0,
+          "paid_camp_until": 0,
+          "provenance": "EXPLICIT_START_CONFIGURATION"
+        }
+      }
+    },
+    {
+      "id": "FED-2004-TRAIN-05",
+      "plan": {
+        "month": 2,
+        "phase": 0,
+        "mode": "train",
+        "technical": [
+          {
+            "group": "bh",
+            "specialize": [
+              "continuity",
+              "placement"
+            ]
+          },
+          {
+            "group": "read"
+          }
+        ],
+        "body": "speed"
+      },
+      "training_days": 6,
+      "date_after": "2004-03-16",
+      "CA": [
+        145,
+        145
+      ],
+      "G9_before": {
+        "serve": 110,
+        "receive": 104,
+        "fh": 111,
+        "bh": 96,
+        "feet": 114,
+        "read": 104,
+        "stable": 114,
+        "table": 105,
+        "spirit": 108
+      },
+      "G9_after": {
+        "serve": 110,
+        "receive": 104,
+        "fh": 111,
+        "bh": 97,
+        "feet": 114,
+        "read": 104,
+        "stable": 114,
+        "table": 105,
+        "spirit": 108
+      },
+      "P6_before": {
+        "speed": 119.7188,
+        "burst": 101.72,
+        "strength": 100.72,
+        "stamina": 109.72,
+        "agility": 118.72,
+        "flexibility": 120.72
+      },
+      "P6_after": {
+        "speed": 121.0717,
+        "burst": 102.08,
+        "strength": 101.08,
+        "stamina": 110.08,
+        "agility": 119.08,
+        "flexibility": 121.08
+      },
+      "fatigue": [
+        28.090000000000003,
+        23.690000000000005
+      ],
+      "changes": {
+        "bh.continuity": 1,
+        "bh.placement": 1,
+        "read.self_read": 1,
+        "read.opponent_read": 1
+      },
+      "full_receipt": {
+        "receipt": {
+          "version": "V1.1.7-COMPREHENSIVE-TRAINING-1",
+          "id": "FED-2004-TRAIN-05",
+          "month": 2,
+          "phase": 0,
+          "age": 15.566666666666666,
+          "mode": "train",
+          "plan": {
+            "month": 2,
+            "phase": 0,
+            "mode": "train",
+            "technical": [
+              {
+                "group": "bh",
+                "specialize": [
+                  "continuity",
+                  "placement"
+                ]
+              },
+              {
+                "group": "read"
+              }
+            ],
+            "body": "speed",
+            "training_fraction": 0.6,
+            "recovery_fraction": 1.0
+          },
+          "classification": "SIMULATED",
+          "focused": [
+            {
+              "type": "focused_technical",
+              "path": "bh.continuity",
+              "group": "bh",
+              "roll": 89,
+              "adjusted": 89,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 8.0327651830272,
+              "xp_before": 6.289501351910396,
+              "xp_balance": 5.8922665349375976,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 124.0640076,
+              "old": 101,
+              "new": 102,
+              "specialized": true
+            },
+            {
+              "type": "focused_technical",
+              "path": "bh.placement",
+              "group": "bh",
+              "roll": 39,
+              "adjusted": 39,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 11.790752217551999,
+              "xp_before": 3.1373631643999955,
+              "xp_balance": 7.0181153819519935,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 128.3853408,
+              "old": 97,
+              "new": 98,
+              "specialized": true
+            },
+            {
+              "type": "focused_technical",
+              "path": "read.self_read",
+              "group": "read",
+              "roll": 17,
+              "adjusted": 17,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 1,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 7.839550487260799,
+              "xp_before": 4.084406800777597,
+              "xp_balance": 3.7539572880383947,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 136.9499372,
+              "old": 99,
+              "new": 100,
+              "specialized": false
+            },
+            {
+              "type": "focused_technical",
+              "path": "read.opponent_read",
+              "group": "read",
+              "roll": 54,
+              "adjusted": 53,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 8.275641487344,
+              "xp_before": 7.471282974688,
+              "xp_balance": 6.536924462031999,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 138.9499372,
+              "old": 107,
+              "new": 108,
+              "specialized": false
+            }
+          ],
+          "general": [
+            {
+              "type": "general_technical",
+              "path": "serve.spin",
+              "group": "serve",
+              "roll": 85,
+              "adjusted": 84,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 2.7913962472703995,
+              "xp_before": 1.1551195733247983,
+              "xp_balance": 3.946515820595198,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 123.5108084,
+              "old": 107,
+              "new": 107
+            },
+            {
+              "type": "general_technical",
+              "path": "receive.spin_read",
+              "group": "receive",
+              "roll": 62,
+              "adjusted": 60,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 3.1012639922880005,
+              "xp_before": 3.1012639922880005,
+              "xp_balance": 6.202527984576001,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 132.62400159999999,
+              "old": 116,
+              "new": 116
+            },
+            {
+              "type": "general_technical",
+              "path": "fh.defense",
+              "group": "fh",
+              "roll": 97,
+              "adjusted": 96,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 2.821917444192,
+              "xp_before": 0.0,
+              "xp_balance": 2.821917444192,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 128.75121980000003,
+              "old": 115,
+              "new": 115
+            },
+            {
+              "type": "general_technical",
+              "path": "feet.coordination",
+              "group": "feet",
+              "roll": 37,
+              "adjusted": 37,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 2.6568960574463993,
+              "xp_before": 0.0,
+              "xp_balance": 2.6568960574463993,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 133.3853408,
+              "old": 117,
+              "new": 117
+            },
+            {
+              "type": "general_technical",
+              "path": "stable.sustain",
+              "group": "stable",
+              "roll": 73,
+              "adjusted": 74,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 2.3615129482559998,
+              "xp_before": 4.144373008432,
+              "xp_balance": 6.505885956687999,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 138.9499372,
+              "old": 108,
+              "new": 108
+            },
+            {
+              "type": "general_technical",
+              "path": "table.push",
+              "group": "table",
+              "roll": 32,
+              "adjusted": 31,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 2.7590644708704,
+              "xp_before": 0.09750525565439983,
+              "xp_balance": 2.8565697265248,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 127.1835936,
+              "old": 93,
+              "new": 93
+            },
+            {
+              "type": "general_technical",
+              "path": "spirit.unexpected_transition",
+              "group": "spirit",
+              "roll": 83,
+              "adjusted": 84,
+              "exceptional": false,
+              "age_factor": 1.12,
+              "efficiency": 0.6,
+              "direct_factor": 0.34272,
+              "raw_direct": 0,
+              "direct_applied": 0,
+              "permit_awarded": 0,
+              "xp_awarded": 2.3465110040064,
+              "xp_before": 3.910851673344,
+              "xp_balance": 6.2573626773504,
+              "permit_balance": 0,
+              "window_multiplier": 1.0,
+              "cap": 127.8574704,
+              "old": 93,
+              "new": 93
+            }
+          ],
+          "body": [
+            {
+              "type": "focused_body",
+              "path": "speed",
+              "roll": 85,
+              "old": 120.0717,
+              "new": 120.0717,
+              "xp_awarded": 0.6298397999999998,
+              "xp_balance": 11.564558549999997,
+              "age_factor": 1.0,
+              "efficiency": 0.6,
+              "physical_ceiling": 145.0623,
+              "xp_bank_cap": 11.621510000000002
+            },
+            {
+              "type": "focused_body",
+              "path": "speed",
+              "roll": 27,
+              "old": 120.0717,
+              "new": 121.0717,
+              "xp_awarded": 2.099466,
+              "xp_balance": 0.0,
+              "age_factor": 1.0,
+              "efficiency": 0.6,
+              "physical_ceiling": 145.0623,
+              "xp_bank_cap": 11.621510000000002
+            },
+            {
+              "type": "general_body",
+              "path": "burst",
+              "roll": 7,
+              "old": 102.08,
+              "new": 102.08,
+              "xp_awarded": 0.34991099999999997,
+              "xp_balance": 4.6538163,
+              "age_factor": 1.0,
+              "efficiency": 0.6,
+              "physical_ceiling": 138.9899,
+              "xp_bank_cap": 8.0
+            },
+            {
+              "type": "general_body",
+              "path": "strength",
+              "roll": 25,
+              "old": 101.08,
+              "new": 101.08,
+              "xp_awarded": 0.17495549999999999,
+              "xp_balance": 4.9279132500000005,
+              "age_factor": 1.0,
+              "efficiency": 0.6,
+              "physical_ceiling": 138.5888,
+              "xp_bank_cap": 8.0
+            },
+            {
+              "type": "general_body",
+              "path": "stamina",
+              "roll": 92,
+              "old": 110.08,
+              "new": 110.08,
+              "xp_awarded": 0.052486649999999996,
+              "xp_balance": 5.295319799999999,
+              "age_factor": 1.0,
+              "efficiency": 0.6,
+              "physical_ceiling": 141.6617,
+              "xp_bank_cap": 8.623999999999999
+            },
+            {
+              "type": "general_body",
+              "path": "agility",
+              "roll": 69,
+              "old": 119.08,
+              "new": 119.08,
+              "xp_awarded": 0.052486649999999996,
+              "xp_balance": 0.7406449499999999,
+              "age_factor": 1.0,
+              "efficiency": 0.6,
+              "physical_ceiling": 146.2135,
+              "xp_bank_cap": 11.324
+            },
+            {
+              "type": "general_body",
+              "path": "flexibility",
+              "roll": 69,
+              "old": 121.08,
+              "new": 121.08,
+              "xp_awarded": 0.052486649999999996,
+              "xp_balance": 0.6298397999999998,
+              "age_factor": 1.0,
+              "efficiency": 0.6,
+              "physical_ceiling": 146.7989,
+              "xp_bank_cap": 11.924
+            }
+          ],
+          "budget": {
+            "focused_technical": 4,
+            "general_technical": 7,
+            "focused_body": 2,
+            "general_body": 5
+          },
+          "fatigue": {
+            "before": 28.090000000000003,
+            "cost": 9.6,
+            "recovery": 14.0,
+            "after": 23.690000000000005,
+            "efficiency": 0.6,
+            "training_fraction": 0.6,
+            "recovery_fraction": 1.0
+          },
+          "CA_before": 145,
+          "CA_after": 145,
+          "learned_CA": 145,
+          "PA_after": 191,
+          "month_after": 2,
+          "phase_after": 1,
+          "skill_changes": [
+            {
+              "path": "bh.continuity",
+              "old": 101,
+              "new": 102
+            },
+            {
+              "path": "bh.placement",
+              "old": 97,
+              "new": 98
+            },
+            {
+              "path": "read.self_read",
+              "old": 99,
+              "new": 100
+            },
+            {
+              "path": "read.opponent_read",
+              "old": 107,
+              "new": 108
+            }
+          ],
+          "body_changes": [
+            {
+              "path": "speed",
+              "old": 120.0717,
+              "new": 121.0717
+            }
+          ]
+        },
+        "world_settlement": {
+          "type": "training_phase",
+          "player_id": "federer_sui_1988_custom",
+          "month": 2,
+          "phase": 0,
+          "mode": "train",
+          "date": "2004-03-01",
+          "environment": "club",
+          "investment_cost": 0,
+          "competition_days": 0,
+          "training_days": 6,
+          "rest_days": 9,
+          "routine_recovery_eligible_days": 15,
+          "training_fraction": 0.6,
+          "recovery_fraction": 1.0,
+          "CA_before": 145,
+          "CA_after": 145,
+          "PA_before": 191,
+          "PA_after": 191,
+          "fatigue_after": 23.690000000000005,
+          "injuries_after": 0,
+          "health": {
+            "probability": 0.001,
+            "draw": 0.8418734783774552,
+            "occurred": false
+          },
+          "child_changes": {
+            "bh.continuity": 1,
+            "bh.placement": 1,
+            "read.self_read": 1,
+            "read.opponent_read": 1
+          },
+          "receipt_sha256": "65a64d6a3222911214f978b47179b02abed719303543d707911a73b60594d06e"
+        },
+        "budget_remaining": {
+          "year": 2004,
+          "investment_units": 8,
+          "national_eligible": false,
+          "frontier_tokens": 0,
+          "reward_tokens_granted": 0,
+          "championship_windows": 0,
+          "paid_camp_until": 0,
+          "provenance": "EXPLICIT_START_CONFIGURATION"
+        }
+      }
+    },
+    {
+      "id": "FED-2004-REST-06",
+      "plan": {
+        "month": 2,
+        "phase": 1,
+        "mode": "rest"
+      },
+      "training_days": 0,
+      "date_after": "2004-04-01",
+      "CA": [
+        145,
+        145
+      ],
+      "G9_before": {
+        "serve": 110,
+        "receive": 104,
+        "fh": 111,
+        "bh": 97,
+        "feet": 114,
+        "read": 104,
+        "stable": 114,
+        "table": 105,
+        "spirit": 108
+      },
+      "G9_after": {
+        "serve": 110,
+        "receive": 104,
+        "fh": 111,
+        "bh": 97,
+        "feet": 114,
+        "read": 104,
+        "stable": 114,
+        "table": 105,
+        "spirit": 108
+      },
+      "P6_before": {
+        "speed": 121.0717,
+        "burst": 102.08,
+        "strength": 101.08,
+        "stamina": 110.08,
+        "agility": 119.08,
+        "flexibility": 121.08
+      },
+      "P6_after": {
+        "speed": 121.0717,
+        "burst": 102.08,
+        "strength": 101.08,
+        "stamina": 110.08,
+        "agility": 119.08,
+        "flexibility": 121.08
+      },
+      "fatigue": [
+        23.690000000000005,
+        1.6900000000000048
+      ],
+      "changes": {},
+      "full_receipt": {
+        "receipt": {
+          "version": "V1.1.7-COMPREHENSIVE-TRAINING-1",
+          "id": "FED-2004-REST-06",
+          "month": 2,
+          "phase": 1,
+          "age": 15.608333333333334,
+          "mode": "rest",
+          "plan": {
+            "month": 2,
+            "phase": 1,
+            "mode": "rest",
+            "training_fraction": 0.0,
+            "recovery_fraction": 1.0
+          },
+          "classification": "SIMULATED",
+          "focused": [],
+          "general": [],
+          "body": [],
+          "budget": {
+            "focused_technical": 0,
+            "general_technical": 0,
+            "focused_body": 0,
+            "general_body": 0
+          },
+          "fatigue": {
+            "before": 23.690000000000005,
+            "cost": 0.0,
+            "recovery": 22.0,
+            "after": 1.6900000000000048,
+            "efficiency": 0.0,
+            "training_fraction": 0.0,
+            "recovery_fraction": 1.0
+          },
+          "CA_before": 145,
+          "CA_after": 145,
+          "learned_CA": 145,
+          "PA_after": 191,
+          "month_after": 3,
+          "phase_after": 0,
+          "skill_changes": [],
+          "body_changes": []
+        },
+        "world_settlement": {
+          "type": "training_phase",
+          "player_id": "federer_sui_1988_custom",
+          "month": 2,
+          "phase": 1,
+          "mode": "rest",
+          "date": "2004-03-16",
+          "environment": "club",
+          "investment_cost": 0,
+          "competition_days": 0,
+          "training_days": 0,
+          "rest_days": 15,
+          "routine_recovery_eligible_days": 15,
+          "training_fraction": 0.0,
+          "recovery_fraction": 1.0,
+          "CA_before": 145,
+          "CA_after": 145,
+          "PA_before": 191,
+          "PA_after": 191,
+          "fatigue_after": 1.6900000000000048,
+          "injuries_after": 0,
+          "health": null,
+          "child_changes": {},
+          "receipt_sha256": "78810e204a3969b8a6423af64b1b3a5b50e2e95cd66d59cc016011ef4d57db56"
+        },
+        "budget_remaining": {
+          "year": 2004,
+          "investment_units": 8,
+          "national_eligible": false,
+          "frontier_tokens": 0,
+          "reward_tokens_granted": 0,
+          "championship_windows": 0,
+          "paid_camp_until": 0,
+          "provenance": "EXPLICIT_START_CONFIGURATION"
+        }
+      }
+    }
+  ],
+  "meta": "March Doha tournament observed via video/commentary (narrative); no direct spectator G bonus applied"
+}

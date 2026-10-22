@@ -1,0 +1,19 @@
+{
+  "created_utc": "2026-10-22T01:42:58.404651+00:00",
+  "authoritative_world": "WORLD_2005_OPENING.json",
+  "previous_locked_archive": "2004_PREVIOUS_LOCKED_ARCHIVE.zip",
+  "files": {
+    "CARD_2004_YEAR_END.json": "70855d28c0c988398e079323801b1c3785dd215d9f794ef41a67eff1dd384019",
+    "2004_PREVIOUS_LOCKED_ARCHIVE.zip": "b3a5c02522118cbf83f97238e562a3cf7daf1b17d1c7c53296b52d6da7fed4eb",
+    "YEAR_END_FIRST_PERSON.md": "5ff8da0be07cc08d69b60a0a3d4afa6e58e7569eec82a90fb596fbd79f16d5d4",
+    "CODEX_PATCH_BRIEF.md": "e81bec9c24abd7072448a0f90009fe51fea9eb0dc154feb5ec1888c78f0e53e0",
+    "WORLD_2005_OPENING.json": "7418d87ab217b5423842a225de9298c0ef8a680945ff329132c5a7aca70d2ce5",
+    "YEAR_END_HANDOFF.md": "53f36bf5d17f377612e795bf2d813b8ff19051de5b9a77bc5f98642563fdfb05",
+    "DECEMBER_TRAINING_RECEIPTS.json": "19bad2b7fbccf6e77d466d2a336b217171e09752d68bc6c5f5d9a966b53b7c55"
+  },
+  "yearly_record": {
+    "wins": 14,
+    "losses": 9
+  },
+  "status": "year_2004_frozen"
+}

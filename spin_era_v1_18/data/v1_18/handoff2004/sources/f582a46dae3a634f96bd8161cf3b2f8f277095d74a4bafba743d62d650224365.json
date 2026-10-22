@@ -1,0 +1,60 @@
+{
+  "date": "2004-04-03",
+  "event": "Fictional Slovenia Youth Open main draw first round",
+  "seed": 200404030808,
+  "ruleset": "V1.1.7-COMPREHENSIVE-1",
+  "format": "EXPERIMENTAL BO7, not verified official event format",
+  "players": [
+    "Roger Federer",
+    "Ruwen Filus"
+  ],
+  "winner": "Ruwen Filus",
+  "games_won": [
+    0,
+    4
+  ],
+  "game_scores": [
+    [
+      2,
+      11
+    ],
+    [
+      4,
+      11
+    ],
+    [
+      5,
+      11
+    ],
+    [
+      6,
+      11
+    ]
+  ],
+  "total_points": 61,
+  "CA": [
+    145,
+    154
+  ],
+  "historical_context": "Ruwen Filus junior cadet european champion in 2003, youth defender in 2004; Slovenia attendance fictional, 2004 G9/P6 hypothetical",
+  "workload": {
+    "estimated": false,
+    "source": "EXECUTED_CONTACTS_AND_ALL_MOVEMENT",
+    "per_player": [
+      {
+        "contacts": 104,
+        "movement_m": 84.42886,
+        "active_attacks": 43,
+        "effort": 24.80719
+      },
+      {
+        "contacts": 114,
+        "movement_m": 100.77298,
+        "active_attacks": 30,
+        "effort": 28.15914
+      }
+    ]
+  },
+  "experience": "Detailed shot exposures stored; no unsupported automatic permanent growth or training-XP conversion",
+  "next_opponent": null
+}

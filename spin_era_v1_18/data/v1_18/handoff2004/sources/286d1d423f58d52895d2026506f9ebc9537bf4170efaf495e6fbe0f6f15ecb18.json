@@ -1,0 +1,33 @@
+{
+  "date": "2004-02-19",
+  "seed": 200402190808,
+  "stage": "fictional_main_draw_first_round",
+  "engine": "V1.1.7-COMPREHENSIVE-1 FULL BO7 experimental format",
+  "winner_index": 1,
+  "games_won": [
+    0,
+    4
+  ],
+  "scores": [
+    [
+      2,
+      11
+    ],
+    [
+      7,
+      11
+    ],
+    [
+      4,
+      11
+    ],
+    [
+      7,
+      11
+    ]
+  ],
+  "total_points": 64,
+  "freitas_CA": 157,
+  "freitas_pa": 184,
+  "notes": "Historical Freitas 2004 Orebro main draw semifinal verified; fictional Federer pairing, BO7 test differs potentially from youth historical format. No post-match permanent growth without official settlement."
+}

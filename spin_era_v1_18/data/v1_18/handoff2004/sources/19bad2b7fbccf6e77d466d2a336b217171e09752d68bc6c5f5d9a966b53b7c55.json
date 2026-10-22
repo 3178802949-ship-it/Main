@@ -1,0 +1,991 @@
+[
+  {
+    "phase": "dec1",
+    "plan": {
+      "month": 11,
+      "phase": 0,
+      "technical": [
+        {
+          "group": "bh",
+          "specialize": [
+            "continuity",
+            "placement"
+          ]
+        },
+        {
+          "group": "read",
+          "specialize": [
+            "self_read",
+            "choice"
+          ]
+        }
+      ],
+      "body": "strength"
+    },
+    "settlement": {
+      "type": "training_phase",
+      "player_id": "federer_sui_1988_custom",
+      "month": 11,
+      "phase": 0,
+      "mode": "train",
+      "date": "2004-12-01",
+      "environment": "club",
+      "investment_cost": 0,
+      "competition_days": 0,
+      "training_days": 8,
+      "rest_days": 7,
+      "routine_recovery_eligible_days": 15,
+      "training_fraction": 0.8,
+      "recovery_fraction": 1.0,
+      "CA_before": 149,
+      "CA_after": 150,
+      "PA_before": 191,
+      "PA_after": 191,
+      "fatigue_after": 0.40000000000000036,
+      "injuries_after": 0,
+      "health": {
+        "probability": 0.001,
+        "draw": 0.04083536310080493,
+        "occurred": false
+      },
+      "child_changes": {
+        "serve.disguise": 1,
+        "receive.spin_read": 1,
+        "fh.spin": 1,
+        "bh.continuity": 1,
+        "bh.placement": 2,
+        "feet.recover": 1,
+        "read.self_read": 1,
+        "read.choice": 1
+      },
+      "receipt_sha256": "1d3320c9d7b7ee611575904686db1f6cfb4dae05fb941e4f5e69a02857aede6c"
+    },
+    "receipt": {
+      "version": "V1.1.7-COMPREHENSIVE-TRAINING-1",
+      "id": "FEDERER_2004_YEAR_END_dec1",
+      "month": 11,
+      "phase": 0,
+      "age": 16.316666666666666,
+      "mode": "train",
+      "plan": {
+        "month": 11,
+        "phase": 0,
+        "technical": [
+          {
+            "group": "bh",
+            "specialize": [
+              "continuity",
+              "placement"
+            ]
+          },
+          {
+            "group": "read",
+            "specialize": [
+              "self_read",
+              "choice"
+            ]
+          }
+        ],
+        "body": "strength",
+        "training_fraction": 0.8,
+        "recovery_fraction": 1.0
+      },
+      "classification": "SIMULATED",
+      "focused": [
+        {
+          "type": "focused_technical",
+          "path": "bh.continuity",
+          "group": "bh",
+          "roll": 26,
+          "adjusted": 26,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.8,
+          "direct_factor": 0.4569600000000001,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 16.0655303660544,
+          "xp_before": 0.31666813989118836,
+          "xp_balance": 6.522198505945589,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 126.981027,
+          "old": 112,
+          "new": 113,
+          "specialized": true
+        },
+        {
+          "type": "focused_technical",
+          "path": "bh.placement",
+          "group": "bh",
+          "roll": 29,
+          "adjusted": 29,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.8,
+          "direct_factor": 0.4569600000000001,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 15.721002956736,
+          "xp_before": 3.5194903732959872,
+          "xp_balance": 0.43049333003198775,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 130.1205552,
+          "old": 108,
+          "new": 110,
+          "specialized": true
+        },
+        {
+          "type": "focused_technical",
+          "path": "read.self_read",
+          "group": "read",
+          "roll": 69,
+          "adjusted": 69,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.8,
+          "direct_factor": 0.4569600000000001,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 10.452733983014399,
+          "xp_before": 3.17036118612479,
+          "xp_balance": 4.023095169139189,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 137.608619,
+          "old": 110,
+          "new": 111,
+          "specialized": true
+        },
+        {
+          "type": "focused_technical",
+          "path": "read.choice",
+          "group": "read",
+          "roll": 85,
+          "adjusted": 86,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.8,
+          "direct_factor": 0.4569600000000001,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 9.505024953177601,
+          "xp_before": 1.978548229725595,
+          "xp_balance": 3.0535731829031967,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 137.608619,
+          "old": 101,
+          "new": 102,
+          "specialized": true
+        }
+      ],
+      "general": [
+        {
+          "type": "general_technical",
+          "path": "serve.disguise",
+          "group": "serve",
+          "roll": 19,
+          "adjusted": 19,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.8,
+          "direct_factor": 0.4569600000000001,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 3.4069932699264003,
+          "xp_before": 9.369231492297601,
+          "xp_balance": 1.996224762224001,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 135.1205552,
+          "old": 118,
+          "new": 119
+        },
+        {
+          "type": "general_technical",
+          "path": "receive.spin_read",
+          "group": "receive",
+          "roll": 27,
+          "adjusted": 25,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.8,
+          "direct_factor": 0.4569600000000001,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 4.135018656384001,
+          "xp_before": 9.335911841904007,
+          "xp_balance": 1.560930498288009,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 134.469448,
+          "old": 121,
+          "new": 122
+        },
+        {
+          "type": "general_technical",
+          "path": "fh.spin",
+          "group": "fh",
+          "roll": 21,
+          "adjusted": 21,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.8,
+          "direct_factor": 0.4569600000000001,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 3.4200984166272,
+          "xp_before": 6.991328624467197,
+          "xp_balance": 0.29142704109439777,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 126.9430064,
+          "old": 114,
+          "new": 115
+        },
+        {
+          "type": "general_technical",
+          "path": "feet.recover",
+          "group": "feet",
+          "roll": 32,
+          "adjusted": 32,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.8,
+          "direct_factor": 0.4569600000000001,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 3.3128431370496,
+          "xp_before": 7.635061272790401,
+          "xp_balance": 0.6979044098400013,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 133.2029128,
+          "old": 115,
+          "new": 116
+        },
+        {
+          "type": "general_technical",
+          "path": "stable.sustain",
+          "group": "stable",
+          "roll": 97,
+          "adjusted": 98,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.8,
+          "direct_factor": 0.4569600000000001,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 3.1486839310080006,
+          "xp_before": 4.911833999232007,
+          "xp_balance": 8.060517930240007,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 139.608619,
+          "old": 115,
+          "new": 115
+        },
+        {
+          "type": "general_technical",
+          "path": "table.flick",
+          "group": "table",
+          "roll": 69,
+          "adjusted": 69,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.8,
+          "direct_factor": 0.4569600000000001,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 3.3542278108416,
+          "xp_before": 3.3542278108416,
+          "xp_balance": 6.7084556216832,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 128.3627608,
+          "old": 121,
+          "new": 121
+        },
+        {
+          "type": "general_technical",
+          "path": "spirit.unexpected_transition",
+          "group": "spirit",
+          "roll": 91,
+          "adjusted": 92,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.8,
+          "direct_factor": 0.4569600000000001,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 3.1286813386752006,
+          "xp_before": 4.342555020032001,
+          "xp_balance": 7.471236358707202,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 129.9370272,
+          "old": 94,
+          "new": 94
+        }
+      ],
+      "body": [
+        {
+          "type": "focused_body",
+          "path": "strength",
+          "roll": 47,
+          "old": 108.32,
+          "new": 109.32,
+          "xp_awarded": 2.799288,
+          "xp_balance": 0.0,
+          "age_factor": 1.0,
+          "efficiency": 0.8,
+          "physical_ceiling": 138.5888,
+          "xp_bank_cap": 8.095999999999998
+        },
+        {
+          "type": "focused_body",
+          "path": "strength",
+          "roll": 14,
+          "old": 109.32,
+          "new": 109.32,
+          "xp_awarded": 5.598576,
+          "xp_balance": 5.598576,
+          "age_factor": 1.0,
+          "efficiency": 0.8,
+          "physical_ceiling": 138.5888,
+          "xp_bank_cap": 8.395999999999997
+        },
+        {
+          "type": "general_body",
+          "path": "speed",
+          "roll": 20,
+          "old": 125.7829,
+          "new": 125.7829,
+          "xp_awarded": 0.46654799999999996,
+          "xp_balance": 0.6415035,
+          "age_factor": 1.0,
+          "efficiency": 0.8,
+          "physical_ceiling": 145.0623,
+          "xp_bank_cap": 13.334869999999999
+        },
+        {
+          "type": "general_body",
+          "path": "burst",
+          "roll": 52,
+          "old": 105.32,
+          "new": 106.32,
+          "xp_awarded": 0.23327399999999998,
+          "xp_balance": 0.0,
+          "age_factor": 1.0,
+          "efficiency": 0.8,
+          "physical_ceiling": 138.9899,
+          "xp_bank_cap": 8.0
+        },
+        {
+          "type": "general_body",
+          "path": "stamina",
+          "roll": 36,
+          "old": 115.32,
+          "new": 115.32,
+          "xp_awarded": 0.23327399999999998,
+          "xp_balance": 5.776447425,
+          "age_factor": 1.0,
+          "efficiency": 0.8,
+          "physical_ceiling": 141.6617,
+          "xp_bank_cap": 10.195999999999998
+        },
+        {
+          "type": "general_body",
+          "path": "agility",
+          "roll": 72,
+          "old": 122.2221,
+          "new": 122.2221,
+          "xp_awarded": 0.0699822,
+          "xp_balance": 3.3445659750000005,
+          "age_factor": 1.0,
+          "efficiency": 0.8,
+          "physical_ceiling": 146.2135,
+          "xp_bank_cap": 12.26663
+        },
+        {
+          "type": "general_body",
+          "path": "flexibility",
+          "roll": 69,
+          "old": 124.0858,
+          "new": 124.0858,
+          "xp_awarded": 0.0699822,
+          "xp_balance": 5.164103175,
+          "age_factor": 1.0,
+          "efficiency": 0.8,
+          "physical_ceiling": 146.7989,
+          "xp_bank_cap": 12.825740000000001
+        }
+      ],
+      "budget": {
+        "focused_technical": 4,
+        "general_technical": 7,
+        "focused_body": 2,
+        "general_body": 5
+      },
+      "fatigue": {
+        "before": 0,
+        "cost": 14.4,
+        "recovery": 14.0,
+        "after": 0.40000000000000036,
+        "efficiency": 0.8,
+        "training_fraction": 0.8,
+        "recovery_fraction": 1.0
+      },
+      "CA_before": 149,
+      "CA_after": 150,
+      "learned_CA": 150,
+      "PA_after": 191,
+      "month_after": 11,
+      "phase_after": 1,
+      "skill_changes": [
+        {
+          "path": "bh.continuity",
+          "old": 112,
+          "new": 113
+        },
+        {
+          "path": "bh.placement",
+          "old": 108,
+          "new": 110
+        },
+        {
+          "path": "read.self_read",
+          "old": 110,
+          "new": 111
+        },
+        {
+          "path": "read.choice",
+          "old": 101,
+          "new": 102
+        },
+        {
+          "path": "serve.disguise",
+          "old": 118,
+          "new": 119
+        },
+        {
+          "path": "receive.spin_read",
+          "old": 121,
+          "new": 122
+        },
+        {
+          "path": "fh.spin",
+          "old": 114,
+          "new": 115
+        },
+        {
+          "path": "feet.recover",
+          "old": 115,
+          "new": 116
+        }
+      ],
+      "body_changes": [
+        {
+          "path": "strength",
+          "old": 108.32,
+          "new": 109.32
+        },
+        {
+          "path": "burst",
+          "old": 105.32,
+          "new": 106.32
+        }
+      ]
+    }
+  },
+  {
+    "phase": "dec2",
+    "plan": {
+      "month": 11,
+      "phase": 1,
+      "technical": [
+        {
+          "group": "serve",
+          "specialize": [
+            "spin",
+            "placement"
+          ]
+        },
+        {
+          "group": "receive",
+          "specialize": [
+            "spin_read",
+            "length_read"
+          ]
+        }
+      ],
+      "body": "stamina"
+    },
+    "settlement": {
+      "type": "training_phase",
+      "player_id": "federer_sui_1988_custom",
+      "month": 11,
+      "phase": 1,
+      "mode": "train",
+      "date": "2004-12-16",
+      "environment": "club",
+      "investment_cost": 0,
+      "competition_days": 0,
+      "training_days": 6,
+      "rest_days": 9,
+      "routine_recovery_eligible_days": 15,
+      "training_fraction": 0.6,
+      "recovery_fraction": 1.0,
+      "CA_before": 150,
+      "CA_after": 150,
+      "PA_before": 191,
+      "PA_after": 191,
+      "fatigue_after": 0,
+      "injuries_after": 0,
+      "health": {
+        "probability": 0.001,
+        "draw": 0.35176261420606014,
+        "occurred": false
+      },
+      "child_changes": {
+        "serve.spin": 1,
+        "serve.placement": 1,
+        "receive.length_read": 1,
+        "stable.sustain": 1
+      },
+      "receipt_sha256": "7459ef4f0e33449f296236632e4f1b4b8ecf4dcf3ea4def0d9c18404a29e1f65"
+    },
+    "receipt": {
+      "version": "V1.1.7-COMPREHENSIVE-TRAINING-1",
+      "id": "FEDERER_2004_YEAR_END_dec2",
+      "month": 11,
+      "phase": 1,
+      "age": 16.358333333333334,
+      "mode": "train",
+      "plan": {
+        "month": 11,
+        "phase": 1,
+        "technical": [
+          {
+            "group": "serve",
+            "specialize": [
+              "spin",
+              "placement"
+            ]
+          },
+          {
+            "group": "receive",
+            "specialize": [
+              "spin_read",
+              "length_read"
+            ]
+          }
+        ],
+        "body": "stamina",
+        "training_fraction": 0.6,
+        "recovery_fraction": 1.0
+      },
+      "classification": "SIMULATED",
+      "focused": [
+        {
+          "type": "focused_technical",
+          "path": "serve.spin",
+          "group": "serve",
+          "roll": 34,
+          "adjusted": 33,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.6,
+          "direct_factor": 0.34272,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 12.561283112716799,
+          "xp_before": 0.13328366538239322,
+          "xp_balance": 2.444566778099192,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 126.2530064,
+          "old": 115,
+          "new": 116,
+          "specialized": true
+        },
+        {
+          "type": "focused_technical",
+          "path": "serve.placement",
+          "group": "serve",
+          "roll": 41,
+          "adjusted": 41,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.6,
+          "direct_factor": 0.34272,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 11.376388171209602,
+          "xp_before": 11.337762997571215,
+          "xp_balance": 9.054151168780816,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 135.1205552,
+          "old": 124,
+          "new": 125,
+          "specialized": true
+        },
+        {
+          "type": "focused_technical",
+          "path": "receive.spin_read",
+          "group": "receive",
+          "roll": 99,
+          "adjusted": 97,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.6,
+          "direct_factor": 0.34272,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 9.303791976864,
+          "xp_before": 1.560930498288009,
+          "xp_balance": 10.864722475152009,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 134.469448,
+          "old": 122,
+          "new": 122,
+          "specialized": true
+        },
+        {
+          "type": "focused_technical",
+          "path": "receive.length_read",
+          "group": "receive",
+          "roll": 44,
+          "adjusted": 45,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.6,
+          "direct_factor": 0.34272,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 10.3428059432544,
+          "xp_before": 3.080277452572796,
+          "xp_balance": 5.383083395827196,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 130.7377248,
+          "old": 98,
+          "new": 99,
+          "specialized": true
+        }
+      ],
+      "general": [
+        {
+          "type": "general_technical",
+          "path": "fh.continuity",
+          "group": "fh",
+          "roll": 100,
+          "adjusted": 100,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.6,
+          "direct_factor": 0.34272,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 2.6685354969504003,
+          "xp_before": 1.0737647057808015,
+          "xp_balance": 3.742300202731202,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 127.981027,
+          "old": 111,
+          "new": 111
+        },
+        {
+          "type": "general_technical",
+          "path": "bh.placement",
+          "group": "bh",
+          "roll": 96,
+          "adjusted": 96,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.6,
+          "direct_factor": 0.34272,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 2.620167159456,
+          "xp_before": 0.43049333003198775,
+          "xp_balance": 3.0506604894879876,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 130.1205552,
+          "old": 110,
+          "new": 110
+        },
+        {
+          "type": "general_technical",
+          "path": "feet.arrival",
+          "group": "feet",
+          "roll": 95,
+          "adjusted": 94,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.6,
+          "direct_factor": 0.34272,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 2.8260559115712,
+          "xp_before": 3.2929504967104037,
+          "xp_balance": 6.119006408281604,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 125.1630771,
+          "old": 108,
+          "new": 108
+        },
+        {
+          "type": "general_technical",
+          "path": "read.choice",
+          "group": "read",
+          "roll": 53,
+          "adjusted": 54,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.6,
+          "direct_factor": 0.34272,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 2.3762562382944,
+          "xp_before": 3.0535731829031967,
+          "xp_balance": 5.429829421197597,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 137.608619,
+          "old": 102,
+          "new": 102
+        },
+        {
+          "type": "general_technical",
+          "path": "stable.sustain",
+          "group": "stable",
+          "roll": 94,
+          "adjusted": 95,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.6,
+          "direct_factor": 0.34272,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 2.3615129482559998,
+          "xp_before": 8.060517930240007,
+          "xp_balance": 0.17203087849600607,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 139.608619,
+          "old": 115,
+          "new": 116
+        },
+        {
+          "type": "general_technical",
+          "path": "table.short",
+          "group": "table",
+          "roll": 67,
+          "adjusted": 67,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.6,
+          "direct_factor": 0.34272,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 2.5764545977632,
+          "xp_before": 5.7062733724128005,
+          "xp_balance": 8.282727970176001,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 132.1205552,
+          "old": 105,
+          "new": 105
+        },
+        {
+          "type": "general_technical",
+          "path": "spirit.improvisation",
+          "group": "spirit",
+          "roll": 12,
+          "adjusted": 13,
+          "exceptional": false,
+          "age_factor": 1.12,
+          "efficiency": 0.6,
+          "direct_factor": 0.34272,
+          "raw_direct": 0,
+          "direct_applied": 0,
+          "permit_awarded": 0,
+          "xp_awarded": 2.4246245757888,
+          "xp_before": 1.138498303155199,
+          "xp_balance": 3.563122878943999,
+          "permit_balance": 0,
+          "window_multiplier": 1.0,
+          "cap": 131.1205552,
+          "old": 103,
+          "new": 103
+        }
+      ],
+      "body": [
+        {
+          "type": "focused_body",
+          "path": "stamina",
+          "roll": 35,
+          "old": 115.32,
+          "new": 115.32,
+          "xp_awarded": 2.099466,
+          "xp_balance": 7.875913425,
+          "age_factor": 1.0,
+          "efficiency": 0.6,
+          "physical_ceiling": 141.6617,
+          "xp_bank_cap": 10.195999999999998
+        },
+        {
+          "type": "focused_body",
+          "path": "stamina",
+          "roll": 85,
+          "old": 115.32,
+          "new": 115.32,
+          "xp_awarded": 0.6298397999999998,
+          "xp_balance": 8.505753225,
+          "age_factor": 1.0,
+          "efficiency": 0.6,
+          "physical_ceiling": 141.6617,
+          "xp_bank_cap": 10.195999999999998
+        },
+        {
+          "type": "general_body",
+          "path": "speed",
+          "roll": 43,
+          "old": 125.7829,
+          "new": 125.7829,
+          "xp_awarded": 0.17495549999999999,
+          "xp_balance": 0.816459,
+          "age_factor": 1.0,
+          "efficiency": 0.6,
+          "physical_ceiling": 145.0623,
+          "xp_bank_cap": 13.334869999999999
+        },
+        {
+          "type": "general_body",
+          "path": "burst",
+          "roll": 37,
+          "old": 106.32,
+          "new": 106.32,
+          "xp_awarded": 0.17495549999999999,
+          "xp_balance": 0.17495549999999999,
+          "age_factor": 1.0,
+          "efficiency": 0.6,
+          "physical_ceiling": 138.9899,
+          "xp_bank_cap": 8.0
+        },
+        {
+          "type": "general_body",
+          "path": "strength",
+          "roll": 52,
+          "old": 109.32,
+          "new": 109.32,
+          "xp_awarded": 0.17495549999999999,
+          "xp_balance": 5.773531500000001,
+          "age_factor": 1.0,
+          "efficiency": 0.6,
+          "physical_ceiling": 138.5888,
+          "xp_bank_cap": 8.395999999999997
+        },
+        {
+          "type": "general_body",
+          "path": "agility",
+          "roll": 52,
+          "old": 122.2221,
+          "new": 122.2221,
+          "xp_awarded": 0.17495549999999999,
+          "xp_balance": 3.5195214750000003,
+          "age_factor": 1.0,
+          "efficiency": 0.6,
+          "physical_ceiling": 146.2135,
+          "xp_bank_cap": 12.26663
+        },
+        {
+          "type": "general_body",
+          "path": "flexibility",
+          "roll": 50,
+          "old": 124.0858,
+          "new": 124.0858,
+          "xp_awarded": 0.17495549999999999,
+          "xp_balance": 5.339058675,
+          "age_factor": 1.0,
+          "efficiency": 0.6,
+          "physical_ceiling": 146.7989,
+          "xp_bank_cap": 12.825740000000001
+        }
+      ],
+      "budget": {
+        "focused_technical": 4,
+        "general_technical": 7,
+        "focused_body": 2,
+        "general_body": 5
+      },
+      "fatigue": {
+        "before": 0.40000000000000036,
+        "cost": 10.799999999999999,
+        "recovery": 14.0,
+        "after": 0,
+        "efficiency": 0.6,
+        "training_fraction": 0.6,
+        "recovery_fraction": 1.0
+      },
+      "CA_before": 150,
+      "CA_after": 150,
+      "learned_CA": 150,
+      "PA_after": 191,
+      "month_after": 12,
+      "phase_after": 0,
+      "skill_changes": [
+        {
+          "path": "serve.spin",
+          "old": 115,
+          "new": 116
+        },
+        {
+          "path": "serve.placement",
+          "old": 124,
+          "new": 125
+        },
+        {
+          "path": "receive.length_read",
+          "old": 98,
+          "new": 99
+        },
+        {
+          "path": "stable.sustain",
+          "old": 115,
+          "new": 116
+        }
+      ],
+      "body_changes": []
+    }
+  }
+]

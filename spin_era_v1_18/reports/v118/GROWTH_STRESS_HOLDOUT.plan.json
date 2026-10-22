@@ -1,0 +1,30 @@
+{
+  "version": "V1.1.8-CANDIDATE-1",
+  "seed_selection": "CONSECUTIVE_PREDECLARED_HOLDOUT",
+  "seeds": [
+    11818101,
+    11818102
+  ],
+  "scenarios": 12,
+  "labels": [
+    "ma2004",
+    "fan2012",
+    "zhang2004",
+    "ma18",
+    "elite181",
+    "elite165"
+  ],
+  "strategies": [
+    "bounded_opportunities"
+  ],
+  "matrix": false,
+  "stress": true,
+  "injury_contrast": false,
+  "condition": "Synthetic stress: 0.80 availability with 6 national/6 club months each year; 0.40 training in club; or club plus +8 fatigue/phase and one fixed severity3 injury at age24. Low/overload have no champion opportunities; all evidence SYNTHETIC, not actual wins.",
+  "source_sha256": {
+    "runtime/career_v118.py": "4d7b214b4a455c74a47f6971ac9d46756981fca9c70bd100773f6e58c82ea131",
+    "Training/v118.py": "87f751689d849851638eeb2621ed5996ea32c9854677ee61a508a10c1c1dbc59",
+    "examples/calibrate_career_v118.py": "42a198643409e9f51bcb339eab7cceb29e30287abb7b7f6c8be4a10501d7b5bb"
+  },
+  "note": "Abstract age-conditioned careers, not a world calendar past the 2028 cutoff; all opportunities SYNTHETIC, not wins."
+}

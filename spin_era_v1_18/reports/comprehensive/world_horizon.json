@@ -1,0 +1,1409 @@
+{
+  "version": "V1.1.7-COMPREHENSIVE-1",
+  "experiment": "ACTUAL_TWO_ORIGINAL_CAREERS_2006_2028",
+  "source_sha256": {
+    "simulator.py": "da8a9b6d1c01a3b011a4c0d84c33ef0704500f931f92d552a205c2a1e074d179",
+    "world_v118.py": "36f0178bce577d6e9b89646635328feb054f56c6390f231f6391b3b79a05da33",
+    "world_v117.py": "aac0fd2bc0ae3d299ef8cfb78ddbaa99d306bdab0cabe96acd30c28e0c9285c6",
+    "common/__init__.py": "6404128c46d6fa7bf2484ea380045da4995d925f949d6bf6b2c5d27a510fe58b",
+    "Card/__init__.py": "de0614af0039a6b0c4ad4559e90305ea8f0bc8f06e52f7f407d5175d39ee9b6c",
+    "Card/v118.py": "a8a4df47ca09b4b0def6269f5511f1a590c0d4bbed59dc275c7b358ab4893f3d",
+    "Training/__init__.py": "69d249d26781c34d254b07fa9fe6d60f7cdb84ef05a7374175ab397ecf9bf7d5",
+    "Training/v117.py": "467ff4477ba6fbc70d4d962302f0c7bd1ecbb4c37f4c4f5c48e764e0f21121a7",
+    "Training/v118.py": "c47478eb2154cfc9a1e2cde6964e9a9d7eae2b47f5eec59331e10894587cb20a",
+    "Area/__init__.py": "1d1379834f6cb9579e983c614b0e9546e720b18ec41249270a47a46466aee18b",
+    "Area/v117.py": "205c06d343a04e396457665f1b0b7dbf65e574c313bf7e9b8372b6313852dd5c",
+    "Area/v118.py": "dcf6bb799fe30faa29ef3297862eafac931af825e7f28f8b09089dccfc269fe6",
+    "Game/__init__.py": "df1ff56c39cad8cf642ace00dff77479562ea17ea880156241fa2833cc2f9e21",
+    "Game/worker.py": "887afee0bc5d71f778cb2f8c0556b524e1acac26ea564a2cc758f922b6ee4879",
+    "Game/engine_v117.py": "e7cedddcc5ee20e23ad23189912c2901d8f42306bb3bc5fda87970b8e43e1fa1",
+    "Game/light_v117.py": "d185b1852426ac2e92a8fcd49132d5637093da6cdc2b1425c78d52f366f5a599",
+    "Game/tactics_v117.py": "7df4d7f367efa86722cca2868746bc4ef92b6155066161bd4831eedb43421484",
+    "Game/integration_v117.py": "947f78ff7fdfd1b6fcc52c93b00457ac6e97bcf33ab7959e3d6dcdb550b09e06",
+    "Game/geometry.py": "2e7d61939f00c1e0c1fdb081bf158dc419cc2da504b44d542d4c4ef073d433c4",
+    "Game/v118.py": "1bb924588da4de0a1fc2b442ae43200bc7157a9522bbb18c028ad699030c132d",
+    "Game/worker_v118.py": "44eb8f29834512dbc6c5e5421cb10c3c4b4bf94d52bdfa04e73d92f624aed6b5",
+    "Game/preferences_v118.py": "4048d022c83fa84d897a122f7dcd8b929fcfbdc22fb8d2a85affde7a34e784dc",
+    "Game/integration_v118.py": "3206865a266024f937cc18a4c4aa3e60252e2f406e6b3a8dac73f0aeafe37dc4",
+    "Game/observed_tactics.py": "aab648a3356f101d3cbd165cc0f4edeec1271b98a653d260f36facd9189359eb",
+    "Game/specialist_engine.py": "131f6da784bf7ca9960018eff8b4768bcac3319573c6fdb777aa73dfa27953f5",
+    "runtime/card_training_v112.py": "ea441a87493701ac078eecc74a42640e7f45e9abb06ac4321636697314f144f9",
+    "runtime/career_v114.py": "579e34d873d4b3c173b3f5a988f5d9f3c18c56051fa45b005e97fe114966e76a",
+    "runtime/career_v115.py": "106c38d097290bbb5184a3b0809d2a5015768308b02297dca9a3c44ccff0630a",
+    "runtime/career_v116.py": "0f175c818647a33f2553e1094bbb5edb50841e4ef179bd8c5c54ca0691562940",
+    "runtime/career_v117.py": "1331ddb4a80cabeb1e884d18dc97381abfc4da3c4754f21c51aa8f81dedc2dd4",
+    "runtime/career_v118.py": "1a6a3d133e785b1f2e7525148be6fcef0a5c0ced9e45137cb0576ac7c5dcbcb4",
+    "runtime/ranking_v112.py": "71e2c2ca62a1bb8fce526b45ef8c1c28b507d5c04149008ab2eea7c8d0cf25be",
+    "runtime/era_lcm_v11.py": "b6ac937f0b55df6ee1d656e80f54a9d46cac911eb0870406acc9d58cabc3f828",
+    "runtime/game_v112.py": "2f75346f624d59638b5e1a7910c2982ac38fb9a6e2da025d752698c29c6b5581",
+    "runtime/game_v113.py": "5cf588b85b625a1dbd29ddab6ce9c29b891243c215e9e8567103b8fa98355d66",
+    "runtime/game_v114.py": "124122cd13a576eff5469c5dbe07ab156a118a9e2ba9564401464923012df910",
+    "runtime/game_v115.py": "2a75d8bd5fda616908dab28ca915db15fa7dc763176475cc55a0520d69d3836d",
+    "runtime/tactical_match_v116.py": "108745b40cbb3cceba561658ce6ac7b25e116fec57b2dbeaccd10d7b660cea0a",
+    "runtime/specialist_rubber_v116.py": "e46e8946452e63cc238ca7280525b1419d12ad6afded550f0b9bae477d7ff499",
+    "data/area_catalog.json": "4e935928ec095c63b7e55117b028088e3e145731adc9d44d4af61e6071337f63",
+    "data/presets_normalized.json": "8c535ac476a5e9e9bd265d34a838fa4f7bf886c95ee4218b4c479e7276e5ee4e",
+    "data/original/spin_era_v013_frozen_attribute_schema.json": "3f211016c57dd0091ac2659067178c0f2d9650f80f3683919dd6cb260dc9028d",
+    "data/original/spin_era_players_archive_2000_2026_v12.json": "2beab9577d8f073aa37745acaa48b0196c85d7016a4bc1cb91e94ffdd18efeee",
+    "data/calendar_2027_v117.json": "26cfd0f63d957f3fa19d015c486e958d6b6f8b71caed9ad922219c5ff995884a",
+    "data/calendar_2028_v117.json": "a5fc63f74d509b612bcd226c34345fbae351a45eebfa726c565f5b43fd469129",
+    "data/player_profiles_v118.json": "5ddf04e494f4659fba11b9b97123ec697d5f3c1eb5d31607ce566225e5ee21c3",
+    "narrative_v118.py": "beff51d245e6a695a96ea3ed1346a31711fc9a5c179a44899ae043cef7e6be8d",
+    "examples/stress_horizon_comprehensive.py": "329a749fdfacf28994055dfb0415633acb616541660c8f97a670aced28a8190d"
+  },
+  "start_date": "2006-02-01",
+  "end_date": "2028-07-30",
+  "ruleset_fingerprint_sha256": "8553215625546b27fe3bb066b9712909e6a1e88ba41d3c91c95630befd0f54fd",
+  "initial_players": {
+    "original_horizon_0": {
+      "CA": 159,
+      "PA": 198,
+      "P6": {
+        "speed": 120,
+        "burst": 118,
+        "strength": 116,
+        "stamina": 118,
+        "agility": 120,
+        "flexibility": 122
+      }
+    },
+    "original_horizon_1": {
+      "CA": 150,
+      "PA": 176,
+      "P6": {
+        "speed": 115,
+        "burst": 113,
+        "strength": 111,
+        "stamina": 113,
+        "agility": 115,
+        "flexibility": 117
+      }
+    }
+  },
+  "phases": 1080,
+  "phase_modes": {
+    "train": 877,
+    "rest": 203
+  },
+  "summary_matches": 89,
+  "skipped_quarterly_fixtures_due_to_health": 1,
+  "full_logs_retained": 0,
+  "yearly_dump_load_continue_verifications": 23,
+  "baseline_checkpoint_bytes": 59675,
+  "final_checkpoint_bytes": 2776194,
+  "annual_samples": [
+    {
+      "settled_calendar_year": 2006,
+      "date": "2007-01-01",
+      "checkpoint_bytes": 161298,
+      "matches": 4,
+      "players": {
+        "original_horizon_0": {
+          "age": 18.916666666666668,
+          "CA": 164,
+          "learned_CA": 164,
+          "PA": 198,
+          "pa_range": [
+            195,
+            200
+          ],
+          "P6": {
+            "speed": 124.6624,
+            "burst": 124.6784,
+            "strength": 122.7392,
+            "stamina": 122.7607,
+            "agility": 125.5828,
+            "flexibility": 127.5204
+          },
+          "fatigue": 43.587400166666626,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 4,
+          "national_training_units_spent": 8
+        },
+        "original_horizon_1": {
+          "age": 18.916666666666668,
+          "CA": 156,
+          "learned_CA": 156,
+          "PA": 176,
+          "pa_range": [
+            173,
+            179
+          ],
+          "P6": {
+            "speed": 119.0812,
+            "burst": 117.3194,
+            "strength": 117.3672,
+            "stamina": 117.2932,
+            "agility": 118.1216,
+            "flexibility": 120.102
+          },
+          "fatigue": 44.15097122222218,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 4,
+          "national_training_units_spent": 8
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2007,
+      "date": "2008-01-01",
+      "checkpoint_bytes": 270248,
+      "matches": 8,
+      "players": {
+        "original_horizon_0": {
+          "age": 19.916666666666668,
+          "CA": 169,
+          "learned_CA": 169,
+          "PA": 198,
+          "pa_range": [
+            195,
+            200
+          ],
+          "P6": {
+            "speed": 129.7162,
+            "burst": 128.6968,
+            "strength": 127.8425,
+            "stamina": 128.8933,
+            "agility": 130.4578,
+            "flexibility": 131.3785
+          },
+          "fatigue": 27.681766388888818,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 6,
+          "national_training_units_spent": 10
+        },
+        "original_horizon_1": {
+          "age": 19.916666666666668,
+          "CA": 161,
+          "learned_CA": 161,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 123.4625,
+            "burst": 120.9385,
+            "strength": 119.9559,
+            "stamina": 119.9356,
+            "agility": 123.665,
+            "flexibility": 122.7214
+          },
+          "fatigue": 29.998872499999933,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 7,
+          "national_training_units_spent": 9
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2008,
+      "date": "2009-01-01",
+      "checkpoint_bytes": 375904,
+      "matches": 12,
+      "players": {
+        "original_horizon_0": {
+          "age": 20.916666666666668,
+          "CA": 174,
+          "learned_CA": 174,
+          "PA": 198,
+          "pa_range": [
+            195,
+            200
+          ],
+          "P6": {
+            "speed": 133.727,
+            "burst": 132.8222,
+            "strength": 131.0095,
+            "stamina": 131.9779,
+            "agility": 134.3352,
+            "flexibility": 135.317
+          },
+          "fatigue": 32.695014388888794,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 6,
+          "national_training_units_spent": 12
+        },
+        "original_horizon_1": {
+          "age": 20.916666666666668,
+          "CA": 165,
+          "learned_CA": 165,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 125.2878,
+            "burst": 124.9367,
+            "strength": 123.9438,
+            "stamina": 123.941,
+            "agility": 126.441,
+            "flexibility": 126.6918
+          },
+          "fatigue": 38.86774594444434,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 9,
+          "national_training_units_spent": 10
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2009,
+      "date": "2010-01-01",
+      "checkpoint_bytes": 479368,
+      "matches": 16,
+      "players": {
+        "original_horizon_0": {
+          "age": 21.916666666666668,
+          "CA": 177,
+          "learned_CA": 177,
+          "PA": 198,
+          "pa_range": [
+            195,
+            200
+          ],
+          "P6": {
+            "speed": 135.9773,
+            "burst": 135.1421,
+            "strength": 134.3046,
+            "stamina": 135.2931,
+            "agility": 137.4675,
+            "flexibility": 138.4501
+          },
+          "fatigue": 43.353295499999874,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 9,
+          "national_training_units_spent": 9
+        },
+        "original_horizon_1": {
+          "age": 21.916666666666668,
+          "CA": 167,
+          "learned_CA": 167,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 127.7575,
+            "burst": 127.4168,
+            "strength": 125.4511,
+            "stamina": 127.4225,
+            "agility": 128.8166,
+            "flexibility": 128.1752
+          },
+          "fatigue": 47.607841555555424,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 11,
+          "national_training_units_spent": 10
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2010,
+      "date": "2011-01-01",
+      "checkpoint_bytes": 584416,
+      "matches": 20,
+      "players": {
+        "original_horizon_0": {
+          "age": 22.916666666666668,
+          "CA": 179,
+          "learned_CA": 179,
+          "PA": 198,
+          "pa_range": [
+            195,
+            200
+          ],
+          "P6": {
+            "speed": 138.7899,
+            "burst": 137.9771,
+            "strength": 136.1607,
+            "stamina": 137.137,
+            "agility": 139.1493,
+            "flexibility": 140.1922
+          },
+          "fatigue": 24.514148777777606,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 10,
+          "national_training_units_spent": 11
+        },
+        "original_horizon_1": {
+          "age": 22.916666666666668,
+          "CA": 169,
+          "learned_CA": 169,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 129.0063,
+            "burst": 128.6329,
+            "strength": 126.7044,
+            "stamina": 128.623,
+            "agility": 130.9517,
+            "flexibility": 130.4177
+          },
+          "fatigue": 30.469263888888733,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 13,
+          "national_training_units_spent": 10
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2011,
+      "date": "2012-01-01",
+      "checkpoint_bytes": 688712,
+      "matches": 24,
+      "players": {
+        "original_horizon_0": {
+          "age": 23.916666666666668,
+          "CA": 181,
+          "learned_CA": 181,
+          "PA": 198,
+          "pa_range": [
+            195,
+            200
+          ],
+          "P6": {
+            "speed": 140.2413,
+            "burst": 139.4624,
+            "strength": 137.6733,
+            "stamina": 137.6445,
+            "agility": 140.5478,
+            "flexibility": 141.6055
+          },
+          "fatigue": 41.080206722222016,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 13,
+          "national_training_units_spent": 9
+        },
+        "original_horizon_1": {
+          "age": 23.916666666666668,
+          "CA": 171,
+          "learned_CA": 171,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 131.0891,
+            "burst": 130.7224,
+            "strength": 128.8228,
+            "stamina": 130.6932,
+            "agility": 130.9669,
+            "flexibility": 132.4889
+          },
+          "fatigue": 45.6623859999998,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 14,
+          "national_training_units_spent": 10
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2012,
+      "date": "2013-01-01",
+      "checkpoint_bytes": 792324,
+      "matches": 28,
+      "players": {
+        "original_horizon_0": {
+          "age": 24.916666666666668,
+          "CA": 183,
+          "learned_CA": 183,
+          "PA": 198,
+          "pa_range": [
+            195,
+            200
+          ],
+          "P6": {
+            "speed": 141.5031,
+            "burst": 140.7307,
+            "strength": 139.9551,
+            "stamina": 138.9575,
+            "agility": 141.7755,
+            "flexibility": 142.8431
+          },
+          "fatigue": 29.6949624444442,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 16,
+          "national_training_units_spent": 8
+        },
+        "original_horizon_1": {
+          "age": 24.916666666666668,
+          "CA": 171,
+          "learned_CA": 171,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 131.1149,
+            "burst": 130.7469,
+            "strength": 129.8431,
+            "stamina": 130.6946,
+            "agility": 130.977,
+            "flexibility": 132.5123
+          },
+          "fatigue": 32.01844322222199,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 14,
+          "national_training_units_spent": 10
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2013,
+      "date": "2014-01-01",
+      "checkpoint_bytes": 894991,
+      "matches": 32,
+      "players": {
+        "original_horizon_0": {
+          "age": 25.916666666666668,
+          "CA": 184,
+          "learned_CA": 184,
+          "PA": 198,
+          "pa_range": [
+            195,
+            200
+          ],
+          "P6": {
+            "speed": 142.6566,
+            "burst": 141.8994,
+            "strength": 141.1138,
+            "stamina": 140.1452,
+            "agility": 141.9158,
+            "flexibility": 143.9899
+          },
+          "fatigue": 44.33055872222195,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 15,
+          "national_training_units_spent": 9
+        },
+        "original_horizon_1": {
+          "age": 25.916666666666668,
+          "CA": 172,
+          "learned_CA": 172,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 131.1315,
+            "burst": 130.7627,
+            "strength": 129.8462,
+            "stamina": 130.6955,
+            "agility": 130.9835,
+            "flexibility": 132.5274
+          },
+          "fatigue": 47.040768055555276,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 15,
+          "national_training_units_spent": 9
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2014,
+      "date": "2015-01-01",
+      "checkpoint_bytes": 998980,
+      "matches": 36,
+      "players": {
+        "original_horizon_0": {
+          "age": 26.916666666666664,
+          "CA": 185,
+          "learned_CA": 185,
+          "PA": 198,
+          "pa_range": [
+            195,
+            200
+          ],
+          "P6": {
+            "speed": 143.7492,
+            "burst": 142.9942,
+            "strength": 141.2041,
+            "stamina": 141.2593,
+            "agility": 143.0004,
+            "flexibility": 145.0718
+          },
+          "fatigue": 30.407142833333026,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 15,
+          "national_training_units_spent": 9
+        },
+        "original_horizon_1": {
+          "age": 26.916666666666664,
+          "CA": 172,
+          "learned_CA": 172,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 131.1424,
+            "burst": 130.773,
+            "strength": 129.8482,
+            "stamina": 130.696,
+            "agility": 130.9877,
+            "flexibility": 132.5373
+          },
+          "fatigue": 32.10962005555524,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 14,
+          "national_training_units_spent": 10
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2015,
+      "date": "2016-01-01",
+      "checkpoint_bytes": 1102054,
+      "matches": 40,
+      "players": {
+        "original_horizon_0": {
+          "age": 27.916666666666664,
+          "CA": 185,
+          "learned_CA": 185,
+          "PA": 198,
+          "pa_range": [
+            195,
+            200
+          ],
+          "P6": {
+            "speed": 143.6026,
+            "burst": 143.8415,
+            "strength": 142.1153,
+            "stamina": 141.1565,
+            "agility": 142.8692,
+            "flexibility": 144.9757
+          },
+          "fatigue": 44.46348477777744,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 15,
+          "national_training_units_spent": 9
+        },
+        "original_horizon_1": {
+          "age": 27.916666666666664,
+          "CA": 173,
+          "learned_CA": 173,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 131.1431,
+            "burst": 130.7737,
+            "strength": 129.8484,
+            "stamina": 130.6961,
+            "agility": 130.988,
+            "flexibility": 132.538
+          },
+          "fatigue": 46.484784444444074,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 15,
+          "national_training_units_spent": 9
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2016,
+      "date": "2017-01-01",
+      "checkpoint_bytes": 1205258,
+      "matches": 44,
+      "players": {
+        "original_horizon_0": {
+          "age": 28.916666666666664,
+          "CA": 185,
+          "learned_CA": 185,
+          "PA": 198,
+          "pa_range": [
+            195,
+            200
+          ],
+          "P6": {
+            "speed": 142.9208,
+            "burst": 143.1325,
+            "strength": 142.6898,
+            "stamina": 141.6656,
+            "agility": 143.2583,
+            "flexibility": 145.523
+          },
+          "fatigue": 30.20627744444409,
+          "injuries": 0,
+          "body_limited_subskills": 2,
+          "investment_units": 15,
+          "national_training_units_spent": 9
+        },
+        "original_horizon_1": {
+          "age": 28.916666666666664,
+          "CA": 172,
+          "learned_CA": 172,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 130.6559,
+            "burst": 130.267,
+            "strength": 129.5443,
+            "stamina": 130.3453,
+            "agility": 130.5515,
+            "flexibility": 132.2145
+          },
+          "fatigue": 31.42708611111071,
+          "injuries": 0,
+          "body_limited_subskills": 0,
+          "investment_units": 14,
+          "national_training_units_spent": 10
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2017,
+      "date": "2018-01-01",
+      "checkpoint_bytes": 1307621,
+      "matches": 48,
+      "players": {
+        "original_horizon_0": {
+          "age": 29.916666666666664,
+          "CA": 185,
+          "learned_CA": 185,
+          "PA": 198,
+          "pa_range": [
+            195,
+            200
+          ],
+          "P6": {
+            "speed": 142.8555,
+            "burst": 142.0245,
+            "strength": 142.0251,
+            "stamina": 140.8986,
+            "agility": 142.3038,
+            "flexibility": 144.8156
+          },
+          "fatigue": 24.78584511111073,
+          "injuries": 0,
+          "body_limited_subskills": 7,
+          "investment_units": 16,
+          "national_training_units_spent": 8
+        },
+        "original_horizon_1": {
+          "age": 29.916666666666664,
+          "CA": 173,
+          "learned_CA": 173,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 129.7579,
+            "burst": 129.3331,
+            "strength": 128.984,
+            "stamina": 129.6987,
+            "agility": 129.7468,
+            "flexibility": 131.6182
+          },
+          "fatigue": 28.24362727777735,
+          "injuries": 0,
+          "body_limited_subskills": 7,
+          "investment_units": 17,
+          "national_training_units_spent": 7
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2018,
+      "date": "2019-01-01",
+      "checkpoint_bytes": 1400342,
+      "matches": 51,
+      "players": {
+        "original_horizon_0": {
+          "age": 30.916666666666664,
+          "CA": 185,
+          "learned_CA": 185,
+          "PA": 197,
+          "pa_range": [
+            194,
+            200
+          ],
+          "P6": {
+            "speed": 139.3464,
+            "burst": 139.455,
+            "strength": 142.0834,
+            "stamina": 140.812,
+            "agility": 141.9516,
+            "flexibility": 143.8136
+          },
+          "fatigue": 21.77900849999999,
+          "injuries": 1,
+          "body_limited_subskills": 16,
+          "investment_units": 19,
+          "national_training_units_spent": 5
+        },
+        "original_horizon_1": {
+          "age": 30.916666666666664,
+          "CA": 173,
+          "learned_CA": 173,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 128.4916,
+            "burst": 128.0161,
+            "strength": 128.1938,
+            "stamina": 128.787,
+            "agility": 128.6122,
+            "flexibility": 130.7774
+          },
+          "fatigue": 36.13495833333286,
+          "injuries": 0,
+          "body_limited_subskills": 14,
+          "investment_units": 14,
+          "national_training_units_spent": 10
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2019,
+      "date": "2020-01-01",
+      "checkpoint_bytes": 1532864,
+      "matches": 55,
+      "players": {
+        "original_horizon_0": {
+          "age": 31.916666666666664,
+          "CA": 184,
+          "learned_CA": 185,
+          "PA": 197,
+          "pa_range": [
+            194,
+            200
+          ],
+          "P6": {
+            "speed": 138.4943,
+            "burst": 137.5289,
+            "strength": 140.9277,
+            "stamina": 139.4785,
+            "agility": 140.2921,
+            "flexibility": 143.5838
+          },
+          "fatigue": 30.524223722222203,
+          "injuries": 2,
+          "body_limited_subskills": 17,
+          "investment_units": 13,
+          "national_training_units_spent": 11
+        },
+        "original_horizon_1": {
+          "age": 31.916666666666664,
+          "CA": 171,
+          "learned_CA": 172,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 126.7877,
+            "burst": 126.2442,
+            "strength": 127.1306,
+            "stamina": 127.5602,
+            "agility": 127.0856,
+            "flexibility": 129.646
+          },
+          "fatigue": 24.22774749999948,
+          "injuries": 0,
+          "body_limited_subskills": 16,
+          "investment_units": 16,
+          "national_training_units_spent": 8
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2020,
+      "date": "2021-01-01",
+      "checkpoint_bytes": 1679621,
+      "matches": 59,
+      "players": {
+        "original_horizon_0": {
+          "age": 32.916666666666664,
+          "CA": 183,
+          "learned_CA": 184,
+          "PA": 197,
+          "pa_range": [
+            194,
+            200
+          ],
+          "P6": {
+            "speed": 136.193,
+            "burst": 136.1355,
+            "strength": 140.4917,
+            "stamina": 137.8216,
+            "agility": 138.2302,
+            "flexibility": 142.0557
+          },
+          "fatigue": 39.43452694444437,
+          "injuries": 2,
+          "body_limited_subskills": 17,
+          "investment_units": 14,
+          "national_training_units_spent": 10
+        },
+        "original_horizon_1": {
+          "age": 32.916666666666664,
+          "CA": 170,
+          "learned_CA": 171,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 124.7022,
+            "burst": 124.0752,
+            "strength": 125.8292,
+            "stamina": 126.0586,
+            "agility": 125.217,
+            "flexibility": 128.2612
+          },
+          "fatigue": 31.31905677777722,
+          "injuries": 0,
+          "body_limited_subskills": 17,
+          "investment_units": 13,
+          "national_training_units_spent": 11
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2021,
+      "date": "2022-01-01",
+      "checkpoint_bytes": 1823284,
+      "matches": 63,
+      "players": {
+        "original_horizon_0": {
+          "age": 33.916666666666664,
+          "CA": 181,
+          "learned_CA": 183,
+          "PA": 197,
+          "pa_range": [
+            194,
+            200
+          ],
+          "P6": {
+            "speed": 133.4062,
+            "burst": 133.2373,
+            "strength": 138.7527,
+            "stamina": 136.8151,
+            "agility": 136.7332,
+            "flexibility": 140.2053
+          },
+          "fatigue": 24.549096833333223,
+          "injuries": 2,
+          "body_limited_subskills": 17,
+          "investment_units": 16,
+          "national_training_units_spent": 8
+        },
+        "original_horizon_1": {
+          "age": 33.916666666666664,
+          "CA": 169,
+          "learned_CA": 170,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 122.1389,
+            "burst": 121.4094,
+            "strength": 124.2297,
+            "stamina": 124.213,
+            "agility": 122.9202,
+            "flexibility": 126.5592
+          },
+          "fatigue": 41.92234005555494,
+          "injuries": 0,
+          "body_limited_subskills": 28,
+          "investment_units": 15,
+          "national_training_units_spent": 9
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2022,
+      "date": "2023-01-01",
+      "checkpoint_bytes": 1968452,
+      "matches": 67,
+      "players": {
+        "original_horizon_0": {
+          "age": 34.91666666666667,
+          "CA": 180,
+          "learned_CA": 182,
+          "PA": 197,
+          "pa_range": [
+            194,
+            200
+          ],
+          "P6": {
+            "speed": 131.158,
+            "burst": 130.8592,
+            "strength": 137.7259,
+            "stamina": 134.4764,
+            "agility": 133.8229,
+            "flexibility": 139.0485
+          },
+          "fatigue": 30.66928138888877,
+          "injuries": 2,
+          "body_limited_subskills": 17,
+          "investment_units": 16,
+          "national_training_units_spent": 8
+        },
+        "original_horizon_1": {
+          "age": 34.91666666666667,
+          "CA": 166,
+          "learned_CA": 169,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 119.1016,
+            "burst": 118.2505,
+            "strength": 122.3344,
+            "stamina": 122.0262,
+            "agility": 120.1988,
+            "flexibility": 124.5424
+          },
+          "fatigue": 48.42657311111046,
+          "injuries": 0,
+          "body_limited_subskills": 32,
+          "investment_units": 16,
+          "national_training_units_spent": 8
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2023,
+      "date": "2024-01-01",
+      "checkpoint_bytes": 2114592,
+      "matches": 71,
+      "players": {
+        "original_horizon_0": {
+          "age": 35.91666666666667,
+          "CA": 178,
+          "learned_CA": 181,
+          "PA": 197,
+          "pa_range": [
+            194,
+            200
+          ],
+          "P6": {
+            "speed": 127.5632,
+            "burst": 127.1205,
+            "strength": 135.4827,
+            "stamina": 131.8881,
+            "agility": 131.6019,
+            "flexibility": 136.6615
+          },
+          "fatigue": 31.982410111110966,
+          "injuries": 2,
+          "body_limited_subskills": 19,
+          "investment_units": 12,
+          "national_training_units_spent": 12
+        },
+        "original_horizon_1": {
+          "age": 35.91666666666667,
+          "CA": 164,
+          "learned_CA": 167,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 115.6556,
+            "burst": 114.6668,
+            "strength": 120.1842,
+            "stamina": 119.5451,
+            "agility": 117.1112,
+            "flexibility": 122.2543
+          },
+          "fatigue": 27.14646316666598,
+          "injuries": 0,
+          "body_limited_subskills": 35,
+          "investment_units": 14,
+          "national_training_units_spent": 10
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2024,
+      "date": "2025-01-01",
+      "checkpoint_bytes": 2258531,
+      "matches": 75,
+      "players": {
+        "original_horizon_0": {
+          "age": 36.91666666666667,
+          "CA": 176,
+          "learned_CA": 179,
+          "PA": 197,
+          "pa_range": [
+            194,
+            200
+          ],
+          "P6": {
+            "speed": 124.5087,
+            "burst": 123.9039,
+            "strength": 133.9527,
+            "stamina": 129.9689,
+            "agility": 127.9691,
+            "flexibility": 134.9694
+          },
+          "fatigue": 30.944383722222042,
+          "injuries": 2,
+          "body_limited_subskills": 19,
+          "investment_units": 12,
+          "national_training_units_spent": 12
+        },
+        "original_horizon_1": {
+          "age": 36.91666666666667,
+          "CA": 162,
+          "learned_CA": 166,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 111.713,
+            "burst": 110.5664,
+            "strength": 117.7239,
+            "stamina": 116.7064,
+            "agility": 113.5786,
+            "flexibility": 119.6364
+          },
+          "fatigue": 30.953228111110384,
+          "injuries": 0,
+          "body_limited_subskills": 36,
+          "investment_units": 15,
+          "national_training_units_spent": 9
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2025,
+      "date": "2026-01-01",
+      "checkpoint_bytes": 2402220,
+      "matches": 79,
+      "players": {
+        "original_horizon_0": {
+          "age": 37.91666666666667,
+          "CA": 174,
+          "learned_CA": 177,
+          "PA": 197,
+          "pa_range": [
+            194,
+            200
+          ],
+          "P6": {
+            "speed": 119.9113,
+            "burst": 119.1226,
+            "strength": 131.0839,
+            "stamina": 126.6588,
+            "agility": 123.8498,
+            "flexibility": 131.9167
+          },
+          "fatigue": 30.57959677777758,
+          "injuries": 2,
+          "body_limited_subskills": 20,
+          "investment_units": 14,
+          "national_training_units_spent": 10
+        },
+        "original_horizon_1": {
+          "age": 37.91666666666667,
+          "CA": 158,
+          "learned_CA": 164,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 107.368,
+            "burst": 106.0476,
+            "strength": 115.0127,
+            "stamina": 113.578,
+            "agility": 109.6855,
+            "flexibility": 116.7513
+          },
+          "fatigue": 29.605535111110356,
+          "injuries": 0,
+          "body_limited_subskills": 37,
+          "investment_units": 13,
+          "national_training_units_spent": 11
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2026,
+      "date": "2027-01-01",
+      "checkpoint_bytes": 2549099,
+      "matches": 83,
+      "players": {
+        "original_horizon_0": {
+          "age": 38.91666666666667,
+          "CA": 170,
+          "learned_CA": 176,
+          "PA": 197,
+          "pa_range": [
+            194,
+            200
+          ],
+          "P6": {
+            "speed": 114.8758,
+            "burst": 113.8857,
+            "strength": 127.9418,
+            "stamina": 123.0332,
+            "agility": 120.338,
+            "flexibility": 128.5731
+          },
+          "fatigue": 30.597367555555323,
+          "injuries": 2,
+          "body_limited_subskills": 20,
+          "investment_units": 13,
+          "national_training_units_spent": 11
+        },
+        "original_horizon_1": {
+          "age": 38.91666666666667,
+          "CA": 154,
+          "learned_CA": 162,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 102.55,
+            "burst": 101.0369,
+            "strength": 112.0063,
+            "stamina": 110.109,
+            "agility": 105.3686,
+            "flexibility": 113.5522
+          },
+          "fatigue": 29.721160611110307,
+          "injuries": 0,
+          "body_limited_subskills": 40,
+          "investment_units": 13,
+          "national_training_units_spent": 11
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2027,
+      "date": "2028-01-01",
+      "checkpoint_bytes": 2693631,
+      "matches": 87,
+      "players": {
+        "original_horizon_0": {
+          "age": 39.91666666666667,
+          "CA": 167,
+          "learned_CA": 173,
+          "PA": 197,
+          "pa_range": [
+            194,
+            200
+          ],
+          "P6": {
+            "speed": 110.2676,
+            "burst": 108.0531,
+            "strength": 124.4422,
+            "stamina": 119.9953,
+            "agility": 115.313,
+            "flexibility": 124.8493
+          },
+          "fatigue": 29.423091333333083,
+          "injuries": 2,
+          "body_limited_subskills": 27,
+          "investment_units": 15,
+          "national_training_units_spent": 9
+        },
+        "original_horizon_1": {
+          "age": 39.91666666666667,
+          "CA": 150,
+          "learned_CA": 160,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 97.1206,
+            "burst": 95.3904,
+            "strength": 108.6183,
+            "stamina": 106.1999,
+            "agility": 100.5039,
+            "flexibility": 109.9471
+          },
+          "fatigue": 29.979688944443623,
+          "injuries": 0,
+          "body_limited_subskills": 40,
+          "investment_units": 16,
+          "national_training_units_spent": 8
+        }
+      }
+    },
+    {
+      "settled_calendar_year": 2028,
+      "date": "2028-07-30",
+      "checkpoint_bytes": 2776194,
+      "matches": 89,
+      "players": {
+        "original_horizon_0": {
+          "age": 40.5,
+          "CA": 165,
+          "learned_CA": 172,
+          "PA": 197,
+          "pa_range": [
+            194,
+            200
+          ],
+          "P6": {
+            "speed": 106.7573,
+            "burst": 104.4024,
+            "strength": 122.2518,
+            "stamina": 117.4679,
+            "agility": 112.1678,
+            "flexibility": 122.5184
+          },
+          "fatigue": 35.20508583333309,
+          "injuries": 2,
+          "body_limited_subskills": 29,
+          "investment_units": 19,
+          "national_training_units_spent": 5
+        },
+        "original_horizon_1": {
+          "age": 40.5,
+          "CA": 148,
+          "learned_CA": 158,
+          "PA": 177,
+          "pa_range": [
+            174,
+            180
+          ],
+          "P6": {
+            "speed": 93.741,
+            "burst": 91.8756,
+            "strength": 106.5095,
+            "stamina": 103.7666,
+            "agility": 97.4757,
+            "flexibility": 107.703
+          },
+          "fatigue": 35.9235843333325,
+          "injuries": 0,
+          "body_limited_subskills": 40,
+          "investment_units": 19,
+          "national_training_units_spent": 5
+        }
+      }
+    }
+  ],
+  "annual_sample_peaks": {
+    "original_horizon_0": {
+      "year": 2014,
+      "age": 26.916666666666664,
+      "CA": 185,
+      "learned_CA": 185,
+      "PA": 198,
+      "pa_range": [
+        195,
+        200
+      ],
+      "P6": {
+        "speed": 143.7492,
+        "burst": 142.9942,
+        "strength": 141.2041,
+        "stamina": 141.2593,
+        "agility": 143.0004,
+        "flexibility": 145.0718
+      },
+      "fatigue": 30.407142833333026,
+      "injuries": 0,
+      "body_limited_subskills": 0,
+      "investment_units": 15,
+      "national_training_units_spent": 9
+    },
+    "original_horizon_1": {
+      "year": 2015,
+      "age": 27.916666666666664,
+      "CA": 173,
+      "learned_CA": 173,
+      "PA": 177,
+      "pa_range": [
+        174,
+        180
+      ],
+      "P6": {
+        "speed": 131.1431,
+        "burst": 130.7737,
+        "strength": 129.8484,
+        "stamina": 130.6961,
+        "agility": 130.988,
+        "flexibility": 132.538
+      },
+      "fatigue": 46.484784444444074,
+      "injuries": 0,
+      "body_limited_subskills": 0,
+      "investment_units": 15,
+      "national_training_units_spent": 9
+    }
+  },
+  "final_consistency": {
+    "valid": true,
+    "ruleset": "SPIN_ERA_V1.1.7_COMPREHENSIVE_1",
+    "game_ruleset": "V1.1.7-COMPREHENSIVE-1",
+    "current_date": "2028-07-30",
+    "completed": true,
+    "horizon_end": "2028-07-30",
+    "players": 2,
+    "matches": 89,
+    "phase_clock": "TWO_PER_MONTH_SHARED_15_DAYS",
+    "archive_policy": "COMPACT_CHECKPOINT_EXTERNAL_OPTIONAL_FULL_LOGS",
+    "complete_roster": false,
+    "deep": true
+  },
+  "elapsed_seconds": 30.941044,
+  "limitations": [
+    "Two synthetic careers validate finite-horizon integration, not population-level calibration.",
+    "Quarterly practice provides real exposure; it gives no titles, formal Elo/S-PTS or champion opportunities.",
+    "National-quality access is explicitly granted by this test scenario; spending is capped at 12 units/player/year.",
+    "Annual samples are for trends; the individual growth calibration report supplies precise peak distributions."
+  ]
+}

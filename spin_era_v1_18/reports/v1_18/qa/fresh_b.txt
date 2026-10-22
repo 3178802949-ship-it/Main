@@ -1,0 +1,1 @@
+{"output": "/workspace/Main/spin_era_v1_18/reports/v1_18/qa/fresh_b", "date": "2005-01-01", "valid": true, "initial_checkpoint_sha256": "1430cc0df68c750cc300b28debb6cda62f7273e011a6c1899cfa7f85273caf25", "matches": 23}

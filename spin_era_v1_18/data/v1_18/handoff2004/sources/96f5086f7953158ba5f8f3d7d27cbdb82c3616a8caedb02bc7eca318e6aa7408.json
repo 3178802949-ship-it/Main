@@ -1,0 +1,15 @@
+{
+  "event": "Slovenia Youth Open Ljubljana",
+  "date": "2004-04-02/2004-04-04",
+  "entry": "fictional confirmed in storyline",
+  "historical_attendance": "not verified",
+  "qualification_draw": "slovenia_2004_qualification_results.json",
+  "qualification_result": {
+    "wins": 2,
+    "losses": 1,
+    "qualified": true,
+    "next_opponent": "Ruwen Filus",
+    "main_draw_note": "fictional single next draw from other groups; full historical main draw unavailable"
+  },
+  "do_not_simulate_main_draw": true
+}

@@ -1,0 +1,19 @@
+{
+  "version": "V1.1.7-COMPREHENSIVE-NARRATIVE-1",
+  "match_seed_base": 11897000,
+  "real_matches": 8,
+  "variants_per_match": 12,
+  "source_sha256": {
+    "narrative_v118.py": "beff51d245e6a695a96ea3ed1346a31711fc9a5c179a44899ae043cef7e6be8d",
+    "Card/v118.py": "a8a4df47ca09b4b0def6269f5511f1a590c0d4bbed59dc275c7b358ab4893f3d",
+    "Game/v118.py": "1bb924588da4de0a1fc2b442ae43200bc7157a9522bbb18c028ad699030c132d",
+    "Game/worker_v118.py": "44eb8f29834512dbc6c5e5421cb10c3c4b4bf94d52bdfa04e73d92f624aed6b5",
+    "Game/preferences_v118.py": "4048d022c83fa84d897a122f7dcd8b929fcfbdc22fb8d2a85affde7a34e784dc",
+    "Area/v118.py": "dcf6bb799fe30faa29ef3297862eafac931af825e7f28f8b09089dccfc269fe6",
+    "Training/v118.py": "c47478eb2154cfc9a1e2cde6964e9a9d7eae2b47f5eec59331e10894587cb20a",
+    "runtime/career_v118.py": "1a6a3d133e785b1f2e7525148be6fcef0a5c0ced9e45137cb0576ac7c5dcbcb4",
+    "data/player_profiles_v118.json": "5ddf04e494f4659fba11b9b97123ec697d5f3c1eb5d31607ce566225e5ee21c3",
+    "examples/audit_narrative_v118.py": "402889e2ada228f3f66dc8d96420f5069bf666aed84b9dac263ad152fa291847"
+  },
+  "classification": "SYNTHETIC_NARRATIVE_AUDIT_NOT_MATCH_BALANCE_CALIBRATION"
+}

@@ -1,0 +1,2068 @@
+{
+  "version": "V1.1.7-COMPREHENSIVE-OBSERVER-PROFILES-1",
+  "source_presets_sha256": "8c535ac476a5e9e9bd265d34a838fa4f7bf886c95ee4218b4c479e7276e5ee4e",
+  "taxonomy_document": "docs/V118_STYLE_TAXONOMY_ZH.md",
+  "research_document": "docs/V118_RESEARCH_ZH.md",
+  "personality_policy": "Every default is an explicit fictional writing setting; only separately sourced public_cues may describe public expression, never private personality.",
+  "players": {
+    "kong": {
+      "name_zh": "孔令辉",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "耐心积累",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004
+      ]
+    },
+    "liu_guoliang": {
+      "name_zh": "刘国梁",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "重视复盘",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000
+      ],
+      "curated_style_priors": [
+        {
+          "id": "V118_DESIGN_liu_guoliang_2000",
+          "effective_from": 2000,
+          "effective_through": 2028,
+          "classification": "CURATED_GAME_DESIGN_PRIOR",
+          "class_label": "近台抢先与前三板组织",
+          "axes": {
+            "forehand_use": 0.72,
+            "backhand_use": 0.28,
+            "short_game": 0.91,
+            "first_three": 0.96,
+            "rally": 0.48,
+            "away_table": 0.13,
+            "topspin_preference": 0.62,
+            "backspin_control": 0.64,
+            "spin_variation": 0.78,
+            "initiative": 0.91,
+            "counterattack": 0.36,
+            "risk": 0.63
+          },
+          "interpretation_limit": "这是为模拟多样性选取的成熟期游戏设计先验，不是已核实采访或实测球风，不代表青年时期已知偏好，也不增加能力。"
+        }
+      ]
+    },
+    "liu_guozheng": {
+      "name_zh": "刘国正",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "偏好有序准备",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004
+      ]
+    },
+    "wang_liqin": {
+      "name_zh": "王励勤",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "重视复盘",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012
+      ],
+      "curated_style_priors": [
+        {
+          "id": "V118_DESIGN_wang_liqin_2000",
+          "effective_from": 2000,
+          "effective_through": 2028,
+          "classification": "CURATED_GAME_DESIGN_PRIOR",
+          "class_label": "正手连续施压",
+          "axes": {
+            "forehand_use": 0.77,
+            "backhand_use": 0.23,
+            "short_game": 0.46,
+            "first_three": 0.75,
+            "rally": 0.91,
+            "away_table": 0.63,
+            "topspin_preference": 0.87,
+            "backspin_control": 0.31,
+            "spin_variation": 0.35,
+            "initiative": 0.81,
+            "counterattack": 0.44,
+            "risk": 0.48
+          },
+          "interpretation_limit": "这是为模拟多样性选取的成熟期游戏设计先验，不是已核实采访或实测球风，不代表青年时期已知偏好，也不增加能力。"
+        }
+      ]
+    },
+    "ma_lin": {
+      "name_zh": "马琳",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "偏好有序准备",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012
+      ],
+      "curated_style_priors": [
+        {
+          "id": "V118_DESIGN_ma_lin_2004",
+          "effective_from": 2004,
+          "effective_through": 2028,
+          "classification": "CURATED_GAME_DESIGN_PRIOR",
+          "class_label": "台内前三板与正手组织",
+          "axes": {
+            "forehand_use": 0.8,
+            "backhand_use": 0.2,
+            "short_game": 0.94,
+            "first_three": 0.93,
+            "rally": 0.52,
+            "away_table": 0.23,
+            "topspin_preference": 0.73,
+            "backspin_control": 0.67,
+            "spin_variation": 0.73,
+            "initiative": 0.83,
+            "counterattack": 0.43,
+            "risk": 0.51
+          },
+          "interpretation_limit": "这是为模拟多样性选取的成熟期游戏设计先验，不是已核实采访或实测球风，不代表青年时期已知偏好，也不增加能力。"
+        }
+      ]
+    },
+    "wang_hao": {
+      "name_zh": "王皓",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "重视复盘",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012
+      ],
+      "curated_style_priors": [
+        {
+          "id": "V118_DESIGN_wang_hao_2004",
+          "effective_from": 2004,
+          "effective_through": 2028,
+          "classification": "CURATED_GAME_DESIGN_PRIOR",
+          "class_label": "横打反手与两面抢先",
+          "axes": {
+            "forehand_use": 0.38,
+            "backhand_use": 0.62,
+            "short_game": 0.77,
+            "first_three": 0.85,
+            "rally": 0.76,
+            "away_table": 0.3,
+            "topspin_preference": 0.84,
+            "backspin_control": 0.43,
+            "spin_variation": 0.49,
+            "initiative": 0.8,
+            "counterattack": 0.48,
+            "risk": 0.48
+          },
+          "interpretation_limit": "这是为模拟多样性选取的成熟期游戏设计先验，不是已核实采访或实测球风，不代表青年时期已知偏好，也不增加能力。"
+        }
+      ]
+    },
+    "chen_qi": {
+      "name_zh": "陈玘",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "耐心积累",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012
+      ]
+    },
+    "hao_shuai": {
+      "name_zh": "郝帅",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "重视复盘",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012
+      ]
+    },
+    "qin_zhijian": {
+      "name_zh": "秦志戬",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "重视复盘",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000
+      ]
+    },
+    "yan_sen": {
+      "name_zh": "阎森",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "乐于尝试",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000
+      ]
+    },
+    "waldner": {
+      "name_zh": "瓦尔德内尔",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "偏好有序准备",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004
+      ],
+      "curated_style_priors": [
+        {
+          "id": "V118_DESIGN_waldner_2000",
+          "effective_from": 2000,
+          "effective_through": 2028,
+          "classification": "CURATED_GAME_DESIGN_PRIOR",
+          "class_label": "变化控制与择机反击",
+          "axes": {
+            "forehand_use": 0.56,
+            "backhand_use": 0.44,
+            "short_game": 0.91,
+            "first_three": 0.75,
+            "rally": 0.72,
+            "away_table": 0.46,
+            "topspin_preference": 0.7,
+            "backspin_control": 0.62,
+            "spin_variation": 0.94,
+            "initiative": 0.58,
+            "counterattack": 0.88,
+            "risk": 0.37
+          },
+          "interpretation_limit": "这是为模拟多样性选取的成熟期游戏设计先验，不是已核实采访或实测球风，不代表青年时期已知偏好，也不增加能力。"
+        }
+      ]
+    },
+    "persson": {
+      "name_zh": "佩尔森",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "偏好有序准备",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004
+      ]
+    },
+    "peter_karlsson": {
+      "name_zh": "彼得·卡尔松",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "耐心积累",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004
+      ]
+    },
+    "fredrik_hakansson": {
+      "name_zh": "弗雷德里克·哈坎松",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "乐于尝试",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000
+      ]
+    },
+    "boll": {
+      "name_zh": "波尔",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "重视复盘",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012,
+        2016,
+        2021
+      ],
+      "curated_style_priors": [
+        {
+          "id": "V118_DESIGN_boll_2004",
+          "effective_from": 2004,
+          "effective_through": 2028,
+          "classification": "CURATED_GAME_DESIGN_PRIOR",
+          "class_label": "旋转连续与风险控制",
+          "axes": {
+            "forehand_use": 0.59,
+            "backhand_use": 0.41,
+            "short_game": 0.68,
+            "first_three": 0.72,
+            "rally": 0.88,
+            "away_table": 0.61,
+            "topspin_preference": 0.93,
+            "backspin_control": 0.46,
+            "spin_variation": 0.67,
+            "initiative": 0.67,
+            "counterattack": 0.72,
+            "risk": 0.32
+          },
+          "interpretation_limit": "这是为模拟多样性选取的成熟期游戏设计先验，不是已核实采访或实测球风，不代表青年时期已知偏好，也不增加能力。"
+        }
+      ]
+    },
+    "samsonov": {
+      "name_zh": "萨姆索诺夫",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "耐心积累",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012,
+        2016
+      ],
+      "curated_style_priors": [
+        {
+          "id": "V118_DESIGN_samsonov_2000",
+          "effective_from": 2000,
+          "effective_through": 2028,
+          "classification": "CURATED_GAME_DESIGN_PRIOR",
+          "class_label": "相持控制与落点周旋",
+          "axes": {
+            "forehand_use": 0.53,
+            "backhand_use": 0.47,
+            "short_game": 0.6,
+            "first_three": 0.58,
+            "rally": 0.94,
+            "away_table": 0.63,
+            "topspin_preference": 0.78,
+            "backspin_control": 0.48,
+            "spin_variation": 0.61,
+            "initiative": 0.5,
+            "counterattack": 0.83,
+            "risk": 0.27
+          },
+          "interpretation_limit": "这是为模拟多样性选取的成熟期游戏设计先验，不是已核实采访或实测球风，不代表青年时期已知偏好，也不增加能力。"
+        }
+      ]
+    },
+    "schlager": {
+      "name_zh": "施拉格",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "重视复盘",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012
+      ]
+    },
+    "kreanga": {
+      "name_zh": "克里安加",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "乐于尝试",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012
+      ]
+    },
+    "primorac": {
+      "name_zh": "普里莫拉茨",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "乐于尝试",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008
+      ]
+    },
+    "rosskopf": {
+      "name_zh": "罗斯科夫",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "偏好有序准备",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000
+      ]
+    },
+    "saive": {
+      "name_zh": "塞弗",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "偏好有序准备",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004
+      ]
+    },
+    "korbel": {
+      "name_zh": "科贝尔",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "重视复盘",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004
+      ]
+    },
+    "liu_seungmin": {
+      "name_zh": "柳承敏",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "偏好有序准备",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012
+      ]
+    },
+    "kim_taeksoo": {
+      "name_zh": "金泽洙",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "偏好有序准备",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004
+      ]
+    },
+    "oh_sangeun": {
+      "name_zh": "吴尚垠",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "偏好有序准备",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012
+      ]
+    },
+    "joo_saehyuk": {
+      "name_zh": "朱世赫",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "耐心积累",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012,
+        2016
+      ],
+      "curated_style_priors": [
+        {
+          "id": "V118_DESIGN_joo_saehyuk_2004",
+          "effective_from": 2004,
+          "effective_through": 2028,
+          "classification": "CURATED_GAME_DESIGN_PRIOR",
+          "class_label": "削球变化与正手反击",
+          "axes": {
+            "forehand_use": 0.63,
+            "backhand_use": 0.37,
+            "short_game": 0.35,
+            "first_three": 0.24,
+            "rally": 0.92,
+            "away_table": 0.95,
+            "topspin_preference": 0.35,
+            "backspin_control": 0.97,
+            "spin_variation": 0.83,
+            "initiative": 0.27,
+            "counterattack": 0.91,
+            "risk": 0.29
+          },
+          "interpretation_limit": "这是为模拟多样性选取的成熟期游戏设计先验，不是已核实采访或实测球风，不代表青年时期已知偏好，也不增加能力。"
+        }
+      ]
+    },
+    "chuang_chihyuan": {
+      "name_zh": "庄智渊",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "耐心积累",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "li_ching": {
+      "name_zh": "李静",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "重视复盘",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004
+      ]
+    },
+    "ko_lai_chak": {
+      "name_zh": "高礼泽",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "乐于尝试",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004
+      ]
+    },
+    "chen_weixing": {
+      "name_zh": "陈卫星",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "耐心积累",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012
+      ]
+    },
+    "gionis": {
+      "name_zh": "吉奥尼斯",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "乐于尝试",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "apolonia": {
+      "name_zh": "阿波罗尼亚",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "偏好有序准备",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "suss": {
+      "name_zh": "许斯",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "重视复盘",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012
+      ]
+    },
+    "maze": {
+      "name_zh": "梅兹",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "偏好有序准备",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2000,
+        2004,
+        2008,
+        2012,
+        2016
+      ]
+    },
+    "ma_long": {
+      "name_zh": "马龙",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "偏好有序准备",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2004,
+        2008,
+        2012,
+        2016,
+        2021,
+        2024
+      ],
+      "curated_style_priors": [
+        {
+          "id": "V118_DESIGN_ma_long_2008",
+          "effective_from": 2008,
+          "effective_through": 2028,
+          "classification": "CURATED_GAME_DESIGN_PRIOR",
+          "class_label": "台内衔接与相持组织",
+          "axes": {
+            "forehand_use": 0.62,
+            "backhand_use": 0.38,
+            "short_game": 0.83,
+            "first_three": 0.76,
+            "rally": 0.84,
+            "away_table": 0.39,
+            "topspin_preference": 0.82,
+            "backspin_control": 0.54,
+            "spin_variation": 0.64,
+            "initiative": 0.72,
+            "counterattack": 0.6,
+            "risk": 0.39
+          },
+          "interpretation_limit": "这是为模拟多样性选取的成熟期游戏设计先验，不是已核实采访或实测球风，不代表青年时期已知偏好，也不增加能力。"
+        }
+      ]
+    },
+    "zhang_jike": {
+      "name_zh": "张继科",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "重视复盘",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2004,
+        2008,
+        2012,
+        2016
+      ],
+      "curated_style_priors": [
+        {
+          "id": "V118_DESIGN_zhang_jike_2012",
+          "effective_from": 2012,
+          "effective_through": 2028,
+          "classification": "CURATED_GAME_DESIGN_PRIOR",
+          "class_label": "反手起板与抢先转换",
+          "axes": {
+            "forehand_use": 0.42,
+            "backhand_use": 0.58,
+            "short_game": 0.66,
+            "first_three": 0.91,
+            "rally": 0.75,
+            "away_table": 0.31,
+            "topspin_preference": 0.89,
+            "backspin_control": 0.39,
+            "spin_variation": 0.51,
+            "initiative": 0.88,
+            "counterattack": 0.58,
+            "risk": 0.64
+          },
+          "interpretation_limit": "这是为模拟多样性选取的成熟期游戏设计先验，不是已核实采访或实测球风，不代表青年时期已知偏好，也不增加能力。"
+        }
+      ]
+    },
+    "freitas": {
+      "name_zh": "弗雷塔斯",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "乐于尝试",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2004,
+        2008,
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "joao_monteiro": {
+      "name_zh": "若昂·蒙泰罗",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "重视复盘",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2004,
+        2008,
+        2012,
+        2016,
+        2021
+      ]
+    },
+    "steger": {
+      "name_zh": "斯特格",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "重视复盘",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2004,
+        2008,
+        2012,
+        2016,
+        2021
+      ]
+    },
+    "gardos": {
+      "name_zh": "加尔多斯",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "耐心积累",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2004,
+        2008,
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "crisan": {
+      "name_zh": "克里桑",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "重视复盘",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2004,
+        2008,
+        2012,
+        2016
+      ]
+    },
+    "mizutani": {
+      "name_zh": "水谷隼",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "乐于尝试",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2004,
+        2008,
+        2012,
+        2016
+      ]
+    },
+    "kishikawa": {
+      "name_zh": "岸川圣也",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "乐于尝试",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2004,
+        2008,
+        2012
+      ]
+    },
+    "ovtcharov": {
+      "name_zh": "奥恰洛夫",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "乐于尝试",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2004,
+        2008,
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "sharath_kamal": {
+      "name_zh": "阿昌塔·沙拉斯·卡马尔",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "耐心积累",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2004,
+        2008,
+        2012,
+        2016,
+        2021,
+        2024
+      ]
+    },
+    "xu_xin": {
+      "name_zh": "许昕",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "偏好有序准备",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2008,
+        2012,
+        2016,
+        2021
+      ],
+      "curated_style_priors": [
+        {
+          "id": "V118_DESIGN_xu_xin_2012",
+          "effective_from": 2012,
+          "effective_through": 2028,
+          "classification": "CURATED_GAME_DESIGN_PRIOR",
+          "class_label": "正手旋转与纵深周旋",
+          "axes": {
+            "forehand_use": 0.79,
+            "backhand_use": 0.21,
+            "short_game": 0.64,
+            "first_three": 0.68,
+            "rally": 0.83,
+            "away_table": 0.78,
+            "topspin_preference": 0.94,
+            "backspin_control": 0.44,
+            "spin_variation": 0.75,
+            "initiative": 0.73,
+            "counterattack": 0.66,
+            "risk": 0.59
+          },
+          "interpretation_limit": "这是为模拟多样性选取的成熟期游戏设计先验，不是已核实采访或实测球风，不代表青年时期已知偏好，也不增加能力。"
+        }
+      ]
+    },
+    "filus": {
+      "name_zh": "菲鲁斯",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "重视复盘",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2008,
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "habesohn": {
+      "name_zh": "哈贝松",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "偏好有序准备",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2008,
+        2012
+      ]
+    },
+    "lee_sangsu": {
+      "name_zh": "李尚洙",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "偏好有序准备",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2008,
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "jeoung_youngsik": {
+      "name_zh": "郑荣植",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "偏好有序准备",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2008,
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "niwa": {
+      "name_zh": "丹羽孝希",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "耐心积累",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2008,
+        2012,
+        2016,
+        2021
+      ]
+    },
+    "matsudaira_kenta": {
+      "name_zh": "松平健太",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "偏好有序准备",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2008,
+        2012,
+        2016
+      ]
+    },
+    "lin_gaoyuan": {
+      "name_zh": "林高远",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "偏好有序准备",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2008,
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "zhou_yu": {
+      "name_zh": "周雨",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "偏好有序准备",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2008,
+        2012,
+        2016
+      ]
+    },
+    "quadri_aruna": {
+      "name_zh": "阿鲁纳",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "偏好有序准备",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2008,
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "wong_chunting": {
+      "name_zh": "黄镇廷",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "偏好有序准备",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2008,
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "fan_zhendong": {
+      "name_zh": "樊振东",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "重视复盘",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ],
+      "curated_style_priors": [
+        {
+          "id": "V118_DESIGN_fan_zhendong_2016",
+          "effective_from": 2016,
+          "effective_through": 2028,
+          "classification": "CURATED_GAME_DESIGN_PRIOR",
+          "class_label": "反手前点与两面连续",
+          "axes": {
+            "forehand_use": 0.38,
+            "backhand_use": 0.62,
+            "short_game": 0.57,
+            "first_three": 0.8,
+            "rally": 0.88,
+            "away_table": 0.32,
+            "topspin_preference": 0.88,
+            "backspin_control": 0.36,
+            "spin_variation": 0.42,
+            "initiative": 0.84,
+            "counterattack": 0.52,
+            "risk": 0.55
+          },
+          "interpretation_limit": "这是为模拟多样性选取的成熟期游戏设计先验，不是已核实采访或实测球风，不代表青年时期已知偏好，也不增加能力。"
+        }
+      ]
+    },
+    "fang_bo": {
+      "name_zh": "方博",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "偏好有序准备",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2012,
+        2016
+      ]
+    },
+    "liang_jingkun": {
+      "name_zh": "梁靖崑",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "重视复盘",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "simon_gauzy": {
+      "name_zh": "高茨",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "重视复盘",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "lebesson": {
+      "name_zh": "勒贝松",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "偏好有序准备",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2012,
+        2016,
+        2021
+      ]
+    },
+    "franziska": {
+      "name_zh": "弗朗西斯卡",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "乐于尝试",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "duda": {
+      "name_zh": "杜达",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "偏好有序准备",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "kristian_karlsson": {
+      "name_zh": "克里斯蒂安·卡尔松",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "耐心积累",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "mattias_falck": {
+      "name_zh": "法尔克",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "耐心积累",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ],
+      "curated_style_priors": [
+        {
+          "id": "V118_DESIGN_mattias_falck_2021",
+          "effective_from": 2021,
+          "effective_through": 2028,
+          "classification": "CURATED_GAME_DESIGN_PRIOR",
+          "class_label": "颗粒近台与反手衔接",
+          "axes": {
+            "forehand_use": 0.55,
+            "backhand_use": 0.45,
+            "short_game": 0.61,
+            "first_three": 0.86,
+            "rally": 0.76,
+            "away_table": 0.22,
+            "topspin_preference": 0.63,
+            "backspin_control": 0.49,
+            "spin_variation": 0.6,
+            "initiative": 0.83,
+            "counterattack": 0.58,
+            "risk": 0.52
+          },
+          "interpretation_limit": "这是为模拟多样性选取的成熟期游戏设计先验，不是已核实采访或实测球风，不代表青年时期已知偏好，也不增加能力。"
+        }
+      ]
+    },
+    "jang_woojin": {
+      "name_zh": "张禹珍",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "耐心积累",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "yoshimura": {
+      "name_zh": "吉村真晴",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "乐于尝试",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2012,
+        2016,
+        2021
+      ]
+    },
+    "hugo_calderano": {
+      "name_zh": "雨果·卡尔德拉诺",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "耐心积累",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "omar_assar": {
+      "name_zh": "奥马尔·阿萨尔",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "重视复盘",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2012,
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "wang_chuqin": {
+      "name_zh": "王楚钦",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "重视复盘",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "zhou_qihao": {
+      "name_zh": "周启豪",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "重视复盘",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "qiu_dang": {
+      "name_zh": "邱党",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "耐心积累",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "jorgic": {
+      "name_zh": "约奇克",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "乐于尝试",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "truls_moregard": {
+      "name_zh": "莫雷加德",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "耐心积累",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2016,
+        2021,
+        2024,
+        2026
+      ],
+      "curated_style_priors": [
+        {
+          "id": "V118_DESIGN_truls_moregard_2024",
+          "effective_from": 2024,
+          "effective_through": 2028,
+          "classification": "CURATED_GAME_DESIGN_PRIOR",
+          "class_label": "变化试探与反击转换",
+          "axes": {
+            "forehand_use": 0.57,
+            "backhand_use": 0.43,
+            "short_game": 0.72,
+            "first_three": 0.74,
+            "rally": 0.76,
+            "away_table": 0.49,
+            "topspin_preference": 0.7,
+            "backspin_control": 0.61,
+            "spin_variation": 0.94,
+            "initiative": 0.69,
+            "counterattack": 0.82,
+            "risk": 0.69
+          },
+          "interpretation_limit": "这是为模拟多样性选取的成熟期游戏设计先验，不是已核实采访或实测球风，不代表青年时期已知偏好，也不增加能力。"
+        }
+      ]
+    },
+    "anton_kallberg": {
+      "name_zh": "卡尔伯格",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "偏好有序准备",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "harimoto": {
+      "name_zh": "张本智和",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "重视复盘",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "lin_yunju": {
+      "name_zh": "林昀儒",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "耐心积累",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2016,
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "lin_shidong": {
+      "name_zh": "林诗栋",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "乐于尝试",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "xiang_peng": {
+      "name_zh": "向鹏",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "耐心积累",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "xue_fei": {
+      "name_zh": "薛飞",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "耐心积累",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "anders_lind": {
+      "name_zh": "安德斯·林德",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "耐心积累",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "felix_lebrun": {
+      "name_zh": "费利克斯·勒布伦",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "耐心积累",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "alexis_lebrun": {
+      "name_zh": "亚历克西斯·勒布伦",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "偏好有序准备",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "cho_daeseong": {
+      "name_zh": "赵大成",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "耐心积累",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "shunsuke_togami": {
+      "name_zh": "户上隼辅",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "偏好有序准备",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "kao_chengjui": {
+      "name_zh": "高承睿",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "重视复盘",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2021,
+        2024,
+        2026
+      ]
+    },
+    "chen_yuanyu": {
+      "name_zh": "陈垣宇",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "乐于尝试",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2024,
+        2026
+      ]
+    },
+    "huang_youzheng": {
+      "name_zh": "黄友政",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "耐心积累",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2024,
+        2026
+      ]
+    },
+    "xu_yingbin": {
+      "name_zh": "徐瑛彬",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "耐心积累",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2024,
+        2026
+      ]
+    },
+    "jonathan_groth": {
+      "name_zh": "格罗特",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "耐心积累",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2024,
+        2026
+      ]
+    },
+    "robles": {
+      "name_zh": "罗伯勒斯",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "乐于尝试",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2024,
+        2026
+      ]
+    },
+    "pucar": {
+      "name_zh": "普察尔",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "重视复盘",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2024,
+        2026
+      ]
+    },
+    "oh_junsung": {
+      "name_zh": "吴晙诚",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "耐心积累",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2024,
+        2026
+      ]
+    },
+    "sora_matsushima": {
+      "name_zh": "松岛辉空",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "重视复盘",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2024,
+        2026
+      ]
+    },
+    "wen_ruibo": {
+      "name_zh": "温瑞博",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "乐于尝试",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2026
+      ]
+    },
+    "feng_yihsin": {
+      "name_zh": "冯翊新",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "耐心积累",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2026
+      ]
+    },
+    "shinozuka_hiroto": {
+      "name_zh": "篠塚大登",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "耐心积累",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2026
+      ]
+    },
+    "an_jaehyun": {
+      "name_zh": "安宰贤",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "重视复盘",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2026
+      ]
+    },
+    "lim_jonghoon": {
+      "name_zh": "林钟勋",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "清楚表达",
+        "偏好有序准备",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2026
+      ]
+    },
+    "vladimir_sidorenko": {
+      "name_zh": "弗拉基米尔·西多连科",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "乐于尝试",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2026
+      ]
+    },
+    "uda_yukiya": {
+      "name_zh": "宇田幸矢",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "简洁交流",
+        "偏好有序准备",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2026
+      ]
+    },
+    "thibault_poret": {
+      "name_zh": "蒂博·波雷",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "重视复盘",
+        "偏好安静整理"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2026
+      ]
+    },
+    "flavien_coton": {
+      "name_zh": "弗拉维安·科顿",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "温和幽默",
+        "乐于尝试",
+        "重视清楚约定"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2026
+      ]
+    },
+    "ryuusei_kawakami": {
+      "name_zh": "川上流星",
+      "classification": "SIMULATED_NARRATIVE_DEFAULT_NOT_REAL_PERSONALITY_ASSESSMENT",
+      "simulation_traits": [
+        "先听后说",
+        "耐心积累",
+        "愿意交流经验"
+      ],
+      "public_cues": [],
+      "style_source": "PER_SNAPSHOT_TENDENCIES_ROLE_STYLE_NOT_TITLES_OR_SKILL_LEVEL",
+      "source_snapshot_years": [
+        2026
+      ]
+    }
+  },
+  "curated_style_policy": "14 explicit mature-year game design priors; never claimed as measured/interview-derived athlete traits. Earlier snapshots keep the source archetype. Explicit user style_profile takes priority."
+}

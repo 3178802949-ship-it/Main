@@ -1,0 +1,603 @@
+{
+  "version": "V1.18-1",
+  "status": "ACTUAL_WORLD_STRESS_PASSED",
+  "from_2004": true,
+  "primary_phases": 24,
+  "background_player_count": 34,
+  "background_phase_advances": 816,
+  "practice_matches": 4,
+  "skipped_due_health": 0,
+  "primary_rests": 0,
+  "yearly_exact_reload_continue": 1,
+  "initial_matches": 23,
+  "final_matches": 27,
+  "initial_checkpoint_bytes": 2610096,
+  "final_checkpoint_bytes": 3903544,
+  "final_consistency": {
+    "valid": true,
+    "ruleset": "SPIN_ERA_V1_18_1",
+    "game_ruleset": "V1.18-1",
+    "current_date": "2006-01-01",
+    "completed": false,
+    "horizon_end": "2028-07-30",
+    "players": 35,
+    "matches": 27,
+    "phase_clock": "TWO_PER_MONTH_CALENDAR_DAYS_SHARED_ALL_ACTORS",
+    "archive_policy": "COMPACT_CHECKPOINT_EXTERNAL_OPTIONAL_FULL_LOGS",
+    "complete_roster": false,
+    "deep": true
+  },
+  "annual_samples": [
+    {
+      "year": 2005,
+      "date": "2006-01-01",
+      "players": {
+        "federer_sui_1988_custom": {
+          "age": 17.4,
+          "CA": 157,
+          "PA": 191,
+          "P6": {
+            "speed": 129.5533,
+            "burst": 112.6061,
+            "strength": 115.3961,
+            "stamina": 121.0663,
+            "agility": 127.573,
+            "flexibility": 128.3486
+          },
+          "injuries": 0
+        },
+        "kong": {
+          "age": 31.0,
+          "CA": 187,
+          "PA": 191,
+          "P6": {
+            "speed": 140.4901,
+            "burst": 140.3897,
+            "strength": 140.4338,
+            "stamina": 140.1928,
+            "agility": 139.7511,
+            "flexibility": 139.3334
+          },
+          "injuries": 0
+        },
+        "liu_guoliang": {
+          "age": 30.0,
+          "CA": 183,
+          "PA": 186,
+          "P6": {
+            "speed": 137.6699,
+            "burst": 138.5767,
+            "strength": 136.546,
+            "stamina": 136.3223,
+            "agility": 137.9122,
+            "flexibility": 138.4528
+          },
+          "injuries": 1
+        },
+        "liu_guozheng": {
+          "age": 26.0,
+          "CA": 172,
+          "PA": 175,
+          "P6": {
+            "speed": 129.9622,
+            "burst": 129.9932,
+            "strength": 129.0074,
+            "stamina": 128.9774,
+            "agility": 128.983,
+            "flexibility": 129.0436
+          },
+          "injuries": 0
+        },
+        "wang_liqin": {
+          "age": 28.0,
+          "CA": 187,
+          "PA": 193,
+          "P6": {
+            "speed": 142.8498,
+            "burst": 144.8295,
+            "strength": 143.8977,
+            "stamina": 140.9078,
+            "agility": 142.8744,
+            "flexibility": 140.9318
+          },
+          "injuries": 0
+        },
+        "ma_lin": {
+          "age": 26.0,
+          "CA": 178,
+          "PA": 192,
+          "P6": {
+            "speed": 137.3562,
+            "burst": 139.3179,
+            "strength": 135.4076,
+            "stamina": 134.4105,
+            "agility": 138.327,
+            "flexibility": 138.3938
+          },
+          "injuries": 0
+        },
+        "wang_hao": {
+          "age": 23.0,
+          "CA": 156,
+          "PA": 193,
+          "P6": {
+            "speed": 118.8649,
+            "burst": 117.8904,
+            "strength": 116.9132,
+            "stamina": 117.8905,
+            "agility": 118.9069,
+            "flexibility": 116.0196
+          },
+          "injuries": 0
+        },
+        "chen_qi": {
+          "age": 22.0,
+          "CA": 142,
+          "PA": 186,
+          "P6": {
+            "speed": 106.2713,
+            "burst": 108.1247,
+            "strength": 105.5615,
+            "stamina": 107.2093,
+            "agility": 106.4638,
+            "flexibility": 107.2672
+          },
+          "injuries": 0
+        },
+        "hao_shuai": {
+          "age": 23.0,
+          "CA": 148,
+          "PA": 182,
+          "P6": {
+            "speed": 110.8125,
+            "burst": 111.6764,
+            "strength": 110.7138,
+            "stamina": 109.7899,
+            "agility": 109.7762,
+            "flexibility": 108.8551
+          },
+          "injuries": 0
+        },
+        "qin_zhijian": {
+          "age": 30.0,
+          "CA": 164,
+          "PA": 167,
+          "P6": {
+            "speed": 123.9654,
+            "burst": 124.884,
+            "strength": 121.7304,
+            "stamina": 121.5351,
+            "agility": 124.177,
+            "flexibility": 124.649
+          },
+          "injuries": 0
+        },
+        "yan_sen": {
+          "age": 31.0,
+          "CA": 164,
+          "PA": 167,
+          "P6": {
+            "speed": 123.3723,
+            "burst": 124.2672,
+            "strength": 121.3603,
+            "stamina": 121.1081,
+            "agility": 123.6456,
+            "flexibility": 124.2552
+          },
+          "injuries": 0
+        },
+        "waldner": {
+          "age": 41.0,
+          "CA": 182,
+          "PA": 194,
+          "P6": {
+            "speed": 126.2249,
+            "burst": 125.7539,
+            "strength": 133.6524,
+            "stamina": 130.522,
+            "agility": 130.4496,
+            "flexibility": 136.1814
+          },
+          "injuries": 0
+        },
+        "persson": {
+          "age": 40.0,
+          "CA": 177,
+          "PA": 187,
+          "P6": {
+            "speed": 128.6915,
+            "burst": 128.2392,
+            "strength": 130.9435,
+            "stamina": 132.8579,
+            "agility": 129.8676,
+            "flexibility": 132.4912
+          },
+          "injuries": 0
+        },
+        "peter_karlsson": {
+          "age": 37.0,
+          "CA": 174,
+          "PA": 182,
+          "P6": {
+            "speed": 127.7456,
+            "burst": 127.4155,
+            "strength": 129.8493,
+            "stamina": 129.0569,
+            "agility": 127.6041,
+            "flexibility": 128.5191
+          },
+          "injuries": 0
+        },
+        "fredrik_hakansson": {
+          "age": 31.0,
+          "CA": 164,
+          "PA": 166,
+          "P6": {
+            "speed": 121.9325,
+            "burst": 121.8498,
+            "strength": 121.7099,
+            "stamina": 121.5114,
+            "agility": 121.1475,
+            "flexibility": 120.6272
+          },
+          "injuries": 0
+        },
+        "boll": {
+          "age": 25.0,
+          "CA": 164,
+          "PA": 191,
+          "P6": {
+            "speed": 124.3604,
+            "burst": 123.4362,
+            "strength": 121.4613,
+            "stamina": 123.4984,
+            "agility": 124.4173,
+            "flexibility": 123.4689
+          },
+          "injuries": 0
+        },
+        "samsonov": {
+          "age": 30.0,
+          "CA": 185,
+          "PA": 189,
+          "P6": {
+            "speed": 139.1863,
+            "burst": 138.1138,
+            "strength": 136.8683,
+            "stamina": 138.6942,
+            "agility": 140.3749,
+            "flexibility": 141.7957
+          },
+          "injuries": 0
+        },
+        "schlager": {
+          "age": 34.0,
+          "CA": 178,
+          "PA": 189,
+          "P6": {
+            "speed": 132.2974,
+            "burst": 132.1093,
+            "strength": 130.0656,
+            "stamina": 133.6141,
+            "agility": 133.7865,
+            "flexibility": 135.8775
+          },
+          "injuries": 0
+        },
+        "kreanga": {
+          "age": 34.0,
+          "CA": 175,
+          "PA": 184,
+          "P6": {
+            "speed": 130.5328,
+            "burst": 132.3541,
+            "strength": 136.2124,
+            "stamina": 130.7836,
+            "agility": 127.9973,
+            "flexibility": 128.0337
+          },
+          "injuries": 0
+        },
+        "primorac": {
+          "age": 37.0,
+          "CA": 172,
+          "PA": 179,
+          "P6": {
+            "speed": 125.9792,
+            "burst": 125.6584,
+            "strength": 126.995,
+            "stamina": 129.225,
+            "agility": 126.8134,
+            "flexibility": 128.6742
+          },
+          "injuries": 0
+        },
+        "rosskopf": {
+          "age": 37.0,
+          "CA": 167,
+          "PA": 174,
+          "P6": {
+            "speed": 122.4395,
+            "burst": 122.1371,
+            "strength": 123.2822,
+            "stamina": 125.5564,
+            "agility": 123.2258,
+            "flexibility": 124.9798
+          },
+          "injuries": 0
+        },
+        "saive": {
+          "age": 37.0,
+          "CA": 168,
+          "PA": 176,
+          "P6": {
+            "speed": 123.2704,
+            "burst": 122.9212,
+            "strength": 124.5527,
+            "stamina": 126.7147,
+            "agility": 124.1783,
+            "flexibility": 126.2036
+          },
+          "injuries": 0
+        },
+        "korbel": {
+          "age": 35.0,
+          "CA": 171,
+          "PA": 178,
+          "P6": {
+            "speed": 126.4086,
+            "burst": 126.1449,
+            "strength": 126.8869,
+            "stamina": 129.2542,
+            "agility": 127.0941,
+            "flexibility": 128.6233
+          },
+          "injuries": 0
+        },
+        "liu_seungmin": {
+          "age": 24.0,
+          "CA": 168,
+          "PA": 191,
+          "P6": {
+            "speed": 127.6123,
+            "burst": 128.6144,
+            "strength": 124.9324,
+            "stamina": 125.8168,
+            "agility": 127.6843,
+            "flexibility": 127.7885
+          },
+          "injuries": 0
+        },
+        "kim_taeksoo": {
+          "age": 36.0,
+          "CA": 173,
+          "PA": 180,
+          "P6": {
+            "speed": 129.1602,
+            "burst": 129.8867,
+            "strength": 128.732,
+            "stamina": 128.0754,
+            "agility": 129.8716,
+            "flexibility": 131.4584
+          },
+          "injuries": 0
+        },
+        "oh_sangeun": {
+          "age": 29.0,
+          "CA": 176,
+          "PA": 183,
+          "P6": {
+            "speed": 133.5793,
+            "burst": 133.5625,
+            "strength": 133.7375,
+            "stamina": 132.6971,
+            "agility": 132.623,
+            "flexibility": 131.7207
+          },
+          "injuries": 0
+        },
+        "joo_saehyuk": {
+          "age": 26.0,
+          "CA": 160,
+          "PA": 183,
+          "P6": {
+            "speed": 118.8777,
+            "burst": 116.972,
+            "strength": 114.9992,
+            "stamina": 123.6997,
+            "agility": 121.8596,
+            "flexibility": 118.917
+          },
+          "injuries": 0
+        },
+        "chuang_chihyuan": {
+          "age": 25.0,
+          "CA": 164,
+          "PA": 184,
+          "P6": {
+            "speed": 124.9101,
+            "burst": 123.0129,
+            "strength": 121.1178,
+            "stamina": 122.0388,
+            "agility": 124.9408,
+            "flexibility": 120.1464
+          },
+          "injuries": 0
+        },
+        "li_ching": {
+          "age": 31.0,
+          "CA": 165,
+          "PA": 172,
+          "P6": {
+            "speed": 122.5238,
+            "burst": 122.4247,
+            "strength": 122.4548,
+            "stamina": 122.2171,
+            "agility": 121.7813,
+            "flexibility": 121.3558
+          },
+          "injuries": 0
+        },
+        "ko_lai_chak": {
+          "age": 30.0,
+          "CA": 168,
+          "PA": 176,
+          "P6": {
+            "speed": 126.0253,
+            "burst": 126.9463,
+            "strength": 124.7678,
+            "stamina": 123.5782,
+            "agility": 126.2306,
+            "flexibility": 126.6888
+          },
+          "injuries": 0
+        },
+        "chen_weixing": {
+          "age": 34.0,
+          "CA": 159,
+          "PA": 172,
+          "P6": {
+            "speed": 115.0098,
+            "burst": 112.7702,
+            "strength": 115.2621,
+            "stamina": 121.6871,
+            "agility": 117.6328,
+            "flexibility": 120.0225
+          },
+          "injuries": 0
+        },
+        "gionis": {
+          "age": 26.0,
+          "CA": 152,
+          "PA": 177,
+          "P6": {
+            "speed": 111.0091,
+            "burst": 110.0583,
+            "strength": 109.0916,
+            "stamina": 115.8488,
+            "agility": 113.9629,
+            "flexibility": 113.9826
+          },
+          "injuries": 0
+        },
+        "apolonia": {
+          "age": 20.0,
+          "CA": 124,
+          "PA": 174,
+          "P6": {
+            "speed": 93.4889,
+            "burst": 92.5066,
+            "strength": 90.5837,
+            "stamina": 92.5462,
+            "agility": 93.4712,
+            "flexibility": 90.6089
+          },
+          "injuries": 0
+        },
+        "suss": {
+          "age": 21.0,
+          "CA": 140,
+          "PA": 168,
+          "P6": {
+            "speed": 105.1,
+            "burst": 104.2136,
+            "strength": 103.3106,
+            "stamina": 103.3826,
+            "agility": 103.5456,
+            "flexibility": 102.6311
+          },
+          "injuries": 0
+        },
+        "maze": {
+          "age": 25.0,
+          "CA": 166,
+          "PA": 184,
+          "P6": {
+            "speed": 125.8363,
+            "burst": 126.8212,
+            "strength": 121.0322,
+            "stamina": 124.8967,
+            "agility": 128.7578,
+            "flexibility": 126.8271
+          },
+          "injuries": 0
+        }
+      },
+      "checkpoint_bytes": 3903544
+    }
+  ],
+  "source_fingerprint": {
+    "algorithm": "SHA256_V1_18_1",
+    "ruleset": "V1.18-1",
+    "sha256": "831c93c3b2b1b24f40bbb0725a680b96081739b902246e29aca0733832f86647",
+    "files": {
+      "simulator.py": "982d198430f961225d8e93c1e27305f379004aab5c82fd8369a4249bb492ff51",
+      "world_v1_18.py": "1060525369062b2c6e656027508adde8b505177fc25f57ed72cdf39e40a9327c",
+      "world_extensions_v1_18.py": "4a10788ef857ceaa995132afa87d7a7ad513d26c57e5978e4b1df08c2264994d",
+      "patches_v1_18.py": "47e4e2d51ed88e54c3ced58dc0eb6a10a0d93330bb1775af8d55b2a162362adb",
+      "migration_v1_18.py": "3a2d9bad2b6cab883d2f095cbea702021b0825ac774ff00b7fb83d4489223235",
+      "player_registry_v1_18.py": "b2d03bf74307db391a918e87f753f781c9df6405b959cfa14ebae240a7aa9d04",
+      "legacy_v117/simulator.py": "da8a9b6d1c01a3b011a4c0d84c33ef0704500f931f92d552a205c2a1e074d179",
+      "Card/v1_18.py": "a114c0f36e49ce9547b6291017837d85b1e688c54bd9aae8248dc87de73eafa6",
+      "Training/v1_18.py": "148330b77af5870ed5b57c21919a8c36bda7f45d7308b651bd6ccfade007ebfa",
+      "Area/v1_18.py": "92d9081f30399644fcb7147ece92295088684f0cdaa99917c730a2ab70c89ae5",
+      "Game/v1_18.py": "e3750ee5c21c895268f4092f74d3b103caa46a36936ffe391a2a241a30ca5354",
+      "Game/engine_v1_18.py": "86775b454a1d340748bd671bf3853af32edd3d0f627b02ddb3524478ba4f7b06",
+      "Game/light_v1_18.py": "abb2c729489f3394c5a47a54dcb7cba27dd8c3ef412f41afc5a7754014c6bc17",
+      "Game/worker_v1_18.py": "e783d0d9dff7aebe251c0d03b2a1d42d623d8bf53eae78485539cfc6c45be02a",
+      "Game/integration_v1_18.py": "178a6e1492bc18de39f3f1baf656f6b60444f1ddf7213b030cbfb2b272c31340",
+      "Game/formats_v1_18.py": "c13732d0fbf5f6c8a81b5572dab89991b181dcf3f3c200dca79fe5f936f33973",
+      "Game/competition_v1_18.py": "6213091de96da1fd442093bd4b64a246fb9b9128a3085c243f1189dd96a49238",
+      "Game/psychology_v1_18.py": "9abbbaa875fb7d432b000934b24edc36108f497c2868655ca30b0a9e6a020685",
+      "narrative_v1_18.py": "cfaf2015498e763afb928614b9da52049bd92b6b87267a3f7c73ade737a3aabc",
+      "world_v118.py": "36f0178bce577d6e9b89646635328feb054f56c6390f231f6391b3b79a05da33",
+      "world_v117.py": "aac0fd2bc0ae3d299ef8cfb78ddbaa99d306bdab0cabe96acd30c28e0c9285c6",
+      "common/__init__.py": "6404128c46d6fa7bf2484ea380045da4995d925f949d6bf6b2c5d27a510fe58b",
+      "Card/__init__.py": "de0614af0039a6b0c4ad4559e90305ea8f0bc8f06e52f7f407d5175d39ee9b6c",
+      "Card/v118.py": "a8a4df47ca09b4b0def6269f5511f1a590c0d4bbed59dc275c7b358ab4893f3d",
+      "Training/__init__.py": "69d249d26781c34d254b07fa9fe6d60f7cdb84ef05a7374175ab397ecf9bf7d5",
+      "Training/v117.py": "467ff4477ba6fbc70d4d962302f0c7bd1ecbb4c37f4c4f5c48e764e0f21121a7",
+      "Training/v118.py": "c47478eb2154cfc9a1e2cde6964e9a9d7eae2b47f5eec59331e10894587cb20a",
+      "Area/__init__.py": "1d1379834f6cb9579e983c614b0e9546e720b18ec41249270a47a46466aee18b",
+      "Area/v117.py": "205c06d343a04e396457665f1b0b7dbf65e574c313bf7e9b8372b6313852dd5c",
+      "Area/v118.py": "dcf6bb799fe30faa29ef3297862eafac931af825e7f28f8b09089dccfc269fe6",
+      "Game/__init__.py": "df1ff56c39cad8cf642ace00dff77479562ea17ea880156241fa2833cc2f9e21",
+      "Game/worker.py": "887afee0bc5d71f778cb2f8c0556b524e1acac26ea564a2cc758f922b6ee4879",
+      "Game/engine_v117.py": "e7cedddcc5ee20e23ad23189912c2901d8f42306bb3bc5fda87970b8e43e1fa1",
+      "Game/light_v117.py": "d185b1852426ac2e92a8fcd49132d5637093da6cdc2b1425c78d52f366f5a599",
+      "Game/tactics_v117.py": "7df4d7f367efa86722cca2868746bc4ef92b6155066161bd4831eedb43421484",
+      "Game/integration_v117.py": "947f78ff7fdfd1b6fcc52c93b00457ac6e97bcf33ab7959e3d6dcdb550b09e06",
+      "Game/geometry.py": "2e7d61939f00c1e0c1fdb081bf158dc419cc2da504b44d542d4c4ef073d433c4",
+      "Game/v118.py": "1bb924588da4de0a1fc2b442ae43200bc7157a9522bbb18c028ad699030c132d",
+      "Game/worker_v118.py": "44eb8f29834512dbc6c5e5421cb10c3c4b4bf94d52bdfa04e73d92f624aed6b5",
+      "Game/preferences_v118.py": "4048d022c83fa84d897a122f7dcd8b929fcfbdc22fb8d2a85affde7a34e784dc",
+      "Game/integration_v118.py": "3206865a266024f937cc18a4c4aa3e60252e2f406e6b3a8dac73f0aeafe37dc4",
+      "Game/observed_tactics.py": "aab648a3356f101d3cbd165cc0f4edeec1271b98a653d260f36facd9189359eb",
+      "Game/specialist_engine.py": "131f6da784bf7ca9960018eff8b4768bcac3319573c6fdb777aa73dfa27953f5",
+      "runtime/card_training_v112.py": "ea441a87493701ac078eecc74a42640e7f45e9abb06ac4321636697314f144f9",
+      "runtime/career_v114.py": "579e34d873d4b3c173b3f5a988f5d9f3c18c56051fa45b005e97fe114966e76a",
+      "runtime/career_v115.py": "106c38d097290bbb5184a3b0809d2a5015768308b02297dca9a3c44ccff0630a",
+      "runtime/career_v116.py": "0f175c818647a33f2553e1094bbb5edb50841e4ef179bd8c5c54ca0691562940",
+      "runtime/career_v117.py": "1331ddb4a80cabeb1e884d18dc97381abfc4da3c4754f21c51aa8f81dedc2dd4",
+      "runtime/career_v118.py": "1a6a3d133e785b1f2e7525148be6fcef0a5c0ced9e45137cb0576ac7c5dcbcb4",
+      "runtime/ranking_v112.py": "71e2c2ca62a1bb8fce526b45ef8c1c28b507d5c04149008ab2eea7c8d0cf25be",
+      "runtime/era_lcm_v11.py": "b6ac937f0b55df6ee1d656e80f54a9d46cac911eb0870406acc9d58cabc3f828",
+      "runtime/game_v112.py": "2f75346f624d59638b5e1a7910c2982ac38fb9a6e2da025d752698c29c6b5581",
+      "runtime/game_v113.py": "5cf588b85b625a1dbd29ddab6ce9c29b891243c215e9e8567103b8fa98355d66",
+      "runtime/game_v114.py": "124122cd13a576eff5469c5dbe07ab156a118a9e2ba9564401464923012df910",
+      "runtime/game_v115.py": "2a75d8bd5fda616908dab28ca915db15fa7dc763176475cc55a0520d69d3836d",
+      "runtime/tactical_match_v116.py": "108745b40cbb3cceba561658ce6ac7b25e116fec57b2dbeaccd10d7b660cea0a",
+      "runtime/specialist_rubber_v116.py": "e46e8946452e63cc238ca7280525b1419d12ad6afded550f0b9bae477d7ff499",
+      "data/area_catalog.json": "4e935928ec095c63b7e55117b028088e3e145731adc9d44d4af61e6071337f63",
+      "data/presets_normalized.json": "8c535ac476a5e9e9bd265d34a838fa4f7bf886c95ee4218b4c479e7276e5ee4e",
+      "data/original/spin_era_v013_frozen_attribute_schema.json": "3f211016c57dd0091ac2659067178c0f2d9650f80f3683919dd6cb260dc9028d",
+      "data/original/spin_era_players_archive_2000_2026_v12.json": "2beab9577d8f073aa37745acaa48b0196c85d7016a4bc1cb91e94ffdd18efeee",
+      "data/calendar_2027_v117.json": "26cfd0f63d957f3fa19d015c486e958d6b6f8b71caed9ad922219c5ff995884a",
+      "data/calendar_2028_v117.json": "a5fc63f74d509b612bcd226c34345fbae351a45eebfa726c565f5b43fd469129",
+      "data/player_profiles_v118.json": "5ddf04e494f4659fba11b9b97123ec697d5f3c1eb5d31607ce566225e5ee21c3",
+      "narrative_v118.py": "beff51d245e6a695a96ea3ed1346a31711fc9a5c179a44899ae043cef7e6be8d"
+    }
+  },
+  "elapsed_seconds": 15.900599177999538,
+  "caveat": "Conditional model integration exercise, not population or real athlete validation."
+}

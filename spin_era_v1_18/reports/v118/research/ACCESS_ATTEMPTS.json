@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-21",
+  "attempts": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=table+tennis+tactical+performance+analysis&format=json&pageSize=6&resultType=core",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=table+tennis+tactical+analysis",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://api.crossref.org/works?query=table%20tennis%20tactical&rows=5",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://api.openalex.org/works?search=table%20tennis&per-page=5",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://api.semanticscholar.org/graph/v1/paper/search?query=table%20tennis&limit=5",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://www.frontiersin.org/",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://www.mdpi.com/",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://arxiv.org/",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://openaccess.thecvf.com/",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://proceedings.mlr.press/",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://openreview.net/",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://www.ittf.com/",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://olympics.com/",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ma_Long",
+      "result": "PROXY_CONNECT_403",
+      "scope": "ordinary urllib HTTPS request",
+      "content_received": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/KieDani/kiedani.github.io/0873622ba81b639abb208779368d217f695faf65/CVPRW2025/index.html",
+      "result": "HTTP_200",
+      "scope": "Pinned author project-page source, explicit Abstract section and method notes read",
+      "content_received": true,
+      "sha256": "3b5c6e4def5c7168ad91521cfb41afd84b03e757b21db07bd6dc29782587b8fb"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/KieDani/kiedani.github.io/0873622ba81b639abb208779368d217f695faf65/WACV2026/index.html",
+      "result": "HTTP_200",
+      "scope": "Pinned author project-page source, explicit Abstract section and method notes read",
+      "content_received": true,
+      "sha256": "ab0826cb1890e58b66becafb967acff257771bd2c60ffd8ac254ce9f6c0d376e"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sastry-group/LATTE-MV/gh-pages/index.html",
+      "result": "HTTP_404",
+      "scope": "Candidate author project-page path; no content found",
+      "content_received": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sastry-group/LATTE-MV/main/docs/index.html",
+      "result": "HTTP_404",
+      "scope": "Candidate author project-page path; no content found",
+      "content_received": false
+    },
+    {
+      "url": "https://raw.githubusercontent.com/sastry-group/LATTE-MV/500ba2bf74433722ab5442f041e3757be4daba6c/index.html",
+      "result": "HTTP_200",
+      "scope": "Pinned author project-page source, explicit Paper abstract and method notes read",
+      "content_received": true,
+      "sha256": "5aac3e3d3eb2b28f1ce10c184bd4e29e9b00914e0686e8c844e4ab09c5d2ff52"
+    }
+  ],
+  "accessible_domains": [
+    "github.com",
+    "raw.githubusercontent.com"
+  ],
+  "note": "未绕过代理或访问控制；根代理另行尝试升级的只读请求也失败，其授权审查没有拒绝。"
+}

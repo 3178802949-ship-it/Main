@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "purpose": "reusable incremental methodology test only; 2006 card NOT canonical",
+  "original_2004_sha256": "954695c5ef2070aeba043057ff9a36472965ed834bd02bc745aecb2eaa258ed9",
+  "2004_CA": 157,
+  "hypothetical_2006_CA": 157,
+  "original_unchanged": true,
+  "identity_retained": true,
+  "test_increment": {
+    "receive.spin_read": 2,
+    "bh.continuity": 2,
+    "feet.recovery": 1
+  },
+  "warning": "Before an actual 2006 match, derive age-appropriate body maturation, training XP, fatigue and historical competitive level; do not promote this toy patch to permanent year card."
+}

@@ -1,0 +1,69 @@
+{
+  "version": "V1.1.6-INTEGRATED-CARD",
+  "source_sha256": "2beab9577d8f073aa37745acaa48b0196c85d7016a4bc1cb91e94ffdd18efeee",
+  "profiles": 370,
+  "numeric_subskill_changes": 0,
+  "numeric_P6_changes": 0,
+  "CA_recomputed_consistent": 370,
+  "independently_completed_development_profiles": 370,
+  "grandfathered_profiles": [
+    {
+      "player_id": "liu_seungmin",
+      "year": 2000,
+      "issues": [
+        {
+          "path": "fh.power",
+          "observed": 140,
+          "current_cap": 135,
+          "policy": "PRESERVE_OBSERVED_VALUE_NO_TRAINING_DOWNCLIP_NO_CAP_BYPASS"
+        }
+      ]
+    },
+    {
+      "player_id": "liu_seungmin",
+      "year": 2012,
+      "issues": [
+        {
+          "path": "fh.power",
+          "observed": 145,
+          "current_cap": 143,
+          "policy": "PRESERVE_OBSERVED_VALUE_NO_TRAINING_DOWNCLIP_NO_CAP_BYPASS"
+        }
+      ]
+    },
+    {
+      "player_id": "truls_moregard",
+      "year": 2021,
+      "issues": [
+        {
+          "path": "fh.power",
+          "observed": 139,
+          "current_cap": 137,
+          "policy": "PRESERVE_OBSERVED_VALUE_NO_TRAINING_DOWNCLIP_NO_CAP_BYPASS"
+        }
+      ]
+    },
+    {
+      "player_id": "sora_matsushima",
+      "year": 2024,
+      "issues": [
+        {
+          "path": "bh.power",
+          "observed": 135,
+          "current_cap": 132,
+          "policy": "PRESERVE_OBSERVED_VALUE_NO_TRAINING_DOWNCLIP_NO_CAP_BYPASS"
+        }
+      ]
+    }
+  ],
+  "policy": "STRUCTURAL_AND_RULE_COMPATIBILITY_OPTIMIZATION_NOT_REAL_ABILITY_RECERTIFICATION",
+  "historical_titles_copied_into_simulated_career": 0,
+  "legacy_growth_references_preserved": 370,
+  "active_legacy_lazy_growth": 0,
+  "active_growth_authority": "Training/TWO_PHASE_CATEGORY_TRAINING",
+  "gender_policy": "PRESERVE_SOURCE_STORY_GENDER_SEPARATE_FROM_REAL_MENS_PROTOTYPE",
+  "start_age_range": [
+    13,
+    47
+  ]
+}

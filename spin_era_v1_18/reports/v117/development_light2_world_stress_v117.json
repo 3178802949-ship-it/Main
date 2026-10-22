@@ -1,0 +1,127 @@
+{
+  "version": "V1.1.7-CANDIDATE-1",
+  "experiment": "ACTUAL_WORLD_FOUR_PLAYERS_TWO_YEARS",
+  "source_sha256": {
+    "world_v117.py": "5112de5ffe2b05b2e019b58b1cf782eb60d216b5868509b53944e5e02b18e133",
+    "common/__init__.py": "6404128c46d6fa7bf2484ea380045da4995d925f949d6bf6b2c5d27a510fe58b",
+    "Card/__init__.py": "de0614af0039a6b0c4ad4559e90305ea8f0bc8f06e52f7f407d5175d39ee9b6c",
+    "Training/v117.py": "467ff4477ba6fbc70d4d962302f0c7bd1ecbb4c37f4c4f5c48e764e0f21121a7",
+    "runtime/career_v117.py": "1331ddb4a80cabeb1e884d18dc97381abfc4da3c4754f21c51aa8f81dedc2dd4",
+    "Game/__init__.py": "df1ff56c39cad8cf642ace00dff77479562ea17ea880156241fa2833cc2f9e21",
+    "Game/light_v117.py": "bdcc4d77f29572fadc5d5afd5486bd32de4170177c65fbf67d54999a6f0525d8",
+    "Game/engine_v117.py": "e7cedddcc5ee20e23ad23189912c2901d8f42306bb3bc5fda87970b8e43e1fa1",
+    "Game/tactics_v117.py": "7df4d7f367efa86722cca2868746bc4ef92b6155066161bd4831eedb43421484",
+    "Game/integration_v117.py": "947f78ff7fdfd1b6fcc52c93b00457ac6e97bcf33ab7959e3d6dcdb550b09e06",
+    "Area/v117.py": "205c06d343a04e396457665f1b0b7dbf65e574c313bf7e9b8372b6313852dd5c",
+    "runtime/game_v112.py": "2f75346f624d59638b5e1a7910c2982ac38fb9a6e2da025d752698c29c6b5581",
+    "runtime/card_training_v112.py": "ea441a87493701ac078eecc74a42640e7f45e9abb06ac4321636697314f144f9",
+    "examples/stress_world_v117.py": "1a8e7ebc4204f89ac7866c50ad519b9f179ea67cd6b66a9099da2295c8da87ee",
+    "examples/stress_horizon_v117.py": "51734153fe058548267180be73018b41948e64c3fbfda14f86f910345736e452",
+    "data/calendar_2027_v117.json": "26cfd0f63d957f3fa19d015c486e958d6b6f8b71caed9ad922219c5ff995884a",
+    "data/calendar_2028_v117.json": "a5fc63f74d509b612bcd226c34345fbae351a45eebfa726c565f5b43fd469129"
+  },
+  "players": 4,
+  "years": 2,
+  "settled_phases": 192,
+  "training_phases": 116,
+  "rest_phases": 76,
+  "summary_matches": 64,
+  "skipped_fixtures_due_to_health": 0,
+  "injury_events": 0,
+  "max_post_settlement_fatigue": 49.767666666666656,
+  "baseline_checkpoint_bytes": 96870,
+  "final_checkpoint_bytes": 1004953,
+  "compact_match_bytes": {
+    "min": 8219,
+    "median": 10749.0,
+    "max": 12179
+  },
+  "phase_receipt_bytes": {
+    "min": 561,
+    "median": 685.5,
+    "max": 801
+  },
+  "median_match_seconds": 0.0651022735000879,
+  "median_phase_seconds": 0.004492718000619789,
+  "full_logs_retained": 0,
+  "size_samples": [
+    {
+      "phases_per_player": 12,
+      "matches": 16,
+      "checkpoint_bytes": 319653,
+      "dump_load_verify_seconds": 0.070814
+    },
+    {
+      "phases_per_player": 24,
+      "matches": 32,
+      "checkpoint_bytes": 542337,
+      "dump_load_verify_seconds": 0.159555
+    },
+    {
+      "phases_per_player": 36,
+      "matches": 48,
+      "checkpoint_bytes": 772397,
+      "dump_load_verify_seconds": 0.162262
+    },
+    {
+      "phases_per_player": 48,
+      "matches": 64,
+      "checkpoint_bytes": 1004953,
+      "dump_load_verify_seconds": 0.232987
+    }
+  ],
+  "final_consistency": {
+    "valid": true,
+    "ruleset": "SPIN_ERA_V1.1.7_CANDIDATE_1",
+    "game_ruleset": "V1.1.7-CANDIDATE-1",
+    "current_date": "2008-02-01",
+    "completed": false,
+    "horizon_end": "2028-07-30",
+    "players": 4,
+    "matches": 64,
+    "phase_clock": "TWO_PER_MONTH_SHARED_15_DAYS",
+    "archive_policy": "COMPACT_CHECKPOINT_EXTERNAL_OPTIONAL_FULL_LOGS",
+    "complete_roster": false,
+    "deep": true
+  },
+  "final_players": {
+    "stress117_0": {
+      "CA": 165,
+      "learned_CA": 165,
+      "PA": 198,
+      "fatigue": 42.83015999999999,
+      "injuries": 0,
+      "phase_log_length": 0
+    },
+    "stress117_1": {
+      "CA": 165,
+      "learned_CA": 165,
+      "PA": 199,
+      "fatigue": 42.14607111111113,
+      "injuries": 0,
+      "phase_log_length": 0
+    },
+    "stress117_2": {
+      "CA": 165,
+      "learned_CA": 165,
+      "PA": 198,
+      "fatigue": 49.767666666666656,
+      "injuries": 0,
+      "phase_log_length": 0
+    },
+    "stress117_3": {
+      "CA": 165,
+      "learned_CA": 165,
+      "PA": 198,
+      "fatigue": 48.038213333333346,
+      "injuries": 0,
+      "phase_log_length": 0
+    }
+  },
+  "elapsed_seconds": 6.361231,
+  "limitations": [
+    "Four synthetic players and two years test integration/storage, not population calibration.",
+    "Checkpoint grows linearly with compact results and identities, not constant-size forever.",
+    "Formal tournament health is a post-event coarse settlement; no mid-bracket walkover adapter."
+  ]
+}

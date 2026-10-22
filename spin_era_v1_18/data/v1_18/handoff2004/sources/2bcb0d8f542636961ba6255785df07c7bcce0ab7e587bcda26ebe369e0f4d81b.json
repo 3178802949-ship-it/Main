@@ -1,0 +1,110 @@
+{
+  "generated_on": "2026-10-22",
+  "files": [
+    {
+      "path": "00_READ_FIRST/CODEX_ONE_SHOT_PROMPT.md",
+      "bytes": 2467,
+      "sha256": "11655a2bb9893e4786fcebe0a4b5df0aee90fa8bdbf951afe66d4385c59798e0"
+    },
+    {
+      "path": "00_READ_FIRST/README.md",
+      "bytes": 1591,
+      "sha256": "46f6f0f720e0a8e902633f55f226a221071f620668435969be2d283347d2dbf9"
+    },
+    {
+      "path": "01_ORIGINAL_ENGINE/Spin_Era_V1_1_7_Comprehensive_UNMODIFIED.zip",
+      "bytes": 20943315,
+      "sha256": "e1498d5cb658359f1361fd7459a7b6641b64eb2efc4ff2351efa22e813e50f1d"
+    },
+    {
+      "path": "02_EXISTING_PATCH/light_v117_anti_shutout_patch_EXPERIMENTAL.py",
+      "bytes": 35627,
+      "sha256": "c86d865f197ef9294fe08e0918d2c28291c573d695d06aa54fde551025332d80"
+    },
+    {
+      "path": "03_2004_CHRONICLE/2004_COLLECTED_ORIGINAL_NARRATIVES.md",
+      "bytes": 53914,
+      "sha256": "faa595db7b85ac9d6d3ae6fef216f24e0505fd716113ced2b096c8258b9a8eeb"
+    },
+    {
+      "path": "03_2004_CHRONICLE/FULL_YEAR_SIMULATION_SUMMARY.md",
+      "bytes": 1857,
+      "sha256": "b0f778b9c7baf6109a328a62f6b6d68cf055488649a7abfdf12da5e2f3e36fd8"
+    },
+    {
+      "path": "03_2004_CHRONICLE/YEAR_END_FIRST_PERSON.md",
+      "bytes": 1268,
+      "sha256": "5ff8da0be07cc08d69b60a0a3d4afa6e58e7569eec82a90fb596fbd79f16d5d4"
+    },
+    {
+      "path": "03_2004_CHRONICLE/YEAR_END_HANDOFF.md",
+      "bytes": 3666,
+      "sha256": "53f36bf5d17f377612e795bf2d813b8ff19051de5b9a77bc5f98642563fdfb05"
+    },
+    {
+      "path": "04_SAVES_AND_RECEIPTS/01_opening_Spin_Era_Federer_2004_Opening_Save.zip",
+      "bytes": 160929,
+      "sha256": "4ef0b1b622bab65b5bb87f29c2560c2c4120a5053f43def0d9418c813b104cf4"
+    },
+    {
+      "path": "04_SAVES_AND_RECEIPTS/02_janfeb_Spin_Era_Federer_2004_JanFeb_Checkpoint.zip",
+      "bytes": 163906,
+      "sha256": "6334afc1816f876c7350feb9dec4763f55d2b07c04f24e38e9805488175f0876"
+    },
+    {
+      "path": "04_SAVES_AND_RECEIPTS/03_orebro_Spin_Era_Federer_2004_Orebro_Freitas_Full_Updated.zip",
+      "bytes": 107617,
+      "sha256": "5223fd64d22df161a52af692f3bfa1213f2b1c3824c82800b38399bc7879ecc5"
+    },
+    {
+      "path": "04_SAVES_AND_RECEIPTS/04_slovenia_Spin_Era_Federer_2004_Slovenia_Filus_R1_Updated.zip",
+      "bytes": 442775,
+      "sha256": "aaa22728688b25e590f5ae8b726adcc4b977a90b04dbdac80a451b2d844eb42f"
+    },
+    {
+      "path": "04_SAVES_AND_RECEIPTS/05_june_Spin_Era_Federer_2004_June01_Updated.zip",
+      "bytes": 612471,
+      "sha256": "f0d7304690cff714f5509cdf7b51e6efc31a63ba61b5ddca7da41d468608cd53"
+    },
+    {
+      "path": "04_SAVES_AND_RECEIPTS/06_poland_Spin_Era_Federer_2004_Poland_Takakiwa_R1_Updated.zip",
+      "bytes": 754954,
+      "sha256": "bfc979ee4409445397162b353bc7d0fa341137ffe593cd7cc9b344066bca2ad3"
+    },
+    {
+      "path": "04_SAVES_AND_RECEIPTS/07_euro_youth_Spin_Era_Federer_2004_EYC_GroupA_Updated.zip",
+      "bytes": 1690968,
+      "sha256": "8b6840bb82364d2748f4538b5b8f9d34a042978b7a32b827fd8d7bb8693d0ecf"
+    },
+    {
+      "path": "04_SAVES_AND_RECEIPTS/08_september_Spin_Era_Federer_2004_September_PreTournament_Updated.zip",
+      "bytes": 1861040,
+      "sha256": "91ee5bd2ec24ef104f666382ef24893343da1f4a536470eda591f5f3716f7910"
+    },
+    {
+      "path": "04_SAVES_AND_RECEIPTS/09_brazil_Spin_Era_Federer_2004_Brazil_Completed_Updated.zip",
+      "bytes": 1889431,
+      "sha256": "d228b57a400a9b2481d6e7054e62a79327e1cb3d167c5a1c97fc26d8c956e870"
+    },
+    {
+      "path": "04_SAVES_AND_RECEIPTS/10_kobe_Spin_Era_Federer_2004_Kobe_GroupG_Completed.zip",
+      "bytes": 2110040,
+      "sha256": "b3a5c02522118cbf83f97238e562a3cf7daf1b17d1c7c53296b52d6da7fed4eb"
+    },
+    {
+      "path": "04_SAVES_AND_RECEIPTS/2004_YEAR_END_ORIGINAL_HANDOFF.zip",
+      "bytes": 2282208,
+      "sha256": "3608290bfebdc8e9d449aa26c611879c5222e0d79e7783f4efcaf2d87fb77912"
+    },
+    {
+      "path": "05_SPEC_AND_TESTS/CODEX_ENGINE_PATCH_SPEC.md",
+      "bytes": 6425,
+      "sha256": "2f6a31ce19225c02aec55a90ea5916c171cf0dac602b0482e442ca1daa8a9ac6"
+    },
+    {
+      "path": "05_SPEC_AND_TESTS/PREVIOUS_PATCH_BRIEF.md",
+      "bytes": 2172,
+      "sha256": "e81bec9c24abd7072448a0f90009fe51fea9eb0dc154feb5ec1888c78f0e53e0"
+    }
+  ]
+}

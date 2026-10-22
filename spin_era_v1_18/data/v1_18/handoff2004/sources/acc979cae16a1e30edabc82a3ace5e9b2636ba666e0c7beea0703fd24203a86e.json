@@ -1,0 +1,24 @@
+{
+  "event": "ITTF Junior Circuit Polish Junior and Cadet Open Cetniewo 2004",
+  "historical_date": "2004-06-03 to 2004-06-06",
+  "site": "Cetniewo Poland",
+  "date_basis": "historical event anchored to June 3 per ITTF and ratingscentral; end June 6 is previous opening calendar provisional",
+  "qualification_format": "fictional 4-player round-robin top-two progression, official 2004 structure not verified",
+  "draw_seed": 200406010808,
+  "qualification_group_A": [
+    "Roger Federer (SUI)",
+    "Jaromir Zlamal (CZE)",
+    "Olegs Kartuzovs (LAT)",
+    "Stanislav Golovanov (BUL)"
+  ],
+  "first_opponent": "Jaromir Zlamal (CZE)",
+  "participants_note": "Three named non-Federer players have sourced 2004 JBS Qualification records, but reconstructed group assignment is fictional",
+  "verified_main_draw_examples": [
+    "Dimitrij Ovtcharov",
+    "Taku Takakiwa",
+    "Janos Jakab"
+  ],
+  "match_simulated": true,
+  "result_file": "POLAND_2004_QUALIFICATION_RESULTS.json",
+  "next_opponent": "Taku Takakiwa"
+}

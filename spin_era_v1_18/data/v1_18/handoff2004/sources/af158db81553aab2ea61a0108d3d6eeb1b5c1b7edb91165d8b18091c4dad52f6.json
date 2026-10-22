@@ -1,0 +1,16 @@
+{
+  "id": "ATHENS_2004_FEDERER_VIEWING",
+  "date": "2004-08-23",
+  "seed": "SPIN-ERA-2004-ATHENS-OBS-20040823-FEDERER-V1",
+  "D100_major": 26,
+  "trigger_threshold": 30,
+  "successful": true,
+  "D6_direction": 2,
+  "D100_effect": 44,
+  "event": "直板技术体系观念重大突破",
+  "locked_permanent_G_bonus": 0,
+  "observation_breakthrough_vouchers": 2,
+  "vouchers_status": "EXTERNAL_PENDING_REDEMPTION",
+  "meaning": "横打可建立两面连续进攻；直板单面正手暴力也可能通过步法与发接发击败两面体系。",
+  "caution": "2个技术研究凭证是新增的剧情成长系统奖励，尚未并入原版训练接口，不能计入官方XP或CA，需后续采用明确兑换规则。"
+}

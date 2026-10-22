@@ -1,0 +1,19 @@
+{
+  "event": "2004_EYC_Budapest_preentry",
+  "historical_dates": "2004-07-15/2004-07-25",
+  "historical_context": "Junior team and singles categories verified; historical complete Swiss entry and individual draw not confirmed",
+  "worldline_entry": "PROVISIONAL_FICTIONAL_SELECTION",
+  "draw": {
+    "group": "A (fictional preliminary group)",
+    "players": [
+      "Roger Federer",
+      "Alexander Krieger",
+      "Niklas Rönningborn",
+      "Marko Jevtović"
+    ],
+    "source": "historical 2004 junior boys field; fictional group mixing; group format provisional"
+  },
+  "matches_simulated": false,
+  "standing": "not played",
+  "timeline_boundary": "training phase July 1–15 closes at engine date July 16; no official tournament match simulated"
+}

@@ -1,0 +1,49 @@
+{
+  "simulation_mode": "ACTUAL V1.1.7 light match engine; not detailed shot engine",
+  "historical_group_verified": false,
+  "historical_true_participants": {
+    "Marc Duran": "verified qualification",
+    "Marcos Freitas": "verified main draw",
+    "Janos Jakab": "verified main draw",
+    "Krisztian Molnar": "verified main draw"
+  },
+  "group_members": [
+    "Roger Federer",
+    "Bruno Omizu",
+    "Rodrigo Kojima",
+    "Efraim Carvalho"
+  ],
+  "other_group_members_verified_at_this_event": false,
+  "qualification": {
+    "w": 3,
+    "l": 0,
+    "rank": 1
+  },
+  "main": {
+    "w": 0,
+    "l": 1,
+    "eliminated_round": "experimental R32"
+  },
+  "event_total": {
+    "w": 3,
+    "l": 1
+  },
+  "career_before": {
+    "w": 9,
+    "l": 6
+  },
+  "career_after": {
+    "w": 12,
+    "l": 7
+  },
+  "CA": 148,
+  "PA": 191,
+  "adult_points": 0,
+  "youth_points_previous_provisional": 30,
+  "youth_points_new_provisional": 60,
+  "official_ranking": "not computable",
+  "post_fatigue_estimate": 11.735207800000001,
+  "official_injuries_and_training_growth": "not yet adjudicated",
+  "point_system": "10 points per qualifier win, zero for main draw R1 loss, fictional provisional",
+  "light_engine_warning": "excessive shutouts requires calibration; no locked outcomes modified"
+}

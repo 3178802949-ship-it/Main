@@ -1,0 +1,10 @@
+{
+  "policy": "EXPERIMENTAL streak credit roll; pending XP only, permanent changes require validated official growth API",
+  "three_win_streak": true,
+  "bonus_roll_d100": 11,
+  "increased_breakthrough_threshold": 20,
+  "ordinary_threshold": 10,
+  "xp_eligible": "read.opponent_read;stable.consistency;bh.continuity",
+  "permanent_change": false,
+  "triggered": true
+}

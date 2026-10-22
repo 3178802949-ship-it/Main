@@ -1,0 +1,198 @@
+{
+  "version": "V1.18-1",
+  "status": "CLEAN_EXTRACTION_PASSED",
+  "packages": {
+    "Game": {
+      "file": "Spin_Era_V1_18_Game.zip",
+      "bytes": 781847,
+      "sha256": "f29961fa29822b33f7ae5729a35d245fe99a93a9c6416b2d963635fda5863154",
+      "checks": [
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "output": "Verified 55 files: Game\n"
+        },
+        {
+          "command": [
+            "self_test.py",
+            "--module",
+            "Game"
+          ],
+          "returncode": 0,
+          "output": "test_bound_full_bo7_is_verified_and_does_not_mutate_inputs (test_game.GameTests.test_bound_full_bo7_is_verified_and_does_not_mutate_inputs) ... ok\ntest_review_binds_actual_player_index_and_cannot_edit_match (test_game.GameTests.test_review_binds_actual_player_index_and_cannot_edit_match) ... ok\ntest_stale_aggregate_and_duplicate_participant_rejected (test_game.GameTests.test_stale_aggregate_and_duplicate_participant_rejected) ... ok\n\n----------------------------------------------------------------------\nRan 3 tests in 0.337s\n\nOK\n"
+        },
+        {
+          "command": [
+            "verify_v1_18_module.py",
+            "Game"
+          ],
+          "returncode": 0,
+          "output": "Game: independent V1.18 smoke passed\n"
+        },
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "output": "Verified 55 files: Game\n"
+        }
+      ],
+      "CRC_valid": true,
+      "files": 55
+    },
+    "Card": {
+      "file": "Spin_Era_V1_18_Card.zip",
+      "bytes": 710571,
+      "sha256": "6d9970e5b73ed6740e789084e14422dd2ab15ab2b1e21c2febcc231c5c208d1c",
+      "checks": [
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "output": "Verified 36 files: Card\n"
+        },
+        {
+          "command": [
+            "self_test.py",
+            "--module",
+            "Card"
+          ],
+          "returncode": 0,
+          "output": "... ok\ntest_events_settle_once_per_player_not_once_per_match_or_every_player (test_card.RankingTests.test_events_settle_once_per_player_not_once_per_match_or_every_player) ... ok\ntest_ranking_asof_does_not_use_future_match_elo (test_card.RankingTests.test_ranking_asof_does_not_use_future_match_elo) ... ok\ntest_restored_points_and_duplicate_ledger_tampering_are_rejected (test_card.RankingTests.test_restored_points_and_duplicate_ledger_tampering_are_rejected) ... ok\ntest_snapshot_roundtrip_preserves_dedupe_and_is_deep_copy (test_card.RankingTests.test_snapshot_roundtrip_preserves_dedupe_and_is_deep_copy) ... ok\ntest_world_rank_requires_explicit_complete_eligible_pool (test_card.RankingTests.test_world_rank_requires_explicit_complete_eligible_pool) ... ok\ntest_youth_and_team_events_do_not_enter_adult_points (test_card.RankingTests.test_youth_and_team_events_do_not_enter_adult_points) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 1.032s\n\nOK\n"
+        },
+        {
+          "command": [
+            "verify_v1_18_module.py",
+            "Card"
+          ],
+          "returncode": 0,
+          "output": "Card: independent V1.18 smoke passed\n"
+        },
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "output": "Verified 36 files: Card\n"
+        }
+      ],
+      "CRC_valid": true,
+      "files": 36
+    },
+    "Training": {
+      "file": "Spin_Era_V1_18_Training.zip",
+      "bytes": 716689,
+      "sha256": "327a23bc20f83f0c4ec3ba83fd4a68bc028925bf0160f713fce47c08efd69107",
+      "checks": [
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "output": "Verified 37 files: Training\n"
+        },
+        {
+          "command": [
+            "self_test.py",
+            "--module",
+            "Training"
+          ],
+          "returncode": 0,
+          "output": "nsumes_phase_and_reduces_fatigue_without_awarding_training (test_training.TrainingTests.test_rest_consumes_phase_and_reduces_fatigue_without_awarding_training) ... ok\ntest_save_after_phase_zero_resumes_exactly_and_month_mode_matches_phase_mode (test_training.TrainingTests.test_save_after_phase_zero_resumes_exactly_and_month_mode_matches_phase_mode) ... ok\ntest_specialization_keeps_the_general_budget_when_quality_coaching_is_enabled (test_training.TrainingTests.test_specialization_keeps_the_general_budget_when_quality_coaching_is_enabled) ... ok\ntest_specialization_targets_two_children_costing_more_fatigue_not_more_rolls (test_training.TrainingTests.test_specialization_targets_two_children_costing_more_fatigue_not_more_rolls) ... ok\ntest_workload_above_the_display_ceiling_is_not_free_recovery (test_training.TrainingTests.test_workload_above_the_display_ceiling_is_not_free_recovery) ... ok\n\n----------------------------------------------------------------------\nRan 23 tests in 0.070s\n\nOK\n"
+        },
+        {
+          "command": [
+            "verify_v1_18_module.py",
+            "Training"
+          ],
+          "returncode": 0,
+          "output": "Training: independent V1.18 smoke passed\n"
+        },
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "output": "Verified 37 files: Training\n"
+        }
+      ],
+      "CRC_valid": true,
+      "files": 37
+    },
+    "Area": {
+      "file": "Spin_Era_V1_18_Area.zip",
+      "bytes": 707617,
+      "sha256": "72b18b950362abcf07e8e5bb858294dcf5edd9ab274d45ccf4de44fce66cb9d1",
+      "checks": [
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "output": "Verified 37 files: Area\n"
+        },
+        {
+          "command": [
+            "self_test.py",
+            "--module",
+            "Area"
+          ],
+          "returncode": 0,
+          "output": "_count_is_configurable) ... ok\ntest_overlapping_entry_rejected_but_same_month_nonoverlap_allowed (test_area.AreaTests.test_overlapping_entry_rejected_but_same_month_nonoverlap_allowed) ... ok\ntest_packaged_2006_template_matches_tested_generator (test_area.AreaTests.test_packaged_2006_template_matches_tested_generator) ... ok\ntest_preflight_is_not_a_registration_mutation (test_area.AreaTests.test_preflight_is_not_a_registration_mutation) ... ok\ntest_senior_grand_levels_cannot_be_youth_events (test_area.AreaTests.test_senior_grand_levels_cannot_be_youth_events) ... ok\ntest_source_anchors_are_readonly_references_not_titles_or_verified_dates (test_area.AreaTests.test_source_anchors_are_readonly_references_not_titles_or_verified_dates) ... ok\ntest_wrong_level_cannot_bypass_year_checks_by_category_rename (test_area.AreaTests.test_wrong_level_cannot_bypass_year_checks_by_category_rename) ... ok\n\n----------------------------------------------------------------------\nRan 22 tests in 0.361s\n\nOK\n"
+        },
+        {
+          "command": [
+            "verify_v1_18_module.py",
+            "Area"
+          ],
+          "returncode": 0,
+          "output": "Area: independent V1.18 smoke passed\n"
+        },
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "output": "Verified 37 files: Area\n"
+        }
+      ],
+      "CRC_valid": true,
+      "files": 37
+    },
+    "Integrated": {
+      "file": "Spin_Era_V1_18_Integrated.zip",
+      "bytes": 27587474,
+      "sha256": "dd8b106f07c6133f371f59581e414a3916f075f01ea2b4bd182285e7260fdfad",
+      "checks": [
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "output": "Verified 549 files: Integrated\n"
+        },
+        {
+          "command": [
+            "run_v1_18_qa.py",
+            "--output",
+            "/tmp/tmpr49959hb/Spin_Era_V1_18_Integrated/checks/clean_package"
+          ],
+          "returncode": 0,
+          "output": "{\n  \"version\": \"V1.18-1\",\n  \"status\": \"FUNCTIONAL_QA_PASSED\",\n  \"tests\": 377,\n  \"two_migrations_byte_exact\": true,\n  \"shipped_opening_exact\": true,\n  \"checkpoint_roundtrip_exact\": true,\n  \"no_2004_match_replayed\": true,\n  \"no_2005_tournament_triggered\": true,\n  \"canonical_opening\": {\n    \"date\": \"2005-01-01\",\n    \"CA\": 150,\n    \"PA\": 191,\n    \"fatigue\": 0,\n    \"record\": [\n      14,\n      9\n    ],\n    \"matches\": 23\n  },\n  \"final_stress_matches\": 44000,\n  \"selected_matrix_configurations\": 44,\n  \"qualification\": \"Functional and conditional-model evidence, not real historical calibration.\"\n}\n"
+        },
+        {
+          "command": [
+            "verify_package.py"
+          ],
+          "returncode": 0,
+          "output": "Verified 549 files: Integrated\n"
+        }
+      ],
+      "CRC_valid": true,
+      "files": 549
+    }
+  }
+}

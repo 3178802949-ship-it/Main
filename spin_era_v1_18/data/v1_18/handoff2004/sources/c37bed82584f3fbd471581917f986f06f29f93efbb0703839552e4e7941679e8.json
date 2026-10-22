@@ -1,0 +1,12 @@
+{
+  "date": "2004-02-18",
+  "competition": "orebro_junior_qualifying",
+  "wins": 3,
+  "losses": 0,
+  "fatigue_estimate": 32.49,
+  "CA": 145,
+  "PA": 191,
+  "permanent_G_changes": {},
+  "training_growth": "not_inferred",
+  "reference_snapshot": "federer_2004_02_16_snapshot.json"
+}

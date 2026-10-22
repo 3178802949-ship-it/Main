@@ -1,0 +1,354 @@
+{
+  "seed": 200401010808,
+  "draw_order": [
+    [
+      "serve.spin",
+      106
+    ],
+    [
+      "serve.variation",
+      102
+    ],
+    [
+      "serve.placement",
+      119
+    ],
+    [
+      "serve.disguise",
+      118
+    ],
+    [
+      "serve.third_link",
+      106
+    ],
+    [
+      "receive.spin_read",
+      116
+    ],
+    [
+      "receive.length_read",
+      96
+    ],
+    [
+      "receive.control",
+      109
+    ],
+    [
+      "receive.initiative",
+      91
+    ],
+    [
+      "fh.spin",
+      109
+    ],
+    [
+      "fh.power",
+      115
+    ],
+    [
+      "fh.continuity",
+      107
+    ],
+    [
+      "fh.defense",
+      115
+    ],
+    [
+      "fh.placement",
+      106
+    ],
+    [
+      "bh.spin",
+      98
+    ],
+    [
+      "bh.power",
+      90
+    ],
+    [
+      "bh.continuity",
+      99
+    ],
+    [
+      "bh.defense",
+      93
+    ],
+    [
+      "bh.placement",
+      95
+    ],
+    [
+      "feet.start",
+      125
+    ],
+    [
+      "feet.arrival",
+      103
+    ],
+    [
+      "feet.recover",
+      113
+    ],
+    [
+      "feet.coordination",
+      117
+    ],
+    [
+      "feet.balance",
+      106
+    ],
+    [
+      "read.self_read",
+      97
+    ],
+    [
+      "read.opponent_read",
+      106
+    ],
+    [
+      "read.choice",
+      96
+    ],
+    [
+      "read.counter",
+      108
+    ],
+    [
+      "read.exploit",
+      109
+    ],
+    [
+      "stable.variance",
+      116
+    ],
+    [
+      "stable.sustain",
+      106
+    ],
+    [
+      "stable.recovery",
+      117
+    ],
+    [
+      "stable.pressure",
+      106
+    ],
+    [
+      "table.short",
+      102
+    ],
+    [
+      "table.push",
+      92
+    ],
+    [
+      "table.chop_control",
+      91
+    ],
+    [
+      "table.flick",
+      121
+    ],
+    [
+      "table.placement",
+      116
+    ],
+    [
+      "spirit.improvisation",
+      102
+    ],
+    [
+      "spirit.unorthodox_defense",
+      121
+    ],
+    [
+      "spirit.spin_deception",
+      113
+    ],
+    [
+      "spirit.lob_arcs",
+      107
+    ],
+    [
+      "spirit.unexpected_transition",
+      93
+    ],
+    [
+      "P6.speed",
+      119
+    ],
+    [
+      "P6.burst",
+      101
+    ],
+    [
+      "P6.strength",
+      100
+    ],
+    [
+      "P6.stamina",
+      109
+    ],
+    [
+      "P6.agility",
+      118
+    ],
+    [
+      "P6.flexibility",
+      120
+    ],
+    [
+      "PA",
+      191
+    ],
+    [
+      "height_cm",
+      177.2
+    ],
+    [
+      "weight_kg",
+      61.4
+    ],
+    [
+      "narrative_personality",
+      [
+        "不愿示弱，但愿意复盘",
+        "喜欢自我探索新技术",
+        "更偏爱主动赢下回合而不是等待失误"
+      ]
+    ]
+  ],
+  "group_priors": {
+    "serve": [
+      110,
+      7
+    ],
+    "receive": [
+      100,
+      7
+    ],
+    "fh": [
+      117,
+      8
+    ],
+    "bh": [
+      93,
+      8
+    ],
+    "feet": [
+      117,
+      7
+    ],
+    "read": [
+      105,
+      8
+    ],
+    "stable": [
+      104,
+      7
+    ],
+    "table": [
+      104,
+      8
+    ],
+    "spirit": [
+      111,
+      9
+    ]
+  },
+  "P6_priors": {
+    "speed": [
+      116,
+      5
+    ],
+    "burst": [
+      109,
+      5
+    ],
+    "strength": [
+      100,
+      5
+    ],
+    "stamina": [
+      109,
+      5
+    ],
+    "agility": [
+      119,
+      5
+    ],
+    "flexibility": [
+      117,
+      5
+    ]
+  },
+  "pa_prior": {
+    "minimum": 189,
+    "mode": 195,
+    "maximum": 199
+  },
+  "ruleset": "V1.1.7-COMPREHENSIVE-1",
+  "world_source": "Spin_Era_V1_1_7_Comprehensive.zip",
+  "roster_count": 35,
+  "roster_warning": "34 archived 2000 snapshots loaded as PRIOR_BASELINE_NOT_GROWN; no official 2004 roster, no Sep 2004 hindsight.",
+  "calendar_validation": {
+    "valid": true,
+    "errors": [],
+    "warnings": [
+      "UNCONFIRMED_EVENT:2004_CRO_OPEN",
+      "UNCONFIRMED_EVENT:2004_GRE_OPEN",
+      "UNCONFIRMED_EVENT:2004_SWE_JUNIOR",
+      "UNCONFIRMED_EVENT:2004_DOHA_TEAM",
+      "UNCONFIRMED_EVENT:2004_SLO_YOUTH",
+      "UNCONFIRMED_EVENT:2004_EGY_OPEN",
+      "UNCONFIRMED_EVENT:2004_OLY_QUAL",
+      "UNCONFIRMED_EVENT:2004_KOR_OPEN",
+      "UNCONFIRMED_EVENT:2004_SGP_OPEN",
+      "UNCONFIRMED_EVENT:2004_POL_YOUTH",
+      "UNCONFIRMED_EVENT:2004_CHI_OPEN",
+      "UNCONFIRMED_EVENT:2004_BRA_OPEN",
+      "UNCONFIRMED_EVENT:2004_USA_OPEN",
+      "UNCONFIRMED_EVENT:2004_EYC_BUD",
+      "UNCONFIRMED_EVENT:2004_OLY_ATHENS",
+      "UNCONFIRMED_EVENT:2004_BRA_JUNIOR",
+      "UNCONFIRMED_EVENT:2004_CHN_WUXI",
+      "UNCONFIRMED_EVENT:2004_CHN_CHANGCHUN",
+      "UNCONFIRMED_EVENT:2004_JPN_OPEN",
+      "UNCONFIRMED_EVENT:2004_POL_OPEN",
+      "UNCONFIRMED_EVENT:2004_DEN_OPEN",
+      "UNCONFIRMED_EVENT:2004_WORLD_CUP",
+      "UNCONFIRMED_EVENT:2004_GER_OPEN",
+      "UNCONFIRMED_EVENT:2004_AUT_OPEN",
+      "UNCONFIRMED_EVENT:2004_RUS_OPEN",
+      "UNCONFIRMED_EVENT:2004_WJC_KOBE",
+      "UNCONFIRMED_EVENT:2004_GRAND_FINAL",
+      "FULL_CALENDAR_NOT_CERTIFIED"
+    ],
+    "coverage": {
+      "events": 27,
+      "grand_events": 3,
+      "major_events": 17,
+      "continental_events": 1
+    },
+    "publication_ready": false,
+    "historical_calendar_verified": false
+  },
+  "world_validation": {
+    "valid": true,
+    "ruleset": "SPIN_ERA_V1.1.7_COMPREHENSIVE_1",
+    "game_ruleset": "V1.1.7-COMPREHENSIVE-1",
+    "current_date": "2004-01-01",
+    "completed": false,
+    "horizon_end": "2028-07-30",
+    "players": 35,
+    "matches": 0,
+    "phase_clock": "TWO_PER_MONTH_SHARED_15_DAYS",
+    "archive_policy": "COMPACT_CHECKPOINT_EXTERNAL_OPTIONAL_FULL_LOGS",
+    "complete_roster": false,
+    "deep": true
+  },
+  "submitted_actions": 0,
+  "submitted_matches": 0,
+  "claimed_trophies": 0,
+  "classification": "RANDOM_SIMULATED_SCENARIO"
+}

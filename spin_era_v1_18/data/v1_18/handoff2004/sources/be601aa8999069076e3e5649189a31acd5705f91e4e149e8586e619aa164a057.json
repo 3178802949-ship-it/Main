@@ -1,0 +1,51 @@
+{
+  "date": "2004-06-04",
+  "seed": 200406040808,
+  "format": "V1.1.7 full experimental BO7",
+  "winner_index": 1,
+  "games_won": [
+    0,
+    4
+  ],
+  "scores": [
+    [
+      1,
+      11
+    ],
+    [
+      2,
+      11
+    ],
+    [
+      5,
+      11
+    ],
+    [
+      3,
+      11
+    ]
+  ],
+  "federer_ca": 146,
+  "takakiwa_ca": 158,
+  "points": 55,
+  "exposures_status": "Full shot log saved, not permanently converted without official xp API",
+  "next_round": "to be drawn from verified main draw pool if win",
+  "workload": {
+    "estimated": false,
+    "source": "EXECUTED_CONTACTS_AND_ALL_MOVEMENT",
+    "per_player": [
+      {
+        "contacts": 102,
+        "movement_m": 84.03281,
+        "active_attacks": 41,
+        "effort": 24.51591
+      },
+      {
+        "contacts": 106,
+        "movement_m": 82.22125,
+        "active_attacks": 55,
+        "effort": 24.92982
+      }
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "version": "V1.1.7-COMPREHENSIVE-1",
+  "status": "EXECUTED_CONDITIONAL_BENCHMARKS_NOT_POPULATION_CERTIFICATION",
+  "targeted_tests": 20,
+  "scenario_count": 100,
+  "source_sha256": {
+    "runtime/career_v118.py": "1a6a3d133e785b1f2e7525148be6fcef0a5c0ced9e45137cb0576ac7c5dcbcb4",
+    "Training/v118.py": "c47478eb2154cfc9a1e2cde6964e9a9d7eae2b47f5eec59331e10894587cb20a",
+    "examples/calibrate_career_v118.py": "42a198643409e9f51bcb339eab7cceb29e30287abb7b7f6c8be4a10501d7b5bb",
+    "tests/test_growth_v118.py": "6fa717475ac707a086a63e89aed3305ca70ae7672ab64a99bebc6d4409e38c5c",
+    "Card/__init__.py": "de0614af0039a6b0c4ad4559e90305ea8f0bc8f06e52f7f407d5175d39ee9b6c",
+    "common/__init__.py": "6404128c46d6fa7bf2484ea380045da4995d925f949d6bf6b2c5d27a510fe58b",
+    "runtime/career_v116.py": "0f175c818647a33f2553e1094bbb5edb50841e4ef179bd8c5c54ca0691562940",
+    "runtime/career_v114.py": "579e34d873d4b3c173b3f5a988f5d9f3c18c56051fa45b005e97fe114966e76a",
+    "runtime/card_training_v112.py": "ea441a87493701ac078eecc74a42640e7f45e9abb06ac4321636697314f144f9",
+    "data/original/spin_era_v013_frozen_attribute_schema.json": "3f211016c57dd0091ac2659067178c0f2d9650f80f3683919dd6cb260dc9028d",
+    "data/original/spin_era_players_archive_2000_2026_v12.json": "2beab9577d8f073aa37745acaa48b0196c85d7016a4bc1cb91e94ffdd18efeee",
+    "data/presets_normalized.json": "8c535ac476a5e9e9bd265d34a838fa4f7bf886c95ee4218b4c479e7276e5ee4e"
+  },
+  "source_verification": "Changed numerical/experiment files checked at experiment start/end; frozen imported inputs verified against V117 baseline manifest.",
+  "ideal": {
+    "n": 48,
+    "within_ten_lifetime_PA": 48,
+    "max_peak_gap_to_lifetime_PA": 4,
+    "mean_first_peak_age": 26.916666666666668,
+    "peak_after31": 0,
+    "mean_peak_to38_decline": 16.520833333333332,
+    "max_normal_annual_PA_change": 1
+  },
+  "minor_or_uninjured_careers": 92,
+  "spontaneous_PA_decrease_without_permanent_injury": 0,
+  "permanent_injury_careers": 8,
+  "all_PA_decreases_have_persistent_injury_evidence": true,
+  "all_injury_adjusted_targets_keep_cumulative_damage": true,
+  "champion_window_pairs": [
+    {
+      "label": "ma2004",
+      "seed": 11818101,
+      "peak_with_windows": 196,
+      "peak_without_windows": 196,
+      "peak_delta": 0,
+      "annual_CA_changes": []
+    },
+    {
+      "label": "ma2004",
+      "seed": 11818102,
+      "peak_with_windows": 194,
+      "peak_without_windows": 194,
+      "peak_delta": 0,
+      "annual_CA_changes": []
+    },
+    {
+      "label": "fan2012",
+      "seed": 11818101,
+      "peak_with_windows": 196,
+      "peak_without_windows": 196,
+      "peak_delta": 0,
+      "annual_CA_changes": []
+    },
+    {
+      "label": "fan2012",
+      "seed": 11818102,
+      "peak_with_windows": 195,
+      "peak_without_windows": 195,
+      "peak_delta": 0,
+      "annual_CA_changes": []
+    },
+    {
+      "label": "zhang2004",
+      "seed": 11818101,
+      "peak_with_windows": 192,
+      "peak_without_windows": 192,
+      "peak_delta": 0,
+      "annual_CA_changes": []
+    },
+    {
+      "label": "zhang2004",
+      "seed": 11818102,
+      "peak_with_windows": 194,
+      "peak_without_windows": 194,
+      "peak_delta": 0,
+      "annual_CA_changes": []
+    },
+    {
+      "label": "ma18",
+      "seed": 11818101,
+      "peak_with_windows": 194,
+      "peak_without_windows": 194,
+      "peak_delta": 0,
+      "annual_CA_changes": []
+    },
+    {
+      "label": "ma18",
+      "seed": 11818102,
+      "peak_with_windows": 196,
+      "peak_without_windows": 196,
+      "peak_delta": 0,
+      "annual_CA_changes": []
+    },
+    {
+      "label": "elite181",
+      "seed": 11818101,
+      "peak_with_windows": 180,
+      "peak_without_windows": 180,
+      "peak_delta": 0,
+      "annual_CA_changes": []
+    },
+    {
+      "label": "elite181",
+      "seed": 11818102,
+      "peak_with_windows": 178,
+      "peak_without_windows": 178,
+      "peak_delta": 0,
+      "annual_CA_changes": []
+    },
+    {
+      "label": "elite165",
+      "seed": 11818101,
+      "peak_with_windows": 164,
+      "peak_without_windows": 164,
+      "peak_delta": 0,
+      "annual_CA_changes": []
+    },
+    {
+      "label": "elite165",
+      "seed": 11818102,
+      "peak_with_windows": 165,
+      "peak_without_windows": 165,
+      "peak_delta": 0,
+      "annual_CA_changes": []
+    }
+  ],
+  "champion_window_rate_range": [
+    1.1125,
+    1.25
+  ],
+  "regular_window_rate_range": [
+    1.09,
+    1.2
+  ],
+  "cohort_overlap_note": "12 no-opportunity careers pair against 12 of 48 ideal careers. Six fixed fixture identities are not a population sample.",
+  "evidence": {
+    "GROWTH_IDEAL_HOLDOUT.json": {
+      "scenarios": 48,
+      "sha256": "7f0be30f547b39b18f7727a09112590cab1282995c94db6f3bb528a0d340f6ea",
+      "source_sha256": {
+        "runtime/career_v118.py": "1a6a3d133e785b1f2e7525148be6fcef0a5c0ced9e45137cb0576ac7c5dcbcb4",
+        "Training/v118.py": "c47478eb2154cfc9a1e2cde6964e9a9d7eae2b47f5eec59331e10894587cb20a",
+        "examples/calibrate_career_v118.py": "42a198643409e9f51bcb339eab7cceb29e30287abb7b7f6c8be4a10501d7b5bb"
+      }
+    },
+    "GROWTH_NO_OPPORTUNITY_CONTROL.json": {
+      "scenarios": 12,
+      "sha256": "012793b00acf91afd70e2c17d5e9e0b15230df6e2cb6d8bc270164f49ff1d383",
+      "source_sha256": {
+        "runtime/career_v118.py": "1a6a3d133e785b1f2e7525148be6fcef0a5c0ced9e45137cb0576ac7c5dcbcb4",
+        "Training/v118.py": "c47478eb2154cfc9a1e2cde6964e9a9d7eae2b47f5eec59331e10894587cb20a",
+        "examples/calibrate_career_v118.py": "42a198643409e9f51bcb339eab7cceb29e30287abb7b7f6c8be4a10501d7b5bb"
+      }
+    },
+    "GROWTH_PRIOR_ENV_MATRIX.json": {
+      "scenarios": 20,
+      "sha256": "afbba70d134475fdd22d9c9935f852d00ba7ff18f7c1c8276a69fdc980782108",
+      "source_sha256": {
+        "runtime/career_v118.py": "1a6a3d133e785b1f2e7525148be6fcef0a5c0ced9e45137cb0576ac7c5dcbcb4",
+        "Training/v118.py": "c47478eb2154cfc9a1e2cde6964e9a9d7eae2b47f5eec59331e10894587cb20a",
+        "examples/calibrate_career_v118.py": "42a198643409e9f51bcb339eab7cceb29e30287abb7b7f6c8be4a10501d7b5bb"
+      }
+    },
+    "GROWTH_STRESS_HOLDOUT.json": {
+      "scenarios": 12,
+      "sha256": "5e3e45a309604b9841ecf6988619f747666d14872305ed297619596fb09cf69c",
+      "source_sha256": {
+        "runtime/career_v118.py": "1a6a3d133e785b1f2e7525148be6fcef0a5c0ced9e45137cb0576ac7c5dcbcb4",
+        "Training/v118.py": "c47478eb2154cfc9a1e2cde6964e9a9d7eae2b47f5eec59331e10894587cb20a",
+        "examples/calibrate_career_v118.py": "42a198643409e9f51bcb339eab7cceb29e30287abb7b7f6c8be4a10501d7b5bb"
+      }
+    },
+    "GROWTH_INJURY_CONTRAST.json": {
+      "scenarios": 8,
+      "sha256": "da26baf661d0fcef3ecd3484f131fe9708374a8c922e650d6a8a9d1b0e9a9855",
+      "source_sha256": {
+        "runtime/career_v118.py": "1a6a3d133e785b1f2e7525148be6fcef0a5c0ced9e45137cb0576ac7c5dcbcb4",
+        "Training/v118.py": "c47478eb2154cfc9a1e2cde6964e9a9d7eae2b47f5eec59331e10894587cb20a",
+        "examples/calibrate_career_v118.py": "42a198643409e9f51bcb339eab7cceb29e30287abb7b7f6c8be4a10501d7b5bb"
+      }
+    }
+  },
+  "test_output_sha256": "51aefdaba66052fd7cc8eaa59e24add61eb179123c8aec99d65757300e67dac9"
+}

@@ -1,0 +1,50 @@
+{
+  "marcos_freitas_por_1988": {
+    "name": "Marcos Freitas",
+    "baseline": "freitas_2004_02_locked_reference.json",
+    "wins": 0,
+    "losses": 1,
+    "meetings": [
+      {
+        "date": "2004-02-19",
+        "tournament": "Orebro junior open",
+        "stage": "fictional first main round",
+        "score": "0-4",
+        "games": [
+          "2-11",
+          "7-11",
+          "4-11",
+          "7-11"
+        ],
+        "format_note": "BO7 experiment"
+      }
+    ],
+    "narrative": "first major international defeat; reluctant embrace; respectful yet intensely competitive"
+  },
+  "ruwen_filus_ger_1988": {
+    "player": "Ruwen Filus",
+    "date": "2004-04-03",
+    "event": "Slovenia Youth Open (fictional pairing)",
+    "match_scores": [
+      [
+        2,
+        11
+      ],
+      [
+        4,
+        11
+      ],
+      [
+        5,
+        11
+      ],
+      [
+        6,
+        11
+      ]
+    ],
+    "federer_win": 0,
+    "federer_loss": 1,
+    "source": "slovenia_federer_filus_full_match.json"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "event_id": "2004_SWE_JUNIOR",
+  "event_name": "2004 Swedish Junior and Cadet Open",
+  "dates": [
+    "2004-02-18",
+    "2004-02-19"
+  ],
+  "location": "Örebro, Sweden",
+  "player_id": "federer_sui_1988_custom",
+  "status": "WORLDLINE_REGISTRATION_INTENT_SAVED_DRAW_PENDING",
+  "entry_category": "junior_singles",
+  "age_eligible": true,
+  "qualification_status": "HISTORICAL_EVENT_HAS_QUALIFICATION_STAGE_PLAYER_GROUP_PENDING",
+  "no_matches_simulated": true,
+  "asof": "2004-02-16",
+  "note": "报名意向作为独立待办存档，非正式历史参赛名册，未注册world.run_event。"
+}

@@ -1,0 +1,4013 @@
+{
+  "kind": "KOBE2004_ORIGINAL_GROUP_G_LOWER_SLOT_REPLACEMENT",
+  "replacement": "Lidney Castro replaced by Federer, historic four-person results preserved",
+  "source": "https://tt-wiki.info/jugend-wm-2004-in-kobe/",
+  "draw": [
+    "Cho Eonrae",
+    "Ruwen Filus",
+    "Devesh Karia",
+    "Niklas Ronningborn",
+    "Roger Federer"
+  ],
+  "initial_ca": 149,
+  "matches": [
+    {
+      "players": [
+        "Federer",
+        "Filus"
+      ],
+      "kind": "SIMULATED_LIGHT_PATCH",
+      "games_won": [
+        0,
+        3
+      ],
+      "games": [
+        {
+          "score": [
+            8,
+            11
+          ],
+          "winner": 1,
+          "points_count": 19
+        },
+        {
+          "score": [
+            1,
+            11
+          ],
+          "winner": 1,
+          "points_count": 12
+        },
+        {
+          "score": [
+            8,
+            11
+          ],
+          "winner": 1,
+          "points_count": 19
+        }
+      ],
+      "seed": 2004112901,
+      "winner": "Filus",
+      "match": {
+        "seed": 2004112901,
+        "engine": "V1.1.7-LIGHT-4-ANTI-SHUTOUT-EXPERIMENT",
+        "mode": "summary",
+        "narrative_scope": "AGGREGATE_ONLY",
+        "winner": 1,
+        "games_won": [
+          0,
+          3
+        ],
+        "games": [
+          {
+            "score": [
+              8,
+              11
+            ],
+            "winner": 1,
+            "points_count": 19
+          },
+          {
+            "score": [
+              1,
+              11
+            ],
+            "winner": 1,
+            "points_count": 12
+          },
+          {
+            "score": [
+              8,
+              11
+            ],
+            "winner": 1,
+            "points_count": 19
+          }
+        ],
+        "points": 50,
+        "total_strokes": 268,
+        "mean_strokes": 5.36,
+        "rally_length_distribution": {
+          "1": 1,
+          "2": 11,
+          "3": 11,
+          "4": 5,
+          "5": 5,
+          "6": 5,
+          "7": 6,
+          "8": 1,
+          "9": 1,
+          "10": 1,
+          "19": 2,
+          "30": 1
+        },
+        "rally_method": "FINITE_ABSORBING_TERMINAL_CONTACT_SAMPLE_NOT_A_SHOT_TRACE",
+        "actions": {
+          "serve": 50,
+          "bh_counter_loop": 12,
+          "fh_lob_rescue": 5,
+          "fh_side_open": 21,
+          "fh_press_block": 10,
+          "fh_fast_loop": 14,
+          "middle_jam_counter": 4,
+          "bh_fast_loop": 17,
+          "short_stop_drop": 4,
+          "heavy_under_push": 7,
+          "fh_specialist_chop": 31,
+          "bh_slow_loop": 11,
+          "bh_press_block": 19,
+          "bh_lob_rescue": 30,
+          "bh_side_open": 7,
+          "bh_specialist_chop": 13,
+          "fh_slow_loop": 9,
+          "fh_counter_loop": 4
+        },
+        "action_family_distribution": {
+          "serve": 50,
+          "counter": 20,
+          "lob": 35,
+          "open": 28,
+          "block": 29,
+          "attack": 31,
+          "push": 11,
+          "chop": 44,
+          "slow_loop": 20
+        },
+        "target_lane_usage": {
+          "crosscourt": 20,
+          "straight": 12,
+          "observed_weak_side": 18
+        },
+        "outcome_summary": {
+          "initiative_returned_by_passive_contact": 20,
+          "attacker_point": 21,
+          "defender_point": 29,
+          "sampled_unreached_attempts": 6
+        },
+        "per_player_actions": [
+          {
+            "serve": 26,
+            "fh_lob_rescue": 3,
+            "fh_side_open": 21,
+            "bh_counter_loop": 2,
+            "bh_fast_loop": 12,
+            "fh_fast_loop": 13,
+            "short_stop_drop": 4,
+            "bh_slow_loop": 11,
+            "middle_jam_counter": 2,
+            "bh_lob_rescue": 16,
+            "heavy_under_push": 4,
+            "fh_press_block": 3,
+            "bh_side_open": 7,
+            "bh_press_block": 5,
+            "fh_slow_loop": 9,
+            "fh_counter_loop": 2
+          },
+          {
+            "bh_counter_loop": 10,
+            "fh_press_block": 7,
+            "serve": 24,
+            "fh_fast_loop": 1,
+            "middle_jam_counter": 2,
+            "bh_fast_loop": 5,
+            "heavy_under_push": 3,
+            "fh_specialist_chop": 31,
+            "bh_press_block": 14,
+            "bh_lob_rescue": 14,
+            "bh_specialist_chop": 13,
+            "fh_counter_loop": 2,
+            "fh_lob_rescue": 2
+          }
+        ],
+        "tactical_plan_usage": [
+          {
+            "patient_loop": 23,
+            "wide_movement": 16,
+            "finish_weak_ball": 9,
+            "spin_pace_mix": 27,
+            "observed_weak_side": 26,
+            "short_long": 13
+          },
+          {
+            "chop_counter": 25,
+            "chop_table_reset": 4,
+            "chop_heavy": 32,
+            "chop_float": 36,
+            "chop_reposition": 7
+          }
+        ],
+        "exposure_by_player": [
+          {
+            "usage": {
+              "serve.placement": 12,
+              "feet.recover": 3,
+              "spirit.unorthodox_defense": 3,
+              "feet.coordination": 1,
+              "fh.spin": 17,
+              "bh.spin": 14,
+              "serve.variation": 2,
+              "bh.continuity": 8,
+              "bh.placement": 6,
+              "serve.spin": 9,
+              "fh.power": 11,
+              "fh.continuity": 5,
+              "table.chop_control": 4,
+              "table.short": 1,
+              "fh.defense": 3,
+              "bh.power": 6,
+              "spirit.improvisation": 4,
+              "fh.placement": 12,
+              "table.placement": 1,
+              "spirit.lob_arcs": 2,
+              "spirit.spin_deception": 3,
+              "feet.arrival": 1,
+              "feet.start": 1,
+              "spirit.unexpected_transition": 1,
+              "serve.third_link": 2,
+              "bh.defense": 5,
+              "table.push": 2,
+              "serve.disguise": 1
+            },
+            "pressure": {
+              "serve.placement": 12,
+              "feet.recover": 3,
+              "spirit.unorthodox_defense": 3,
+              "feet.coordination": 1,
+              "fh.spin": 17,
+              "bh.spin": 14,
+              "serve.variation": 2,
+              "bh.continuity": 8,
+              "bh.placement": 6,
+              "serve.spin": 9,
+              "fh.power": 11,
+              "fh.continuity": 5,
+              "table.chop_control": 4,
+              "table.short": 1,
+              "fh.defense": 3,
+              "bh.power": 6,
+              "spirit.improvisation": 4,
+              "fh.placement": 12,
+              "table.placement": 1,
+              "spirit.lob_arcs": 2,
+              "spirit.spin_deception": 3,
+              "feet.arrival": 1,
+              "feet.start": 1,
+              "spirit.unexpected_transition": 1,
+              "serve.third_link": 2,
+              "bh.defense": 5,
+              "table.push": 2,
+              "serve.disguise": 1
+            }
+          },
+          {
+            "usage": {
+              "bh.continuity": 13,
+              "bh.defense": 14,
+              "fh.defense": 21,
+              "serve.third_link": 5,
+              "fh.power": 3,
+              "serve.spin": 9,
+              "bh.power": 6,
+              "serve.placement": 7,
+              "table.chop_control": 3,
+              "serve.disguise": 2,
+              "bh.spin": 6,
+              "fh.spin": 5,
+              "spirit.unorthodox_defense": 3,
+              "spirit.spin_deception": 4,
+              "feet.start": 1,
+              "feet.arrival": 1,
+              "spirit.improvisation": 3,
+              "feet.recover": 2,
+              "spirit.lob_arcs": 1,
+              "bh.placement": 5,
+              "fh.placement": 8,
+              "fh.continuity": 4,
+              "serve.variation": 1,
+              "spirit.unexpected_transition": 1
+            },
+            "pressure": {
+              "bh.continuity": 13,
+              "bh.defense": 14,
+              "fh.defense": 19,
+              "serve.third_link": 5,
+              "fh.power": 3,
+              "serve.spin": 9,
+              "bh.power": 6,
+              "serve.placement": 7,
+              "table.chop_control": 3,
+              "serve.disguise": 2,
+              "bh.spin": 6,
+              "fh.spin": 4,
+              "spirit.unorthodox_defense": 3,
+              "spirit.spin_deception": 4,
+              "feet.start": 1,
+              "feet.arrival": 1,
+              "spirit.improvisation": 3,
+              "feet.recover": 2,
+              "spirit.lob_arcs": 1,
+              "bh.placement": 5,
+              "fh.placement": 6,
+              "fh.continuity": 3,
+              "serve.variation": 1,
+              "spirit.unexpected_transition": 1
+            }
+          }
+        ],
+        "exposure_provenance": "AGGREGATE_CONTACT_SAMPLING",
+        "exposure_method": "SAMPLED_AGGREGATE_CONTACT_ALLOCATIONS_NOT_SHOT_LOG",
+        "exposure_scope": "ALL_SAMPLED_CONTACTS_INCLUDING_SERVE; one technical path allocation per contact",
+        "pressure_method": "MATCHUP_PRESSURE_PROXY_NOT_A_SPECIFIC_SHOT_ERROR",
+        "workload": {
+          "source": "POINT_AGGREGATE_APPROXIMATION",
+          "per_player": [
+            {
+              "contacts": 140,
+              "movement_m": 86.81815,
+              "active_attacks": 79,
+              "effort": 29.19727,
+              "estimated": true
+            },
+            {
+              "contacts": 128,
+              "movement_m": 99.58696,
+              "active_attacks": 20,
+              "effort": 28.76565,
+              "estimated": true
+            }
+          ]
+        },
+        "average_point_probability": [
+          0.359322,
+          0.640678
+        ],
+        "between_game_checks": [
+          {
+            "player": "federer_sui_1988_custom",
+            "after_game": 1,
+            "rolls": {
+              "self": 29,
+              "weak": 85,
+              "execute": 7
+            },
+            "thresholds": {
+              "self": 52,
+              "weak": 46,
+              "execute": 50
+            },
+            "successes": {
+              "self": true,
+              "weak": false,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 15,
+              "type": "breakthrough",
+              "stable_delta": 4,
+              "clutch_extra_delta": 4
+            },
+            "weakness": null,
+            "target_usable": false,
+            "form_repair": {
+              "G": "feet",
+              "delta": 4
+            },
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 17,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_ruwen_filus",
+            "after_game": 1,
+            "rolls": {
+              "self": 99,
+              "weak": 14,
+              "execute": 91
+            },
+            "thresholds": {
+              "self": 53,
+              "weak": 47,
+              "execute": 51
+            },
+            "successes": {
+              "self": false,
+              "weak": true,
+              "execute": false
+            },
+            "psychology": {
+              "roll": 1,
+              "type": "breakthrough",
+              "stable_delta": 4,
+              "clutch_extra_delta": 4
+            },
+            "weakness": "bh",
+            "target_usable": false,
+            "form_repair": null,
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 17,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "federer_sui_1988_custom",
+            "after_game": 2,
+            "rolls": {
+              "self": 26,
+              "weak": 43,
+              "execute": 25
+            },
+            "thresholds": {
+              "self": 54,
+              "weak": 47,
+              "execute": 52
+            },
+            "successes": {
+              "self": true,
+              "weak": true,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 53,
+              "type": "normal",
+              "stable_delta": 1,
+              "clutch_extra_delta": -1
+            },
+            "weakness": "bh",
+            "target_usable": true,
+            "form_repair": {
+              "G": "spirit",
+              "delta": 3
+            },
+            "read_delta": 8,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 25,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_ruwen_filus",
+            "after_game": 2,
+            "rolls": {
+              "self": 29,
+              "weak": 79,
+              "execute": 53
+            },
+            "thresholds": {
+              "self": 54,
+              "weak": 48,
+              "execute": 53
+            },
+            "successes": {
+              "self": true,
+              "weak": false,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 60,
+              "type": "normal",
+              "stable_delta": 1,
+              "clutch_extra_delta": -1
+            },
+            "weakness": null,
+            "target_usable": false,
+            "form_repair": {
+              "G": "fh",
+              "delta": 4
+            },
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 28,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          }
+        ],
+        "match_form": [
+          {
+            "form_initial": {
+              "serve": 3,
+              "receive": 4,
+              "fh": 3,
+              "bh": 4,
+              "feet": -5,
+              "read": 5,
+              "stable": 3,
+              "table": 6,
+              "spirit": -3
+            },
+            "p_roll": {
+              "speed": 0,
+              "burst": 1,
+              "strength": -3,
+              "stamina": 1,
+              "agility": 2,
+              "flexibility": 3
+            },
+            "psychological_state": "normal",
+            "initial_final_tactics": "change_spin",
+            "counter_level": 1
+          },
+          {
+            "form_initial": {
+              "serve": -4,
+              "receive": -5,
+              "fh": -6,
+              "bh": -3,
+              "feet": 0,
+              "read": 4,
+              "stable": -5,
+              "table": 5,
+              "spirit": -2
+            },
+            "p_roll": {
+              "speed": 2,
+              "burst": -1,
+              "strength": 1,
+              "stamina": 0,
+              "agility": 3,
+              "flexibility": 2
+            },
+            "psychological_state": "normal",
+            "initial_final_tactics": "wide_angles",
+            "counter_level": 2
+          }
+        ],
+        "status": "SIMULATED_NONHISTORICAL_APPROXIMATE_BACKGROUND_MATCH",
+        "calibration_status": "POINT_MODEL_CANDIDATE_NOT_EQUIVALENT_TO_DETAILED_ENGINE",
+        "aggregate_model": {
+          "probability": "FINITE_TWO_PHASE_ABSORPTION_41",
+          "action_menu": "SHARED_DETAILED_PURE_DISTRIBUTION; reached-grade representative sample",
+          "movement": "EXPECTED_UNIFORM_TARGET_GRID; first/steady arrival mixture",
+          "cross_wing": "ACTUAL_CHOSEN_WING_AND_MENU_FIT; no full post-reach cross-body grade penalty",
+          "point_length": "JOINT_TERMINAL_EVENT_SAMPLE; missed attempts grant no contact exposure",
+          "initial_service": "SERVE_RECEIVE_EDGE_PROXY; no explicit short/half-long service prefix",
+          "quality_feedback_iterations": 3,
+          "shot_chronology": false
+        },
+        "metadata_limits": {
+          "handedness": [
+            "left",
+            "right"
+          ],
+          "rubbers": [
+            {
+              "fh": "inverted",
+              "bh": "inverted"
+            },
+            {
+              "fh": "inverted",
+              "bh": "inverted"
+            }
+          ],
+          "no_shot_chronology": true,
+          "unknown_metadata_inferred": false
+        }
+      }
+    },
+    {
+      "players": [
+        "Federer",
+        "Cho"
+      ],
+      "kind": "SIMULATED_LIGHT_PATCH",
+      "games_won": [
+        0,
+        3
+      ],
+      "games": [
+        {
+          "score": [
+            2,
+            11
+          ],
+          "winner": 1,
+          "points_count": 13
+        },
+        {
+          "score": [
+            2,
+            11
+          ],
+          "winner": 1,
+          "points_count": 13
+        },
+        {
+          "score": [
+            5,
+            11
+          ],
+          "winner": 1,
+          "points_count": 16
+        }
+      ],
+      "seed": 2004112902,
+      "winner": "Cho",
+      "match": {
+        "seed": 2004112902,
+        "engine": "V1.1.7-LIGHT-4-ANTI-SHUTOUT-EXPERIMENT",
+        "mode": "summary",
+        "narrative_scope": "AGGREGATE_ONLY",
+        "winner": 1,
+        "games_won": [
+          0,
+          3
+        ],
+        "games": [
+          {
+            "score": [
+              2,
+              11
+            ],
+            "winner": 1,
+            "points_count": 13
+          },
+          {
+            "score": [
+              2,
+              11
+            ],
+            "winner": 1,
+            "points_count": 13
+          },
+          {
+            "score": [
+              5,
+              11
+            ],
+            "winner": 1,
+            "points_count": 16
+          }
+        ],
+        "points": 42,
+        "total_strokes": 243,
+        "mean_strokes": 5.78571,
+        "rally_length_distribution": {
+          "1": 2,
+          "2": 11,
+          "3": 3,
+          "4": 4,
+          "5": 5,
+          "6": 2,
+          "7": 2,
+          "8": 2,
+          "9": 1,
+          "10": 3,
+          "11": 2,
+          "12": 3,
+          "14": 1,
+          "16": 1
+        },
+        "rally_method": "FINITE_ABSORBING_TERMINAL_CONTACT_SAMPLE_NOT_A_SHOT_TRACE",
+        "actions": {
+          "serve": 42,
+          "fh_press_block": 15,
+          "bh_lob_rescue": 21,
+          "fh_fast_loop": 31,
+          "bh_press_block": 28,
+          "middle_jam_counter": 15,
+          "fh_counter_loop": 31,
+          "bh_counter_loop": 21,
+          "fh_lob_rescue": 27,
+          "bh_fast_loop": 9,
+          "bh_chop": 2,
+          "heavy_under_push": 1
+        },
+        "action_family_distribution": {
+          "serve": 42,
+          "block": 43,
+          "lob": 48,
+          "attack": 40,
+          "counter": 67,
+          "chop": 2,
+          "push": 1
+        },
+        "target_lane_usage": {
+          "crosscourt": 22,
+          "straight": 12,
+          "observed_weak_side": 8
+        },
+        "outcome_summary": {
+          "sampled_unreached_attempts": 12,
+          "attacker_point": 20,
+          "defender_point": 22,
+          "initiative_returned_by_passive_contact": 8
+        },
+        "per_player_actions": [
+          {
+            "serve": 21,
+            "bh_lob_rescue": 16,
+            "bh_press_block": 15,
+            "fh_fast_loop": 11,
+            "middle_jam_counter": 4,
+            "bh_counter_loop": 19,
+            "fh_press_block": 2,
+            "fh_lob_rescue": 9,
+            "bh_fast_loop": 3,
+            "fh_counter_loop": 20,
+            "bh_chop": 2
+          },
+          {
+            "fh_press_block": 13,
+            "fh_fast_loop": 20,
+            "serve": 21,
+            "middle_jam_counter": 11,
+            "fh_counter_loop": 11,
+            "bh_press_block": 13,
+            "bh_lob_rescue": 5,
+            "fh_lob_rescue": 18,
+            "bh_counter_loop": 2,
+            "bh_fast_loop": 6,
+            "heavy_under_push": 1
+          }
+        ],
+        "tactical_plan_usage": [
+          {
+            "wide_movement": 19,
+            "patient_loop": 16,
+            "finish_weak_ball": 5,
+            "observed_weak_side": 44,
+            "spin_pace_mix": 17
+          },
+          {
+            "spin_pace_mix": 29,
+            "patient_loop": 17,
+            "finish_weak_ball": 15,
+            "short_long": 4,
+            "wide_movement": 20,
+            "observed_weak_side": 15
+          }
+        ],
+        "exposure_by_player": [
+          {
+            "usage": {
+              "serve.spin": 5,
+              "feet.arrival": 2,
+              "spirit.unorthodox_defense": 7,
+              "spirit.improvisation": 1,
+              "feet.coordination": 1,
+              "spirit.lob_arcs": 3,
+              "serve.placement": 10,
+              "bh.defense": 15,
+              "serve.variation": 1,
+              "fh.continuity": 13,
+              "bh.power": 7,
+              "bh.continuity": 13,
+              "fh.spin": 6,
+              "serve.disguise": 2,
+              "fh.power": 11,
+              "spirit.spin_deception": 2,
+              "feet.start": 3,
+              "spirit.unexpected_transition": 3,
+              "serve.third_link": 3,
+              "feet.balance": 3,
+              "fh.placement": 2,
+              "bh.spin": 4,
+              "bh.placement": 4,
+              "fh.defense": 1
+            },
+            "pressure": {
+              "serve.spin": 5,
+              "feet.arrival": 2,
+              "spirit.unorthodox_defense": 7,
+              "spirit.improvisation": 1,
+              "feet.coordination": 1,
+              "spirit.lob_arcs": 3,
+              "serve.placement": 10,
+              "bh.defense": 15,
+              "serve.variation": 1,
+              "fh.continuity": 13,
+              "bh.power": 7,
+              "bh.continuity": 13,
+              "fh.spin": 6,
+              "serve.disguise": 2,
+              "fh.power": 11,
+              "spirit.spin_deception": 2,
+              "feet.start": 3,
+              "spirit.unexpected_transition": 3,
+              "serve.third_link": 3,
+              "feet.balance": 3,
+              "fh.placement": 2,
+              "bh.spin": 4,
+              "bh.placement": 4,
+              "fh.defense": 1
+            }
+          },
+          {
+            "usage": {
+              "fh.defense": 9,
+              "fh.spin": 5,
+              "fh.continuity": 10,
+              "serve.disguise": 2,
+              "fh.power": 14,
+              "serve.spin": 9,
+              "bh.power": 6,
+              "bh.continuity": 11,
+              "serve.placement": 5,
+              "fh.placement": 6,
+              "bh.defense": 8,
+              "serve.third_link": 3,
+              "bh.spin": 4,
+              "feet.start": 4,
+              "feet.recover": 2,
+              "spirit.improvisation": 2,
+              "feet.arrival": 1,
+              "spirit.lob_arcs": 5,
+              "bh.placement": 3,
+              "spirit.unexpected_transition": 3,
+              "spirit.unorthodox_defense": 2,
+              "spirit.spin_deception": 1,
+              "serve.variation": 2,
+              "feet.coordination": 2,
+              "feet.balance": 1,
+              "table.chop_control": 1
+            },
+            "pressure": {
+              "fh.defense": 4,
+              "bh.power": 6,
+              "bh.continuity": 11,
+              "fh.placement": 3,
+              "fh.power": 4,
+              "bh.defense": 8,
+              "bh.spin": 4,
+              "bh.placement": 3,
+              "feet.recover": 1,
+              "spirit.unexpected_transition": 3,
+              "spirit.lob_arcs": 1,
+              "feet.start": 2,
+              "fh.continuity": 5,
+              "fh.spin": 2,
+              "feet.coordination": 1,
+              "feet.balance": 1,
+              "spirit.unorthodox_defense": 1,
+              "table.chop_control": 1
+            }
+          }
+        ],
+        "exposure_provenance": "AGGREGATE_CONTACT_SAMPLING",
+        "exposure_method": "SAMPLED_AGGREGATE_CONTACT_ALLOCATIONS_NOT_SHOT_LOG",
+        "exposure_scope": "ALL_SAMPLED_CONTACTS_INCLUDING_SERVE; one technical path allocation per contact",
+        "pressure_method": "MATCHUP_PRESSURE_PROXY_NOT_A_SPECIFIC_SHOT_ERROR",
+        "workload": {
+          "source": "POINT_AGGREGATE_APPROXIMATION",
+          "per_player": [
+            {
+              "contacts": 122,
+              "movement_m": 85.8242,
+              "active_attacks": 57,
+              "effort": 26.91836,
+              "estimated": true
+            },
+            {
+              "contacts": 121,
+              "movement_m": 82.56882,
+              "active_attacks": 50,
+              "effort": 26.04239,
+              "estimated": true
+            }
+          ]
+        },
+        "average_point_probability": [
+          0.181117,
+          0.818883
+        ],
+        "between_game_checks": [
+          {
+            "player": "federer_sui_1988_custom",
+            "after_game": 1,
+            "rolls": {
+              "self": 50,
+              "weak": 70,
+              "execute": 10
+            },
+            "thresholds": {
+              "self": 49,
+              "weak": 43,
+              "execute": 47
+            },
+            "successes": {
+              "self": false,
+              "weak": false,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 8,
+              "type": "breakthrough",
+              "stable_delta": 4,
+              "clutch_extra_delta": 4
+            },
+            "weakness": null,
+            "target_usable": false,
+            "form_repair": null,
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 11,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_cho_eonrae",
+            "after_game": 1,
+            "rolls": {
+              "self": 70,
+              "weak": 89,
+              "execute": 83
+            },
+            "thresholds": {
+              "self": 52,
+              "weak": 46,
+              "execute": 51
+            },
+            "successes": {
+              "self": false,
+              "weak": false,
+              "execute": false
+            },
+            "psychology": {
+              "roll": 38,
+              "type": "normal",
+              "stable_delta": 2,
+              "clutch_extra_delta": 0
+            },
+            "weakness": null,
+            "target_usable": false,
+            "form_repair": null,
+            "read_delta": 0,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 10,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "federer_sui_1988_custom",
+            "after_game": 2,
+            "rolls": {
+              "self": 61,
+              "weak": 47,
+              "execute": 62
+            },
+            "thresholds": {
+              "self": 51,
+              "weak": 45,
+              "execute": 49
+            },
+            "successes": {
+              "self": false,
+              "weak": false,
+              "execute": false
+            },
+            "psychology": {
+              "roll": 82,
+              "type": "collapse",
+              "stable_delta": -4,
+              "clutch_extra_delta": -4
+            },
+            "weakness": null,
+            "target_usable": false,
+            "form_repair": null,
+            "read_delta": 0,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 21,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_cho_eonrae",
+            "after_game": 2,
+            "rolls": {
+              "self": 49,
+              "weak": 33,
+              "execute": 91
+            },
+            "thresholds": {
+              "self": 52,
+              "weak": 46,
+              "execute": 51
+            },
+            "successes": {
+              "self": true,
+              "weak": true,
+              "execute": false
+            },
+            "psychology": {
+              "roll": 99,
+              "type": "collapse",
+              "stable_delta": -4,
+              "clutch_extra_delta": -4
+            },
+            "weakness": "bh",
+            "target_usable": false,
+            "form_repair": {
+              "G": "table",
+              "delta": 4
+            },
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 21,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          }
+        ],
+        "match_form": [
+          {
+            "form_initial": {
+              "serve": 4,
+              "receive": 5,
+              "fh": 2,
+              "bh": 1,
+              "feet": 4,
+              "read": -2,
+              "stable": -1,
+              "table": -6,
+              "spirit": -4
+            },
+            "p_roll": {
+              "speed": 1,
+              "burst": 4,
+              "strength": 3,
+              "stamina": -4,
+              "agility": -4,
+              "flexibility": 2
+            },
+            "psychological_state": "collapse",
+            "initial_final_tactics": "receive_initiative",
+            "counter_level": 1
+          },
+          {
+            "form_initial": {
+              "serve": 2,
+              "receive": 1,
+              "fh": 4,
+              "bh": 2,
+              "feet": 3,
+              "read": -7,
+              "stable": 5,
+              "table": -7,
+              "spirit": -1
+            },
+            "p_roll": {
+              "speed": 1,
+              "burst": 1,
+              "strength": 4,
+              "stamina": -1,
+              "agility": -1,
+              "flexibility": -1
+            },
+            "psychological_state": "collapse",
+            "initial_final_tactics": "wide_angles",
+            "counter_level": 1
+          }
+        ],
+        "status": "SIMULATED_NONHISTORICAL_APPROXIMATE_BACKGROUND_MATCH",
+        "calibration_status": "POINT_MODEL_CANDIDATE_NOT_EQUIVALENT_TO_DETAILED_ENGINE",
+        "aggregate_model": {
+          "probability": "FINITE_TWO_PHASE_ABSORPTION_41",
+          "action_menu": "SHARED_DETAILED_PURE_DISTRIBUTION; reached-grade representative sample",
+          "movement": "EXPECTED_UNIFORM_TARGET_GRID; first/steady arrival mixture",
+          "cross_wing": "ACTUAL_CHOSEN_WING_AND_MENU_FIT; no full post-reach cross-body grade penalty",
+          "point_length": "JOINT_TERMINAL_EVENT_SAMPLE; missed attempts grant no contact exposure",
+          "initial_service": "SERVE_RECEIVE_EDGE_PROXY; no explicit short/half-long service prefix",
+          "quality_feedback_iterations": 3,
+          "shot_chronology": false
+        },
+        "metadata_limits": {
+          "handedness": [
+            "left",
+            "right"
+          ],
+          "rubbers": [
+            {
+              "fh": "inverted",
+              "bh": "inverted"
+            },
+            {
+              "fh": "inverted",
+              "bh": "inverted"
+            }
+          ],
+          "no_shot_chronology": true,
+          "unknown_metadata_inferred": false
+        }
+      }
+    },
+    {
+      "players": [
+        "Federer",
+        "Devesh"
+      ],
+      "kind": "SIMULATED_LIGHT_PATCH",
+      "games_won": [
+        3,
+        0
+      ],
+      "games": [
+        {
+          "score": [
+            11,
+            3
+          ],
+          "winner": 0,
+          "points_count": 14
+        },
+        {
+          "score": [
+            11,
+            2
+          ],
+          "winner": 0,
+          "points_count": 13
+        },
+        {
+          "score": [
+            11,
+            2
+          ],
+          "winner": 0,
+          "points_count": 13
+        }
+      ],
+      "seed": 2004112903,
+      "winner": "Federer",
+      "match": {
+        "seed": 2004112903,
+        "engine": "V1.1.7-LIGHT-4-ANTI-SHUTOUT-EXPERIMENT",
+        "mode": "summary",
+        "narrative_scope": "AGGREGATE_ONLY",
+        "winner": 0,
+        "games_won": [
+          3,
+          0
+        ],
+        "games": [
+          {
+            "score": [
+              11,
+              3
+            ],
+            "winner": 0,
+            "points_count": 14
+          },
+          {
+            "score": [
+              11,
+              2
+            ],
+            "winner": 0,
+            "points_count": 13
+          },
+          {
+            "score": [
+              11,
+              2
+            ],
+            "winner": 0,
+            "points_count": 13
+          }
+        ],
+        "points": 40,
+        "total_strokes": 162,
+        "mean_strokes": 4.05,
+        "rally_length_distribution": {
+          "1": 5,
+          "2": 12,
+          "3": 4,
+          "4": 5,
+          "5": 6,
+          "6": 1,
+          "7": 3,
+          "8": 1,
+          "9": 1,
+          "11": 1,
+          "16": 1
+        },
+        "rally_method": "FINITE_ABSORBING_TERMINAL_CONTACT_SAMPLE_NOT_A_SHOT_TRACE",
+        "actions": {
+          "serve": 40,
+          "fh_lob_rescue": 14,
+          "bh_press_block": 9,
+          "fh_counter_loop": 13,
+          "fh_fast_loop": 8,
+          "bh_fast_loop": 16,
+          "fh_slow_loop": 3,
+          "bh_lob_rescue": 10,
+          "middle_jam_counter": 6,
+          "bh_counter_loop": 23,
+          "fh_press_block": 20
+        },
+        "action_family_distribution": {
+          "serve": 40,
+          "lob": 24,
+          "block": 29,
+          "counter": 42,
+          "attack": 24,
+          "slow_loop": 3
+        },
+        "target_lane_usage": {
+          "crosscourt": 24,
+          "straight": 6,
+          "observed_weak_side": 10
+        },
+        "outcome_summary": {
+          "attacker_point": 23,
+          "defender_point": 17,
+          "initiative_returned_by_passive_contact": 15,
+          "sampled_unreached_attempts": 15
+        },
+        "per_player_actions": [
+          {
+            "serve": 21,
+            "fh_lob_rescue": 11,
+            "bh_press_block": 3,
+            "fh_fast_loop": 2,
+            "bh_lob_rescue": 7,
+            "middle_jam_counter": 4,
+            "bh_fast_loop": 15,
+            "fh_press_block": 14,
+            "fh_counter_loop": 4,
+            "bh_counter_loop": 2
+          },
+          {
+            "bh_press_block": 6,
+            "serve": 19,
+            "fh_counter_loop": 9,
+            "bh_fast_loop": 1,
+            "fh_slow_loop": 3,
+            "bh_counter_loop": 21,
+            "fh_press_block": 6,
+            "fh_fast_loop": 6,
+            "middle_jam_counter": 2,
+            "fh_lob_rescue": 3,
+            "bh_lob_rescue": 3
+          }
+        ],
+        "tactical_plan_usage": [
+          {
+            "spin_pace_mix": 15,
+            "patient_loop": 2,
+            "finish_weak_ball": 17,
+            "observed_weak_side": 17,
+            "wide_movement": 6,
+            "short_long": 5
+          },
+          {
+            "patient_loop": 17,
+            "spin_pace_mix": 10,
+            "wide_movement": 4,
+            "finish_weak_ball": 7,
+            "short_long": 5,
+            "observed_weak_side": 17
+          }
+        ],
+        "exposure_by_player": [
+          {
+            "usage": {
+              "serve.disguise": 2,
+              "feet.coordination": 1,
+              "spirit.improvisation": 4,
+              "serve.spin": 10,
+              "bh.continuity": 9,
+              "fh.power": 8,
+              "serve.third_link": 3,
+              "spirit.unorthodox_defense": 3,
+              "feet.arrival": 1,
+              "bh.power": 10,
+              "serve.placement": 6,
+              "spirit.unexpected_transition": 4,
+              "fh.defense": 10,
+              "bh.defense": 3,
+              "bh.spin": 2,
+              "feet.start": 2,
+              "fh.continuity": 2,
+              "spirit.lob_arcs": 2,
+              "spirit.spin_deception": 1
+            },
+            "pressure": {
+              "serve.disguise": 2,
+              "feet.coordination": 1,
+              "spirit.improvisation": 4,
+              "serve.spin": 10,
+              "bh.continuity": 9,
+              "fh.power": 8,
+              "serve.third_link": 3,
+              "spirit.unorthodox_defense": 3,
+              "feet.arrival": 1,
+              "bh.power": 10,
+              "serve.placement": 6,
+              "spirit.unexpected_transition": 4,
+              "fh.defense": 10,
+              "bh.defense": 3,
+              "bh.spin": 2,
+              "feet.start": 2,
+              "fh.continuity": 2,
+              "spirit.lob_arcs": 2,
+              "spirit.spin_deception": 1
+            }
+          },
+          {
+            "usage": {
+              "bh.defense": 4,
+              "serve.variation": 1,
+              "fh.defense": 6,
+              "fh.power": 9,
+              "serve.placement": 8,
+              "bh.placement": 3,
+              "serve.third_link": 4,
+              "fh.continuity": 6,
+              "fh.spin": 3,
+              "serve.disguise": 2,
+              "bh.spin": 3,
+              "bh.continuity": 14,
+              "bh.power": 6,
+              "serve.spin": 4,
+              "feet.arrival": 2,
+              "spirit.unexpected_transition": 1,
+              "feet.coordination": 1,
+              "feet.recover": 1,
+              "spirit.improvisation": 1
+            },
+            "pressure": {
+              "bh.defense": 4,
+              "serve.variation": 1,
+              "fh.defense": 6,
+              "fh.power": 9,
+              "serve.placement": 8,
+              "bh.placement": 3,
+              "serve.third_link": 4,
+              "fh.continuity": 6,
+              "fh.spin": 3,
+              "serve.disguise": 2,
+              "bh.spin": 3,
+              "bh.continuity": 14,
+              "bh.power": 6,
+              "serve.spin": 4,
+              "feet.arrival": 2,
+              "spirit.unexpected_transition": 1,
+              "feet.coordination": 1,
+              "feet.recover": 1,
+              "spirit.improvisation": 1
+            }
+          }
+        ],
+        "exposure_provenance": "AGGREGATE_CONTACT_SAMPLING",
+        "exposure_method": "SAMPLED_AGGREGATE_CONTACT_ALLOCATIONS_NOT_SHOT_LOG",
+        "exposure_scope": "ALL_SAMPLED_CONTACTS_INCLUDING_SERVE; one technical path allocation per contact",
+        "pressure_method": "MATCHUP_PRESSURE_PROXY_NOT_A_SPECIFIC_SHOT_ERROR",
+        "workload": {
+          "source": "POINT_AGGREGATE_APPROXIMATION",
+          "per_player": [
+            {
+              "contacts": 83,
+              "movement_m": 50.6691,
+              "active_attacks": 27,
+              "effort": 16.57044,
+              "estimated": true
+            },
+            {
+              "contacts": 79,
+              "movement_m": 51.17242,
+              "active_attacks": 42,
+              "effort": 16.79104,
+              "estimated": true
+            }
+          ]
+        },
+        "average_point_probability": [
+          0.730068,
+          0.269932
+        ],
+        "between_game_checks": [
+          {
+            "player": "federer_sui_1988_custom",
+            "after_game": 1,
+            "rolls": {
+              "self": 15,
+              "weak": 28,
+              "execute": 56
+            },
+            "thresholds": {
+              "self": 49,
+              "weak": 43,
+              "execute": 47
+            },
+            "successes": {
+              "self": true,
+              "weak": true,
+              "execute": false
+            },
+            "psychology": {
+              "roll": 73,
+              "type": "normal",
+              "stable_delta": -1,
+              "clutch_extra_delta": 1
+            },
+            "weakness": "bh",
+            "target_usable": false,
+            "form_repair": {
+              "G": "receive",
+              "delta": 4
+            },
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 7,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_devesh_karia",
+            "after_game": 1,
+            "rolls": {
+              "self": 4,
+              "weak": 49,
+              "execute": 8
+            },
+            "thresholds": {
+              "self": 45,
+              "weak": 39,
+              "execute": 42
+            },
+            "successes": {
+              "self": true,
+              "weak": false,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 7,
+              "type": "breakthrough",
+              "stable_delta": 4,
+              "clutch_extra_delta": 4
+            },
+            "weakness": null,
+            "target_usable": false,
+            "form_repair": {
+              "G": "feet",
+              "delta": 4
+            },
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 9,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "federer_sui_1988_custom",
+            "after_game": 2,
+            "rolls": {
+              "self": 20,
+              "weak": 24,
+              "execute": 34
+            },
+            "thresholds": {
+              "self": 51,
+              "weak": 44,
+              "execute": 48
+            },
+            "successes": {
+              "self": true,
+              "weak": true,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 33,
+              "type": "normal",
+              "stable_delta": 0,
+              "clutch_extra_delta": 2
+            },
+            "weakness": "bh",
+            "target_usable": true,
+            "form_repair": {
+              "G": "feet",
+              "delta": 4
+            },
+            "read_delta": 8,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 18,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_devesh_karia",
+            "after_game": 2,
+            "rolls": {
+              "self": 79,
+              "weak": 28,
+              "execute": 43
+            },
+            "thresholds": {
+              "self": 47,
+              "weak": 40,
+              "execute": 44
+            },
+            "successes": {
+              "self": false,
+              "weak": true,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 53,
+              "type": "normal",
+              "stable_delta": -2,
+              "clutch_extra_delta": 2
+            },
+            "weakness": "bh",
+            "target_usable": true,
+            "form_repair": null,
+            "read_delta": 8,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 20,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          }
+        ],
+        "match_form": [
+          {
+            "form_initial": {
+              "serve": 5,
+              "receive": -7,
+              "fh": 5,
+              "bh": 6,
+              "feet": -7,
+              "read": -3,
+              "stable": 1,
+              "table": -2,
+              "spirit": 5
+            },
+            "p_roll": {
+              "speed": -1,
+              "burst": -4,
+              "strength": 0,
+              "stamina": 3,
+              "agility": 2,
+              "flexibility": -3
+            },
+            "psychological_state": "normal",
+            "initial_final_tactics": "receive_initiative",
+            "counter_level": 1
+          },
+          {
+            "form_initial": {
+              "serve": 0,
+              "receive": -5,
+              "fh": 6,
+              "bh": 1,
+              "feet": -6,
+              "read": -3,
+              "stable": -1,
+              "table": -1,
+              "spirit": -4
+            },
+            "p_roll": {
+              "speed": 3,
+              "burst": -1,
+              "strength": -3,
+              "stamina": 2,
+              "agility": 0,
+              "flexibility": 2
+            },
+            "psychological_state": "normal",
+            "initial_final_tactics": "wide_angles",
+            "counter_level": 1
+          }
+        ],
+        "status": "SIMULATED_NONHISTORICAL_APPROXIMATE_BACKGROUND_MATCH",
+        "calibration_status": "POINT_MODEL_CANDIDATE_NOT_EQUIVALENT_TO_DETAILED_ENGINE",
+        "aggregate_model": {
+          "probability": "FINITE_TWO_PHASE_ABSORPTION_41",
+          "action_menu": "SHARED_DETAILED_PURE_DISTRIBUTION; reached-grade representative sample",
+          "movement": "EXPECTED_UNIFORM_TARGET_GRID; first/steady arrival mixture",
+          "cross_wing": "ACTUAL_CHOSEN_WING_AND_MENU_FIT; no full post-reach cross-body grade penalty",
+          "point_length": "JOINT_TERMINAL_EVENT_SAMPLE; missed attempts grant no contact exposure",
+          "initial_service": "SERVE_RECEIVE_EDGE_PROXY; no explicit short/half-long service prefix",
+          "quality_feedback_iterations": 3,
+          "shot_chronology": false
+        },
+        "metadata_limits": {
+          "handedness": [
+            "left",
+            "right"
+          ],
+          "rubbers": [
+            {
+              "fh": "inverted",
+              "bh": "inverted"
+            },
+            {
+              "fh": "inverted",
+              "bh": "inverted"
+            }
+          ],
+          "no_shot_chronology": true,
+          "unknown_metadata_inferred": false
+        }
+      }
+    },
+    {
+      "players": [
+        "Federer",
+        "Niklas"
+      ],
+      "kind": "SIMULATED_LIGHT_PATCH",
+      "games_won": [
+        3,
+        2
+      ],
+      "games": [
+        {
+          "score": [
+            12,
+            10
+          ],
+          "winner": 0,
+          "points_count": 22
+        },
+        {
+          "score": [
+            7,
+            11
+          ],
+          "winner": 1,
+          "points_count": 18
+        },
+        {
+          "score": [
+            9,
+            11
+          ],
+          "winner": 1,
+          "points_count": 20
+        },
+        {
+          "score": [
+            12,
+            10
+          ],
+          "winner": 0,
+          "points_count": 22
+        },
+        {
+          "score": [
+            11,
+            6
+          ],
+          "winner": 0,
+          "points_count": 17
+        }
+      ],
+      "seed": 2004112904,
+      "winner": "Federer",
+      "match": {
+        "seed": 2004112904,
+        "engine": "V1.1.7-LIGHT-4-ANTI-SHUTOUT-EXPERIMENT",
+        "mode": "summary",
+        "narrative_scope": "AGGREGATE_ONLY",
+        "winner": 0,
+        "games_won": [
+          3,
+          2
+        ],
+        "games": [
+          {
+            "score": [
+              12,
+              10
+            ],
+            "winner": 0,
+            "points_count": 22
+          },
+          {
+            "score": [
+              7,
+              11
+            ],
+            "winner": 1,
+            "points_count": 18
+          },
+          {
+            "score": [
+              9,
+              11
+            ],
+            "winner": 1,
+            "points_count": 20
+          },
+          {
+            "score": [
+              12,
+              10
+            ],
+            "winner": 0,
+            "points_count": 22
+          },
+          {
+            "score": [
+              11,
+              6
+            ],
+            "winner": 0,
+            "points_count": 17
+          }
+        ],
+        "points": 99,
+        "total_strokes": 555,
+        "mean_strokes": 5.60606,
+        "rally_length_distribution": {
+          "1": 3,
+          "2": 22,
+          "3": 13,
+          "4": 13,
+          "5": 6,
+          "6": 13,
+          "7": 7,
+          "8": 3,
+          "9": 3,
+          "10": 5,
+          "11": 5,
+          "12": 1,
+          "13": 1,
+          "16": 2,
+          "19": 1,
+          "28": 1
+        },
+        "rally_method": "FINITE_ABSORBING_TERMINAL_CONTACT_SAMPLE_NOT_A_SHOT_TRACE",
+        "actions": {
+          "serve": 99,
+          "fh_fast_loop": 39,
+          "middle_jam_counter": 61,
+          "fh_lob_rescue": 35,
+          "bh_press_block": 47,
+          "bh_fast_loop": 51,
+          "bh_counter_loop": 58,
+          "fh_press_block": 44,
+          "bh_lob_rescue": 63,
+          "bh_slow_loop": 5,
+          "fh_chop": 6,
+          "push_long": 1,
+          "fh_counter_loop": 34,
+          "fh_side_open": 4,
+          "bh_chop": 8
+        },
+        "action_family_distribution": {
+          "serve": 99,
+          "attack": 90,
+          "counter": 153,
+          "lob": 98,
+          "block": 91,
+          "slow_loop": 5,
+          "chop": 14,
+          "push": 1,
+          "open": 4
+        },
+        "target_lane_usage": {
+          "crosscourt": 44,
+          "straight": 25,
+          "observed_weak_side": 30
+        },
+        "outcome_summary": {
+          "attacker_point": 58,
+          "defender_point": 41,
+          "initiative_returned_by_passive_contact": 35,
+          "sampled_unreached_attempts": 16
+        },
+        "per_player_actions": [
+          {
+            "serve": 49,
+            "fh_fast_loop": 23,
+            "fh_lob_rescue": 24,
+            "bh_counter_loop": 30,
+            "fh_press_block": 33,
+            "bh_slow_loop": 5,
+            "bh_fast_loop": 23,
+            "bh_lob_rescue": 18,
+            "middle_jam_counter": 30,
+            "bh_press_block": 22,
+            "push_long": 1,
+            "fh_counter_loop": 16
+          },
+          {
+            "middle_jam_counter": 31,
+            "bh_press_block": 25,
+            "serve": 50,
+            "bh_fast_loop": 28,
+            "fh_fast_loop": 16,
+            "bh_lob_rescue": 45,
+            "fh_press_block": 11,
+            "bh_counter_loop": 28,
+            "fh_chop": 6,
+            "fh_counter_loop": 18,
+            "fh_side_open": 4,
+            "fh_lob_rescue": 11,
+            "bh_chop": 8
+          }
+        ],
+        "tactical_plan_usage": [
+          {
+            "finish_weak_ball": 57,
+            "patient_loop": 48,
+            "wide_movement": 21,
+            "short_long": 21,
+            "spin_pace_mix": 40,
+            "observed_weak_side": 38
+          },
+          {
+            "wide_movement": 31,
+            "spin_pace_mix": 45,
+            "finish_weak_ball": 64,
+            "short_long": 15,
+            "observed_weak_side": 40,
+            "patient_loop": 36
+          }
+        ],
+        "exposure_by_player": [
+          {
+            "usage": {
+              "serve.third_link": 9,
+              "fh.continuity": 16,
+              "serve.disguise": 5,
+              "spirit.improvisation": 6,
+              "feet.recover": 4,
+              "spirit.unorthodox_defense": 7,
+              "feet.balance": 3,
+              "feet.start": 6,
+              "spirit.spin_deception": 9,
+              "fh.defense": 29,
+              "fh.power": 18,
+              "serve.spin": 16,
+              "bh.spin": 11,
+              "bh.continuity": 35,
+              "serve.placement": 15,
+              "fh.spin": 5,
+              "fh.placement": 4,
+              "bh.power": 35,
+              "spirit.lob_arcs": 4,
+              "bh.placement": 10,
+              "bh.defense": 19,
+              "table.push": 1,
+              "serve.variation": 4,
+              "spirit.unexpected_transition": 3
+            },
+            "pressure": {
+              "serve.third_link": 9,
+              "fh.continuity": 16,
+              "serve.disguise": 5,
+              "spirit.improvisation": 6,
+              "feet.recover": 4,
+              "spirit.unorthodox_defense": 7,
+              "feet.balance": 3,
+              "feet.start": 6,
+              "spirit.spin_deception": 9,
+              "fh.defense": 29,
+              "fh.power": 18,
+              "serve.spin": 16,
+              "bh.spin": 11,
+              "bh.continuity": 35,
+              "serve.placement": 15,
+              "fh.spin": 5,
+              "fh.placement": 4,
+              "bh.power": 35,
+              "spirit.lob_arcs": 4,
+              "bh.placement": 10,
+              "bh.defense": 19,
+              "table.push": 1,
+              "serve.variation": 4,
+              "spirit.unexpected_transition": 3
+            }
+          },
+          {
+            "usage": {
+              "bh.power": 26,
+              "bh.continuity": 41,
+              "bh.spin": 12,
+              "bh.defense": 28,
+              "bh.placement": 13,
+              "serve.placement": 12,
+              "serve.disguise": 6,
+              "fh.power": 16,
+              "feet.start": 4,
+              "spirit.lob_arcs": 3,
+              "spirit.unexpected_transition": 3,
+              "spirit.improvisation": 11,
+              "spirit.unorthodox_defense": 14,
+              "feet.coordination": 7,
+              "feet.recover": 4,
+              "feet.arrival": 4,
+              "serve.spin": 14,
+              "serve.third_link": 9,
+              "serve.variation": 9,
+              "fh.defense": 16,
+              "fh.spin": 6,
+              "fh.continuity": 14,
+              "spirit.spin_deception": 6,
+              "fh.placement": 3
+            },
+            "pressure": {
+              "bh.power": 26,
+              "bh.continuity": 41,
+              "bh.spin": 12,
+              "bh.defense": 28,
+              "bh.placement": 13,
+              "serve.placement": 12,
+              "serve.disguise": 6,
+              "fh.power": 16,
+              "feet.start": 4,
+              "spirit.lob_arcs": 3,
+              "spirit.unexpected_transition": 3,
+              "spirit.improvisation": 11,
+              "spirit.unorthodox_defense": 14,
+              "feet.coordination": 7,
+              "feet.recover": 4,
+              "feet.arrival": 4,
+              "serve.spin": 14,
+              "serve.third_link": 9,
+              "serve.variation": 9,
+              "fh.defense": 16,
+              "fh.spin": 6,
+              "fh.continuity": 14,
+              "spirit.spin_deception": 6,
+              "fh.placement": 3
+            }
+          }
+        ],
+        "exposure_provenance": "AGGREGATE_CONTACT_SAMPLING",
+        "exposure_method": "SAMPLED_AGGREGATE_CONTACT_ALLOCATIONS_NOT_SHOT_LOG",
+        "exposure_scope": "ALL_SAMPLED_CONTACTS_INCLUDING_SERVE; one technical path allocation per contact",
+        "pressure_method": "MATCHUP_PRESSURE_PROXY_NOT_A_SPECIFIC_SHOT_ERROR",
+        "workload": {
+          "source": "POINT_AGGREGATE_APPROXIMATION",
+          "per_player": [
+            {
+              "contacts": 274,
+              "movement_m": 180.33092,
+              "active_attacks": 127,
+              "effort": 58.18956,
+              "estimated": true
+            },
+            {
+              "contacts": 281,
+              "movement_m": 186.71401,
+              "active_attacks": 125,
+              "effort": 59.83852,
+              "estimated": true
+            }
+          ]
+        },
+        "average_point_probability": [
+          0.508893,
+          0.491107
+        ],
+        "between_game_checks": [
+          {
+            "player": "federer_sui_1988_custom",
+            "after_game": 1,
+            "rolls": {
+              "self": 89,
+              "weak": 50,
+              "execute": 97
+            },
+            "thresholds": {
+              "self": 52,
+              "weak": 46,
+              "execute": 50
+            },
+            "successes": {
+              "self": false,
+              "weak": false,
+              "execute": false
+            },
+            "psychology": {
+              "roll": 37,
+              "type": "normal",
+              "stable_delta": 2,
+              "clutch_extra_delta": -1
+            },
+            "weakness": null,
+            "target_usable": false,
+            "form_repair": null,
+            "read_delta": 0,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 19,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_niklas_ronningborn",
+            "after_game": 1,
+            "rolls": {
+              "self": 35,
+              "weak": 66,
+              "execute": 22
+            },
+            "thresholds": {
+              "self": 51,
+              "weak": 45,
+              "execute": 48
+            },
+            "successes": {
+              "self": true,
+              "weak": false,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 66,
+              "type": "normal",
+              "stable_delta": 2,
+              "clutch_extra_delta": -2
+            },
+            "weakness": null,
+            "target_usable": false,
+            "form_repair": {
+              "G": "feet",
+              "delta": 4
+            },
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 15,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "federer_sui_1988_custom",
+            "after_game": 2,
+            "rolls": {
+              "self": 3,
+              "weak": 7,
+              "execute": 77
+            },
+            "thresholds": {
+              "self": 52,
+              "weak": 46,
+              "execute": 50
+            },
+            "successes": {
+              "self": true,
+              "weak": true,
+              "execute": false
+            },
+            "psychology": {
+              "roll": 93,
+              "type": "collapse",
+              "stable_delta": -4,
+              "clutch_extra_delta": -4
+            },
+            "weakness": "bh",
+            "target_usable": false,
+            "form_repair": {
+              "G": "receive",
+              "delta": 4
+            },
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 33,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_niklas_ronningborn",
+            "after_game": 2,
+            "rolls": {
+              "self": 81,
+              "weak": 8,
+              "execute": 14
+            },
+            "thresholds": {
+              "self": 53,
+              "weak": 46,
+              "execute": 50
+            },
+            "successes": {
+              "self": false,
+              "weak": true,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 5,
+              "type": "breakthrough",
+              "stable_delta": 4,
+              "clutch_extra_delta": 4
+            },
+            "weakness": "bh",
+            "target_usable": true,
+            "form_repair": null,
+            "read_delta": 8,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 32,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "federer_sui_1988_custom",
+            "after_game": 3,
+            "rolls": {
+              "self": 12,
+              "weak": 28,
+              "execute": 80
+            },
+            "thresholds": {
+              "self": 54,
+              "weak": 48,
+              "execute": 52
+            },
+            "successes": {
+              "self": true,
+              "weak": true,
+              "execute": false
+            },
+            "psychology": {
+              "roll": 51,
+              "type": "normal",
+              "stable_delta": 1,
+              "clutch_extra_delta": -1
+            },
+            "weakness": "bh",
+            "target_usable": false,
+            "form_repair": {
+              "G": "feet",
+              "delta": 4
+            },
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 52,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_niklas_ronningborn",
+            "after_game": 3,
+            "rolls": {
+              "self": 67,
+              "weak": 64,
+              "execute": 41
+            },
+            "thresholds": {
+              "self": 54,
+              "weak": 48,
+              "execute": 52
+            },
+            "successes": {
+              "self": false,
+              "weak": false,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 37,
+              "type": "normal",
+              "stable_delta": 2,
+              "clutch_extra_delta": 2
+            },
+            "weakness": null,
+            "target_usable": false,
+            "form_repair": null,
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 47,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "federer_sui_1988_custom",
+            "after_game": 4,
+            "rolls": {
+              "self": 94,
+              "weak": 90,
+              "execute": 88
+            },
+            "thresholds": {
+              "self": 54,
+              "weak": 48,
+              "execute": 52
+            },
+            "successes": {
+              "self": false,
+              "weak": false,
+              "execute": false
+            },
+            "psychology": {
+              "roll": 17,
+              "type": "breakthrough",
+              "stable_delta": 4,
+              "clutch_extra_delta": 4
+            },
+            "weakness": null,
+            "target_usable": false,
+            "form_repair": null,
+            "read_delta": 0,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 73,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_niklas_ronningborn",
+            "after_game": 4,
+            "rolls": {
+              "self": 16,
+              "weak": 33,
+              "execute": 28
+            },
+            "thresholds": {
+              "self": 53,
+              "weak": 46,
+              "execute": 50
+            },
+            "successes": {
+              "self": true,
+              "weak": true,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 20,
+              "type": "breakthrough",
+              "stable_delta": 4,
+              "clutch_extra_delta": 4
+            },
+            "weakness": "bh",
+            "target_usable": true,
+            "form_repair": {
+              "G": "serve",
+              "delta": 2
+            },
+            "read_delta": 8,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 65,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          }
+        ],
+        "match_form": [
+          {
+            "form_initial": {
+              "serve": 5,
+              "receive": -5,
+              "fh": 2,
+              "bh": 2,
+              "feet": -4,
+              "read": 6,
+              "stable": -1,
+              "table": -3,
+              "spirit": 1
+            },
+            "p_roll": {
+              "speed": 3,
+              "burst": -3,
+              "strength": 4,
+              "stamina": -2,
+              "agility": -2,
+              "flexibility": 2
+            },
+            "psychological_state": "breakthrough",
+            "initial_final_tactics": "third_ball_fh",
+            "counter_level": 2
+          },
+          {
+            "form_initial": {
+              "serve": -2,
+              "receive": 7,
+              "fh": 3,
+              "bh": 1,
+              "feet": -5,
+              "read": 3,
+              "stable": -5,
+              "table": 6,
+              "spirit": 5
+            },
+            "p_roll": {
+              "speed": 4,
+              "burst": -2,
+              "strength": -1,
+              "stamina": 3,
+              "agility": -1,
+              "flexibility": -2
+            },
+            "psychological_state": "breakthrough",
+            "initial_final_tactics": "third_ball_fh",
+            "counter_level": 2
+          }
+        ],
+        "status": "SIMULATED_NONHISTORICAL_APPROXIMATE_BACKGROUND_MATCH",
+        "calibration_status": "POINT_MODEL_CANDIDATE_NOT_EQUIVALENT_TO_DETAILED_ENGINE",
+        "aggregate_model": {
+          "probability": "FINITE_TWO_PHASE_ABSORPTION_41",
+          "action_menu": "SHARED_DETAILED_PURE_DISTRIBUTION; reached-grade representative sample",
+          "movement": "EXPECTED_UNIFORM_TARGET_GRID; first/steady arrival mixture",
+          "cross_wing": "ACTUAL_CHOSEN_WING_AND_MENU_FIT; no full post-reach cross-body grade penalty",
+          "point_length": "JOINT_TERMINAL_EVENT_SAMPLE; missed attempts grant no contact exposure",
+          "initial_service": "SERVE_RECEIVE_EDGE_PROXY; no explicit short/half-long service prefix",
+          "quality_feedback_iterations": 3,
+          "shot_chronology": false
+        },
+        "metadata_limits": {
+          "handedness": [
+            "left",
+            "right"
+          ],
+          "rubbers": [
+            {
+              "fh": "inverted",
+              "bh": "inverted"
+            },
+            {
+              "fh": "inverted",
+              "bh": "inverted"
+            }
+          ],
+          "no_shot_chronology": true,
+          "unknown_metadata_inferred": false
+        }
+      }
+    },
+    {
+      "players": [
+        "Filus",
+        "Cho"
+      ],
+      "kind": "HISTORICAL_LOCKED",
+      "games_won": [
+        1,
+        3
+      ],
+      "games": [
+        [
+          5,
+          11
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          11,
+          3
+        ],
+        [
+          3,
+          11
+        ]
+      ],
+      "seed": null,
+      "winner": "Cho"
+    },
+    {
+      "players": [
+        "Filus",
+        "Devesh"
+      ],
+      "kind": "HISTORICAL_LOCKED",
+      "games_won": [
+        3,
+        1
+      ],
+      "games": [
+        [
+          7,
+          11
+        ],
+        [
+          12,
+          10
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          11,
+          8
+        ]
+      ],
+      "seed": null,
+      "winner": "Filus"
+    },
+    {
+      "players": [
+        "Filus",
+        "Niklas"
+      ],
+      "kind": "HISTORICAL_LOCKED",
+      "games_won": [
+        3,
+        2
+      ],
+      "games": [
+        [
+          12,
+          10
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          11,
+          4
+        ],
+        [
+          11,
+          7
+        ]
+      ],
+      "seed": null,
+      "winner": "Filus"
+    },
+    {
+      "players": [
+        "Cho",
+        "Devesh"
+      ],
+      "kind": "SIMULATED_LIGHT_PATCH",
+      "games_won": [
+        3,
+        0
+      ],
+      "games": [
+        {
+          "score": [
+            11,
+            0
+          ],
+          "winner": 0,
+          "points_count": 11
+        },
+        {
+          "score": [
+            11,
+            0
+          ],
+          "winner": 0,
+          "points_count": 11
+        },
+        {
+          "score": [
+            11,
+            1
+          ],
+          "winner": 0,
+          "points_count": 12
+        }
+      ],
+      "seed": 2004112905,
+      "winner": "Cho",
+      "match": {
+        "seed": 2004112905,
+        "engine": "V1.1.7-LIGHT-4-ANTI-SHUTOUT-EXPERIMENT",
+        "mode": "summary",
+        "narrative_scope": "AGGREGATE_ONLY",
+        "winner": 0,
+        "games_won": [
+          3,
+          0
+        ],
+        "games": [
+          {
+            "score": [
+              11,
+              0
+            ],
+            "winner": 0,
+            "points_count": 11
+          },
+          {
+            "score": [
+              11,
+              0
+            ],
+            "winner": 0,
+            "points_count": 11
+          },
+          {
+            "score": [
+              11,
+              1
+            ],
+            "winner": 0,
+            "points_count": 12
+          }
+        ],
+        "points": 34,
+        "total_strokes": 108,
+        "mean_strokes": 3.17647,
+        "rally_length_distribution": {
+          "1": 7,
+          "2": 10,
+          "3": 6,
+          "4": 4,
+          "5": 1,
+          "6": 1,
+          "7": 4,
+          "8": 1
+        },
+        "rally_method": "FINITE_ABSORBING_TERMINAL_CONTACT_SAMPLE_NOT_A_SHOT_TRACE",
+        "actions": {
+          "serve": 34,
+          "bh_counter_loop": 7,
+          "fh_counter_loop": 18,
+          "bh_press_block": 16,
+          "bh_fast_loop": 5,
+          "bh_lob_rescue": 6,
+          "fh_press_block": 12,
+          "fh_lob_rescue": 6,
+          "fh_fast_loop": 1,
+          "middle_jam_counter": 3
+        },
+        "action_family_distribution": {
+          "serve": 34,
+          "counter": 28,
+          "block": 28,
+          "attack": 6,
+          "lob": 12
+        },
+        "target_lane_usage": {
+          "crosscourt": 14,
+          "straight": 10,
+          "observed_weak_side": 10
+        },
+        "outcome_summary": {
+          "sampled_unreached_attempts": 25,
+          "attacker_point": 18,
+          "defender_point": 16,
+          "initiative_returned_by_passive_contact": 13
+        },
+        "per_player_actions": [
+          {
+            "serve": 17,
+            "bh_counter_loop": 5,
+            "fh_counter_loop": 15,
+            "bh_press_block": 6,
+            "bh_lob_rescue": 1,
+            "fh_press_block": 9,
+            "fh_lob_rescue": 2,
+            "bh_fast_loop": 1,
+            "middle_jam_counter": 2
+          },
+          {
+            "bh_press_block": 10,
+            "serve": 17,
+            "bh_fast_loop": 4,
+            "fh_counter_loop": 3,
+            "fh_lob_rescue": 4,
+            "fh_press_block": 3,
+            "bh_lob_rescue": 5,
+            "bh_counter_loop": 2,
+            "fh_fast_loop": 1,
+            "middle_jam_counter": 1
+          }
+        ],
+        "tactical_plan_usage": [
+          {
+            "wide_movement": 5,
+            "finish_weak_ball": 12,
+            "spin_pace_mix": 5,
+            "observed_weak_side": 6,
+            "patient_loop": 10,
+            "short_long": 3
+          },
+          {
+            "wide_movement": 4,
+            "patient_loop": 13,
+            "short_long": 5,
+            "observed_weak_side": 4,
+            "spin_pace_mix": 2,
+            "finish_weak_ball": 5
+          }
+        ],
+        "exposure_by_player": [
+          {
+            "usage": {
+              "serve.spin": 5,
+              "bh.continuity": 3,
+              "serve.placement": 7,
+              "fh.power": 8,
+              "fh.placement": 1,
+              "fh.continuity": 6,
+              "bh.defense": 5,
+              "bh.spin": 2,
+              "spirit.unorthodox_defense": 1,
+              "fh.spin": 4,
+              "serve.variation": 2,
+              "serve.third_link": 3,
+              "fh.defense": 5,
+              "spirit.lob_arcs": 1,
+              "feet.arrival": 1,
+              "bh.power": 4
+            },
+            "pressure": {
+              "serve.spin": 2,
+              "bh.continuity": 3,
+              "serve.placement": 4,
+              "fh.continuity": 2,
+              "fh.power": 2,
+              "bh.defense": 5,
+              "bh.spin": 2,
+              "spirit.unorthodox_defense": 1,
+              "fh.spin": 2,
+              "fh.defense": 3,
+              "spirit.lob_arcs": 1,
+              "feet.arrival": 1,
+              "bh.power": 4
+            }
+          },
+          {
+            "usage": {
+              "bh.defense": 8,
+              "bh.power": 3,
+              "serve.placement": 7,
+              "bh.continuity": 4,
+              "serve.third_link": 1,
+              "fh.power": 2,
+              "spirit.improvisation": 3,
+              "serve.disguise": 3,
+              "fh.continuity": 3,
+              "fh.defense": 2,
+              "bh.spin": 2,
+              "spirit.unorthodox_defense": 2,
+              "serve.variation": 3,
+              "feet.balance": 1,
+              "serve.spin": 3,
+              "spirit.spin_deception": 1,
+              "spirit.lob_arcs": 1,
+              "feet.recover": 1
+            },
+            "pressure": {
+              "bh.defense": 8,
+              "bh.power": 3,
+              "serve.placement": 7,
+              "bh.continuity": 4,
+              "serve.third_link": 1,
+              "fh.power": 2,
+              "spirit.improvisation": 3,
+              "serve.disguise": 3,
+              "fh.continuity": 3,
+              "fh.defense": 2,
+              "bh.spin": 2,
+              "spirit.unorthodox_defense": 2,
+              "serve.variation": 3,
+              "feet.balance": 1,
+              "serve.spin": 3,
+              "spirit.spin_deception": 1,
+              "spirit.lob_arcs": 1,
+              "feet.recover": 1
+            }
+          }
+        ],
+        "exposure_provenance": "AGGREGATE_CONTACT_SAMPLING",
+        "exposure_method": "SAMPLED_AGGREGATE_CONTACT_ALLOCATIONS_NOT_SHOT_LOG",
+        "exposure_scope": "ALL_SAMPLED_CONTACTS_INCLUDING_SERVE; one technical path allocation per contact",
+        "pressure_method": "MATCHUP_PRESSURE_PROXY_NOT_A_SPECIFIC_SHOT_ERROR",
+        "workload": {
+          "source": "POINT_AGGREGATE_APPROXIMATION",
+          "per_player": [
+            {
+              "contacts": 58,
+              "movement_m": 33.39752,
+              "active_attacks": 23,
+              "effort": 11.34155,
+              "estimated": true
+            },
+            {
+              "contacts": 50,
+              "movement_m": 38.35987,
+              "active_attacks": 11,
+              "effort": 11.23478,
+              "estimated": true
+            }
+          ]
+        },
+        "average_point_probability": [
+          0.950189,
+          0.049811
+        ],
+        "between_game_checks": [
+          {
+            "player": "kobe2004_cho_eonrae",
+            "after_game": 1,
+            "rolls": {
+              "self": 22,
+              "weak": 62,
+              "execute": 53
+            },
+            "thresholds": {
+              "self": 55,
+              "weak": 49,
+              "execute": 55
+            },
+            "successes": {
+              "self": true,
+              "weak": false,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 83,
+              "type": "collapse",
+              "stable_delta": -4,
+              "clutch_extra_delta": -4
+            },
+            "weakness": null,
+            "target_usable": false,
+            "form_repair": {
+              "G": "serve",
+              "delta": 4
+            },
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 6,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_devesh_karia",
+            "after_game": 1,
+            "rolls": {
+              "self": 37,
+              "weak": 26,
+              "execute": 15
+            },
+            "thresholds": {
+              "self": 48,
+              "weak": 42,
+              "execute": 45
+            },
+            "successes": {
+              "self": true,
+              "weak": true,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 10,
+              "type": "breakthrough",
+              "stable_delta": 4,
+              "clutch_extra_delta": 4
+            },
+            "weakness": "bh",
+            "target_usable": true,
+            "form_repair": {
+              "G": "bh",
+              "delta": 4
+            },
+            "read_delta": 8,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 7,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_cho_eonrae",
+            "after_game": 2,
+            "rolls": {
+              "self": 29,
+              "weak": 18,
+              "execute": 14
+            },
+            "thresholds": {
+              "self": 57,
+              "weak": 51,
+              "execute": 57
+            },
+            "successes": {
+              "self": true,
+              "weak": true,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 34,
+              "type": "normal",
+              "stable_delta": -2,
+              "clutch_extra_delta": -1
+            },
+            "weakness": "bh",
+            "target_usable": true,
+            "form_repair": {
+              "G": "receive",
+              "delta": 4
+            },
+            "read_delta": 8,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 13,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_devesh_karia",
+            "after_game": 2,
+            "rolls": {
+              "self": 57,
+              "weak": 2,
+              "execute": 48
+            },
+            "thresholds": {
+              "self": 51,
+              "weak": 45,
+              "execute": 49
+            },
+            "successes": {
+              "self": false,
+              "weak": true,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 37,
+              "type": "normal",
+              "stable_delta": -1,
+              "clutch_extra_delta": 0
+            },
+            "weakness": "bh",
+            "target_usable": true,
+            "form_repair": null,
+            "read_delta": 8,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 13,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          }
+        ],
+        "match_form": [
+          {
+            "form_initial": {
+              "serve": -7,
+              "receive": -4,
+              "fh": 1,
+              "bh": -3,
+              "feet": 2,
+              "read": 2,
+              "stable": 7,
+              "table": 5,
+              "spirit": 2
+            },
+            "p_roll": {
+              "speed": 2,
+              "burst": -3,
+              "strength": 0,
+              "stamina": -3,
+              "agility": -1,
+              "flexibility": 4
+            },
+            "psychological_state": "normal",
+            "initial_final_tactics": "wide_angles",
+            "counter_level": 1
+          },
+          {
+            "form_initial": {
+              "serve": 0,
+              "receive": 5,
+              "fh": 5,
+              "bh": -7,
+              "feet": -6,
+              "read": 5,
+              "stable": 5,
+              "table": 7,
+              "spirit": -4
+            },
+            "p_roll": {
+              "speed": -1,
+              "burst": 3,
+              "strength": 4,
+              "stamina": -3,
+              "agility": 4,
+              "flexibility": 0
+            },
+            "psychological_state": "normal",
+            "initial_final_tactics": "receive_initiative",
+            "counter_level": 1
+          }
+        ],
+        "status": "SIMULATED_NONHISTORICAL_APPROXIMATE_BACKGROUND_MATCH",
+        "calibration_status": "POINT_MODEL_CANDIDATE_NOT_EQUIVALENT_TO_DETAILED_ENGINE",
+        "aggregate_model": {
+          "probability": "FINITE_TWO_PHASE_ABSORPTION_41",
+          "action_menu": "SHARED_DETAILED_PURE_DISTRIBUTION; reached-grade representative sample",
+          "movement": "EXPECTED_UNIFORM_TARGET_GRID; first/steady arrival mixture",
+          "cross_wing": "ACTUAL_CHOSEN_WING_AND_MENU_FIT; no full post-reach cross-body grade penalty",
+          "point_length": "JOINT_TERMINAL_EVENT_SAMPLE; missed attempts grant no contact exposure",
+          "initial_service": "SERVE_RECEIVE_EDGE_PROXY; no explicit short/half-long service prefix",
+          "quality_feedback_iterations": 3,
+          "shot_chronology": false
+        },
+        "metadata_limits": {
+          "handedness": [
+            "right",
+            "right"
+          ],
+          "rubbers": [
+            {
+              "fh": "inverted",
+              "bh": "inverted"
+            },
+            {
+              "fh": "inverted",
+              "bh": "inverted"
+            }
+          ],
+          "no_shot_chronology": true,
+          "unknown_metadata_inferred": false
+        }
+      }
+    },
+    {
+      "players": [
+        "Cho",
+        "Niklas"
+      ],
+      "kind": "SIMULATED_LIGHT_PATCH",
+      "games_won": [
+        3,
+        0
+      ],
+      "games": [
+        {
+          "score": [
+            11,
+            1
+          ],
+          "winner": 0,
+          "points_count": 12
+        },
+        {
+          "score": [
+            11,
+            2
+          ],
+          "winner": 0,
+          "points_count": 13
+        },
+        {
+          "score": [
+            11,
+            4
+          ],
+          "winner": 0,
+          "points_count": 15
+        }
+      ],
+      "seed": 2004112906,
+      "winner": "Cho",
+      "match": {
+        "seed": 2004112906,
+        "engine": "V1.1.7-LIGHT-4-ANTI-SHUTOUT-EXPERIMENT",
+        "mode": "summary",
+        "narrative_scope": "AGGREGATE_ONLY",
+        "winner": 0,
+        "games_won": [
+          3,
+          0
+        ],
+        "games": [
+          {
+            "score": [
+              11,
+              1
+            ],
+            "winner": 0,
+            "points_count": 12
+          },
+          {
+            "score": [
+              11,
+              2
+            ],
+            "winner": 0,
+            "points_count": 13
+          },
+          {
+            "score": [
+              11,
+              4
+            ],
+            "winner": 0,
+            "points_count": 15
+          }
+        ],
+        "points": 40,
+        "total_strokes": 219,
+        "mean_strokes": 5.475,
+        "rally_length_distribution": {
+          "1": 4,
+          "2": 6,
+          "3": 8,
+          "4": 3,
+          "5": 4,
+          "6": 4,
+          "7": 5,
+          "8": 1,
+          "10": 1,
+          "15": 2,
+          "19": 1,
+          "21": 1
+        },
+        "rally_method": "FINITE_ABSORBING_TERMINAL_CONTACT_SAMPLE_NOT_A_SHOT_TRACE",
+        "actions": {
+          "serve": 40,
+          "fh_counter_loop": 6,
+          "fh_lob_rescue": 33,
+          "fh_press_block": 23,
+          "middle_jam_counter": 19,
+          "bh_fast_loop": 19,
+          "bh_counter_loop": 43,
+          "bh_lob_rescue": 23,
+          "bh_chop": 2,
+          "bh_press_block": 5,
+          "fh_fast_loop": 6
+        },
+        "action_family_distribution": {
+          "serve": 40,
+          "counter": 68,
+          "lob": 56,
+          "block": 28,
+          "attack": 25,
+          "chop": 2
+        },
+        "target_lane_usage": {
+          "crosscourt": 18,
+          "straight": 10,
+          "observed_weak_side": 12
+        },
+        "outcome_summary": {
+          "attacker_point": 23,
+          "initiative_returned_by_passive_contact": 12,
+          "sampled_unreached_attempts": 12,
+          "defender_point": 17
+        },
+        "per_player_actions": [
+          {
+            "serve": 20,
+            "fh_lob_rescue": 30,
+            "fh_press_block": 9,
+            "bh_fast_loop": 10,
+            "middle_jam_counter": 10,
+            "bh_counter_loop": 21,
+            "fh_counter_loop": 2,
+            "fh_fast_loop": 3,
+            "bh_lob_rescue": 6
+          },
+          {
+            "fh_counter_loop": 4,
+            "fh_press_block": 14,
+            "serve": 20,
+            "middle_jam_counter": 9,
+            "fh_lob_rescue": 3,
+            "bh_lob_rescue": 17,
+            "bh_fast_loop": 9,
+            "bh_counter_loop": 22,
+            "bh_chop": 2,
+            "bh_press_block": 5,
+            "fh_fast_loop": 3
+          }
+        ],
+        "tactical_plan_usage": [
+          {
+            "finish_weak_ball": 19,
+            "patient_loop": 30,
+            "short_long": 13,
+            "wide_movement": 16,
+            "spin_pace_mix": 8,
+            "observed_weak_side": 5
+          },
+          {
+            "wide_movement": 17,
+            "spin_pace_mix": 25,
+            "short_long": 5,
+            "patient_loop": 23,
+            "observed_weak_side": 16,
+            "finish_weak_ball": 2
+          }
+        ],
+        "exposure_by_player": [
+          {
+            "usage": {
+              "serve.variation": 7,
+              "spirit.lob_arcs": 3,
+              "spirit.improvisation": 3,
+              "feet.arrival": 3,
+              "feet.recover": 3,
+              "spirit.unorthodox_defense": 7,
+              "serve.placement": 5,
+              "spirit.spin_deception": 6,
+              "fh.defense": 8,
+              "fh.placement": 2,
+              "serve.third_link": 3,
+              "bh.power": 17,
+              "bh.continuity": 13,
+              "bh.spin": 5,
+              "bh.defense": 3,
+              "fh.continuity": 2,
+              "bh.placement": 3,
+              "serve.spin": 4,
+              "fh.power": 2,
+              "feet.start": 4,
+              "spirit.unexpected_transition": 6,
+              "feet.balance": 1,
+              "serve.disguise": 1
+            },
+            "pressure": {
+              "spirit.lob_arcs": 2,
+              "spirit.improvisation": 3,
+              "feet.arrival": 1,
+              "feet.recover": 1,
+              "spirit.unorthodox_defense": 6,
+              "fh.defense": 4,
+              "fh.placement": 2,
+              "bh.power": 17,
+              "bh.continuity": 13,
+              "bh.spin": 5,
+              "bh.defense": 3,
+              "bh.placement": 3,
+              "spirit.spin_deception": 2,
+              "spirit.unexpected_transition": 5,
+              "feet.start": 1,
+              "feet.balance": 1,
+              "fh.continuity": 1
+            }
+          },
+          {
+            "usage": {
+              "fh.continuity": 3,
+              "fh.power": 5,
+              "fh.defense": 10,
+              "serve.placement": 6,
+              "bh.power": 17,
+              "bh.continuity": 18,
+              "spirit.improvisation": 5,
+              "fh.placement": 2,
+              "serve.variation": 5,
+              "feet.start": 3,
+              "spirit.unorthodox_defense": 3,
+              "spirit.spin_deception": 2,
+              "feet.balance": 2,
+              "feet.arrival": 1,
+              "spirit.lob_arcs": 2,
+              "feet.recover": 2,
+              "serve.disguise": 2,
+              "serve.spin": 7,
+              "bh.defense": 5,
+              "bh.spin": 4,
+              "bh.placement": 3,
+              "fh.spin": 1
+            },
+            "pressure": {
+              "fh.continuity": 3,
+              "fh.power": 5,
+              "fh.defense": 10,
+              "serve.placement": 6,
+              "bh.power": 17,
+              "bh.continuity": 18,
+              "spirit.improvisation": 5,
+              "fh.placement": 2,
+              "serve.variation": 5,
+              "feet.start": 3,
+              "spirit.unorthodox_defense": 3,
+              "spirit.spin_deception": 2,
+              "feet.balance": 2,
+              "feet.arrival": 1,
+              "spirit.lob_arcs": 2,
+              "feet.recover": 2,
+              "serve.disguise": 2,
+              "serve.spin": 7,
+              "bh.defense": 5,
+              "bh.spin": 4,
+              "bh.placement": 3,
+              "fh.spin": 1
+            }
+          }
+        ],
+        "exposure_provenance": "AGGREGATE_CONTACT_SAMPLING",
+        "exposure_method": "SAMPLED_AGGREGATE_CONTACT_ALLOCATIONS_NOT_SHOT_LOG",
+        "exposure_scope": "ALL_SAMPLED_CONTACTS_INCLUDING_SERVE; one technical path allocation per contact",
+        "pressure_method": "MATCHUP_PRESSURE_PROXY_NOT_A_SPECIFIC_SHOT_ERROR",
+        "workload": {
+          "source": "POINT_AGGREGATE_APPROXIMATION",
+          "per_player": [
+            {
+              "contacts": 111,
+              "movement_m": 75.01537,
+              "active_attacks": 46,
+              "effort": 23.76277,
+              "estimated": true
+            },
+            {
+              "contacts": 108,
+              "movement_m": 74.52387,
+              "active_attacks": 47,
+              "effort": 23.4643,
+              "estimated": true
+            }
+          ]
+        },
+        "average_point_probability": [
+          0.817397,
+          0.182603
+        ],
+        "between_game_checks": [
+          {
+            "player": "kobe2004_cho_eonrae",
+            "after_game": 1,
+            "rolls": {
+              "self": 72,
+              "weak": 30,
+              "execute": 19
+            },
+            "thresholds": {
+              "self": 54,
+              "weak": 48,
+              "execute": 53
+            },
+            "successes": {
+              "self": false,
+              "weak": true,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 22,
+              "type": "normal",
+              "stable_delta": -1,
+              "clutch_extra_delta": -2
+            },
+            "weakness": "bh",
+            "target_usable": true,
+            "form_repair": null,
+            "read_delta": 8,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 8,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_niklas_ronningborn",
+            "after_game": 1,
+            "rolls": {
+              "self": 1,
+              "weak": 9,
+              "execute": 94
+            },
+            "thresholds": {
+              "self": 49,
+              "weak": 43,
+              "execute": 47
+            },
+            "successes": {
+              "self": true,
+              "weak": true,
+              "execute": false
+            },
+            "psychology": {
+              "roll": 11,
+              "type": "breakthrough",
+              "stable_delta": 4,
+              "clutch_extra_delta": 4
+            },
+            "weakness": "bh",
+            "target_usable": false,
+            "form_repair": {
+              "G": "table",
+              "delta": 4
+            },
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 9,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_cho_eonrae",
+            "after_game": 2,
+            "rolls": {
+              "self": 96,
+              "weak": 40,
+              "execute": 69
+            },
+            "thresholds": {
+              "self": 57,
+              "weak": 51,
+              "execute": 57
+            },
+            "successes": {
+              "self": false,
+              "weak": true,
+              "execute": false
+            },
+            "psychology": {
+              "roll": 82,
+              "type": "collapse",
+              "stable_delta": -4,
+              "clutch_extra_delta": -4
+            },
+            "weakness": "bh",
+            "target_usable": false,
+            "form_repair": null,
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 20,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_niklas_ronningborn",
+            "after_game": 2,
+            "rolls": {
+              "self": 100,
+              "weak": 23,
+              "execute": 36
+            },
+            "thresholds": {
+              "self": 51,
+              "weak": 44,
+              "execute": 49
+            },
+            "successes": {
+              "self": false,
+              "weak": true,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 58,
+              "type": "normal",
+              "stable_delta": 0,
+              "clutch_extra_delta": -1
+            },
+            "weakness": "bh",
+            "target_usable": true,
+            "form_repair": null,
+            "read_delta": 8,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 19,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          }
+        ],
+        "match_form": [
+          {
+            "form_initial": {
+              "serve": 6,
+              "receive": -7,
+              "fh": 4,
+              "bh": 5,
+              "feet": -7,
+              "read": -2,
+              "stable": 5,
+              "table": 3,
+              "spirit": -5
+            },
+            "p_roll": {
+              "speed": 3,
+              "burst": 3,
+              "strength": -2,
+              "stamina": -2,
+              "agility": 2,
+              "flexibility": 3
+            },
+            "psychological_state": "collapse",
+            "initial_final_tactics": "third_ball_fh",
+            "counter_level": 0
+          },
+          {
+            "form_initial": {
+              "serve": 7,
+              "receive": 5,
+              "fh": 0,
+              "bh": 3,
+              "feet": -1,
+              "read": -2,
+              "stable": 2,
+              "table": -5,
+              "spirit": -5
+            },
+            "p_roll": {
+              "speed": -4,
+              "burst": -1,
+              "strength": 1,
+              "stamina": 4,
+              "agility": 4,
+              "flexibility": 4
+            },
+            "psychological_state": "normal",
+            "initial_final_tactics": "wide_angles",
+            "counter_level": 1
+          }
+        ],
+        "status": "SIMULATED_NONHISTORICAL_APPROXIMATE_BACKGROUND_MATCH",
+        "calibration_status": "POINT_MODEL_CANDIDATE_NOT_EQUIVALENT_TO_DETAILED_ENGINE",
+        "aggregate_model": {
+          "probability": "FINITE_TWO_PHASE_ABSORPTION_41",
+          "action_menu": "SHARED_DETAILED_PURE_DISTRIBUTION; reached-grade representative sample",
+          "movement": "EXPECTED_UNIFORM_TARGET_GRID; first/steady arrival mixture",
+          "cross_wing": "ACTUAL_CHOSEN_WING_AND_MENU_FIT; no full post-reach cross-body grade penalty",
+          "point_length": "JOINT_TERMINAL_EVENT_SAMPLE; missed attempts grant no contact exposure",
+          "initial_service": "SERVE_RECEIVE_EDGE_PROXY; no explicit short/half-long service prefix",
+          "quality_feedback_iterations": 3,
+          "shot_chronology": false
+        },
+        "metadata_limits": {
+          "handedness": [
+            "right",
+            "right"
+          ],
+          "rubbers": [
+            {
+              "fh": "inverted",
+              "bh": "inverted"
+            },
+            {
+              "fh": "inverted",
+              "bh": "inverted"
+            }
+          ],
+          "no_shot_chronology": true,
+          "unknown_metadata_inferred": false
+        }
+      }
+    },
+    {
+      "players": [
+        "Devesh",
+        "Niklas"
+      ],
+      "kind": "SIMULATED_LIGHT_PATCH",
+      "games_won": [
+        0,
+        3
+      ],
+      "games": [
+        {
+          "score": [
+            4,
+            11
+          ],
+          "winner": 1,
+          "points_count": 15
+        },
+        {
+          "score": [
+            3,
+            11
+          ],
+          "winner": 1,
+          "points_count": 14
+        },
+        {
+          "score": [
+            3,
+            11
+          ],
+          "winner": 1,
+          "points_count": 14
+        }
+      ],
+      "seed": 2004112907,
+      "winner": "Niklas",
+      "match": {
+        "seed": 2004112907,
+        "engine": "V1.1.7-LIGHT-4-ANTI-SHUTOUT-EXPERIMENT",
+        "mode": "summary",
+        "narrative_scope": "AGGREGATE_ONLY",
+        "winner": 1,
+        "games_won": [
+          0,
+          3
+        ],
+        "games": [
+          {
+            "score": [
+              4,
+              11
+            ],
+            "winner": 1,
+            "points_count": 15
+          },
+          {
+            "score": [
+              3,
+              11
+            ],
+            "winner": 1,
+            "points_count": 14
+          },
+          {
+            "score": [
+              3,
+              11
+            ],
+            "winner": 1,
+            "points_count": 14
+          }
+        ],
+        "points": 43,
+        "total_strokes": 184,
+        "mean_strokes": 4.27907,
+        "rally_length_distribution": {
+          "1": 1,
+          "2": 13,
+          "3": 9,
+          "4": 5,
+          "5": 5,
+          "6": 2,
+          "7": 2,
+          "8": 1,
+          "9": 3,
+          "10": 1,
+          "14": 1
+        },
+        "rally_method": "FINITE_ABSORBING_TERMINAL_CONTACT_SAMPLE_NOT_A_SHOT_TRACE",
+        "actions": {
+          "serve": 43,
+          "fh_counter_loop": 13,
+          "bh_press_block": 26,
+          "fh_press_block": 25,
+          "bh_counter_loop": 27,
+          "fh_lob_rescue": 6,
+          "fh_fast_loop": 8,
+          "bh_lob_rescue": 19,
+          "fh_chop": 2,
+          "bh_fast_loop": 6,
+          "bh_side_open": 3,
+          "middle_jam_counter": 5,
+          "bh_chop": 1
+        },
+        "action_family_distribution": {
+          "serve": 43,
+          "counter": 45,
+          "block": 51,
+          "lob": 25,
+          "attack": 14,
+          "chop": 3,
+          "open": 3
+        },
+        "target_lane_usage": {
+          "straight": 12,
+          "crosscourt": 24,
+          "observed_weak_side": 7
+        },
+        "outcome_summary": {
+          "initiative_returned_by_passive_contact": 14,
+          "attacker_point": 23,
+          "sampled_unreached_attempts": 10,
+          "defender_point": 20
+        },
+        "per_player_actions": [
+          {
+            "serve": 22,
+            "bh_press_block": 12,
+            "bh_counter_loop": 20,
+            "fh_fast_loop": 4,
+            "bh_lob_rescue": 10,
+            "fh_press_block": 12,
+            "fh_chop": 2,
+            "bh_fast_loop": 3,
+            "middle_jam_counter": 3,
+            "fh_counter_loop": 2,
+            "bh_chop": 1
+          },
+          {
+            "fh_counter_loop": 11,
+            "bh_press_block": 14,
+            "serve": 21,
+            "fh_press_block": 13,
+            "fh_lob_rescue": 6,
+            "fh_fast_loop": 4,
+            "bh_lob_rescue": 9,
+            "bh_counter_loop": 7,
+            "bh_fast_loop": 3,
+            "bh_side_open": 3,
+            "middle_jam_counter": 2
+          }
+        ],
+        "tactical_plan_usage": [
+          {
+            "finish_weak_ball": 8,
+            "observed_weak_side": 14,
+            "patient_loop": 10,
+            "short_long": 6,
+            "spin_pace_mix": 16,
+            "wide_movement": 15
+          },
+          {
+            "spin_pace_mix": 15,
+            "patient_loop": 8,
+            "wide_movement": 21,
+            "finish_weak_ball": 17,
+            "observed_weak_side": 9,
+            "short_long": 2
+          }
+        ],
+        "exposure_by_player": [
+          {
+            "usage": {
+              "serve.third_link": 3,
+              "bh.continuity": 13,
+              "serve.spin": 10,
+              "serve.placement": 3,
+              "fh.continuity": 4,
+              "bh.spin": 3,
+              "feet.start": 2,
+              "spirit.improvisation": 2,
+              "feet.recover": 1,
+              "bh.power": 10,
+              "serve.disguise": 3,
+              "fh.defense": 13,
+              "bh.defense": 9,
+              "bh.placement": 4,
+              "fh.spin": 1,
+              "feet.balance": 1,
+              "serve.variation": 3,
+              "fh.placement": 2,
+              "spirit.unorthodox_defense": 1,
+              "feet.arrival": 1,
+              "feet.coordination": 1,
+              "spirit.lob_arcs": 1
+            },
+            "pressure": {
+              "serve.third_link": 3,
+              "bh.continuity": 13,
+              "serve.spin": 10,
+              "serve.placement": 3,
+              "fh.continuity": 4,
+              "bh.spin": 3,
+              "feet.start": 2,
+              "spirit.improvisation": 2,
+              "feet.recover": 1,
+              "bh.power": 10,
+              "serve.disguise": 3,
+              "fh.defense": 13,
+              "bh.defense": 9,
+              "bh.placement": 4,
+              "fh.spin": 1,
+              "feet.balance": 1,
+              "serve.variation": 3,
+              "fh.placement": 2,
+              "spirit.unorthodox_defense": 1,
+              "feet.arrival": 1,
+              "feet.coordination": 1,
+              "spirit.lob_arcs": 1
+            }
+          },
+          {
+            "usage": {
+              "fh.power": 7,
+              "bh.spin": 6,
+              "serve.spin": 6,
+              "fh.defense": 11,
+              "serve.placement": 6,
+              "feet.coordination": 2,
+              "spirit.unorthodox_defense": 2,
+              "spirit.improvisation": 3,
+              "feet.start": 1,
+              "fh.continuity": 6,
+              "fh.spin": 4,
+              "spirit.lob_arcs": 2,
+              "feet.recover": 1,
+              "bh.continuity": 8,
+              "bh.defense": 8,
+              "serve.variation": 3,
+              "serve.disguise": 3,
+              "bh.power": 7,
+              "spirit.spin_deception": 3,
+              "serve.third_link": 3,
+              "feet.arrival": 1
+            },
+            "pressure": {
+              "fh.power": 7,
+              "bh.spin": 6,
+              "serve.spin": 6,
+              "fh.defense": 11,
+              "serve.placement": 6,
+              "feet.coordination": 2,
+              "spirit.unorthodox_defense": 2,
+              "spirit.improvisation": 3,
+              "feet.start": 1,
+              "fh.continuity": 6,
+              "fh.spin": 4,
+              "spirit.lob_arcs": 2,
+              "feet.recover": 1,
+              "bh.continuity": 8,
+              "bh.defense": 8,
+              "serve.variation": 3,
+              "serve.disguise": 3,
+              "bh.power": 7,
+              "spirit.spin_deception": 3,
+              "serve.third_link": 3,
+              "feet.arrival": 1
+            }
+          }
+        ],
+        "exposure_provenance": "AGGREGATE_CONTACT_SAMPLING",
+        "exposure_method": "SAMPLED_AGGREGATE_CONTACT_ALLOCATIONS_NOT_SHOT_LOG",
+        "exposure_scope": "ALL_SAMPLED_CONTACTS_INCLUDING_SERVE; one technical path allocation per contact",
+        "pressure_method": "MATCHUP_PRESSURE_PROXY_NOT_A_SPECIFIC_SHOT_ERROR",
+        "workload": {
+          "source": "POINT_AGGREGATE_APPROXIMATION",
+          "per_player": [
+            {
+              "contacts": 91,
+              "movement_m": 55.48734,
+              "active_attacks": 32,
+              "effort": 18.22772,
+              "estimated": true
+            },
+            {
+              "contacts": 93,
+              "movement_m": 57.97726,
+              "active_attacks": 30,
+              "effort": 18.77591,
+              "estimated": true
+            }
+          ]
+        },
+        "average_point_probability": [
+          0.307986,
+          0.692014
+        ],
+        "between_game_checks": [
+          {
+            "player": "kobe2004_devesh_karia",
+            "after_game": 1,
+            "rolls": {
+              "self": 59,
+              "weak": 55,
+              "execute": 67
+            },
+            "thresholds": {
+              "self": 46,
+              "weak": 39,
+              "execute": 42
+            },
+            "successes": {
+              "self": false,
+              "weak": false,
+              "execute": false
+            },
+            "psychology": {
+              "roll": 15,
+              "type": "breakthrough",
+              "stable_delta": 4,
+              "clutch_extra_delta": 4
+            },
+            "weakness": null,
+            "target_usable": false,
+            "form_repair": null,
+            "read_delta": 0,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 15,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_niklas_ronningborn",
+            "after_game": 1,
+            "rolls": {
+              "self": 22,
+              "weak": 35,
+              "execute": 41
+            },
+            "thresholds": {
+              "self": 51,
+              "weak": 44,
+              "execute": 49
+            },
+            "successes": {
+              "self": true,
+              "weak": true,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 97,
+              "type": "collapse",
+              "stable_delta": -4,
+              "clutch_extra_delta": -4
+            },
+            "weakness": "bh",
+            "target_usable": true,
+            "form_repair": {
+              "G": "feet",
+              "delta": 4
+            },
+            "read_delta": 8,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 12,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_devesh_karia",
+            "after_game": 2,
+            "rolls": {
+              "self": 75,
+              "weak": 93,
+              "execute": 24
+            },
+            "thresholds": {
+              "self": 46,
+              "weak": 39,
+              "execute": 42
+            },
+            "successes": {
+              "self": false,
+              "weak": false,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 68,
+              "type": "normal",
+              "stable_delta": -2,
+              "clutch_extra_delta": 1
+            },
+            "weakness": null,
+            "target_usable": false,
+            "form_repair": null,
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 25,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          },
+          {
+            "player": "kobe2004_niklas_ronningborn",
+            "after_game": 2,
+            "rolls": {
+              "self": 39,
+              "weak": 92,
+              "execute": 27
+            },
+            "thresholds": {
+              "self": 54,
+              "weak": 47,
+              "execute": 52
+            },
+            "successes": {
+              "self": true,
+              "weak": false,
+              "execute": true
+            },
+            "psychology": {
+              "roll": 65,
+              "type": "normal",
+              "stable_delta": -1,
+              "clutch_extra_delta": -2
+            },
+            "weakness": null,
+            "target_usable": false,
+            "form_repair": {
+              "G": "receive",
+              "delta": 3
+            },
+            "read_delta": 4,
+            "knowledge_source": "OBSERVED_ONLY_V1",
+            "observed_samples": 21,
+            "evidence_sufficient": true,
+            "opponent_read_estimate": 120.0,
+            "opponent_read_estimate_source": "NEUTRAL_UNOBSERVED_NOT_REAL_DAILY_RATING"
+          }
+        ],
+        "match_form": [
+          {
+            "form_initial": {
+              "serve": 5,
+              "receive": 6,
+              "fh": 7,
+              "bh": 5,
+              "feet": 0,
+              "read": -2,
+              "stable": -2,
+              "table": 7,
+              "spirit": -4
+            },
+            "p_roll": {
+              "speed": 4,
+              "burst": -3,
+              "strength": 2,
+              "stamina": -4,
+              "agility": -2,
+              "flexibility": 0
+            },
+            "psychological_state": "normal",
+            "initial_final_tactics": "third_ball_fh",
+            "counter_level": 0
+          },
+          {
+            "form_initial": {
+              "serve": 4,
+              "receive": -3,
+              "fh": 6,
+              "bh": 0,
+              "feet": -6,
+              "read": 2,
+              "stable": 6,
+              "table": -1,
+              "spirit": -2
+            },
+            "p_roll": {
+              "speed": 0,
+              "burst": 1,
+              "strength": 2,
+              "stamina": -3,
+              "agility": 4,
+              "flexibility": 4
+            },
+            "psychological_state": "normal",
+            "initial_final_tactics": "wide_angles",
+            "counter_level": 1
+          }
+        ],
+        "status": "SIMULATED_NONHISTORICAL_APPROXIMATE_BACKGROUND_MATCH",
+        "calibration_status": "POINT_MODEL_CANDIDATE_NOT_EQUIVALENT_TO_DETAILED_ENGINE",
+        "aggregate_model": {
+          "probability": "FINITE_TWO_PHASE_ABSORPTION_41",
+          "action_menu": "SHARED_DETAILED_PURE_DISTRIBUTION; reached-grade representative sample",
+          "movement": "EXPECTED_UNIFORM_TARGET_GRID; first/steady arrival mixture",
+          "cross_wing": "ACTUAL_CHOSEN_WING_AND_MENU_FIT; no full post-reach cross-body grade penalty",
+          "point_length": "JOINT_TERMINAL_EVENT_SAMPLE; missed attempts grant no contact exposure",
+          "initial_service": "SERVE_RECEIVE_EDGE_PROXY; no explicit short/half-long service prefix",
+          "quality_feedback_iterations": 3,
+          "shot_chronology": false
+        },
+        "metadata_limits": {
+          "handedness": [
+            "right",
+            "right"
+          ],
+          "rubbers": [
+            {
+              "fh": "inverted",
+              "bh": "inverted"
+            },
+            {
+              "fh": "inverted",
+              "bh": "inverted"
+            }
+          ],
+          "no_shot_chronology": true,
+          "unknown_metadata_inferred": false
+        }
+      }
+    }
+  ],
+  "standings": [
+    {
+      "name": "Cho",
+      "wins": 4,
+      "losses": 0,
+      "games_for": 12,
+      "games_against": 1
+    },
+    {
+      "name": "Filus",
+      "wins": 3,
+      "losses": 1,
+      "games_for": 10,
+      "games_against": 6
+    },
+    {
+      "name": "Federer",
+      "wins": 2,
+      "losses": 2,
+      "games_for": 6,
+      "games_against": 8
+    },
+    {
+      "name": "Niklas",
+      "wins": 1,
+      "losses": 3,
+      "games_for": 7,
+      "games_against": 9
+    },
+    {
+      "name": "Devesh",
+      "wins": 0,
+      "losses": 4,
+      "games_for": 1,
+      "games_against": 12
+    }
+  ],
+  "experimental_rule": "top 2 provisional; qualification historical actual bracket not fully proven",
+  "engine": "V1.1.7 LIGHT-4 anti-shutout v0.1",
+  "status": "GROUP_SIMULATED_RESULT_LOCKED"
+}

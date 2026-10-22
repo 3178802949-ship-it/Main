@@ -1,0 +1,22 @@
+{
+  "kind": "Kobe World Juniors 2004 preparatory archive",
+  "date_engine": "2004-12-01",
+  "historical_dates": "2004-11-28/2004-12-05",
+  "federer_single": "PROVISIONAL_FICTIONAL_ENTRY_NOT_OFFICIAL",
+  "swiss_team": "APPLICATION_ONLY_NOT_IN_VERIFIED_16_TEAMS",
+  "match_results_added": false,
+  "world_engine": "V1.1.7-COMPREHENSIVE-1",
+  "patch": "experimental opt-in light-4 anti-shutout, does not modify original engine",
+  "patch_comparison": {
+    "sample_matches_each": 40,
+    "original": {
+      "zero_score_games": 18,
+      "total_games": 120
+    },
+    "patched": {
+      "zero_score_games": 11,
+      "total_games": 122
+    }
+  },
+  "qualification": "Original 2004 Kobe Swiss mens youth team entry not confirmed; historical team 16 bracket excludes Switzerland; no automatic team access."
+}

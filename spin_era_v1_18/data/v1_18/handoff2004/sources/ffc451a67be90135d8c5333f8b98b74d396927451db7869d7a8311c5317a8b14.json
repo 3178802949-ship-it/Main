@@ -1,0 +1,119 @@
+{
+  "start_date": "2004-04-01",
+  "end_date": "2004-06-01",
+  "start_CA": 145,
+  "end_CA": 146,
+  "start_G9": {
+    "serve": 110,
+    "receive": 104,
+    "fh": 111,
+    "bh": 97,
+    "feet": 114,
+    "read": 104,
+    "stable": 114,
+    "table": 105,
+    "spirit": 108
+  },
+  "end_G9": {
+    "serve": 111,
+    "receive": 105,
+    "fh": 112,
+    "bh": 98,
+    "feet": 115,
+    "read": 106,
+    "stable": 116,
+    "table": 105,
+    "spirit": 109
+  },
+  "start_P6": {
+    "speed": 121.0717,
+    "burst": 102.08,
+    "strength": 101.08,
+    "stamina": 110.08,
+    "agility": 119.08,
+    "flexibility": 121.08
+  },
+  "end_P6": {
+    "speed": 121.7324,
+    "burst": 102.8,
+    "strength": 102.8,
+    "stamina": 111.8,
+    "agility": 119.8,
+    "flexibility": 121.7883
+  },
+  "fatigue_start": 1.6900000000000048,
+  "fatigue_end": 8.090000000000003,
+  "cycles": [
+    {
+      "id": "FED-2004-TRAIN-07",
+      "changes": {
+        "bh.placement": 1,
+        "read.self_read": 2,
+        "read.opponent_read": 2,
+        "stable.variance": 1,
+        "stable.pressure": 1
+      },
+      "health": {
+        "probability": 0.001,
+        "draw": 0.31742292566844377,
+        "occurred": false
+      },
+      "fatigue_after": 2.0900000000000034
+    },
+    {
+      "id": "FED-2004-TRAIN-08",
+      "changes": {
+        "receive.spin_read": 1,
+        "fh.spin": 3,
+        "fh.continuity": 1,
+        "bh.spin": 2,
+        "feet.arrival": 2,
+        "feet.balance": 2,
+        "stable.variance": 1,
+        "table.push": 1
+      },
+      "health": {
+        "probability": 0.001,
+        "draw": 0.7538124088138017,
+        "occurred": false
+      },
+      "fatigue_after": 4.090000000000003
+    },
+    {
+      "id": "FED-2004-TRAIN-09",
+      "changes": {
+        "fh.continuity": 1,
+        "bh.continuity": 2,
+        "bh.placement": 2,
+        "read.counter": 1,
+        "stable.sustain": 2,
+        "stable.recovery": 1,
+        "spirit.unorthodox_defense": 1
+      },
+      "health": {
+        "probability": 0.001,
+        "draw": 0.5527995315928047,
+        "occurred": false
+      },
+      "fatigue_after": 6.090000000000003
+    },
+    {
+      "id": "FED-2004-TRAIN-10",
+      "changes": {
+        "serve.spin": 2,
+        "serve.placement": 1,
+        "receive.spin_read": 1,
+        "bh.spin": 1,
+        "feet.arrival": 1,
+        "read.self_read": 4,
+        "read.choice": 1
+      },
+      "health": {
+        "probability": 0.001,
+        "draw": 0.010391547484650654,
+        "occurred": false
+      },
+      "fatigue_after": 8.090000000000003
+    }
+  ]
+}
