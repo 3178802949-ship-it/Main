@@ -1,0 +1,26 @@
+--- a/world_extensions_v1_18.py
++++ b/world_extensions_v1_18.py
+@@ -193,6 +193,9 @@
+ 
+     def settle_match(self,log,*,date,kind='practice',event_id=None,fail_after=None,allow_experimental_specialist_summary=False):
+         self._writable()
++        # Event privileges belong to the internal tournament/group transaction.
++        # External receipts cannot name an event to bypass entry fatigue or defer health.
++        if event_id is not None:raise ValueError('EXTERNAL_EVENT_CONTEXT_FORBIDDEN')
+         if kind not in ('practice','youth_singles','adult_singles'):raise ValueError('explicit match category required')
+         prior=self.data['v1_18']['settlements'].get(log.get('match_id'))
+         if prior:
+@@ -315,8 +318,12 @@
+                     kind=kind,event_id=event_id,when=day,anti_shutout=False if detail_level=='full' else None,allow_experimental_specialist_summary=allow_experimental_specialist_summary))
+             rotation=[rotation[0],rotation[-1],*rotation[1:-1]]
+         table=group_table(participant_ids,logs,best_of=best_of,tiebreaks=tiebreaks or DEFAULT_TIEBREAKS)
++        # Individual matches defer health to this group transaction; resolve once
++        # per participant before commit, using only this group's accumulated effort.
++        health={pid:p._injury_chance(pid,event_id,sum(p._effort(log,log['participant_ids'].index(pid))[0]
++            for log in logs if pid in log['participant_ids'])) for pid in participant_ids}
+         e=dict(type='completed_group',event_id=event_id,date=p.data['current_date'],classification='SIMULATED',
+-            best_of=best_of,kind=kind,table=table,matches=[l['match_id'] for l in logs],
++            best_of=best_of,kind=kind,table=table,matches=[l['match_id'] for l in logs],post_event_health=health,
+             historical_status='HYPOTHETICAL_UNLESS_CALLER_PROVIDES_VERIFIED_ENTRY_EVIDENCE')
+         if allow_experimental_specialist_summary and detail_level=='summary':e.update(calibration_status='UNCALIBRATED',experimental_scope='SPECIALIST_SUMMARY')
+         p.data['events'][event_id]=e;p._record('event',event_id,e);self._commit(p);return copy.deepcopy(e)

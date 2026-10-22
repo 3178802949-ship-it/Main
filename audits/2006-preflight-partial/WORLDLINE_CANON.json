@@ -1,0 +1,126 @@
+{
+  "format": "AUDIT_PARTIAL_RECONSTRUCTION_NOT_WORLDSESSION",
+  "status": "PARTIAL_RECONSTRUCTION",
+  "restorable": false,
+  "as_of": "2006-12-31",
+  "official_events_2007_allowed": false,
+  "reason": "New complete-history archive exceeds transfer limit; root master prompt, source manifest and 2005–2006 source receipts not yet read.",
+  "user_locked_canon": {
+    "event": "2006_CAIRO_JUNIOR_FINAL",
+    "participants": [
+      "罗杰·费德勒",
+      "松平健太"
+    ],
+    "games_won": [
+      3,
+      4
+    ],
+    "game_scores": [
+      [
+        11,
+        7
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        11,
+        5
+      ],
+      [
+        11,
+        7
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        8,
+        11
+      ],
+      [
+        8,
+        11
+      ]
+    ],
+    "seed": 200612170717,
+    "source_status": "USER_DECLARED_LOCK_ORIGINAL_LOG_UNREAD",
+    "source_log_sha256": null,
+    "superseded_branches": [
+      "FINAL_REVISED",
+      "FINAL3",
+      "FINAL4"
+    ],
+    "historical_replay_performed": false
+  },
+  "user_declared_year_end": {
+    "CA": 157,
+    "PA": 191,
+    "G9": {
+      "serve": 117,
+      "receive": 114,
+      "fh": 119,
+      "bh": 108,
+      "feet": 117,
+      "read": 113,
+      "stable": 123,
+      "table": 109,
+      "spirit": 111
+    },
+    "verification": "USER_TASK_ONLY_NOT_A_RECONSTRUCTED_CARD"
+  },
+  "missing_required_state": [
+    "original Cairo first-final complete log and input snapshots",
+    "source-level canonical branch and reversal receipts",
+    "2005–2006 match ledger identifiers, dates and provenance",
+    "year-end complete43 children and P6",
+    "43 XP bank balances, spent XP, permits and outstanding sources",
+    "dated injuries, body loads, fatigue and rehabilitation state",
+    "full ranking point ledgers, nominations and draw sources",
+    "same-period NPC versions and clocks"
+  ],
+  "arithmetic_conflict": {
+    "annual_declared": [
+      [
+        2004,
+        14,
+        9
+      ],
+      [
+        2005,
+        15,
+        8
+      ],
+      [
+        2006,
+        54,
+        14
+      ]
+    ],
+    "sum_declared_2004_2005": [
+      29,
+      17
+    ],
+    "claimed_2005_career": [
+      29,
+      18
+    ],
+    "sum_declared_all_years": [
+      83,
+      31
+    ],
+    "claimed_2006_career": [
+      83,
+      32
+    ],
+    "resolution": "UNRESOLVED_DO_NOT_INVENT_ONE_LOSS"
+  },
+  "prohibited_actions": [
+    "Do not load this envelope as a complete game checkpoint",
+    "Do not infer43 skills or XP balances fromG9 orCA",
+    "Do not rerun locked historical matches to fill source gaps",
+    "Do not simulate formal2007 events"
+  ]
+}

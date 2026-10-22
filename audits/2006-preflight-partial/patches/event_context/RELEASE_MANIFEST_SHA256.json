@@ -1,0 +1,25 @@
+{
+  "status": "TESTED_BASELINE_PATCH_NOT_APPLIED_TO_UNREAD_HANDOFF",
+  "files": {
+    "PATCH_DIFF.md": "1f41df810eac5b44db60724a538ae134eb61f09fa9eb16e719d80fa270215677",
+    "TEST_REPORT.json": "23cdae41169bed0df8f303c4871da7d859998b269624159a3670fbb6cc15e47c",
+    "COMBINED_CHANGE_INDEX.json": "a6610baa45fdcfac31a7bae4d80993a7f94978ab7deac39c9910fccf2aa0dc97",
+    "apply_patch.py": "caa2d91fea1a87d60144c04f6eab9b16002a64f9128f9111609879ca309ee313",
+    "test_event_context.py": "4a5f8866737fbddabd9af93da1e86925c5bfed3d3a683ae25a83ba86d3efb972",
+    "run_validation.py": "7d3144caa2c942095ed1853307a2630c9db01f9e65c7aad113cb9dfdbe38aab4",
+    "ORIGINAL_world_extensions_v1_18.py": "934d29208d67aeb6eeb9004d7f71c796d556c5adaedada7bfe82c7acc0af2ca9",
+    "PATCH_MANIFEST.json": "227fc7c275f128e53152ffa4d5b9203fc4e0c26c8bf90ff4fc38421782174e81",
+    "test_apply_helper.py": "f5662ef44f03c56845649efd8ee011b170f25916f3bb826bc05bd960bf147487",
+    "PATCH.diff": "05f642be685c36fb65c6740b6318dfa566f6c305cd4116f1cd523dc591e7c121",
+    "COMBINED_FINGERPRINT_CHECK.json": "d8c0fe43a4a035cb7ec9df659d3cf9cbbcf87b183b145a5d33ce20bf13929cf2",
+    "BEFORE_PHANTOM_EVENT_PROBE.json": "dca9dbeeb63fb7e71ae1e55576534cb15c0c45de616acf0474686325f27e44ed",
+    "world_extensions_v1_18.py": "d247a0cbde9eb7f646bca25db8bf88daef30a8fac06914ba773b7429ae257ca4",
+    "APPLY_HELPER_TESTS.txt": "53720dd5c004558b769bb1b5dfde4e58c670154721cfda07b83985808f909bc4",
+    "COMBINED_BASELINE_REGRESSION.txt": "b0b0497560e8f6286f1d53fc29a40cb0445139a9f38926e5f22bcb89fec50aa4",
+    "RUNNER_SMOKE.txt": "1ff3151a950877d5033819f50eb44758dcebe9945ed7c3b1a4fdd30e0743690e",
+    "TEST_RESULTS.txt": "71b79e9ffd61a6375b721bad7e81ce2bbf9b6f3568a538220c2cb8e0ffa1ca3f",
+    "runner_smoke/APPLY_HELPER_TESTS.txt": "53720dd5c004558b769bb1b5dfde4e58c670154721cfda07b83985808f909bc4",
+    "runner_smoke/APPLY.txt": "3102c4a29f4ec962285e28fd7a48fc7b7b5eb2c5516d758b6df28b03465ed64c",
+    "runner_smoke/EVENT_CONTEXT_TESTS.txt": "a3430474b6259600df476708fc64041dd991b593a2fee24997e7157e2b4c6306"
+  }
+}

@@ -1,0 +1,13 @@
+test_dry_run_apply_and_idempotence (__main__.DrawIdentityTests.test_dry_run_apply_and_idempotence) ... ok
+test_immutable_baseline_refused (__main__.DrawIdentityTests.test_immutable_baseline_refused) ... ok
+test_malformed_entry_identity_rejected (__main__.DrawIdentityTests.test_malformed_entry_identity_rejected) ... ok
+test_malformed_incoming_identity_rejected (__main__.DrawIdentityTests.test_malformed_incoming_identity_rejected) ... ok
+test_original_duplicate_is_reproduced (__main__.DrawIdentityTests.test_original_duplicate_is_reproduced) ... ok
+test_patch_rejects_existing_player_without_input_mutation (__main__.DrawIdentityTests.test_patch_rejects_existing_player_without_input_mutation) ... ok
+test_valid_replacements_match_original_for_50_seeds (__main__.DrawIdentityTests.test_valid_replacements_match_original_for_50_seeds) ... ok
+test_wrong_base_rejected_unchanged (__main__.DrawIdentityTests.test_wrong_base_rejected_unchanged) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.005s
+
+OK

@@ -1,0 +1,6 @@
+{
+  "status": "applied_to_candidate",
+  "path": "/tmp/spin-era-event-patch-1snqg7mh/engine/world_extensions_v1_18.py",
+  "checkpoint_migration_required": true,
+  "release_manifest_rebuild_required": true
+}

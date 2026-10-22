@@ -1,28 +1,20 @@
-# 《旋球年代》V1.18
+# 2004—2006历史交接｜源码预审与独立补丁（PARTIAL）
 
-本版将球员时钟、比赛入账与奖励兑换接入统一生涯事务，补齐BO3/BO5/BO7、日程约束、身体疲劳输出、观赛与赛事奖励、原子保存和可审计补丁。保留2004原档，提供2005继承起点。
+新上传完整历史ZIP超过当前工具32MiB传输上限，尚未读取其根任务书、SOURCE_MANIFEST及新2005—2006原件。本分支不是已恢复2006年末的新版游戏，也没有推进2007正式赛事。
 
-- [下载总包、四个分包与交接文档](downloads/v1.18/README_DOWNLOAD_ZH.md)
-- [完整总包ZIP](downloads/v1.18/Spin_Era_V1_18_Integrated.zip)
-- [新聊天开幕文档](downloads/v1.18/OPENING_V1_18_ZH.md)
-- [设计评价、奖励范围和保留问题](downloads/v1.18/DESIGN_AND_QA_ZH.md)
-- [功能QA](downloads/v1.18/V1_18_QA.json) · [分发件解包验收](downloads/v1.18/V1_18_PACKAGING_VERIFICATION.json)
+- [下一批材料如何上传](audits/2006-preflight-partial/INPUT_UPLOAD_GUIDE_ZH.md)
+- [阶段审计、补丁与实验总包（约1.74MB）](downloads/2006-preflight-partial/Spin_Era_2006_Preflight_Audit_PATCHES_PARTIAL.zip)
+- [已完成与未完成](audits/2006-preflight-partial/WHAT_IS_DONE.md)
+- [测试报告](audits/2006-preflight-partial/TEST_REPORT.md)
+- [源码与账本冲突](audits/2006-preflight-partial/AUDIT_SOURCE_AND_CONFLICTS.md)
+- [补丁差异](audits/2006-preflight-partial/PATCH_DIFF.md)
+- [1000条合成训练路径的实际结果](audits/2006-preflight-partial/BASELINE_GROWTH_AUDIT.md)
+- [轻量化实验](audits/2006-preflight-partial/lightweight/LIGHTWEIGHT_PROBE.md)
 
-GitHub网页版打开ZIP后，点右上角 **Download raw file** 下载箭头。通常只需总包和开幕文档，一起上传新聊天。
+已验证此前V1.18的549文件SHA，377项原测试通过。签位身份与赛事上下文/组末伤病候选补丁在独立副本合并后377项回归再次通过，另16项补丁测试通过。原源码未改。
 
-377项功能测试全部通过，44,000场实际比赛压力测试完成。另有长期推进至2028年的World续接测试。2005开局仍是CA150、PA191、疲劳0、2004年14胜9负；23场旧赛果没有重赛，26.34XP进入银行，两张观赛凭证待兑换。
+1000条合成训练核心路径完成，但不包含实际2006主角卡或World伤病/退出。轻量运行实验从27.6MB降至1.32MB，规则与同种子结果保持一致；该EXPERIMENTAL旧基线包仍为2005起点，不能代替当前年末存档。
 
-反扑实验默认关闭；身体疲劳修复默认开启。极端能力差距、专业打法轻量校准及高潜力兑现仍有报告中列明的限制，不作为现实概率认证。
+开罗首版3:4负松平健太为用户锁定结果；未用重赛验证。2005/2006负场差一、完整43/P6/XP与伤病状态仍待原件。两个年末/开局JSON只是restorable=false缺口诊断。
 
-Python3.11+，仅标准库：
-
-```bash
-cd spin_era_v1_18
-python verify_package.py
-python self_test.py
-python examples/start_v1_18.py --from-2004 --output saves/new
-```
-
-公开入口：`from simulator import WorldSession, Card, Game, Training, Area, Narrative`。存档绑定规则和来源指纹；源代码升级使用迁移适配器，不手改指纹。
-
-此前[V1.1.7综合版](downloads/v1.1.7-comprehensive/README_DOWNLOAD_ZH.md)及其源码保持可用，回滚遵循[说明](downloads/v1.18/ROLLBACK.md)。
+此前[V1.18完整发布](downloads/v1.18/README_DOWNLOAD_ZH.md)保留；此分支仅保存预审材料，不冒充已完成的新历史整合版。

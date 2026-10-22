@@ -1,0 +1,20 @@
+{
+  "format": "AUDIT_PARTIAL_RECONSTRUCTION_NOT_WORLDSESSION",
+  "status": "PARTIAL_RECONSTRUCTION",
+  "restorable": false,
+  "source_as_of": "2006-12-31",
+  "intended_start": "2007-01-01",
+  "simulation_started": false,
+  "official_events_authorized": false,
+  "missing_required_state": [
+    "original Cairo first-final complete log and input snapshots",
+    "source-level canonical branch and reversal receipts",
+    "2005–2006 match ledger identifiers, dates and provenance",
+    "year-end complete43 children and P6",
+    "43 XP bank balances, spent XP, permits and outstanding sources",
+    "dated injuries, body loads, fatigue and rehabilitation state",
+    "full ranking point ledgers, nominations and draw sources",
+    "same-period NPC versions and clocks"
+  ],
+  "note": "Diagnostic placeholder only. No2007 training or match was settled; rebuild from verified2006 sources before creating actual preseason save."
+}

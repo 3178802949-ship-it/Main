@@ -1,0 +1,10 @@
+test_external_event_context_forbidden_even_if_event_exists (__main__.EventContextPatchTests.test_external_event_context_forbidden_even_if_event_exists) ... ok
+test_fake_event_rejected_without_any_mutation (__main__.EventContextPatchTests.test_fake_event_rejected_without_any_mutation) ... ok
+test_group_health_failure_rolls_back_full_transaction (__main__.EventContextPatchTests.test_group_health_failure_rolls_back_full_transaction) ... ok
+test_group_resolves_all_deferred_health_once_with_group_effort (__main__.EventContextPatchTests.test_group_resolves_all_deferred_health_once_with_group_effort) ... ok
+test_normal_external_settlement_and_duplicate_still_work (__main__.EventContextPatchTests.test_normal_external_settlement_and_duplicate_still_work) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.812s
+
+OK

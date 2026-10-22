@@ -1,0 +1,17 @@
+{
+  "status": "TESTED_BASELINE_PATCH_NOT_APPLIED_TO_UNREAD_HANDOFF",
+  "unit_tests": 8,
+  "passed": 8,
+  "valid_input_fixed_seed_comparisons": 50,
+  "historical_matches_replayed": 0,
+  "official_2007_matches": 0,
+  "original_engine_unchanged": true,
+  "commands": [
+    "python test_draw_identity_patch.py"
+  ],
+  "limitations": [
+    "Not applied to unread full historical handoff",
+    "Not a checkpoint migration adapter",
+    "Only identity collision guard, not a complete historical draw engine"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "status": "NEW_UPLOAD_NOT_READ",
+  "authoritative_date": "2006-12-31",
+  "official_2007_simulation_allowed": false,
+  "missing": [
+    {"item": "CODEX_MASTER_PROMPT.md", "reason": "archive exceeds transfer cap"},
+    {"item": "SOURCE_MANIFEST.json and original payload bytes", "reason": "archive exceeds transfer cap"},
+    {"item": "2005 per-match canonical ledger and branch identities", "reason": "needed to resolve one-loss discrepancy without invention"},
+    {"item": "2006 first Cairo final raw log and abandoned final receipts", "reason": "seed, 650 strokes, side effects and exact rollback proof"},
+    {"item": "2006 Cairo men's age cutoff, association quota/nomination, entry lists, seeds, actual draw and tie-break regulations", "reason": "cannot authenticate real qualification or seed positions from simulation table"},
+    {"item": "all NPC event outcomes and internal youth scoring authority", "reason": "cannot infer exact end-year youth ranking by adding only main-player silver points"},
+    {"item": "July 2006 complete 43/P6/XP settlement and subsequent training receipts", "reason": "March compatibility card is not full permanent balance reconstruction"}
+  ]
+}

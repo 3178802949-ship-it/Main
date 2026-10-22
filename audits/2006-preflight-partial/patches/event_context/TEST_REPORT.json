@@ -1,0 +1,22 @@
+{
+  "status": "TESTED_BASELINE_PATCH_NOT_APPLIED_TO_UNREAD_HANDOFF",
+  "scope": "SYNTHETIC_NON_HISTORICAL_BASELINE_PATCH",
+  "patch_id": "BASELINE_V118_EVENT_CONTEXT_AND_GROUP_HEALTH_GUARD_1",
+  "event_api_tests": 5,
+  "safe_apply_tests": 3,
+  "event_api_status": "PASSED",
+  "safe_apply_status": "PASSED",
+  "combined_original_regression": {
+    "tests": 377,
+    "seconds": 68.371,
+    "status": "PASSED",
+    "draw_patch_applied": true,
+    "event_patch_applied": true
+  },
+  "historical_matches_replayed": 0,
+  "official_2007_events_simulated": 0,
+  "original_source_unchanged": true,
+  "old_checkpoints_not_rewritten": true,
+  "new_handoff_read": false,
+  "stale_checkpoint_policy": "REJECTED_REQUIRES_EXPLICIT_VERSIONED_MIGRATION"
+}

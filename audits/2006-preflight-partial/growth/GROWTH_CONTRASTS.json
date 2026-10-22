@@ -1,0 +1,41 @@
+{
+  "status": "COMPLETED",
+  "source_report_sha256": "3376981aced31f5ae9eb6a5a07e895a4d8ca68cd394a357527df12bfaed5579f",
+  "analysis_script_sha256": "6c6668b9cb921c173d674d97cac1b7754dc0dbb1b6777fdf63c5ecf9a5945ded",
+  "bootstrap_seed": 2006000701,
+  "conditional_CA30_contrasts": [
+    {
+      "arm_a": "PA191_NATIONAL_USER",
+      "arm_b": "PA191_CLUB_USER",
+      "age": 30,
+      "mean_difference": 3.8959999999999866,
+      "bootstrap_percentile95": [
+        3.7680000000000007,
+        4.027999999999992
+      ],
+      "resamples": 2000
+    },
+    {
+      "arm_a": "PA191_NATIONAL_USER",
+      "arm_b": "PA191_NATIONAL_NPC",
+      "age": 30,
+      "mean_difference": 0.17599999999998772,
+      "bootstrap_percentile95": [
+        0.02400000000000091,
+        0.32399999999998386
+      ],
+      "resamples": 2000
+    },
+    {
+      "arm_a": "PA191_NATIONAL_NPC",
+      "arm_b": "PA175_NATIONAL_NPC",
+      "age": 30,
+      "mean_difference": 15.916000000000025,
+      "bootstrap_percentile95": [
+        15.75200000000001,
+        16.075999999999993
+      ],
+      "resamples": 2000
+    }
+  ]
+}

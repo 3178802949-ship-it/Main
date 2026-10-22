@@ -1,0 +1,74 @@
+{
+  "classification": "SYNTHETIC_NON_HISTORICAL_PROBE",
+  "historical_matches_replayed": 0,
+  "official_2007_events": 0,
+  "replacement_can_duplicate_player": {
+    "requested_player": "a",
+    "input_ids": [
+      "a",
+      "b"
+    ],
+    "output_ids": [
+      "a",
+      "a"
+    ],
+    "removed_player_id": "b",
+    "status": "HYPOTHETICAL"
+  },
+  "youth_query_is_missing": {
+    "youth_points": [
+      {
+        "event_id": "synthetic-2006",
+        "date": "2006-02-01",
+        "level": "pro_tour_open",
+        "finish": "champion",
+        "points": 400.0,
+        "kind": "youth_singles",
+        "qualifier_wins": 0
+      }
+    ],
+    "public_world_ranking": {
+      "asof": "2006-02-01",
+      "scope": "SAMPLE_ONLY",
+      "complete_pool": false,
+      "roster_size": 2,
+      "standings": [
+        {
+          "player_id": "adult-peer",
+          "S_PTS": 0,
+          "elo": 1500.0,
+          "sample_rank": 1
+        },
+        {
+          "player_id": "youth-champion",
+          "S_PTS": 0,
+          "elo": 1500.0,
+          "sample_rank": 2
+        }
+      ],
+      "points_system": "INTERNAL_S_PTS_NOT_OFFICIAL_HISTORICAL_ITTF"
+    }
+  },
+  "adult_can_play_youth_group": {
+    "ages": [
+      30.0,
+      30.0
+    ],
+    "type": "completed_group",
+    "kind": "youth_singles",
+    "matches": 1,
+    "youth_rating_match_records": 1,
+    "consistency": true
+  },
+  "source_sha256": {
+    "Game/competition_v1_18.py": "6213091de96da1fd442093bd4b64a246fb9b9128a3085c243f1189dd96a49238",
+    "world_v1_18.py": "3905fd44f30889b17d8c081958124d27ce0cf553abbd86017d32cfc0b80cf81a",
+    "world_extensions_v1_18.py": "934d29208d67aeb6eeb9004d7f71c796d556c5adaedada7bfe82c7acc0af2ca9",
+    "Card/__init__.py": "de0614af0039a6b0c4ad4559e90305ea8f0bc8f06e52f7f407d5175d39ee9b6c",
+    "runtime/ranking_v112.py": "71e2c2ca62a1bb8fce526b45ef8c1c28b507d5c04149008ab2eea7c8d0cf25be",
+    "Area/__init__.py": "1d1379834f6cb9579e983c614b0e9546e720b18ec41249270a47a46466aee18b",
+    "Area/v117.py": "205c06d343a04e396457665f1b0b7dbf65e574c313bf7e9b8372b6313852dd5c",
+    "Area/v118.py": "dcf6bb799fe30faa29ef3297862eafac931af825e7f28f8b09089dccfc269fe6",
+    "Area/v1_18.py": "92d9081f30399644fcb7147ece92295088684f0cdaa99917c730a2ab70c89ae5"
+  }
+}

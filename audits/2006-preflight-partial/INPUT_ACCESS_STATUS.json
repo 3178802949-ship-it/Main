@@ -1,0 +1,30 @@
+{
+  "uploaded_archive": {
+    "file_id": "file_00000000752482468387d0298cdaa679",
+    "filename": "Spin_Era_Codex_FULL_SYSTEM_AND_HISTORY.zip",
+    "status": "NOT_READ",
+    "reason": "download_file rejected: exceeds 32 MiB transfer limit",
+    "master_prompt_read": false,
+    "source_manifest_read": false
+  },
+  "pasted_request": {
+    "file_id": "file_00000000d888824694335a7906078b02",
+    "bytes": 20187,
+    "sha256": "826e3406e333304e861c2aa55174bae386e7ad3e7a010df94edb6c1661fe38dc",
+    "status": "READ"
+  },
+  "available_baseline": {
+    "directory": "/workspace/spin-era-v1_18-github/spin_era_v1_18",
+    "commit": "5efc9c6449617a415668896abecf37a8e0ad24ad",
+    "role": "PREVIOUS_RELEASE_ONLY_NOT_NEW_UPLOAD"
+  },
+  "history_boundary": "2006-12-31",
+  "locked_final": {
+    "event": "Cairo 2006 Junior Final",
+    "winner": "松平健太",
+    "score": "费德勒3:4松平健太",
+    "seed": 200612170717,
+    "status": "USER_LOCKED_SOURCE_LOG_NOT_YET_READ"
+  },
+  "official_2007_events_allowed": false
+}

@@ -1,0 +1,4490 @@
+{
+  "status": "PREDECLARED",
+  "scope": "SYNTHETIC_TRAINING_CORE_ONLY",
+  "inputs": {
+    "player_id": "SYNTHETIC_NUMERIC_TEMPLATE",
+    "name_zh": "合成成长模板",
+    "children": {
+      "serve": {
+        "spin": 124,
+        "variation": 122,
+        "placement": 124,
+        "disguise": 122,
+        "third_link": 120
+      },
+      "receive": {
+        "spin_read": 120,
+        "length_read": 120,
+        "control": 118,
+        "initiative": 118
+      },
+      "fh": {
+        "spin": 118,
+        "power": 120,
+        "continuity": 122,
+        "defense": 112,
+        "placement": 122
+      },
+      "bh": {
+        "spin": 106,
+        "power": 108,
+        "continuity": 108,
+        "defense": 102,
+        "placement": 106
+      },
+      "feet": {
+        "start": 122,
+        "arrival": 120,
+        "recover": 120,
+        "coordination": 122,
+        "balance": 118
+      },
+      "read": {
+        "self_read": 126,
+        "opponent_read": 128,
+        "choice": 126,
+        "counter": 128,
+        "exploit": 126
+      },
+      "stable": {
+        "variance": 122,
+        "sustain": 122,
+        "recovery": 120,
+        "pressure": 120
+      },
+      "table": {
+        "short": 124,
+        "push": 124,
+        "chop_control": 120,
+        "flick": 120,
+        "placement": 124
+      },
+      "spirit": {
+        "improvisation": 112,
+        "unorthodox_defense": 112,
+        "spin_deception": 112,
+        "lob_arcs": 110,
+        "unexpected_transition": 112
+      }
+    },
+    "P6": {
+      "speed": 120,
+      "burst": 118,
+      "strength": 116,
+      "stamina": 118,
+      "agility": 120,
+      "flexibility": 122
+    },
+    "PA": 191,
+    "age_approx": 18,
+    "model_start_age": 18,
+    "classification": "SIMULATED",
+    "origin": "SYNTHETIC",
+    "source_prototype": "SYNTHETIC_NUMERIC_TEMPLATE",
+    "role": "synthetic",
+    "development_profile": {
+      "body_max": {
+        "speed": 146.8813022029287,
+        "burst": 149.61649021437088,
+        "strength": 146.1183247279481,
+        "stamina": 147.81733101176306,
+        "agility": 150,
+        "flexibility": 147.56726409710822
+      },
+      "talent": {
+        "serve.spin": 26.68843313438287,
+        "serve.variation": 1.8327597965454192,
+        "serve.placement": 14.450434306419897,
+        "serve.disguise": 7.021574580382398,
+        "serve.third_link": 19.97533413430565,
+        "receive.spin_read": 11.712649385220068,
+        "receive.length_read": 15.416405164852112,
+        "receive.control": 18.95287166791556,
+        "receive.initiative": 18.74576924656889,
+        "fh.spin": 22.655377800973366,
+        "fh.power": 18.053933995246332,
+        "fh.continuity": 12.466718762140717,
+        "fh.defense": 5.803782445729649,
+        "fh.placement": 21.16885147508594,
+        "bh.spin": 13.147459236191947,
+        "bh.power": 6.670430340720157,
+        "bh.continuity": 12.216596102292879,
+        "bh.defense": 2.5560352573368768,
+        "bh.placement": 10.036348521620633,
+        "feet.start": 10.268338224947442,
+        "feet.arrival": 6.657218957577658,
+        "feet.recover": 17.494770833705694,
+        "feet.coordination": 13.105666557454896,
+        "feet.balance": 14.895576693205427,
+        "read.self_read": 16.514014717469543,
+        "read.opponent_read": 10.70965955517223,
+        "read.choice": 26.119485158406807,
+        "read.counter": 19.427639798776223,
+        "read.exploit": 14.162577048450023,
+        "stable.variance": 15.321681833639417,
+        "stable.sustain": 13.270369815295997,
+        "stable.recovery": 7.04897010637335,
+        "stable.pressure": 20.20088953072692,
+        "table.short": 11.852982719149729,
+        "table.push": 17.75309365219575,
+        "table.chop_control": 18.155159360240656,
+        "table.flick": 12.668996299332722,
+        "table.placement": 18.377519095801524,
+        "spirit.improvisation": 20.715465514691562,
+        "spirit.unorthodox_defense": 14.813249887213395,
+        "spirit.spin_deception": 8.897753591174249,
+        "spirit.lob_arcs": 16.081489148095745,
+        "spirit.unexpected_transition": 7.610760662321414
+      },
+      "neuromotor": {
+        "serve.spin": 0.75,
+        "serve.variation": 0.75,
+        "serve.placement": 2,
+        "serve.disguise": 0.75,
+        "serve.third_link": 0.75,
+        "receive.spin_read": 0.75,
+        "receive.length_read": 0.75,
+        "receive.control": 0.75,
+        "receive.initiative": 0.75,
+        "fh.spin": 2,
+        "fh.power": 0.75,
+        "fh.continuity": 2,
+        "fh.defense": 0.75,
+        "fh.placement": 2,
+        "bh.spin": 0.75,
+        "bh.power": 0.75,
+        "bh.continuity": 0.75,
+        "bh.defense": 0.75,
+        "bh.placement": 0.75,
+        "feet.start": 0.75,
+        "feet.arrival": 0.75,
+        "feet.recover": 2,
+        "feet.coordination": 0.75,
+        "feet.balance": 0.75,
+        "read.self_read": 0.75,
+        "read.opponent_read": 2,
+        "read.choice": 2,
+        "read.counter": 0.75,
+        "read.exploit": 0.75,
+        "stable.variance": 0.75,
+        "stable.sustain": 2,
+        "stable.recovery": 0.75,
+        "stable.pressure": 0.75,
+        "table.short": 2,
+        "table.push": 0.75,
+        "table.chop_control": 0.75,
+        "table.flick": 0.75,
+        "table.placement": 0.75,
+        "spirit.improvisation": 0.75,
+        "spirit.unorthodox_defense": 0.75,
+        "spirit.spin_deception": 0.75,
+        "spirit.lob_arcs": 0.75,
+        "spirit.unexpected_transition": 0.75
+      },
+      "mental": 19.087128814573102,
+      "focus": [
+        "fh.continuity",
+        "fh.spin",
+        "fh.placement",
+        "serve.placement",
+        "table.short",
+        "read.choice",
+        "read.opponent_read",
+        "feet.recover",
+        "stable.sustain"
+      ],
+      "body_maturation_rate": 0.03,
+      "classification": "LEGACY_SYNTHETIC_REGRESSION_FIXTURE_NOT_HISTORICAL_POTENTIAL"
+    },
+    "learning_factor": {
+      "serve.spin": 1.0278,
+      "serve.variation": 1.0142,
+      "serve.placement": 1.2689,
+      "serve.disguise": 0.9489,
+      "serve.third_link": 1.0746,
+      "receive.spin_read": 0.9421,
+      "receive.length_read": 0.9159,
+      "receive.control": 0.969,
+      "receive.initiative": 0.9265,
+      "fh.spin": 1.1593,
+      "fh.power": 1.0639,
+      "fh.continuity": 1.305,
+      "fh.defense": 1.0982,
+      "fh.placement": 1.0992,
+      "bh.spin": 0.879,
+      "bh.power": 1.0439,
+      "bh.continuity": 0.9579,
+      "bh.defense": 0.9001,
+      "bh.placement": 0.9565,
+      "feet.start": 1.1021,
+      "feet.arrival": 1.0963,
+      "feet.recover": 1.1679,
+      "feet.coordination": 1.0209,
+      "feet.balance": 1.0258,
+      "read.self_read": 0.9282,
+      "read.opponent_read": 1.022,
+      "read.choice": 0.8927,
+      "read.counter": 0.9959,
+      "read.exploit": 0.8961,
+      "stable.variance": 0.9477,
+      "stable.sustain": 1.0647,
+      "stable.recovery": 1.1511,
+      "stable.pressure": 0.8183,
+      "table.short": 1.0042,
+      "table.push": 1.0894,
+      "table.chop_control": 1.1085,
+      "table.flick": 0.9684,
+      "table.placement": 1.0042,
+      "spirit.improvisation": 0.9706,
+      "spirit.unorthodox_defense": 1.1375,
+      "spirit.spin_deception": 0.9817,
+      "spirit.lob_arcs": 0.9112,
+      "spirit.unexpected_transition": 0.9591
+    },
+    "style_preference": {
+      "serve.spin": 0.889,
+      "serve.variation": 1.13,
+      "serve.placement": 0.948,
+      "serve.disguise": 1.052,
+      "serve.third_link": 0.934,
+      "receive.spin_read": 0.944,
+      "receive.length_read": 0.731,
+      "receive.control": 0.722,
+      "receive.initiative": 0.773,
+      "fh.spin": 1.003,
+      "fh.power": 1.185,
+      "fh.continuity": 1.415,
+      "fh.defense": 0.803,
+      "fh.placement": 0.755,
+      "bh.spin": 0.906,
+      "bh.power": 1.181,
+      "bh.continuity": 0.764,
+      "bh.defense": 0.833,
+      "bh.placement": 0.991,
+      "feet.start": 0.825,
+      "feet.arrival": 1.953,
+      "feet.recover": 0.837,
+      "feet.coordination": 0.787,
+      "feet.balance": 0.741,
+      "read.self_read": 0.914,
+      "read.opponent_read": 1.144,
+      "read.choice": 1.254,
+      "read.counter": 1.341,
+      "read.exploit": 0.775,
+      "stable.variance": 1.106,
+      "stable.sustain": 0.935,
+      "stable.recovery": 1.074,
+      "stable.pressure": 0.543,
+      "table.short": 1.224,
+      "table.push": 1.097,
+      "table.chop_control": 1.201,
+      "table.flick": 0.639,
+      "table.placement": 0.887,
+      "spirit.improvisation": 1.102,
+      "spirit.unorthodox_defense": 0.65,
+      "spirit.spin_deception": 0.761,
+      "spirit.lob_arcs": 1.181,
+      "spirit.unexpected_transition": 0.572
+    },
+    "G9": {
+      "serve": 123,
+      "receive": 119,
+      "fh": 119,
+      "bh": 106,
+      "feet": 121,
+      "read": 127,
+      "stable": 121,
+      "table": 123,
+      "spirit": 112
+    },
+    "G_composite": 119,
+    "P_composite": 119,
+    "CA": 159,
+    "CA_calculated": 159,
+    "ca_semantics": "CURRENT_G43_P6_OUTPUT_ONLY_NOT_CLIPPED_BY_PA",
+    "preset_id": "SYNTHETIC_NUMERIC_TEMPLATE@starter",
+    "nation": "UNVERIFIED",
+    "region": "UNVERIFIED",
+    "region_classification": "ASSESSMENT",
+    "source_story_gender": "UNSPECIFIED",
+    "story_gender": "UNSPECIFIED",
+    "style": "attacker",
+    "tendencies": {},
+    "growth_contract": {
+      "authority": "Training",
+      "schedule": "TWO_PHASE_CATEGORY_TRAINING",
+      "legacy_lazy_growth_active": false
+    },
+    "pa_range": [
+      187,
+      195
+    ],
+    "grandfathered_over_cap": [],
+    "historical_reference": {
+      "champion_history": [],
+      "classification": "READ_ONLY_SOURCE_REFERENCE_NOT_SIMULATED_TITLES"
+    },
+    "simulated_career": {
+      "titles": [],
+      "matches": [],
+      "classification": "SIMULATED"
+    },
+    "ranking_state": {
+      "adult_elo": null,
+      "youth_elo": null,
+      "S_PTS": null,
+      "scope": "UNSET_NO_LEDGER",
+      "world_ranking_status": "UNAVAILABLE_WITHOUT_DECLARED_COMPLETE_POOL"
+    },
+    "provenance": {
+      "normalization_version": "V1.1.6-INTEGRATED-CARD",
+      "numeric_status": "ORIGINAL_SUBSKILLS_AND_P6_PRESERVED_REAGGREGATED",
+      "development_status": "EXPLICIT_OR_SIMULATED_INPUT",
+      "original_profile_sha256": "ccfa3eaa9eca697a42efbd4f1f09b34ec148c193cfde61e903339c319d72ba02"
+    },
+    "style_profile": {
+      "version": "V1.1.7-COMPREHENSIVE-STYLE-1",
+      "axes": {
+        "forehand_use": 0.5,
+        "backhand_use": 0.5,
+        "short_game": 0.55,
+        "first_three": 0.55,
+        "rally": 0.625,
+        "away_table": 0.4,
+        "topspin_preference": 0.65,
+        "backspin_control": 0.4475,
+        "spin_variation": 0.585,
+        "initiative": 0.5,
+        "counterattack": 0.55,
+        "risk": 0.5
+      },
+      "class_label": "连续相持偏好",
+      "labels": [
+        "连续相持偏好",
+        "两面调配偏好",
+        "上旋衔接偏好",
+        "择机加速偏好"
+      ],
+      "preferred_methods": [
+        "愿意延长连续对抗并从衔接中寻找机会",
+        "按局面在两面之间调配",
+        "根据来球调整主动与控制的比例"
+      ],
+      "provenance": {
+        "classification": "MODELLED_FROM_SNAPSHOT_ASSESSMENT",
+        "source_fields": [
+          "tendencies",
+          "role",
+          "style"
+        ],
+        "source_snapshot_year": null,
+        "method": "OBSERVABLE_PREFERENCE_MAPPING_V118_1",
+        "research_document": "docs/V118_RESEARCH_ZH.md",
+        "parameter_status": "GAME_DESIGN_NOT_EMPIRICALLY_FITTED",
+        "ability_independent": true,
+        "future_titles_not_used": true
+      },
+      "confidence": "MODELLED_NOT_HISTORICALLY_CERTIFIED",
+      "as_of_year": null,
+      "semantics": "PREFERENCE_NOT_SKILL_OR_AUTOMATIC_ACTION"
+    },
+    "personality_profile": {
+      "version": "V1.1.7-COMPREHENSIVE-PERSONALITY-1",
+      "subject_player_id": "SYNTHETIC_NUMERIC_TEMPLATE",
+      "visibility": "NARRATOR_ONLY",
+      "basis": "SIMULATED_NARRATIVE_DEFAULT",
+      "simulation_traits": [
+        "先听后说",
+        "耐心积累",
+        "尊重合作"
+      ],
+      "public_cues": [],
+      "provenance": {
+        "source_person_id": "SYNTHETIC_NUMERIC_TEMPLATE",
+        "default_status": "FICTIONAL_WRITING_CHOICES_NOT_REAL_PERSONALITY_ASSESSMENT"
+      },
+      "use_limit": "NARRATIVE_REFERENCE_ONLY_NOT_OBSERVED_PRIVATE_CHARACTER",
+      "not_match_modifiers": true,
+      "not_a_psychological_diagnosis": true
+    }
+  },
+  "inputs_sha256": "339d37b6aa58c7db32cfaea53a628efefa498c7867d8a06fae9290edcde317d2",
+  "arms": [
+    {
+      "id": "PA191_CLUB_USER",
+      "PA": 191,
+      "environment": "club",
+      "role": "user"
+    },
+    {
+      "id": "PA191_NATIONAL_USER",
+      "PA": 191,
+      "environment": "national",
+      "role": "user"
+    },
+    {
+      "id": "PA191_NATIONAL_NPC",
+      "PA": 191,
+      "environment": "national",
+      "role": "NPC"
+    },
+    {
+      "id": "PA175_NATIONAL_NPC",
+      "PA": 175,
+      "environment": "national",
+      "role": "NPC"
+    }
+  ],
+  "cases": [
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600000
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600001
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600002
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600003
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600004
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600005
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600006
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600007
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600008
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600009
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600010
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600011
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600012
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600013
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600014
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600015
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600016
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600017
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600018
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600019
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600020
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600021
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600022
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600023
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600024
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600025
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600026
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600027
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600028
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600029
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600030
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600031
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600032
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600033
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600034
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600035
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600036
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600037
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600038
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600039
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600040
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600041
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600042
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600043
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600044
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600045
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600046
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600047
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600048
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600049
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600050
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600051
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600052
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600053
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600054
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600055
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600056
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600057
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600058
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600059
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600060
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600061
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600062
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600063
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600064
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600065
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600066
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600067
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600068
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600069
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600070
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600071
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600072
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600073
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600074
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600075
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600076
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600077
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600078
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600079
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600080
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600081
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600082
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600083
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600084
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600085
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600086
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600087
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600088
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600089
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600090
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600091
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600092
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600093
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600094
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600095
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600096
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600097
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600098
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600099
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600100
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600101
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600102
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600103
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600104
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600105
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600106
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600107
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600108
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600109
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600110
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600111
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600112
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600113
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600114
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600115
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600116
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600117
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600118
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600119
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600120
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600121
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600122
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600123
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600124
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600125
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600126
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600127
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600128
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600129
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600130
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600131
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600132
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600133
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600134
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600135
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600136
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600137
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600138
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600139
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600140
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600141
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600142
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600143
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600144
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600145
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600146
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600147
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600148
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600149
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600150
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600151
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600152
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600153
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600154
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600155
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600156
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600157
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600158
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600159
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600160
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600161
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600162
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600163
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600164
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600165
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600166
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600167
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600168
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600169
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600170
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600171
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600172
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600173
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600174
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600175
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600176
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600177
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600178
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600179
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600180
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600181
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600182
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600183
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600184
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600185
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600186
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600187
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600188
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600189
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600190
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600191
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600192
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600193
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600194
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600195
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600196
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600197
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600198
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600199
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600200
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600201
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600202
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600203
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600204
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600205
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600206
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600207
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600208
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600209
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600210
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600211
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600212
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600213
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600214
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600215
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600216
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600217
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600218
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600219
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600220
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600221
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600222
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600223
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600224
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600225
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600226
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600227
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600228
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600229
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600230
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600231
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600232
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600233
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600234
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600235
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600236
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600237
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600238
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600239
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600240
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600241
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600242
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600243
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600244
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600245
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600246
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600247
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600248
+    },
+    {
+      "arm": "PA191_CLUB_USER",
+      "seed": 200600249
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610000
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610001
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610002
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610003
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610004
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610005
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610006
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610007
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610008
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610009
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610010
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610011
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610012
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610013
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610014
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610015
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610016
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610017
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610018
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610019
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610020
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610021
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610022
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610023
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610024
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610025
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610026
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610027
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610028
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610029
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610030
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610031
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610032
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610033
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610034
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610035
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610036
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610037
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610038
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610039
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610040
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610041
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610042
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610043
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610044
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610045
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610046
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610047
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610048
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610049
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610050
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610051
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610052
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610053
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610054
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610055
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610056
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610057
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610058
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610059
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610060
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610061
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610062
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610063
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610064
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610065
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610066
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610067
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610068
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610069
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610070
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610071
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610072
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610073
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610074
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610075
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610076
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610077
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610078
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610079
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610080
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610081
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610082
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610083
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610084
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610085
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610086
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610087
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610088
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610089
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610090
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610091
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610092
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610093
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610094
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610095
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610096
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610097
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610098
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610099
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610100
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610101
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610102
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610103
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610104
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610105
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610106
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610107
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610108
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610109
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610110
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610111
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610112
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610113
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610114
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610115
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610116
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610117
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610118
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610119
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610120
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610121
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610122
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610123
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610124
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610125
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610126
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610127
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610128
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610129
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610130
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610131
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610132
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610133
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610134
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610135
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610136
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610137
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610138
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610139
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610140
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610141
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610142
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610143
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610144
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610145
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610146
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610147
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610148
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610149
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610150
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610151
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610152
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610153
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610154
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610155
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610156
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610157
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610158
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610159
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610160
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610161
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610162
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610163
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610164
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610165
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610166
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610167
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610168
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610169
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610170
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610171
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610172
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610173
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610174
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610175
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610176
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610177
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610178
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610179
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610180
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610181
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610182
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610183
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610184
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610185
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610186
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610187
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610188
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610189
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610190
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610191
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610192
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610193
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610194
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610195
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610196
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610197
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610198
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610199
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610200
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610201
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610202
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610203
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610204
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610205
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610206
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610207
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610208
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610209
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610210
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610211
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610212
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610213
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610214
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610215
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610216
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610217
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610218
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610219
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610220
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610221
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610222
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610223
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610224
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610225
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610226
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610227
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610228
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610229
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610230
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610231
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610232
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610233
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610234
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610235
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610236
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610237
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610238
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610239
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610240
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610241
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610242
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610243
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610244
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610245
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610246
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610247
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610248
+    },
+    {
+      "arm": "PA191_NATIONAL_USER",
+      "seed": 200610249
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620000
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620001
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620002
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620003
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620004
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620005
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620006
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620007
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620008
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620009
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620010
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620011
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620012
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620013
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620014
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620015
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620016
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620017
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620018
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620019
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620020
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620021
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620022
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620023
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620024
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620025
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620026
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620027
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620028
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620029
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620030
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620031
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620032
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620033
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620034
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620035
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620036
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620037
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620038
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620039
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620040
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620041
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620042
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620043
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620044
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620045
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620046
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620047
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620048
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620049
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620050
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620051
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620052
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620053
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620054
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620055
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620056
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620057
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620058
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620059
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620060
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620061
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620062
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620063
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620064
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620065
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620066
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620067
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620068
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620069
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620070
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620071
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620072
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620073
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620074
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620075
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620076
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620077
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620078
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620079
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620080
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620081
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620082
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620083
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620084
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620085
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620086
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620087
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620088
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620089
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620090
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620091
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620092
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620093
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620094
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620095
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620096
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620097
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620098
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620099
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620100
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620101
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620102
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620103
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620104
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620105
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620106
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620107
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620108
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620109
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620110
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620111
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620112
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620113
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620114
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620115
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620116
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620117
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620118
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620119
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620120
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620121
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620122
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620123
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620124
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620125
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620126
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620127
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620128
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620129
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620130
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620131
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620132
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620133
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620134
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620135
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620136
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620137
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620138
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620139
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620140
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620141
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620142
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620143
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620144
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620145
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620146
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620147
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620148
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620149
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620150
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620151
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620152
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620153
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620154
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620155
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620156
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620157
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620158
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620159
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620160
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620161
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620162
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620163
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620164
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620165
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620166
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620167
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620168
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620169
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620170
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620171
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620172
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620173
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620174
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620175
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620176
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620177
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620178
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620179
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620180
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620181
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620182
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620183
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620184
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620185
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620186
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620187
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620188
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620189
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620190
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620191
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620192
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620193
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620194
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620195
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620196
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620197
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620198
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620199
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620200
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620201
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620202
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620203
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620204
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620205
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620206
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620207
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620208
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620209
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620210
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620211
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620212
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620213
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620214
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620215
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620216
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620217
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620218
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620219
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620220
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620221
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620222
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620223
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620224
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620225
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620226
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620227
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620228
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620229
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620230
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620231
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620232
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620233
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620234
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620235
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620236
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620237
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620238
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620239
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620240
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620241
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620242
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620243
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620244
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620245
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620246
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620247
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620248
+    },
+    {
+      "arm": "PA191_NATIONAL_NPC",
+      "seed": 200620249
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630000
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630001
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630002
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630003
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630004
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630005
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630006
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630007
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630008
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630009
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630010
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630011
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630012
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630013
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630014
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630015
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630016
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630017
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630018
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630019
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630020
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630021
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630022
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630023
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630024
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630025
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630026
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630027
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630028
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630029
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630030
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630031
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630032
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630033
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630034
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630035
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630036
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630037
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630038
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630039
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630040
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630041
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630042
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630043
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630044
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630045
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630046
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630047
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630048
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630049
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630050
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630051
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630052
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630053
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630054
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630055
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630056
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630057
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630058
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630059
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630060
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630061
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630062
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630063
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630064
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630065
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630066
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630067
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630068
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630069
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630070
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630071
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630072
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630073
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630074
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630075
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630076
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630077
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630078
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630079
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630080
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630081
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630082
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630083
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630084
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630085
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630086
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630087
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630088
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630089
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630090
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630091
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630092
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630093
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630094
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630095
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630096
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630097
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630098
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630099
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630100
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630101
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630102
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630103
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630104
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630105
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630106
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630107
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630108
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630109
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630110
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630111
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630112
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630113
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630114
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630115
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630116
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630117
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630118
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630119
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630120
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630121
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630122
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630123
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630124
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630125
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630126
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630127
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630128
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630129
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630130
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630131
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630132
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630133
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630134
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630135
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630136
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630137
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630138
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630139
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630140
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630141
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630142
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630143
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630144
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630145
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630146
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630147
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630148
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630149
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630150
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630151
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630152
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630153
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630154
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630155
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630156
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630157
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630158
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630159
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630160
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630161
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630162
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630163
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630164
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630165
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630166
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630167
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630168
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630169
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630170
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630171
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630172
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630173
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630174
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630175
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630176
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630177
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630178
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630179
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630180
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630181
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630182
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630183
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630184
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630185
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630186
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630187
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630188
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630189
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630190
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630191
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630192
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630193
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630194
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630195
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630196
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630197
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630198
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630199
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630200
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630201
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630202
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630203
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630204
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630205
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630206
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630207
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630208
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630209
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630210
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630211
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630212
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630213
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630214
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630215
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630216
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630217
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630218
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630219
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630220
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630221
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630222
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630223
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630224
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630225
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630226
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630227
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630228
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630229
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630230
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630231
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630232
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630233
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630234
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630235
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630236
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630237
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630238
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630239
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630240
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630241
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630242
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630243
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630244
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630245
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630246
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630247
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630248
+    },
+    {
+      "arm": "PA175_NATIONAL_NPC",
+      "seed": 200630249
+    }
+  ],
+  "samples_per_arm": 250,
+  "total_independent_paths": 1000,
+  "start_age": 18,
+  "end_age": 30,
+  "half_month_phases": 288,
+  "sample_ages": [
+    20,
+    23,
+    26,
+    28,
+    30
+  ],
+  "prior": "balanced_progress",
+  "strategy": "bounded_opportunities",
+  "schedule": "two rotating categories and one rotating P6 category, no specialization",
+  "formal_events": 0,
+  "synthetic_review_windows": 0,
+  "match_rewards": 0,
+  "injury_exposure": "NOT_MODELLED_NO_WORLD_NO_MATCHES",
+  "exit_rate": "NOT_MODELLED",
+  "caveat": "Conditional one-template random paths, not real athletes or population inference.",
+  "source_sha256": {
+    "/workspace/audits/full_history_2006/growth/calibrate_training_core.py": "d75f4b03e88bdc79c147c63c13cd0a7cedd8258c39a0d08786a555d6e2aad50e",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/Card/__init__.py": "de0614af0039a6b0c4ad4559e90305ea8f0bc8f06e52f7f407d5175d39ee9b6c",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/Card/v118.py": "a8a4df47ca09b4b0def6269f5511f1a590c0d4bbed59dc275c7b358ab4893f3d",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/Card/v1_18.py": "a114c0f36e49ce9547b6291017837d85b1e688c54bd9aae8248dc87de73eafa6",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/Training/__init__.py": "69d249d26781c34d254b07fa9fe6d60f7cdb84ef05a7374175ab397ecf9bf7d5",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/Training/v117.py": "467ff4477ba6fbc70d4d962302f0c7bd1ecbb4c37f4c4f5c48e764e0f21121a7",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/Training/v118.py": "c47478eb2154cfc9a1e2cde6964e9a9d7eae2b47f5eec59331e10894587cb20a",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/Training/v1_18.py": "148330b77af5870ed5b57c21919a8c36bda7f45d7308b651bd6ccfade007ebfa",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/card_training_v112.py": "ea441a87493701ac078eecc74a42640e7f45e9abb06ac4321636697314f144f9",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/career_session_v116.py": "9a70d062aff5249544d8bb8c8bef9e7f75776f2c815f51253acc8cb71258cc8c",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/career_v113.py": "5b3c22cfd246cfcb5761e7bc0c020fb8bd74479727aa418ea60fed4dfd5bd4ea",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/career_v114.py": "579e34d873d4b3c173b3f5a988f5d9f3c18c56051fa45b005e97fe114966e76a",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/career_v115.py": "106c38d097290bbb5184a3b0809d2a5015768308b02297dca9a3c44ccff0630a",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/career_v116.py": "0f175c818647a33f2553e1094bbb5edb50841e4ef179bd8c5c54ca0691562940",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/career_v117.py": "1331ddb4a80cabeb1e884d18dc97381abfc4da3c4754f21c51aa8f81dedc2dd4",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/career_v118.py": "1a6a3d133e785b1f2e7525148be6fcef0a5c0ced9e45137cb0576ac7c5dcbcb4",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/era_lcm_v11.py": "b6ac937f0b55df6ee1d656e80f54a9d46cac911eb0870406acc9d58cabc3f828",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/game_v112.py": "2f75346f624d59638b5e1a7910c2982ac38fb9a6e2da025d752698c29c6b5581",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/game_v113.py": "5cf588b85b625a1dbd29ddab6ce9c29b891243c215e9e8567103b8fa98355d66",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/game_v114.py": "124122cd13a576eff5469c5dbe07ab156a118a9e2ba9564401464923012df910",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/game_v115.py": "2a75d8bd5fda616908dab28ca915db15fa7dc763176475cc55a0520d69d3836d",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/ranking_v112.py": "71e2c2ca62a1bb8fce526b45ef8c1c28b507d5c04149008ab2eea7c8d0cf25be",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/specialist_rubber_v116.py": "e46e8946452e63cc238ca7280525b1419d12ad6afded550f0b9bae477d7ff499",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/tactical_match_v116.py": "108745b40cbb3cceba561658ce6ac7b25e116fec57b2dbeaccd10d7b660cea0a",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/common/__init__.py": "6404128c46d6fa7bf2484ea380045da4995d925f949d6bf6b2c5d27a510fe58b",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/data/original/spin_era_v013_frozen_attribute_schema.json": "3f211016c57dd0091ac2659067178c0f2d9650f80f3683919dd6cb260dc9028d",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/data/presets_normalized.json": "8c535ac476a5e9e9bd265d34a838fa4f7bf886c95ee4218b4c479e7276e5ee4e"
+  }
+}

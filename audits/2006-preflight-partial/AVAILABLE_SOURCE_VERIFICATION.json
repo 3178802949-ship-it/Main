@@ -1,0 +1,28 @@
+{
+  "status": "AVAILABLE_PRIOR_RELEASE_VERIFIED_NEW_UPLOAD_NOT_READ",
+  "files_checked": 549,
+  "mismatches": [],
+  "archives": [
+    {
+      "filename": "Spin_Era_V1_18_Integrated.zip",
+      "sha256": "dd8b106f07c6133f371f59581e414a3916f075f01ea2b4bd182285e7260fdfad",
+      "bytes": 27587474,
+      "members": 550,
+      "crc_valid": true
+    },
+    {
+      "filename": "Original_2004_Handoff_UNMODIFIED.zip",
+      "sha256": "f2233da29ab01738c563587cf95575280a40abb164766d99e3d4dc34270c24e5",
+      "bytes": 32805686,
+      "members": 22,
+      "crc_valid": true
+    },
+    {
+      "filename": "Spin_Era_V1_1_7_Comprehensive.zip",
+      "sha256": "e1498d5cb658359f1361fd7459a7b6641b64eb2efc4ff2351efa22e813e50f1d",
+      "bytes": 20943315,
+      "members": 391,
+      "crc_valid": true
+    }
+  ]
+}

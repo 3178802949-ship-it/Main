@@ -1,0 +1,11 @@
+{
+  "status": "TESTED_BASELINE_PATCH_NOT_APPLIED_TO_UNREAD_HANDOFF",
+  "base_file": "world_extensions_v1_18.py",
+  "base_sha256": "934d29208d67aeb6eeb9004d7f71c796d556c5adaedada7bfe82c7acc0af2ca9",
+  "patched_sha256": "d247a0cbde9eb7f646bca25db8bf88daef30a8fac06914ba773b7429ae257ca4",
+  "scope": [
+    "Reject public external event context privilege escalation",
+    "Resolve deferred round-robin group injuries atomically"
+  ],
+  "historical_files_modified": false
+}

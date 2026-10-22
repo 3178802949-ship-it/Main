@@ -1,0 +1,11 @@
+{
+  "patch_id": "BASELINE_V118_DRAW_IDENTITY_GUARD_1",
+  "status": "TESTED_BASELINE_PATCH_NOT_APPLIED_TO_UNREAD_HANDOFF",
+  "target": "Game/competition_v1_18.py",
+  "baseline_commit": "5efc9c6449617a415668896abecf37a8e0ad24ad",
+  "original_sha256": "6213091de96da1fd442093bd4b64a246fb9b9128a3085c243f1189dd96a49238",
+  "patched_sha256": "5b9c43037280c523cc0f71d4fc6490f9df21ab2437b228554e16fb873033e7b6",
+  "default": "DRY_RUN",
+  "historical_matches_replayed": 0,
+  "behavior": "Reject malformed/new-already-entered identity; preserve valid replacement seed behavior"
+}

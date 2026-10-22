@@ -1,0 +1,9 @@
+{
+  "baseline_manifest_files": 549,
+  "candidate_modified": [
+    "Game/competition_v1_18.py",
+    "world_extensions_v1_18.py"
+  ],
+  "candidate_missing": [],
+  "original_source_mismatches": []
+}

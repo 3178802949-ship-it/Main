@@ -1,0 +1,126 @@
+{
+  "status": "SYNTHETIC_BASELINE_PROBES",
+  "source": "PREVIOUS_RELEASE_V1.18_NOT_NEW_UPLOAD",
+  "formal_history_matches_run": 0,
+  "probes": [
+    {
+      "name": "50_warmups_single_native_daily_roll",
+      "passed": true,
+      "seeds": 50,
+      "p_roll_range": [
+        -4,
+        4
+      ],
+      "g_raw_roll_range": [
+        -7,
+        7
+      ],
+      "per_actor_p_draws": 6,
+      "per_actor_g_draws": 9,
+      "notes": "Stable can contract the applied G roll; 25 fatigue avoids decrement branch."
+    },
+    {
+      "name": "full_replay_and_identity_metadata",
+      "passed": true,
+      "best_of": 3,
+      "seed": 21180607,
+      "games": [
+        2,
+        0
+      ],
+      "game_payload_hash": "0f8c12e4356ac0bf182ab97083680f9ca9eca240ecdbf6ad36519be8e4d03720",
+      "same_seed_full_hash_reproducible": true,
+      "compact_replay": true,
+      "PA_personality_and_unsupported_hot_arousal_do_not_enter_match": true,
+      "renaming_id_preserves_games": true,
+      "physical_fatigue_audit_rows": 2
+    },
+    {
+      "name": "summary_replay_and_identity_metadata",
+      "passed": true,
+      "best_of": 3,
+      "seed": 21180607,
+      "games": [
+        2,
+        1
+      ],
+      "game_payload_hash": "0734d99b08d370b072780f04d224e7add9d0ba24434379c0354afbbde054698b",
+      "same_seed_full_hash_reproducible": true,
+      "compact_replay": true,
+      "PA_personality_and_unsupported_hot_arousal_do_not_enter_match": true,
+      "renaming_id_preserves_games": true,
+      "physical_fatigue_audit_rows": 2
+    },
+    {
+      "name": "P6_no_global_contact_quality_bonus",
+      "passed": true,
+      "controlled_fixed_arrival": true,
+      "results": [
+        {
+          "body": "strength",
+          "results": [
+            {
+              "value": 60,
+              "quality": 112.35,
+              "pace": 128.89
+            },
+            {
+              "value": 150,
+              "quality": 112.35,
+              "pace": 128.89
+            }
+          ]
+        },
+        {
+          "body": "burst",
+          "results": [
+            {
+              "value": 60,
+              "quality": 112.35,
+              "pace": 121.61
+            },
+            {
+              "value": 150,
+              "quality": 112.35,
+              "pace": 133.31
+            }
+          ]
+        },
+        {
+          "body": "speed",
+          "results": [
+            {
+              "value": 60,
+              "quality": 112.35,
+              "pace": 128.89
+            },
+            {
+              "value": 150,
+              "quality": 112.35,
+              "pace": 128.89
+            }
+          ]
+        }
+      ],
+      "notes": "Burst affects offensive pace once; speed affects reach elsewhere; strength influences support-cap eligibility before match but has no direct Game quality/pace term."
+    }
+  ],
+  "actual_synthetic_matches_run": 10,
+  "not_tested": [
+    "Population balance or actor-order invariance distribution",
+    "New uploaded 2006 outer state overlays",
+    "Historical final seed 200612170717",
+    "Game-level injury metadata without Training settlement"
+  ],
+  "source_sha256": {
+    "Game/v1_18.py": "7922d16ed864d3cbdd9ecf683cfa2e9537ca1d622c24cced5c0db50b124eaabd",
+    "Game/worker_v1_18.py": "bfaf171ae5c6c1e27f645a1876b170fd557971fe7655da2fc45a22c1cf58d35a",
+    "Game/engine_v1_18.py": "86775b454a1d340748bd671bf3853af32edd3d0f627b02ddb3524478ba4f7b06",
+    "Game/light_v1_18.py": "abb2c729489f3394c5a47a54dcb7cba27dd8c3ef412f41afc5a7754014c6bc17",
+    "Game/fatigue_v1_18.py": "7bbd6e202d1ae1c689494620a953bc0857b4cbee6fe64558a0c3f0307cc057fd",
+    "runtime/game_v112.py": "2f75346f624d59638b5e1a7910c2982ac38fb9a6e2da025d752698c29c6b5581",
+    "runtime/game_v113.py": "5cf588b85b625a1dbd29ddab6ce9c29b891243c215e9e8567103b8fa98355d66",
+    "Game/formats_v1_18.py": "c13732d0fbf5f6c8a81b5572dab89991b181dcf3f3c200dca79fe5f936f33973",
+    "runtime/career_v118.py": "1a6a3d133e785b1f2e7525148be6fcef0a5c0ced9e45137cb0576ac7c5dcbcb4"
+  }
+}

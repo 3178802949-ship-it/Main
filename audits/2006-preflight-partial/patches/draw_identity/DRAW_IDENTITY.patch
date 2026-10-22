@@ -1,0 +1,23 @@
+--- a/Game/competition_v1_18.py
++++ b/Game/competition_v1_18.py
+@@ -52,7 +52,11 @@
+ 
+ def historical_replacement(entries,player_id,*,seed,qualification_tier,source_refs=()):
+     """Only replace a supplied low slot. Never invent real attendance."""
+-    if not entries or len({x.get('player_id') for x in entries})!=len(entries):raise ValueError('unique supplied entries required')
++    if not isinstance(player_id,str) or not player_id.strip():raise ValueError('nonempty replacement player identity required')
++    if not isinstance(entries,(list,tuple)) or not entries or any(not isinstance(x,dict) for x in entries):raise ValueError('unique supplied entries required')
++    entry_ids=[x.get('player_id') for x in entries]
++    if any(not isinstance(pid,str) or not pid.strip() for pid in entry_ids) or len(set(entry_ids))!=len(entries):raise ValueError('unique supplied entries required')
++    if player_id in entry_ids:raise ValueError('REPLACEMENT_PLAYER_ALREADY_ENTERED')
+     eligible=[x for x in entries if x.get('qualification_tier')==qualification_tier and not x.get('confirmed_seed') and not x.get('confirmed_deep_run')]
+     if not eligible:raise ValueError('NO_EVIDENCE_COMPATIBLE_LOW_SLOT')
+     chosen=random.Random(seed).choice(sorted(eligible,key=lambda x:x['player_id']))
+@@ -60,6 +64,7 @@
+     for x in draw:
+         if x['player_id']==chosen['player_id']:
+             x.update(player_id=player_id,replaces=chosen['player_id'],classification='SIMULATED_REPLACEMENT')
++    if len({x['player_id'] for x in draw})!=len(draw):raise ValueError('DUPLICATE_REPLACEMENT_DRAW_IDENTITY')
+     verified=bool(source_refs) and all(x.get('evidence_status')=='VERIFIED_ATTENDANCE_AND_SLOT' for x in entries)
+     return dict(draw=draw,removed_player_id=chosen['player_id'],seed=seed,source_refs=list(source_refs),
+         status='EVIDENCE_QUALIFIED_ALTERNATIVE_BRANCH' if verified else 'HYPOTHETICAL',

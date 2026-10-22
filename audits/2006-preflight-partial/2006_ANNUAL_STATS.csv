@@ -1,0 +1,4 @@
+period,wins,losses,scope,evidence_status,conflict
+2006,54,14,user_declared_annual_international,NOT_SOURCE_VERIFIED,
+career_2004_2006_claim,83,32,user_declared_career,NOT_SOURCE_VERIFIED,annual sums imply83-31
+career_2004_2006_annual_sum,83,31,arithmetic_only,DERIVED_FROM_USER_ANNUAL_TOTALS,not a replacement official ledger

@@ -1,0 +1,16 @@
+{
+  "classification": "SYNTHETIC_NON_HISTORICAL",
+  "fatigue": 95,
+  "without_event": "fatigue requires rest before further competition",
+  "with_event_status": "applied",
+  "injury_checks": {
+    "synthetic-deferred-0": {
+      "deferred_to": "PHANTOM-DOES-NOT-EXIST"
+    },
+    "synthetic-deferred-1": {
+      "deferred_to": "PHANTOM-DOES-NOT-EXIST"
+    }
+  },
+  "event_present": false,
+  "deep_consistency": true
+}

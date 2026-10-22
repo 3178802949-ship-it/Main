@@ -1,0 +1,57 @@
+{
+  "status": "PARTIAL_SOURCE_AUDIT_AND_TESTED_BASELINE_PATCHES_HISTORY_INPUT_BLOCKED",
+  "new_uploaded_archive_read": false,
+  "new_source_manifest_verified": false,
+  "new_2006_restorable_checkpoint": false,
+  "baseline": {
+    "sha256_files_verified": 549,
+    "unit_tests": 377,
+    "status": "PASSED"
+  },
+  "combined_patch_regression": {
+    "tests": 377,
+    "seconds": 68.371,
+    "status": "PASSED",
+    "draw_patch_applied": true,
+    "event_patch_applied": true
+  },
+  "additional_patch_tests": {
+    "draw_identity": 8,
+    "event_api": 5,
+    "event_safe_apply": 3
+  },
+  "match_state_probe": {
+    "warmup_seeds": 50,
+    "synthetic_engine_invocations": 10,
+    "includes_replay": true,
+    "competitive_calibration_rerun": false
+  },
+  "training": {
+    "paths": 1000,
+    "groups": 4,
+    "paths_per_group": 250,
+    "half_month_phases": 288000,
+    "scope": "SYNTHETIC_TRAINING_CORE_ONLY",
+    "injury_exposure": "NOT_MODELLED_NO_WORLD_NO_MATCHES",
+    "exit_rate": "NOT_MODELLED"
+  },
+  "lightweight": {
+    "bytes": 1323700,
+    "reduction_fraction": 0.9520180789295896,
+    "same_ruleset_fingerprint": true,
+    "same_seed_matches": true,
+    "deterministic_zip": true,
+    "status": "EXPERIMENTAL_ORIGINAL2005_OPENING_NOT_NEW2006_HISTORY",
+    "full_unit_suite_on_light_package": false
+  },
+  "locked_historical_matches_replayed": 0,
+  "official_2007_events_simulated": 0,
+  "canonical_source_branches_reversed": false,
+  "limits": [
+    "New root master prompt and source manifest unread due32MiB transfer limit",
+    "No current2006 complete43/P6/XP/injury reconstruction",
+    "No fresh1000+match-per-contrast balance calibration; prior44000report exists on unchanged baseline",
+    "Training experiment is conditional one-template numerical-core test, not World injury/retirement population",
+    "Youth eligibility/ranking and full historical draw sources remain unresolved"
+  ]
+}

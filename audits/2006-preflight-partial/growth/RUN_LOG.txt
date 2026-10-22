@@ -1,0 +1,11 @@
+100 paths complete 19.9 seconds
+200 paths complete 39.4 seconds
+300 paths complete 57.9 seconds
+400 paths complete 77.7 seconds
+500 paths complete 96.4 seconds
+600 paths complete 115.8 seconds
+700 paths complete 134.0 seconds
+800 paths complete 151.3 seconds
+900 paths complete 170.3 seconds
+1000 paths complete 189.0 seconds
+1000 independent training-core paths complete

@@ -1,0 +1,964 @@
+{
+  "status": "COMPLETED",
+  "scope": "SYNTHETIC_TRAINING_CORE_ONLY",
+  "total_independent_paths": 1000,
+  "source_sha256": {
+    "/workspace/audits/full_history_2006/growth/calibrate_training_core.py": "d75f4b03e88bdc79c147c63c13cd0a7cedd8258c39a0d08786a555d6e2aad50e",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/Card/__init__.py": "de0614af0039a6b0c4ad4559e90305ea8f0bc8f06e52f7f407d5175d39ee9b6c",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/Card/v118.py": "a8a4df47ca09b4b0def6269f5511f1a590c0d4bbed59dc275c7b358ab4893f3d",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/Card/v1_18.py": "a114c0f36e49ce9547b6291017837d85b1e688c54bd9aae8248dc87de73eafa6",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/Training/__init__.py": "69d249d26781c34d254b07fa9fe6d60f7cdb84ef05a7374175ab397ecf9bf7d5",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/Training/v117.py": "467ff4477ba6fbc70d4d962302f0c7bd1ecbb4c37f4c4f5c48e764e0f21121a7",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/Training/v118.py": "c47478eb2154cfc9a1e2cde6964e9a9d7eae2b47f5eec59331e10894587cb20a",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/Training/v1_18.py": "148330b77af5870ed5b57c21919a8c36bda7f45d7308b651bd6ccfade007ebfa",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/card_training_v112.py": "ea441a87493701ac078eecc74a42640e7f45e9abb06ac4321636697314f144f9",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/career_session_v116.py": "9a70d062aff5249544d8bb8c8bef9e7f75776f2c815f51253acc8cb71258cc8c",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/career_v113.py": "5b3c22cfd246cfcb5761e7bc0c020fb8bd74479727aa418ea60fed4dfd5bd4ea",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/career_v114.py": "579e34d873d4b3c173b3f5a988f5d9f3c18c56051fa45b005e97fe114966e76a",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/career_v115.py": "106c38d097290bbb5184a3b0809d2a5015768308b02297dca9a3c44ccff0630a",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/career_v116.py": "0f175c818647a33f2553e1094bbb5edb50841e4ef179bd8c5c54ca0691562940",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/career_v117.py": "1331ddb4a80cabeb1e884d18dc97381abfc4da3c4754f21c51aa8f81dedc2dd4",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/career_v118.py": "1a6a3d133e785b1f2e7525148be6fcef0a5c0ced9e45137cb0576ac7c5dcbcb4",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/era_lcm_v11.py": "b6ac937f0b55df6ee1d656e80f54a9d46cac911eb0870406acc9d58cabc3f828",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/game_v112.py": "2f75346f624d59638b5e1a7910c2982ac38fb9a6e2da025d752698c29c6b5581",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/game_v113.py": "5cf588b85b625a1dbd29ddab6ce9c29b891243c215e9e8567103b8fa98355d66",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/game_v114.py": "124122cd13a576eff5469c5dbe07ab156a118a9e2ba9564401464923012df910",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/game_v115.py": "2a75d8bd5fda616908dab28ca915db15fa7dc763176475cc55a0520d69d3836d",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/ranking_v112.py": "71e2c2ca62a1bb8fce526b45ef8c1c28b507d5c04149008ab2eea7c8d0cf25be",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/specialist_rubber_v116.py": "e46e8946452e63cc238ca7280525b1419d12ad6afded550f0b9bae477d7ff499",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/runtime/tactical_match_v116.py": "108745b40cbb3cceba561658ce6ac7b25e116fec57b2dbeaccd10d7b660cea0a",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/common/__init__.py": "6404128c46d6fa7bf2484ea380045da4995d925f949d6bf6b2c5d27a510fe58b",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/data/original/spin_era_v013_frozen_attribute_schema.json": "3f211016c57dd0091ac2659067178c0f2d9650f80f3683919dd6cb260dc9028d",
+    "/workspace/spin-era-v1_18-github/spin_era_v1_18/data/presets_normalized.json": "8c535ac476a5e9e9bd265d34a838fa4f7bf886c95ee4218b4c479e7276e5ee4e"
+  },
+  "plan_sha256": "332b341541c1659512c3d3162a3045808fd5b5a089e988860bd66b75f62d5b8f",
+  "raw_results_sha256": "bf7c9657cc20ac58f17c20cee56a525592d06ff105b910847d654ab9d14f7de1",
+  "half_month_phases": 288000,
+  "public_wrapper_equivalence_phases": 288,
+  "elapsed_seconds": 188.99390329801827,
+  "arms": {
+    "PA191_CLUB_USER": {
+      "configuration": {
+        "id": "PA191_CLUB_USER",
+        "PA": 191,
+        "environment": "club",
+        "role": "user"
+      },
+      "samples": 250,
+      "ages": {
+        "20": {
+          "n": 250,
+          "mean": 168.824,
+          "quantiles": {
+            "0.05": 168.0,
+            "0.25": 169.0,
+            "0.5": 169.0,
+            "0.75": 169.0,
+            "0.95": 169.0
+          },
+          "attainment": {
+            "180": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "185": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "190": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            }
+          }
+        },
+        "23": {
+          "n": 250,
+          "mean": 177.412,
+          "quantiles": {
+            "0.05": 177.0,
+            "0.25": 177.0,
+            "0.5": 177.0,
+            "0.75": 178.0,
+            "0.95": 178.0
+          },
+          "attainment": {
+            "180": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "185": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "190": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            }
+          }
+        },
+        "26": {
+          "n": 250,
+          "mean": 182.072,
+          "quantiles": {
+            "0.05": 181.0,
+            "0.25": 182.0,
+            "0.5": 182.0,
+            "0.75": 182.0,
+            "0.95": 183.0
+          },
+          "attainment": {
+            "180": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "185": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "190": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            }
+          }
+        },
+        "28": {
+          "n": 250,
+          "mean": 184.768,
+          "quantiles": {
+            "0.05": 184.0,
+            "0.25": 185.0,
+            "0.5": 185.0,
+            "0.75": 185.0,
+            "0.95": 185.0
+          },
+          "attainment": {
+            "180": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "185": {
+              "count": 192,
+              "rate": 0.768,
+              "Wilson95": [
+                0.711859348258913,
+                0.8160292032115287
+              ]
+            },
+            "190": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            }
+          }
+        },
+        "30": {
+          "n": 250,
+          "mean": 185.104,
+          "quantiles": {
+            "0.05": 184.0,
+            "0.25": 185.0,
+            "0.5": 185.0,
+            "0.75": 185.0,
+            "0.95": 186.0
+          },
+          "attainment": {
+            "180": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "185": {
+              "count": 225,
+              "rate": 0.9,
+              "Wilson95": [
+                0.8565482893919354,
+                0.9313450710117088
+              ]
+            },
+            "190": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            }
+          }
+        }
+      },
+      "first_peak_age_median": 28.166666666666668,
+      "peak_CA_mean": 185.388,
+      "peak_attainment": {
+        "180": {
+          "count": 250,
+          "rate": 1.0,
+          "Wilson95": [
+            0.9848667005045553,
+            0.9999999999999998
+          ]
+        },
+        "185": {
+          "count": 249,
+          "rate": 0.996,
+          "Wilson95": [
+            0.9776942144345839,
+            0.9992935524659348
+          ]
+        },
+        "190": {
+          "count": 0,
+          "rate": 0.0,
+          "Wilson95": [
+            8.673617379884035e-19,
+            0.015133299495444574
+          ]
+        }
+      },
+      "unspent_XP_mean": 9919.256939107203,
+      "banked_paths_at_cap_mean": 2.2,
+      "max_observed_training_fatigue": 18.0,
+      "high_load_phases": 0,
+      "injury_incidence": "NOT_MODELLED",
+      "exit_incidence": "NOT_MODELLED"
+    },
+    "PA191_NATIONAL_USER": {
+      "configuration": {
+        "id": "PA191_NATIONAL_USER",
+        "PA": 191,
+        "environment": "national",
+        "role": "user"
+      },
+      "samples": 250,
+      "ages": {
+        "20": {
+          "n": 250,
+          "mean": 174.096,
+          "quantiles": {
+            "0.05": 174.0,
+            "0.25": 174.0,
+            "0.5": 174.0,
+            "0.75": 174.0,
+            "0.95": 175.0
+          },
+          "attainment": {
+            "180": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "185": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "190": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            }
+          }
+        },
+        "23": {
+          "n": 250,
+          "mean": 185.264,
+          "quantiles": {
+            "0.05": 185.0,
+            "0.25": 185.0,
+            "0.5": 185.0,
+            "0.75": 186.0,
+            "0.95": 186.0
+          },
+          "attainment": {
+            "180": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "185": {
+              "count": 243,
+              "rate": 0.972,
+              "Wilson95": [
+                0.9433422238771394,
+                0.9863719413991607
+              ]
+            },
+            "190": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            }
+          }
+        },
+        "26": {
+          "n": 250,
+          "mean": 189.28,
+          "quantiles": {
+            "0.05": 188.0,
+            "0.25": 189.0,
+            "0.5": 189.0,
+            "0.75": 190.0,
+            "0.95": 191.0
+          },
+          "attainment": {
+            "180": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "185": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "190": {
+              "count": 66,
+              "rate": 0.264,
+              "Wilson95": [
+                0.2132279591407553,
+                0.32191495822109456
+              ]
+            }
+          }
+        },
+        "28": {
+          "n": 250,
+          "mean": 189.576,
+          "quantiles": {
+            "0.05": 189.0,
+            "0.25": 189.0,
+            "0.5": 189.0,
+            "0.75": 190.0,
+            "0.95": 191.0
+          },
+          "attainment": {
+            "180": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "185": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "190": {
+              "count": 90,
+              "rate": 0.36,
+              "Wilson95": [
+                0.3030322765929638,
+                0.42120504726576063
+              ]
+            }
+          }
+        },
+        "30": {
+          "n": 250,
+          "mean": 189,
+          "quantiles": {
+            "0.05": 188.0,
+            "0.25": 188.0,
+            "0.5": 189.0,
+            "0.75": 190.0,
+            "0.95": 190.0
+          },
+          "attainment": {
+            "180": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "185": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "190": {
+              "count": 64,
+              "rate": 0.256,
+              "Wilson95": [
+                0.20587818222534185,
+                0.3135068679284351
+              ]
+            }
+          }
+        }
+      },
+      "first_peak_age_median": 25.833333333333332,
+      "peak_CA_mean": 189.66,
+      "peak_attainment": {
+        "180": {
+          "count": 250,
+          "rate": 1.0,
+          "Wilson95": [
+            0.9848667005045553,
+            0.9999999999999998
+          ]
+        },
+        "185": {
+          "count": 250,
+          "rate": 1.0,
+          "Wilson95": [
+            0.9848667005045553,
+            0.9999999999999998
+          ]
+        },
+        "190": {
+          "count": 106,
+          "rate": 0.424,
+          "Wilson95": [
+            0.3643452153621208,
+            0.4859550461611866
+          ]
+        }
+      },
+      "unspent_XP_mean": 30604.612993867107,
+      "banked_paths_at_cap_mean": 42.912,
+      "max_observed_training_fatigue": 16.599999999999998,
+      "high_load_phases": 0,
+      "injury_incidence": "NOT_MODELLED",
+      "exit_incidence": "NOT_MODELLED"
+    },
+    "PA191_NATIONAL_NPC": {
+      "configuration": {
+        "id": "PA191_NATIONAL_NPC",
+        "PA": 191,
+        "environment": "national",
+        "role": "NPC"
+      },
+      "samples": 250,
+      "ages": {
+        "20": {
+          "n": 250,
+          "mean": 174.08,
+          "quantiles": {
+            "0.05": 174.0,
+            "0.25": 174.0,
+            "0.5": 174.0,
+            "0.75": 174.0,
+            "0.95": 175.0
+          },
+          "attainment": {
+            "180": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "185": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "190": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            }
+          }
+        },
+        "23": {
+          "n": 250,
+          "mean": 185.2,
+          "quantiles": {
+            "0.05": 185.0,
+            "0.25": 185.0,
+            "0.5": 185.0,
+            "0.75": 185.0,
+            "0.95": 186.0
+          },
+          "attainment": {
+            "180": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "185": {
+              "count": 239,
+              "rate": 0.956,
+              "Wilson95": [
+                0.9229422290276481,
+                0.9752562018325064
+              ]
+            },
+            "190": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            }
+          }
+        },
+        "26": {
+          "n": 250,
+          "mean": 189.14,
+          "quantiles": {
+            "0.05": 188.0,
+            "0.25": 189.0,
+            "0.5": 189.0,
+            "0.75": 189.0,
+            "0.95": 191.0
+          },
+          "attainment": {
+            "180": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "185": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "190": {
+              "count": 48,
+              "rate": 0.192,
+              "Wilson95": [
+                0.14798411102572986,
+                0.245338001463464
+              ]
+            }
+          }
+        },
+        "28": {
+          "n": 250,
+          "mean": 189.444,
+          "quantiles": {
+            "0.05": 189.0,
+            "0.25": 189.0,
+            "0.5": 189.0,
+            "0.75": 190.0,
+            "0.95": 191.0
+          },
+          "attainment": {
+            "180": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "185": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "190": {
+              "count": 71,
+              "rate": 0.284,
+              "Wilson95": [
+                0.2316994606970238,
+                0.3428381246850081
+              ]
+            }
+          }
+        },
+        "30": {
+          "n": 250,
+          "mean": 188.824,
+          "quantiles": {
+            "0.05": 188.0,
+            "0.25": 188.0,
+            "0.5": 189.0,
+            "0.75": 189.0,
+            "0.95": 190.0
+          },
+          "attainment": {
+            "180": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "185": {
+              "count": 250,
+              "rate": 1.0,
+              "Wilson95": [
+                0.9848667005045553,
+                0.9999999999999998
+              ]
+            },
+            "190": {
+              "count": 43,
+              "rate": 0.172,
+              "Wilson95": [
+                0.13027472439385213,
+                0.22365272007515946
+              ]
+            }
+          }
+        }
+      },
+      "first_peak_age_median": 25.666666666666668,
+      "peak_CA_mean": 189.496,
+      "peak_attainment": {
+        "180": {
+          "count": 250,
+          "rate": 1.0,
+          "Wilson95": [
+            0.9848667005045553,
+            0.9999999999999998
+          ]
+        },
+        "185": {
+          "count": 250,
+          "rate": 1.0,
+          "Wilson95": [
+            0.9848667005045553,
+            0.9999999999999998
+          ]
+        },
+        "190": {
+          "count": 79,
+          "rate": 0.316,
+          "Wilson95": [
+            0.26152437100054704,
+            0.3760446832137765
+          ]
+        }
+      },
+      "unspent_XP_mean": 30891.7092479631,
+      "banked_paths_at_cap_mean": 42.924,
+      "max_observed_training_fatigue": 16.599999999999998,
+      "high_load_phases": 0,
+      "injury_incidence": "NOT_MODELLED",
+      "exit_incidence": "NOT_MODELLED"
+    },
+    "PA175_NATIONAL_NPC": {
+      "configuration": {
+        "id": "PA175_NATIONAL_NPC",
+        "PA": 175,
+        "environment": "national",
+        "role": "NPC"
+      },
+      "samples": 250,
+      "ages": {
+        "20": {
+          "n": 250,
+          "mean": 170.7,
+          "quantiles": {
+            "0.05": 170.0,
+            "0.25": 170.0,
+            "0.5": 171.0,
+            "0.75": 171.0,
+            "0.95": 171.0
+          },
+          "attainment": {
+            "180": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "185": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "190": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            }
+          }
+        },
+        "23": {
+          "n": 250,
+          "mean": 173.844,
+          "quantiles": {
+            "0.05": 173.0,
+            "0.25": 174.0,
+            "0.5": 174.0,
+            "0.75": 174.0,
+            "0.95": 174.0
+          },
+          "attainment": {
+            "180": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "185": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "190": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            }
+          }
+        },
+        "26": {
+          "n": 250,
+          "mean": 173.868,
+          "quantiles": {
+            "0.05": 173.0,
+            "0.25": 174.0,
+            "0.5": 174.0,
+            "0.75": 174.0,
+            "0.95": 175.0
+          },
+          "attainment": {
+            "180": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "185": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "190": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            }
+          }
+        },
+        "28": {
+          "n": 250,
+          "mean": 173.812,
+          "quantiles": {
+            "0.05": 173.0,
+            "0.25": 174.0,
+            "0.5": 174.0,
+            "0.75": 174.0,
+            "0.95": 174.0
+          },
+          "attainment": {
+            "180": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "185": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "190": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            }
+          }
+        },
+        "30": {
+          "n": 250,
+          "mean": 172.908,
+          "quantiles": {
+            "0.05": 171.0,
+            "0.25": 172.0,
+            "0.5": 173.0,
+            "0.75": 174.0,
+            "0.95": 174.0
+          },
+          "attainment": {
+            "180": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "185": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            },
+            "190": {
+              "count": 0,
+              "rate": 0.0,
+              "Wilson95": [
+                8.673617379884035e-19,
+                0.015133299495444574
+              ]
+            }
+          }
+        }
+      },
+      "first_peak_age_median": 21.333333333333332,
+      "peak_CA_mean": 173.868,
+      "peak_attainment": {
+        "180": {
+          "count": 0,
+          "rate": 0.0,
+          "Wilson95": [
+            8.673617379884035e-19,
+            0.015133299495444574
+          ]
+        },
+        "185": {
+          "count": 0,
+          "rate": 0.0,
+          "Wilson95": [
+            8.673617379884035e-19,
+            0.015133299495444574
+          ]
+        },
+        "190": {
+          "count": 0,
+          "rate": 0.0,
+          "Wilson95": [
+            8.673617379884035e-19,
+            0.015133299495444574
+          ]
+        }
+      },
+      "unspent_XP_mean": 42285.22401568951,
+      "banked_paths_at_cap_mean": 43,
+      "max_observed_training_fatigue": 16.599999999999998,
+      "high_load_phases": 0,
+      "injury_incidence": "NOT_MODELLED",
+      "exit_incidence": "NOT_MODELLED"
+    }
+  },
+  "limitation": "Conditional one-template random paths, not real athletes or population inference.",
+  "injury_exposure": "NOT_MODELLED_NO_WORLD_NO_MATCHES",
+  "exit_rate": "NOT_MODELLED"
+}

@@ -1,0 +1,8 @@
+test_dry_run_default_apply_and_repeat (__main__.SafeApplyTests.test_dry_run_default_apply_and_repeat) ... ok
+test_known_original_directory_forbidden (__main__.SafeApplyTests.test_known_original_directory_forbidden) ... ok
+test_wrong_base_rejected_without_write (__main__.SafeApplyTests.test_wrong_base_rejected_without_write) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.002s
+
+OK
